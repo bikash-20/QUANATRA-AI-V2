@@ -2,6 +2,7 @@ import * as P from "./prompts";
 import type { Difficulty, Lang } from "./prompts";
 import { cascadeHealth, runCascade } from "./cascade";
 import type { CascadeMsg, TierAttempt } from "./cascade";
+import { rateLimit } from "./kv";
 
 export interface Env {
   AI: Ai;
@@ -11,6 +12,11 @@ export interface Env {
   MAX_TOKENS?: string;
   CASCADE_TIMEOUT_MS?: string;
   ALLOWED_ORIGIN: string;
+  RATE?: KVNamespace;
+  RATE_LIMIT_PER_MIN?: string;
+  RATE_BURST?: string;
+  CACHE?: KVNamespace;
+  CACHE_TTL_S?: string;
 }
 
 const cors = (env: Env) => ({
@@ -40,27 +46,32 @@ const pickDifficulty = (b: any): Difficulty =>
 
 const pickLang = (b: any): Lang => (b?.lang === "bn" ? "bn" : "en");
 
-// Try the cascade; on success return parsed JSON, on failure throw.
+// Try the cascade; on success return parsed JSON + which model served it,
+// on failure throw.
 async function cascadeJSON(
   env: Env,
   prompt: { system: string; user: string },
   maxTokens: number
-): Promise<unknown> {
+): Promise<{ data: unknown; model: string; cacheHit: boolean }> {
   const messages: CascadeMsg[] = [
     { role: "system", content: prompt.system },
     { role: "user", content: prompt.user },
   ];
+  let lastModel = "unknown";
+  let lastCacheHit = false;
   for (let attempt = 0; attempt < 2; attempt++) {
     const res = await runCascade(env, {
       messages,
       jsonMode: true,
       maxTokens,
     });
+    lastModel = res.model;
+    lastCacheHit = res.cacheHit;
     const text = typeof res.text === "string" ? res.text : "";
     const parsed = extractJSON(text);
-    if (parsed !== null) return parsed;
+    if (parsed !== null) return { data: parsed, model: res.model, cacheHit: res.cacheHit };
   }
-  throw new Error("Model did not return valid JSON after retry");
+  throw new Error(`Model ${lastModel} did not return valid JSON after retry`);
 }
 
 function extractJSON(text: string): unknown | null {
@@ -92,10 +103,37 @@ async function handle(req: Request, env: Env): Promise<Response> {
       ok: true,
       service: "quantara-worker",
       primary: env.MODEL,
+      rateLimit: {
+        perMin: Number(env.RATE_LIMIT_PER_MIN) || 60,
+        burst: Number(env.RATE_BURST) || 20,
+      },
+      cacheTtlS: Number(env.CACHE_TTL_S) || 600,
       ...cascadeHealth(env),
     });
   }
   if (req.method !== "POST") return json(env, { error: "Use POST" }, 405);
+
+  // Per-IP rate limit. Counts every POST to /api/* against a fixed-window
+  // counter stored in KV. Burst absorbs small spikes; sustained traffic
+  // above (RATE_LIMIT_PER_MIN + RATE_BURST)/min gets a 429.
+  if (url.pathname.startsWith("/api/")) {
+    const ip = req.headers.get("CF-Connecting-IP") ?? "anon";
+    // Use ?? so explicit "0" overrides the default rather than getting clobbered.
+    const perMin = Number(env.RATE_LIMIT_PER_MIN ?? 60);
+    const burst = Number(env.RATE_BURST ?? 20);
+    const rl = await rateLimit(env.RATE, ip, perMin, burst);
+    if (!rl.allowed) {
+      return json(
+        env,
+        {
+          error: `Rate limit exceeded. Retry after ${rl.retryAfterS}s.`,
+          retryAfterS: rl.retryAfterS,
+        },
+        429,
+        { "Retry-After": String(rl.retryAfterS) }
+      );
+    }
+  }
 
   const b: any = await req.json().catch(() => ({}));
   const lang = pickLang(b);
@@ -134,18 +172,18 @@ async function handle(req: Request, env: Env): Promise<Response> {
 
       case "/api/quiz/mcq": {
         if (!b.topic) return json(env, { error: "topic required" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.mcqPrompt(String(b.topic), clamp(b.count, 1, 15, 5), difficulty, lang),
           2000
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/quiz/passage": {
         if (!b.text || String(b.text).length < 50)
           return json(env, { error: "text too short" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.passagePrompt(
             String(b.text).slice(0, 8000),
@@ -155,12 +193,12 @@ async function handle(req: Request, env: Env): Promise<Response> {
           ),
           2000
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/flashcards": {
         if (!b.topic) return json(env, { error: "topic required" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.flashcardPrompt(
             String(b.topic),
@@ -170,11 +208,11 @@ async function handle(req: Request, env: Env): Promise<Response> {
           ),
           1800
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/vocab": {
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.vocabPrompt(
             String(b.topic || "everyday"),
@@ -185,22 +223,22 @@ async function handle(req: Request, env: Env): Promise<Response> {
           ),
           1800
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/grammar": {
         if (!b.topic) return json(env, { error: "topic required" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.grammarPrompt(String(b.topic), b.level || "B1", lang, difficulty),
           2200
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/exam/generate": {
         if (!b.topic) return json(env, { error: "topic required" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.mcqPrompt(
             String(b.topic),
@@ -210,18 +248,18 @@ async function handle(req: Request, env: Env): Promise<Response> {
           ),
           3000
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       case "/api/exam/grade": {
         if (!Array.isArray(b.items))
           return json(env, { error: "items required" }, 400);
-        const data = await cascadeJSON(
+        const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.gradePrompt(b.items.slice(0, 40), lang),
           1500
         );
-        return json(env, data);
+        return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
       }
 
       default:
@@ -229,11 +267,21 @@ async function handle(req: Request, env: Env): Promise<Response> {
     }
   } catch (e: any) {
     const tried: TierAttempt[] | undefined = e?.tried;
+    console.error(
+      "[quantara] cascade failed for",
+      url.pathname,
+      tried?.map((t) => `${t.source}:${t.model}:${t.status}:${t.error ?? ""}`).join(" | ")
+    );
     return json(
       env,
       {
         error: e?.message || "Server error",
-        tried: tried?.map((t) => `${t.source}:${t.model}:${t.status}`),
+        tried: tried?.map((t) => ({
+          source: t.source,
+          model: t.model,
+          status: t.status,
+          reason: t.error,
+        })),
       },
       503
     );

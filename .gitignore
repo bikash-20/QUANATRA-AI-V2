@@ -35,3 +35,9 @@ pnpm-debug.log*
 
 # Misc
 *.tsbuildinfo
+
+# Private / non-public scaffolding
+/.private/
+PUKU_PROMPT.md
+**/CLAUDE.md
+**/AGENTS.md

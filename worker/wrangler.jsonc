@@ -3,11 +3,18 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-09-01",
   "ai": { "binding": "AI" },
+  "kv_namespaces": [
+    { "binding": "RATE", "id": "654da7010ebc480e9442b386d1dec785" },
+    { "binding": "CACHE", "id": "bab465a6d0da4c8c886a0e234368510a" }
+  ],
   "vars": {
     "MODEL": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "MODEL_CASCADE": "[\"@cf/meta/llama-3.3-70b-instruct-fp8-fast\",\"@cf/meta/llama-4-scout-17b-16e-instruct\",\"@cf/qwen/qwen2.5-coder-32b-instruct\",\"@cf/openai/gpt-oss-120b\"]",
     "MAX_TOKENS": "1500",
     "CASCADE_TIMEOUT_MS": "12000",
-    "ALLOWED_ORIGIN": "*"
+    "ALLOWED_ORIGIN": "https://quantara-web-sooty.vercel.app",
+    "RATE_LIMIT_PER_MIN": "60",
+    "RATE_BURST": "20",
+    "CACHE_TTL_S": "600"
   }
 }

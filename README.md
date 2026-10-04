@@ -4,7 +4,7 @@
 quantara/
   worker/          Cloudflare Worker (Workers AI backend) <- multi-model cascade
   web/             Next.js frontend (IndexedDB-backed)
-  PUKU_PROMPT.md   Paste into Puku CLI to build the Next.js frontend
+  .private/        Local-only files (PUKU_PROMPT.md, CLAUDE.md) — gitignored
 ```
 
 ## Run the Worker
@@ -76,12 +76,75 @@ Default order (configurable via the `MODEL_CASCADE` var in `wrangler.jsonc`):
 | 6    | `qwen/qwen-2.5-72b-instruct:free`             | OpenRouter |
 | 7    | `deepseek/deepseek-chat`                      | OpenRouter |
 
-A small in-memory LRU (200 entries, 10 min TTL) caches identical non-stream
-completions per the `X-Cache: HIT|MISS` response header. Visit `/health` on
-the worker for the live cascade configuration.
+A small in-memory LRU (200 entries, 10 min TTL) plus a Cloudflare KV
+namespace `CACHE` (10 min TTL by default) caches identical non-stream
+completions. KV survives isolate restarts and is shared across all
+isolates, so a hit on one edge serves every other edge. The response
+header `X-Cache: HIT|MISS` tells the frontend whether a model was used
+or the cache served the request. Visit `/health` on the worker for the
+live cascade + cache configuration.
 
 If every tier fails the worker returns `503` with `{ error, tried: [...] }`
 so the frontend can show a clean toast and the user can retry.
+
+## Caching (production)
+
+KV namespace `CACHE` holds the durable cache (`expirationTtl` configurable via
+`vars.CACHE_TTL_S`, default `600`). Keys are SHA-256 of the user message +
+system prompt length + `jsonMode` + `maxTokens`, so they stay under the 512
+byte KV key cap regardless of payload size. Streams are not cached — chunked
+output would defeat the point.
+
+The cache key has the form `q:<hex>`. To invalidate a single entry manually:
+
+```bash
+npx wrangler kv key delete --namespace-id=<CACHE_ID> "q:<hex>"
+```
+
+To see what's currently cached, list keys (note: KV lists keys but never
+values for security):
+
+```bash
+npx wrangler kv key list --namespace-id=<CACHE_ID> --prefix=q:
+```
+
+## Rate limiting
+
+KV namespace `RATE` backs a per-IP fixed-window rate limiter on every
+`/api/*` route. Default budget is **60 requests/min + 20 burst = 80
+requests/min per IP**. Above that, the worker returns `429` with
+`{ error, retryAfterSeconds }` and a `Retry-After` header. The frontend
+(`web/lib/api.ts`) surfaces this as a toast and waits `retryAfterSeconds`
+before retrying.
+
+The limiter uses a module-scope counter for in-isolate atomicity (single-
+threaded JS), with the KV count as a cross-isolate floor. **Caveat:** a
+client hammering from a botnet that fans out across Cloudflare's edge
+isolates can exceed the per-isolate cap; for true global enforcement,
+add Cloudflare's Rate Limiting Rules product or a Durable Object as a
+singleton counter. For ordinary user traffic the per-isolate limit holds.
+
+Configure via `wrangler.jsonc`:
+```jsonc
+"RATE_LIMIT_PER_MIN": "60",
+"RATE_BURST": "20"
+```
+
+## Provider limits
+
+- **Workers AI free tier**: 10,000 Neurons / day per account. The cascade
+  uses multi-model fallback, but every request still costs Neurons — at
+  ~5K active users × ~10 generations/day you'll burn through the free
+  tier quickly. Upgrade to the **Workers Paid plan ($5/mo)** for higher
+  Neuron allocations before public launch, or switch `MODEL` to the
+  cheapest cascade (`gpt-oss-120b`) until traffic justifies it.
+- **OpenRouter free models** (`*-free`): hard cap of **20 requests/min** per
+  IP. The cascade only falls through to free models when all Workers AI
+  tiers fail, so this only matters during a Cloudflare outage — but expect
+  visible 429s from OpenRouter in that case.
+- **OpenRouter paid models** (`deepseek/deepseek-chat` in the cascade):
+  pay-per-token, no per-minute cap. The cascade tries free tiers first,
+  paid only if all free tiers fail.
 
 ## Difficulty system
 `easy` / `medium` / `hard` is wired through every generator that benefits

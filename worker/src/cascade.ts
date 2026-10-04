@@ -1,8 +1,9 @@
-// Multi-model cascade with an in-memory LRU cache.
+// Multi-model cascade with an in-memory LRU cache backed by Cloudflare KV.
 // Tries models in order until one returns text. Used for every generation
 // endpoint so a single model outage can't take down a feature.
 
 import { openRouterComplete, openRouterStream } from "./openrouter";
+import { cacheGetJSON, cachePutJSON } from "./kv";
 
 export type CascadeMsg = { role: "system" | "user" | "assistant"; content: string };
 
@@ -47,7 +48,10 @@ export const DEFAULT_OPENROUTER_CASCADE = [
 ];
 
 // ----------------------------------------------------------------------------
-// Tiny LRU cache, isolate-scoped.
+// Tiny LRU cache, isolate-scoped, backed by Cloudflare KV (durable).
+//   - Memory is the first hit (zero-latency).
+//   - KV is the second hit (cross-isolate, survives restarts).
+//   - Writes populate both layers.
 // ----------------------------------------------------------------------------
 
 type CacheEntry = { value: string; expires: number };
@@ -55,7 +59,7 @@ const CACHE_MAX = 200;
 const CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes
 const cache = new Map<string, CacheEntry>();
 
-function cacheGet(key: string): string | null {
+function memGet(key: string): string | null {
   const hit = cache.get(key);
   if (!hit) return null;
   if (hit.expires < Date.now()) {
@@ -68,7 +72,7 @@ function cacheGet(key: string): string | null {
   return hit.value;
 }
 
-function cachePut(key: string, value: string): void {
+function memPut(key: string, value: string): void {
   if (cache.size >= CACHE_MAX) {
     const first = cache.keys().next().value;
     if (first !== undefined) cache.delete(first);
@@ -76,17 +80,59 @@ function cachePut(key: string, value: string): void {
   cache.set(key, { value, expires: Date.now() + CACHE_TTL_MS });
 }
 
-export function cacheKey(opts: CascadeOpts): string {
+async function cacheRead(env: WorkerEnv, key: string): Promise<string | null> {
+  const mem = memGet(key);
+  if (mem !== null) return mem;
+  const kvHit = await cacheGetJSON(env.CACHE, key);
+  if (kvHit !== null) {
+    memPut(key, kvHit); // warm memory for next time
+  }
+  return kvHit;
+}
+
+async function cacheWrite(env: WorkerEnv, key: string, value: string): Promise<void> {
+  memPut(key, value);
+  const ttlS = Number(env.CACHE_TTL_S) || 600;
+  await cachePutJSON(env.CACHE, key, value, ttlS);
+}
+
+export async function cacheKey(opts: CascadeOpts): Promise<string> {
   // Stable hash of the inputs that affect output. For streaming we skip the
   // cache — chunks would defeat the point.
   const lastUser = [...opts.messages].reverse().find((m) => m.role === "user")?.content ?? "";
   const systemSize = opts.messages.find((m) => m.role === "system")?.content.length ?? 0;
-  return [
+  const raw = [
     opts.jsonMode ? "json" : "txt",
-    opts.maxTokens ?? 1500,
+    String(opts.maxTokens ?? 1500),
     lastUser,
-    systemSize,
+    String(systemSize),
   ].join("|");
+  // KV caps keys at 512 bytes; messages can run longer. Hash to a fixed-size
+  // hex string so the key stays well under the limit everywhere.
+  return `q:${await sha256Hex(raw)}`;
+}
+
+// Tiny FNV-1a 64-bit hash + hex. Workers don't ship crypto.subtle cheaply on
+// every call, and we only need a stable opaque key. Use the global crypto
+// (SubtleCrypto) for proper SHA-256 when available; FNV-1a is a robust,
+// dependency-free fallback for the in-memory LRU and for environments without it.
+async function sha256Hex(s: string): Promise<string> {
+  try {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+    const bytes = new Uint8Array(buf);
+    let out = "";
+    for (let i = 0; i < bytes.length; i++) out += bytes[i].toString(16).padStart(2, "0");
+    return out;
+  } catch {
+    // FNV-1a fallback
+    let h = 0xcbf29ce484222325n;
+    const prime = 0x100000001b3n;
+    for (let i = 0; i < s.length; i++) {
+      h ^= BigInt(s.charCodeAt(i));
+      h = (h * prime) & 0xffffffffffffffffn;
+    }
+    return h.toString(16).padStart(16, "0");
+  }
 }
 
 // ----------------------------------------------------------------------------
@@ -100,6 +146,8 @@ type WorkerEnv = {
   OPENROUTER_API_KEY?: string;
   MAX_TOKENS?: string;
   CASCADE_TIMEOUT_MS?: string;
+  CACHE?: KVNamespace;
+  CACHE_TTL_S?: string;
 };
 
 declare global {
@@ -142,9 +190,23 @@ async function callCf(
   };
   if (opts.jsonMode) input.response_format = { type: "json_object" };
 
-  const out = (await env.AI.run(model, input)) as { response?: string };
-  if (typeof out?.response === "string") return out.response;
-  throw new Error(`cf ${model} returned no response field`);
+  const out = (await env.AI.run(model, input)) as Record<string, unknown> | undefined;
+  if (!out) throw new Error(`cf ${model} returned undefined`);
+
+  // Workers AI native shape: { response: string }
+  const nativeResp = (out as { response?: unknown }).response;
+  if (typeof nativeResp === "string" && nativeResp.length > 0) return nativeResp;
+
+  // OpenAI-compatible shape: { choices: [{ message: { content: string } }] }
+  const choices = (out as { choices?: unknown }).choices;
+  if (Array.isArray(choices) && choices.length > 0) {
+    const first = choices[0] as { message?: { content?: unknown } };
+    const content = first?.message?.content;
+    if (typeof content === "string" && content.length > 0) return content;
+  }
+
+  const keys = Object.keys(out).join(",");
+  throw new Error(`cf ${model} returned no response (keys=[${keys}])`);
 }
 
 async function callCfStream(
@@ -179,8 +241,8 @@ export async function runCascade(
   // Cache only matters for non-streaming JSON/text completions
   let cacheK: string | null = null;
   if (!opts.stream) {
-    cacheK = cacheKey(opts);
-    const hit = cacheGet(cacheK);
+    cacheK = await cacheKey(opts);
+    const hit = await cacheRead(env, cacheK);
     if (hit !== null) return { text: hit, model: "cache", source: "cf", cacheHit: true };
   }
 
@@ -196,7 +258,7 @@ export async function runCascade(
       clearTimeout(timer);
       if (!opts.stream) {
         tried.push({ model, source: "cf", status: "ok", durationMs: Date.now() - start });
-        if (cacheK) cachePut(cacheK, text);
+        if (cacheK) await cacheWrite(env, cacheK, text);
         return { text, model, source: "cf", cacheHit: false };
       }
       // streaming path
@@ -207,11 +269,13 @@ export async function runCascade(
     } catch (err) {
       clearTimeout(timer);
       const status = (err as Error)?.name === "AbortError" ? "timeout" : "error";
+      const message = (err as Error)?.message?.slice(0, 200) ?? String(err);
+      console.error(`[quantara] cascade cf tier failed: ${model}: ${message}`);
       tried.push({
         model,
         source: "cf",
         status,
-        error: (err as Error)?.message?.slice(0, 120),
+        error: message,
         durationMs: Date.now() - start,
       });
       // continue to next model
@@ -251,17 +315,19 @@ export async function runCascade(
           clearTimeout(timer);
           if (!text) throw new Error("empty response");
           tried.push({ model, source: "openrouter", status: "ok", durationMs: Date.now() - start });
-          if (cacheK) cachePut(cacheK, text);
+          if (cacheK) await cacheWrite(env, cacheK, text);
           return { text, model, source: "openrouter", cacheHit: false };
         }
       } catch (err) {
         clearTimeout(timer);
         const status = (err as Error)?.name === "AbortError" ? "timeout" : "error";
+        const message = (err as Error)?.message?.slice(0, 200) ?? String(err);
+        console.error(`[quantara] cascade openrouter tier failed: ${model}: ${message}`);
         tried.push({
           model,
           source: "openrouter",
           status,
-          error: (err as Error)?.message?.slice(0, 120),
+          error: message,
           durationMs: Date.now() - start,
         });
       }
@@ -281,5 +347,6 @@ export function cascadeHealth(env: WorkerEnv) {
     openrouter: Boolean(env.OPENROUTER_API_KEY),
     openrouterModels: DEFAULT_OPENROUTER_CASCADE,
     cacheSize: cache.size,
+    kvCache: Boolean(env.CACHE),
   };
 }
