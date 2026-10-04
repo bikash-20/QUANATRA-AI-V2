@@ -5,6 +5,7 @@ import { Clock3, Loader2, ShieldCheck } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
+import { AIExplanation } from '@/components/ai-explanation';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import {
   getExamTimerMinutes,
@@ -129,7 +130,7 @@ export default function ExamPage() {
     return (
       <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
         <div className="mx-auto max-w-6xl">
-          <div className="mt-8">
+          <div className="mt-8 space-y-4">
             <GlassCard className="p-6">
               <div className="flex items-center gap-3 text-[#8feaf0]">
                 <ShieldCheck className="h-6 w-6" />
@@ -151,6 +152,32 @@ export default function ExamPage() {
                   ))}
                 </div>
               </div>
+            </GlassCard>
+            <GlassCard className="divide-y divide-white/10 p-4 sm:p-6">
+              <h2 className="mb-4 text-xl text-white">Question review</h2>
+              {questions.map((question, index) => (
+                <article key={`${index}-${question.question}`} className="space-y-3 py-4">
+                  <p className="font-medium text-white">{index + 1}. {question.question}</p>
+                  <p className="text-sm text-slate-200">
+                    Your answer: {answers[index] || 'Not answered'}
+                  </p>
+                  <p className="text-sm text-emerald-100">
+                    Correct answer: {question.answer}
+                  </p>
+                  <AIExplanation
+                    input={{
+                      kind: 'exam question review',
+                      question: question.question,
+                      options: question.options,
+                      correctAnswer: question.answer,
+                      userAnswer: answers[index],
+                      context: topic,
+                      difficulty,
+                      lang: 'en',
+                    }}
+                  />
+                </article>
+              ))}
             </GlassCard>
           </div>
         </div>

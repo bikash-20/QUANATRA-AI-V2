@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { BrainCircuit, Loader2, RefreshCw } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
+import { AIExplanation } from '@/components/ai-explanation';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { readStorage, STORAGE_KEYS, writeStorageAsync } from '@/lib/storage';
@@ -124,6 +125,17 @@ export default function FlashcardsPage() {
                     Next
                   </Button>
                 </div>
+                <AIExplanation
+                  label="Explain this card"
+                  input={{
+                    kind: 'flashcard',
+                    question: currentCard.front,
+                    correctAnswer: currentCard.back,
+                    context: topic,
+                    difficulty,
+                    lang: 'en',
+                  }}
+                />
               </div>
             )}
           </GlassCard>

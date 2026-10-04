@@ -16,7 +16,7 @@
 //      before the IDB connection opens.
 
 const DB_NAME = "quantara";
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 const STORES = [
   "chats",
   "decks",
@@ -25,6 +25,7 @@ const STORES = [
   "exams",
   "progress",
   "meta",
+  "explanations",
 ] as const;
 
 export type StoreName = (typeof STORES)[number];

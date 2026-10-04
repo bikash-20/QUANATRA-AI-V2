@@ -1,11 +1,13 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { CheckCircle2, CircleDashed, Loader2, RefreshCcw, TimerReset } from 'lucide-react';
+import { Check, CheckCircle2, CircleDashed, Loader2, RefreshCcw, TimerReset, X } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { AIExplanation } from '@/components/ai-explanation';
+import { getAnswerState } from '@/lib/quiz-answer';
 
 type McqQuestion = {
   question: string;
@@ -192,10 +194,9 @@ export default function QuizPage() {
 
                 <div className="grid gap-3">
                   {currentQuestion.options.map((option) => {
-                    const isCorrect = option === currentQuestion.answer;
-                    const isSelected = option === selected;
-                    const showCorrect = selected !== null && isCorrect;
-                    const showWrong = selected === option && !isCorrect;
+                    const answerState = getAnswerState(option, currentQuestion.answer, selected);
+                    const showCorrect = answerState === 'correct';
+                    const showWrong = answerState === 'incorrect';
 
                     return (
                       <button
@@ -204,28 +205,45 @@ export default function QuizPage() {
                         onClick={() => submitAnswer(option)}
                         disabled={selected !== null}
                         className={[
-                          'rounded-2xl border px-4 py-3 text-left text-sm transition',
+                          'flex min-h-12 items-center gap-3 rounded-2xl border px-4 py-3 text-left text-sm transition',
                           showCorrect
-                            ? 'border-emerald-400/60 bg-emerald-500/10 text-emerald-100'
+                            ? 'answer-option-correct'
                             : showWrong
-                              ? 'border-red-400/60 bg-red-500/10 text-red-100'
-                              : isSelected
+                              ? 'answer-option-wrong'
+                              : selected === option
                                 ? 'border-[#8feaf0]/60 bg-[#8feaf0]/10 text-white'
                                 : 'border-white/10 bg-white/4 text-slate-200 hover:bg-white/8',
                         ].join(' ')}
                       >
+                        {showCorrect ? <Check aria-hidden="true" size={17} /> : null}
+                        {showWrong ? <X aria-hidden="true" size={17} /> : null}
                         {option}
                       </button>
                     );
                   })}
                 </div>
 
-                {selected !== null && (
-                  <div className="rounded-2xl border border-white/10 bg-white/4 p-4 text-sm text-slate-200">
-                    <div className="mb-2 text-xs uppercase tracking-[0.2em] text-[#9feef4]">Explanation</div>
-                    {currentQuestion.explanation}
-                  </div>
-                )}
+                <p aria-live="polite" className="sr-only">
+                  {selected === null
+                    ? ''
+                    : selected === currentQuestion.answer
+                      ? 'Correct answer.'
+                      : `Incorrect. The correct answer is ${currentQuestion.answer}.`}
+                </p>
+
+                <AIExplanation
+                  input={{
+                    kind: mode === 'passage' ? 'passage quiz question' : 'multiple-choice question',
+                    question: currentQuestion.question,
+                    options: currentQuestion.options,
+                    correctAnswer: currentQuestion.answer,
+                    userAnswer: selected ?? undefined,
+                    context: mode === 'passage' ? passage : topic,
+                    difficulty,
+                    lang: 'en',
+                  }}
+                  disabled={selected === null}
+                />
 
                 {selected !== null && (
                   <Button onClick={nextQuestion} variant="primary" className="px-5 py-3">

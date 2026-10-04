@@ -1,5 +1,11 @@
+import dynamic from 'next/dynamic';
 import { memo } from 'react';
 import type { ChatMessage } from '@/lib/api';
+
+const MarkdownContent = dynamic(
+  () => import('@/components/markdown-content').then((module) => module.MarkdownContent),
+  { loading: () => <span aria-label="Rendering response">…</span> },
+);
 
 type Props = {
   message: ChatMessage;
@@ -16,9 +22,11 @@ export const ChatMessageBubble = memo(function ChatMessageBubble({ message, load
           : 'glass-message text-slate-100'
       }`}
     >
-      <div className="whitespace-pre-wrap text-sm leading-7">
-        {message.content || (loading && isLast ? '...' : '')}
-      </div>
+      {message.content ? (
+        <MarkdownContent content={message.content} isStreaming={loading && isLast} />
+      ) : loading && isLast ? (
+        <span aria-label="Generating response">…</span>
+      ) : null}
     </div>
   );
 });

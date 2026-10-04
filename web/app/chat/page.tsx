@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUp, Loader2, StopCircle } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
@@ -18,20 +18,47 @@ export default function ChatPage() {
   const [input, setInput] = useState('');
   const [lang, setLang] = useState<'en' | 'bn'>('en');
   const [loading, setLoading] = useState(false);
+  const [storageReady, setStorageReady] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [visibleMessageCount, setVisibleMessageCount] = useState(50);
+  const [lastFailedRequest, setLastFailedRequest] = useState<ChatMessage[] | null>(null);
+  const requestController = useRef<AbortController | null>(null);
+
+  useEffect(() => () => requestController.current?.abort(), []);
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       const saved = readStorage<ChatMessage[]>(STORAGE_KEYS.chats, defaultMessages);
       if (saved.length) setMessages(saved);
+      setLang(window.localStorage.getItem('quantara.language') === 'bn' ? 'bn' : 'en');
+      setStorageReady(true);
     });
     return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {
+    const updateLanguage = () =>
+      setLang(window.localStorage.getItem('quantara.language') === 'bn' ? 'bn' : 'en');
+    window.addEventListener('quantara:languagechange', updateLanguage);
+    return () => window.removeEventListener('quantara:languagechange', updateLanguage);
+  }, []);
+
+  useEffect(() => {
+    if (!storageReady) return;
     writeStorage(STORAGE_KEYS.chats, messages);
-  }, [messages]);
+    window.dispatchEvent(new Event('quantara:chats-updated'));
+  }, [messages, storageReady]);
+
+  useEffect(() => {
+    function startNewChat() {
+      setMessages(defaultMessages);
+      setInput('');
+      setLastFailedRequest(null);
+      setVisibleMessageCount(50);
+    }
+    window.addEventListener('quantara:new-chat', startNewChat);
+    return () => window.removeEventListener('quantara:new-chat', startNewChat);
+  }, []);
 
   useEffect(() => {
     if (!toast) return;
@@ -41,17 +68,12 @@ export default function ChatPage() {
 
   const botName = useMemo(() => (lang === 'bn' ? 'কথোপকথন' : 'Tutor'), [lang]);
 
-  async function submitPrompt() {
-    const trimmed = input.trim();
-    if (!trimmed || loading) return;
-
-    const nextUserMessage: ChatMessage = { role: 'user', content: trimmed };
-    const outgoing = [...messages, nextUserMessage];
-    const assistantPlaceholder: ChatMessage = { role: 'assistant', content: '' };
-    setMessages([...outgoing, assistantPlaceholder]);
-    setInput('');
+  async function streamResponse(outgoing: ChatMessage[]) {
+    requestController.current?.abort();
+    const controller = new AbortController();
+    requestController.current = controller;
+    setMessages([...outgoing, { role: 'assistant', content: '' }]);
     setLoading(true);
-
     try {
       await streamChat(
         { messages: outgoing, lang },
@@ -66,8 +88,22 @@ export default function ChatPage() {
             return next;
           });
         },
+        controller.signal,
       );
+      setLastFailedRequest(null);
     } catch (error) {
+      if (error instanceof Error && error.name === 'AbortError') {
+        setMessages((current) => {
+          const next = [...current];
+          const last = next.at(-1);
+          if (last?.role === 'assistant' && !last.content) {
+            next[next.length - 1] = { ...last, content: 'Generation stopped.' };
+          }
+          return next;
+        });
+        return;
+      }
+      setLastFailedRequest(outgoing);
       setToast(error instanceof Error ? error.message : 'Something went wrong');
       setMessages((current) => {
         const next = [...current];
@@ -82,8 +118,23 @@ export default function ChatPage() {
         return next;
       });
     } finally {
+      if (requestController.current === controller) requestController.current = null;
       setLoading(false);
     }
+  }
+
+  async function submitPrompt() {
+    const trimmed = input.trim();
+    if (!trimmed || loading) return;
+    const outgoing = [...messages, { role: 'user' as const, content: trimmed }];
+    setInput('');
+    setLastFailedRequest(outgoing);
+    await streamResponse(outgoing);
+  }
+
+  async function retryResponse() {
+    if (!lastFailedRequest || loading) return;
+    await streamResponse(lastFailedRequest);
   }
 
   return (
@@ -97,7 +148,11 @@ export default function ChatPage() {
                 <h1 className="mt-2 text-3xl font-semibold text-white">Ask Quantara</h1>
               </div>
               {loading ? (
-                <Button variant="ghost" className="gap-2 text-red-200/80">
+                <Button
+                  variant="ghost"
+                  className="gap-2 text-red-200/80"
+                  onClick={() => requestController.current?.abort()}
+                >
                   <StopCircle className="h-4 w-4" /> Stop
                 </Button>
               ) : null}
@@ -124,6 +179,11 @@ export default function ChatPage() {
                   isLast={messages.length - visibleMessages.length + index === messages.length - 1}
                 />
               ))}
+              {lastFailedRequest && !loading ? (
+                <Button variant="ghost" className="mx-auto flex gap-2" onClick={() => void retryResponse()}>
+                  <StopCircle aria-hidden="true" className="h-4 w-4" /> Retry response
+                </Button>
+              ) : null}
             </div>
 
             <div className="chat-composer sticky bottom-0 mt-3 flex gap-2 bg-transparent pt-1 sm:mt-4 sm:gap-3">

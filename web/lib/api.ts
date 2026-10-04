@@ -22,7 +22,7 @@ export class ApiError extends Error {
 export async function apiRequest<T>(
   path: string,
   body: RequestBody = {},
-  opts: { retries?: number } = {},
+  opts: { retries?: number; signal?: AbortSignal } = {},
 ): Promise<T> {
   const retries = opts.retries ?? 1;
   let lastErr: unknown = null;
@@ -34,6 +34,7 @@ export async function apiRequest<T>(
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(body),
+        signal: opts.signal,
       });
 
       const text = await response.text();
@@ -57,6 +58,7 @@ export async function apiRequest<T>(
       lastErr = e;
       // Retry on transient failures (5xx, 429, network). Don't retry 4xx.
       const status = (e as ApiError)?.status ?? 0;
+      if (e instanceof Error && e.name === 'AbortError') break;
       const retriable = status === 0 || status >= 500 || status === 429;
       if (!retriable || attempt === retries) break;
       // small exponential backoff
@@ -69,11 +71,13 @@ export async function apiRequest<T>(
 export async function streamChat(
   payload: { messages: ChatMessage[]; subject?: string; lang?: 'en' | 'bn'; difficulty?: Difficulty },
   onChunk: (chunk: string) => void,
+  signal?: AbortSignal,
 ): Promise<string> {
   const response = await fetch(`${API_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
+    signal,
   });
 
   if (!response.ok) {

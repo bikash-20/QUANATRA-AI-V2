@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { AIExplanation } from '@/components/ai-explanation';
 
 type GrammarRule = {
   rule: string;
@@ -97,6 +98,17 @@ export default function GrammarPage() {
                   <div className="mt-4 rounded-2xl border border-[#8feaf0]/20 bg-[#8feaf0]/5 p-3 text-sm text-slate-100">
                     Example: {grammar.example}
                   </div>
+                  <AIExplanation
+                    label="Explain this rule"
+                    input={{
+                      kind: 'grammar rule and example',
+                      question: grammar.rule,
+                      correctAnswer: grammar.explanation,
+                      context: grammar.example,
+                      difficulty,
+                      lang: 'en',
+                    }}
+                  />
                 </div>
 
                 {grammar.practice.map((item, index) => (
@@ -116,6 +128,17 @@ export default function GrammarPage() {
                         <div className="mt-2 text-emerald-50/80">{item.explanation}</div>
                       </div>
                     )}
+                    <AIExplanation
+                      label="Explain this example"
+                      input={{
+                        kind: 'grammar practice question',
+                        question: item.question,
+                        correctAnswer: item.answer,
+                        context: item.explanation,
+                        difficulty,
+                        lang: 'en',
+                      }}
+                    />
                   </div>
                 ))}
               </div>

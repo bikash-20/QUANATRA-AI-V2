@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { AIExplanation } from '@/components/ai-explanation';
 
 type VocabItem = {
   word: string;
@@ -102,6 +103,17 @@ export default function VocabPage() {
                   <Button variant="secondary" className="mt-4 w-full">
                     Add to flashcards
                   </Button>
+                  <AIExplanation
+                    label="Explain usage"
+                    input={{
+                      kind: 'vocabulary usage',
+                      question: `Explain the word “${item.word}” and its usage.`,
+                      correctAnswer: item.meaning,
+                      context: item.example,
+                      difficulty,
+                      lang: 'en',
+                    }}
+                  />
                 </GlassCard>
               ))
             )}
