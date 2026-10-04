@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { greProgress, type MockState } from "@/features/gre/progress/repository";
 import { GreMockRunner } from "@/features/gre/mock/components/gre-mock-runner";
 import { buildMock } from "@/features/gre/mock/builder";
-import type { QuantQuestion } from "@/features/gre/content/loader";
+import type { QuantQuestion } from "@/features/gre/content/loader.types";
 
 export function GreMockEntry({
   questions,
@@ -39,7 +39,7 @@ export function GreMockEntry({
         }
       }
       // No resume: build a new mock, pick fresh ids from the questions list.
-      const built = buildMock(Date.now());
+      const built = buildMock(Date.now(), questions);
       const qs = built.ids
         .map((id) => questions.find((q) => q.id === id))
         .filter((q): q is QuantQuestion => Boolean(q));

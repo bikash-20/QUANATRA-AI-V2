@@ -5,12 +5,14 @@ import { usePathname, useRouter } from 'next/navigation';
 import {
   BookOpenCheck,
   BookOpenText,
+  BrainCircuit,
   ChevronLeft,
   ChevronRight,
   ClipboardList,
   Compass,
   GraduationCap,
   Languages,
+  ListChecks,
   Menu,
   MessageCircle,
   Moon,
@@ -45,6 +47,17 @@ const navigation = [
   { href: '/exam', label: 'Exam', icon: GraduationCap },
   { href: '/progress', label: 'Progress', icon: Trophy },
   { href: '/admin', label: 'Admin', icon: Users },
+];
+
+// GRE prep is a separate group so it's discoverable but doesn't push the
+// existing tutoring nav around.
+const greNavigation = [
+  { href: '/gre', label: 'GRE hub', icon: BrainCircuit },
+  { href: '/gre/quant', label: 'GRE quant', icon: BookOpenCheck },
+  { href: '/gre/vocab', label: 'GRE vocab', icon: Languages },
+  { href: '/gre/quant/mock', label: 'GRE mock', icon: ListChecks },
+  { href: '/gre/roadmap', label: 'Roadmap', icon: Compass },
+  { href: '/gre/progress', label: 'GRE progress', icon: Trophy },
 ];
 
 const noSubscribe = () => () => {};
@@ -266,6 +279,27 @@ export function AppShell({ children }: { children: ReactNode }) {
         <nav aria-label="Main navigation" className="sidebar-navigation">
           {navigation.filter((item) => item.href !== '/admin' || showAdmin).map(({ href, label, icon: Icon }) => {
             const active = pathname === href || (href === '/chat' && pathname === '/');
+            return (
+              <Link
+                key={href}
+                href={href}
+                aria-current={active ? 'page' : undefined}
+                title={!expanded ? label : undefined}
+                className={`sidebar-link ${active ? 'sidebar-link-active' : ''}`}
+              >
+                <Icon aria-hidden="true" size={18} />
+                <span className="sidebar-link-label">{label}</span>
+              </Link>
+            );
+          })}
+          <p className="sidebar-section-label">GRE prep</p>
+          {greNavigation.map(({ href, label, icon: Icon }) => {
+            // The "/gre" hub matches only the exact path; deeper entries
+            // light up on exact match or any subroute.
+            const isGreHub = href === '/gre';
+            const active = isGreHub
+              ? pathname === '/gre'
+              : pathname === href || pathname.startsWith(href + '/');
             return (
               <Link
                 key={href}

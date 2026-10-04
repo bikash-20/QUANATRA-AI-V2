@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import { checkAnswer, qcText } from "@/features/gre/quant/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
 import { MOCK_SPEC } from "@/features/gre/mock/builder";
-import type { QuantQuestion } from "@/features/gre/content/loader";
+import type { QuantQuestion } from "@/features/gre/content/loader.types";
 
 type ClientQuestion = QuantQuestion;
 

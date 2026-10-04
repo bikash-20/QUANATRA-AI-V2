@@ -8,7 +8,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { generateVocabQuiz, type QuizItem, type QuizMode } from "@/features/gre/vocab/quiz";
 import { greProgress } from "@/features/gre/progress/repository";
-import type { VocabWord } from "@/features/gre/content/loader";
+import type { VocabWord } from "@/features/gre/content/loader.types";
 
 const MODES: { value: QuizMode; label: string; hint: string }[] = [
   { value: "def-to-word", label: "Definition → word", hint: "Pick the word for the definition." },

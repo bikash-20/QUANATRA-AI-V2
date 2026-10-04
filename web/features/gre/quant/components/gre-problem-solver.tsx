@@ -3,7 +3,7 @@
 // its type, a Submit button, an AI-explain toggle, and a Report button.
 
 import { useEffect, useMemo, useState } from "react";
-import type { QuantQuestion } from "@/features/gre/content/loader";
+import type { QuantQuestion } from "@/features/gre/content/loader.types";
 import { greProgress, type UserAnswer } from "@/features/gre/progress/repository";
 import { checkAnswer, formatCorrectAnswer, qcText } from "@/features/gre/quant/checker";
 import { getExplanation } from "@/lib/explanations";

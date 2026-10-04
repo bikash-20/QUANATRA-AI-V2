@@ -11,7 +11,7 @@
 //     the mock isn't dominated by one topic.
 //   - Returns just the question ids; the page resolves them on render.
 
-import { getAllQuestions, type QuantQuestion } from "@/features/gre/content/loader";
+import type { QuantQuestion } from "@/features/gre/content/loader.types";
 import { mulberry32, seededShuffle } from "@/features/gre/vocab/quiz";
 
 export type MockSpec = {
@@ -41,8 +41,8 @@ function pickByDifficulty(pool: QuantQuestion[], tier: "easy" | "medium" | "hard
  * (medium borrows from hard, hard can't borrow from easy — easy is the
  * floor).
  */
-export function buildMock(seed: number, pool?: QuantQuestion[]): MockBuildResult {
-  const src = pool ?? getAllQuestions();
+export function buildMock(seed: number, pool: QuantQuestion[]): MockBuildResult {
+  const src = pool;
   const rng = mulberry32(seed);
   const want = MOCK_SPEC.byDifficulty;
   const easy = pickByDifficulty(src, "easy", want.easy, rng);
