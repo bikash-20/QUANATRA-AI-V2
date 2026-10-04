@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { vocabResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
 
 type VocabItem = {
@@ -25,12 +26,13 @@ export default function VocabPage() {
   async function generateVocab() {
     setLoading(true);
     try {
-      const response = await apiRequest<{ vocab?: VocabItem[] }>(
+      const response = await apiRequest(
         '/api/vocab',
         { topic, level, count: 6, difficulty },
+        vocabResponseSchema,
         { retries: 1 },
       );
-      setItems(response.vocab ?? []);
+      setItems(response.vocab);
     } catch (error) {
       console.error(error);
     } finally {

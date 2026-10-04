@@ -10,7 +10,7 @@
 
 import "server-only";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join } from "node:path";
 import { z } from "zod";
 
 // Mirror of content/gre/schema.ts (we cannot import .ts from runtime

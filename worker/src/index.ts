@@ -41,10 +41,39 @@ const clamp = (n: unknown, min: number, max: number, d: number) => {
   return Number.isFinite(v) ? Math.min(max, Math.max(min, Math.round(v))) : d;
 };
 
-const pickDifficulty = (b: any): Difficulty =>
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isChatMessage(value: unknown): value is CascadeMsg {
+  return (
+    isRecord(value) &&
+    (value.role === "user" || value.role === "assistant") &&
+    typeof value.content === "string" &&
+    value.content.trim().length > 0 &&
+    value.content.length <= 8_000
+  );
+}
+
+function isTierAttempt(value: unknown): value is TierAttempt {
+  return (
+    isRecord(value) &&
+    typeof value.model === "string" &&
+    (value.source === "cf" || value.source === "openrouter") &&
+    (value.status === "ok" || value.status === "error" || value.status === "timeout") &&
+    typeof value.durationMs === "number"
+  );
+}
+
+function optionalString(record: Record<string, unknown>, key: string): string | undefined {
+  const value = record[key];
+  return typeof value === "string" ? value : undefined;
+}
+
+const pickDifficulty = (b: Record<string, unknown>): Difficulty =>
   b?.difficulty === "easy" || b?.difficulty === "hard" ? b.difficulty : "medium";
 
-const pickLang = (b: any): Lang => (b?.lang === "bn" ? "bn" : "en");
+const pickLang = (b: Record<string, unknown>): Lang => (b?.lang === "bn" ? "bn" : "en");
 
 // Try the cascade; on success return parsed JSON + which model served it,
 // on failure throw. Per-call maxTokens + optional timeoutMs override.
@@ -121,8 +150,8 @@ async function handle(req: Request, env: Env): Promise<Response> {
   if (url.pathname.startsWith("/api/")) {
     const ip = req.headers.get("CF-Connecting-IP") ?? "anon";
     // Use ?? so explicit "0" overrides the default rather than getting clobbered.
-    const perMin = Number(env.RATE_LIMIT_PER_MIN ?? 60);
-    const burst = Number(env.RATE_BURST ?? 20);
+    const perMin = clamp(env.RATE_LIMIT_PER_MIN, 1, 10_000, 60);
+    const burst = clamp(env.RATE_BURST, 0, 1_000, 20);
     const rl = await rateLimit(env.RATE, ip, perMin, burst);
     if (!rl.allowed) {
       return json(
@@ -137,7 +166,25 @@ async function handle(req: Request, env: Env): Promise<Response> {
     }
   }
 
-  const b: any = await req.json().catch(() => ({}));
+  let body: unknown;
+  try {
+    body = await req.json();
+  } catch {
+    return json(env, { error: "Request body must be valid JSON" }, 400);
+  }
+  if (!isRecord(body)) return json(env, { error: "Request body must be a JSON object" }, 400);
+  const b = body;
+  if (b.lang !== undefined && b.lang !== "en" && b.lang !== "bn") {
+    return json(env, { error: "lang must be en or bn" }, 400);
+  }
+  if (
+    b.difficulty !== undefined &&
+    b.difficulty !== "easy" &&
+    b.difficulty !== "medium" &&
+    b.difficulty !== "hard"
+  ) {
+    return json(env, { error: "difficulty must be easy, medium, or hard" }, 400);
+  }
   const lang = pickLang(b);
   const difficulty = pickDifficulty(b);
 
@@ -152,21 +199,23 @@ async function handle(req: Request, env: Env): Promise<Response> {
           b.question.length > 4000
         )
           return json(env, { error: "question required (max 4000 characters)" }, 400);
-        if (
-          b.options !== undefined &&
-          (!Array.isArray(b.options) ||
+        if (b.options !== undefined) {
+          if (
+            !Array.isArray(b.options) ||
             b.options.length < 1 ||
             b.options.length > 12 ||
             b.options.some(
               (option: unknown) =>
                 typeof option !== "string" || !option.trim() || option.length > 1000
-            ))
-        )
-          return json(
-            env,
-            { error: "options must be an array of 1-12 strings (max 1000 characters each)" },
-            400
-          );
+            )
+          ) {
+            return json(
+              env,
+              { error: "options must be an array of 1-12 strings (max 1000 characters each)" },
+              400
+            );
+          }
+        }
         for (const [field, maxLength] of [
           ["correctAnswer", 2000],
           ["userAnswer", 2000],
@@ -182,11 +231,6 @@ async function handle(req: Request, env: Env): Promise<Response> {
               400
             );
         }
-        if (b.difficulty !== "easy" && b.difficulty !== "medium" && b.difficulty !== "hard")
-          return json(env, { error: "difficulty must be easy, medium, or hard" }, 400);
-        if (b.lang !== "en" && b.lang !== "bn")
-          return json(env, { error: "lang must be en or bn" }, 400);
-
         const isGreQuant = b.kind.trim() === "gre-quant";
         const explainMaxTokens = isGreQuant ? 2000 : 1000;
         const explainTimeoutMs = isGreQuant ? 20000 : undefined;
@@ -196,13 +240,15 @@ async function handle(req: Request, env: Env): Promise<Response> {
             {
               kind: b.kind.trim(),
               question: b.question.trim(),
-              options: b.options,
-              correctAnswer: b.correctAnswer,
-              userAnswer: b.userAnswer,
-              context: b.context,
+              options: Array.isArray(b.options)
+                ? b.options.filter((value): value is string => typeof value === "string")
+                : undefined,
+              correctAnswer: optionalString(b, "correctAnswer"),
+              userAnswer: optionalString(b, "userAnswer"),
+              context: optionalString(b, "context"),
             },
-            b.difficulty,
-            b.lang
+            difficulty,
+            lang
           ),
           explainMaxTokens,
           explainTimeoutMs
@@ -223,12 +269,22 @@ async function handle(req: Request, env: Env): Promise<Response> {
       case "/api/chat": {
         const history: CascadeMsg[] = Array.isArray(b.messages)
           ? b.messages
-              .filter((m: any) => m && m.content && m.role !== "system")
+              .filter(isChatMessage)
               .slice(-20)
           : [];
         if (!history.length) return json(env, { error: "messages required" }, 400);
+        if (typeof b.subject === "string" && b.subject.length > 80) {
+          return json(env, { error: "subject must be 80 characters or fewer" }, 400);
+        }
         const messages: CascadeMsg[] = [
-          { role: "system", content: P.tutorSystem(lang, b.subject, difficulty) },
+          {
+            role: "system",
+            content: P.tutorSystem(
+              lang,
+              typeof b.subject === "string" ? b.subject : undefined,
+              difficulty
+            ),
+          },
           ...history,
         ];
         const res = await runCascade(env, {
@@ -294,7 +350,7 @@ async function handle(req: Request, env: Env): Promise<Response> {
           env,
           P.vocabPrompt(
             String(b.topic || "everyday"),
-            b.level || "B1",
+            typeof b.level === "string" ? b.level : "B1",
             clamp(b.count, 1, 20, 10),
             lang,
             difficulty
@@ -308,7 +364,7 @@ async function handle(req: Request, env: Env): Promise<Response> {
         if (!b.topic) return json(env, { error: "topic required" }, 400);
         const { data, model, cacheHit } = await cascadeJSON(
           env,
-          P.grammarPrompt(String(b.topic), b.level || "B1", lang, difficulty),
+          P.grammarPrompt(String(b.topic), typeof b.level === "string" ? b.level : "B1", lang, difficulty),
           2200
         );
         return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
@@ -334,7 +390,7 @@ async function handle(req: Request, env: Env): Promise<Response> {
           return json(env, { error: "items required" }, 400);
         const { data, model, cacheHit } = await cascadeJSON(
           env,
-          P.gradePrompt(b.items.slice(0, 40), lang),
+          P.gradePrompt((b.items as unknown[]).slice(0, 40), lang),
           1500
         );
         return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
@@ -343,8 +399,11 @@ async function handle(req: Request, env: Env): Promise<Response> {
       default:
         return json(env, { error: "Not found" }, 404);
     }
-  } catch (e: any) {
-    const tried: TierAttempt[] | undefined = e?.tried;
+  } catch (e: unknown) {
+    const error = e instanceof Error ? e : new Error("Server error");
+    const tried = isRecord(e) && Array.isArray(e.tried)
+      ? e.tried.filter(isTierAttempt)
+      : undefined;
     console.error(
       "[quantara] cascade failed for",
       url.pathname,
@@ -353,7 +412,7 @@ async function handle(req: Request, env: Env): Promise<Response> {
     return json(
       env,
       {
-        error: e?.message || "Server error",
+        error: error.message || "Server error",
         tried: tried?.map((t) => ({
           source: t.source,
           model: t.model,
@@ -370,8 +429,10 @@ export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     try {
       return await handle(req, env);
-    } catch (e: any) {
-      return json(env, { error: e?.message || "Server error" }, 500);
+    } catch (e: unknown) {
+      console.error("[quantara] unhandled request failure", e);
+      const message = e instanceof Error ? e.message : "Server error";
+      return json(env, { error: message }, 500);
     }
   },
 } satisfies ExportedHandler<Env>;

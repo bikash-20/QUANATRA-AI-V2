@@ -1,3 +1,5 @@
+import type { ZodType } from 'zod';
+
 export type ChatMessage = {
   role: 'user' | 'assistant';
   content: string;
@@ -7,8 +9,10 @@ export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export type RequestBody = Record<string, unknown>;
 
-export const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8787';
+export const API_URL = (
+  process.env.NEXT_PUBLIC_API_URL ??
+  (process.env.NODE_ENV === 'development' ? 'http://localhost:8787' : '')
+).replace(/\/+$/, '');
 
 export class ApiError extends Error {
   status: number;
@@ -22,8 +26,12 @@ export class ApiError extends Error {
 export async function apiRequest<T>(
   path: string,
   body: RequestBody = {},
+  schema: ZodType<T>,
   opts: { retries?: number; signal?: AbortSignal } = {},
 ): Promise<T> {
+  if (!API_URL) {
+    throw new ApiError('API URL is not configured. Set NEXT_PUBLIC_API_URL.', 0);
+  }
   const retries = opts.retries ?? 1;
   let lastErr: unknown = null;
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -53,11 +61,16 @@ export async function apiRequest<T>(
         throw new ApiError(msg, response.status);
       }
 
-      return payload as T;
+      const result = schema.safeParse(payload);
+      if (!result.success) {
+        const detail = result.error.issues[0]?.message ?? 'Response did not match the expected schema';
+        throw new ApiError(`Invalid API response: ${detail}`, 502);
+      }
+      return result.data;
     } catch (e) {
       lastErr = e;
       // Retry on transient failures (5xx, 429, network). Don't retry 4xx.
-      const status = (e as ApiError)?.status ?? 0;
+      const status = e instanceof ApiError ? e.status : 0;
       if (e instanceof Error && e.name === 'AbortError') break;
       const retriable = status === 0 || status >= 500 || status === 429;
       if (!retriable || attempt === retries) break;
@@ -73,6 +86,9 @@ export async function streamChat(
   onChunk: (chunk: string) => void,
   signal?: AbortSignal,
 ): Promise<string> {
+  if (!API_URL) {
+    throw new ApiError('API URL is not configured. Set NEXT_PUBLIC_API_URL.', 0);
+  }
   const response = await fetch(`${API_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -94,37 +110,46 @@ export async function streamChat(
   let buffer = '';
   let output = '';
 
+  function consumeLine(line: string) {
+    const trimmed = line.trim();
+    if (!trimmed || !trimmed.startsWith('data:')) return;
+
+    const raw = trimmed.slice(5).trim();
+    if (!raw || raw === '[DONE]') return;
+
+    try {
+      const parsed: unknown = JSON.parse(raw);
+      if (typeof parsed !== 'object' || parsed === null) return;
+      const candidate = parsed as { response?: unknown; content?: unknown };
+      const chunk =
+        typeof candidate.response === 'string'
+          ? candidate.response
+          : typeof candidate.content === 'string'
+            ? candidate.content
+            : '';
+      if (!chunk) return;
+      output += chunk;
+      onChunk(chunk);
+    } catch {
+      if (raw.startsWith('{') || raw.startsWith('[')) return;
+      output += raw;
+      onChunk(raw);
+    }
+  }
+
   while (true) {
     const { done, value } = await reader.read();
-    if (done) break;
+    if (done) {
+      buffer += decoder.decode();
+      if (buffer) consumeLine(buffer);
+      break;
+    }
 
     buffer += decoder.decode(value, { stream: true });
     const lines = buffer.split('\n');
     buffer = lines.pop() ?? '';
 
-    for (const line of lines) {
-      const trimmed = line.trim();
-      if (!trimmed) continue;
-      if (!trimmed.startsWith('data:')) continue;
-
-      const raw = trimmed.slice(5).trim();
-      if (!raw || raw === '[DONE]') continue;
-
-      try {
-        const parsed = JSON.parse(raw) as { response?: string; content?: string };
-        const chunk = parsed.response ?? parsed.content ?? '';
-        if (chunk) {
-          output += chunk;
-          onChunk(chunk);
-        }
-      } catch {
-        if (raw.startsWith('{') || raw.startsWith('[')) {
-          continue;
-        }
-        output += raw;
-        onChunk(raw);
-      }
-    }
+    for (const line of lines) consumeLine(line);
   }
 
   return output;

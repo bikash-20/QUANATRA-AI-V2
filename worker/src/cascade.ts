@@ -97,16 +97,14 @@ async function cacheWrite(env: WorkerEnv, key: string, value: string): Promise<v
 }
 
 export async function cacheKey(opts: CascadeOpts): Promise<string> {
-  // Stable hash of the inputs that affect output. For streaming we skip the
-  // cache — chunks would defeat the point.
-  const lastUser = [...opts.messages].reverse().find((m) => m.role === "user")?.content ?? "";
-  const systemSize = opts.messages.find((m) => m.role === "system")?.content.length ?? 0;
-  const raw = [
-    opts.jsonMode ? "json" : "txt",
-    String(opts.maxTokens ?? 1500),
-    lastUser,
-    String(systemSize),
-  ].join("|");
+  // Include the complete prompt and generation settings so distinct system
+  // instructions or conversation histories cannot receive one another's output.
+  const raw = JSON.stringify({
+    messages: opts.messages,
+    jsonMode: opts.jsonMode ?? false,
+    maxTokens: opts.maxTokens ?? 1500,
+    temperature: opts.temperature ?? 0.4,
+  });
   // KV caps keys at 512 bytes; messages can run longer. Hash to a fixed-size
   // hex string so the key stays well under the limit everywhere.
   return `q:${await sha256Hex(raw)}`;

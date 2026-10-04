@@ -1,6 +1,10 @@
 import { dbGet, dbPut } from '@/lib/db';
 import { apiRequest, type Difficulty } from '@/lib/api';
-import { explanationInputSchema, parseExplanationResponse } from '@/lib/explanation-schema';
+import {
+  explanationInputSchema,
+  explanationResponseSchema,
+  parseExplanationResponse,
+} from '@/lib/explanation-schema';
 
 export type ExplanationInput = {
   kind: string;
@@ -49,7 +53,12 @@ export async function getExplanation(input: ExplanationInput, signal?: AbortSign
   // before sending to the worker.
   const { questionId: _questionId, ...payload } = validatedInput;
   void _questionId;
-  const response: unknown = await apiRequest<unknown>('/api/explain', payload, { signal });
+  const response = await apiRequest(
+    '/api/explain',
+    payload,
+    explanationResponseSchema,
+    { signal },
+  );
   const explanation = parseExplanationResponse(response);
   await dbPut<CachedExplanation>('explanations', {
     id,

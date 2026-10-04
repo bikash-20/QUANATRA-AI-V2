@@ -6,14 +6,13 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { checkAnswer, qcText } from "@/features/gre/quant/checker";
+import { checkAnswer, numericAnswerFromInput, qcText } from "@/features/gre/quant/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
-import { MOCK_SPEC } from "@/features/gre/mock/builder";
 import type { QuantQuestion } from "@/features/gre/content/loader.types";
 
 type ClientQuestion = QuantQuestion;
 
-function emptyAnswer(q: ClientQuestion): UserAnswer | undefined {
+function emptyAnswer(): UserAnswer | undefined {
   return undefined;
 }
 
@@ -21,35 +20,44 @@ export function GreMockRunner({
   mockId,
   questions,
   startedAt,
+  initialRemainingSec,
   initialState,
 }: {
   mockId: string;
   questions: ClientQuestion[];
   startedAt: number;
+  initialRemainingSec: number;
   initialState: MockState | null;
 }) {
   const router = useRouter();
   const total = questions.length;
-  const durationSec = MOCK_SPEC.durationSec;
-
   const [answers, setAnswers] = useState<Record<string, UserAnswer | undefined>>(() => initialState?.answers ?? {});
+  const [numericDrafts, setNumericDrafts] = useState<Record<string, string>>(() => {
+    const drafts: Record<string, string> = {};
+    for (const [questionId, answer] of Object.entries(initialState?.answers ?? {})) {
+      if (answer?.type === "numeric") drafts[questionId] = String(answer.value);
+    }
+    return drafts;
+  });
   const [flagged, setFlagged] = useState<Record<string, true | undefined>>(() => {
     const out: Record<string, true | undefined> = {};
     if (initialState?.flagged) for (const k of Object.keys(initialState.flagged)) out[k] = true;
     return out;
   });
   const [idx, setIdx] = useState(0);
-  const [remainingSec, setRemainingSec] = useState(() => {
-    const elapsed = initialState ? 0 : 0;
-    void elapsed;
-    return initialState ? Math.max(0, durationSec - Math.floor((Date.now() - initialState.startedAt) / 1000)) : durationSec;
-  });
+  const [remainingSec, setRemainingSec] = useState(initialRemainingSec);
   const [finished, setFinished] = useState<boolean>(Boolean(initialState?.finishedAt));
+  const [autoSubmitted, setAutoSubmitted] = useState(Boolean(initialState?.autoSubmitted));
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [score, setScore] = useState<{ correct: number; total: number }>(() => {
     if (!initialState?.result) return { correct: 0, total: 0 };
     return { correct: initialState.result.score, total: initialState.result.total };
   });
   const startedAtRef = useRef<number>(initialState?.startedAt ?? startedAt);
+  const submissionLock = useRef(false);
+  const submitRef = useRef<(auto?: boolean) => Promise<void>>(async () => {});
+  const timerRef = useRef<number | null>(null);
 
   // Persist in-progress mock on every change.
   useEffect(() => {
@@ -66,74 +74,89 @@ export function GreMockRunner({
       await greProgress.saveMock(m);
       if (cancelled) return;
       // navigate to dedicated mock page only if needed
-      void router;
     })();
     return () => { cancelled = true; };
-  }, [answers, flagged, mockId, questions, finished, router]);
-
-  // Timer.
-  useEffect(() => {
-    if (finished) return;
-    const id = window.setInterval(() => {
-      setRemainingSec((prev) => {
-        if (prev <= 1) {
-          window.clearInterval(id);
-          // schedule submit
-          setTimeout(() => void submit(true), 0);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-    return () => window.clearInterval(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [finished]);
+  }, [answers, flagged, mockId, questions, finished]);
 
   const submit = useCallback(
     async (auto = false) => {
-      let correct = 0;
-      const timePerQ: number[] = [];
-      for (let i = 0; i < questions.length; i++) {
-        const q = questions[i];
-        const ua = answers[q.id];
-        const ok = ua ? checkAnswer(q, ua) : false;
-        if (ok) correct++;
-        // record attempt + flush to progress
-        if (ua) {
-          await greProgress.recordAttempt({
-            questionId: q.id,
-            topic: q.topic,
-            subtopic: q.subtopic,
-            difficulty: q.difficulty,
-            questionType: q.type,
-            userAnswer: ua,
-            correct: ok,
-            timeMs: 0,
-            at: Date.now(),
-            fromMock: mockId,
-          });
+      if (finished || submissionLock.current) return;
+      submissionLock.current = true;
+      setSubmitting(true);
+      setSubmitError(null);
+      try {
+        let correct = 0;
+        const timePerQ: number[] = [];
+        for (const q of questions) {
+          const ua = answers[q.id];
+          const ok = ua ? checkAnswer(q, ua) : false;
+          if (ok) correct++;
+          if (ua) {
+            await greProgress.recordAttempt({
+              questionId: q.id,
+              topic: q.topic,
+              subtopic: q.subtopic,
+              difficulty: q.difficulty,
+              questionType: q.type,
+              userAnswer: ua,
+              correct: ok,
+              timeMs: 0,
+              at: Date.now(),
+              fromMock: mockId,
+            });
+          }
+          timePerQ.push(0);
         }
-        timePerQ.push(0);
+        const m: MockState = {
+          id: mockId,
+          startedAt: startedAtRef.current,
+          questionIds: questions.map((q) => q.id),
+          answers,
+          flagged,
+          finishedAt: Date.now(),
+          autoSubmitted: auto,
+          result: { score: correct, total: questions.length, timePerQ },
+        };
+        await greProgress.saveMock(m);
+        setAutoSubmitted(auto);
+        setFinished(true);
+        setScore({ correct, total: questions.length });
+      } catch (error) {
+        submissionLock.current = false;
+        setSubmitError(error instanceof Error ? error.message : "Unable to submit this mock.");
+      } finally {
+        setSubmitting(false);
       }
-      const m: MockState = {
-        id: mockId,
-        startedAt: startedAtRef.current,
-        questionIds: questions.map((q) => q.id),
-        answers,
-        flagged,
-        finishedAt: Date.now(),
-        result: { score: correct, total: questions.length, timePerQ },
-      };
-      await greProgress.saveMock(m);
-      setFinished(true);
-      setScore({ correct, total: questions.length });
-      void auto;
     },
-    [answers, flagged, mockId, questions],
+    [answers, flagged, finished, mockId, questions],
   );
 
+  useEffect(() => {
+    submitRef.current = submit;
+  }, [submit]);
+
+  useEffect(() => {
+    if (remainingSec !== 0) return;
+    if (timerRef.current !== null) {
+      window.clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    if (!finished) void submitRef.current(true);
+  }, [finished, remainingSec]);
+
+  useEffect(() => {
+    if (finished || initialRemainingSec === 0) return;
+    timerRef.current = window.setInterval(() => {
+      setRemainingSec((previous) => Math.max(0, previous - 1));
+    }, 1000);
+    return () => {
+      if (timerRef.current !== null) window.clearInterval(timerRef.current);
+      timerRef.current = null;
+    };
+  }, [finished, initialRemainingSec]);
+
   const cur = questions[idx];
-  const ua = answers[cur.id];
+  const ua = cur ? answers[cur.id] : undefined;
   const totalAnswered = useMemo(
     () => questions.reduce((acc, q) => acc + (answers[q.id] ? 1 : 0), 0),
     [answers, questions],
@@ -153,7 +176,7 @@ export function GreMockRunner({
             {" · "}
             {score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0}%
           </p>
-          <p className="mt-1 text-xs text-slate-500">{autoSubmitted() ? "Auto-submitted at zero time." : "Submitted manually."}</p>
+          <p className="mt-1 text-xs text-slate-500">{autoSubmitted ? "Auto-submitted at zero time." : "Submitted manually."}</p>
           <button
             type="button"
             onClick={() => router.push("/gre/quant")}
@@ -165,8 +188,9 @@ export function GreMockRunner({
       </div>
     );
   }
-  // dummy function used above
-  function autoSubmitted() { return false; }
+  if (total === 0 || !cur) {
+    return <p role="alert" className="rounded-2xl border border-rose-300/20 bg-rose-900/20 p-5 text-sm text-rose-100">This mock does not have any questions available.</p>;
+  }
 
   return (
     <div className="flex flex-col gap-4">
@@ -204,7 +228,17 @@ export function GreMockRunner({
           </button>
         </header>
         <MockStem cur={cur} />
-        <MockInput cur={cur} value={ua} onChange={(v) => setAnswers((a) => ({ ...a, [cur.id]: v }))} />
+        <MockInput
+          cur={cur}
+          value={ua}
+          numericDraft={numericDrafts[cur.id] ?? ""}
+          onChange={(value) => setAnswers((current) => ({ ...current, [cur.id]: value }))}
+          onNumericDraftChange={(draft) => {
+            setNumericDrafts((current) => ({ ...current, [cur.id]: draft }));
+            const parsed = numericAnswerFromInput(draft);
+            setAnswers((current) => ({ ...current, [cur.id]: parsed ?? undefined }));
+          }}
+        />
       </article>
 
       <nav className="flex flex-wrap items-center gap-2 rounded-2xl border border-slate-200/15 bg-slate-900/40 p-3">
@@ -255,12 +289,14 @@ export function GreMockRunner({
           <button
             type="button"
             onClick={() => void submit(false)}
-            className="rounded-md bg-emerald-400/20 px-4 py-1.5 text-sm font-medium text-emerald-100 hover:bg-emerald-400/30"
+            disabled={submitting}
+            className="rounded-md bg-emerald-400/20 px-4 py-1.5 text-sm font-medium text-emerald-100 hover:bg-emerald-400/30 disabled:cursor-wait disabled:opacity-60"
           >
-            Submit
+            {submitting ? "Submitting…" : "Submit"}
           </button>
         </div>
       </nav>
+      {submitError ? <p role="alert" className="text-sm text-rose-200">{submitError}</p> : null}
     </div>
   );
 }
@@ -275,28 +311,32 @@ function MockStem({ cur }: { cur: ClientQuestion }) {
   if (cur.type === "qc") {
     return (
       <div className="space-y-3">
-        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity A:</span> {(cur as any).quantityA}</p>
-        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity B:</span> {(cur as any).quantityB}</p>
-        {(cur as any).common ? <p className="text-sm text-slate-400">Given: {(cur as any).common}</p> : null}
+        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity A:</span> {cur.quantityA}</p>
+        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity B:</span> {cur.quantityB}</p>
+        {cur.common ? <p className="text-sm text-slate-400">Given: {cur.common}</p> : null}
       </div>
     );
   }
-  return <p className="text-base">{(cur as any).stem}</p>;
+  return <p className="text-base">{cur.stem}</p>;
 }
 
 function MockInput({
   cur,
   value,
+  numericDraft,
   onChange,
+  onNumericDraftChange,
 }: {
   cur: ClientQuestion;
   value: UserAnswer | undefined;
+  numericDraft: string;
   onChange: (v: UserAnswer | undefined) => void;
+  onNumericDraftChange: (draft: string) => void;
 }) {
   if (cur.type === "mcq") {
     return (
       <ol className="flex flex-col gap-2">
-        {(cur as any).choices.map((c: string, i: number) => {
+        {cur.choices.map((c, i) => {
           const picked = value?.type === "mcq" && value.choice === i;
           return (
             <li key={i}>
@@ -320,7 +360,7 @@ function MockInput({
     const set = new Set(value?.type === "multi" ? value.choices : []);
     return (
       <ul className="flex flex-col gap-2">
-        {(cur as any).choices.map((c: string, i: number) => {
+        {cur.choices.map((c, i) => {
           const picked = set.has(i);
           return (
             <li key={i}>
@@ -332,7 +372,7 @@ function MockInput({
                   onChange={(e) => {
                     const next = new Set(set);
                     if (e.target.checked) next.add(i); else next.delete(i);
-                    onChange(next.size ? { type: "multi", choices: [...next].sort((a, b) => a - b) } : emptyAnswer(cur));
+                    onChange(next.size ? { type: "multi", choices: [...next].sort((a, b) => a - b) } : emptyAnswer());
                   }}
                 />
                 <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
@@ -374,11 +414,9 @@ function MockInput({
       <input
         type="text"
         inputMode="decimal"
-        defaultValue={value?.type === "numeric" ? String(value.value) : ""}
+        value={numericDraft}
         onChange={(e) => {
-          const s = e.target.value;
-          const n = Number(s.replace(/,/g, "").trim());
-          onChange(Number.isFinite(n) ? { type: "numeric", value: n } : emptyAnswer(cur));
+          onNumericDraftChange(e.target.value);
         }}
         className="rounded-md border border-slate-200/20 bg-slate-800/40 px-3 py-2 text-base"
       />

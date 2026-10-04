@@ -2,7 +2,12 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { greProgress, type VocabStatus, type VocabState } from "@/features/gre/progress/repository";
+import {
+  createVocabStatusUpdate,
+  greProgress,
+  type VocabStatus,
+  type VocabState,
+} from "@/features/gre/progress/repository";
 
 export function GreVocabTable({
   setId,
@@ -34,11 +39,7 @@ export function GreVocabTable({
   }
 
   async function setStatus(id: string, status: VocabStatus) {
-    const cur = states.get(id);
-    const now = Date.now();
-    const next: VocabState = cur
-      ? { ...cur, status, lastReviewed: now }
-      : { id, wordId: id, status, interval: 0, due: now, reps: 0, lapses: 0, lastReviewed: now };
+    const next = createVocabStatusUpdate(id, status, states.get(id));
     await greProgress.setVocabState(next);
     setStates((prev) => new Map(prev).set(id, next));
   }

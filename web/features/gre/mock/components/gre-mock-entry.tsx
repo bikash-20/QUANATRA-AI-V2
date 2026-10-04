@@ -4,10 +4,9 @@
 // themselves are loaded server-side and passed down by the page.
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { greProgress, type MockState } from "@/features/gre/progress/repository";
 import { GreMockRunner } from "@/features/gre/mock/components/gre-mock-runner";
-import { buildMock } from "@/features/gre/mock/builder";
+import { buildMock, MOCK_SPEC } from "@/features/gre/mock/builder";
 import type { QuantQuestion } from "@/features/gre/content/loader.types";
 
 export function GreMockEntry({
@@ -17,9 +16,14 @@ export function GreMockEntry({
   questions: QuantQuestion[];
   mockId: string;
 }) {
-  const router = useRouter();
   const [hydrated, setHydrated] = useState(false);
-  const [state, setState] = useState<{ mockId: string; questions: QuantQuestion[]; startedAt: number; initial: MockState | null } | null>(null);
+  const [state, setState] = useState<{
+    mockId: string;
+    questions: QuantQuestion[];
+    startedAt: number;
+    initialRemainingSec: number;
+    initial: MockState | null;
+  } | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -33,7 +37,14 @@ export function GreMockEntry({
           if (q) qs.push(q);
         }
         if (qs.length) {
-          setState({ mockId: active.id, questions: qs, startedAt: active.startedAt, initial: active });
+          const elapsed = Math.floor((Date.now() - active.startedAt) / 1000);
+          setState({
+            mockId: active.id,
+            questions: qs,
+            startedAt: active.startedAt,
+            initialRemainingSec: Math.max(0, MOCK_SPEC.durationSec - elapsed),
+            initial: active,
+          });
           setHydrated(true);
           return;
         }
@@ -56,7 +67,13 @@ export function GreMockEntry({
         flagged: {},
       };
       await greProgress.saveMock(initial);
-      setState({ mockId, questions: qs, startedAt, initial });
+      setState({
+        mockId,
+        questions: qs,
+        startedAt,
+        initialRemainingSec: MOCK_SPEC.durationSec,
+        initial,
+      });
       setHydrated(true);
     })();
     return () => { cancelled = true; };
@@ -70,6 +87,7 @@ export function GreMockEntry({
       mockId={state.mockId}
       questions={state.questions}
       startedAt={state.startedAt}
+      initialRemainingSec={state.initialRemainingSec}
       initialState={state.initial}
     />
   );

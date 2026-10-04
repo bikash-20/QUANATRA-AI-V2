@@ -5,7 +5,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-function computeStats(attempts, topics) {
+function computeStats(attempts) {
   const firstByQuestion = new Map();
   for (const a of attempts) {
     if (!firstByQuestion.has(a.questionId)) firstByQuestion.set(a.questionId, a);
@@ -45,13 +45,8 @@ function computeStats(attempts, topics) {
   };
 }
 
-const topics = [
-  { slug: 'algebra', title: 'Algebra', subtopics: ['linear'] },
-  { slug: 'geometry', title: 'Geometry', subtopics: ['triangles'] },
-];
-
 test('empty: accuracy is 0, no weak topics', () => {
-  const s = computeStats([], topics);
+  const s = computeStats([]);
   assert.equal(s.accuracyFirst, 0);
   assert.equal(s.totalAttempts, 0);
   assert.equal(s.solved, 0);
@@ -63,7 +58,7 @@ test('first-attempt-only rule: second correct attempt does NOT count', () => {
     { questionId: 'q-1', topic: 'algebra', subtopic: 'linear', correct: false },
     { questionId: 'q-1', topic: 'algebra', subtopic: 'linear', correct: true }, // retry
   ];
-  const s = computeStats(attempts, topics);
+  const s = computeStats(attempts);
   assert.equal(s.uniqueAttempted, 1);
   assert.equal(s.solved, 0, 'first attempt was wrong; even though retry was correct, solved=0');
   assert.equal(s.accuracyFirst, 0);
@@ -75,7 +70,7 @@ test('first correct attempt: solved=true, accuracy counts it', () => {
     { questionId: 'q-1', topic: 'algebra', subtopic: 'linear', correct: true },
     { questionId: 'q-1', topic: 'algebra', subtopic: 'linear', correct: false }, // second
   ];
-  const s = computeStats(attempts, topics);
+  const s = computeStats(attempts);
   assert.equal(s.solved, 1);
   assert.equal(s.accuracyFirst, 100);
 });
@@ -86,7 +81,7 @@ test('byTopic: firstCorrect + firstAttempts', () => {
     { questionId: 'q-2', topic: 'algebra', subtopic: 'linear', correct: false },
     { questionId: 'q-3', topic: 'geometry', subtopic: 'triangles', correct: true },
   ];
-  const s = computeStats(attempts, topics);
+  const s = computeStats(attempts);
   assert.equal(s.byTopic.algebra.firstAttempts, 2);
   assert.equal(s.byTopic.algebra.firstCorrect, 1);
   assert.equal(s.byTopic.geometry.firstAttempts, 1);
@@ -102,7 +97,7 @@ test('weakSubtopics: only includes subtopics with >=50% wrong on first attempt',
     { questionId: 'q-5', topic: 'geometry', subtopic: 'triangles', correct: true },
     { questionId: 'q-6', topic: 'geometry', subtopic: 'triangles', correct: false }, // 1/3 wrong -> not weak
   ];
-  const s = computeStats(attempts, topics);
+  const s = computeStats(attempts);
   assert.equal(s.weakSubtopics.length, 1);
   assert.equal(s.weakSubtopics[0].topic, 'algebra');
   assert.equal(s.weakSubtopics[0].subtopic, 'linear');

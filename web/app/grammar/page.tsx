@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { grammarResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
 
 type GrammarRule = {
@@ -26,12 +27,13 @@ export default function GrammarPage() {
   async function generateGrammar() {
     setLoading(true);
     try {
-      const response = await apiRequest<{ grammar?: GrammarRule }>(
+      const response = await apiRequest(
         '/api/grammar',
         { topic, level, difficulty },
+        grammarResponseSchema,
         { retries: 1 },
       );
-      setGrammar(response.grammar ?? null);
+      setGrammar(response.grammar);
     } catch (error) {
       console.error(error);
     } finally {

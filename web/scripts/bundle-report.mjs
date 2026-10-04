@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, statSync, existsSync, readdirSync } from "node:fs";
+import { readFileSync, statSync, readdirSync } from "node:fs";
 import { join, basename } from "node:path";
 
 const ROOT = process.cwd();

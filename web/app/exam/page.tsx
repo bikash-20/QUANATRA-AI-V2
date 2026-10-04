@@ -7,6 +7,7 @@ import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { AIExplanation } from '@/components/ai-explanation';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { examGradeResponseSchema, quizResponseSchema } from '@/lib/api-schemas';
 import {
   getExamTimerMinutes,
   saveExamTimerMinutes,
@@ -74,12 +75,13 @@ export default function ExamPage() {
   async function generateExam() {
     setLoading(true);
     try {
-      const response = await apiRequest<{ questions?: ExamQuestion[] }>(
+      const response = await apiRequest(
         '/api/exam/generate',
         { topic, count: 5, difficulty },
+        quizResponseSchema,
         { retries: 1 },
       );
-      setQuestions(response.questions ?? []);
+      setQuestions(response.questions);
       setCurrentIndex(0);
       setAnswers({});
       setSubmitted(false);
@@ -99,12 +101,11 @@ export default function ExamPage() {
     }));
 
     try {
-      const resultData = await apiRequest<{
-        verdict?: string;
-        weak_topics?: string[];
-        score?: number;
-        total?: number;
-      }>('/api/exam/grade', { items });
+      const resultData = await apiRequest(
+        '/api/exam/grade',
+        { items },
+        examGradeResponseSchema,
+      );
       setResult(resultData);
       setSubmitted(true);
 

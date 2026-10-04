@@ -36,7 +36,6 @@ export function GreVocabQuiz({
   const [weakOnly, setWeakOnly] = useState(false);
   const [weakIds, setWeakIds] = useState<Set<string> | null>(null);
   const [count, setCount] = useState(10);
-  const [seed, setSeed] = useState<number | null>(null);
   const [items, setItems] = useState<QuizItem[]>([]);
   const [idx, setIdx] = useState(0);
   const [picks, setPicks] = useState<Record<number, number>>({});
@@ -69,7 +68,6 @@ export function GreVocabQuiz({
       tiers,
       skipWordIds: skip,
     });
-    setSeed(next.length ? Date.now() : 0);
     setItems(next);
     setIdx(0);
     setPicks({});

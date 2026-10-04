@@ -51,6 +51,26 @@ export type VocabState = {
   lastReviewed?: number;
 };
 
+export function createVocabStatusUpdate(
+  wordId: string,
+  status: VocabStatus,
+  current: VocabState | undefined
+): VocabState {
+  const now = Date.now();
+  return current
+    ? { ...current, status, lastReviewed: now }
+    : {
+        id: wordId,
+        wordId,
+        status,
+        interval: 0,
+        due: now,
+        reps: 0,
+        lapses: 0,
+        lastReviewed: now,
+      };
+}
+
 export type RoadmapProgress = {
   id: "default";
   completed: Record<string, true>; // dayKey `${week}.${day}`
@@ -75,6 +95,7 @@ export type MockState = {
   answers: Record<string, UserAnswer | undefined>;
   flagged: Record<string, true | undefined>;
   finishedAt?: number;
+  autoSubmitted?: boolean;
   result?: { score: number; total: number; timePerQ: number[] };
 };
 
@@ -127,8 +148,6 @@ export interface GreProgressRepository {
 
 const ROADMAP_ID = "default";
 const STREAK_ID = "default";
-const ATTEMPT_PREFIX = "att:";     // "<qid>:<at>" so first attempt sorts first
-const VOCAB_PREFIX = "vocab:";
 const MOCK_INPROGRESS = "inprogress";
 
 function attemptId(qid: string, at: number): string {

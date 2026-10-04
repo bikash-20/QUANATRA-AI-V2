@@ -7,6 +7,7 @@ import { Button } from '@/components/button';
 import { AIExplanation } from '@/components/ai-explanation';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { flashcardsResponseSchema } from '@/lib/api-schemas';
 import { readStorage, STORAGE_KEYS, writeStorageAsync } from '@/lib/storage';
 
 type Flashcard = {
@@ -38,12 +39,13 @@ export default function FlashcardsPage() {
   async function generateCards() {
     setLoading(true);
     try {
-      const response = await apiRequest<{ flashcards?: Flashcard[] }>(
+      const response = await apiRequest(
         '/api/flashcards',
         { topic, count: 6, difficulty },
+        flashcardsResponseSchema,
         { retries: 1 },
       );
-      const nextCards = response.flashcards ?? [];
+      const nextCards = response.flashcards;
       setCards(nextCards);
       setIndex(0);
       setFlipped(false);

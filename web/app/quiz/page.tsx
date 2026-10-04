@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
+import { quizResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
 import { getAnswerState } from '@/lib/quiz-answer';
 
@@ -47,16 +48,16 @@ export default function QuizPage() {
     try {
       const payload =
         mode === 'mcq'
-          ? await apiRequest<{ questions?: Array<McqQuestion> }>('/api/quiz/mcq', {
+          ? await apiRequest('/api/quiz/mcq', {
               topic,
               count,
               difficulty,
-            })
-          : await apiRequest<{ questions?: Array<PassageQuestion> }>('/api/quiz/passage', {
+            }, quizResponseSchema)
+          : await apiRequest('/api/quiz/passage', {
               text: passage,
               count,
               difficulty,
-            });
+            }, quizResponseSchema);
 
       const items = payload.questions ?? [];
       setQuestions(items);

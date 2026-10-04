@@ -1,12 +1,37 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useTheme } from 'next-themes';
+import { ArrowRight, BookOpenCheck, BrainCircuit, Moon, Sun } from 'lucide-react';
+import { useState, useSyncExternalStore } from 'react';
 import { authAdapter } from '@/lib/auth';
+
+const noSubscribe = () => () => {};
+
+const benefits = [
+  {
+    icon: BookOpenCheck,
+    title: 'Learn at your pace',
+    description: 'Clear explanations that meet you where you are.',
+  },
+  {
+    icon: BrainCircuit,
+    title: 'Practice with purpose',
+    description: 'Build confidence through focused questions.',
+  },
+  {
+    icon: ArrowRight,
+    title: 'Keep making progress',
+    description: 'Small steps add up to a stronger understanding.',
+  },
+];
 
 export default function LoginPage() {
   const router = useRouter();
+  const { resolvedTheme, setTheme } = useTheme();
+  const themeReady = useSyncExternalStore(noSubscribe, () => true, () => false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -23,6 +48,8 @@ export default function LoginPage() {
     }
   }
 
+  const isLight = themeReady && resolvedTheme === 'light';
+
   return (
     <main className="login-page">
       <div className="login-background" aria-hidden="true">
@@ -35,24 +62,82 @@ export default function LoginPage() {
           className="object-cover"
         />
       </div>
-      <section className="login-card" aria-labelledby="login-title">
-        <a href="/explore" className="login-brand" aria-label="Quantara">
-          <span className="brand-mark">Q</span>
-          <span>Quantara</span>
-        </a>
-        <h1 id="login-title">A little clarity goes a long way.</h1>
-        <p>Learn one good question at a time.</p>
-        <button
-          type="button"
-          className="google-signin-button"
-          onClick={continueWithGoogle}
-          disabled={busy}
-        >
-          <GoogleMark />
-          {busy ? 'Connecting…' : 'Continue with Google'}
-        </button>
-        {error ? <p role="alert" className="login-error">{error}</p> : null}
-      </section>
+
+      <div className="login-shell">
+        <header className="login-header">
+          <Link href="/explore" className="login-brand" aria-label="Quantara home">
+            <span className="brand-mark">Q</span>
+            <span>Quantara</span>
+          </Link>
+          <button
+            type="button"
+            className="login-theme-toggle"
+            aria-label={`Switch to ${isLight ? 'dark' : 'light'} theme`}
+            onClick={() => setTheme(isLight ? 'dark' : 'light')}
+          >
+            {isLight ? <Moon aria-hidden="true" size={16} /> : <Sun aria-hidden="true" size={16} />}
+            <span>{isLight ? 'Dark' : 'Light'}</span>
+          </button>
+        </header>
+
+        <section className="login-content" aria-labelledby="login-title">
+          <div className="login-intro">
+            <p className="login-eyebrow">A calmer way to learn</p>
+            <h1 id="login-title">
+              Make room for
+              <br />
+              <span>your next idea.</span>
+            </h1>
+            <p className="login-description">
+              Ask what you wonder. Understand what you learn. Keep moving forward,
+              one good question at a time.
+            </p>
+
+            <ul className="login-benefits">
+              {benefits.map(({ icon: Icon, title, description }) => (
+                <li key={title}>
+                  <span className="login-benefit-icon">
+                    <Icon aria-hidden="true" size={18} />
+                  </span>
+                  <span>
+                    <strong>{title}</strong>
+                    <small>{description}</small>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="login-card">
+            <div className="login-card-mark" aria-hidden="true">
+              <span className="brand-mark">Q</span>
+            </div>
+            <p className="login-card-eyebrow">Your learning space</p>
+            <h2>Start with a question.</h2>
+            <p className="login-card-copy">
+              Sign in to pick up where curiosity takes you.
+            </p>
+            <button
+              type="button"
+              className="google-signin-button"
+              onClick={continueWithGoogle}
+              disabled={busy}
+            >
+              <GoogleMark />
+              <span>{busy ? 'Connecting…' : 'Continue with Google'}</span>
+            </button>
+            {error ? <p role="alert" className="login-error">{error}</p> : null}
+            <p className="login-privacy">
+              By continuing, you agree to learn with curiosity and kindness.
+            </p>
+          </div>
+        </section>
+
+        <footer className="login-footer">
+          <p>“Every expert was once a beginner who kept asking.”</p>
+          <span>Built for curious minds · Quantara</span>
+        </footer>
+      </div>
     </main>
   );
 }

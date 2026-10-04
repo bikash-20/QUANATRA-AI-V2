@@ -22,6 +22,28 @@
 
 type Bucket = { window: number; count: number };
 const memCounters = new Map<string, Bucket>();
+const MAX_MEMORY_COUNTERS = 10_000;
+let lastPrunedWindow = 0;
+
+function pruneCounters(windowStart: number): void {
+  if (lastPrunedWindow === windowStart && memCounters.size < MAX_MEMORY_COUNTERS) return;
+
+  for (const [key, bucket] of memCounters) {
+    if (bucket.window < windowStart) memCounters.delete(key);
+  }
+  while (memCounters.size >= MAX_MEMORY_COUNTERS) {
+    const oldest = memCounters.keys().next().value;
+    if (oldest === undefined) break;
+    memCounters.delete(oldest);
+  }
+  lastPrunedWindow = windowStart;
+}
+
+function finiteLimit(value: number, fallback: number, min: number, max: number): number {
+  return Number.isFinite(value)
+    ? Math.min(max, Math.max(min, Math.floor(value)))
+    : fallback;
+}
 
 export type RateResult =
   | { allowed: true; remaining: number; resetAt: number }
@@ -37,12 +59,16 @@ export async function rateLimit(
   const windowMs = 60_000;
   const windowStart = Math.floor(now / windowMs) * windowMs;
   const resetAt = windowStart + windowMs;
-  const cap = perMin + burst;
+  const cap =
+    finiteLimit(perMin, 60, 1, 10_000) +
+    finiteLimit(burst, 20, 0, 1_000);
 
   // 1. Atomic in-memory increment (single-threaded JS — no race).
+  pruneCounters(windowStart);
   let b = memCounters.get(ip);
   if (!b || b.window !== windowStart) {
     b = { window: windowStart, count: 0 };
+    memCounters.delete(ip);
     memCounters.set(ip, b);
   }
   b.count += 1;
@@ -52,7 +78,10 @@ export async function rateLimit(
   if (kv) {
     try {
       const v = await kv.get(`rl:${ip}:${windowStart}`);
-      kvCount = Number(v ?? "0");
+      const storedCount = Number(v ?? "0");
+      kvCount = Number.isFinite(storedCount) && storedCount >= 0
+        ? Math.floor(storedCount)
+        : 0;
     } catch {
       kvCount = 0;
     }

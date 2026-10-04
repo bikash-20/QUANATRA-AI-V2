@@ -105,11 +105,11 @@ Count: ${count}
 ${difficultyBlock(difficulty, "mcq")}
 
 Schema (output exactly this, nothing else):
-{"questions":[{"question":string,"options":[string,string,string,string],"answerIndex":0-3,"explanation":string}]}
+{"questions":[{"question":string,"options":[string,string,string,string],"answer":string,"explanation":string}]}
 
 Rules:
 - Exactly 4 options per question.
-- One and only one option is correct; answerIndex is 0..3.
+- One and only one option is correct; answer must exactly match the full text of that option.
 - Explanation names the underlying rule or fact.
 - No markdown, no preamble.`,
 });
@@ -122,9 +122,9 @@ Count: ${count}
 ${difficultyBlock(difficulty, "passage")}
 
 Schema:
-{"questions":[{"question":string,"options":[string,string,string,string],"answerIndex":0-3,"explanation":string}]}
+{"questions":[{"question":string,"options":[string,string,string,string],"answer":string,"explanation":string}]}
 
-Every correct answer must be defensible from the passage alone.`,
+Every correct answer must be defensible from the passage alone. The answer must exactly match one option.`,
 });
 
 export const flashcardPrompt = (topic: string, count: number, lang: Lang, difficulty: Difficulty) => ({
@@ -133,7 +133,7 @@ export const flashcardPrompt = (topic: string, count: number, lang: Lang, diffic
 Count: ${count}
 ${difficultyBlock(difficulty, "flashcard")}
 
-Schema: {"cards":[{"front":string,"back":string}]}
+Schema: {"flashcards":[{"front":string,"back":string}]}
 
 Back of each card must be self-contained: a learner reading it cold should understand without the front.`,
 });
@@ -152,9 +152,9 @@ Count: ${count}
 ${difficultyBlock(difficulty, "vocab")}
 
 Schema:
-{"words":[{"word":string,"partOfSpeech":string,"meaning":string,"meaningBn":string,"example":string,"synonyms":[string]}]}
+{"vocab":[{"word":string,"meaning":string,"bangla":string,"example":string}]}
 
-meaning is short English gloss; meaningBn is a Bengali translation of the meaning; example shows natural usage.`,
+meaning is a short English gloss; bangla is a Bengali translation of the meaning; example shows natural usage.`,
 });
 
 export const grammarPrompt = (
@@ -169,9 +169,9 @@ CEFR level: ${level}
 ${difficultyBlock(difficulty, "grammar")}
 
 Schema:
-{"title":string,"level":string,"explanation":string,"rules":[string],"examples":[{"correct":string,"incorrect":string,"note":string}],"commonMistakes":[string],"practice":[{"question":string,"answer":string}]}
+{"grammar":{"rule":string,"explanation":string,"example":string,"practice":[{"question":string,"answer":string,"explanation":string}]}}
 
-rules is a short numbered list; commonMistakes is 2-4 bullets. Practice questions must be solvable from the explanation.`,
+Provide one representative example and 2-4 short practice questions. Each practice explanation briefly explains why the answer is correct.`,
 });
 
 export const gradePrompt = (payload: unknown, lang: Lang) => ({
@@ -180,7 +180,7 @@ export const gradePrompt = (payload: unknown, lang: Lang) => ({
 ${JSON.stringify(payload)}
 
 Schema:
-{"score":number,"total":number,"percent":number,"verdict":"Pass"|"Borderline"|"Fail","strengths":[string],"weakTopics":[string],"feedback":string}
+{"score":number,"total":number,"percent":number,"verdict":"Pass"|"Borderline"|"Fail","strengths":[string],"weak_topics":[string],"feedback":string}
 
 Verdict thresholds: pass >= 70%, borderline 50-69%, fail < 50%.`,
 });

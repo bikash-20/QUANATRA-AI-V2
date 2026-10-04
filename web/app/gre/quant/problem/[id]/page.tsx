@@ -55,7 +55,8 @@ export default async function GreProblemPage({
         </div>
 
         <GreProblemSolver
-          question={question as any}
+          key={question.id}
+          question={question}
           topicSlug={topicSlug}
         />
       </div>

@@ -4,7 +4,12 @@
 // the same repository the vocab table uses.
 
 import { useEffect, useState } from "react";
-import { greProgress, type VocabStatus, type VocabState } from "@/features/gre/progress/repository";
+import {
+  createVocabStatusUpdate,
+  greProgress,
+  type VocabStatus,
+  type VocabState,
+} from "@/features/gre/progress/repository";
 
 export function GreWordDetail({ wordId }: { wordId: string }) {
   const [state, setState] = useState<VocabState | null>(null);
@@ -22,19 +27,7 @@ export function GreWordDetail({ wordId }: { wordId: string }) {
   }, [wordId]);
 
   async function setStatus(status: VocabStatus) {
-    const now = Date.now();
-    const next: VocabState = state
-      ? { ...state, status, lastReviewed: now }
-      : {
-          id: wordId,
-          wordId,
-          status,
-          interval: 0,
-          due: now,
-          reps: 0,
-          lapses: 0,
-          lastReviewed: now,
-        };
+    const next = createVocabStatusUpdate(wordId, status, state ?? undefined);
     await greProgress.setVocabState(next);
     setState(next);
   }

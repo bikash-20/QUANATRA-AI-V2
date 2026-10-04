@@ -187,7 +187,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, []);
 
   const isLogin = pathname === '/login';
-  const showAdmin = process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_AUTH_ENABLED === 'true';
+  const showAdmin = process.env.NODE_ENV === 'development';
   if (isLogin) return <>{children}</>;
 
   function toggleExpanded() {

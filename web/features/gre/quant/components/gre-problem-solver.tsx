@@ -2,10 +2,10 @@
 // Single-problem solver. Renders the question, the appropriate input for
 // its type, a Submit button, an AI-explain toggle, and a Report button.
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { QuantQuestion } from "@/features/gre/content/loader.types";
 import { greProgress, type UserAnswer } from "@/features/gre/progress/repository";
-import { checkAnswer, formatCorrectAnswer, qcText } from "@/features/gre/quant/checker";
+import { checkAnswer, formatCorrectAnswer, numericAnswerFromInput, qcText } from "@/features/gre/quant/checker";
 import { getExplanation } from "@/lib/explanations";
 import { MarkdownContent } from "@/components/markdown-content";
 
@@ -25,7 +25,8 @@ export function GreProblemSolver({
   const [numeric, setNumeric] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [correct, setCorrect] = useState(false);
-  const [startedAt] = useState(() => Date.now());
+  const startedAt = useRef<number | null>(null);
+  const submissionStarted = useRef(false);
   const [showExplain, setShowExplain] = useState(false);
   const [explainText, setExplainText] = useState<string | null>(null);
   const [explainLoading, setExplainLoading] = useState(false);
@@ -42,7 +43,7 @@ export function GreProblemSolver({
     return () => { cancelled = true; };
   }, [question.id]);
 
-  function buildUserAnswer(): UserAnswer | null {
+  const buildUserAnswer = useCallback((): UserAnswer | null => {
     switch (question.type) {
       case "mcq":
         return choice === null ? null : { type: "mcq", choice };
@@ -53,17 +54,20 @@ export function GreProblemSolver({
       case "qc":
         return qcLetter ? { type: "qc", letter: qcLetter } : null;
       case "numeric": {
-        if (!numeric.trim()) return null;
-        const v = Number(numeric.replace(/,/g, "").trim());
-        if (!Number.isFinite(v)) return null;
-        return { type: "numeric", value: v };
+        return numericAnswerFromInput(numeric);
       }
     }
-  }
+  }, [multiChoices, numeric, qcLetter, question.type, choice]);
 
-  async function handleSubmit() {
+  useEffect(() => {
+    startedAt.current = Date.now();
+  }, []);
+
+  const handleSubmit = useCallback(async () => {
+    if (submitted || submissionStarted.current) return;
     const ua = buildUserAnswer();
     if (!ua) return;
+    submissionStarted.current = true;
     const ok = checkAnswer(question, ua);
     setSubmitted(true);
     setCorrect(ok);
@@ -75,26 +79,31 @@ export function GreProblemSolver({
       questionType: question.type,
       userAnswer: ua,
       correct: ok,
-      timeMs: Date.now() - startedAt,
+      timeMs: startedAt.current === null ? 0 : Date.now() - startedAt.current,
       at: Date.now(),
     });
-  }
+  }, [buildUserAnswer, question, submitted]);
 
   async function handleExplain() {
     setShowExplain(true);
-    if (explainText) return;
+    if (explainText || explainLoading) return;
     setExplainLoading(true);
     setExplainError(null);
     try {
-      const ua = buildUserAnswer() ?? nullAnswer(question);
+      const ua = buildUserAnswer();
       const correctText = formatCorrectAnswer(question);
       const text = await getExplanation({
         kind: "gre-quant",
         questionId: question.id,
         question: questionText(question),
-        options: question.type === "qc" ? QC_LABELS.map((l) => qcText(l)) : (question as any).choices,
+        options:
+          question.type === "qc"
+            ? QC_LABELS.map((label) => qcText(label))
+            : question.type === "numeric"
+              ? undefined
+              : question.choices,
         correctAnswer: correctText,
-        userAnswer: ua ? formatUserAnswer(question, ua) : "(no answer)",
+        userAnswer: ua ? formatUserAnswer(question, ua) : undefined,
         difficulty: question.difficulty,
         lang: "en",
       });
@@ -120,18 +129,24 @@ export function GreProblemSolver({
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (submitted) return;
+      if (
+        e.target instanceof Element &&
+        e.target.closest("input, textarea, select, button, [contenteditable='true']")
+      ) {
+        return;
+      }
       if (e.key >= "1" && e.key <= "5") {
         const i = Number(e.key) - 1;
-        if (question.type === "mcq" && (question as any).choices[i]) setChoice(i);
+        if (question.type === "mcq" && question.choices[i]) setChoice(i);
         else if (question.type === "qc" && QC_LABELS[i]) setQcLetter(QC_LABELS[i]);
       } else if (e.key === "Enter") {
         e.preventDefault();
-        if (!submitted) handleSubmit();
+        void handleSubmit();
       }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  });
+  }, [handleSubmit, question, submitted]);
 
   return (
     <article className="flex flex-col gap-5">
@@ -170,8 +185,9 @@ export function GreProblemSolver({
         numeric={numeric}
         setNumeric={setNumeric}
         submitted={submitted}
-        correct={correct}
-        correctIndex={(question.type === "mcq" || question.type === "multi") ? (question as any).answer : null}
+        correctIndex={
+          question.type === "mcq" || question.type === "multi" ? question.answer : null
+        }
       />
 
       <div className="flex flex-wrap items-center gap-3">
@@ -227,18 +243,18 @@ function renderStem(q: QuantQuestion) {
     return (
       <div className="space-y-3">
         <p className="text-base">
-          <span className="font-semibold text-cyan-200">Quantity A:</span> <TeX text={(q as any).quantityA} />
+          <span className="font-semibold text-cyan-200">Quantity A:</span> <TeX text={q.quantityA} />
         </p>
         <p className="text-base">
-          <span className="font-semibold text-cyan-200">Quantity B:</span> <TeX text={(q as any).quantityB} />
+          <span className="font-semibold text-cyan-200">Quantity B:</span> <TeX text={q.quantityB} />
         </p>
-        {(q as any).common ? (
-          <p className="text-sm text-slate-400">Given: <TeX text={(q as any).common} /></p>
+        {q.common ? (
+          <p className="text-sm text-slate-400">Given: <TeX text={q.common} /></p>
         ) : null}
       </div>
     );
   }
-  return <p className="text-base"><TeX text={(q as any).stem} /></p>;
+  return <p className="text-base"><TeX text={q.stem} /></p>;
 }
 
 function TeX({ text }: { text: string }) {
@@ -249,7 +265,7 @@ function TeX({ text }: { text: string }) {
 }
 
 function AnswerInput({
-  question, choice, setChoice, multiChoices, setMultiChoices, qcLetter, setQcLetter, numeric, setNumeric, submitted, correct, correctIndex,
+  question, choice, setChoice, multiChoices, setMultiChoices, qcLetter, setQcLetter, numeric, setNumeric, submitted, correctIndex,
 }: {
   question: QuantQuestion;
   choice: number | null;
@@ -261,13 +277,12 @@ function AnswerInput({
   numeric: string;
   setNumeric: (s: string) => void;
   submitted: boolean;
-  correct: boolean;
   correctIndex: number | number[] | null;
 }) {
   if (question.type === "mcq") {
     return (
       <ol className="flex flex-col gap-2">
-        {(question as any).choices.map((c: string, i: number) => {
+        {question.choices.map((c, i) => {
           const isUserPick = choice === i;
           const isCorrect = Array.isArray(correctIndex) ? correctIndex.includes(i) : correctIndex === i;
           const showAsRight = submitted && isCorrect;
@@ -296,7 +311,7 @@ function AnswerInput({
   if (question.type === "multi") {
     return (
       <ul className="flex flex-col gap-2">
-        {(question as any).choices.map((c: string, i: number) => {
+        {question.choices.map((c, i) => {
           const isPicked = multiChoices.has(i);
           const isCorrect = Array.isArray(correctIndex) && correctIndex.includes(i);
           const showAsRight = submitted && isCorrect;
@@ -331,9 +346,9 @@ function AnswerInput({
   if (question.type === "qc") {
     return (
       <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
-        {QC_LABELS.map((l, i) => {
+        {QC_LABELS.map((l) => {
           const isPicked = qcLetter === l;
-          const isCorrect = submitted && (question as any).answer === l;
+          const isCorrect = submitted && question.answer === l;
           return (
             <button
               key={l}
@@ -367,7 +382,7 @@ function AnswerInput({
         className="rounded-md border border-slate-200/20 bg-slate-800/40 px-3 py-2 text-base"
       />
       {submitted ? (
-        <p className="text-sm text-slate-400">Correct answer: <span className="text-emerald-300">{(question as any).answer}</span></p>
+        <p className="text-sm text-slate-400">Correct answer: <span className="text-emerald-300">{question.answer}</span></p>
       ) : null}
     </div>
   );
@@ -375,28 +390,21 @@ function AnswerInput({
 
 function questionText(q: QuantQuestion): string {
   if (q.type === "qc") {
-    return `Quantity A: ${(q as any).quantityA}\nQuantity B: ${(q as any).quantityB}` + ((q as any).common ? `\nGiven: ${(q as any).common}` : "");
+    return `Quantity A: ${q.quantityA}\nQuantity B: ${q.quantityB}` +
+      (q.common ? `\nGiven: ${q.common}` : "");
   }
-  return (q as any).stem ?? "";
+  return q.stem;
 }
 
 function formatUserAnswer(q: QuantQuestion, ua: UserAnswer): string {
   if (ua.type === "mcq") {
-    return q.type === "mcq" ? `${ua.choice + 1}. ${(q as any).choices[ua.choice]}` : `choice ${ua.choice}`;
+    return q.type === "mcq" ? `${ua.choice + 1}. ${q.choices[ua.choice] ?? "?"}` : `choice ${ua.choice}`;
   }
   if (ua.type === "multi") {
-    return q.type === "multi" ? ua.choices.map((c) => `${c + 1}. ${(q as any).choices[c]}`).join("; ") : ua.choices.join(",");
+    return q.type === "multi"
+      ? ua.choices.map((choice) => `${choice + 1}. ${q.choices[choice] ?? "?"}`).join("; ")
+      : ua.choices.join(",");
   }
   if (ua.type === "qc") return `${ua.letter}. ${qcText(ua.letter)}`;
-  return String((ua as any).value);
-}
-
-function nullAnswer(q: QuantQuestion): UserAnswer {
-  // Synthetic "no answer" payload used by the explain path.
-  switch (q.type) {
-    case "mcq": return { type: "mcq", choice: -1 };
-    case "multi": return { type: "multi", choices: [] };
-    case "qc": return { type: "qc", letter: "A" };
-    case "numeric": return { type: "numeric", value: NaN as any };
-  }
+  return ua.type === "numeric" ? String(ua.value) : "";
 }

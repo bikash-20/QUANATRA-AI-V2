@@ -12,6 +12,7 @@ import { GreManifestSeed } from "@/features/gre/quant/components/gre-manifest-se
 import { GreProblemList } from "@/features/gre/quant/components/gre-problem-list";
 import { MarkdownContent } from "@/components/markdown-content";
 import { TopicTabs } from "@/features/gre/quant/components/topic-tabs";
+import type { QuantQuestion } from "@/features/gre/content/loader.types";
 
 export const dynamic = "force-dynamic";
 
@@ -43,12 +44,10 @@ export default async function GreTopicPage({
   if (sp.subtopic) list = list.filter((q) => q.subtopic === sp.subtopic);
   if (sp.q) {
     const needle = sp.q.toLowerCase();
-    list = list.filter((q) => q.type === "mcq" || q.type === "multi" || q.type === "numeric" ? q.stem.toLowerCase().includes(needle) : (q as any).quantityA.toLowerCase().includes(needle));
+    list = list.filter((question) => questionSearchText(question).includes(needle));
   }
-  const page = Math.max(1, Math.min(50, Number(sp.page) || 1));
+  const page = parsePage(sp.page);
   const pageSize = 25;
-  const start = (page - 1) * pageSize;
-  const paged = list.slice(start, start + pageSize);
 
   const tab = sp.tab === "learn" ? "learn" : "problems";
 
@@ -73,17 +72,13 @@ export default async function GreTopicPage({
         ) : (
           <GreProblemList
             topic={topic}
-            questions={paged.map((q) => ({
+            questions={list.map((q) => ({
               id: q.id,
               type: q.type,
               difficulty: q.difficulty,
               subtopic: q.subtopic,
-              title:
-                q.type === "qc"
-                  ? `QC: ${(q as any).quantityA} vs ${(q as any).quantityB}`
-                  : (q as any).stem,
+              title: questionTitle(q),
             }))}
-            totalCount={list.length}
             page={page}
             pageSize={pageSize}
             filters={{
@@ -100,4 +95,23 @@ export default async function GreTopicPage({
       </div>
     </>
   );
+}
+
+function questionSearchText(question: QuantQuestion): string {
+  if (question.type === "qc") {
+    return `${question.quantityA} ${question.quantityB} ${question.common ?? ""}`.toLowerCase();
+  }
+  return question.stem.toLowerCase();
+}
+
+function questionTitle(question: QuantQuestion): string {
+  if (question.type === "qc") {
+    return `QC: ${question.quantityA} vs ${question.quantityB}`;
+  }
+  return question.stem;
+}
+
+function parsePage(value?: string): number {
+  if (!value || !/^[1-9]\d*$/.test(value)) return 1;
+  return Math.min(50, Number(value));
 }

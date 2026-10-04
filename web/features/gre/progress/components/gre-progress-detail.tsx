@@ -34,7 +34,7 @@ export function GreProgressIsland({ topics }: { topics: Topic[] }) {
     return () => { cancelled = true; };
   }, []);
 
-  const stats = useMemo(() => computeStats(attempts, topics), [attempts, topics]);
+  const stats = useMemo(() => computeStats(attempts), [attempts]);
   const vocabCounts = useMemo(() => {
     const out = { new: 0, learning: 0, known: 0 };
     for (const v of vocab) out[v.status]++;
@@ -177,7 +177,7 @@ type TopicStats = {
   weakSubtopics: Array<{ topic: string; subtopic: string; wrong: number; total: number }>;
 };
 
-function computeStats(attempts: Attempt[], topics: Topic[]): TopicStats {
+function computeStats(attempts: Attempt[]): TopicStats {
   // First attempt per question only.
   const firstByQuestion = new Map<string, Attempt>();
   for (const a of attempts) {

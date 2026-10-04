@@ -10,6 +10,8 @@ import {
   dbPut as idbPut,
   type StoreName,
 } from './db';
+import { decodeStorageRecord } from './storage-record';
+export { decodeStorageRecord } from './storage-record';
 
 export const STORAGE_KEYS = {
   chats: 'quantara.chats',
@@ -66,9 +68,9 @@ export function writeStorage<T>(key: string, value: T): void {
   // Fire-and-forget IDB write so the durable copy survives quota issues.
   const store = LS_TO_STORE[key];
   if (store && value && typeof value === 'object') {
-    const id = deriveId(key, value);
+    const id = deriveId(key);
     if (id) {
-      void idbPut(store, { id, ...(value as object) });
+      void idbPut(store, { id, value });
     }
   }
 }
@@ -80,11 +82,12 @@ export async function readStorageAsync<T>(key: string, fallback: T): Promise<T> 
   if (store) {
     const id = stableId(key);
     try {
-      const fromIdb = await idbGet<T & { id?: string }>(store, id);
+      const fromIdb = await idbGet<unknown>(store, id);
       if (fromIdb !== null) {
-        memoryCache.set(key, fromIdb);
-        lsPut(key, fromIdb);
-        return fromIdb as T;
+        const value = decodeStorageRecord<T>(fromIdb, fallback);
+        memoryCache.set(key, value);
+        lsPut(key, value);
+        return value;
       }
     } catch {
       /* fall through */
@@ -100,7 +103,7 @@ export async function writeStorageAsync<T>(key: string, value: T): Promise<void>
   if (store && value && typeof value === 'object') {
     const id = stableId(key);
     try {
-      await idbPut(store, { id, ...(value as object) });
+      await idbPut(store, { id, value });
     } catch {
       /* best effort */
     }
@@ -130,7 +133,7 @@ function stableId(key: string): string {
   return 'default';
 }
 
-function deriveId(key: string, value: unknown): string | null {
+function deriveId(key: string): string | null {
   if (key === STORAGE_KEYS.examTimerMinutes) return 'default';
   return 'default';
 }

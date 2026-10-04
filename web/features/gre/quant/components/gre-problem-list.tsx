@@ -7,10 +7,11 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { greProgress } from "@/features/gre/progress/repository";
+import type { QuestionType } from "@/features/gre/content/loader.types";
 
 export type ProblemRow = {
   id: string;
-  type: string;
+  type: QuestionType;
   difficulty: "easy" | "medium" | "hard";
   subtopic: string;
   title: string;
@@ -19,7 +20,6 @@ export type ProblemRow = {
 export function GreProblemList({
   topic,
   questions,
-  totalCount,
   page,
   pageSize,
   filters,
@@ -27,7 +27,6 @@ export function GreProblemList({
 }: {
   topic: string;
   questions: ProblemRow[];
-  totalCount: number;
   page: number;
   pageSize: number;
   filters: {
@@ -91,7 +90,9 @@ export function GreProblemList({
     });
   }
 
-  const totalPages = Math.max(1, Math.ceil(totalCount / pageSize));
+  const totalPages = Math.max(1, Math.ceil(visible.length / pageSize));
+  const currentPage = Math.min(Math.max(1, page), totalPages);
+  const pageQuestions = visible.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   return (
     <div className="flex flex-col gap-4">
@@ -127,7 +128,7 @@ export function GreProblemList({
         {visible.length === 0 ? (
           <li className="p-6 text-center text-sm text-slate-400">No questions match these filters.</li>
         ) : null}
-        {visible.map((row) => {
+        {pageQuestions.map((row) => {
           const isSolved = solved.has(row.id);
           const isAttempted = attempted.has(row.id);
           const isBookmarked = bookmarked.has(row.id);
@@ -174,9 +175,9 @@ export function GreProblemList({
 
       {totalPages > 1 ? (
         <nav className="flex items-center justify-center gap-3 text-sm">
-          <PageBtn disabled={page <= 1} href={pageHref(topic, sp, page - 1)}>← Prev</PageBtn>
-          <span className="text-slate-400">Page {page} of {totalPages}</span>
-          <PageBtn disabled={page >= totalPages} href={pageHref(topic, sp, page + 1)}>Next →</PageBtn>
+          <PageBtn disabled={currentPage <= 1} href={pageHref(topic, sp, currentPage - 1)}>← Prev</PageBtn>
+          <span className="text-slate-400">Page {currentPage} of {totalPages}</span>
+          <PageBtn disabled={currentPage >= totalPages} href={pageHref(topic, sp, currentPage + 1)}>Next →</PageBtn>
         </nav>
       ) : null}
     </div>
