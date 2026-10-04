@@ -90,6 +90,7 @@ export function GreProblemSolver({
       const correctText = formatCorrectAnswer(question);
       const text = await getExplanation({
         kind: "gre-quant",
+        questionId: question.id,
         question: questionText(question),
         options: question.type === "qc" ? QC_LABELS.map((l) => qcText(l)) : (question as any).choices,
         correctAnswer: correctText,

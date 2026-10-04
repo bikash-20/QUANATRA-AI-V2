@@ -6,6 +6,8 @@ export const explanationResponseSchema = z.object({
 
 export const explanationInputSchema = z.object({
   kind: z.string().min(1).max(40),
+  /** Optional client-only id; used to narrow the cache key for gre-quant. */
+  questionId: z.string().max(80).optional(),
   question: z.string().min(1).max(4000),
   options: z.array(z.string().min(1).max(1000)).min(1).max(12).optional(),
   correctAnswer: z.string().max(2000).optional(),

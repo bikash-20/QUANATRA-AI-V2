@@ -47,11 +47,12 @@ const pickDifficulty = (b: any): Difficulty =>
 const pickLang = (b: any): Lang => (b?.lang === "bn" ? "bn" : "en");
 
 // Try the cascade; on success return parsed JSON + which model served it,
-// on failure throw.
+// on failure throw. Per-call maxTokens + optional timeoutMs override.
 async function cascadeJSON(
   env: Env,
   prompt: { system: string; user: string },
-  maxTokens: number
+  maxTokens: number,
+  timeoutMs?: number
 ): Promise<{ data: unknown; model: string; cacheHit: boolean }> {
   const messages: CascadeMsg[] = [
     { role: "system", content: prompt.system },
@@ -64,6 +65,7 @@ async function cascadeJSON(
       messages,
       jsonMode: true,
       maxTokens,
+      timeoutMs,
     });
     lastModel = res.model;
     lastCacheHit = res.cacheHit;
@@ -185,6 +187,9 @@ async function handle(req: Request, env: Env): Promise<Response> {
         if (b.lang !== "en" && b.lang !== "bn")
           return json(env, { error: "lang must be en or bn" }, 400);
 
+        const isGreQuant = b.kind.trim() === "gre-quant";
+        const explainMaxTokens = isGreQuant ? 2000 : 1000;
+        const explainTimeoutMs = isGreQuant ? 20000 : undefined;
         const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.explainPrompt(
@@ -199,7 +204,8 @@ async function handle(req: Request, env: Env): Promise<Response> {
             b.difficulty,
             b.lang
           ),
-          1000
+          explainMaxTokens,
+          explainTimeoutMs
         );
         if (
           !data ||

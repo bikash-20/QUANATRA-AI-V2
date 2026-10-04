@@ -68,16 +68,35 @@ export const explainPrompt = (
   },
   difficulty: Difficulty,
   lang: Lang
-) => ({
-  system: `You are Quantara, a warm and direct tutor. Explain the answer in natural language: give the answer first, then a short explanation. Include a useful worked example only when it helps, and at most one optional follow-up question. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
-  user: `Explain this learning question.
+) => {
+  // GRE quant gets a tighter prompt: concise output (under ~250 words),
+  // and the caller has already formatted qc/multi answers as readable text.
+  if (input.kind === "gre-quant") {
+    return {
+      system: `You are Quantara, a GRE quantitative tutor. Give the answer first, then a tight, step-by-step explanation a strong test-taker can follow in under 250 words. Use math notation ($...$ inline). Do not repeat the question. If the learner's answer is wrong, identify the exact misconception in one sentence. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
+      user: `Explain this GRE quant question.
+${JSON.stringify(input)}
+
+Rules:
+- The "correctAnswer" field is already in human-readable form (for QC it is the full choice text; for multi-select it is "1. ...; 2. ..."). Use it as authoritative.
+- The "userAnswer" field is in the same readable form. If it disagrees with correctAnswer, briefly say why it is wrong.
+- Stay under about 250 words. Markdown is fine inside the JSON string but do not use fences.
+- If the problem requires multiple distinct steps, show them as a short bulleted list. Otherwise prose is fine.
+
+Schema: {"explanation":string}`,
+    };
+  }
+  return {
+    system: `You are Quantara, a warm and direct tutor. Explain the answer in natural language: give the answer first, then a short explanation. Include a useful worked example only when it helps, and at most one optional follow-up question. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
+    user: `Explain this learning question.
 ${JSON.stringify(input)}
 
 Use the provided correct answer as authoritative when present. If the learner's answer is present, briefly clarify why it is right or mistaken without shaming them. Use context and options when provided; do not assume missing information.
 
 Schema: {"explanation":string}
 Keep the explanation concise and self-contained.`,
-});
+  };
+};
 
 export const mcqPrompt = (topic: string, count: number, difficulty: Difficulty, lang: Lang) => ({
   system: `You write high-quality multiple-choice questions at the requested difficulty. ${langRule(lang)} ${JSON_ONLY}`,
