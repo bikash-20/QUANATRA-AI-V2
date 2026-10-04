@@ -1,0 +1,13 @@
+{
+  "name": "quantara-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-01",
+  "ai": { "binding": "AI" },
+  "vars": {
+    "MODEL": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "MODEL_CASCADE": "[\"@cf/meta/llama-3.3-70b-instruct-fp8-fast\",\"@cf/meta/llama-4-scout-17b-16e-instruct\",\"@cf/qwen/qwen2.5-coder-32b-instruct\",\"@cf/openai/gpt-oss-120b\"]",
+    "MAX_TOKENS": "1500",
+    "CASCADE_TIMEOUT_MS": "12000",
+    "ALLOWED_ORIGIN": "*"
+  }
+}

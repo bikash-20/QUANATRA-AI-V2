@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #07151f;
+  --foreground: #edf8ff;
+  --navy: #071722;
+  --navy-2: #102738;
+  --glass: rgba(255, 255, 255, 0.08);
+  --glass-strong: rgba(255, 255, 255, 0.14);
+  --teal: #69d8df;
+  --teal-soft: rgba(105, 216, 223, 0.2);
+  --pink: #f6d6e4;
+  --pink-soft: rgba(246, 214, 228, 0.18);
+  --muted: rgba(255, 255, 255, 0.7);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-playfair);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(246, 214, 228, 0.16), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(105, 216, 223, 0.14), transparent 30%),
+    linear-gradient(135deg, #07151f 0%, #0b1d2a 28%, #0e2730 52%, #081521 100%);
+  color: var(--foreground);
+  font-family: var(--font-poppins), sans-serif;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.05)),
+    radial-gradient(circle at 10% 0%, rgba(255,255,255,0.3), transparent 18%),
+    radial-gradient(circle at 70% 90%, rgba(255,255,255,0.22), transparent 24%);
+  opacity: 0.85;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+}
+
+::selection {
+  background: rgba(105, 216, 223, 0.35);
+  color: white;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
