@@ -202,6 +202,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, []);
 
   const isLogin = pathname === '/login';
+  const isExploreHome = pathname === '/' || pathname === '/explore';
   const showAdmin = process.env.NODE_ENV === 'development';
   if (isLogin) return <>{children}</>;
 
@@ -408,10 +409,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       </aside>
       <div className="app-content">
         <header className="desktop-app-header">
-          <button type="button" className="app-back-button" onClick={goBack}>
-            <ArrowLeft aria-hidden="true" size={17} />
-            <span>Back</span>
-          </button>
+          {!isExploreHome ? (
+            <button type="button" className="app-back-button" onClick={goBack}>
+              <ArrowLeft aria-hidden="true" size={17} />
+              <span>Back</span>
+            </button>
+          ) : null}
           <button
             type="button"
             className="theme-toggle desktop-theme-toggle"
@@ -434,9 +437,11 @@ export function AppShell({ children }: { children: ReactNode }) {
           >
             <Menu aria-hidden="true" size={20} />
           </button>
-          <button type="button" className="sidebar-icon-button mobile-back-button" aria-label="Go back" onClick={goBack}>
-            <ArrowLeft aria-hidden="true" size={18} />
-          </button>
+          {!isExploreHome ? (
+            <button type="button" className="sidebar-icon-button mobile-back-button" aria-label="Go back" onClick={goBack}>
+              <ArrowLeft aria-hidden="true" size={18} />
+            </button>
+          ) : null}
           <Link href="/explore" className="mobile-brand">Quantara</Link>
           <button
             type="button"
@@ -458,16 +463,20 @@ export function AppShell({ children }: { children: ReactNode }) {
         {children}
         <nav
           aria-label="Mobile navigation"
-          className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
+          className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-6 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
         >
           {[
             { href: '/chat', label: 'Chat', icon: MessageCircle },
             { href: '/quiz', label: 'Quiz', icon: BookOpenCheck },
             { href: '/vocab', label: 'Vocab', icon: Languages },
             { href: '/grammar', label: 'Grammar', icon: ClipboardList },
+            { href: '/gre', label: 'GRE', icon: BrainCircuit },
             { href: '/explore', label: 'Explore', icon: Compass },
           ].map(({ href, label, icon: Icon }) => {
-            const active = pathname === href || (href === '/chat' && pathname === '/');
+            const active =
+              pathname === href ||
+              (href === '/chat' && pathname === '/') ||
+              (href === '/gre' && pathname.startsWith('/gre/'));
             return (
               <Link
                 key={href}

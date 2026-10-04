@@ -1550,8 +1550,11 @@ select {
   }
 
   .mobile-brand {
+    position: absolute;
+    left: 50%;
     min-width: 0;
-    flex: 1;
+    flex: none;
+    transform: translateX(-50%);
     text-align: center;
     color: var(--foreground);
     font-family: var(--font-playfair), Georgia, serif;
