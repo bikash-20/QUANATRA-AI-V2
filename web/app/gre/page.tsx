@@ -59,6 +59,16 @@ export default function GreHubPage() {
         </Link>
 
         <Link
+          href="/gre/progress"
+          className="rounded-2xl border border-slate-200/20 bg-slate-900/40 p-6 transition hover:border-cyan-400/40 hover:bg-slate-900/60"
+        >
+          <h2 className="text-xl font-semibold">Progress</h2>
+          <p className="mt-1 text-sm text-slate-400">
+            Accuracy per topic, weak subtopics, vocab status, mock history, and streak.
+          </p>
+        </Link>
+
+        <Link
           href="/gre/quant/mock"
           className="rounded-2xl border border-amber-300/30 bg-amber-500/10 p-6 transition hover:border-amber-300/60"
         >
