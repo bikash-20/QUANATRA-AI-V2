@@ -1,0 +1,52 @@
+{
+ "generatedAt": "2026-10-04T20:48:46.746Z",
+ "quant": {
+  "algebra": {
+   "count": 6,
+   "easy": 1,
+   "medium": 4,
+   "hard": 1,
+   "shards": 1
+  },
+  "arithmetic": {
+   "count": 6,
+   "easy": 1,
+   "medium": 3,
+   "hard": 2,
+   "shards": 1
+  },
+  "data-analysis": {
+   "count": 6,
+   "easy": 1,
+   "medium": 3,
+   "hard": 2,
+   "shards": 1
+  },
+  "geometry": {
+   "count": 6,
+   "easy": 1,
+   "medium": 3,
+   "hard": 2,
+   "shards": 1
+  },
+  "word-problems": {
+   "count": 6,
+   "easy": 1,
+   "medium": 3,
+   "hard": 2,
+   "shards": 1
+  }
+ },
+ "vocab": {
+  "set-01": {
+   "count": 25
+  },
+  "set-02": {
+   "count": 25
+  }
+ },
+ "totals": {
+  "quant": 30,
+  "vocab": 50
+ }
+}

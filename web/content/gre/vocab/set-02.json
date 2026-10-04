@@ -1,0 +1,403 @@
+[
+ {
+  "id": "v-0026",
+  "word": "enervate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to weaken or drain of energy (not to energize)",
+  "synonyms": [
+   "debilitate",
+   "sap"
+  ],
+  "antonyms": [
+   "invigorate",
+   "energize"
+  ],
+  "example": "The tropical heat enervated the hikers by noon."
+ },
+ {
+  "id": "v-0027",
+  "word": "ephemeral",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "lasting a very short time",
+  "synonyms": [
+   "transient",
+   "fleeting",
+   "evanescent"
+  ],
+  "antonyms": [
+   "enduring",
+   "permanent"
+  ],
+  "example": "Fame in the age of viral videos is often ephemeral."
+ },
+ {
+  "id": "v-0028",
+  "word": "equivocate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to use ambiguous language to avoid committing oneself",
+  "synonyms": [
+   "hedge",
+   "prevaricate"
+  ],
+  "antonyms": [
+   "commit",
+   "be forthright"
+  ],
+  "example": "Pressed for a date, the minister continued to equivocate."
+ },
+ {
+  "id": "v-0029",
+  "word": "erudite",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "having or showing great learning",
+  "synonyms": [
+   "learned",
+   "scholarly"
+  ],
+  "antonyms": [
+   "ignorant",
+   "unlettered"
+  ],
+  "example": "The erudite historian cited sources in six languages."
+ },
+ {
+  "id": "v-0030",
+  "word": "exacerbate",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to make a problem or bad situation worse",
+  "synonyms": [
+   "aggravate",
+   "worsen"
+  ],
+  "antonyms": [
+   "alleviate",
+   "mitigate"
+  ],
+  "example": "Raising the tariff only exacerbated the shortage."
+ },
+ {
+  "id": "v-0031",
+  "word": "exculpate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to show or declare to be not guilty",
+  "synonyms": [
+   "exonerate",
+   "absolve"
+  ],
+  "antonyms": [
+   "incriminate",
+   "indict"
+  ],
+  "example": "New DNA evidence exculpated the accused."
+ },
+ {
+  "id": "v-0032",
+  "word": "fastidious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "very attentive to accuracy and detail; hard to please",
+  "synonyms": [
+   "meticulous",
+   "finicky"
+  ],
+  "antonyms": [
+   "careless",
+   "slovenly"
+  ],
+  "example": "She was fastidious about the formatting of every citation."
+ },
+ {
+  "id": "v-0033",
+  "word": "fecund",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "producing or capable of producing much; fertile",
+  "synonyms": [
+   "fruitful",
+   "prolific"
+  ],
+  "antonyms": [
+   "barren",
+   "sterile"
+  ],
+  "example": "The river valley was a fecund source of crops and ideas."
+ },
+ {
+  "id": "v-0034",
+  "word": "fulsome",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "excessively flattering or lavish to the point of insincerity",
+  "synonyms": [
+   "effusive",
+   "unctuous"
+  ],
+  "antonyms": [
+   "restrained",
+   "sincere"
+  ],
+  "example": "The envoy's fulsome praise made the hosts uneasy."
+ },
+ {
+  "id": "v-0035",
+  "word": "garrulous",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "excessively talkative, especially about trivial matters",
+  "synonyms": [
+   "loquacious",
+   "voluble"
+  ],
+  "antonyms": [
+   "taciturn",
+   "reticent"
+  ],
+  "example": "My garrulous neighbor can turn a greeting into an hour-long chat."
+ },
+ {
+  "id": "v-0036",
+  "word": "iconoclast",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a person who attacks cherished beliefs or institutions",
+  "synonyms": [
+   "dissenter",
+   "rebel"
+  ],
+  "antonyms": [
+   "conformist",
+   "traditionalist"
+  ],
+  "example": "As an iconoclast, he mocked the field's most revered theories."
+ },
+ {
+  "id": "v-0037",
+  "word": "imperturbable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "incapable of being upset or agitated; calm",
+  "synonyms": [
+   "unflappable",
+   "composed"
+  ],
+  "antonyms": [
+   "excitable",
+   "volatile"
+  ],
+  "example": "The pilot remained imperturbable throughout the turbulence."
+ },
+ {
+  "id": "v-0038",
+  "word": "inchoate",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "just begun and not fully formed; rudimentary",
+  "synonyms": [
+   "incipient",
+   "nascent"
+  ],
+  "antonyms": [
+   "mature",
+   "developed"
+  ],
+  "example": "The movement was still inchoate, without leaders or a program."
+ },
+ {
+  "id": "v-0039",
+  "word": "inimical",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "hostile or harmful in effect",
+  "synonyms": [
+   "adverse",
+   "antagonistic"
+  ],
+  "antonyms": [
+   "friendly",
+   "favorable"
+  ],
+  "example": "Such policies are inimical to small businesses."
+ },
+ {
+  "id": "v-0040",
+  "word": "intransigent",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "unwilling to change one's views or compromise",
+  "synonyms": [
+   "uncompromising",
+   "obdurate"
+  ],
+  "antonyms": [
+   "flexible",
+   "conciliatory"
+  ],
+  "example": "Intransigent negotiators let the talks collapse."
+ },
+ {
+  "id": "v-0041",
+  "word": "inure",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to accustom someone to something unpleasant",
+  "synonyms": [
+   "harden",
+   "habituate"
+  ],
+  "antonyms": [
+   "sensitize",
+   "soften"
+  ],
+  "example": "Years in the ER inured her to the sight of suffering."
+ },
+ {
+  "id": "v-0042",
+  "word": "laconic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "using very few words",
+  "synonyms": [
+   "terse",
+   "concise"
+  ],
+  "antonyms": [
+   "verbose",
+   "prolix"
+  ],
+  "example": "His laconic reply was simply, \"No.\""
+ },
+ {
+  "id": "v-0043",
+  "word": "mendacious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "not telling the truth; lying",
+  "synonyms": [
+   "dishonest",
+   "deceitful"
+  ],
+  "antonyms": [
+   "truthful",
+   "veracious"
+  ],
+  "example": "The mendacious witness contradicted his own earlier statement."
+ },
+ {
+  "id": "v-0044",
+  "word": "mercurial",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "subject to sudden and unpredictable changes of mood",
+  "synonyms": [
+   "capricious",
+   "volatile"
+  ],
+  "antonyms": [
+   "steady",
+   "constant"
+  ],
+  "example": "Her mercurial temper made her team wary of bringing bad news."
+ },
+ {
+  "id": "v-0045",
+  "word": "obviate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to remove a need or difficulty in advance",
+  "synonyms": [
+   "preclude",
+   "forestall"
+  ],
+  "antonyms": [
+   "necessitate",
+   "require"
+  ],
+  "example": "Online filing obviates the need to visit the office."
+ },
+ {
+  "id": "v-0046",
+  "word": "parsimonious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "extremely unwilling to spend money; stingy",
+  "synonyms": [
+   "miserly",
+   "penurious"
+  ],
+  "antonyms": [
+   "generous",
+   "lavish"
+  ],
+  "example": "The parsimonious landlord refused to repair the heater."
+ },
+ {
+  "id": "v-0047",
+  "word": "pellucid",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "transparently clear in expression or appearance",
+  "synonyms": [
+   "limpid",
+   "lucid"
+  ],
+  "antonyms": [
+   "opaque",
+   "murky"
+  ],
+  "example": "Her pellucid prose made complex ideas feel simple."
+ },
+ {
+  "id": "v-0048",
+  "word": "prescient",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "having knowledge of events before they happen",
+  "synonyms": [
+   "prophetic",
+   "farsighted"
+  ],
+  "antonyms": [
+   "shortsighted",
+   "unforeseeing"
+  ],
+  "example": "Her prescient memo warned of the crisis years earlier."
+ },
+ {
+  "id": "v-0049",
+  "word": "refractory",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "stubborn and resistant to control or treatment",
+  "synonyms": [
+   "unruly",
+   "recalcitrant"
+  ],
+  "antonyms": [
+   "tractable",
+   "docile"
+  ],
+  "example": "The refractory mule would not cross the stream."
+ },
+ {
+  "id": "v-0050",
+  "word": "venerate",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to regard with great respect and reverence",
+  "synonyms": [
+   "revere",
+   "esteem"
+  ],
+  "antonyms": [
+   "despise",
+   "revile"
+  ],
+  "example": "Many scientists venerate Darwin as a founding genius."
+ }
+]

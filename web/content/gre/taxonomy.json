@@ -1,0 +1,81 @@
+{
+ "version": 1,
+ "quant": [
+  {
+   "slug": "arithmetic",
+   "title": "Arithmetic & Number Properties",
+   "subtopics": [
+    "percent",
+    "ratio",
+    "number-properties",
+    "exponents",
+    "divisibility",
+    "primes"
+   ]
+  },
+  {
+   "slug": "algebra",
+   "title": "Algebra",
+   "subtopics": [
+    "linear-equations",
+    "quadratics",
+    "inequalities",
+    "exponents-equations",
+    "absolute-value"
+   ]
+  },
+  {
+   "slug": "geometry",
+   "title": "Geometry",
+   "subtopics": [
+    "circles",
+    "triangles",
+    "area",
+    "coordinate-geometry"
+   ]
+  },
+  {
+   "slug": "data-analysis",
+   "title": "Data Analysis, Probability & Counting",
+   "subtopics": [
+    "statistics",
+    "probability",
+    "counting"
+   ]
+  },
+  {
+   "slug": "word-problems",
+   "title": "Word Problems",
+   "subtopics": [
+    "rate",
+    "work",
+    "interest",
+    "mixtures",
+    "percent-change",
+    "average-speed"
+   ]
+  }
+ ],
+ "questionTypes": {
+  "mcq": "Multiple choice, one answer",
+  "multi": "Multiple choice, one or more answers",
+  "qc": "Quantitative comparison",
+  "numeric": "Numeric entry"
+ },
+ "qcChoices": [
+  "Quantity A is greater",
+  "Quantity B is greater",
+  "The two quantities are equal",
+  "The relationship cannot be determined from the information given"
+ ],
+ "difficulty": [
+  "easy",
+  "medium",
+  "hard"
+ ],
+ "vocabTiers": {
+  "1": "Hard",
+  "2": "Harder",
+  "3": "Hardest"
+ }
+}
