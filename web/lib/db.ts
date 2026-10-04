@@ -16,7 +16,7 @@
 //      before the IDB connection opens.
 
 const DB_NAME = "quantara";
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const STORES = [
   "chats",
   "decks",
@@ -26,6 +26,14 @@ const STORES = [
   "progress",
   "meta",
   "explanations",
+  // GRE module stores (added in v3):
+  "greAttempts",   // every attempt for every quant question
+  "greBookmarks",  // bookmarked question ids
+  "greVocab",      // per-word SRS state and status
+  "greRoadmap",    // roadmap day progress
+  "greStreak",     // single record with daily streak info
+  "greMocks",      // in-progress and completed mocks
+  "greReports",    // user-reported wrong-answer question ids
 ] as const;
 
 export type StoreName = (typeof STORES)[number];
