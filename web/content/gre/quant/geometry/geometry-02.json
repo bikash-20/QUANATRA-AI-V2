@@ -1,0 +1,403 @@
+[
+ {
+  "id": "q-geo-007",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a circle with radius $4$?",
+  "choices": [
+   "$4\\pi$",
+   "$8\\pi$",
+   "$12\\pi$",
+   "$16\\pi$",
+   "$32\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-008",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the sum of the interior angles of a triangle?",
+  "choices": [
+   "$90\\degree$",
+   "$180\\degree$",
+   "$270\\degree$",
+   "$360\\degree$",
+   "$540\\degree$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-009",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a rectangle with length $8$ and width $5$?",
+  "choices": [
+   "$13$",
+   "$26$",
+   "$35$",
+   "$40$",
+   "$80$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-010",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the slope of the line through the points $(0, 0)$ and $(4, 8)$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$2$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-011",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the circumference of a circle with diameter $10$?",
+  "choices": [
+   "$5\\pi$",
+   "$10\\pi$",
+   "$20\\pi$",
+   "$25\\pi$",
+   "$100\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-012",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "In a $30\\degree$-$60\\degree$-$90\\degree$ triangle, the shorter leg is $4$. What is the length of the longer leg?",
+  "choices": [
+   "$2\\sqrt{3}$",
+   "$4\\sqrt{3}$",
+   "$8$",
+   "$8\\sqrt{3}$",
+   "$12$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-013",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two sides of a triangle have lengths $7$ and $9$. Which of the following could be the length of the third side?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$15$",
+   "$16$",
+   "$17$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-014",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The area of a square with perimeter $20$",
+  "quantityB": "The area of a rectangle with dimensions $4 \\times 6$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-015",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a triangle with base $10$ and height $6$?",
+  "choices": [
+   "$16$",
+   "$30$",
+   "$60$",
+   "$120$",
+   "$300$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-016",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following statements are true for any rectangle? Indicate all such statements.",
+  "choices": [
+   "Opposite sides are equal",
+   "Diagonals are equal",
+   "All angles are $90\\degree$",
+   "Diagonals are perpendicular",
+   "Opposite sides are parallel"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-017",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the slope of a line perpendicular to the line $y = 3x + 4$?",
+  "choices": [
+   "$-3$",
+   "$-\\frac{1}{3}$",
+   "$\\frac{1}{3}$",
+   "$3$",
+   "$9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-018",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the distance from the point $(0, 0)$ to the line $y = 5$?",
+  "answer": 5
+ },
+ {
+  "id": "q-geo-019",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The diameter of a circle is $12$. What is the area of the circle?",
+  "choices": [
+   "$6\\pi$",
+   "$12\\pi$",
+   "$36\\pi$",
+   "$144\\pi$",
+   "$169\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-020",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The area of a circle with radius $6$",
+  "quantityB": "$100$",
+  "answer": "B"
+ },
+ {
+  "id": "q-geo-021",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If a triangle has angles $40\\degree$, $60\\degree$, and $80\\degree$, it is best described as:",
+  "choices": [
+   "Equilateral",
+   "Isosceles",
+   "Right",
+   "Acute",
+   "Obtuse"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-022",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the length of the hypotenuse of an isosceles right triangle whose legs have length $5$?",
+  "choices": [
+   "$5$",
+   "$5\\sqrt{2}$",
+   "$5\\sqrt{3}$",
+   "$10$",
+   "$10\\sqrt{2}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-023",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a trapezoid with parallel sides $6$ and $10$ and height $4$?",
+  "choices": [
+   "$20$",
+   "$24$",
+   "$32$",
+   "$40$",
+   "$60$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-024",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following points lie on the line $y = 2x - 1$? Indicate all such points.",
+  "choices": [
+   "$(0, -1)$",
+   "$(1, 1)$",
+   "$(2, 3)$",
+   "$(3, 5)$",
+   "$(4, 9)$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-025",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the $x$-intercept of the line $3x + 2y = 12$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-026",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Two concentric circles have radii $3$ and $5$. What is the area of the region between them?",
+  "choices": [
+   "$2\\pi$",
+   "$4\\pi$",
+   "$8\\pi$",
+   "$16\\pi$",
+   "$25\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-027",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The area of a triangle with sides $5, 12, 13$",
+  "quantityB": "$30$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-028",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the area of an equilateral triangle with side length $4$?",
+  "answer": 4
+ },
+ {
+  "id": "q-geo-029",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A rectangle has area $60$. If its length is $3$ more than twice its width, what is the width?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-030",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following points lie on the circle $x^2 + y^2 = 25$? Indicate all such points.",
+  "choices": [
+   "$(3, 4)$",
+   "$(4, 3)$",
+   "$(5, 0)$",
+   "$(0, 5)$",
+   "$(5, 5)$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-031",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the area of a sector with central angle $60\\degree$ in a circle of radius $6$? (Express as a multiple of $\\pi$.)",
+  "answer": 6
+ }
+]

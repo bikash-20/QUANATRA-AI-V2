@@ -1,0 +1,424 @@
+[
+ {
+  "id": "v-0301",
+  "word": "torpor",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a state of physical or mental inactivity; lethargy",
+  "synonyms": [
+   "lethargy",
+   "torpidity",
+   "stupor"
+  ],
+  "antonyms": [
+   "vitality",
+   "energy"
+  ],
+  "example": "The heat left everyone in a torpor."
+ },
+ {
+  "id": "v-0302",
+  "word": "tractable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "easy to control or influence",
+  "synonyms": [
+   "manageable",
+   "docile",
+   "compliant"
+  ],
+  "antonyms": [
+   "intractable",
+   "stubborn"
+  ],
+  "example": "The tractable horse made an excellent mount."
+ },
+ {
+  "id": "v-0303",
+  "word": "truculence",
+  "pos": "n",
+  "tier": 3,
+  "definition": "eagerness to argue or fight; bellicosity",
+  "synonyms": [
+   "belligerence",
+   "pugnacity",
+   "aggression"
+  ],
+  "antonyms": [
+   "peacefulness",
+   "conciliation"
+  ],
+  "example": "His truculence made negotiations impossible."
+ },
+ {
+  "id": "v-0304",
+  "word": "turpitude",
+  "pos": "n",
+  "tier": 3,
+  "definition": "wickedness; depravity",
+  "synonyms": [
+   "depravity",
+   "wickedness",
+   "corruption"
+  ],
+  "antonyms": [
+   "virtue",
+   "integrity"
+  ],
+  "example": "He was charged with moral turpitude."
+ },
+ {
+  "id": "v-0305",
+  "word": "tyro",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a beginner or novice",
+  "synonyms": [
+   "novice",
+   "beginner",
+   " neophyte"
+  ],
+  "antonyms": [
+   "veteran",
+   "expert"
+  ],
+  "example": "Even a tyro can master the basics in a week."
+ },
+ {
+  "id": "v-0306",
+  "word": "odium",
+  "pos": "n",
+  "tier": 3,
+  "definition": "general or widespread dislike or reprobation",
+  "synonyms": [
+   "disrepute",
+   "infamy",
+   "opprobrium"
+  ],
+  "antonyms": [
+   "esteem",
+   "honor"
+  ],
+  "example": "He earned the odium of his peers after the leak."
+ },
+ {
+  "id": "v-0307",
+  "word": "unconscionable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not guided by conscience; shockingly unreasonable",
+  "synonyms": [
+   "shameless",
+   "outrageous",
+   "unreasonable"
+  ],
+  "antonyms": [
+   "reasonable",
+   "conscientious"
+  ],
+  "example": "The unconscionable delay enraged the travelers."
+ },
+ {
+  "id": "v-0308",
+  "word": "usurp",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to take a position of power or importance without right or permission",
+  "synonyms": [
+   "seize",
+   "appropriate",
+   " commandeer"
+  ],
+  "antonyms": [
+   "relinquish",
+   "yield"
+  ],
+  "example": "The general usurped the throne."
+ },
+ {
+  "id": "v-0309",
+  "word": "vacillate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to waver between different opinions or actions",
+  "synonyms": [
+   "waver",
+   "oscillate",
+   "fluctuate"
+  ],
+  "antonyms": [
+   "resolve",
+   "decide"
+  ],
+  "example": "She vacillated between accepting and refusing the offer."
+ },
+ {
+  "id": "v-0310",
+  "word": "venerable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "accorded a great deal of respect, especially because of age",
+  "synonyms": [
+   "respected",
+   "revered",
+   " esteemed"
+  ],
+  "antonyms": [
+   "disreputable"
+  ],
+  "example": "The venerable elder addressed the village."
+ },
+ {
+  "id": "v-0311",
+  "word": "verisimilitude",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the appearance of being true or real",
+  "synonyms": [
+   "realism",
+   "authenticity",
+   "lifelike quality"
+  ],
+  "antonyms": [
+   "unreality",
+   "artificiality"
+  ],
+  "example": "The film strove for historical verisimilitude."
+ },
+ {
+  "id": "v-0312",
+  "word": "vincible",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "capable of being conquered or overcome",
+  "synonyms": [
+   "conquerable",
+   "vulnerable",
+   "beatable"
+  ],
+  "antonyms": [
+   "invincible",
+   "unconquerable"
+  ],
+  "example": "Every army, however mighty, is vincible."
+ },
+ {
+  "id": "v-0313",
+  "word": "attenuate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to reduce the force, value, or effect of something",
+  "synonyms": [
+   "weaken",
+   "diminish",
+   "dampen"
+  ],
+  "antonyms": [
+   "amplify",
+   "strengthen"
+  ],
+  "example": "The long delay did not attenuate public anger."
+ },
+ {
+  "id": "v-0314",
+  "word": "vituperate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to blame or insult someone in strong or violent language",
+  "synonyms": [
+   "berate",
+   "castigate",
+   "revile"
+  ],
+  "antonyms": [
+   "praise",
+   "commend"
+  ],
+  "example": "He vituperated his rivals in print."
+ },
+ {
+  "id": "v-0315",
+  "word": "voluptuous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "curvaceous and sexually attractive; sensually pleasing",
+  "synonyms": [
+   "sensuous",
+   "luscious",
+   "shapely"
+  ],
+  "antonyms": [
+   "gaunt",
+   "ascetic"
+  ],
+  "example": "The painting depicted a voluptuous figure reclining."
+ },
+ {
+  "id": "v-0316",
+  "word": "waft",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to be conveyed lightly through the air",
+  "synonyms": [
+   "drift",
+   "float",
+   "carry"
+  ],
+  "antonyms": [
+   "settle",
+   "fall"
+  ],
+  "example": "The scent of pine wafted through the cabin."
+ },
+ {
+  "id": "v-0317",
+  "word": "winsome",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "attractive or appealing in appearance or character",
+  "synonyms": [
+   "charming",
+   "sweet",
+   " engaging"
+  ],
+  "antonyms": [
+   "repulsive",
+   "unappealing"
+  ],
+  "example": "Her winsome smile won everyone over."
+ },
+ {
+  "id": "v-0318",
+  "word": "yoke",
+  "pos": "n",
+  "tier": 2,
+  "definition": "something regarded as oppressive or restrictive",
+  "synonyms": [
+   "bondage",
+   "oppression",
+   "burden"
+  ],
+  "antonyms": [
+   "freedom",
+   "liberty"
+  ],
+  "example": "They threw off the yoke of tyranny."
+ },
+ {
+  "id": "v-0319",
+  "word": "abeyance",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a state of temporary disuse or suspension",
+  "synonyms": [
+   "suspension",
+   "dormancy",
+   "inactivity"
+  ],
+  "antonyms": [
+   "operation",
+   "activity"
+  ],
+  "example": "The project was held in abeyance until funds arrived."
+ },
+ {
+  "id": "v-0320",
+  "word": "approbrium",
+  "pos": "n",
+  "tier": 3,
+  "definition": "disapproval or censure",
+  "synonyms": [
+   "disapproval",
+   "censure",
+   "condemnation"
+  ],
+  "antonyms": [
+   "approval",
+   "praise"
+  ],
+  "example": "He earned the approbrium of his peers."
+ },
+ {
+  "id": "v-0321",
+  "word": "banal",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "so lacking in originality as to be obvious and boring",
+  "synonyms": [
+   "hackneyed",
+   "trite",
+   "clichéd"
+  ],
+  "antonyms": [
+   "original",
+   "fresh"
+  ],
+  "example": "The film was banal and predictable."
+ },
+ {
+  "id": "v-0322",
+  "word": "bedizen",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to dress or adorn gaudily or tastelessly",
+  "synonyms": [
+   "bedeck",
+   "overload",
+   "overdecorate"
+  ],
+  "antonyms": [
+   "strip"
+  ],
+  "example": "The hall was bedizened with gaudy streamers."
+ },
+ {
+  "id": "v-0323",
+  "word": "beleaguer",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to put in a very difficult situation; to besiege",
+  "synonyms": [
+   "besiege",
+   "harass",
+   "plague"
+  ],
+  "antonyms": [
+   "support",
+   "comfort"
+  ],
+  "example": "The beleaguered mayor faced one crisis after another."
+ },
+ {
+  "id": "v-0324",
+  "word": "cadge",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to ask for or get something without paying for it",
+  "synonyms": [
+   "beg",
+   "scrounge",
+   "mooch"
+  ],
+  "antonyms": [
+   "earn",
+   "buy"
+  ],
+  "example": "He cadged a free meal from his aunt."
+ },
+ {
+  "id": "v-0325",
+  "word": "cogitate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to think deeply about something; to ponder",
+  "synonyms": [
+   "ponder",
+   "reflect",
+   "contemplate"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "He cogitated on the meaning of the poem."
+ }
+]

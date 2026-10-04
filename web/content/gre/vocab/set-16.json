@@ -1,0 +1,425 @@
+[
+ {
+  "id": "v-0376",
+  "word": "poignant",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "evoking a keen sense of sadness or regret",
+  "synonyms": [
+   "moving",
+   "touching",
+   "heartfelt"
+  ],
+  "antonyms": [
+   "flat",
+   "unmoving"
+  ],
+  "example": "She offered a poignant tribute to her late mentor."
+ },
+ {
+  "id": "v-0377",
+  "word": "predatory",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "seeking to exploit others; rapacious",
+  "synonyms": [
+   "exploitative",
+   "rapacious",
+   "raiding"
+  ],
+  "antonyms": [
+   "altruistic",
+   "generous"
+  ],
+  "example": "The predatory lender charged obscene fees."
+ },
+ {
+  "id": "v-0378",
+  "word": "pseudonym",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a fictitious name used by an author",
+  "synonyms": [
+   "alias",
+   "pen name",
+   "nom de plume"
+  ],
+  "antonyms": [
+   "real name"
+  ],
+  "example": "She wrote her memoirs under a pseudonym."
+ },
+ {
+  "id": "v-0379",
+  "word": "rapacious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "aggressively greedy or grasping",
+  "synonyms": [
+   "ravenous",
+   "voracious",
+   "grasping"
+  ],
+  "antonyms": [
+   "generous",
+   "abstemious"
+  ],
+  "example": "The rapacious predator devoured its prey in minutes."
+ },
+ {
+  "id": "v-0380",
+  "word": "tangential",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "peripheral; only slightly relevant",
+  "synonyms": [
+   "peripheral",
+   "incidental",
+   "divergent"
+  ],
+  "antonyms": [
+   "central",
+   "essential"
+  ],
+  "example": "His remarks were merely tangential to the debate."
+ },
+ {
+  "id": "v-0381",
+  "word": "tantamount",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "equivalent in seriousness to",
+  "synonyms": [
+   "equivalent",
+   "equal",
+   "identical"
+  ],
+  "antonyms": [
+   "unlike",
+   "different"
+  ],
+  "example": "The vote was tantamount to a vote of no confidence."
+ },
+ {
+  "id": "v-0382",
+  "word": "venerated",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "regarded with great respect or reverence",
+  "synonyms": [
+   "revered",
+   "respected",
+   "esteemed"
+  ],
+  "antonyms": [
+   "despised",
+   "reviled"
+  ],
+  "example": "The venerated leader retired after forty years."
+ },
+ {
+  "id": "v-0383",
+  "word": "vestigial",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "forming a very small remnant of something that was once larger",
+  "synonyms": [
+   "rudimentary",
+   "residual",
+   "traces"
+  ],
+  "antonyms": [
+   "developed",
+   "full"
+  ],
+  "example": "The ostrich has vestigial wings it cannot use."
+ },
+ {
+  "id": "v-0384",
+  "word": "vindictive",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having a strong desire for revenge",
+  "synonyms": [
+   "vengeful",
+   "spiteful",
+   "revengeful"
+  ],
+  "antonyms": [
+   "forgiving",
+   "merciful"
+  ],
+  "example": "His vindictive streak alienated old friends."
+ },
+ {
+  "id": "v-0385",
+  "word": "vivacious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "attractively lively and animated",
+  "synonyms": [
+   "lively",
+   "animated",
+   "spirited"
+  ],
+  "antonyms": [
+   "lethargic",
+   "dull"
+  ],
+  "example": "Her vivacious personality lit up the room."
+ },
+ {
+  "id": "v-0386",
+  "word": "vulgar",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "lacking sophistication or good taste",
+  "synonyms": [
+   "crude",
+   "coarse",
+   "uncouth"
+  ],
+  "antonyms": [
+   "refined",
+   "elegant"
+  ],
+  "example": "His vulgar jokes alienated the audience."
+ },
+ {
+  "id": "v-0387",
+  "word": "waver",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to shake or flicker; to be undecided",
+  "synonyms": [
+   "hesitate",
+   "falter",
+   "vacillate"
+  ],
+  "antonyms": [
+   "resolve",
+   "decide"
+  ],
+  "example": "She wavered at the threshold."
+ },
+ {
+  "id": "v-0388",
+  "word": "wisecrack",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a witty and typically sharp or sardonic remark",
+  "synonyms": [
+   "quip",
+   "jest",
+   "remark"
+  ],
+  "antonyms": [
+   "compliment"
+  ],
+  "example": "His wisecrack lightened the tense mood."
+ },
+ {
+  "id": "v-0389",
+  "word": "wrangle",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to dispute angrily or peevishly",
+  "synonyms": [
+   "argue",
+   "bicker",
+   "quarrel"
+  ],
+  "antonyms": [
+   "agree",
+   "reconcile"
+  ],
+  "example": "They wrangled over the wording for hours."
+ },
+ {
+  "id": "v-0390",
+  "word": "wrath",
+  "pos": "n",
+  "tier": 3,
+  "definition": "extreme anger",
+  "synonyms": [
+   "rage",
+   "fury",
+   "ire"
+  ],
+  "antonyms": [
+   "calm",
+   "composure"
+  ],
+  "example": "The king wrath fell upon the conspirators."
+ },
+ {
+  "id": "v-0391",
+  "word": "wrest",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to forcibly pull something from a persons grasp",
+  "synonyms": [
+   "seize",
+   "wrench",
+   "snatch"
+  ],
+  "antonyms": [
+   "release",
+   "yield"
+  ],
+  "example": "He wrested the confession from his opponent."
+ },
+ {
+  "id": "v-0392",
+  "word": "zealot",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who is fanatical and uncompromising",
+  "synonyms": [
+   "fanatic",
+   "extremist",
+   "radical"
+  ],
+  "antonyms": [
+   "moderate",
+   "centrist"
+  ],
+  "example": "The zealot refused to negotiate."
+ },
+ {
+  "id": "v-0393",
+  "word": "zenith",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the time at which something is most powerful or successful",
+  "synonyms": [
+   "peak",
+   "height",
+   "apex"
+  ],
+  "antonyms": [
+   "nadir",
+   "lowest point"
+  ],
+  "example": "The empire reached its zenith in the second century."
+ },
+ {
+  "id": "v-0394",
+  "word": "adversary",
+  "pos": "n",
+  "tier": 2,
+  "definition": "an opponent or enemy",
+  "synonyms": [
+   "opponent",
+   "rival",
+   "antagonist"
+  ],
+  "antonyms": [
+   "ally",
+   "friend"
+  ],
+  "example": "She sized up her adversary with care."
+ },
+ {
+  "id": "v-0395",
+  "word": "allay",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to diminish or put at rest; to relieve",
+  "synonyms": [
+   "ease",
+   "relieve",
+   "soothe"
+  ],
+  "antonyms": [
+   "intensify",
+   "provoke"
+  ],
+  "example": "He tried to allay her fears with a calm explanation."
+ },
+ {
+  "id": "v-0396",
+  "word": "anomaly",
+  "pos": "n",
+  "tier": 2,
+  "definition": "something that deviates from what is standard or expected",
+  "synonyms": [
+   "aberration",
+   "irregularity",
+   "exception"
+  ],
+  "antonyms": [
+   "norm",
+   "standard"
+  ],
+  "example": "The data point was an anomaly worth investigating."
+ },
+ {
+  "id": "v-0397",
+  "word": "arrogate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to take or claim for oneself without justification",
+  "synonyms": [
+   "usurp",
+   "appropriate",
+   "assume"
+  ],
+  "antonyms": [
+   "relinquish",
+   "yield"
+  ],
+  "example": "He arrogated authority he did not possess."
+ },
+ {
+  "id": "v-0398",
+  "word": "axiom",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a statement or proposition regarded as self-evidently true",
+  "synonyms": [
+   "precept",
+   "principle",
+   "truism"
+  ],
+  "antonyms": [
+   "paradox",
+   "fallacy"
+  ],
+  "example": "It became an axiom of modern physics."
+ },
+ {
+  "id": "v-0399",
+  "word": "calibrate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to adjust or mark so as to ensure accuracy",
+  "synonyms": [
+   "adjust",
+   "regulate",
+   "fine-tune"
+  ],
+  "antonyms": [
+   "miscalibrate",
+   "distort"
+  ],
+  "example": "The lab calibrated the instruments before each run."
+ },
+ {
+  "id": "v-0400",
+  "word": "carping",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "continually finding fault; petty criticism",
+  "synonyms": [
+   "critical",
+   "caviling",
+   "fault-finding"
+  ],
+  "antonyms": [
+   "laudatory",
+   "approving"
+  ],
+  "example": "His carping review soured the opening night."
+ }
+]

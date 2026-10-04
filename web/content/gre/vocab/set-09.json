@@ -1,0 +1,426 @@
+[
+ {
+  "id": "v-0201",
+  "word": "calumny",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a false and malicious statement designed to injure someone's reputation",
+  "synonyms": [
+   "slander",
+   "defamation",
+   "libel"
+  ],
+  "antonyms": [
+   "praise",
+   "compliment"
+  ],
+  "example": "His memoir was full of calumny against former colleagues."
+ },
+ {
+  "id": "v-0202",
+  "word": "chimerical",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "existing only as the product of unchecked imagination; fantastical",
+  "synonyms": [
+   "fantastical",
+   "illusory",
+   "imaginary"
+  ],
+  "antonyms": [
+   "realistic",
+   "practical"
+  ],
+  "example": "The chimerical scheme collapsed on contact with reality."
+ },
+ {
+  "id": "v-0203",
+  "word": "clandestine",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "kept private or hidden, especially because disapproved of",
+  "synonyms": [
+   "secret",
+   "covert",
+   "surreptitious"
+  ],
+  "antonyms": [
+   "open",
+   "public"
+  ],
+  "example": "They conducted clandestine meetings in the cellar."
+ },
+ {
+  "id": "v-0204",
+  "word": "coalesce",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to come together to form one whole",
+  "synonyms": [
+   "merge",
+   "unite",
+   "fuse"
+  ],
+  "antonyms": [
+   "separate",
+   "split"
+  ],
+  "example": "The factions coalesced around a single leader."
+ },
+ {
+  "id": "v-0205",
+  "word": "compunction",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a feeling of guilt or moral scruple",
+  "synonyms": [
+   "guilt",
+   "remorse",
+   "qualms"
+  ],
+  "antonyms": [
+   "comfort",
+   "assurance"
+  ],
+  "example": "He felt no compunction about lying to them."
+ },
+ {
+  "id": "v-0206",
+  "word": "convoluted",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "extremely complex and difficult to follow",
+  "synonyms": [
+   "complicated",
+   "intricate",
+   "tortuous"
+  ],
+  "antonyms": [
+   "simple",
+   "straightforward"
+  ],
+  "example": "His convoluted explanation left everyone more confused."
+ },
+ {
+  "id": "v-0207",
+  "word": "corporeal",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "of or relating to the body; tangible",
+  "synonyms": [
+   "physical",
+   "bodily",
+   "material"
+  ],
+  "antonyms": [
+   "spiritual",
+   "intangible"
+  ],
+  "example": "The spirit seemed to leave its corporeal form."
+ },
+ {
+  "id": "v-0208",
+  "word": "culpable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "deserving blame; responsible for wrongdoing",
+  "synonyms": [
+   "blameworthy",
+   "guilty",
+   "at fault"
+  ],
+  "antonyms": [
+   "innocent",
+   "blameless"
+  ],
+  "example": "Both parties were culpable for the dispute."
+ },
+ {
+  "id": "v-0209",
+  "word": "debilitate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to make someone very weak and infirm",
+  "synonyms": [
+   "weaken",
+   "enervate",
+   "exhaust"
+  ],
+  "antonyms": [
+   "strengthen",
+   "invigorate"
+  ],
+  "example": "The long illness debilitated him."
+ },
+ {
+  "id": "v-0210",
+  "word": "demagogue",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a political leader who seeks support by appealing to prejudice",
+  "synonyms": [
+   "rabble-rouser",
+   "agitator",
+   "firebrand"
+  ],
+  "antonyms": [
+   "statesman"
+  ],
+  "example": "The senator was widely seen as a demagogue."
+ },
+ {
+  "id": "v-0211",
+  "word": "deprecate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to express disapproval of; to disparage",
+  "synonyms": [
+   "disparage",
+   "belittle",
+   "denigrate"
+  ],
+  "antonyms": [
+   "praise",
+   "extol"
+  ],
+  "example": "She deprecated the committee's hasty decision."
+ },
+ {
+  "id": "v-0212",
+  "word": "derelict",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "in a very poor condition as a result of neglect",
+  "synonyms": [
+   "abandoned",
+   "neglected",
+   "ruined"
+  ],
+  "antonyms": [
+   "maintained",
+   "kept"
+  ],
+  "example": "The derelict warehouse had stood empty for decades."
+ },
+ {
+  "id": "v-0213",
+  "word": "desiccated",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "dried out; lacking moisture or vitality",
+  "synonyms": [
+   "dried",
+   "parched",
+   "wizened"
+  ],
+  "antonyms": [
+   "moist",
+   "fresh"
+  ],
+  "example": "The desiccated leaves crunched underfoot."
+ },
+ {
+  "id": "v-0214",
+  "word": "diabolic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "characteristic of the Devil; extremely evil",
+  "synonyms": [
+   "devilish",
+   "fiendish",
+   "demonic"
+  ],
+  "antonyms": [
+   "angelic",
+   "saintly"
+  ],
+  "example": "The diabolic plot was thankfully foiled."
+ },
+ {
+  "id": "v-0215",
+  "word": "diatribe",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a forceful and bitter verbal attack",
+  "synonyms": [
+   "tirade",
+   "harangue",
+   " philippic"
+  ],
+  "antonyms": [
+   "praise",
+   "eulogy"
+  ],
+  "example": "His diatribe against the press lasted an hour."
+ },
+ {
+  "id": "v-0216",
+  "word": "discomfit",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make uneasy or embarrassed",
+  "synonyms": [
+   "embarrass",
+   "disconcert",
+   "rattle"
+  ],
+  "antonyms": [
+   "compose",
+   "comfort"
+  ],
+  "example": "The question discomfited the candidate."
+ },
+ {
+  "id": "v-0217",
+  "word": "dissemble",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to conceal one's true motives or feelings",
+  "synonyms": [
+   "dissimulate",
+   "feign",
+   "mask"
+  ],
+  "antonyms": [
+   "be honest",
+   "reveal"
+  ],
+  "example": "He smiled broadly to dissemble his disappointment."
+ },
+ {
+  "id": "v-0218",
+  "word": "dissonance",
+  "pos": "n",
+  "tier": 3,
+  "definition": "lack of harmony or agreement; a clash",
+  "synonyms": [
+   "discord",
+   "conflict",
+   "disagreement"
+  ],
+  "antonyms": [
+   "harmony",
+   "concord"
+  ],
+  "example": "There was a dissonance between his words and his deeds."
+ },
+ {
+  "id": "v-0219",
+  "word": "ebullience",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the quality of being cheerful and full of energy",
+  "synonyms": [
+   "exuberance",
+   "buoyancy",
+   "high spirits"
+  ],
+  "antonyms": [
+   "dejection",
+   "glumness"
+  ],
+  "example": "Her ebullience lifted everyone's mood."
+ },
+ {
+  "id": "v-0220",
+  "word": "effete",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "affected, overrefined, and ineffectual; weak",
+  "synonyms": [
+   "decadent",
+   "effeminate",
+   "soft"
+  ],
+  "antonyms": [
+   "vigorous",
+   "robust"
+  ],
+  "example": "Critics dismissed the aristocracy as effete."
+ },
+ {
+  "id": "v-0221",
+  "word": "elucidate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make something clear; to explain",
+  "synonyms": [
+   "clarify",
+   "illuminate",
+   "explicate"
+  ],
+  "antonyms": [
+   "obscure",
+   "confuse"
+  ],
+  "example": "The professor elucidated the theory with examples."
+ },
+ {
+  "id": "v-0222",
+  "word": "emollient",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "attempting to soothe or calm; softening",
+  "synonyms": [
+   "soothing",
+   "softening",
+   "mollifying"
+  ],
+  "antonyms": [
+   "irritating",
+   "harsh"
+  ],
+  "example": "She tried an emollient tone to calm the angry customer."
+ },
+ {
+  "id": "v-0223",
+  "word": "encomium",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a speech or piece of writing that praises highly",
+  "synonyms": [
+   "eulogy",
+   "tribute",
+   "panegyric"
+  ],
+  "antonyms": [
+   "criticism",
+   "tirade"
+  ],
+  "example": "His book reads like an encomium to his late wife."
+ },
+ {
+  "id": "v-0224",
+  "word": "equanimity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "mental calmness under stress",
+  "synonyms": [
+   "composure",
+   "poise",
+   "tranquility"
+  ],
+  "antonyms": [
+   "anxiety",
+   "agitation"
+  ],
+  "example": "She faced the chaos with equanimity."
+ },
+ {
+  "id": "v-0225",
+  "word": "execrable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "extremely bad; unpleasant",
+  "synonyms": [
+   "abominable",
+   "detestable",
+   " wretched"
+  ],
+  "antonyms": [
+   "excellent",
+   "admirable"
+  ],
+  "example": "The food at the event was execrable."
+ }
+]

@@ -1,0 +1,427 @@
+[
+ {
+  "id": "v-0426",
+  "word": "vindicate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to clear of blame; to justify",
+  "synonyms": [
+   "exonerate",
+   "absolve",
+   "justify"
+  ],
+  "antonyms": [
+   "condemn",
+   "blame"
+  ],
+  "example": "The new evidence vindicated the defendant."
+ },
+ {
+  "id": "v-0427",
+  "word": "virtuoso",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person highly skilled in an art",
+  "synonyms": [
+   "master",
+   "expert",
+   "maestro"
+  ],
+  "antonyms": [
+   "amateur",
+   "dabbler"
+  ],
+  "example": "The virtuoso stunned the audience with one encore after another."
+ },
+ {
+  "id": "v-0428",
+  "word": "opulent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "ostentatiously rich and luxurious or lavish",
+  "synonyms": [
+   "luxurious",
+   "lavish",
+   "rich"
+  ],
+  "antonyms": [
+   "austere",
+   "spartan"
+  ],
+  "example": "The opulent palace drew visitors from across the continent."
+ },
+ {
+  "id": "v-0429",
+  "word": "plaintive",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "sounding sad and mournful",
+  "synonyms": [
+   "mournful",
+   "sad",
+   "wistful"
+  ],
+  "antonyms": [
+   "joyful",
+   "cheerful"
+  ],
+  "example": "Her plaintive song lingered in the empty hall."
+ },
+ {
+  "id": "v-0430",
+  "word": "prodigal",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "spending money or resources freely and recklessly",
+  "synonyms": [
+   "wasteful",
+   "spendthrift",
+   "extravagant"
+  ],
+  "antonyms": [
+   "frugal",
+   "thrifty"
+  ],
+  "example": "His prodigal spending alarmed the board."
+ },
+ {
+  "id": "v-0431",
+  "word": "spurious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not what it appears to be; false or fake",
+  "synonyms": [
+   "bogus",
+   "phony",
+   "counterfeit"
+  ],
+  "antonyms": [
+   "genuine",
+   "authentic"
+  ],
+  "example": "The expert dismissed the painting as spurious."
+ },
+ {
+  "id": "v-0432",
+  "word": "heterogeneous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "diverse in character or content; composed of mixed parts",
+  "synonyms": [
+   "mixed",
+   "varied",
+   "diverse"
+  ],
+  "antonyms": [
+   "homogeneous",
+   "uniform"
+  ],
+  "example": "The population was remarkably heterogeneous."
+ },
+ {
+  "id": "v-0433",
+  "word": "inauspicious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not conducive to success; unpromising",
+  "synonyms": [
+   "unpromising",
+   "ominous",
+   "unfavorable"
+  ],
+  "antonyms": [
+   "auspicious",
+   "propitious"
+  ],
+  "example": "It was an inauspicious start to the campaign."
+ },
+ {
+  "id": "v-0434",
+  "word": "irreverent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing a lack of respect for things usually treated with respect",
+  "synonyms": [
+   "disrespectful",
+   "impudent",
+   "flippant"
+  ],
+  "antonyms": [
+   "reverent",
+   "respectful"
+  ],
+  "example": "His irreverent jokes shocked the congregation."
+ },
+ {
+  "id": "v-0435",
+  "word": "laud",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to praise highly, especially in a public context",
+  "synonyms": [
+   "praise",
+   "extol",
+   "celebrate"
+  ],
+  "antonyms": [
+   "criticize",
+   "censure"
+  ],
+  "example": "Critics lauded the debut film."
+ },
+ {
+  "id": "v-0436",
+  "word": "umbra",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a region of partial or complete shadow",
+  "synonyms": [
+   "shadow",
+   "shade",
+   "darkness"
+  ],
+  "antonyms": [
+   "light",
+   "illumination"
+  ],
+  "example": "A small umbra crossed the sun during the partial eclipse."
+ },
+ {
+  "id": "v-0437",
+  "word": "languid",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "displaying or having a disinclination for physical exertion",
+  "synonyms": [
+   "listless",
+   "lethargic",
+   "sluggish"
+  ],
+  "antonyms": [
+   "energetic",
+   "vigorous"
+  ],
+  "example": "The languid afternoon invited a nap."
+ },
+ {
+  "id": "v-0438",
+  "word": "legerdemain",
+  "pos": "n",
+  "tier": 3,
+  "definition": "skillful use of one hands in performing tricks; deception",
+  "synonyms": [
+   "sleight of hand",
+   "trickery",
+   "deception"
+  ],
+  "antonyms": [
+   "honesty",
+   "forthrightness"
+  ],
+  "example": "The verdict was achieved by legal legerdemain."
+ },
+ {
+  "id": "v-0439",
+  "word": "nettle",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to irritate or provoke",
+  "synonyms": [
+   "irritate",
+   "annoy",
+   "vex"
+  ],
+  "antonyms": [
+   "soothe",
+   "placate"
+  ],
+  "example": "Her silence nettled him more than any reply would have."
+ },
+ {
+  "id": "v-0440",
+  "word": "penurious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "extremely poor; poverty-stricken",
+  "synonyms": [
+   "destitute",
+   "impoverished",
+   "penniless"
+  ],
+  "antonyms": [
+   "wealthy",
+   "affluent"
+  ],
+  "example": "Her penurious upbringing taught her the value of money."
+ },
+ {
+  "id": "v-0441",
+  "word": "abase",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to lower in rank, prestige, or esteem",
+  "synonyms": [
+   "degrade",
+   "humble",
+   "demean"
+  ],
+  "antonyms": [
+   "exalt",
+   "elevate"
+  ],
+  "example": "He refused to abase himself before the committee."
+ },
+ {
+  "id": "v-0442",
+  "word": "abdicate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to renounce or relinquish a throne or authority",
+  "synonyms": [
+   "renounce",
+   "relinquish",
+   "resign"
+  ],
+  "antonyms": [
+   "usurp",
+   "assume"
+  ],
+  "example": "The king abdicated in favor of his son."
+ },
+ {
+  "id": "v-0443",
+  "word": "abstain",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to choose not to do or take part in some thing",
+  "synonyms": [
+   "refrain",
+   "forbear",
+   "decline"
+  ],
+  "antonyms": [
+   "indulge",
+   "partake"
+  ],
+  "example": "She abstained from voting on the motion."
+ },
+ {
+  "id": "v-0444",
+  "word": "abstemious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "characterized by self-discipline and moderation",
+  "synonyms": [
+   "abstinent",
+   "frugal",
+   "temperate"
+  ],
+  "antonyms": [
+   "indulgent",
+   "gluttonous"
+  ],
+  "example": "His abstemious diet kept him lean."
+ },
+ {
+  "id": "v-0445",
+  "word": "abyss",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a deep or seemingly bottomless chasm",
+  "synonyms": [
+   "chasm",
+   "gulf",
+   "pit"
+  ],
+  "antonyms": [
+   "peak",
+   "summit"
+  ],
+  "example": "The climber peered into the abyss below."
+ },
+ {
+  "id": "v-0446",
+  "word": "accretion",
+  "pos": "n",
+  "tier": 3,
+  "definition": "growth or increase by gradual addition",
+  "synonyms": [
+   "accumulation",
+   "buildup",
+   "addition"
+  ],
+  "antonyms": [
+   "reduction",
+   "decrease"
+  ],
+  "example": "The reef grew by accretion over centuries."
+ },
+ {
+  "id": "v-0447",
+  "word": "acidulous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "sharp or sour in taste or manner",
+  "synonyms": [
+   "sour",
+   "tart",
+   "acerbic"
+  ],
+  "antonyms": [
+   "sweet",
+   "mild"
+  ],
+  "example": "Her acidulous wit alienated some colleagues."
+ },
+ {
+  "id": "v-0448",
+  "word": "acme",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the highest point or stage of development",
+  "synonyms": [
+   "zenith",
+   "apex",
+   "peak"
+  ],
+  "antonyms": [
+   "nadir",
+   "bottom"
+  ],
+  "example": "The empire was at the acme of its power."
+ },
+ {
+  "id": "v-0449",
+  "word": "adulterate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make impure by adding inferior substances",
+  "synonyms": [
+   "contaminate",
+   "debase",
+   "taint"
+  ],
+  "antonyms": [
+   "purify",
+   "refine"
+  ],
+  "example": "The committee noted the adulterate of the situation."
+ },
+ {
+  "id": "v-0450",
+  "word": "advocate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to recommend or support by argument",
+  "synonyms": [
+   "support",
+   "champion",
+   "promote"
+  ],
+  "antonyms": [
+   "oppose",
+   "denounce"
+  ],
+  "example": "She advocated for stricter regulations."
+ }
+]

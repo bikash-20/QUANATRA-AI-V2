@@ -1,0 +1,398 @@
+[
+ {
+  "id": "q-alg-057",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $4x - 8 = 0$, what is the value of $x$?",
+  "choices": [
+   "$-2$",
+   "$0$",
+   "$1$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-058",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x^2 - 16 = 0$, what is the sum of all possible values of $x$?",
+  "choices": [
+   "$-8$",
+   "$-4$",
+   "$0$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-059",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x \\ge -3$, which of the following could be the value of $x$?",
+  "choices": [
+   "$-5$",
+   "$-4$",
+   "$-3$",
+   "$-2$",
+   "All of the above"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-060",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $2^x = 16$, what is the value of $x$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-061",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $|x| = 4$, what is the value of $x^2$?",
+  "choices": [
+   "2",
+   "4",
+   "8",
+   "16",
+   "32"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-062",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2(x + 3) = 3(x - 1) + 4$, what is the value of $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-063",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Tickets to a show cost $\\$8$ for adults and $\\$5$ for children. If $40$ tickets were sold for a total of $\\$263$, how many adult tickets were sold?",
+  "choices": [
+   "$15$",
+   "$18$",
+   "$21$",
+   "$24$",
+   "$27$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-064",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following ordered pairs $(x, y)$ satisfy both $x + y = 10$ and $x - y = 4$? Indicate all such pairs.",
+  "choices": [
+   "$(7, 3)$",
+   "$(5, 5)$",
+   "$(6, 4)$",
+   "$(8, 2)$",
+   "$(9, 1)$"
+  ],
+  "answer": [
+   0
+  ]
+ },
+ {
+  "id": "q-alg-065",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 + 6x + 9 = 0$, what is the value of $x$?",
+  "choices": [
+   "$-6$",
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-066",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The vertex $y$-value of $y = x^2 - 4x + 7$",
+  "quantityB": "$3$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-067",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2x^2 - 8 = 0$, what is the positive value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-068",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $4 - 2x \\ge 10$, what is the greatest integer value of $x$?",
+  "choices": [
+   "$-4$",
+   "$-3$",
+   "$-2$",
+   "$-1$",
+   "$0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-069",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $\\frac{x - 2}{3} < 1$ and $x$ is an integer, what is the greatest possible value of $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-070",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following intervals are entirely within $-1 < 2x + 1 < 7$? Indicate all such intervals.",
+  "choices": [
+   "$(0, 1)$",
+   "$(-1, 2)$",
+   "$(-2, 0)$",
+   "$(1, 3)$",
+   "$(-1, 1)$"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-071",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $\\left(\\frac{1}{2}\\right)^x = 8$, what is the value of $x$?",
+  "choices": [
+   "$-4$",
+   "$-3$",
+   "$-2$",
+   "$2$",
+   "$3$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-072",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $3^{x+1} = 27^x$, what is the value of $x$?",
+  "answer": 1
+ },
+ {
+  "id": "q-alg-073",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$5^{10}$",
+  "quantityB": "$10^7$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-074",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $|x - 5| = 3$, what is the larger value of $x$?",
+  "choices": [
+   "$2$",
+   "$5$",
+   "$8$",
+   "$15$",
+   "$3$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-075",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many real solutions does $|x - 2| + |x - 6| = 10$ have?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-076",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following values satisfy $|5 - 2x| < 3$? Indicate all such values.",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-077",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A rectangle has perimeter $40$ and width $w$. If the length is $3$ more than twice the width, what is the value of $w$?",
+  "choices": [
+   "$\\frac{17}{3}$",
+   "$\\frac{34}{5}$",
+   "$\\frac{17}{2}$",
+   "$\\frac{34}{3}$",
+   "$\\frac{17}{4}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-078",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The number of distinct real roots of $x^3 - 4x = 0$",
+  "quantityB": "$2$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-079",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $x$ and $y$ are positive integers with $x^2 - y^2 = 21$ and $x > y$, what is the value of $x$?",
+  "answer": 11
+ },
+ {
+  "id": "q-alg-080",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $2^{x^2} = 64^{x}$, what is the positive value of $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$6$",
+   "$8$",
+   "$12$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-081",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the smallest integer $n$ such that $n^2 > 5n + 14$?",
+  "answer": 7
+ }
+]

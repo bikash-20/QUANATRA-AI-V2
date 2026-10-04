@@ -1,0 +1,402 @@
+[
+ {
+  "id": "q-alg-032",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $7x + 4 = 3x + 20$, what is the value of $x$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-033",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $(x - 5)(x + 2) = 0$, what is the sum of all possible values of $x$?",
+  "choices": [
+   "$-7$",
+   "$-3$",
+   "$3$",
+   "$5$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-034",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x > -2$ and $x < 5$, which of the following is a possible value of $x$?",
+  "choices": [
+   "$-3$",
+   "$-2$",
+   "$0$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-035",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x^2 = 49$, what is the positive value of $x$?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-036",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $|x| = 11$, which of the following could be the value of $x$?",
+  "choices": [
+   "$-22$",
+   "$-11$",
+   "$0$",
+   "$11$",
+   "$22$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-037",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $3(x - 2) + 4 = 5(x + 1) - 7$, what is the value of $x$?",
+  "choices": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-038",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $y = 3x + 2$ and $y = 5x - 6$, what is the value of $x$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-039",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following pairs $(x, y)$ satisfy the equation $2x - y = 5$? Indicate all such pairs.",
+  "choices": [
+   "$(3, 1)$",
+   "$(4, 2)$",
+   "$(5, 5)$",
+   "$(6, 7)$",
+   "$(7, 9)$"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-040",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 - 9 = 0$, what is the product of all possible values of $x$?",
+  "choices": [
+   "$-9$",
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$9$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-041",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The minimum value of $f(x) = x^2 - 6x + 13$",
+  "quantityB": "$4$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-042",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 + bx + 12 = 0$ has roots that sum to $7$, what is the value of $b$?",
+  "choices": [
+   "$-7$",
+   "$-2$",
+   "$2$",
+   "$7$",
+   "$12$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-043",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $-2 < x < 3$ and $-1 < y < 5$, what is the greatest possible value of $x - y$?",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$2$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-044",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are equivalent to $-3 < 2x + 5 < 11$? Indicate all such expressions.",
+  "choices": [
+   "$-4 < x < 3$",
+   "$-8 < 2x < 6$",
+   "$|x + 0.5| < 3.5$",
+   "$|2x + 5| < 11$",
+   "$-7 < 2x < 1$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-alg-045",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 \\le 36$, what is the least integer value of $x$?",
+  "choices": [
+   "$-7$",
+   "$-6$",
+   "$0$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-046",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $5^x \\cdot 5^{x+2} = 5^{10}$, what is the value of $x$?",
+  "answer": 4
+ },
+ {
+  "id": "q-alg-047",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$8^4$",
+  "quantityB": "$16^3$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-048",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $4^{2x} = 8^{x-1}$, what is the value of $x$?",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-049",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $|2x + 1| = 7$, what is the sum of all possible values of $x$?",
+  "choices": [
+   "$-3$",
+   "$-1$",
+   "$0$",
+   "$3$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-050",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following values of $x$ satisfy $|3x - 6| \\le 9$? Indicate all such values.",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-051",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $|x - 3| > 5$, which of the following could be the value of $x$?",
+  "choices": [
+   "$-3$",
+   "$-2$",
+   "$5$",
+   "$8$",
+   "$10$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-052",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A boat travels upstream at $10$ mph and downstream at $14$ mph. If the river current is $c$ mph, what is the boat's speed in still water?",
+  "choices": [
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-053",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The sum of the roots of $2x^2 + 5x - 3 = 0$",
+  "quantityB": "The product of the roots of $x^2 - 5x + 6 = 0$",
+  "answer": "D",
+  "common": "The roots of both equations are real numbers."
+ },
+ {
+  "id": "q-alg-054",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $x$ and $y$ are integers and $x^2 + y^2 = 100$ with $x > y > 0$, what is the value of $x + y$?",
+  "answer": 14
+ },
+ {
+  "id": "q-alg-055",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $\\sqrt{x} = 4^x$, what is the value of $x$?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-056",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many integers satisfy both $x^2 - 10x + 24 \\le 0$ and $x > 0$?",
+  "answer": 4
+ }
+]

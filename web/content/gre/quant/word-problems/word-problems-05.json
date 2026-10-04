@@ -1,0 +1,306 @@
+[
+ {
+  "id": "q-wpr-082",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A car travels $240$ miles in $4$ hours. What is its average speed?",
+  "choices": [
+   "40 mph",
+   "50 mph",
+   "60 mph",
+   "80 mph",
+   "100 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-083",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If two painters can paint a room in $6$ hours together, how long does one take?",
+  "choices": [
+   "6 hours",
+   "10 hours",
+   "12 hours",
+   "14 hours",
+   "20 hours"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-084",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the simple interest on $\\$800$ at $5\\%$ for $4$ years?",
+  "choices": [
+   "$\\$40$",
+   "$\\$80$",
+   "$\\$160$",
+   "$\\$200$",
+   "$\\$400$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-085",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Mixing equal parts of a $10\\%$ and a $40\\%$ solution gives what percent?",
+  "choices": [
+   "20\\%",
+   "25\\%",
+   "30\\%",
+   "35\\%",
+   "50\\%"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-086",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A $\\$30$ item is marked up $10\\%$. What is the new price?",
+  "choices": [
+   "$\\$31$",
+   "$\\$33$",
+   "$\\$35$",
+   "$\\$40$",
+   "$\\$60$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-087",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If a car travels $80$ miles in $2$ hours, what is its speed?",
+  "choices": [
+   "30 mph",
+   "40 mph",
+   "50 mph",
+   "60 mph",
+   "160 mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-088",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A car travels $150$ miles at $50$ mph. How long does the trip take?",
+  "choices": [
+   "2 hours",
+   "3 hours",
+   "4 hours",
+   "5 hours",
+   "6 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-089",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Distance covered at $60$ mph for $2$ hours",
+  "quantityB": "Distance covered at $40$ mph for $3$ hours",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-090",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Machine A produces $5$ widgets/hour; Machine B produces $10$ widgets/hour. How long to make $45$ widgets together?",
+  "choices": [
+   "2 hours",
+   "3 hours",
+   "4 hours",
+   "5 hours",
+   "6 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-091",
+  "type": "multi",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following describe valid work-rate calculations? Indicate all such statements.",
+  "choices": [
+   "If $A$ takes $a$ hours alone, $A$'s rate is $1/a$ of the job per hour",
+   "Combined rate of $A$ and $B$ is $\\frac{1}{a} + \\frac{1}{b}$",
+   "Time to finish together is $\\frac{ab}{a+b}$",
+   "If $a = b$, together time is $a/2$",
+   "Time to finish together is $a + b$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-wpr-092",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How much interest does $\\$2000$ earn at $5\\%$ simple interest over $4$ years?",
+  "choices": [
+   "$\\$100$",
+   "$\\$200$",
+   "$\\$300$",
+   "$\\$400$",
+   "$\\$500$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-093",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Simple interest on $\\$1000$ at $10\\%$ for $2$ years",
+  "quantityB": "Compound interest on $\\$1000$ at $10\\%$ for $2$ years",
+  "answer": "A"
+ },
+ {
+  "id": "q-wpr-094",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many gallons of $30\\%$ antifreeze must be mixed with $10$ gallons of $60\\%$ to obtain a $45\\%$ mixture?",
+  "choices": [
+   "10",
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-095",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If a price increases by $25\\%$ and then decreases by $20\\%$, what is the net change?",
+  "choices": [
+   "$5\\%$ increase",
+   "$5\\%$ decrease",
+   "$0\\%$",
+   "$25\\%$ increase",
+   "$45\\%$ increase"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-096",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A car travels $30$ miles at $30$ mph and another $60$ miles at $60$ mph. What is the average speed?",
+  "choices": [
+   "40 mph",
+   "42 mph",
+   "45 mph",
+   "48 mph",
+   "50 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-097",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Two trains, $180$ miles apart, approach each other at $40$ mph and $50$ mph. How long until they meet?",
+  "choices": [
+   "1 hour",
+   "2 hours",
+   "3 hours",
+   "4 hours",
+   "5 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-098",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "Time for $A$ alone to do a job",
+  "quantityB": "Time for $A$ and $B$ together",
+  "answer": "A",
+  "common": "$A$ and $B$ have positive work rates."
+ },
+ {
+  "id": "q-wpr-099",
+  "type": "numeric",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many years does it take $\\$500$ to grow to $\\$605$ at $10\\%$ compounded annually?",
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-100",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A cyclist covers $20$ miles in $1$ hour going uphill and returns the same $20$ miles in $40$ minutes going downhill. What is the average speed?",
+  "choices": [
+   "20 mph",
+   "24 mph",
+   "30 mph",
+   "40 mph",
+   "48 mph"
+  ],
+  "answer": 2
+ }
+]

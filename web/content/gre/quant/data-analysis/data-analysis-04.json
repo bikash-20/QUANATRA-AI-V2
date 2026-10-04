@@ -1,0 +1,397 @@
+[
+ {
+  "id": "q-dat-057",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the median of $\\{3, 5, 7, 9, 11\\}$?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-058",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A spinner has $4$ equal sections numbered $1, 2, 3, 4$. What is the probability of landing on $2$ or $4$?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{3}{4}$",
+   "$1$",
+   "$\\frac{2}{4}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-059",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "How many different ways can $2$ people be selected from $4$ to be co-chairs?",
+  "choices": [
+   "4",
+   "6",
+   "8",
+   "12",
+   "24"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-060",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the mean of $\\{6, 8, 10, 12, 14\\}$?",
+  "choices": [
+   "8",
+   "10",
+   "11",
+   "12",
+   "50"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-061",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the range of $\\{3, 7, 9, 12, 18, 22\\}$?",
+  "choices": [
+   "12",
+   "15",
+   "18",
+   "19",
+   "22"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-062",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The variance of $\\{2, 4, 6\\}$",
+  "quantityB": "$\\frac{8}{3}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-063",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A fair die is rolled twice. What is the probability that both rolls are even?",
+  "choices": [
+   "$\\frac{1}{6}$",
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-064",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two cards are drawn from a deck without replacement. Which of the following are equally likely outcomes? Indicate all such outcomes.",
+  "choices": [
+   "Both kings",
+   "Both spades",
+   "Both red",
+   "Both black",
+   "King then queen"
+  ],
+  "answer": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "q-dat-065",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The probability of event $A$ is $0.4$, of event $B$ is $0.5$. If $A$ and $B$ are independent, what is $P(A \\cap B)$?",
+  "choices": [
+   "$0.1$",
+   "$0.2$",
+   "$0.45$",
+   "$0.9$",
+   "$1.0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-066",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many ways can the letters in $STOP$ be arranged?",
+  "choices": [
+   "4",
+   "8",
+   "12",
+   "16",
+   "24"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-dat-067",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many $2$-digit numbers can be formed from the digits $1, 2, 3, 4, 5$ if digits may be repeated?",
+  "choices": [
+   "10",
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-068",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many distinct arrangements of the letters in APPEAL are there?",
+  "answer": 180
+ },
+ {
+  "id": "q-dat-069",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A data set has mean $20$ and standard deviation $5$. A new data set is created by multiplying every value by $3$. What is the new standard deviation?",
+  "choices": [
+   "$5$",
+   "$8$",
+   "$15$",
+   "$25$",
+   "$75$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-070",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The mode of $\\{1, 2, 2, 3, 4, 4, 5, 5, 5\\}$",
+  "quantityB": "$4$",
+  "answer": "B"
+ },
+ {
+  "id": "q-dat-071",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A coin is flipped $5$ times. What is the probability of getting at least $4$ heads?",
+  "choices": [
+   "$\\frac{5}{32}$",
+   "$\\frac{6}{32}$",
+   "$\\frac{7}{32}$",
+   "$\\frac{8}{32}$",
+   "$\\frac{10}{32}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-072",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A pizza place offers $5$ toppings. How many $2$-topping pizzas are possible (order of toppings doesn't matter)?",
+  "choices": [
+   "5",
+   "10",
+   "15",
+   "20",
+   "25"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-073",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many arrangements of the letters in PIPE are there if the two P's cannot be adjacent?",
+  "choices": [
+   "3",
+   "6",
+   "9",
+   "12",
+   "24"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-074",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the median of $\\{-3, -1, 2, 7, 10\\}$?",
+  "choices": [
+   "$-3$",
+   "$-1$",
+   "$2$",
+   "$5$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-075",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The probability of getting a sum of $7$ when rolling two dice",
+  "quantityB": "$\\frac{1}{6}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-076",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many $0-1$ strings of length $8$ contain exactly $3$ ones?",
+  "choices": [
+   "8",
+   "24",
+   "32",
+   "48",
+   "56"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-dat-077",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the standard deviation of the data set $\\{2, 4, 6, 8\\}$?",
+  "answer": 2.236
+ },
+ {
+  "id": "q-dat-078",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $P(A) = 0.5$ and $P(B|A) = 0.4$, what is $P(A \\cap B)$?",
+  "choices": [
+   "$0.1$",
+   "$0.2$",
+   "$0.4$",
+   "$0.5$",
+   "$0.9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-079",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many positive divisors does $100$ have?",
+  "choices": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "12"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-080",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The median of a data set of $101$ sorted values",
+  "quantityB": "The 51st value of the data set",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-081",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following describe independent events? Indicate all such pairs.",
+  "choices": [
+   "Flipping a coin twice in a row",
+   "Drawing two cards with replacement",
+   "Drawing two cards without replacement",
+   "Rolling two dice",
+   "Choosing two marbles from different baskets"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ]
+ }
+]

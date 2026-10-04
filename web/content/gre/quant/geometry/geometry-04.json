@@ -1,0 +1,405 @@
+[
+ {
+  "id": "q-geo-057",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the diameter of a circle with radius $7$?",
+  "choices": [
+   "$3.5$",
+   "$7$",
+   "$10$",
+   "$14$",
+   "$49$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-058",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "An isosceles triangle has a base of $10$ and two equal sides of $13$. What is its perimeter?",
+  "choices": [
+   "$23$",
+   "$26$",
+   "$33$",
+   "$36$",
+   "$46$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-059",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a right triangle with legs $3$ and $4$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$10$",
+   "$12$",
+   "$24$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-060",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the slope of the line through the points $(2, 3)$ and $(6, 7)$?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-061",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the radius of a circle whose circumference is $16\\pi$?",
+  "choices": [
+   "$4$",
+   "$8$",
+   "$16$",
+   "$32$",
+   "$64$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-062",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The area of a circle with radius $4$",
+  "quantityB": "The area of a square with side $7$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-063",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A sector has central angle $90\\degree$ and radius $6$. What is the area of the sector?",
+  "choices": [
+   "$3\\pi$",
+   "$6\\pi$",
+   "$9\\pi$",
+   "$12\\pi$",
+   "$36\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-064",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If two angles of a triangle are $45\\degree$ and $65\\degree$, what is the third angle?",
+  "choices": [
+   "$45\\degree$",
+   "$55\\degree$",
+   "$65\\degree$",
+   "$70\\degree$",
+   "$80\\degree$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-065",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The sides of a triangle have lengths $5, 6,$ and $9$. Is the triangle acute, right, or obtuse?",
+  "choices": [
+   "Acute",
+   "Right",
+   "Obtuse",
+   "Cannot be a triangle",
+   "Isosceles"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-066",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following triangles have the same area? Indicate all such triangles.",
+  "choices": [
+   "Base $4$, height $6$",
+   "Base $6$, height $4$",
+   "Base $3$, height $8$",
+   "Base $8$, height $3$",
+   "Base $5$, height $5$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-067",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A rectangle has length $12$ and width $5$. What is its area?",
+  "choices": [
+   "17",
+   "34",
+   "60",
+   "120",
+   "240"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-068",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a parallelogram with base $10$ and height $7$?",
+  "answer": 70
+ },
+ {
+  "id": "q-geo-069",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the distance between the points $(0, 0)$ and $(6, 8)$?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$14$",
+   "$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-070",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the slope of a horizontal line?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "Undefined",
+   "$-1$",
+   "Infinity"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-071",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the radius of the circle $x^2 + y^2 = 49$?",
+  "choices": [
+   "$5$",
+   "$7$",
+   "$14$",
+   "$24.5$",
+   "$49$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-072",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The diameter of a circle with area $100\\pi$",
+  "quantityB": "$20$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-073",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a triangle with vertices at $(0, 0)$, $(0, 8)$, and $(6, 0)$?",
+  "choices": [
+   "$14$",
+   "$24$",
+   "$28$",
+   "$48$",
+   "$96$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-074",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following quadrilaterals always have diagonals that bisect each other? Indicate all such quadrilaterals.",
+  "choices": [
+   "Square",
+   "Rectangle",
+   "Rhombus",
+   "Parallelogram",
+   "General trapezoid"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-075",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the equation of a horizontal line through the point $(2, 5)$?",
+  "choices": [
+   "$x = 2$",
+   "$x = 5$",
+   "$y = 2$",
+   "$y = 5$",
+   "$y = x + 3$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-076",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the slope of a vertical line?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "Undefined",
+   "$-1$",
+   "$\\infty$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-077",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A circle has radius $5$. A chord of maximum possible length has length equal to:",
+  "choices": [
+   "$5$",
+   "$5\\sqrt{2}$",
+   "$10$",
+   "$25$",
+   "$50$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-078",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The length of the altitude from the right angle in a right triangle with legs $6$ and $8$",
+  "quantityB": "$\\frac{24}{5}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-079",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the area of an equilateral triangle with side length $6$?",
+  "answer": 9
+ },
+ {
+  "id": "q-geo-080",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A regular hexagon is composed of $6$ equilateral triangles of side $4$. What is its total area?",
+  "choices": [
+   "$8\\sqrt{3}$",
+   "$12\\sqrt{3}$",
+   "$24\\sqrt{3}$",
+   "$48$",
+   "$96$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-081",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the distance between the points $(1, 5)$ and $(4, 9)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$\\sqrt{12}$",
+   "$\\sqrt{25}$"
+  ],
+  "answer": 2
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "id": "q-dat-032",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the mean of $\\{2, 4, 6, 8\\}$?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "10",
+   "20"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-033",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A die is rolled. What is the probability of rolling an even number?",
+  "choices": [
+   "$\\frac{1}{6}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{3}$",
+   "$1$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-034",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "How many subsets does a set with $3$ elements have?",
+  "choices": [
+   "3",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-035",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the median of $\\{2, 3, 7, 9, 11, 14\\}$?",
+  "choices": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-036",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The mean of $5$ numbers is $20$. What is their sum?",
+  "choices": [
+   "4",
+   "15",
+   "25",
+   "100",
+   "125"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-037",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The median of $\\{5, 10, 15, 20, 25\\}$",
+  "quantityB": "$15$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-038",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A bag contains $5$ red and $5$ blue marbles. Two marbles are drawn with replacement. What is the probability both are red?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{9}$",
+   "$\\frac{9}{100}$",
+   "$\\frac{25}{100}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-039",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A fair die is rolled twice. Which of the following pairs of sums are equally likely? Indicate all such pairs.",
+  "choices": [
+   "Sum $2$ and sum $12$",
+   "Sum $3$ and sum $11$",
+   "Sum $4$ and sum $10$",
+   "Sum $5$ and sum $9$",
+   "Sum $6$ and sum $8$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-dat-040",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the probability of drawing a heart or a king from a $52$-card deck?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{4}{52}$",
+   "$\\frac{16}{52}$",
+   "$\\frac{17}{52}$",
+   "$\\frac{1}{2}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-041",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many distinct ways can $4$ people sit in a row?",
+  "choices": [
+   "4",
+   "8",
+   "16",
+   "24",
+   "64"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-042",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many ways can $5$ books be arranged on a shelf if $2$ specific books must be next to each other?",
+  "choices": [
+   "24",
+   "48",
+   "72",
+   "96",
+   "120"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-043",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many $4$-digit numbers can be formed using the digits $1, 2, 3, 4$ without repetition?",
+  "answer": 24
+ },
+ {
+  "id": "q-dat-044",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The first quartile of a data set is $20$ and the third quartile is $40$. What is the interquartile range?",
+  "choices": [
+   "10",
+   "20",
+   "30",
+   "60",
+   "80"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-045",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The mean of $\\{1, 5, 9\\}$",
+  "quantityB": "$5$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-046",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A coin is flipped $4$ times. What is the probability of getting exactly $3$ heads?",
+  "choices": [
+   "$\\frac{1}{16}$",
+   "$\\frac{2}{16}$",
+   "$\\frac{3}{16}$",
+   "$\\frac{4}{16}$",
+   "$\\frac{6}{16}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-047",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A combination lock has $3$ dials, each with digits $0$ through $9$. How many possible combinations are there?",
+  "choices": [
+   "30",
+   "100",
+   "270",
+   "1000",
+   "10000"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-048",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are correct? Indicate all correct statements.",
+  "choices": [
+   "$0! = 1$",
+   "$1! = 1$",
+   "$2! = 2$",
+   "$3! = 6$",
+   "$4! = 12$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-dat-049",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the mode of the data set $\\{1, 1, 2, 2, 3, 4, 4, 4, 5\\}$?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-050",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If a sample has variance $16$, what is the standard deviation?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$8$",
+   "$16$",
+   "$32$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-051",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The probability of getting a $6$ on a single die roll",
+  "quantityB": "$\\frac{1}{6}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-052",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A bag has $8$ distinct balls. How many ways can we select $3$ of them (order doesn't matter)?",
+  "choices": [
+   "24",
+   "56",
+   "120",
+   "336",
+   "512"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-053",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "The mean of $10$ numbers is $5$. If $5$ is added to each number, what is the new mean?",
+  "answer": 10
+ },
+ {
+  "id": "q-dat-054",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Three dice are rolled. What is the probability that all three show different numbers?",
+  "choices": [
+   "$\\frac{1}{36}$",
+   "$\\frac{5}{9}$",
+   "$\\frac{6}{36}$",
+   "$\\frac{120}{216}$",
+   "$\\frac{60}{216}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-055",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many distinct permutations of the letters of the word COMMITTEE are there?",
+  "choices": [
+   "9!",
+   "$\\frac{9!}{2!2!2!}$",
+   "$9! \\cdot 2!$",
+   "$\\frac{9!}{3!2!}$",
+   "$9! - 6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-056",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following are measures of central tendency? Indicate all such measures.",
+  "choices": [
+   "Mean",
+   "Median",
+   "Mode",
+   "Standard deviation",
+   "Range"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ }
+]

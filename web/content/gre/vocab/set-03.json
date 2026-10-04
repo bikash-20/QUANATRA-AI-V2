@@ -1,0 +1,430 @@
+[
+ {
+  "id": "v-0051",
+  "word": "anomalous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "deviating from what is standard, normal, or expected",
+  "synonyms": [
+   "aberrant",
+   "atypical",
+   "deviant"
+  ],
+  "antonyms": [
+   "typical",
+   "normal",
+   "usual"
+  ],
+  "example": "The anomalous data point suggested a flaw in the experiment."
+ },
+ {
+  "id": "v-0052",
+  "word": "antedate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to precede in time; to assign a date earlier than the actual one",
+  "synonyms": [
+   "precede",
+   "predate"
+  ],
+  "antonyms": [
+   "postdate",
+   "follow"
+  ],
+  "example": "The discovery antedates the Renaissance by a full century."
+ },
+ {
+  "id": "v-0053",
+  "word": "aplomb",
+  "pos": "n",
+  "tier": 2,
+  "definition": "self-confidence or assurance, especially in a demanding situation",
+  "synonyms": [
+   "poise",
+   "composure",
+   "sang-froid"
+  ],
+  "antonyms": [
+   "anxiety",
+   "unease"
+  ],
+  "example": "She handled the hostile questions with aplomb."
+ },
+ {
+  "id": "v-0054",
+  "word": "apogee",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the highest or most distant point; the climax",
+  "synonyms": [
+   "zenith",
+   "peak",
+   "summit"
+  ],
+  "antonyms": [
+   "nadir",
+   "lowest point"
+  ],
+  "example": "The 1960s marked the apogee of the space program's ambition."
+ },
+ {
+  "id": "v-0055",
+  "word": "archaic",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "very old or old-fashioned; belonging to an earlier period",
+  "synonyms": [
+   "antiquated",
+   "obsolete",
+   "outdated"
+  ],
+  "antonyms": [
+   "modern",
+   "current",
+   "contemporary"
+  ],
+  "example": "The document was full of archaic spellings."
+ },
+ {
+  "id": "v-0056",
+  "word": "artless",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "free from deception or craftiness; simple and natural",
+  "synonyms": [
+   "ingenuous",
+   "naive",
+   "guileless"
+  ],
+  "antonyms": [
+   "cunning",
+   "devious",
+   "scheming"
+  ],
+  "example": "His artless charm won over even the skeptics."
+ },
+ {
+  "id": "v-0057",
+  "word": "audacious",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "showing willingness to take bold risks; daring",
+  "synonyms": [
+   "bold",
+   "daring",
+   "intrepid"
+  ],
+  "antonyms": [
+   "timid",
+   "cautious",
+   "cowardly"
+  ],
+  "example": "The audacious rescue mission saved the hostages."
+ },
+ {
+  "id": "v-0058",
+  "word": "axiomatic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "self-evident or unquestionable; taken for granted",
+  "synonyms": [
+   "self-evident",
+   "undeniable",
+   "accepted"
+  ],
+  "antonyms": [
+   "debatable",
+   "questionable"
+  ],
+  "example": "It is axiomatic that a chain is no stronger than its weakest link."
+ },
+ {
+  "id": "v-0059",
+  "word": "baleful",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "threatening harm or evil; foreboding",
+  "synonyms": [
+   "sinister",
+   "menacing",
+   "ominous"
+  ],
+  "antonyms": [
+   "benign",
+   "auspicious"
+  ],
+  "example": "She cast a baleful glance at the uninvited guest."
+ },
+ {
+  "id": "v-0060",
+  "word": "belligerent",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "aggressive and eager to fight; hostile",
+  "synonyms": [
+   "combative",
+   "pugnacious",
+   "truculent"
+  ],
+  "antonyms": [
+   "peaceful",
+   "conciliatory"
+  ],
+  "example": "His belligerent tone made negotiation impossible."
+ },
+ {
+  "id": "v-0061",
+  "word": "bombastic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "high-sounding but with little meaning; inflated",
+  "synonyms": [
+   "pompous",
+   "grandiose",
+   "turgid"
+  ],
+  "antonyms": [
+   "understated",
+   "plain"
+  ],
+  "example": "The senator's bombastic speech contained little substance."
+ },
+ {
+  "id": "v-0062",
+  "word": "boorish",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "rude and rough in manner; insensitive",
+  "synonyms": [
+   "loutish",
+   "uncouth",
+   "coarse"
+  ],
+  "antonyms": [
+   "polished",
+   "refined",
+   "courteous"
+  ],
+  "example": "His boorish comments embarrassed everyone at the dinner."
+ },
+ {
+  "id": "v-0063",
+  "word": "burlesque",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a parody or comic imitation; mock-serious satire",
+  "synonyms": [
+   "parody",
+   "lampoon",
+   "travesty"
+  ],
+  "antonyms": [
+   "tribute",
+   "serious drama"
+  ],
+  "example": "The play was a burlesque of courtroom dramas."
+ },
+ {
+  "id": "v-0064",
+  "word": "capitulate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to give up resistance; to surrender under agreed conditions",
+  "synonyms": [
+   "surrender",
+   "yield",
+   "acquiesce"
+  ],
+  "antonyms": [
+   "resist",
+   "defy"
+  ],
+  "example": "After weeks of strikes, the company capitulated to the union."
+ },
+ {
+  "id": "v-0065",
+  "word": "censure",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to express severe disapproval of; to officially reprimand",
+  "synonyms": [
+   "condemn",
+   "reprimand",
+   "rebuke"
+  ],
+  "antonyms": [
+   "praise",
+   "commend"
+  ],
+  "example": "The Senate voted to censure the senator for misconduct."
+ },
+ {
+  "id": "v-0066",
+  "word": "chicanery",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the use of trickery or deception to achieve a purpose",
+  "synonyms": [
+   "trickery",
+   "deception",
+   "skulduggery"
+  ],
+  "antonyms": [
+   "fairness",
+   "honesty"
+  ],
+  "example": "The contract was the product of fraud and chicanery."
+ },
+ {
+  "id": "v-0067",
+  "word": "cogent",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "clear, logical, and convincing",
+  "synonyms": [
+   "compelling",
+   "convincing",
+   "persuasive"
+  ],
+  "antonyms": [
+   "weak",
+   "incoherent"
+  ],
+  "example": "Her cogent argument ended the debate quickly."
+ },
+ {
+  "id": "v-0068",
+  "word": "complaisant",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "eager to please; compliant, sometimes to a fault",
+  "synonyms": [
+   "obliging",
+   "accommodating",
+   "deferential"
+  ],
+  "antonyms": [
+   "assertive",
+   "unyielding"
+  ],
+  "example": "His complaisant attitude made him easy to manipulate."
+ },
+ {
+  "id": "v-0069",
+  "word": "conflagration",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a large, destructive fire; an outburst",
+  "synonyms": [
+   "inferno",
+   "blaze",
+   "firestorm"
+  ],
+  "antonyms": [
+   "trickle"
+  ],
+  "example": "The conflagration consumed three city blocks."
+ },
+ {
+  "id": "v-0070",
+  "word": "contentious",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "causing or likely to cause disagreement; controversial",
+  "synonyms": [
+   "controversial",
+   "disputatious",
+   "argumentative"
+  ],
+  "antonyms": [
+   "agreeable",
+   "conciliatory"
+  ],
+  "example": "The new tax bill proved contentious from the start."
+ },
+ {
+  "id": "v-0071",
+  "word": "contrite",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "feeling or expressing sorrow for wrongdoing; repentant",
+  "synonyms": [
+   "remorseful",
+   "penitent",
+   "rueful"
+  ],
+  "antonyms": [
+   "unrepentant",
+   "defiant"
+  ],
+  "example": "He sounded genuinely contrite about the mistake."
+ },
+ {
+  "id": "v-0072",
+  "word": "covet",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to desire something belonging to another",
+  "synonyms": [
+   "envy",
+   "yearn for",
+   "long for"
+  ],
+  "antonyms": [
+   "spurn",
+   "renounce"
+  ],
+  "example": "She coveted her neighbor's garden."
+ },
+ {
+  "id": "v-0073",
+  "word": "craven",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "shamefully timid; cowardly",
+  "synonyms": [
+   "cowardly",
+   "pusillanimous",
+   "timorous"
+  ],
+  "antonyms": [
+   "brave",
+   "valiant"
+  ],
+  "example": "His craven desertion shamed the regiment."
+ },
+ {
+  "id": "v-0074",
+  "word": "decorum",
+  "pos": "n",
+  "tier": 2,
+  "definition": "behavior in keeping with good taste and propriety",
+  "synonyms": [
+   "propriety",
+   "etiquette",
+   "dignity"
+  ],
+  "antonyms": [
+   "impropriety",
+   "indecorum"
+  ],
+  "example": "The judge demanded decorum in the courtroom."
+ },
+ {
+  "id": "v-0075",
+  "word": "demur",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to raise objections or show reluctance",
+  "synonyms": [
+   "object",
+   "protest",
+   "take exception"
+  ],
+  "antonyms": [
+   "accept",
+   "agree"
+  ],
+  "example": "She demurred at the suggestion that she retire."
+ }
+]

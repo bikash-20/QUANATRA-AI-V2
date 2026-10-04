@@ -1,0 +1,409 @@
+[
+ {
+  "id": "q-ari-057",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is $10\\%$ of $70$?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-058",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "The ratio of apples to oranges is $4:5$. If there are $20$ apples, how many oranges are there?",
+  "choices": [
+   "20",
+   "25",
+   "30",
+   "35",
+   "40"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-059",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is a multiple of $6$?",
+  "choices": [
+   "13",
+   "22",
+   "30",
+   "37",
+   "44"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-060",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the value of $5^2$?",
+  "choices": [
+   "10",
+   "15",
+   "20",
+   "25",
+   "50"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-061",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is divisible by $3$?",
+  "choices": [
+   "124",
+   "235",
+   "318",
+   "421",
+   "532"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-062",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "15",
+   "21",
+   "25",
+   "29",
+   "33"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-063",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is $12.5\\%$ of $80$?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "14",
+   "16"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-064",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$1.5\\%$ of $400$",
+  "quantityB": "$3\\%$ of $200$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-065",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are correct? Indicate all correct statements.",
+  "choices": [
+   "$50\\%$ of $50 = 25$",
+   "$25\\%$ of $80 = 20$",
+   "$10\\%$ of $250 = 25$",
+   "$5\\%$ of $200 = 10$",
+   "$20\\%$ of $90 = 18$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-ari-066",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $a:b = 2:3$ and $b:c = 4:5$, what is $a:c$?",
+  "choices": [
+   "$2:5$",
+   "$3:5$",
+   "$8:15$",
+   "$5:8$",
+   "$6:5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-067",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Three friends share $\\$60$ in the ratio $1:2:3$. How much does the friend who gets the most receive?",
+  "choices": [
+   "$\\$10$",
+   "$\\$20$",
+   "$\\$30$",
+   "$\\$40$",
+   "$\\$50$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-068",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If the ratio of adults to children at a movie is $7:4$, and there are $77$ adults, how many children are there?",
+  "choices": [
+   "32",
+   "40",
+   "44",
+   "48",
+   "56"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-069",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many integers between $50$ and $100$ are divisible by both $5$ and $7$?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-070",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the sum of all positive integer divisors of $48$?",
+  "answer": 124
+ },
+ {
+  "id": "q-ari-071",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following is a perfect square?",
+  "choices": [
+   "63",
+   "72",
+   "81",
+   "90",
+   "99"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-072",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Simplify $\\frac{6^5}{3^5}$.",
+  "choices": [
+   "$2$",
+   "$6$",
+   "$12$",
+   "$32$",
+   "$243$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-073",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$2^{20}$",
+  "quantityB": "$3^{13}$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-074",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are equal to $2^{12}$? Indicate all such expressions.",
+  "choices": [
+   "$4^6$",
+   "$8^4$",
+   "$16^3$",
+   "$32^2$",
+   "$64^1$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-ari-075",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The largest prime less than $100$ is:",
+  "choices": [
+   "89",
+   "93",
+   "97",
+   "99",
+   "101"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-076",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many positive divisors does $60$ have?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "14",
+   "16"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-077",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many prime numbers are between $50$ and $70$?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-078",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are prime numbers? Indicate all such numbers.",
+  "choices": [
+   "67",
+   "69",
+   "71",
+   "73",
+   "75"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-ari-079",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many distinct prime factors does $420$ have?",
+  "answer": 4
+ },
+ {
+  "id": "q-ari-080",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "After two successive discounts of $20\\%$ and $10\\%$, an item costs $\\$144$. What was the original price, in dollars?",
+  "choices": [
+   "$180$",
+   "$190$",
+   "$200$",
+   "$210$",
+   "$220$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-081",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The number of trailing zeros in $25!$",
+  "quantityB": "$6$",
+  "answer": "A"
+ }
+]

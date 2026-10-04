@@ -1,0 +1,411 @@
+[
+ {
+  "id": "v-0476",
+  "word": "cartography",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the science or practice of drawing maps",
+  "synonyms": [
+   "map-making",
+   "charting",
+   "surveying"
+  ],
+  "antonyms": [],
+  "example": "Modern cartography relies on satellite imagery."
+ },
+ {
+  "id": "v-0477",
+  "word": "catholic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "including a wide variety of things; all-embracing",
+  "synonyms": [
+   "wide",
+   "comprehensive",
+   "universal"
+  ],
+  "antonyms": [
+   "narrow",
+   "limited"
+  ],
+  "example": "Her catholic tastes spanned continents."
+ },
+ {
+  "id": "v-0478",
+  "word": "caustic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "capable of burning or corroding; sharply critical",
+  "synonyms": [
+   "biting",
+   "cutting",
+   "mordant"
+  ],
+  "antonyms": [
+   "mild",
+   "soothing"
+  ],
+  "example": "Her caustic wit alienated old friends."
+ },
+ {
+  "id": "v-0479",
+  "word": "circumspect",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "wary and unwilling to take risks",
+  "synonyms": [
+   "cautious",
+   "careful",
+   "prudent"
+  ],
+  "antonyms": [
+   "rash",
+   "reckless"
+  ],
+  "example": "Be circumspect when signing the contract."
+ },
+ {
+  "id": "v-0480",
+  "word": "cloying",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "sweet or sentimental to an excessive degree",
+  "synonyms": [
+   "saccharine",
+   "sugary",
+   "nauseating"
+  ],
+  "antonyms": [
+   "unsentimental",
+   "restrained"
+  ],
+  "example": "Her cloying manner embarrassed the group."
+ },
+ {
+  "id": "v-0481",
+  "word": "coffer",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a small strongbox or chest for valuables",
+  "synonyms": [
+   "strongbox",
+   "chest",
+   "vault"
+  ],
+  "antonyms": [],
+  "example": "The coffer held a fortune in gold."
+ },
+ {
+  "id": "v-0482",
+  "word": "collusion",
+  "pos": "n",
+  "tier": 3,
+  "definition": "secret or illegal cooperation for fraudulent purposes",
+  "synonyms": [
+   "conspiracy",
+   "connivance",
+   "complicity"
+  ],
+  "antonyms": [
+   "independence"
+  ],
+  "example": "The audit revealed collusion among bidders."
+ },
+ {
+  "id": "v-0483",
+  "word": "condone",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to accept and allow behavior that is considered wrong",
+  "synonyms": [
+   "overlook",
+   "excuse",
+   "pardon"
+  ],
+  "antonyms": [
+   "condemn",
+   "censure"
+  ],
+  "example": "We cannot condone such misconduct."
+ },
+ {
+  "id": "v-0484",
+  "word": "connoisseur",
+  "pos": "n",
+  "tier": 3,
+  "definition": "an expert judge in matters of taste",
+  "synonyms": [
+   "expert",
+   "authority",
+   "specialist"
+  ],
+  "antonyms": [
+   "novice",
+   "amateur"
+  ],
+  "example": "He is a connoisseur of fine wines."
+ },
+ {
+  "id": "v-0485",
+  "word": "contumacious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "stubbornly or willfully disobedient",
+  "synonyms": [
+   "insubordinate",
+   "defiant",
+   "recalcitrant"
+  ],
+  "antonyms": [
+   "obedient",
+   "compliant"
+  ],
+  "example": "The contumacious witness refused to testify."
+ },
+ {
+  "id": "v-0486",
+  "word": "cosset",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to pamper or protect excessively",
+  "synonyms": [
+   "pamper",
+   "coddle",
+   "mollycoddle"
+  ],
+  "antonyms": [
+   "neglect",
+   "ignore"
+  ],
+  "example": "She cosseted her youngest child shamelessly."
+ },
+ {
+  "id": "v-0487",
+  "word": "coterie",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a small exclusive group with shared interests",
+  "synonyms": [
+   "clique",
+   "circle",
+   "cabal"
+  ],
+  "antonyms": [
+   "open group"
+  ],
+  "example": "A literary coterie gathered at her salon."
+ },
+ {
+  "id": "v-0488",
+  "word": "crescendo",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a steady increase in intensity or force",
+  "synonyms": [
+   "climax",
+   "peak",
+   "swelling"
+  ],
+  "antonyms": [
+   "diminuendo",
+   "decline"
+  ],
+  "example": "The campaign reached a crescendo in late spring."
+ },
+ {
+  "id": "v-0489",
+  "word": "cupidity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "greedy desire for wealth or material gain",
+  "synonyms": [
+   "greed",
+   "avarice",
+   "rapacity"
+  ],
+  "antonyms": [
+   "generosity",
+   "altruism"
+  ],
+  "example": "Their cupidity drove the speculation."
+ },
+ {
+  "id": "v-0490",
+  "word": "curmudgeon",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a bad-tempered or surly person",
+  "synonyms": [
+   "grouch",
+   "grump",
+   "cynic"
+  ],
+  "antonyms": [
+   "sweetheart"
+  ],
+  "example": "The old curmudgeon refused to greet anyone."
+ },
+ {
+  "id": "v-0491",
+  "word": "debutante",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a young woman making her formal debut into society",
+  "synonyms": [
+   "socialite",
+   "aristocrat"
+  ],
+  "antonyms": [],
+  "example": "The debutante was the talk of the ball."
+ },
+ {
+  "id": "v-0492",
+  "word": "decorous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "in keeping with good taste and propriety",
+  "synonyms": [
+   "proper",
+   "seemly",
+   "dignified"
+  ],
+  "antonyms": [
+   "improper",
+   "indecorous"
+  ],
+  "example": "Their decorous behavior impressed the host."
+ },
+ {
+  "id": "v-0493",
+  "word": "deface",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to spoil the appearance of something",
+  "synonyms": [
+   "vandalize",
+   "damage",
+   "mar"
+  ],
+  "antonyms": [
+   "restore",
+   "repair"
+  ],
+  "example": "The statue was defaced by graffiti."
+ },
+ {
+  "id": "v-0494",
+  "word": "deleterious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "causing harm or damage",
+  "synonyms": [
+   "harmful",
+   "injurious",
+   "damaging"
+  ],
+  "antonyms": [
+   "beneficial",
+   "salutary"
+  ],
+  "example": "The policy had deleterious effects on workers."
+ },
+ {
+  "id": "v-0495",
+  "word": "desiccate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to remove the moisture from; to dry out",
+  "synonyms": [
+   "dehydrate",
+   "dry",
+   "parch"
+  ],
+  "antonyms": [
+   "moisten",
+   "hydrate"
+  ],
+  "example": "The sun desiccated the seeds."
+ },
+ {
+  "id": "v-0496",
+  "word": "dictum",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a formal pronouncement or maxim",
+  "synonyms": [
+   "maxim",
+   "saying",
+   "pronouncement"
+  ],
+  "antonyms": [],
+  "example": "He repeated the dictum about the source."
+ },
+ {
+  "id": "v-0497",
+  "word": "dilate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make or become wider or more open",
+  "synonyms": [
+   "expand",
+   "widen",
+   "swell"
+  ],
+  "antonyms": [
+   "contract",
+   "narrow"
+  ],
+  "example": "Her eyes dilated in surprise."
+ },
+ {
+  "id": "v-0498",
+  "word": "dilettante",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person with a superficial interest in something",
+  "synonyms": [
+   "amateur",
+   "dabbler",
+   "trifler"
+  ],
+  "antonyms": [
+   "expert",
+   "specialist"
+  ],
+  "example": "He was a dilettante in three fields."
+ },
+ {
+  "id": "v-0499",
+  "word": "dirge",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a mournful song or piece of music",
+  "synonyms": [
+   "lament",
+   "elegy",
+   "requiem"
+  ],
+  "antonyms": [
+   "celebration",
+   "ode"
+  ],
+  "example": "The orchestra played a slow dirge."
+ },
+ {
+  "id": "v-0500",
+  "word": "disparate",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "essentially different in kind; not comparable",
+  "synonyms": [
+   "different",
+   "dissimilar",
+   "contrasting"
+  ],
+  "antonyms": [
+   "similar",
+   "alike"
+  ],
+  "example": "The committee was split between disparate factions."
+ }
+]

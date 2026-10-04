@@ -1,0 +1,415 @@
+[
+ {
+  "id": "v-0226",
+  "word": "exegesis",
+  "pos": "n",
+  "tier": 3,
+  "definition": "critical explanation or analysis of a text",
+  "synonyms": [
+   "interpretation",
+   "explanation",
+   "analysis"
+  ],
+  "antonyms": [],
+  "example": "His exegesis of the poem won academic acclaim."
+ },
+ {
+  "id": "v-0227",
+  "word": "exonerate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to absolve from blame or responsibility",
+  "synonyms": [
+   "absolve",
+   "exculpate",
+   "vindicate"
+  ],
+  "antonyms": [
+   "blame",
+   "convict"
+  ],
+  "example": "New evidence exonerated the suspect."
+ },
+ {
+  "id": "v-0228",
+  "word": "facetious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "treating serious issues with inappropriate humor",
+  "synonyms": [
+   "flippant",
+   "glib",
+   "frivolous"
+  ],
+  "antonyms": [
+   "earnest",
+   "serious"
+  ],
+  "example": "Her facetious remarks undermined the meeting."
+ },
+ {
+  "id": "v-0229",
+  "word": "fatuity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "foolishness; something foolish",
+  "synonyms": [
+   "foolishness",
+   "inanity",
+   "folly"
+  ],
+  "antonyms": [
+   "wisdom"
+  ],
+  "example": "His fatuity in business cost the firm millions."
+ },
+ {
+  "id": "v-0230",
+  "word": "flagrant",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "conspicuously or obviously offensive",
+  "synonyms": [
+   "outrageous",
+   "egregious",
+   "blatant"
+  ],
+  "antonyms": [
+   "subtle",
+   "minor"
+  ],
+  "example": "The flagrant misconduct led to her dismissal."
+ },
+ {
+  "id": "v-0231",
+  "word": "gainsay",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to deny or contradict",
+  "synonyms": [
+   "deny",
+   "contradict",
+   "dispute"
+  ],
+  "antonyms": [
+   "confirm",
+   "affirm"
+  ],
+  "example": "There's no gainsaying his contribution to the field."
+ },
+ {
+  "id": "v-0232",
+  "word": "gambit",
+  "pos": "n",
+  "tier": 2,
+  "definition": "an act or remark designed to gain an advantage",
+  "synonyms": [
+   "maneuver",
+   "ploy",
+   " stratagem"
+  ],
+  "antonyms": [
+   "mistake"
+  ],
+  "example": "Her opening gambit was a brilliant concession."
+ },
+ {
+  "id": "v-0233",
+  "word": "germane",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "relevant to the subject at hand",
+  "synonyms": [
+   "relevant",
+   "pertinent",
+   "applicable"
+  ],
+  "antonyms": [
+   "irrelevant",
+   "extraneous"
+  ],
+  "example": "Please keep your comments germane to the topic."
+ },
+ {
+  "id": "v-0234",
+  "word": "harbinger",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a person or thing that announces or signals the approach of another",
+  "synonyms": [
+   "herald",
+   "precursor",
+   "forerunner"
+  ],
+  "antonyms": [
+   "successor",
+   "follower"
+  ],
+  "example": "The early frost was a harbinger of a hard winter."
+ },
+ {
+  "id": "v-0235",
+  "word": "homespun",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "simple and unsophisticated; homemade in style",
+  "synonyms": [
+   "plain",
+   "rustic",
+   "unpretentious"
+  ],
+  "antonyms": [
+   "sophisticated",
+   "refined"
+  ],
+  "example": "Her homespun wisdom charmed the city audience."
+ },
+ {
+  "id": "v-0236",
+  "word": "hypothetical",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "of, based on, or serving as a hypothesis; supposed",
+  "synonyms": [
+   "supposed",
+   "theoretical",
+   "speculative"
+  ],
+  "antonyms": [
+   "actual",
+   "real"
+  ],
+  "example": "She posed a hypothetical question about the future."
+ },
+ {
+  "id": "v-0237",
+  "word": "ignoble",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not honorable in character or purpose",
+  "synonyms": [
+   "base",
+   "mean",
+   "shameful"
+  ],
+  "antonyms": [
+   "noble",
+   "honorable"
+  ],
+  "example": "He was driven by ignoble motives."
+ },
+ {
+  "id": "v-0238",
+  "word": "imbroglio",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a complicated or confusing situation",
+  "synonyms": [
+   "quagmire",
+   "muddle",
+   " tangle"
+  ],
+  "antonyms": [],
+  "example": "The diplomatic imbroglio dragged on for months."
+ },
+ {
+  "id": "v-0239",
+  "word": "inimitable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "impossible to imitate or copy",
+  "synonyms": [
+   "unique",
+   "unparalleled",
+   "matchless"
+  ],
+  "antonyms": [
+   "common",
+   "ordinary"
+  ],
+  "example": "Her inimitable voice won her a global audience."
+ },
+ {
+  "id": "v-0240",
+  "word": "interregnum",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a period of time between two successive reigns or governments",
+  "synonyms": [
+   "interim",
+   "interval",
+   "hiatus"
+  ],
+  "antonyms": [
+   "continuity"
+  ],
+  "example": "The country endured a long interregnum before the new ruler arrived."
+ },
+ {
+  "id": "v-0241",
+  "word": "jettison",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to abandon or discard someone or something",
+  "synonyms": [
+   "discard",
+   "abandon",
+   "dump"
+  ],
+  "antonyms": [
+   "retain",
+   "keep"
+  ],
+  "example": "The company jettisoned its troubled subsidiary."
+ },
+ {
+  "id": "v-0242",
+  "word": "judicious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "having or showing good judgment",
+  "synonyms": [
+   "wise",
+   "sensible",
+   "prudent"
+  ],
+  "antonyms": [
+   "imprudent",
+   "rash"
+  ],
+  "example": "A judicious editor improves every manuscript."
+ },
+ {
+  "id": "v-0243",
+  "word": "lachrymose",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "tearful or given to weeping",
+  "synonyms": [
+   "tearful",
+   "weeping",
+   "dolorous"
+  ],
+  "antonyms": [
+   "cheerful",
+   "merry"
+  ],
+  "example": "The lachrymose protagonist mourned all night."
+ },
+ {
+  "id": "v-0244",
+  "word": "largesse",
+  "pos": "n",
+  "tier": 3,
+  "definition": "generosity in bestowing money or gifts",
+  "synonyms": [
+   "generosity",
+   "munificence",
+   "bounty"
+  ],
+  "antonyms": [
+   "stinginess",
+   "meanness"
+  ],
+  "example": "The donor's largesse funded an entire library wing."
+ },
+ {
+  "id": "v-0245",
+  "word": "lenient",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "more merciful or tolerant than expected",
+  "synonyms": [
+   "merciful",
+   "clement",
+   "indulgent"
+  ],
+  "antonyms": [
+   "strict",
+   "harsh"
+  ],
+  "example": "The judge was known for her lenient sentences."
+ },
+ {
+  "id": "v-0246",
+  "word": "lugubrious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "looking or sounding sad and dismal",
+  "synonyms": [
+   "mournful",
+   "doleful",
+   "morose"
+  ],
+  "antonyms": [
+   "cheerful",
+   "bright"
+  ],
+  "example": "The lugubrious music fit the rainy afternoon."
+ },
+ {
+  "id": "v-0247",
+  "word": "machination",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a plot or scheme, especially to do harm",
+  "synonyms": [
+   "intrigue",
+   "scheme",
+   "conspiracy"
+  ],
+  "antonyms": [],
+  "example": "His rivals uncovered the machination just in time."
+ },
+ {
+  "id": "v-0248",
+  "word": "malleable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "easily influenced; pliable",
+  "synonyms": [
+   "pliable",
+   "pliant",
+   "tractable"
+  ],
+  "antonyms": [
+   "inflexible",
+   "rigid"
+  ],
+  "example": "Young minds are malleable and open to new ideas."
+ },
+ {
+  "id": "v-0249",
+  "word": "meager",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "lacking in quantity or quality; deficient",
+  "synonyms": [
+   "scanty",
+   "sparse",
+   "scant"
+  ],
+  "antonyms": [
+   "abundant",
+   "plentiful"
+  ],
+  "example": "They survived on a meager diet of rice and fish."
+ },
+ {
+  "id": "v-0250",
+  "word": "nadir",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the lowest or most unsuccessful point",
+  "synonyms": [
+   "lowest point",
+   "bottom",
+   "depths"
+  ],
+  "antonyms": [
+   "zenith",
+   "apex"
+  ],
+  "example": "The team's nadir came after the ten-game losing streak."
+ }
+]

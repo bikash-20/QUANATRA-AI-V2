@@ -1,0 +1,304 @@
+[
+ {
+  "id": "q-geo-082",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a circle with radius $3$?",
+  "choices": [
+   "$3\\pi$",
+   "$6\\pi$",
+   "$9\\pi$",
+   "$12\\pi$",
+   "$18\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-083",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "An equilateral triangle has side length $5$. What is its perimeter?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-084",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a square with side $9$?",
+  "choices": [
+   "$18$",
+   "$36$",
+   "$54$",
+   "$72$",
+   "$81$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-geo-085",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the slope of a line through $(0, 0)$ and $(5, 10)$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$2$",
+   "$5$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-086",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The area of a sector is $12\\pi$. If the central angle is $90\\degree$, what is the radius?",
+  "choices": [
+   "$\\sqrt{6}$",
+   "$2\\sqrt{6}$",
+   "$6$",
+   "$12$",
+   "$24$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-087",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The circumference of a circle with radius $8$",
+  "quantityB": "$50$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-088",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The base of a triangle is $12$. Its area is $30$. What is its height?",
+  "choices": [
+   "$2.5$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-089",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A circle is inscribed in a square of side $12$. What is the area of the circle, expressed as a multiple of $\\pi$?",
+  "choices": [
+   "$9\\pi$",
+   "$12\\pi$",
+   "$36\\pi$",
+   "$144\\pi$",
+   "$169\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-090",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are properties of a $45\\degree$-$45\\degree$-$90\\degree$ triangle with leg length $s$? Indicate all such properties.",
+  "choices": [
+   "Hypotenuse is $s\\sqrt{2}$",
+   "Both base angles are $45\\degree$",
+   "The triangle is isosceles",
+   "The triangle has three equal sides",
+   "Area is $\\frac{s^2}{2}$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-091",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the slope of the line connecting the midpoints of two horizontal segments in the plane?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "Undefined",
+   "Depends on segments",
+   "$-1$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-092",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the distance between the points $(2, 3)$ and $(5, 7)$?",
+  "answer": 5
+ },
+ {
+  "id": "q-geo-093",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the radius of a circle whose diameter is $14$?",
+  "choices": [
+   "$7$",
+   "$14$",
+   "$21$",
+   "$28$",
+   "$49$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-094",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the perimeter of an equilateral triangle with side $11$?",
+  "choices": [
+   "$22$",
+   "$33$",
+   "$44$",
+   "$66$",
+   "$121$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-095",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The area of an equilateral triangle with side $4$",
+  "quantityB": "$7$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-096",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A trapezoid has parallel sides of length $5$ and $9$, and height $4$. What is its area?",
+  "choices": [
+   "$14$",
+   "$28$",
+   "$36$",
+   "$45$",
+   "$180$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-097",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A circle has area $36\\pi$. A second circle has twice the diameter. What is the area of the second circle?",
+  "choices": [
+   "$72\\pi$",
+   "$144\\pi$",
+   "$288\\pi$",
+   "$576\\pi$",
+   "$1296\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-098",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the slope of the line through the points $(2, 7)$ and $(6, 15)$?",
+  "answer": 2
+ },
+ {
+  "id": "q-geo-099",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A triangle has sides $a, b, c$ with $a + b = c - 3$. Which of the following must be true?",
+  "choices": [
+   "The triangle is equilateral",
+   "The triangle is a right triangle",
+   "The triangle is obtuse",
+   "Such a triangle cannot exist",
+   "The triangle is isosceles"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-100",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A regular octagon is formed by cutting isosceles right triangles from the corners of a square of side $s$. The triangles have legs of length $t$. What is the area of the octagon in terms of $s$ and $t$?",
+  "choices": [
+   "$s^2 - 4t^2$",
+   "$s^2 - 2t^2$",
+   "$s^2 - 4t$",
+   "$(s - 2t)^2$",
+   "$s^2 - 8t$"
+  ],
+  "answer": 1
+ }
+]

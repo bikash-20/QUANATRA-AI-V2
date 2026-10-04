@@ -1,0 +1,399 @@
+[
+ {
+  "id": "q-geo-032",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the radius of a circle with area $25\\pi$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-033",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "An equilateral triangle has a perimeter of $30$. What is the length of each side?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$30$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-034",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the area of a square with side length $7$?",
+  "choices": [
+   "$14$",
+   "$28$",
+   "$42$",
+   "$49$",
+   "$56$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-035",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the $y$-intercept of the line $y = 4x - 7$?",
+  "choices": [
+   "$-7$",
+   "$-4$",
+   "$4$",
+   "$7$",
+   "$11$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-036",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a semicircle with diameter $12$?",
+  "choices": [
+   "$6\\pi$",
+   "$12\\pi$",
+   "$18\\pi$",
+   "$36\\pi$",
+   "$144\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-037",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If the radius of a circle is tripled, by what factor does its area increase?",
+  "choices": [
+   "$3$",
+   "$6$",
+   "$9$",
+   "$12$",
+   "$27$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-038",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a triangle with vertices $(0, 0), (4, 0),$ and $(0, 6)$?",
+  "choices": [
+   "$10$",
+   "$12$",
+   "$20$",
+   "$24$",
+   "$48$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-039",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The perimeter of an equilateral triangle with side $8$",
+  "quantityB": "The perimeter of a square with side $6$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-040",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following side lengths could form a right triangle? Indicate all such sets.",
+  "choices": [
+   "$3, 4, 5$",
+   "$5, 12, 13$",
+   "$8, 15, 17$",
+   "$6, 7, 8$",
+   "$7, 24, 25$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-041",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the area of a rhombus with diagonals $8$ and $6$?",
+  "choices": [
+   "$14$",
+   "$24$",
+   "$28$",
+   "$48$",
+   "$96$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-042",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A circle is inscribed in a square of side $10$. What is the area of the circle?",
+  "choices": [
+   "$5\\pi$",
+   "$10\\pi$",
+   "$25\\pi$",
+   "$50\\pi$",
+   "$100\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-043",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the midpoint of the segment connecting $(2, 4)$ and $(8, 10)$?",
+  "choices": [
+   "$(3, 5)$",
+   "$(4, 6)$",
+   "$(5, 7)$",
+   "$(6, 8)$",
+   "$(10, 14)$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-044",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the distance between the points $(3, 4)$ and $(3, 12)$?",
+  "answer": 8
+ },
+ {
+  "id": "q-geo-045",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the circumference of a circle with area $81\\pi$?",
+  "choices": [
+   "$9\\pi$",
+   "$18\\pi$",
+   "$27\\pi$",
+   "$81\\pi$",
+   "$162\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-046",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The area of a circle with diameter $10$",
+  "quantityB": "$25\\pi$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-047",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The legs of an isosceles right triangle have length $6$. What is the length of the hypotenuse?",
+  "choices": [
+   "$6$",
+   "$6\\sqrt{2}$",
+   "$12$",
+   "$6\\sqrt{3}$",
+   "$36$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-048",
+  "type": "multi",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are properties of a square? Indicate all such properties.",
+  "choices": [
+   "All sides equal",
+   "All angles $90\\degree$",
+   "Diagonals are equal",
+   "Diagonals bisect each other",
+   "Diagonals are perpendicular"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-049",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the slope of a line parallel to $y = -2x + 5$?",
+  "choices": [
+   "$-2$",
+   "$\\frac{1}{2}$",
+   "$2$",
+   "$5$",
+   "Undefined"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-050",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the equation of a line with slope $3$ that passes through the origin?",
+  "choices": [
+   "$y = 3x$",
+   "$y = 3x + 3$",
+   "$y = 3x - 3$",
+   "$y = \\frac{x}{3}$",
+   "$x = 3y$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-051",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A circle has a chord of length $8$ at a distance of $3$ from the center. What is the radius?",
+  "choices": [
+   "$\\sqrt{55}$",
+   "$5$",
+   "$\\sqrt{73}$",
+   "$\\sqrt{89}$",
+   "$\\sqrt{100}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-052",
+  "type": "qc",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The area of a triangle with sides $6, 6, 6$",
+  "quantityB": "$15$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-053",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A right triangle has legs $9$ and $12$. What is the length of its hypotenuse?",
+  "answer": 15
+ },
+ {
+  "id": "q-geo-054",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A square has area $50$. A second square has twice the side length of the first. What is the area of the second square?",
+  "choices": [
+   "$100$",
+   "$150$",
+   "$200$",
+   "$250$",
+   "$400$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-055",
+  "type": "mcq",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "The point $(a, b)$ is the reflection of $(3, 5)$ across the line $y = x$. What is $a + b$?",
+  "choices": [
+   "$2$",
+   "$5$",
+   "$8$",
+   "$15$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-056",
+  "type": "numeric",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the radius of a circle whose area is $169\\pi$?",
+  "answer": 13
+ }
+]

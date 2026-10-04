@@ -1,0 +1,402 @@
+[
+ {
+  "id": "q-wpr-057",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A truck travels $180$ miles in $3$ hours. What is its average speed?",
+  "choices": [
+   "30 mph",
+   "45 mph",
+   "60 mph",
+   "90 mph",
+   "180 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-058",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If a job takes $8$ hours for one person, how many people are needed to do it in $2$ hours?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "16"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-059",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the simple interest on $\\$200$ at $10\\%$ per year for $1$ year?",
+  "choices": [
+   "$\\$5$",
+   "$\\$10$",
+   "$\\$20$",
+   "$\\$200$",
+   "$\\$220$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-060",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Mixing $4$ L of $25\\%$ acid with $4$ L of $50\\%$ acid gives what percent acid?",
+  "choices": [
+   "25\\%",
+   "30\\%",
+   "37.5\\%",
+   "50\\%",
+   "75\\%"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-061",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A $\\$20$ item is discounted by $25\\%$. What is the new price?",
+  "choices": [
+   "$\\$5$",
+   "$\\$10$",
+   "$\\$15$",
+   "$\\$17.50$",
+   "$\\$18$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-062",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If you travel $60$ miles in $2$ hours, what is your average speed?",
+  "choices": [
+   "20 mph",
+   "30 mph",
+   "40 mph",
+   "60 mph",
+   "120 mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-063",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A train travels at $80$ mph for $2$ hours and then at $40$ mph for $3$ hours. What is its total distance?",
+  "choices": [
+   "160 miles",
+   "200 miles",
+   "240 miles",
+   "280 miles",
+   "320 miles"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-064",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two cyclists, $84$ miles apart, ride toward each other at $12$ mph and $16$ mph. How long until they meet?",
+  "choices": [
+   "2 hours",
+   "3 hours",
+   "4 hours",
+   "5 hours",
+   "6 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-065",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Time to travel $80$ miles at $20$ mph",
+  "quantityB": "Time to travel $100$ miles at $25$ mph",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-066",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Pipe A fills a tank in $3$ hours. Pipe B empties it in $6$ hours. If both are open, how long to fill?",
+  "choices": [
+   "2 hours",
+   "4 hours",
+   "5 hours",
+   "6 hours",
+   "9 hours"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-067",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Working together, Mary and John can paint a room in $4$ hours. Mary alone takes $6$ hours. How long does John take alone?",
+  "choices": [
+   "10 hours",
+   "11 hours",
+   "12 hours",
+   "20 hours",
+   "24 hours"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-068",
+  "type": "multi",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are correct for a job done by $A$ in $8$ days and $B$ in $12$ days? Indicate all such statements.",
+  "choices": [
+   "$A$'s rate is $\\frac{1}{8}$ of job per day",
+   "$B$'s rate is $\\frac{1}{12}$ of job per day",
+   "Combined rate is $\\frac{5}{24}$ of job per day",
+   "Together they finish in $\\frac{24}{5}$ days",
+   "Together they finish in $20$ days"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-wpr-069",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$\\$500$ at $8\\%$ simple interest for $3$ years",
+  "quantityB": "$\\$620$",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-070",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many years for $\\$1000$ to earn $\\$200$ in simple interest at $4\\%$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "10"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-071",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many liters of a $20\\%$ salt solution must be added to $40$ L of water to obtain a $10\\%$ solution?",
+  "choices": [
+   "20",
+   "30",
+   "40",
+   "50",
+   "60"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-072",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Coffee costs $\\$6$/lb at store A and $\\$10$/lb at store B. How much of each should be mixed to make $20$ lb at $\\$8$/lb?",
+  "choices": [
+   "10 lb A and 10 lb B",
+   "5 lb A and 15 lb B",
+   "15 lb A and 5 lb B",
+   "8 lb A and 12 lb B",
+   "12 lb A and 8 lb B"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-073",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If sales increased from $\\$200$ to $\\$250$, what is the percent increase?",
+  "choices": [
+   "$20\\%$",
+   "$25\\%$",
+   "$50\\%$",
+   "$80\\%$",
+   "$125\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-074",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "An item is marked down $20\\%$, then marked down another $10\\%$. What is the total discount?",
+  "choices": [
+   "$28\\%$",
+   "$30\\%$",
+   "$32\\%$",
+   "$70\\%$",
+   "$80\\%"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-075",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Original price increased by $50\\%$",
+  "quantityB": "Original price decreased by $50\\%$ then increased by $100\\%$",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-076",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A car travels $90$ miles in $1.5$ hours. What is its average speed?",
+  "choices": [
+   "30 mph",
+   "45 mph",
+   "60 mph",
+   "75 mph",
+   "135 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-077",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A runner covers $100$ m in $10$ s. What is his average speed in m/s?",
+  "choices": [
+   "5",
+   "8",
+   "10",
+   "12",
+   "20"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-078",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Two trains start at the same point. One goes north at $60$ mph and the other east at $80$ mph. After $3$ hours, how far apart are they?",
+  "choices": [
+   "100 miles",
+   "140 miles",
+   "300 miles",
+   "420 miles",
+   "500 miles"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-079",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "Rate of $A$ doing the job alone",
+  "quantityB": "Rate of $A$ and $B$ together",
+  "answer": "A",
+  "common": "$A$ and $B$ work together and finish the job in less time than $A$ alone."
+ },
+ {
+  "id": "q-wpr-080",
+  "type": "numeric",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "An investment of $\\$1000$ at $10\\%$ compounded annually is worth how much, in dollars, after $5$ years? (Round to the nearest integer.)",
+  "answer": 1611
+ },
+ {
+  "id": "q-wpr-081",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A radiator holds $8$ L of $30\\%$ antifreeze. How many liters must be drained and replaced with pure antifreeze to obtain $50\\%$ antifreeze?",
+  "choices": [
+   "$1.5$",
+   "$2$",
+   "$2.5$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ }
+]

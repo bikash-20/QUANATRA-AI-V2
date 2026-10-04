@@ -1,0 +1,422 @@
+[
+ {
+  "id": "v-0151",
+  "word": "pragmatic",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "dealing with things sensibly and realistically",
+  "synonyms": [
+   "practical",
+   "realistic",
+   "hardheaded"
+  ],
+  "antonyms": [
+   "idealistic",
+   "impractical"
+  ],
+  "example": "Her pragmatic approach to budgeting saved the project."
+ },
+ {
+  "id": "v-0152",
+  "word": "precocious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "having developed certain abilities at an earlier age than usual",
+  "synonyms": [
+   "advanced",
+   "gifted",
+   "mature"
+  ],
+  "antonyms": [
+   "backward",
+   "slow"
+  ],
+  "example": "The precocious toddler was reading chapter books."
+ },
+ {
+  "id": "v-0153",
+  "word": "predilection",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a preference or special liking for something",
+  "synonyms": [
+   "preference",
+   "fondness",
+   "penchant"
+  ],
+  "antonyms": [
+   "aversion",
+   "dislike"
+  ],
+  "example": "He has a predilection for spicy food."
+ },
+ {
+  "id": "v-0154",
+  "word": "prevaricate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to speak or act evasively; to lie",
+  "synonyms": [
+   "equivocate",
+   "hedge",
+   "fabricate"
+  ],
+  "antonyms": [
+   "be forthright"
+  ],
+  "example": "Stop prevaricating and give me a straight answer."
+ },
+ {
+  "id": "v-0155",
+  "word": "probity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the quality of having strong moral principles; honesty",
+  "synonyms": [
+   "integrity",
+   "rectitude",
+   "honesty"
+  ],
+  "antonyms": [
+   "corruption",
+   "dishonesty"
+  ],
+  "example": "Her probity was beyond question."
+ },
+ {
+  "id": "v-0156",
+  "word": "propitiate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to win or regain the favor of; to appease",
+  "synonyms": [
+   "appease",
+   "placate",
+   "mollify"
+  ],
+  "antonyms": [
+   "provoke",
+   "antagonize"
+  ],
+  "example": "He brought flowers to propitiate his angry neighbor."
+ },
+ {
+  "id": "v-0157",
+  "word": "propitious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "giving or indicating a good chance of success; favorable",
+  "synonyms": [
+   "favorable",
+   "auspicious",
+   "promising"
+  ],
+  "antonyms": [
+   "unfavorable",
+   "inauspicious"
+  ],
+  "example": "Conditions were propitious for the launch."
+ },
+ {
+  "id": "v-0158",
+  "word": "pugnacious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "eager or quick to argue, fight, or disagree",
+  "synonyms": [
+   "combative",
+   "belligerent",
+   "aggressive"
+  ],
+  "antonyms": [
+   "peaceable",
+   "pacific"
+  ],
+  "example": "His pugnacious style alienated potential allies."
+ },
+ {
+  "id": "v-0159",
+  "word": "quiescent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "in a state or period of inactivity or dormancy",
+  "synonyms": [
+   "inactive",
+   "dormant",
+   "still"
+  ],
+  "antonyms": [
+   "active",
+   "vibrant"
+  ],
+  "example": "The volcano has been quiescent for a century."
+ },
+ {
+  "id": "v-0160",
+  "word": "raconteur",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who tells anecdotes in a skillful and amusing way",
+  "synonyms": [
+   "storyteller",
+   "narrator",
+   "relater"
+  ],
+  "antonyms": [],
+  "example": "Their uncle was a charming raconteur at family gatherings."
+ },
+ {
+  "id": "v-0161",
+  "word": "recalcitrance",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the quality of being stubbornly uncooperative",
+  "synonyms": [
+   "stubbornness",
+   "intransigence",
+   "defiance"
+  ],
+  "antonyms": [
+   "compliance",
+   "docility"
+  ],
+  "example": "His recalcitrance delayed the whole project."
+ },
+ {
+  "id": "v-0162",
+  "word": "relegate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to assign to a lower rank or position; to demote",
+  "synonyms": [
+   "demote",
+   "downgrade",
+   "banish"
+  ],
+  "antonyms": [
+   "promote",
+   "elevate"
+  ],
+  "example": "He was relegated to the minor leagues."
+ },
+ {
+  "id": "v-0163",
+  "word": "remonstrate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make a forcefully reproachful protest",
+  "synonyms": [
+   "protest",
+   "object",
+   "complain"
+  ],
+  "antonyms": [
+   "approve",
+   "acquiesce"
+  ],
+  "example": "She remonstrated with him about his rudeness."
+ },
+ {
+  "id": "v-0164",
+  "word": "sagacity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the quality of being sagacious; keen judgment",
+  "synonyms": [
+   "wisdom",
+   "astuteness",
+   "shrewdness"
+  ],
+  "antonyms": [
+   "foolishness"
+  ],
+  "example": "The diplomat was admired for his sagacity."
+ },
+ {
+  "id": "v-0165",
+  "word": "salient",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "most noticeable or important",
+  "synonyms": [
+   "prominent",
+   "striking",
+   "noteworthy"
+  ],
+  "antonyms": [
+   "minor",
+   "obscure"
+  ],
+  "example": "She summarized the salient points of the report."
+ },
+ {
+  "id": "v-0166",
+  "word": "sanction",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to authorize or permit; to impose a penalty for",
+  "synonyms": [
+   "authorize",
+   "approve",
+   "endorse"
+  ],
+  "antonyms": [
+   "forbid",
+   "proscribe"
+  ],
+  "example": "The committee sanctioned the new policy."
+ },
+ {
+  "id": "v-0167",
+  "word": "sardonic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "grimly mocking or cynical",
+  "synonyms": [
+   "mocking",
+   "cynical",
+   "sneering"
+  ],
+  "antonyms": [
+   "earnest",
+   "genuine"
+  ],
+  "example": "She gave a sardonic laugh at his excuse."
+ },
+ {
+  "id": "v-0168",
+  "word": "scintillating",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "brilliantly and excitingly clever or skillful",
+  "synonyms": [
+   "sparkling",
+   "dazzling",
+   "brilliant"
+  ],
+  "antonyms": [
+   "dull",
+   "mundane"
+  ],
+  "example": "The host delivered a scintillating monologue."
+ },
+ {
+  "id": "v-0169",
+  "word": "sedition",
+  "pos": "n",
+  "tier": 3,
+  "definition": "conduct or speech inciting people to rebel against authority",
+  "synonyms": [
+   "treason",
+   "subversion",
+   "insurgence"
+  ],
+  "antonyms": [
+   "loyalty",
+   "obedience"
+  ],
+  "example": "He was arrested for sedition after the speech."
+ },
+ {
+  "id": "v-0170",
+  "word": "soporific",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "tending to induce drowsiness or sleep",
+  "synonyms": [
+   "sleep-inducing",
+   "sedative",
+   "hypnotic"
+  ],
+  "antonyms": [
+   "stimulating",
+   "invigorating"
+  ],
+  "example": "The soporific lecture put half the room to sleep."
+ },
+ {
+  "id": "v-0171",
+  "word": "stentorian",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "loud and powerful in sound",
+  "synonyms": [
+   "booming",
+   "thundering",
+   "sonorous"
+  ],
+  "antonyms": [
+   "soft",
+   "quiet"
+  ],
+  "example": "His stentorian voice carried across the hall."
+ },
+ {
+  "id": "v-0172",
+  "word": "stint",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to be miserly or begrudging in giving or spending",
+  "synonyms": [
+   "scrimp",
+   "skimp",
+   "economize"
+  ],
+  "antonyms": [
+   "lavish",
+   "squander"
+  ],
+  "example": "Don't stint on the spices for this recipe."
+ },
+ {
+  "id": "v-0173",
+  "word": "strident",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "loud, harsh, and grating",
+  "synonyms": [
+   "shrill",
+   "rasping",
+   "jarring"
+  ],
+  "antonyms": [
+   "soothing",
+   "mellow"
+  ],
+  "example": "Her strident demands alienated potential allies."
+ },
+ {
+  "id": "v-0174",
+  "word": "superfluous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "unnecessary, especially through being more than enough",
+  "synonyms": [
+   "excess",
+   "redundant",
+   "surplus"
+  ],
+  "antonyms": [
+   "necessary",
+   "essential"
+  ],
+  "example": "Strip away superfluous detail from your essay."
+ },
+ {
+  "id": "v-0175",
+  "word": "tacit",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "understood or implied without being stated openly",
+  "synonyms": [
+   "implicit",
+   "unspoken",
+   "implied"
+  ],
+  "antonyms": [
+   "explicit",
+   "stated"
+  ],
+  "example": "They had a tacit agreement not to discuss the matter."
+ }
+]

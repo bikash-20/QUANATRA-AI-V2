@@ -1,0 +1,420 @@
+[
+ {
+  "id": "v-0451",
+  "word": "aerie",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a high nest or dwelling",
+  "synonyms": [
+   "nest",
+   "roost",
+   "eyrie"
+  ],
+  "antonyms": [
+   "lowland",
+   "valley"
+  ],
+  "example": "The eagle returned to its aerie on the cliff."
+ },
+ {
+  "id": "v-0452",
+  "word": "aesthetic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "concerned with beauty or artistic appreciation",
+  "synonyms": [
+   "artistic",
+   "tasteful",
+   "elegant"
+  ],
+  "antonyms": [
+   "functional",
+   "utilitarian"
+  ],
+  "example": "The building had strong aesthetic appeal."
+ },
+ {
+  "id": "v-0453",
+  "word": "affected",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "artificial and designed to impress",
+  "synonyms": [
+   "pretentious",
+   "artificial",
+   "assumed"
+  ],
+  "antonyms": [
+   "natural",
+   "genuine"
+  ],
+  "example": "His affected manner irritated the staff."
+ },
+ {
+  "id": "v-0454",
+  "word": "alleviate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to make suffering or a problem less severe",
+  "synonyms": [
+   "ease",
+   "relieve",
+   "mitigate"
+  ],
+  "antonyms": [
+   "aggravate",
+   "worsen"
+  ],
+  "example": "The new drug alleviated her chronic pain."
+ },
+ {
+  "id": "v-0455",
+  "word": "amalgamate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to combine or unite to form one structure",
+  "synonyms": [
+   "merge",
+   "unite",
+   "fuse"
+  ],
+  "antonyms": [
+   "separate",
+   "divide"
+  ],
+  "example": "The two firms amalgamated into one."
+ },
+ {
+  "id": "v-0456",
+  "word": "ambiguous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "open to more than one interpretation",
+  "synonyms": [
+   "equivocal",
+   "vague",
+   "cryptic"
+  ],
+  "antonyms": [
+   "clear",
+   "unambiguous"
+  ],
+  "example": "The ambiguous clause led to a lawsuit."
+ },
+ {
+  "id": "v-0457",
+  "word": "amortize",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to gradually write off the cost or value of something",
+  "synonyms": [
+   "depreciate",
+   "write off",
+   "pay down"
+  ],
+  "antonyms": [
+   "inflate",
+   "appreciate"
+  ],
+  "example": "They amortized the loan over thirty years."
+ },
+ {
+  "id": "v-0458",
+  "word": "amulet",
+  "pos": "n",
+  "tier": 3,
+  "definition": "an ornament worn as a charm against evil",
+  "synonyms": [
+   "talisman",
+   "charm",
+   "fetish"
+  ],
+  "antonyms": [
+   "curse"
+  ],
+  "example": "She wore an amulet around her neck."
+ },
+ {
+  "id": "v-0459",
+  "word": "anachronism",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a thing belonging to a period other than its own",
+  "synonyms": [
+   "misdating",
+   "out-of-date thing"
+  ],
+  "antonyms": [
+   "timely item"
+  ],
+  "example": "The phone in the film was an anachronism."
+ },
+ {
+  "id": "v-0460",
+  "word": "analgesia",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the absence of pain sensation",
+  "synonyms": [
+   "pain relief",
+   "numbness"
+  ],
+  "antonyms": [
+   "pain"
+  ],
+  "example": "The drug produced complete analgesia."
+ },
+ {
+  "id": "v-0461",
+  "word": "analogous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "comparable in certain respects; similar",
+  "synonyms": [
+   "comparable",
+   "parallel",
+   "similar"
+  ],
+  "antonyms": [
+   "dissimilar",
+   "different"
+  ],
+  "example": "Her situation was analogous to mine."
+ },
+ {
+  "id": "v-0462",
+  "word": "anodyne",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not likely to provoke dissent or offense; bland",
+  "synonyms": [
+   "bland",
+   "inoffensive",
+   "soothing"
+  ],
+  "antonyms": [
+   "provocative",
+   "offensive"
+  ],
+  "example": "The speech was deliberately anodyne."
+ },
+ {
+  "id": "v-0463",
+  "word": "antagonize",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to cause someone to become hostile",
+  "synonyms": [
+   "provoke",
+   "irritate",
+   "alienate"
+  ],
+  "antonyms": [
+   "placate",
+   "appease"
+  ],
+  "example": "He antagonized the staff with constant criticism."
+ },
+ {
+  "id": "v-0464",
+  "word": "apostate",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who renounces a belief or principle",
+  "synonyms": [
+   "renegade",
+   "defector",
+   "heretic"
+  ],
+  "antonyms": [
+   "loyalist",
+   "adherent"
+  ],
+  "example": "He was branded an apostate by his former allies."
+ },
+ {
+  "id": "v-0465",
+  "word": "arbitrary",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "based on random choice rather than reason",
+  "synonyms": [
+   "capricious",
+   "whimsical",
+   "unreasonable"
+  ],
+  "antonyms": [
+   "reasoned",
+   "systematic"
+  ],
+  "example": "The decision seemed arbitrary and unfair."
+ },
+ {
+  "id": "v-0466",
+  "word": "arbitrate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to act as a judge or mediator in a dispute",
+  "synonyms": [
+   "mediate",
+   "adjudicate",
+   "referee"
+  ],
+  "antonyms": [
+   "dispute",
+   "fight"
+  ],
+  "example": "She was asked to arbitrate the labor dispute."
+ },
+ {
+  "id": "v-0467",
+  "word": "assail",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make a concerted attack on",
+  "synonyms": [
+   "attack",
+   "assault",
+   "storm"
+  ],
+  "antonyms": [
+   "defend",
+   "protect"
+  ],
+  "example": "Critics assailed the new policy."
+ },
+ {
+  "id": "v-0468",
+  "word": "augury",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a sign of what will happen in the future; an omen",
+  "synonyms": [
+   "omen",
+   "sign",
+   "portent"
+  ],
+  "antonyms": [
+   "misleading"
+  ],
+  "example": "The birds were seen as augury of war."
+ },
+ {
+  "id": "v-0469",
+  "word": "austere",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "severe or strict in manner or appearance",
+  "synonyms": [
+   "stern",
+   "spartan",
+   "ascetic"
+  ],
+  "antonyms": [
+   "indulgent",
+   "lavish"
+  ],
+  "example": "The room was bare and austere."
+ },
+ {
+  "id": "v-0470",
+  "word": "bifurcate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to divide into two branches or forks",
+  "synonyms": [
+   "split",
+   "fork",
+   "branch"
+  ],
+  "antonyms": [
+   "unite",
+   "merge"
+  ],
+  "example": "The road bifurcates just past the river."
+ },
+ {
+  "id": "v-0471",
+  "word": "blithe",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing a casual and cheerful indifference",
+  "synonyms": [
+   "casual",
+   "carefree",
+   "lighthearted"
+  ],
+  "antonyms": [
+   "anxious",
+   "serious"
+  ],
+  "example": "Her blithe attitude annoyed the worried planners."
+ },
+ {
+  "id": "v-0472",
+  "word": "bolster",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to support or strengthen",
+  "synonyms": [
+   "support",
+   "reinforce",
+   "buttress"
+  ],
+  "antonyms": [
+   "undermine",
+   "weaken"
+  ],
+  "example": "New evidence bolstered his case."
+ },
+ {
+  "id": "v-0473",
+  "word": "cabal",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a secret political clique or faction",
+  "synonyms": [
+   "clique",
+   "conspiracy",
+   "coterie"
+  ],
+  "antonyms": [
+   "public group"
+  ],
+  "example": "A small cabal controlled the party."
+ },
+ {
+  "id": "v-0474",
+  "word": "canard",
+  "pos": "n",
+  "tier": 3,
+  "definition": "an unfounded or false story or claim",
+  "synonyms": [
+   "hoax",
+   "falsehood",
+   "fabrication"
+  ],
+  "antonyms": [
+   "fact",
+   "truth"
+  ],
+  "example": "The rumor turned out to be a canard."
+ },
+ {
+  "id": "v-0475",
+  "word": "candid",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "truthful and straightforward; frank",
+  "synonyms": [
+   "frank",
+   "honest",
+   "forthright"
+  ],
+  "antonyms": [
+   "evasive",
+   "guileful"
+  ],
+  "example": "She gave a candid assessment of the risks."
+ }
+]

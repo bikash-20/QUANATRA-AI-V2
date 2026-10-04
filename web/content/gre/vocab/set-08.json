@@ -1,0 +1,423 @@
+[
+ {
+  "id": "v-0176",
+  "word": "torpid",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "physically or mentally inactive; lethargic",
+  "synonyms": [
+   "sluggish",
+   "lethargic",
+   "inert"
+  ],
+  "antonyms": [
+   "active",
+   "energetic"
+  ],
+  "example": "The torpid bear barely noticed the photographer."
+ },
+ {
+  "id": "v-0177",
+  "word": "tortuous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "full of twists and turns; excessively complex",
+  "synonyms": [
+   "winding",
+   "convoluted",
+   "twisting"
+  ],
+  "antonyms": [
+   "straight",
+   "direct"
+  ],
+  "example": "The tortuous mountain road took hours to traverse."
+ },
+ {
+  "id": "v-0178",
+  "word": "trenchant",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "incisive and vigorous; sharply defined",
+  "synonyms": [
+   "incisive",
+   "keen",
+   "cutting"
+  ],
+  "antonyms": [
+   "vague",
+   "mild"
+  ],
+  "example": "Her trenchant criticism cut straight to the point."
+ },
+ {
+  "id": "v-0179",
+  "word": "turbid",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "cloudy, opaque, or thick with suspended matter",
+  "synonyms": [
+   "murky",
+   "muddy",
+   "cloudy"
+  ],
+  "antonyms": [
+   "clear",
+   "limpid"
+  ],
+  "example": "The turbid river ran brown after the storm."
+ },
+ {
+  "id": "v-0180",
+  "word": "umbrage",
+  "pos": "n",
+  "tier": 3,
+  "definition": "offense or annoyance",
+  "synonyms": [
+   "offense",
+   "resentment",
+   " pique"
+  ],
+  "antonyms": [
+   "pleasure",
+   "delight"
+  ],
+  "example": "He took umbrage at the suggestion he was wrong."
+ },
+ {
+  "id": "v-0181",
+  "word": "urbane",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "suave, courteous, and refined in manner",
+  "synonyms": [
+   "suave",
+   "sophisticated",
+   "cultivated"
+  ],
+  "antonyms": [
+   "boorish",
+   "uncouth"
+  ],
+  "example": "The urbane host made everyone feel at ease."
+ },
+ {
+  "id": "v-0182",
+  "word": "vacuous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having or showing a lack of thought or intelligence",
+  "synonyms": [
+   "empty",
+   "blank",
+   "vacant"
+  ],
+  "antonyms": [
+   "intelligent",
+   "meaningful"
+  ],
+  "example": "His vacuous stare gave away nothing."
+ },
+ {
+  "id": "v-0183",
+  "word": "vehement",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "showing strong feeling; forceful, passionate",
+  "synonyms": [
+   "passionate",
+   "fervent",
+   "emphatic"
+  ],
+  "antonyms": [
+   "apathetic",
+   "halfhearted"
+  ],
+  "example": "Her vehement defense of the proposal swayed the room."
+ },
+ {
+  "id": "v-0184",
+  "word": "venal",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing or motivated by susceptibility to bribery",
+  "synonyms": [
+   "corrupt",
+   "bribable",
+   "mercenary"
+  ],
+  "antonyms": [
+   "honorable",
+   "incorruptible"
+  ],
+  "example": "The venal judge accepted bribes for years."
+ },
+ {
+  "id": "v-0185",
+  "word": "veracity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "conformity to truth; accuracy",
+  "synonyms": [
+   "truthfulness",
+   "accuracy",
+   "fidelity"
+  ],
+  "antonyms": [
+   "falsity",
+   " mendacity"
+  ],
+  "example": "The witness swore an oath of veracity."
+ },
+ {
+  "id": "v-0186",
+  "word": "vicissitude",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a change of circumstances or fortune",
+  "synonyms": [
+   "change",
+   "fluctuation",
+   "variation"
+  ],
+  "antonyms": [
+   "stability",
+   "constancy"
+  ],
+  "example": "She endured the vicissitudes of fortune without complaint."
+ },
+ {
+  "id": "v-0187",
+  "word": "vituperative",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "bitter and abusive",
+  "synonyms": [
+   "scurrilous",
+   "vitriolic",
+   "invective"
+  ],
+  "antonyms": [
+   "complimentary",
+   "mild"
+  ],
+  "example": "The vituperative exchanges made the meeting untenable."
+ },
+ {
+  "id": "v-0188",
+  "word": "voluble",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "speaking or spoken readily and at length",
+  "synonyms": [
+   "talkative",
+   "garrulous",
+   "loquacious"
+  ],
+  "antonyms": [
+   "taciturn",
+   "reticent"
+  ],
+  "example": "Her voluble defense made the discussion go on forever."
+ },
+ {
+  "id": "v-0189",
+  "word": "wanton",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "deliberate and unprovoked; uncalled for",
+  "synonyms": [
+   "deliberate",
+   "unjustified",
+   "gratuitous"
+  ],
+  "antonyms": [
+   "justified",
+   "restrained"
+  ],
+  "example": "The wanton destruction of the forest shocked everyone."
+ },
+ {
+  "id": "v-0190",
+  "word": "zealous",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "having or showing great energy or enthusiasm",
+  "synonyms": [
+   "fervent",
+   "ardent",
+   "passionate"
+  ],
+  "antonyms": [
+   "apathetic",
+   "indifferent"
+  ],
+  "example": "She was a zealous advocate for the cause."
+ },
+ {
+  "id": "v-0191",
+  "word": "abjure",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to solemnly renounce a belief or claim",
+  "synonyms": [
+   "renounce",
+   "forswear",
+   "relinquish"
+  ],
+  "antonyms": [
+   "espouse",
+   "embrace"
+  ],
+  "example": "He abjured his former allegiance."
+ },
+ {
+  "id": "v-0192",
+  "word": "adumbrate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to outline or sketch; to foreshadow",
+  "synonyms": [
+   "outline",
+   "sketch",
+   "foreshadow"
+  ],
+  "antonyms": [
+   "elaborate"
+  ],
+  "example": "The prologue adumbrates the coming tragedy."
+ },
+ {
+  "id": "v-0193",
+  "word": "amenable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "open and responsive to suggestion; willing",
+  "synonyms": [
+   "agreeable",
+   "cooperative",
+   "tractable"
+  ],
+  "antonyms": [
+   "stubborn",
+   "recalcitrant"
+  ],
+  "example": "She was amenable to any reasonable compromise."
+ },
+ {
+  "id": "v-0194",
+  "word": "antithesis",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person or thing that is the direct opposite of another",
+  "synonyms": [
+   "opposite",
+   "contrary",
+   "counterpart"
+  ],
+  "antonyms": [
+   "same",
+   "parallel"
+  ],
+  "example": "Her calm was the antithesis of her brother's frenzy."
+ },
+ {
+  "id": "v-0195",
+  "word": "apothegm",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a concise saying or maxim; an aphorism",
+  "synonyms": [
+   "aphorism",
+   "maxim",
+   "adage"
+  ],
+  "antonyms": [],
+  "example": "He collected apothegms from every century."
+ },
+ {
+  "id": "v-0196",
+  "word": "belie",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to fail to give a true notion or impression of",
+  "synonyms": [
+   "contradict",
+   "misrepresent",
+   "negate"
+  ],
+  "antonyms": [
+   "confirm",
+   "reveal"
+  ],
+  "example": "His calm voice belied the panic he was feeling."
+ },
+ {
+  "id": "v-0197",
+  "word": "brusque",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "abrupt or offhand in speech or manner",
+  "synonyms": [
+   "curt",
+   "abrupt",
+   "gruff"
+  ],
+  "antonyms": [
+   "polite",
+   "deferential"
+  ],
+  "example": "His brusque reply ended the conversation."
+ },
+ {
+  "id": "v-0198",
+  "word": "candor",
+  "pos": "n",
+  "tier": 1,
+  "definition": "the quality of being open and honest in expression",
+  "synonyms": [
+   "frankness",
+   "honesty",
+   " openness"
+  ],
+  "antonyms": [
+   "evasion",
+   "dissembling"
+  ],
+  "example": "She answered the question with disarming candor."
+ },
+ {
+  "id": "v-0199",
+  "word": "captious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "tending to find fault or raise petty objections",
+  "synonyms": [
+   "carping",
+   "critical",
+   "quibbling"
+  ],
+  "antonyms": [
+   "approving",
+   "uncritical"
+  ],
+  "example": "Her captious remarks undermined every proposal."
+ },
+ {
+  "id": "v-0200",
+  "word": "castigate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to reprimand someone severely",
+  "synonyms": [
+   "rebuke",
+   "reprimand",
+   "upbraid"
+  ],
+  "antonyms": [
+   "praise",
+   "commend"
+  ],
+  "example": "The senator was castigated for his unethical behavior."
+ }
+]

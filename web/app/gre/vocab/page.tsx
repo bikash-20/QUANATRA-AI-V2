@@ -16,7 +16,7 @@ export default function GreVocabIndexPage() {
         <header className="space-y-1">
           <h1 className="text-2xl font-bold md:text-3xl">Vocabulary</h1>
           <p className="text-sm text-slate-400">
-            {manifest.totals.vocab} hard GRE words across 3 tiers, in 2 sets of 25.
+            {manifest.totals.vocab} hard GRE words across 3 tiers, in {Object.keys(manifest.vocab).length} sets of 25.
           </p>
         </header>
 

@@ -1,0 +1,425 @@
+[
+ {
+  "id": "v-0076",
+  "word": "denigrate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to attack the reputation of; to speak ill of",
+  "synonyms": [
+   "belittle",
+   "disparage",
+   "malign"
+  ],
+  "antonyms": [
+   "praise",
+   "extol"
+  ],
+  "example": "His column denigrated the new policy as half-baked."
+ },
+ {
+  "id": "v-0077",
+  "word": "deride",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to ridicule or mock contemptuously",
+  "synonyms": [
+   "mock",
+   "scorn",
+   "jeer"
+  ],
+  "antonyms": [
+   "respect",
+   "praise"
+  ],
+  "example": "Critics derided the proposal as unworkable."
+ },
+ {
+  "id": "v-0078",
+  "word": "despot",
+  "pos": "n",
+  "tier": 1,
+  "definition": "a ruler with great, often oppressive, power",
+  "synonyms": [
+   "tyrant",
+   "autocrat",
+   "dictator"
+  ],
+  "antonyms": [
+   "democrat"
+  ],
+  "example": "The country suffered for decades under the despot."
+ },
+ {
+  "id": "v-0079",
+  "word": "desultory",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "lacking a definite plan or purpose; random",
+  "synonyms": [
+   "aimless",
+   "random",
+   "haphazard"
+  ],
+  "antonyms": [
+   "methodical",
+   "systematic"
+  ],
+  "example": "He made a few desultory attempts to fix the car, then gave up."
+ },
+ {
+  "id": "v-0080",
+  "word": "diaphanous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "light, delicate, and translucent",
+  "synonyms": [
+   "sheer",
+   "gossamer",
+   "transparent"
+  ],
+  "antonyms": [
+   "opaque",
+   "thick"
+  ],
+  "example": "The diaphanous curtains let in the morning light."
+ },
+ {
+  "id": "v-0081",
+  "word": "didactic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "intended to teach, especially in a moralizing way",
+  "synonyms": [
+   "instructive",
+   "preachy",
+   "pedagogical"
+  ],
+  "antonyms": [
+   "uninstructive"
+  ],
+  "example": "His didactic stories always ended with a clear lesson."
+ },
+ {
+  "id": "v-0082",
+  "word": "diffident",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "modest or shy because of a lack of self-confidence",
+  "synonyms": [
+   "shy",
+   "bashful",
+   "self-effacing"
+  ],
+  "antonyms": [
+   "confident",
+   "assertive"
+  ],
+  "example": "The diffident student rarely spoke in seminars."
+ },
+ {
+  "id": "v-0083",
+  "word": "dilatory",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "slow to act; intended to cause delay",
+  "synonyms": [
+   "tardy",
+   "procrastinating",
+   "lagging"
+  ],
+  "antonyms": [
+   "prompt",
+   "expeditious"
+  ],
+  "example": "His dilatory tactics delayed the lawsuit for years."
+ },
+ {
+  "id": "v-0084",
+  "word": "disabuse",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to free someone from a mistaken belief",
+  "synonyms": [
+   "enlighten",
+   "correct",
+   "set straight"
+  ],
+  "antonyms": [
+   "deceive",
+   "mislead"
+  ],
+  "example": "The doctor disabused him of the notion that vitamins cured colds."
+ },
+ {
+  "id": "v-0085",
+  "word": "discerning",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "having or showing good judgment; perceptive",
+  "synonyms": [
+   "perceptive",
+   "astute",
+   "discriminating"
+  ],
+  "antonyms": [
+   "undiscerning",
+   "perceptive"
+  ],
+  "example": "Discerning readers noticed the subtle allusions."
+ },
+ {
+  "id": "v-0086",
+  "word": "discordant",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "disagreeing or incongruous; harsh-sounding",
+  "synonyms": [
+   "dissonant",
+   "jarring",
+   "conflicting"
+  ],
+  "antonyms": [
+   "harmonious",
+   "concordant"
+  ],
+  "example": "The discordant noise from the alley made sleep impossible."
+ },
+ {
+  "id": "v-0087",
+  "word": "discrete",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "individually distinct; not continuous",
+  "synonyms": [
+   "separate",
+   "distinct",
+   "individual"
+  ],
+  "antonyms": [
+   "continuous",
+   "blended"
+  ],
+  "example": "Each item belongs to one of three discrete categories."
+ },
+ {
+  "id": "v-0088",
+  "word": "disparage",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to regard or represent as being of little worth",
+  "synonyms": [
+   "belittle",
+   "denigrate",
+   "deprecate"
+  ],
+  "antonyms": [
+   "praise",
+   "extol"
+  ],
+  "example": "Don't disparage the achievements of others."
+ },
+ {
+  "id": "v-0089",
+  "word": "dogmatic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "inclined to lay down principles as true; opinionated",
+  "synonyms": [
+   "doctrinaire",
+   "opinionated",
+   "assertive"
+  ],
+  "antonyms": [
+   "open-minded",
+   "flexible"
+  ],
+  "example": "Her dogmatic refusal to consider evidence was frustrating."
+ },
+ {
+  "id": "v-0090",
+  "word": "ebullient",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "cheerful and full of energy; high-spirited",
+  "synonyms": [
+   "exuberant",
+   "effervescent",
+   "buoyant"
+  ],
+  "antonyms": [
+   "dejected",
+   "subdued"
+  ],
+  "example": "The team was ebullient after their championship win."
+ },
+ {
+  "id": "v-0091",
+  "word": "eclectic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "deriving ideas from a wide range of sources",
+  "synonyms": [
+   "diverse",
+   "broad-ranging",
+   "wide-ranging"
+  ],
+  "antonyms": [
+   "narrow",
+   "limited"
+  ],
+  "example": "She has an eclectic taste in music, from jazz to K-pop."
+ },
+ {
+  "id": "v-0092",
+  "word": "effrontery",
+  "pos": "n",
+  "tier": 3,
+  "definition": "insolent or impertinent behavior",
+  "synonyms": [
+   "audacity",
+   "chutzpah",
+   "impudence"
+  ],
+  "antonyms": [
+   "deference",
+   "politeness"
+  ],
+  "example": "He had the effrontery to ask for a raise the day he was late."
+ },
+ {
+  "id": "v-0093",
+  "word": "egregious",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "outstandingly bad; shocking",
+  "synonyms": [
+   "flagrant",
+   "glaring",
+   "outrageous"
+  ],
+  "antonyms": [
+   "minor",
+   "exemplary"
+  ],
+  "example": "The report exposed egregious violations of safety rules."
+ },
+ {
+  "id": "v-0094",
+  "word": "embellish",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to make more attractive by adding decorative details",
+  "synonyms": [
+   "adorn",
+   "ornament",
+   "embroid"
+  ],
+  "antonyms": [
+   "simplify",
+   "strip"
+  ],
+  "example": "She embellished the dress with hand-sewn beads."
+ },
+ {
+  "id": "v-0095",
+  "word": "empirical",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "based on observation or experience rather than theory",
+  "synonyms": [
+   "observed",
+   "experimental",
+   "evidence-based"
+  ],
+  "antonyms": [
+   "theoretical",
+   "speculative"
+  ],
+  "example": "Their conclusions lacked empirical support."
+ },
+ {
+  "id": "v-0096",
+  "word": "endemic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "prevalent within a particular area or group",
+  "synonyms": [
+   "native",
+   "indigenous",
+   "widespread"
+  ],
+  "antonyms": [
+   "exotic",
+   "foreign"
+  ],
+  "example": "Corruption is endemic in that industry."
+ },
+ {
+  "id": "v-0097",
+  "word": "enervated",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "weakened or drained of energy",
+  "synonyms": [
+   "exhausted",
+   "debilitated",
+   "sapped"
+  ],
+  "antonyms": [
+   "invigorated",
+   "energized"
+  ],
+  "example": "She felt enervated after the long flight."
+ },
+ {
+  "id": "v-0098",
+  "word": "engender",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to produce, cause, or give rise to",
+  "synonyms": [
+   "produce",
+   "generate",
+   "spawn"
+  ],
+  "antonyms": [
+   "suppress",
+   "stifle"
+  ],
+  "example": "His remarks engendered hostility among the staff."
+ },
+ {
+  "id": "v-0099",
+  "word": "enigmatic",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "mysterious; difficult to understand or interpret",
+  "synonyms": [
+   "mysterious",
+   "cryptic",
+   "puzzling"
+  ],
+  "antonyms": [
+   "straightforward",
+   "clear"
+  ],
+  "example": "Her enigmatic smile puzzled the interviewer."
+ },
+ {
+  "id": "v-0100",
+  "word": "evanescent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "quickly fading or vanishing; fleeting",
+  "synonyms": [
+   "fleeting",
+   "transient",
+   "ephemeral"
+  ],
+  "antonyms": [
+   "permanent",
+   "enduring"
+  ],
+  "example": "The evanescent glow of fireflies lasted only a moment."
+ }
+]

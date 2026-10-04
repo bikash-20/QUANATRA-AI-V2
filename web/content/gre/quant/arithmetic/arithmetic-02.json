@@ -1,0 +1,407 @@
+[
+ {
+  "id": "q-ari-007",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is $20\\%$ of $85$?",
+  "choices": [
+   "13",
+   "15",
+   "17",
+   "20",
+   "23"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-008",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "The ratio of cats to dogs is $2:3$. If there are $12$ cats, how many dogs are there?",
+  "choices": [
+   "8",
+   "16",
+   "18",
+   "20",
+   "24"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-009",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is an even number?",
+  "choices": [
+   "37",
+   "43",
+   "52",
+   "65",
+   "71"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-010",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the value of $2^5$?",
+  "choices": [
+   "16",
+   "24",
+   "32",
+   "48",
+   "64"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-011",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is divisible by $9$?",
+  "choices": [
+   "234",
+   "346",
+   "417",
+   "512",
+   "628"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-012",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "21",
+   "27",
+   "33",
+   "37",
+   "39"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-013",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "After a $20\\%$ discount, an item costs $\\$48$. What was the original price, in dollars?",
+  "choices": [
+   "54",
+   "56",
+   "60",
+   "64",
+   "72"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-014",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$50\\%$ of $60$",
+  "quantityB": "$40\\%$ of $75$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-015",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If a quantity increases by $25\\%$ and then decreases by $20\\%$, the net change is closest to:",
+  "choices": [
+   "$0\\%$",
+   "$2\\%$ increase",
+   "$5\\%$ increase",
+   "$5\\%$ decrease",
+   "$2\\%$ decrease"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-016",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If the ratio of $a$ to $b$ is $3:4$, which of the following must also be true? Indicate all such statements.",
+  "choices": [
+   "$\\frac{a}{b} = \\frac{3}{4}$",
+   "$a < b$",
+   "$4a = 3b$",
+   "$3a = 4b$",
+   "$b - a = \\frac{a}{3}$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-ari-017",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A solution is made by mixing $4$ liters of $\\$2$-per-liter acid with $6$ liters of $\\$5$-per-liter acid. What is the price per liter of the mixture?",
+  "choices": [
+   "$\\$3.00$",
+   "$\\$3.40$",
+   "$\\$3.80$",
+   "$\\$4.20$",
+   "$\\$5.00$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-018",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many integers between $100$ and $999$ are divisible by $7$?",
+  "choices": [
+   "127",
+   "128",
+   "129",
+   "130",
+   "131"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-019",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The number of even integers between $1$ and $101$",
+  "quantityB": "The number of odd integers between $1$ and $101$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-020",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the greatest common divisor of $84$ and $120$?",
+  "choices": [
+   "6",
+   "8",
+   "12",
+   "16",
+   "24"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-021",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2^{10} = 1024$, what is the value of $2^{15}$?",
+  "choices": [
+   "8192",
+   "16384",
+   "32768",
+   "65536",
+   "131072"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-022",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the value of $\\frac{5^7}{5^4}$?",
+  "answer": 125
+ },
+ {
+  "id": "q-ari-023",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following is equivalent to $4^{x+1}$?",
+  "choices": [
+   "$4 \\cdot 4^x$",
+   "$4^x + 1$",
+   "$4^{x} + 4$",
+   "$(4^x)^2$",
+   "$4^{2x}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-024",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The remainder when $12345$ is divided by $9$ is:",
+  "choices": [
+   "0",
+   "3",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-025",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following numbers are divisible by $4$? Indicate all such numbers.",
+  "choices": [
+   "152",
+   "234",
+   "368",
+   "475",
+   "596"
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-ari-026",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many positive integer divisors does $72$ have?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "14",
+   "16"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-027",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the smallest prime number greater than $100$?",
+  "choices": [
+   "101",
+   "103",
+   "107",
+   "109",
+   "113"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-028",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following numbers between $40$ and $50$ are prime? Indicate all such numbers.",
+  "choices": [
+   "41",
+   "42",
+   "43",
+   "45",
+   "47"
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-ari-029",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many prime numbers are less than $30$?",
+  "answer": 10
+ },
+ {
+  "id": "q-ari-030",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "The price of an item increases by $10\\%$ each year. Approximately how many years will it take for the price to double?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "10"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-031",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The number of integers between $1$ and $1000$ that are divisible by $3$ but not by $5$",
+  "quantityB": "$260$",
+  "answer": "C"
+ }
+]

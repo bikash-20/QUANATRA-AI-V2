@@ -1,0 +1,426 @@
+[
+ {
+  "id": "v-0326",
+  "word": "aberration",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a departure from what is normal or expected",
+  "synonyms": [
+   "anomaly",
+   "deviation",
+   "irregularity"
+  ],
+  "antonyms": [
+   "normality",
+   "typicality"
+  ],
+  "example": "The single typo was an aberration in an otherwise flawless essay."
+ },
+ {
+  "id": "v-0327",
+  "word": "abscond",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to leave hurriedly and secretly to escape custody",
+  "synonyms": [
+   "flee",
+   "escape",
+   "bolt"
+  ],
+  "antonyms": [
+   "surrender",
+   "turn oneself in"
+  ],
+  "example": "The cashier absconded with the daily receipts."
+ },
+ {
+  "id": "v-0328",
+  "word": "acumen",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the ability to make good judgments and quick decisions",
+  "synonyms": [
+   "shrewdness",
+   "acuity",
+   "keenness"
+  ],
+  "antonyms": [
+   "ineptitude",
+   "obtuseness"
+  ],
+  "example": "Her business acumen turned the small shop into a chain."
+ },
+ {
+  "id": "v-0329",
+  "word": "adulation",
+  "pos": "n",
+  "tier": 3,
+  "definition": "excessive admiration or praise",
+  "synonyms": [
+   "flattery",
+   "fawning",
+   "worship"
+  ],
+  "antonyms": [
+   "censure",
+   "criticism"
+  ],
+  "example": "The young actor grew weary of the constant adulation."
+ },
+ {
+  "id": "v-0330",
+  "word": "adversarial",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "involving or characterized by active opposition or conflict",
+  "synonyms": [
+   "antagonistic",
+   "contentious",
+   "combative"
+  ],
+  "antonyms": [
+   "cooperative",
+   "collaborative"
+  ],
+  "example": "The negotiations quickly turned adversarial."
+ },
+ {
+  "id": "v-0331",
+  "word": "affable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "friendly, good-natured, and easy to talk to",
+  "synonyms": [
+   "genial",
+   "amiable",
+   "cordial"
+  ],
+  "antonyms": [
+   "surly",
+   "curt"
+  ],
+  "example": "The affable professor invited questions at any hour."
+ },
+ {
+  "id": "v-0332",
+  "word": "aggrandize",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to increase the power, wealth, or status of someone or something",
+  "synonyms": [
+   "enhance",
+   "exalt",
+   "magnify"
+  ],
+  "antonyms": [
+   "belittle",
+   "diminish"
+  ],
+  "example": "The memoir aggrandized even her minor accomplishments."
+ },
+ {
+  "id": "v-0333",
+  "word": "altruistic",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "showing a selfless concern for the well-being of others",
+  "synonyms": [
+   "selfless",
+   "philanthropic",
+   "magnanimous"
+  ],
+  "antonyms": [
+   "selfish",
+   "egoistic"
+  ],
+  "example": "Her altruistic motives were never in doubt."
+ },
+ {
+  "id": "v-0334",
+  "word": "ambivalent",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "having mixed or contradictory feelings about something",
+  "synonyms": [
+   "conflicted",
+   "uncertain",
+   "torn"
+  ],
+  "antonyms": [
+   "certain",
+   "resolute"
+  ],
+  "example": "She felt ambivalent about leaving her hometown."
+ },
+ {
+  "id": "v-0335",
+  "word": "ameliorate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make something bad or unsatisfactory better",
+  "synonyms": [
+   "improve",
+   "alleviate",
+   "mitigate"
+  ],
+  "antonyms": [
+   "worsen",
+   "aggravate"
+  ],
+  "example": "The new policies ameliorated the housing shortage."
+ },
+ {
+  "id": "v-0336",
+  "word": "anachronistic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "belonging to a period other than the one being portrayed",
+  "synonyms": [
+   "outdated",
+   "antiquated",
+   "misplaced"
+  ],
+  "antonyms": [
+   "contemporary",
+   "current"
+  ],
+  "example": "The knight with a wristwatch looked anachronistic."
+ },
+ {
+  "id": "v-0337",
+  "word": "antipathy",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a deep-seated feeling of dislike",
+  "synonyms": [
+   "aversion",
+   "hostility",
+   "animus"
+  ],
+  "antonyms": [
+   "affinity",
+   "fondness"
+  ],
+  "example": "His antipathy toward reform was well documented."
+ },
+ {
+  "id": "v-0338",
+  "word": "apathy",
+  "pos": "n",
+  "tier": 2,
+  "definition": "lack of interest, enthusiasm, or concern",
+  "synonyms": [
+   "indifference",
+   "lethargy",
+   "torpor"
+  ],
+  "antonyms": [
+   "passion",
+   "enthusiasm"
+  ],
+  "example": "Voter apathy doomed the reform effort."
+ },
+ {
+  "id": "v-0339",
+  "word": "arbiter",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who settles a dispute or has decisive judgment",
+  "synonyms": [
+   "judge",
+   "referee",
+   "mediator"
+  ],
+  "antonyms": [
+   "combatant",
+   "party"
+  ],
+  "example": "Critics called her the arbiter of modern taste."
+ },
+ {
+  "id": "v-0340",
+  "word": "archetype",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a very typical example of a certain person or thing",
+  "synonyms": [
+   "prototype",
+   "exemplar",
+   "paradigm"
+  ],
+  "antonyms": [
+   "anomaly",
+   "exception"
+  ],
+  "example": "He is the archetype of the self-made entrepreneur."
+ },
+ {
+  "id": "v-0341",
+  "word": "articulate",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "having or showing the ability to speak fluently and coherently",
+  "synonyms": [
+   "eloquent",
+   "fluent",
+   "expressive"
+  ],
+  "antonyms": [
+   "inarticulate",
+   "tongue-tied"
+  ],
+  "example": "She was unusually articulate for a first-time witness."
+ },
+ {
+  "id": "v-0342",
+  "word": "bombast",
+  "pos": "n",
+  "tier": 3,
+  "definition": "high-sounding language with little meaning",
+  "synonyms": [
+   "bluster",
+   "grandiosity",
+   "rant"
+  ],
+  "antonyms": [
+   "plainness",
+   "understatement"
+  ],
+  "example": "The speech was full of bombast and devoid of substance."
+ },
+ {
+  "id": "v-0343",
+  "word": "burgeon",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to begin to grow or increase rapidly",
+  "synonyms": [
+   "flourish",
+   "thrive",
+   "bloom"
+  ],
+  "antonyms": [
+   "wither",
+   "shrink"
+  ],
+  "example": "Tech startups have burgeoned across the region."
+ },
+ {
+  "id": "v-0344",
+  "word": "cacophony",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a harsh, discordant mixture of sounds",
+  "synonyms": [
+   "discord",
+   "din",
+   "racket"
+  ],
+  "antonyms": [
+   "harmony",
+   "melody"
+  ],
+  "example": "The cacophony of car horns kept her awake."
+ },
+ {
+  "id": "v-0345",
+  "word": "capricious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "given to sudden, unaccountable changes of mood",
+  "synonyms": [
+   "impulsive",
+   "fickle",
+   "mercurial"
+  ],
+  "antonyms": [
+   "steady",
+   "consistent"
+  ],
+  "example": "The capricious weather ruined the picnic."
+ },
+ {
+  "id": "v-0346",
+  "word": "catalyst",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a person or thing that precipitates an event",
+  "synonyms": [
+   "spark",
+   "trigger",
+   "impetus"
+  ],
+  "antonyms": [
+   "deterrent",
+   "inhibitor"
+  ],
+  "example": "The new law was a catalyst for broader reforms."
+ },
+ {
+  "id": "v-0347",
+  "word": "caucus",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a meeting of members of a legislative or political group",
+  "synonyms": [
+   "meeting",
+   "conclave",
+   "council"
+  ],
+  "antonyms": [
+   "disbandment"
+  ],
+  "example": "The caucus nominated its candidate before dawn."
+ },
+ {
+  "id": "v-0348",
+  "word": "charlatan",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who falsely claims expert knowledge or ability",
+  "synonyms": [
+   "impostor",
+   "fraud",
+   "quack"
+  ],
+  "antonyms": [
+   "expert",
+   "authority"
+  ],
+  "example": "The doctor turned out to be a complete charlatan."
+ },
+ {
+  "id": "v-0349",
+  "word": "consensus",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a general agreement among a group",
+  "synonyms": [
+   "agreement",
+   "unity",
+   "accord"
+  ],
+  "antonyms": [
+   "disagreement",
+   "discord"
+  ],
+  "example": "The committee reached consensus after long debate."
+ },
+ {
+  "id": "v-0350",
+  "word": "credulous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "too ready to believe things; gullible",
+  "synonyms": [
+   "gullible",
+   "naive",
+   "trusting"
+  ],
+  "antonyms": [
+   "skeptical",
+   "suspicious"
+  ],
+  "example": "Credulous investors lost everything in the scheme."
+ }
+]

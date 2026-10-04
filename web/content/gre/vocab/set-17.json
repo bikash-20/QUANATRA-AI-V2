@@ -1,0 +1,425 @@
+[
+ {
+  "id": "v-0401",
+  "word": "charisma",
+  "pos": "n",
+  "tier": 2,
+  "definition": "compelling attractiveness or charm that inspires devotion",
+  "synonyms": [
+   "charm",
+   "appeal",
+   "magnetism"
+  ],
+  "antonyms": [
+   "repulsion"
+  ],
+  "example": "His charisma carried the campaign."
+ },
+ {
+  "id": "v-0402",
+  "word": "coerce",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to compel or force someone to do something by threats",
+  "synonyms": [
+   "force",
+   "compel",
+   "pressure"
+  ],
+  "antonyms": [
+   "persuade",
+   "lure"
+  ],
+  "example": "She was coerced into signing the agreement."
+ },
+ {
+  "id": "v-0403",
+  "word": "complacent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "smug and uncritical satisfaction with oneself",
+  "synonyms": [
+   "smug",
+   "self-satisfied",
+   "unconcerned"
+  ],
+  "antonyms": [
+   "humble",
+   "alert"
+  ],
+  "example": "Complacent managers missed the warning signs."
+ },
+ {
+  "id": "v-0404",
+  "word": "concord",
+  "pos": "n",
+  "tier": 3,
+  "definition": "agreement or harmony between people or groups",
+  "synonyms": [
+   "harmony",
+   "accord",
+   "unity"
+  ],
+  "antonyms": [
+   "discord",
+   "conflict"
+  ],
+  "example": "The concord between neighbors was unusual."
+ },
+ {
+  "id": "v-0405",
+  "word": "confound",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to confuse or surprise; to mix up",
+  "synonyms": [
+   "confuse",
+   "baffle",
+   "perplex"
+  ],
+  "antonyms": [
+   "clarify",
+   "illuminate"
+  ],
+  "example": "The data confounded the original theory."
+ },
+ {
+  "id": "v-0406",
+  "word": "consecrate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make or declare sacred; to dedicate formally",
+  "synonyms": [
+   "dedicate",
+   "sanctify",
+   "devote"
+  ],
+  "antonyms": [
+   "desecrate",
+   "profane"
+  ],
+  "example": "The chapel was consecrated in 1881."
+ },
+ {
+  "id": "v-0407",
+  "word": "conversant",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "familiar with or knowledgeable about something",
+  "synonyms": [
+   "familiar",
+   "versed",
+   "informed"
+  ],
+  "antonyms": [
+   "ignorant",
+   "unaware"
+  ],
+  "example": "She is conversant with several programming languages."
+ },
+ {
+  "id": "v-0408",
+  "word": "conviction",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a firmly held belief or opinion",
+  "synonyms": [
+   "belief",
+   "faith",
+   "certainty"
+  ],
+  "antonyms": [
+   "doubt",
+   "uncertainty"
+  ],
+  "example": "He spoke with conviction and clarity."
+ },
+ {
+  "id": "v-0409",
+  "word": "corroborate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to confirm or support with evidence",
+  "synonyms": [
+   "confirm",
+   "verify",
+   "substantiate"
+  ],
+  "antonyms": [
+   "contradict",
+   "refute"
+  ],
+  "example": "The witness corroborated the suspect alibi."
+ },
+ {
+  "id": "v-0410",
+  "word": "cursory",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "hasty and therefore not thorough or detailed",
+  "synonyms": [
+   "hasty",
+   "superficial",
+   "perfunctory"
+  ],
+  "antonyms": [
+   "careful",
+   "thorough"
+  ],
+  "example": "A cursory glance revealed the typo."
+ },
+ {
+  "id": "v-0411",
+  "word": "decadent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "characterized by or showing a decline in standards",
+  "synonyms": [
+   "dissolute",
+   "degenerate",
+   "decaying"
+  ],
+  "antonyms": [
+   "ascetic",
+   "wholesome"
+  ],
+  "example": "Critics called the late empire decadent."
+ },
+ {
+  "id": "v-0412",
+  "word": "decry",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to publicly denounce or condemn",
+  "synonyms": [
+   "denounce",
+   "condemn",
+   "censure"
+  ],
+  "antonyms": [
+   "praise",
+   "extol"
+  ],
+  "example": "The committee noted the decry of the situation."
+ },
+ {
+  "id": "v-0413",
+  "word": "deflect",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to turn aside or cause to turn aside",
+  "synonyms": [
+   "divert",
+   "avert",
+   "sidetrack"
+  ],
+  "antonyms": [
+   "direct",
+   "confront"
+  ],
+  "example": "He tried to deflect the awkward question."
+ },
+ {
+  "id": "v-0414",
+  "word": "demoralize",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to cause someone to lose confidence or hope",
+  "synonyms": [
+   "dishearten",
+   "discourage",
+   "unnerve"
+  ],
+  "antonyms": [
+   "encourage",
+   "buoy"
+  ],
+  "example": "Losses demoralized the entire squad."
+ },
+ {
+  "id": "v-0415",
+  "word": "derivative",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "imitative of the work of another; not original",
+  "synonyms": [
+   "unoriginal",
+   "borrowed",
+   "imitative"
+  ],
+  "antonyms": [
+   "original",
+   "innovative"
+  ],
+  "example": "Critics dismissed the film as derivative."
+ },
+ {
+  "id": "v-0416",
+  "word": "deter",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to discourage from doing something through fear",
+  "synonyms": [
+   "discourage",
+   "dissuade",
+   "intimidate"
+  ],
+  "antonyms": [
+   "encourage",
+   "embolden"
+  ],
+  "example": "Heavy fines deterred most violations."
+ },
+ {
+  "id": "v-0417",
+  "word": "digress",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to leave the main subject temporarily in speech",
+  "synonyms": [
+   "deviate",
+   "stray",
+   "wander"
+  ],
+  "antonyms": [
+   "focus",
+   "stick"
+  ],
+  "example": "She digressed for ten minutes on her childhood."
+ },
+ {
+  "id": "v-0418",
+  "word": "discord",
+  "pos": "n",
+  "tier": 3,
+  "definition": "disagreement or argument between people",
+  "synonyms": [
+   "conflict",
+   "strife",
+   "tension"
+  ],
+  "antonyms": [
+   "harmony",
+   "concord"
+  ],
+  "example": "Discord arose among the founders."
+ },
+ {
+  "id": "v-0419",
+  "word": "dissent",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the holding or expression of opinions at variance",
+  "synonyms": [
+   "objection",
+   "protest",
+   "disagreement"
+  ],
+  "antonyms": [
+   "agreement",
+   "conformity"
+  ],
+  "example": "Dissent within the party grew louder."
+ },
+ {
+  "id": "v-0420",
+  "word": "impertinent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not showing proper respect; impudent",
+  "synonyms": [
+   "impudent",
+   "insolent",
+   "rude"
+  ],
+  "antonyms": [
+   "respectful",
+   "polite"
+  ],
+  "example": "The clerk grew impertinent when pressed for a refund."
+ },
+ {
+  "id": "v-0421",
+  "word": "litigate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to conduct a lawsuit; to contest in court",
+  "synonyms": [
+   "sue",
+   "prosecute",
+   "contest"
+  ],
+  "antonyms": [
+   "settle"
+  ],
+  "example": "They threatened to litigate if the matter was not resolved."
+ },
+ {
+  "id": "v-0422",
+  "word": "precarious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "not securely held; dangerously unstable",
+  "synonyms": [
+   "unstable",
+   "perilous",
+   "shaky"
+  ],
+  "antonyms": [
+   "secure",
+   "stable"
+  ],
+  "example": "The ladder sat in a precarious balance."
+ },
+ {
+  "id": "v-0423",
+  "word": "skeptical",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "not easily convinced; having doubts",
+  "synonyms": [
+   "doubting",
+   "questioning",
+   "cynical"
+  ],
+  "antonyms": [
+   "credulous",
+   "trusting"
+  ],
+  "example": "She was skeptical of the advertised claims."
+ },
+ {
+  "id": "v-0424",
+  "word": "tenacity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the quality or fact of being very determined",
+  "synonyms": [
+   "perseverance",
+   "doggedness",
+   "resolve"
+  ],
+  "antonyms": [
+   "fickleness",
+   "vacillation"
+  ],
+  "example": "Her tenacity paid off in the long run."
+ },
+ {
+  "id": "v-0425",
+  "word": "ubiquitous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "present, appearing, or found everywhere",
+  "synonyms": [
+   "omnipresent",
+   "pervasive",
+   "universal"
+  ],
+  "antonyms": [
+   "rare",
+   "scarce"
+  ],
+  "example": "Smartphones have become ubiquitous in daily life."
+ }
+]

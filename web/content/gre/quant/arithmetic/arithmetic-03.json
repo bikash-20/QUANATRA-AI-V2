@@ -1,0 +1,403 @@
+[
+ {
+  "id": "q-ari-032",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is $40\\%$ of $150$?",
+  "choices": [
+   "40",
+   "50",
+   "60",
+   "70",
+   "80"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-033",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "The ratio of red to blue marbles is $1:4$. If there are $5$ red marbles, how many blue marbles are there?",
+  "choices": [
+   "10",
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-034",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is an odd number?",
+  "choices": [
+   "44",
+   "62",
+   "73",
+   "88",
+   "94"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-035",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the value of $3^4$?",
+  "choices": [
+   "27",
+   "54",
+   "64",
+   "81",
+   "108"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-036",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is divisible by $5$?",
+  "choices": [
+   "232",
+   "347",
+   "421",
+   "565",
+   "682"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-037",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "49",
+   "51",
+   "55",
+   "57",
+   "59"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-038",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A $\\$40$ item is discounted by $15\\%$. What is the sale price, in dollars?",
+  "choices": [
+   "$30$",
+   "$32$",
+   "$33$",
+   "$34$",
+   "$36$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-039",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$75\\%$ of $40$",
+  "quantityB": "$60\\%$ of $50$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-040",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $30$ is $15\\%$ of a number, what is the number?",
+  "choices": [
+   "150",
+   "180",
+   "200",
+   "250",
+   "300"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-041",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $3:x = 5:15$, what is the value of $x$?",
+  "choices": [
+   "5",
+   "6",
+   "9",
+   "10",
+   "25"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-042",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A class has $24$ boys and $16$ girls. Which of the following are correct ratios of boys to total students? Indicate all such ratios.",
+  "choices": [
+   "$3:5$",
+   "$24:40$",
+   "$6:10$",
+   "$2:3$",
+   "$12:16$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-ari-043",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two numbers are in the ratio $5:7$. If their sum is $84$, what is the larger number?",
+  "choices": [
+   "35",
+   "40",
+   "42",
+   "45",
+   "49"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-044",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many integers between $1$ and $200$ are divisible by both $3$ and $7$?",
+  "choices": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-045",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the least common multiple of $12$ and $18$?",
+  "answer": 36
+ },
+ {
+  "id": "q-ari-046",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the units digit of $7^{23}$?",
+  "choices": [
+   "1",
+   "3",
+   "5",
+   "7",
+   "9"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-047",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the value of $\\left(\\frac{2}{3}\\right)^{-2}$?",
+  "choices": [
+   "$\\frac{4}{9}$",
+   "$\\frac{2}{3}$",
+   "$\\frac{3}{2}$",
+   "$\\frac{9}{4}$",
+   "$\\frac{4}{3}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-048",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$5^6$",
+  "quantityB": "$10^4$",
+  "answer": "B"
+ },
+ {
+  "id": "q-ari-049",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Express $0.00045$ in scientific notation.",
+  "choices": [
+   "$4.5 \\times 10^{-4}$",
+   "$4.5 \\times 10^{-3}$",
+   "$45 \\times 10^{-4}$",
+   "$45 \\times 10^{-5}$",
+   "$0.45 \\times 10^{-3}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-050",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many positive integer divisors does $108$ have?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "16",
+   "18"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-051",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following are correct descriptions of divisibility rules? Indicate all such descriptions.",
+  "choices": [
+   "A number is divisible by $3$ if the sum of its digits is divisible by $3$",
+   "A number is divisible by $6$ if it is divisible by both $2$ and $3$",
+   "A number is divisible by $8$ if its last two digits form a multiple of $8$",
+   "A number is divisible by $7$ if its last digit is $0$ or $7$",
+   "A number is divisible by $11$ if the alternating sum of its digits is divisible by $11$"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "q-ari-052",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many prime factors (counted with multiplicity) does $360$ have?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "8"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-053",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the largest prime factor of $165$?",
+  "choices": [
+   "5",
+   "11",
+   "15",
+   "33",
+   "55"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-054",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A solution has $40$ liters of $30\\%$ acid. How many liters of pure acid must be added to make it $50\\%$ acid?",
+  "choices": [
+   "10",
+   "12",
+   "14",
+   "16",
+   "20"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-055",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $\\frac{a}{b} = \\frac{3}{5}$ and $a + b = 32$, what is the value of $b$?",
+  "answer": 20
+ },
+ {
+  "id": "q-ari-056",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "$2^{50}$",
+  "quantityB": "$4^{25}$",
+  "answer": "C"
+ }
+]

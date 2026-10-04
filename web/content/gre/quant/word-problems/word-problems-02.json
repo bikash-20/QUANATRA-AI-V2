@@ -1,0 +1,394 @@
+[
+ {
+  "id": "q-wpr-007",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A car travels at $50$ mph for $3$ hours. How far does it travel?",
+  "choices": [
+   "100",
+   "130",
+   "150",
+   "170",
+   "200"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-008",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $1$ painter can paint a fence in $6$ hours, how many painters are needed to paint it in $1$ hour?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "6",
+   "12"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-009",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "How much simple interest is earned on $\\$1000$ at $5\\%$ per year for $3$ years?",
+  "choices": [
+   "$\\$50$",
+   "$\\$100$",
+   "$\\$150$",
+   "$\\$200$",
+   "$\\$300$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-010",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If you mix $2$ liters of juice containing $10\\%$ orange with $3$ liters containing $20\\%$ orange, what is the total volume?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "30"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-011",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A $\\$50$ item is marked up $20\\%$. What is the new price?",
+  "choices": [
+   "$\\$55$",
+   "$\\$60$",
+   "$\\$65$",
+   "$\\$70$",
+   "$\\$80$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-012",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A cyclist travels $10$ miles in $1$ hour. What is the average speed?",
+  "choices": [
+   "5 mph",
+   "8 mph",
+   "10 mph",
+   "12 mph",
+   "20 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-013",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two trains leave stations $300$ miles apart, traveling toward each other. One is at $40$ mph and the other at $60$ mph. How long until they meet?",
+  "choices": [
+   "2 hours",
+   "3 hours",
+   "4 hours",
+   "5 hours",
+   "6 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-014",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A boat can travel $30$ miles downstream in $2$ hours and the same distance upstream in $3$ hours. What is the speed of the boat in still water?",
+  "choices": [
+   "10 mph",
+   "12.5 mph",
+   "15 mph",
+   "20 mph",
+   "25 mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-015",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Time to drive $200$ miles at $50$ mph",
+  "quantityB": "Time to drive $240$ miles at $60$ mph",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-016",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Pipe A fills a tank in $4$ hours and Pipe B fills it in $6$ hours. How long do they take together?",
+  "choices": [
+   "2 hours",
+   "2.4 hours",
+   "3 hours",
+   "5 hours",
+   "10 hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-017",
+  "type": "multi",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $A$ can do a job in $a$ hours and $B$ in $b$ hours, which of the following are correct? Indicate all such statements.",
+  "choices": [
+   "Together they finish in $\\frac{ab}{a+b}$ hours",
+   "$A$ alone does $\\frac{1}{a}$ of the job per hour",
+   "Their combined rate is $\\frac{1}{a} + \\frac{1}{b}$ per hour",
+   "If $a = b$, they finish in $a/2$ hours",
+   "Together they finish in $a + b$ hours"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-wpr-018",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $5$ machines produce $5$ widgets in $5$ minutes, how long does it take $100$ machines to produce $100$ widgets?",
+  "choices": [
+   "1 minute",
+   "5 minutes",
+   "10 minutes",
+   "20 minutes",
+   "100 minutes"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-019",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "$\\$500$ is invested at $8\\%$ simple interest. After how many years will the interest equal $\\$200$?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "8",
+   "10"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-020",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Value after $2$ years of $\\$1000$ at $10\\%$ simple interest",
+  "quantityB": "Value after $2$ years of $\\$1000$ at $10\\%$ compounded annually",
+  "answer": "B"
+ },
+ {
+  "id": "q-wpr-021",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many liters of a $10\\%$ solution must be added to $20$ liters of a $40\\%$ solution to obtain a $25\\%$ solution?",
+  "choices": [
+   "10",
+   "15",
+   "20",
+   "25",
+   "30"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-022",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A store sells coffee at $\\$8$/lb and $\\$12$/lb. To make $20$ lbs of a blend selling at $\\$10$/lb, how many lbs of the cheaper should be used?",
+  "choices": [
+   "5",
+   "10",
+   "12",
+   "15",
+   "20"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-023",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A price increases from $\\$80$ to $\\$100$. What is the percent increase?",
+  "choices": [
+   "$15\\%$",
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$",
+   "$80\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-024",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "After a $30\\%$ discount, a TV costs $\\$350$. What was the original price?",
+  "choices": [
+   "$\\$400$",
+   "$\\$455$",
+   "$\\$500$",
+   "$\\$550$",
+   "$\\$700$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-025",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$100$ increased by $10\\%$",
+  "quantityB": "$90$ increased by $20\\%$",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-026",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A car travels $60$ miles at $30$ mph and returns the same $60$ miles at $60$ mph. What is the average speed?",
+  "choices": [
+   "40 mph",
+   "42 mph",
+   "45 mph",
+   "48 mph",
+   "50 mph"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-027",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A plane flies $600$ miles against the wind in $3$ hours and returns with the wind in $2$ hours. What is the wind speed?",
+  "choices": [
+   "25 mph",
+   "40 mph",
+   "50 mph",
+   "75 mph",
+   "100 mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-028",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "Time to drain a pool with $3$ identical drains",
+  "quantityB": "$\\frac{1}{3}$ of the time with $1$ drain",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-029",
+  "type": "numeric",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "An investment of $\\$2000$ at $5\\%$ compounded annually grows to what amount, in dollars, after $3$ years?",
+  "answer": 2315.25
+ },
+ {
+  "id": "q-wpr-030",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A tank holds $40$ gallons of a $20\\%$ salt solution. How many gallons of water must evaporate to make it a $50\\%$ solution?",
+  "choices": [
+   "8",
+   "16",
+   "20",
+   "24",
+   "32"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-031",
+  "type": "numeric",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A car travels half the distance at $40$ mph and the other half at $60$ mph. What is its average speed, in mph?",
+  "answer": 48
+ }
+]

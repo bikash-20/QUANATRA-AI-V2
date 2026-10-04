@@ -1,0 +1,393 @@
+[
+ {
+  "id": "q-dat-007",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the mode of the data set $\\{2, 3, 3, 4, 5, 5, 5, 7\\}$?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-008",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A fair coin is flipped. What is the probability of getting heads?",
+  "choices": [
+   "$0$",
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{2}$",
+   "$1$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-009",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "How many distinct arrangements are there of the letters in the word CAT?",
+  "choices": [
+   "3",
+   "5",
+   "6",
+   "8",
+   "9"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-010",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the median of $\\{1, 4, 7, 9, 12\\}$?",
+  "choices": [
+   "4",
+   "5",
+   "7",
+   "9",
+   "10"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-011",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the range of the data set $\\{12, 5, 18, 7, 22, 9\\}$?",
+  "choices": [
+   "5",
+   "12",
+   "15",
+   "17",
+   "22"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-012",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The mean of $\\{4, 6, 8, 12\\}$",
+  "quantityB": "The median of $\\{4, 6, 8, 12\\}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-013",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A bag contains $3$ red, $4$ blue, and $5$ green marbles. If one marble is drawn at random, what is the probability it is blue?",
+  "choices": [
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{4}$",
+   "$\\frac{4}{12}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{4}{9}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-014",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two fair dice are rolled. Which of the following events are equally likely to $\\{$sum is $7\\}$? Indicate all such events.",
+  "choices": [
+   "Sum is $2$",
+   "Sum is $3$",
+   "Sum is $4$",
+   "Sum is $11$",
+   "Sum is $12$"
+  ],
+  "answer": [
+   0,
+   4
+  ]
+ },
+ {
+  "id": "q-dat-015",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If two cards are drawn from a standard $52$-card deck without replacement, what is the probability that both are aces?",
+  "choices": [
+   "$\\frac{1}{169}$",
+   "$\\frac{1}{221}$",
+   "$\\frac{4}{663}$",
+   "$\\frac{1}{52}$",
+   "$\\frac{1}{13}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-016",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many $3$-digit numbers can be formed using the digits $1, 2, 3, 4, 5$ without repetition?",
+  "choices": [
+   "10",
+   "15",
+   "60",
+   "120",
+   "125"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-017",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A committee of $4$ is chosen from $6$ people. How many ways are there to choose the committee?",
+  "choices": [
+   "15",
+   "24",
+   "120",
+   "360",
+   "720"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-018",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many distinguishable arrangements of the letters in BANANA are there?",
+  "answer": 60
+ },
+ {
+  "id": "q-dat-019",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The five-number summary of a data set is $\\{2, 5, 8, 11, 15\\}$. What is the interquartile range?",
+  "choices": [
+   "3",
+   "6",
+   "8",
+   "11",
+   "13"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-020",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The standard deviation of $\\{10, 10, 10, 10\\}$",
+  "quantityB": "$0$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-021",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "A fair coin is flipped $3$ times. What is the probability of getting exactly $2$ heads?",
+  "choices": [
+   "$\\frac{1}{8}$",
+   "$\\frac{2}{8}$",
+   "$\\frac{3}{8}$",
+   "$\\frac{4}{8}$",
+   "$\\frac{6}{8}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-022",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "From $5$ shirts and $3$ pairs of pants, how many outfits can be assembled (one shirt and one pair of pants)?",
+  "choices": [
+   "8",
+   "15",
+   "30",
+   "60",
+   "120"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-023",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following have the same value as $_5C_2$? Indicate all such expressions.",
+  "choices": [
+   "$10$",
+   "$\\frac{5!}{2!3!}$",
+   "$5 \\cdot 4$",
+   "$_5P_2$",
+   "$\\binom{5}{3}$"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "q-dat-024",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "The mean of $10$ numbers is $8$. If one number $5$ is removed, what is the new mean?",
+  "choices": [
+   "$7.5$",
+   "$7.75$",
+   "$8.0$",
+   "$8.33$",
+   "$8.5$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-025",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "Probability of drawing a king from a $52$-card deck",
+  "quantityB": "$\\frac{1}{13}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-026",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many ways can $5$ people be seated in a row of $5$ chairs?",
+  "choices": [
+   "5",
+   "10",
+   "20",
+   "60",
+   "120"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-dat-027",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "What is the variance of the data set $\\{2, 5, 7, 10\\}$?",
+  "answer": 8.6875
+ },
+ {
+  "id": "q-dat-028",
+  "type": "mcq",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A drawer has $4$ red and $6$ blue socks. Two socks are drawn without replacement. What is the probability that they are different colors?",
+  "choices": [
+   "$\\frac{1}{3}$",
+   "$\\frac{8}{15}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{7}{15}$",
+   "$\\frac{2}{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-029",
+  "type": "multi",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following formulas give the number of ways to choose $k$ items from $n$? Indicate all such formulas.",
+  "choices": [
+   "$\\frac{n!}{k!(n-k)!}$",
+   "$\\binom{n}{k}$",
+   "$\\frac{n!}{(n-k)!}$",
+   "$_nC_k$",
+   "$n \\cdot k$"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "q-dat-030",
+  "type": "qc",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The probability that $3$ coins all land the same way",
+  "quantityB": "$\\frac{1}{4}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-031",
+  "type": "numeric",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many $4$-digit even numbers can be formed using the digits $0, 1, 2, 3, 4$ without repetition?",
+  "answer": 60
+ }
+]

@@ -1,0 +1,423 @@
+[
+ {
+  "id": "v-0126",
+  "word": "licentious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "promiscuous and unprincipled in sexual matters",
+  "synonyms": [
+   "debauched",
+   "dissolute",
+   "lewd"
+  ],
+  "antonyms": [
+   "virtuous",
+   "chaste"
+  ],
+  "example": "The novel depicted the licentious court of the late emperor."
+ },
+ {
+  "id": "v-0127",
+  "word": "limpid",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "completely clear and transparent",
+  "synonyms": [
+   "clear",
+   "transparent",
+   "pellucid"
+  ],
+  "antonyms": [
+   "murky",
+   "cloudy"
+  ],
+  "example": "Limpid water flowed over the stones."
+ },
+ {
+  "id": "v-0128",
+  "word": "lumber",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to move heavily and clumsily",
+  "synonyms": [
+   "trudge",
+   "shamble",
+   "plod"
+  ],
+  "antonyms": [
+   "glide",
+   "sprint"
+  ],
+  "example": "The bear lumbered through the underbrush."
+ },
+ {
+  "id": "v-0129",
+  "word": "magnanimous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "generous or forgiving, especially toward a rival",
+  "synonyms": [
+   "generous",
+   "noble",
+   "big-hearted"
+  ],
+  "antonyms": [
+   "petty",
+   "spiteful"
+  ],
+  "example": "He was magnanimous in victory, praising his opponents."
+ },
+ {
+  "id": "v-0130",
+  "word": "maladroit",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "ineffective or bungling; clumsy",
+  "synonyms": [
+   "clumsy",
+   "inept",
+   "awkward"
+  ],
+  "antonyms": [
+   "dexterous",
+   "adept"
+  ],
+  "example": "His maladroit handling of the situation made things worse."
+ },
+ {
+  "id": "v-0131",
+  "word": "malinger",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to exaggerate or feign illness in order to escape duty",
+  "synonyms": [
+   "sham",
+   "pretend",
+   "feign"
+  ],
+  "antonyms": [
+   "perform"
+  ],
+  "example": "He was suspected of malingering to avoid the draft."
+ },
+ {
+  "id": "v-0132",
+  "word": "mellifluous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "sweet or musical; pleasant to hear",
+  "synonyms": [
+   "honeyed",
+   "dulcet",
+   "sweet-sounding"
+  ],
+  "antonyms": [
+   "discordant",
+   "harsh"
+  ],
+  "example": "The singer's mellifluous voice charmed the audience."
+ },
+ {
+  "id": "v-0133",
+  "word": "misanthrope",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who dislikes humankind and avoids human society",
+  "synonyms": [
+   "cynic",
+   "hermit",
+   "recluse"
+  ],
+  "antonyms": [
+   "philanthropist"
+  ],
+  "example": "The aging poet had become a misanthrope."
+ },
+ {
+  "id": "v-0134",
+  "word": "mitigate",
+  "pos": "v",
+  "tier": 1,
+  "definition": "to make less severe, serious, or painful",
+  "synonyms": [
+   "alleviate",
+   "lessen",
+   "reduce"
+  ],
+  "antonyms": [
+   "aggravate",
+   "intensify"
+  ],
+  "example": "Engineers tried to mitigate the flood damage with new levees."
+ },
+ {
+  "id": "v-0135",
+  "word": "moribund",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "at the point of death; in a state of decline",
+  "synonyms": [
+   "dying",
+   "declining",
+   "fading"
+  ],
+  "antonyms": [
+   "thriving",
+   "vibrant"
+  ],
+  "example": "The once-thriving industry is now moribund."
+ },
+ {
+  "id": "v-0136",
+  "word": "nascent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "just coming into existence and developing",
+  "synonyms": [
+   "emerging",
+   "incipient",
+   "young"
+  ],
+  "antonyms": [
+   "mature",
+   "established"
+  ],
+  "example": "The nascent industry showed great promise."
+ },
+ {
+  "id": "v-0137",
+  "word": "nebulous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "in the form of a cloud or haze; hazy; vague",
+  "synonyms": [
+   "vague",
+   "unclear",
+   "hazy"
+  ],
+  "antonyms": [
+   "clear",
+   "distinct"
+  ],
+  "example": "Her plans for the future remain nebulous."
+ },
+ {
+  "id": "v-0138",
+  "word": "nefarious",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "wicked or criminal",
+  "synonyms": [
+   "wicked",
+   "villainous",
+   "evil"
+  ],
+  "antonyms": [
+   "virtuous",
+   "honorable"
+  ],
+  "example": "The dictator pursued his nefarious aims for decades."
+ },
+ {
+  "id": "v-0139",
+  "word": "nonplussed",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "so surprised and confused that one is unsure how to react",
+  "synonyms": [
+   "stumped",
+   "baffled",
+   "perplexed"
+  ],
+  "antonyms": [
+   "composed",
+   "unfazed"
+  ],
+  "example": "The strange request left her completely nonplussed."
+ },
+ {
+  "id": "v-0140",
+  "word": "nuanced",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "having subtle distinctions or variations",
+  "synonyms": [
+   "subtle",
+   "fine",
+   "delicate"
+  ],
+  "antonyms": [
+   "obvious",
+   "crude"
+  ],
+  "example": "The novel offers a nuanced view of the conflict."
+ },
+ {
+  "id": "v-0141",
+  "word": "obfuscate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to render obscure, unclear, or unintelligible",
+  "synonyms": [
+   "obscure",
+   "muddle",
+   "confuse"
+  ],
+  "antonyms": [
+   "clarify",
+   "illuminate"
+  ],
+  "example": "The jargon seemed designed to obfuscate rather than explain."
+ },
+ {
+  "id": "v-0142",
+  "word": "odious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "extremely unpleasant; repulsive",
+  "synonyms": [
+   "repugnant",
+   "abhorrent",
+   "detestable"
+  ],
+  "antonyms": [
+   "delectable",
+   "pleasant"
+  ],
+  "example": "His odious remarks alienated the entire staff."
+ },
+ {
+  "id": "v-0143",
+  "word": "officious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "asserting authority or interfering in an annoyingly domineering way",
+  "synonyms": [
+   "bureaucratic",
+   "meddlesome",
+   "overbearing"
+  ],
+  "antonyms": [
+   "unobtrusive",
+   "considerate"
+  ],
+  "example": "The officious clerk demanded four forms of identification."
+ },
+ {
+  "id": "v-0144",
+  "word": "oscillate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to swing back and forth; to waver between extremes",
+  "synonyms": [
+   "fluctuate",
+   "waver",
+   "vacillate"
+  ],
+  "antonyms": [
+   "stabilize",
+   "remain steady"
+  ],
+  "example": "Her moods oscillated between euphoria and despair."
+ },
+ {
+  "id": "v-0145",
+  "word": "ostensible",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "stated or appearing to be true, but not necessarily so",
+  "synonyms": [
+   "apparent",
+   "professed",
+   "supposed"
+  ],
+  "antonyms": [
+   "actual",
+   "genuine"
+  ],
+  "example": "His ostensible reason for the visit hid other motives."
+ },
+ {
+  "id": "v-0146",
+  "word": "panacea",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a solution or remedy for all difficulties or diseases",
+  "synonyms": [
+   "cure-all",
+   "elixir",
+   "magic bullet"
+  ],
+  "antonyms": [
+   "problem"
+  ],
+  "example": "Education is no panacea for poverty."
+ },
+ {
+  "id": "v-0147",
+  "word": "paragon",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a person regarded as a perfect example of a particular quality",
+  "synonyms": [
+   "model",
+   "exemplar",
+   "ideal"
+  ],
+  "antonyms": [
+   "imitation"
+  ],
+  "example": "She was a paragon of patience."
+ },
+ {
+  "id": "v-0148",
+  "word": "perfunctory",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "carried out with a minimum of effort or reflection",
+  "synonyms": [
+   "cursory",
+   "routine",
+   "superficial"
+  ],
+  "antonyms": [
+   "thorough",
+   "careful"
+  ],
+  "example": "He gave the report a perfunctory glance."
+ },
+ {
+  "id": "v-0149",
+  "word": "phlegmatic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having an unemotional and stolidly calm disposition",
+  "synonyms": [
+   "stolid",
+   "impassive",
+   "unemotional"
+  ],
+  "antonyms": [
+   "emotional",
+   "excitable"
+  ],
+  "example": "Her phlegmatic temperament suited the boring office."
+ },
+ {
+  "id": "v-0150",
+  "word": "polemical",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "of, relating to, or involving strongly critical or disputatious writing",
+  "synonyms": [
+   "controversial",
+   "argumentative",
+   "disputatious"
+  ],
+  "antonyms": [
+   "even-handed",
+   "balanced"
+  ],
+  "example": "His polemical essays attacked the prevailing orthodoxy."
+ }
+]

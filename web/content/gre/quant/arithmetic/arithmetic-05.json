@@ -1,0 +1,304 @@
+[
+ {
+  "id": "q-ari-082",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is $5\\%$ of $200$?",
+  "choices": [
+   "5",
+   "8",
+   "10",
+   "12",
+   "15"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-083",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "The ratio of wins to losses for a team is $5:3$. If they won $20$ games, how many did they lose?",
+  "choices": [
+   "8",
+   "10",
+   "12",
+   "14",
+   "16"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-084",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is divisible by $4$?",
+  "choices": [
+   "34",
+   "52",
+   "74",
+   "82",
+   "94"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-085",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "What is the value of $6^2$?",
+  "choices": [
+   "12",
+   "24",
+   "36",
+   "48",
+   "64"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-086",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "63",
+   "65",
+   "67",
+   "69",
+   "75"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-087",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "An item originally priced at $\\$80$ is on sale at $25\\%$ off. What is the sale price?",
+  "choices": [
+   "$\\$50$",
+   "$\\$55$",
+   "$\\$60$",
+   "$\\$65$",
+   "$\\$70$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-088",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$33\\frac{1}{3}\\%$ of $90$",
+  "quantityB": "$25\\%$ of $120$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-089",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two quantities are in the ratio $3:4$. If the first is increased by $6$ and the second is decreased by $4$, they become equal. What is the first quantity?",
+  "choices": [
+   "18",
+   "24",
+   "30",
+   "36",
+   "42"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-090",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the units digit of $3^{47}$?",
+  "choices": [
+   "1",
+   "3",
+   "7",
+   "9",
+   "0"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-091",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "What is the smallest positive integer that is divisible by $2, 3, 4, 5,$ and $6$?",
+  "answer": 60
+ },
+ {
+  "id": "q-ari-092",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Simplify $\\frac{4^{x+1}}{4^x}$.",
+  "choices": [
+   "$1$",
+   "$4$",
+   "$4^x$",
+   "$16$",
+   "$4^{2x}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-093",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "How many positive divisors does $144$ have?",
+  "choices": [
+   "10",
+   "12",
+   "14",
+   "15",
+   "18"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-094",
+  "type": "qc",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The number of primes less than $50$",
+  "quantityB": "$15$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-095",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A quantity increases by $100\\%$ and then decreases by $50\\%$. The result is what percent of the original?",
+  "choices": [
+   "50\\%",
+   "75\\%",
+   "100\\%",
+   "150\\%",
+   "200\\%"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-096",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Salt and water are mixed in the ratio $3:7$. If $40$ liters of the mixture evaporate (only water), and the new ratio becomes $1:1$, what was the original quantity of water, in liters?",
+  "choices": [
+   "21",
+   "28",
+   "35",
+   "42",
+   "49"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-097",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $n$ is a positive integer and $2^n - 1$ is prime, which of the following must be true?",
+  "choices": [
+   "$n$ is prime",
+   "$n$ is odd",
+   "$n$ is even",
+   "$n$ is a multiple of $3$",
+   "$n = 1$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-098",
+  "type": "numeric",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many integers between $1$ and $1000$ are divisible by $2, 3,$ or $5$?",
+  "answer": 734
+ },
+ {
+  "id": "q-ari-099",
+  "type": "mcq",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $n!$ ends in exactly $7$ trailing zeros, what is the largest possible value of $n$?",
+  "choices": [
+   "30",
+   "32",
+   "35",
+   "37",
+   "40"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-100",
+  "type": "multi",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following statements are true? Indicate all such statements.",
+  "choices": [
+   "There are infinitely many prime numbers",
+   "$2$ is the only even prime",
+   "$1$ is a prime number",
+   "Twin primes are primes that differ by $2$",
+   "Every composite number has at least one prime factor"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ]
+ }
+]

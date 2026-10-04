@@ -1,0 +1,402 @@
+[
+ {
+  "id": "q-alg-007",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $5x - 3 = 17$, what is the value of $x$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-008",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x^2 = 81$, what is the positive value of $x$?",
+  "choices": [
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-009",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $2x + 1 < 9$, which of the following cannot be a value of $x$?",
+  "choices": [
+   "0",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-010",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $3^x = 81$, what is the value of $x$?",
+  "choices": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-011",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $|x| = 7$, what is the smallest possible value of $x$?",
+  "choices": [
+   "$-7$",
+   "$-5$",
+   "$0$",
+   "$5$",
+   "$7$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-012",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $\\frac{x}{3} + 4 = \\frac{x}{2} - 1$, what is the value of $x$?",
+  "choices": [
+   "20",
+   "25",
+   "30",
+   "35",
+   "40"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-013",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Two numbers differ by $7$. If the larger number is $3$ more than twice the smaller, what is the smaller number?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-014",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $f(x) = 4x - 3$ and $f(k) = 21$, what is the value of $k$?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-015",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 - 5x + 6 = 0$ and $x > 0$, what is the value of $x$?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-016",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The larger root of $x^2 - 7x + 10 = 0$",
+  "quantityB": "The smaller root of $x^2 - 9x + 14 = 0$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-017",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $(x - 3)(x + 4) = 18$, what is one possible value of $x$?",
+  "choices": [
+   "$-5$",
+   "$-4$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-018",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following inequalities have $-1$ as a solution? Indicate all such inequalities.",
+  "choices": [
+   "$2x + 5 > 2$",
+   "$3x - 4 \\le -7$",
+   "$-x + 1 < 3$",
+   "$5x + 10 \\le 0$",
+   "$-2x < 3$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-019",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $-3 < 2x + 1 < 9$, what is the range of $x$?",
+  "choices": [
+   "$-2 < x < 4$",
+   "$-1 < x < 4$",
+   "$-2 < x < 5$",
+   "$-3 < x < 4$",
+   "$-1 < x < 5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-020",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "For how many integer values of $x$ does $-2 \\le 3x - 4 < 8$ hold?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-021",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $9^x = 27$, what is the value of $x$?",
+  "choices": [
+   "$\\frac{2}{3}$",
+   "$\\frac{3}{2}$",
+   "$\\frac{4}{3}$",
+   "$\\frac{5}{2}$",
+   "$\\frac{5}{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-022",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$2^{10}$",
+  "quantityB": "$10^3$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-023",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2^{x-1} = 32$, what is the value of $x$?",
+  "answer": 6
+ },
+ {
+  "id": "q-alg-024",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $|x - 4| = 9$, what is the sum of all possible values of $x$?",
+  "choices": [
+   "0",
+   "4",
+   "8",
+   "9",
+   "13"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-025",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following statements are true for all real numbers $x$? Indicate all such statements.",
+  "choices": [
+   "$|x|^2 = x^2$",
+   "$|x| \\ge -x$",
+   "$|2x| = 2|x|$",
+   "$|x + 1| = |x| + 1$",
+   "$|x| = |-x|$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-026",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many integers $n$ satisfy $|n - 3| + |n + 2| \\le 10$?",
+  "choices": [
+   "9",
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-027",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A solution contains $40\\%$ acid by volume. How many liters of pure acid must be added to $12$ liters of the solution to obtain a $60\\%$ acid solution?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-028",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The sum of the roots of $3x^2 - 12x + 9 = 0$",
+  "quantityB": "The product of the roots of $x^2 - 6x + 8 = 0$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-029",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $x$ and $y$ are positive integers such that $x^2 - y^2 = 39$ and $x > y$, what is the value of $x + y$?",
+  "answer": 13
+ },
+ {
+  "id": "q-alg-030",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following intervals contain at least one integer satisfying $x^2 - 5x - 14 < 0$? Indicate all such intervals.",
+  "choices": [
+   "$[-5, 0]$",
+   "$[0, 5]$",
+   "$[5, 10]$",
+   "$[-10, -5]$",
+   "$[-3, 7]$"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-031",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $5^{2x-1} = 125^{x-2}$, what is the value of $x$?",
+  "answer": 3
+ }
+]

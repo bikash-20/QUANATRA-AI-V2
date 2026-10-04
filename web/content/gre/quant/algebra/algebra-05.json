@@ -1,0 +1,311 @@
+[
+ {
+  "id": "q-alg-082",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $6x + 2 = 20$, what is the value of $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-083",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x^2 = 36$, what is the smaller value of $x$?",
+  "choices": [
+   "$-9$",
+   "$-6$",
+   "$0$",
+   "$6$",
+   "$9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-084",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x < 4$, which of the following could be a value of $x$?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-085",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $x^3 = 64$, what is the value of $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$8$",
+   "$16$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-086",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $|x| = 0$, what is the value of $x$?",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$",
+   "Indeterminate"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-087",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2y - 5 = 3y + 1$, what is the value of $y$?",
+  "choices": [
+   "$-7$",
+   "$-6$",
+   "$-5$",
+   "$-4$",
+   "$-3$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-088",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 - 10x + 25 = 0$, what is the value of $x$?",
+  "choices": [
+   "$-5$",
+   "$0$",
+   "$5$",
+   "$10$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-089",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$x$",
+  "quantityB": "$y$",
+  "answer": "D",
+  "common": "$x + y > 10$ and $x - y > 10$"
+ },
+ {
+  "id": "q-alg-090",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following values satisfy $-2 \\le 3x + 1 \\le 13$? Indicate all such values.",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$3$",
+   "$5$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-091",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $2^x \\cdot 4 = 8^x$, what is the value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-092",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^0 + x^1 + x^2 = 31$ and $x > 0$, what is the value of $x$?",
+  "answer": 5
+ },
+ {
+  "id": "q-alg-093",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $|x + 3| = 8$, what is the positive value of $x$?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$8$",
+   "$11$",
+   "$24$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-094",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Three consecutive even integers have a sum of $48$. What is the largest of them?",
+  "choices": [
+   "$14$",
+   "$16$",
+   "$18$",
+   "$20$",
+   "$22$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-095",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "quantityA": "The sum of the roots of $x^2 + px + q = 0$",
+  "quantityB": "The product of the roots of $x^2 + qx + p = 0$",
+  "answer": "D",
+  "common": "$p > 0$ and $q > 0$ and $p \\ne q$"
+ },
+ {
+  "id": "q-alg-096",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $9^{x-1} = 3^{2x+4}$, what is the value of $x$?",
+  "choices": [
+   "$-6$",
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$6$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-097",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many integers $n$ satisfy $n^2 - 7n + 10 < 0$?",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-098",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "Which of the following statements are true for all real $x$? Indicate all such statements.",
+  "choices": [
+   "$|x|^3 = |x^3|$",
+   "$|x - y| = |y - x|$",
+   "$|x + y| = |x| + |y|$",
+   "$|x - 1|^2 = (x - 1)^2$",
+   "$|x| + |y| \\ge |x + y|$"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-099",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A car travels $d$ miles in $t$ hours. At the same rate, how many hours will it take to travel $300$ miles?",
+  "choices": [
+   "$\\frac{300t}{d}$",
+   "$\\frac{300d}{t}$",
+   "$\\frac{d}{300t}$",
+   "$\\frac{t}{300d}$",
+   "$\\frac{dt}{300}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-100",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "If $x^2 - 4x + c = 0$ has exactly one real root, what is the value of $c$?",
+  "choices": [
+   "$-4$",
+   "$-2$",
+   "$0$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": 4
+ }
+]

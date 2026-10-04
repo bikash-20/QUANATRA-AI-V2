@@ -1,0 +1,421 @@
+[
+ {
+  "id": "v-0276",
+  "word": "quandary",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a state of uncertainty or perplexity",
+  "synonyms": [
+   "dilemma",
+   "predicament",
+   "plight"
+  ],
+  "antonyms": [
+   "certainty",
+   "solution"
+  ],
+  "example": "She found herself in a quandary over the offer."
+ },
+ {
+  "id": "v-0277",
+  "word": "querulous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "complaining in a petulant or whining manner",
+  "synonyms": [
+   "whining",
+   "petulant",
+   "peevish"
+  ],
+  "antonyms": [
+   "content",
+   "uncomplaining"
+  ],
+  "example": "The querulous child complained about everything."
+ },
+ {
+  "id": "v-0278",
+  "word": "raffish",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "vulgarly flashy or colorful; tawdry",
+  "synonyms": [
+   "flashy",
+   "tawdry",
+   "showy"
+  ],
+  "antonyms": [
+   "subdued",
+   "restrained"
+  ],
+  "example": "The bar's raffish clientele gathered nightly."
+ },
+ {
+  "id": "v-0279",
+  "word": "rebuff",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to reject someone or something in an abrupt or ungracious manner",
+  "synonyms": [
+   "repel",
+   "snub",
+   "reject"
+  ],
+  "antonyms": [
+   "welcome",
+   "accept"
+  ],
+  "example": "She rebuffed his attempt to apologize."
+ },
+ {
+  "id": "v-0280",
+  "word": "refulgent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "shining brightly; radiant",
+  "synonyms": [
+   "radiant",
+   "luminous",
+   "shining"
+  ],
+  "antonyms": [
+   "dim",
+   "dull"
+  ],
+  "example": "The refulgent moon lit the bay."
+ },
+ {
+  "id": "v-0281",
+  "word": "remiss",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "lacking care or attention to duty; negligent",
+  "synonyms": [
+   "negligent",
+   "careless",
+   "lax"
+  ],
+  "antonyms": [
+   "diligent",
+   "careful"
+  ],
+  "example": "He was remiss in filing the paperwork."
+ },
+ {
+  "id": "v-0282",
+  "word": "reprise",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a repeated passage; a repeat performance",
+  "synonyms": [
+   "repetition",
+   "repeat",
+   "echo"
+  ],
+  "antonyms": [
+   "departure"
+  ],
+  "example": "The sequel was a reprise of the original's themes."
+ },
+ {
+  "id": "v-0283",
+  "word": "ribald",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "coarse, vulgar, or lewd in a humorous way",
+  "synonyms": [
+   "bawdy",
+   "coarse",
+   "lewd"
+  ],
+  "antonyms": [
+   "decorous",
+   "genteel"
+  ],
+  "example": "The ribald jokes went over well with the crowd."
+ },
+ {
+  "id": "v-0284",
+  "word": "ruminate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to think deeply about something",
+  "synonyms": [
+   "ponder",
+   "contemplate",
+   "meditate"
+  ],
+  "antonyms": [
+   "ignore",
+   "disregard"
+  ],
+  "example": "She ruminated on the meaning of life."
+ },
+ {
+  "id": "v-0285",
+  "word": "salubrious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "promoting health; healthful",
+  "synonyms": [
+   "healthful",
+   "wholesome",
+   "beneficial"
+  ],
+  "antonyms": [
+   "unhealthy",
+   "harmful"
+  ],
+  "example": "The mountain air was salubrious and bracing."
+ },
+ {
+  "id": "v-0286",
+  "word": "satiate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to satisfy fully; to surfeit",
+  "synonyms": [
+   "satisfy",
+   "sate",
+   "gorge"
+  ],
+  "antonyms": [
+   "starve",
+   "deprive"
+  ],
+  "example": "The huge meal satiated even the hungriest guests."
+ },
+ {
+  "id": "v-0287",
+  "word": "schism",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a split or division between strongly opposed groups",
+  "synonyms": [
+   "split",
+   "rift",
+   "division"
+  ],
+  "antonyms": [
+   "unity",
+   "accord"
+  ],
+  "example": "The schism split the church for decades."
+ },
+ {
+  "id": "v-0288",
+  "word": "sedulous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing dedication and diligence",
+  "synonyms": [
+   "diligent",
+   "industrious",
+   "assiduous"
+  ],
+  "antonyms": [
+   "lazy",
+   "negligent"
+  ],
+  "example": "His sedulous efforts paid off in the end."
+ },
+ {
+  "id": "v-0289",
+  "word": "shibboleth",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a custom or belief that distinguishes one group from another",
+  "synonyms": [
+   "custom",
+   "doctrine",
+   "watchword"
+  ],
+  "antonyms": [],
+  "example": "That phrase became a shibboleth of the new generation."
+ },
+ {
+  "id": "v-0290",
+  "word": "sinuous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having many curves and turns; lithe and supple",
+  "synonyms": [
+   "winding",
+   "serpentine",
+   "supple"
+  ],
+  "antonyms": [
+   "straight",
+   "stiff"
+  ],
+  "example": "The river's sinuous course wound through the hills."
+ },
+ {
+  "id": "v-0291",
+  "word": "slothful",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "lazy; not inclined to work or exertion",
+  "synonyms": [
+   "lazy",
+   "indolent",
+   "idle"
+  ],
+  "antonyms": [
+   "industrious",
+   "active"
+  ],
+  "example": "The slothful dog barely lifted its head."
+ },
+ {
+  "id": "v-0292",
+  "word": "solipsism",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the view that the self is all that can be known to exist",
+  "synonyms": [
+   "self-absorption",
+   "egoism",
+   "narcissism"
+  ],
+  "antonyms": [
+   "altruism"
+  ],
+  "example": "His solipsism made every conversation a monologue."
+ },
+ {
+  "id": "v-0293",
+  "word": "sophomoric",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "pretentious or juvenile; immature",
+  "synonyms": [
+   "juvenile",
+   "immature",
+   " callow"
+  ],
+  "antonyms": [
+   "mature",
+   "sophisticated"
+  ],
+  "example": "The critic dismissed the movie as sophomoric."
+ },
+ {
+  "id": "v-0294",
+  "word": "splenetic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "bad-tempered or spiteful",
+  "synonyms": [
+   "irascible",
+   "peevish",
+   "bilious"
+  ],
+  "antonyms": [
+   "genial",
+   "affable"
+  ],
+  "example": "His splenetic outbursts alienated the team."
+ },
+ {
+  "id": "v-0295",
+  "word": "stolid",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "calm, dependable, and showing little emotion or animation",
+  "synonyms": [
+   "impassive",
+   "unemotional",
+   "phlegmatic"
+  ],
+  "antonyms": [
+   "emotional",
+   "excitable"
+  ],
+  "example": "Her stolid reaction surprised the others."
+ },
+ {
+  "id": "v-0296",
+  "word": "subjugate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to bring under control or domination",
+  "synonyms": [
+   "subdue",
+   "dominate",
+   "enslave"
+  ],
+  "antonyms": [
+   "liberate",
+   "free"
+  ],
+  "example": "The empire subjugated the neighboring kingdoms."
+ },
+ {
+  "id": "v-0297",
+  "word": "surfeit",
+  "pos": "n",
+  "tier": 3,
+  "definition": "an excessive amount of something",
+  "synonyms": [
+   "excess",
+   "overabundance",
+   "glut"
+  ],
+  "antonyms": [
+   "scarcity",
+   "dearth"
+  ],
+  "example": "There was a surfeit of regulations in the industry."
+ },
+ {
+  "id": "v-0298",
+  "word": "sybarite",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who is self-indulgent in their pursuit of luxury",
+  "synonyms": [
+   "hedonist",
+   "epicure",
+   "sensualist"
+  ],
+  "antonyms": [
+   "ascetic"
+  ],
+  "example": "He lived the life of a sybarite on his yacht."
+ },
+ {
+  "id": "v-0299",
+  "word": "temerity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "excessive confidence or boldness; audacity",
+  "synonyms": [
+   "audacity",
+   "boldness",
+   "nerve"
+  ],
+  "antonyms": [
+   "timidity",
+   "cowardice"
+  ],
+  "example": "She had the temerity to question the CEO."
+ },
+ {
+  "id": "v-0300",
+  "word": "timorous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing nervousness or fear in the face of danger or difficulty",
+  "synonyms": [
+   "timid",
+   "fearful",
+   "cowardly"
+  ],
+  "antonyms": [
+   "brave",
+   "courageous"
+  ],
+  "example": "The timorous kitten hid under the sofa."
+ }
+]

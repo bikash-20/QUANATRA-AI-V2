@@ -1,0 +1,425 @@
+[
+ {
+  "id": "v-0351",
+  "word": "deference",
+  "pos": "n",
+  "tier": 3,
+  "definition": "humble submission and respect",
+  "synonyms": [
+   "respect",
+   "regard",
+   "reverence"
+  ],
+  "antonyms": [
+   "defiance",
+   "disrespect"
+  ],
+  "example": "He spoke with deference to the elder statesman."
+ },
+ {
+  "id": "v-0352",
+  "word": "diverse",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "showing a great deal of variety",
+  "synonyms": [
+   "varied",
+   "assorted",
+   "manifold"
+  ],
+  "antonyms": [
+   "uniform",
+   "homogeneous"
+  ],
+  "example": "The region hosts a diverse array of wildlife."
+ },
+ {
+  "id": "v-0353",
+  "word": "dormant",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "temporarily inactive or in a state of rest",
+  "synonyms": [
+   "inactive",
+   "sleeping",
+   "quiescent"
+  ],
+  "antonyms": [
+   "active",
+   "awake"
+  ],
+  "example": "The seed lay dormant through the winter."
+ },
+ {
+  "id": "v-0354",
+  "word": "duplicity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "deceitfulness; double-dealing",
+  "synonyms": [
+   "deception",
+   "deceit",
+   "dishonesty"
+  ],
+  "antonyms": [
+   "honesty",
+   "candor"
+  ],
+  "example": "He was sick of the duplicity around him."
+ },
+ {
+  "id": "v-0355",
+  "word": "elegy",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a poem of serious reflection, typically a lament for the dead",
+  "synonyms": [
+   "lament",
+   "dirge",
+   "requiem"
+  ],
+  "antonyms": [
+   "celebration",
+   "ode"
+  ],
+  "example": "She read a moving elegy at the memorial."
+ },
+ {
+  "id": "v-0356",
+  "word": "emulate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to match or surpass a person or achievement",
+  "synonyms": [
+   "imitate",
+   "copy",
+   "follow"
+  ],
+  "antonyms": [
+   "diverge",
+   "originate"
+  ],
+  "example": "Young chefs tried to emulate her signature dish."
+ },
+ {
+  "id": "v-0357",
+  "word": "enmity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a state or feeling of active opposition or hostility",
+  "synonyms": [
+   "hostility",
+   "animus",
+   "rivalry"
+  ],
+  "antonyms": [
+   "amity",
+   "friendship"
+  ],
+  "example": "Years of enmity ended with the handshake."
+ },
+ {
+  "id": "v-0358",
+  "word": "equivocal",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "open to more than one interpretation; ambiguous",
+  "synonyms": [
+   "ambiguous",
+   "vague",
+   "cryptic"
+  ],
+  "antonyms": [
+   "unequivocal",
+   "clear"
+  ],
+  "example": "His equivocal answer left reporters guessing."
+ },
+ {
+  "id": "v-0359",
+  "word": "erstwhile",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "former; belonging to an earlier time",
+  "synonyms": [
+   "former",
+   "one-time",
+   "previous"
+  ],
+  "antonyms": [
+   "current",
+   "present"
+  ],
+  "example": "He met his erstwhile rival at the conference."
+ },
+ {
+  "id": "v-0360",
+  "word": "eschew",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to deliberately avoid using or indulging in",
+  "synonyms": [
+   "avoid",
+   "shun",
+   "abstain"
+  ],
+  "antonyms": [
+   "embrace",
+   "indulge"
+  ],
+  "example": "She eschewed sugar for the entire month."
+ },
+ {
+  "id": "v-0361",
+  "word": "eulogy",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a speech in praise of someone, typically the deceased",
+  "synonyms": [
+   "tribute",
+   "panegyric",
+   "praise"
+  ],
+  "antonyms": [
+   "criticism",
+   "tirade"
+  ],
+  "example": "He delivered a heartfelt eulogy."
+ },
+ {
+  "id": "v-0362",
+  "word": "evince",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to indicate or make evident",
+  "synonyms": [
+   "show",
+   "reveal",
+   "manifest"
+  ],
+  "antonyms": [
+   "conceal",
+   "hide"
+  ],
+  "example": "His smile evinced his relief."
+ },
+ {
+  "id": "v-0363",
+  "word": "exemplar",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person or thing serving as a typical example",
+  "synonyms": [
+   "model",
+   "paragon",
+   "prototype"
+  ],
+  "antonyms": [
+   "anomaly"
+  ],
+  "example": "She was the exemplar of perseverance."
+ },
+ {
+  "id": "v-0364",
+  "word": "fledgling",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person or organization that is new and inexperienced",
+  "synonyms": [
+   "novice",
+   "beginner",
+   "newcomer"
+  ],
+  "antonyms": [
+   "veteran",
+   "expert"
+  ],
+  "example": "The fledgling startup struggled for capital."
+ },
+ {
+  "id": "v-0365",
+  "word": "fortuitous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "happening by chance, especially a fortunate chance",
+  "synonyms": [
+   "lucky",
+   "fortunate",
+   "serendipitous"
+  ],
+  "antonyms": [
+   "unlucky",
+   "unfortunate"
+  ],
+  "example": "A fortuitous meeting changed the course of her career."
+ },
+ {
+  "id": "v-0366",
+  "word": "fractious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "irritable and quarrelsome",
+  "synonyms": [
+   "irritable",
+   "cranky",
+   "peevish"
+  ],
+  "antonyms": [
+   "calm",
+   "placid"
+  ],
+  "example": "The fractious committee refused to vote."
+ },
+ {
+  "id": "v-0367",
+  "word": "grandiose",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "impressive and large in scale or ambition",
+  "synonyms": [
+   "imposing",
+   "grand",
+   "ambitious"
+  ],
+  "antonyms": [
+   "modest",
+   "humble"
+  ],
+  "example": "Their grandiose plans collapsed on contact with reality."
+ },
+ {
+  "id": "v-0368",
+  "word": "imperious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "assuming power or authority without justification; domineering",
+  "synonyms": [
+   "domineering",
+   "overbearing",
+   "arrogant"
+  ],
+  "antonyms": [
+   "humble",
+   "meek"
+  ],
+  "example": "Her imperious manner alienated the staff."
+ },
+ {
+  "id": "v-0369",
+  "word": "indomitable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "impossible to subdue or defeat",
+  "synonyms": [
+   "unconquerable",
+   "unyielding",
+   "invincible"
+  ],
+  "antonyms": [
+   "submissive",
+   "yielding"
+  ],
+  "example": "Her indomitable spirit inspired us all."
+ },
+ {
+  "id": "v-0370",
+  "word": "ineffable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "too great or extreme to be expressed in words",
+  "synonyms": [
+   "indescribable",
+   "inexpressible",
+   "unutterable"
+  ],
+  "antonyms": [
+   "expressible",
+   "definable"
+  ],
+  "example": "She felt ineffable joy at the news."
+ },
+ {
+  "id": "v-0371",
+  "word": "irresolute",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing or feeling hesitancy; uncertain",
+  "synonyms": [
+   "indecisive",
+   "hesitant",
+   "uncertain"
+  ],
+  "antonyms": [
+   "decisive",
+   "resolute"
+  ],
+  "example": "The irresolute captain lost the crew confidence."
+ },
+ {
+  "id": "v-0372",
+  "word": "litany",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a tedious recital or repetitive series",
+  "synonyms": [
+   "series",
+   "recital",
+   "enumeration"
+  ],
+  "antonyms": [
+   "variety"
+  ],
+  "example": "A litany of complaints filled the inbox."
+ },
+ {
+  "id": "v-0373",
+  "word": "maverick",
+  "pos": "n",
+  "tier": 3,
+  "definition": "an unorthodox or independent-minded person",
+  "synonyms": [
+   "rebel",
+   "individualist",
+   "nonconformist"
+  ],
+  "antonyms": [
+   "conformist",
+   "follower"
+  ],
+  "example": "The maverick senator broke party ranks."
+ },
+ {
+  "id": "v-0374",
+  "word": "ostracize",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to exclude from a society or group",
+  "synonyms": [
+   "shun",
+   "exclude",
+   "banish"
+  ],
+  "antonyms": [
+   "welcome",
+   "embrace"
+  ],
+  "example": "The village ostracized him after the scandal."
+ },
+ {
+  "id": "v-0375",
+  "word": "pedantic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "excessively concerned with minor details or rules",
+  "synonyms": [
+   "didactic",
+   "bookish",
+   "punctilious"
+  ],
+  "antonyms": [
+   "casual",
+   "informal"
+  ],
+  "example": "His pedantic corrections annoyed the editors."
+ }
+]

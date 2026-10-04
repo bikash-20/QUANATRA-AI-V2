@@ -1,0 +1,418 @@
+[
+ {
+  "id": "v-0251",
+  "word": "noisome",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having an extremely unpleasant smell",
+  "synonyms": [
+   "fetid",
+   "malodorous",
+   "stinking"
+  ],
+  "antonyms": [
+   "fragrant",
+   "aromatic"
+  ],
+  "example": "A noisome odor rose from the swamp."
+ },
+ {
+  "id": "v-0252",
+  "word": "obstreperous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "noisy and difficult to control",
+  "synonyms": [
+   "unruly",
+   "boisterous",
+   "rowdy"
+  ],
+  "antonyms": [
+   "calm",
+   "manageable"
+  ],
+  "example": "The obstreperous crowd disrupted the lecture."
+ },
+ {
+  "id": "v-0253",
+  "word": "occlude",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to block or shut off; to obstruct",
+  "synonyms": [
+   "block",
+   "obstruct",
+   "close"
+  ],
+  "antonyms": [
+   "open",
+   "expose"
+  ],
+  "example": "The clouds occluded the sun."
+ },
+ {
+  "id": "v-0254",
+  "word": "onerous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "involving an amount of effort and inconvenience that is oppressively burdensome",
+  "synonyms": [
+   "burdensome",
+   "oppressive",
+   " demanding"
+  ],
+  "antonyms": [
+   "easy",
+   "light"
+  ],
+  "example": "The contract's terms were onerous for small vendors."
+ },
+ {
+  "id": "v-0255",
+  "word": "opprobrium",
+  "pos": "n",
+  "tier": 3,
+  "definition": "harsh criticism or censure",
+  "synonyms": [
+   "disgrace",
+   "infamy",
+   "shame"
+  ],
+  "antonyms": [
+   "praise",
+   "esteem"
+  ],
+  "example": "He endured the opprobrium of his peers."
+ },
+ {
+  "id": "v-0256",
+  "word": "ossify",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to turn into bone; to become rigid or unable to adapt",
+  "synonyms": [
+   "calcify",
+   "rigidify",
+   "stiffen"
+  ],
+  "antonyms": [
+   "soften",
+   "adapt"
+  ],
+  "example": "The institution had ossified after decades of neglect."
+ },
+ {
+  "id": "v-0257",
+  "word": "palliate",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to make less severe without removing the cause",
+  "synonyms": [
+   "alleviate",
+   "mitigate",
+   "relieve"
+  ],
+  "antonyms": [
+   "aggravate",
+   "worsen"
+  ],
+  "example": "The drug palliates pain but does not cure the disease."
+ },
+ {
+  "id": "v-0258",
+  "word": "panegyric",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a formal speech or piece of writing in praise of someone",
+  "synonyms": [
+   "eulogy",
+   "tribute",
+   "encomium"
+  ],
+  "antonyms": [
+   "criticism",
+   "tirade"
+  ],
+  "example": "His acceptance speech was a panegyric to his mentor."
+ },
+ {
+  "id": "v-0259",
+  "word": "pariah",
+  "pos": "n",
+  "tier": 2,
+  "definition": "an outcast or rejected person",
+  "synonyms": [
+   "outcast",
+   "recluse",
+   "leper"
+  ],
+  "antonyms": [
+   "favorite",
+   "insider"
+  ],
+  "example": "After the scandal, he became a pariah in his industry."
+ },
+ {
+  "id": "v-0260",
+  "word": "pejorative",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "expressing disapproval or disparagement",
+  "synonyms": [
+   "derogatory",
+   "disparaging",
+   "negative"
+  ],
+  "antonyms": [
+   "positive",
+   "complimentary"
+  ],
+  "example": "He used a pejorative term for the policy."
+ },
+ {
+  "id": "v-0261",
+  "word": "peripatetic",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "traveling from place to place",
+  "synonyms": [
+   "itinerant",
+   "traveling",
+   "nomadic"
+  ],
+  "antonyms": [
+   "sedentary",
+   "stationary"
+  ],
+  "example": "His peripatetic career took him to five countries."
+ },
+ {
+  "id": "v-0262",
+  "word": "perturb",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to disturb or unsettle; to cause anxiety",
+  "synonyms": [
+   "disturb",
+   "unsettle",
+   "disquiet"
+  ],
+  "antonyms": [
+   "calm",
+   "settle"
+  ],
+  "example": "Nothing seemed to perturb her composure."
+ },
+ {
+  "id": "v-0263",
+  "word": "petulant",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "childishly sulky or bad-tempered",
+  "synonyms": [
+   "sulky",
+   "irritable",
+   "peevish"
+  ],
+  "antonyms": [
+   "patient",
+   "even-tempered"
+  ],
+  "example": "She grew petulant at the slightest delay."
+ },
+ {
+  "id": "v-0264",
+  "word": "philistine",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a person who is hostile to or uninterested in culture and the arts",
+  "synonyms": [
+   "boor",
+   "vulgarian",
+   "bumpkin"
+  ],
+  "antonyms": [
+   "aesthete"
+  ],
+  "example": "Critics called him a philistine for his tastes."
+ },
+ {
+  "id": "v-0265",
+  "word": "pithy",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "concise and forcefully expressive",
+  "synonyms": [
+   "concise",
+   "succinct",
+   "terse"
+  ],
+  "antonyms": [
+   "wordy",
+   "verbose"
+  ],
+  "example": "He offered a pithy summary of the report."
+ },
+ {
+  "id": "v-0266",
+  "word": "pious",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "devoutly religious; showing strong religious feeling",
+  "synonyms": [
+   "devout",
+   "religious",
+   "reverent"
+  ],
+  "antonyms": [
+   "irreligious",
+   "impious"
+  ],
+  "example": "Her pious devotion impressed even skeptics."
+ },
+ {
+  "id": "v-0267",
+  "word": "placate",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to make less angry; to appease",
+  "synonyms": [
+   "appease",
+   "mollify",
+   "pacify"
+  ],
+  "antonyms": [
+   "provoke",
+   "enrage"
+  ],
+  "example": "He tried to placate the angry customer with a refund."
+ },
+ {
+  "id": "v-0268",
+  "word": "platitude",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful",
+  "synonyms": [
+   "cliché",
+   "banality",
+   "triteness"
+  ],
+  "antonyms": [
+   "originality"
+  ],
+  "example": "The speech was full of empty platitudes."
+ },
+ {
+  "id": "v-0269",
+  "word": "plenary",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "full in all respects; complete; absolute",
+  "synonyms": [
+   "complete",
+   "full",
+   "unrestricted"
+  ],
+  "antonyms": [
+   "limited",
+   "partial"
+  ],
+  "example": "The committee granted plenary power to the chair."
+ },
+ {
+  "id": "v-0270",
+  "word": "polemic",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a strong verbal or written attack on someone or something",
+  "synonyms": [
+   "diatribe",
+   "tirade",
+   "attack"
+  ],
+  "antonyms": [
+   "praise",
+   "eulogy"
+  ],
+  "example": "The book is a polemic against modern politics."
+ },
+ {
+  "id": "v-0271",
+  "word": "portent",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a sign or warning that something, especially something momentous or calamitous, is likely to happen",
+  "synonyms": [
+   "omen",
+   "sign",
+   "harbinger"
+  ],
+  "antonyms": [],
+  "example": "The dark cloud was a portent of the coming storm."
+ },
+ {
+  "id": "v-0272",
+  "word": "pragmatist",
+  "pos": "n",
+  "tier": 2,
+  "definition": "a person who takes a practical approach to problems",
+  "synonyms": [
+   "realist",
+   "hardhead",
+   "doer"
+  ],
+  "antonyms": [
+   "idealist",
+   "dreamer"
+  ],
+  "example": "She is a pragmatist who despairs of grand theory."
+ },
+ {
+  "id": "v-0273",
+  "word": "pristine",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "in its original condition; clean and fresh as if new",
+  "synonyms": [
+   "immaculate",
+   "untouched",
+   "unspoiled"
+  ],
+  "antonyms": [
+   "dirty",
+   "spoiled"
+  ],
+  "example": "The pristine forest had never been logged."
+ },
+ {
+  "id": "v-0274",
+  "word": "proboscis",
+  "pos": "n",
+  "tier": 3,
+  "definition": "a long, flexible nose or snout",
+  "synonyms": [
+   "trunk",
+   "snout"
+  ],
+  "antonyms": [],
+  "example": "The elephant curled its proboscis around the log."
+ },
+ {
+  "id": "v-0275",
+  "word": "punctilious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing great attention to detail or correct behavior",
+  "synonyms": [
+   "meticulous",
+   "scrupulous",
+   "conscientious"
+  ],
+  "antonyms": [
+   "careless",
+   "casual"
+  ],
+  "example": "He was punctilious about returning calls the same day."
+ }
+]

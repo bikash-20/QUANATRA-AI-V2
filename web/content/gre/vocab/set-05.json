@@ -1,0 +1,426 @@
+[
+ {
+  "id": "v-0101",
+  "word": "exigent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "demanding immediate action; urgent",
+  "synonyms": [
+   "urgent",
+   "pressing",
+   "imperative"
+  ],
+  "antonyms": [
+   "deferrable",
+   "unimportant"
+  ],
+  "example": "The exigent demands of the crisis left no time for debate."
+ },
+ {
+  "id": "v-0102",
+  "word": "extol",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to praise enthusiastically",
+  "synonyms": [
+   "praise",
+   "laud",
+   "exalt"
+  ],
+  "antonyms": [
+   "criticize",
+   "condemn"
+  ],
+  "example": "Critics extolled the film as a masterpiece."
+ },
+ {
+  "id": "v-0103",
+  "word": "extraneous",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "irrelevant or unrelated to the subject being dealt with",
+  "synonyms": [
+   "irrelevant",
+   "extrinsic",
+   "peripheral"
+  ],
+  "antonyms": [
+   "relevant",
+   "essential"
+  ],
+  "example": "Strip out the extraneous details from your argument."
+ },
+ {
+  "id": "v-0104",
+  "word": "fallow",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "left unplowed and unseeded; inactive",
+  "synonyms": [
+   "idle",
+   "inactive",
+   "dormant"
+  ],
+  "antonyms": [
+   "active",
+   "productive"
+  ],
+  "example": "The field lay fallow for an entire season."
+ },
+ {
+  "id": "v-0105",
+  "word": "fatuous",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "silly and pointless",
+  "synonyms": [
+   "inane",
+   "silly",
+   "vacuous"
+  ],
+  "antonyms": [
+   "sensible",
+   "profound"
+  ],
+  "example": "He dismissed the comment as fatuous."
+ },
+ {
+  "id": "v-0106",
+  "word": "florid",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "elaborately or excessively ornate; ruddy",
+  "synonyms": [
+   "ornate",
+   "flowery",
+   "elaborate"
+  ],
+  "antonyms": [
+   "plain",
+   "restrained"
+  ],
+  "example": "His florid prose style obscures rather than illuminates."
+ },
+ {
+  "id": "v-0107",
+  "word": "flummox",
+  "pos": "v",
+  "tier": 3,
+  "definition": "to bewilder or confuse",
+  "synonyms": [
+   "baffle",
+   "confound",
+   "perplex"
+  ],
+  "antonyms": [
+   "enlighten",
+   "clarify"
+  ],
+  "example": "The trick question flummoxed the whole class."
+ },
+ {
+  "id": "v-0108",
+  "word": "forestall",
+  "pos": "v",
+  "tier": 2,
+  "definition": "to prevent or obstruct by taking action in advance",
+  "synonyms": [
+   "preempt",
+   "preclude",
+   "anticipate"
+  ],
+  "antonyms": [
+   "precipitate",
+   "invite"
+  ],
+  "example": "She tried to forestall criticism by admitting the mistake first."
+ },
+ {
+  "id": "v-0109",
+  "word": "garrulity",
+  "pos": "n",
+  "tier": 3,
+  "definition": "excessive talkativeness, especially about trivial things",
+  "synonyms": [
+   "loquacity",
+   "talkativeness",
+   "volubility"
+  ],
+  "antonyms": [
+   "taciturnity",
+   "reserve"
+  ],
+  "example": "His garrulity at meetings slowed every decision."
+ },
+ {
+  "id": "v-0110",
+  "word": "grandiloquent",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "using pompous or inflated language",
+  "synonyms": [
+   "bombastic",
+   "pompous",
+   "magniloquent"
+  ],
+  "antonyms": [
+   "plain-spoken",
+   "understated"
+  ],
+  "example": "The grandiloquent speech impressed no one in the room."
+ },
+ {
+  "id": "v-0111",
+  "word": "hackneyed",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "lacking significance through having been overused",
+  "synonyms": [
+   "clichéd",
+   "trite",
+   "banal"
+  ],
+  "antonyms": [
+   "original",
+   "fresh"
+  ],
+  "example": "His hackneyed metaphors put the audience to sleep."
+ },
+ {
+  "id": "v-0112",
+  "word": "halcyon",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "denoting a period of time that was idyllically calm and happy",
+  "synonyms": [
+   "peaceful",
+   "tranquil",
+   "idyllic"
+  ],
+  "antonyms": [
+   "turbulent",
+   "troubled"
+  ],
+  "example": "She recalled the halcyon days of her childhood summers."
+ },
+ {
+  "id": "v-0113",
+  "word": "hedonism",
+  "pos": "n",
+  "tier": 3,
+  "definition": "the pursuit of pleasure as the highest good",
+  "synonyms": [
+   "self-indulgence",
+   "sybaritism",
+   "luxury"
+  ],
+  "antonyms": [
+   "asceticism"
+  ],
+  "example": "Critics dismissed the novel as a celebration of hedonism."
+ },
+ {
+  "id": "v-0114",
+  "word": "heterodox",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "not conforming with accepted or orthodox standards",
+  "synonyms": [
+   "unorthodox",
+   "heretical",
+   "nonconformist"
+  ],
+  "antonyms": [
+   "orthodox",
+   "conventional"
+  ],
+  "example": "His heterodox views cost him tenure."
+ },
+ {
+  "id": "v-0115",
+  "word": "ignominious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "deserving or public shameful or humiliating",
+  "synonyms": [
+   "shameful",
+   "humiliating",
+   "disgraceful"
+  ],
+  "antonyms": [
+   "glorious",
+   "honorable"
+  ],
+  "example": "The team suffered an ignominious defeat in the final."
+ },
+ {
+  "id": "v-0116",
+  "word": "impecunious",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having little or no money",
+  "synonyms": [
+   "penniless",
+   "destitute",
+   "impoverished"
+  ],
+  "antonyms": [
+   "wealthy",
+   "affluent"
+  ],
+  "example": "His impecunious years taught him the value of thrift."
+ },
+ {
+  "id": "v-0117",
+  "word": "impetuous",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "acting quickly without thought or care",
+  "synonyms": [
+   "rash",
+   "impulsive",
+   "reckless"
+  ],
+  "antonyms": [
+   "cautious",
+   "deliberate"
+  ],
+  "example": "Her impetuous decision to quit backfired quickly."
+ },
+ {
+  "id": "v-0118",
+  "word": "incipient",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "beginning to develop or come into existence",
+  "synonyms": [
+   "nascent",
+   "emerging",
+   "budding"
+  ],
+  "antonyms": [
+   "mature",
+   "established"
+  ],
+  "example": "She sensed the incipient tension in the room."
+ },
+ {
+  "id": "v-0119",
+  "word": "indefatigable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "tireless; persisting without weakening",
+  "synonyms": [
+   "tireless",
+   "unflagging",
+   "relentless"
+  ],
+  "antonyms": [
+   "exhausted",
+   "languid"
+  ],
+  "example": "She was an indefatigable advocate for the cause."
+ },
+ {
+  "id": "v-0120",
+  "word": "indolent",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "wanting to avoid activity or exertion; lazy",
+  "synonyms": [
+   "lazy",
+   "slothful",
+   "idle"
+  ],
+  "antonyms": [
+   "industrious",
+   "diligent"
+  ],
+  "example": "The indolent cat barely lifted its head at feeding time."
+ },
+ {
+  "id": "v-0121",
+  "word": "ineluctable",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "unable to be resisted or avoided; inescapable",
+  "synonyms": [
+   "inescapable",
+   "inevitable",
+   "unavoidable"
+  ],
+  "antonyms": [
+   "avoidable",
+   "evadable"
+  ],
+  "example": "Death is ineluctable."
+ },
+ {
+  "id": "v-0122",
+  "word": "inscrutable",
+  "pos": "adj",
+  "tier": 2,
+  "definition": "impossible to understand or interpret",
+  "synonyms": [
+   "enigmatic",
+   "mysterious",
+   "unfathomable"
+  ],
+  "antonyms": [
+   "transparent",
+   "clear"
+  ],
+  "example": "His inscrutable expression gave nothing away."
+ },
+ {
+  "id": "v-0123",
+  "word": "insouciant",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "showing a casual lack of concern; nonchalant",
+  "synonyms": [
+   "nonchalant",
+   "carefree",
+   "indifferent"
+  ],
+  "antonyms": [
+   "anxious",
+   "concerned"
+  ],
+  "example": "Her insouciant attitude masked real worry."
+ },
+ {
+  "id": "v-0124",
+  "word": "irascible",
+  "pos": "adj",
+  "tier": 3,
+  "definition": "having or showing a tendency to be easily angered",
+  "synonyms": [
+   "irritable",
+   "touchy",
+   "testy"
+  ],
+  "antonyms": [
+   "even-tempered",
+   "patient"
+  ],
+  "example": "Their irascible boss erupted over a misplaced comma."
+ },
+ {
+  "id": "v-0125",
+  "word": "laudable",
+  "pos": "adj",
+  "tier": 1,
+  "definition": "deserving praise and commendation",
+  "synonyms": [
+   "praiseworthy",
+   "commendable",
+   "admirable"
+  ],
+  "antonyms": [
+   "deplorable",
+   "reprehensible"
+  ],
+  "example": "Her efforts to reduce waste are laudable."
+ }
+]
