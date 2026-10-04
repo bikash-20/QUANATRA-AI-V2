@@ -51,41 +51,43 @@ export default function VocabPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[300px_1fr]">
           <GlassCard className="p-4">
-            <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Vocabulary</p>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
-              <input
-                value={topic}
-                onChange={(event) => setTopic(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              />
-            </label>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">CEFR</span>
-              <select
-                value={level}
-                onChange={(event) => setLevel(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              >
-                <option className="bg-slate-900">A1</option>
-                <option className="bg-slate-900">A2</option>
-                <option className="bg-slate-900">B1</option>
-                <option className="bg-slate-900">B2</option>
-              </select>
-            </label>
+            <form onSubmit={(event) => { event.preventDefault(); void generateVocab(); }}>
+              <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Vocabulary</p>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
+                <input
+                  value={topic}
+                  onChange={(event) => setTopic(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                />
+              </label>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">CEFR</span>
+                <select
+                  value={level}
+                  onChange={(event) => setLevel(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                >
+                  <option className="bg-slate-900">A1</option>
+                  <option className="bg-slate-900">A2</option>
+                  <option className="bg-slate-900">B1</option>
+                  <option className="bg-slate-900">B2</option>
+                </select>
+              </label>
 
-            <div className="mt-4">
-              <DifficultyToggle
-                value={difficulty}
-                onChange={setDifficulty}
-                label="Difficulty (example style)"
-              />
-            </div>
+              <div className="mt-4">
+                <DifficultyToggle
+                  value={difficulty}
+                  onChange={setDifficulty}
+                  label="Difficulty (example style)"
+                />
+              </div>
 
-            <Button onClick={generateVocab} variant="primary" className="mt-5 w-full" disabled={loading}>
-              {loading ? 'Loading...' : 'Generate vocabulary'}
-            </Button>
-            {error ? <ApiErrorNotice message={error} onRetry={() => void generateVocab()} /> : null}
+              <Button type="submit" variant="primary" className="mt-5 w-full" disabled={loading}>
+                {loading ? 'Loading...' : 'Generate vocabulary'}
+              </Button>
+              {error ? <ApiErrorNotice message={error} onRetry={() => void generateVocab()} /> : null}
+            </form>
           </GlassCard>
 
           <div className="card-grid grid gap-4 md:grid-cols-2 lg:grid-cols-3">

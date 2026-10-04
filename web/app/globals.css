@@ -485,6 +485,46 @@ select {
   transition: margin-left 180ms ease;
 }
 
+.desktop-app-header {
+  position: sticky;
+  z-index: 30;
+  top: 0;
+  display: flex;
+  min-height: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.45rem clamp(1rem, 3vw, 2.5rem);
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in srgb, var(--background) 78%, transparent);
+  -webkit-backdrop-filter: blur(14px) saturate(145%);
+  backdrop-filter: blur(14px) saturate(145%);
+}
+
+.app-back-button,
+.desktop-theme-toggle {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--foreground);
+  background: var(--surface-muted);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.app-back-button:hover,
+.desktop-theme-toggle:hover {
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface-muted));
+}
+
+.desktop-theme-toggle {
+  min-width: 8.5rem;
+}
+
 .sidebar-collapsed .app-sidebar {
   --sidebar-width: 4.5rem;
   width: var(--sidebar-width);
@@ -1503,15 +1543,31 @@ select {
     height: calc(3.5rem + env(safe-area-inset-top));
     align-items: center;
     justify-content: space-between;
+    gap: 0.15rem;
     padding: env(safe-area-inset-top) 0.75rem 0;
     border-bottom: 1px solid var(--border);
     background: var(--surface);
   }
 
   .mobile-brand {
+    min-width: 0;
+    flex: 1;
+    text-align: center;
     color: var(--foreground);
     font-family: var(--font-playfair), Georgia, serif;
     text-decoration: none;
+  }
+
+  .desktop-app-header {
+    display: none;
+  }
+
+  .mobile-app-header .sidebar-icon-button {
+    flex: 0 0 2.75rem;
+  }
+
+  .mobile-app-header .mobile-back-button {
+    display: flex;
   }
 
   .sidebar-icon-button {

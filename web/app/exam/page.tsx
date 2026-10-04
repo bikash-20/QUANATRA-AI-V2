@@ -204,21 +204,22 @@ export default function ExamPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[300px_1fr]">
           <GlassCard className="p-4">
-            <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Exam</p>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
-              <input
-                value={topic}
-                onChange={(event) => setTopic(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              />
-            </label>
+            <form onSubmit={(event) => { event.preventDefault(); void generateExam(); }}>
+              <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Exam</p>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
+                <input
+                  value={topic}
+                  onChange={(event) => setTopic(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                />
+              </label>
 
-            <DifficultyToggle
-              value={difficulty}
-              onChange={setDifficulty}
-              className="mt-4"
-            />
+              <DifficultyToggle
+                value={difficulty}
+                onChange={setDifficulty}
+                className="mt-4"
+              />
 
             <div className="mt-4">
               <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">
@@ -247,11 +248,12 @@ export default function ExamPage() {
               </div>
             </div>
 
-            <Button onClick={generateExam} variant="primary" className="mt-5 w-full gap-2" disabled={loading}>
-              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <ShieldCheck className="h-4 w-4" />}
-              Generate exam
-            </Button>
-            {requestError ? <ApiErrorNotice message={requestError} onRetry={() => void generateExam()} /> : null}
+              <Button type="submit" variant="primary" className="mt-5 w-full gap-2" disabled={loading}>
+                {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <ShieldCheck className="h-4 w-4" />}
+                Generate exam
+              </Button>
+              {requestError ? <ApiErrorNotice message={requestError} onRetry={() => void generateExam()} /> : null}
+            </form>
           </GlassCard>
 
           <GlassCard className="p-5">

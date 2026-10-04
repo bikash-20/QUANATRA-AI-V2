@@ -102,8 +102,9 @@ export default function QuizPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[320px_1fr]">
           <GlassCard className="p-4">
-            <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Quiz Builder</p>
-            <div className="mt-4 flex gap-2 rounded-full border border-white/10 bg-white/4 p-1">
+            <form onSubmit={(event) => { event.preventDefault(); void generateQuiz(); }}>
+              <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Quiz Builder</p>
+              <div className="mt-4 flex gap-2 rounded-full border border-white/10 bg-white/4 p-1">
               {(['mcq', 'passage'] as const).map((type) => (
                 <button
                   key={type}
@@ -116,9 +117,9 @@ export default function QuizPage() {
                   {type === 'mcq' ? 'MCQ' : 'Passage'}
                 </button>
               ))}
-            </div>
+              </div>
 
-            <div className="mt-5 space-y-4">
+              <div className="mt-5 space-y-4">
               <label className="block">
                 <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
                 <input
@@ -158,12 +159,13 @@ export default function QuizPage() {
                 />
               </label>
 
-              <Button onClick={generateQuiz} className="w-full gap-2" variant="primary" disabled={loading}>
+              <Button type="submit" className="w-full gap-2" variant="primary" disabled={loading}>
                 {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCcw className="h-4 w-4" />}
                 Generate quiz
               </Button>
               {error ? <ApiErrorNotice message={error} onRetry={() => void generateQuiz()} /> : null}
-            </div>
+              </div>
+            </form>
           </GlassCard>
 
           <GlassCard className="p-5">

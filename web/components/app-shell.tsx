@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import {
+  ArrowLeft,
   BookOpenCheck,
   BookOpenText,
   BrainCircuit,
@@ -61,6 +62,20 @@ const greNavigation = [
 ];
 
 const noSubscribe = () => () => {};
+
+function getBackHref(pathname: string): string {
+  if (pathname.startsWith('/gre/quant/problem/')) return '/gre/quant';
+  if (pathname === '/gre/quant/mock') return '/gre/quant';
+  if (/^\/gre\/vocab\/[^/]+\/quiz$/.test(pathname)) {
+    return pathname.slice(0, -'/quiz'.length);
+  }
+  if (pathname.startsWith('/gre/vocab/word/')) return '/gre/vocab';
+  if (/^\/gre\/(progress|roadmap)$/.test(pathname)) return '/gre';
+  if (/^\/gre\/(quant|vocab)\/[^/]+$/.test(pathname)) {
+    return pathname.slice(0, pathname.lastIndexOf('/'));
+  }
+  return '/explore';
+}
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -240,6 +255,21 @@ export function AppShell({ children }: { children: ReactNode }) {
     router.push('/login');
   }
 
+  function goBack() {
+    const historyState: unknown = window.history.state;
+    if (
+      typeof historyState === 'object' &&
+      historyState !== null &&
+      'idx' in historyState &&
+      typeof historyState.idx === 'number' &&
+      historyState.idx > 0
+    ) {
+      router.back();
+      return;
+    }
+    router.push(getBackHref(pathname));
+  }
+
   return (
     <div className={`app-shell ${expanded ? 'sidebar-expanded' : 'sidebar-collapsed'}`}>
       {drawerOpen ? (
@@ -340,6 +370,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             type="button"
             className="sidebar-link sidebar-action"
             onClick={() => setTheme(isDark ? 'light' : 'dark')}
+            aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
             title={!expanded ? 'Switch theme' : undefined}
           >
             {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
@@ -376,6 +407,21 @@ export function AppShell({ children }: { children: ReactNode }) {
         </button>
       </aside>
       <div className="app-content">
+        <header className="desktop-app-header">
+          <button type="button" className="app-back-button" onClick={goBack}>
+            <ArrowLeft aria-hidden="true" size={17} />
+            <span>Back</span>
+          </button>
+          <button
+            type="button"
+            className="theme-toggle desktop-theme-toggle"
+            aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
+            onClick={() => setTheme(isDark ? 'light' : 'dark')}
+          >
+            {isDark ? <Sun aria-hidden="true" size={17} /> : <Moon aria-hidden="true" size={17} />}
+            <span>{isDark ? 'Light mode' : 'Dark mode'}</span>
+          </button>
+        </header>
         <header className="mobile-app-header">
           <button
             ref={menuButtonRef}
@@ -387,6 +433,9 @@ export function AppShell({ children }: { children: ReactNode }) {
             onClick={() => setDrawerOpen(true)}
           >
             <Menu aria-hidden="true" size={20} />
+          </button>
+          <button type="button" className="sidebar-icon-button mobile-back-button" aria-label="Go back" onClick={goBack}>
+            <ArrowLeft aria-hidden="true" size={18} />
           </button>
           <Link href="/explore" className="mobile-brand">Quantara</Link>
           <button

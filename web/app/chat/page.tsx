@@ -186,10 +186,22 @@ export default function ChatPage() {
               ) : null}
             </div>
 
-            <div className="chat-composer sticky bottom-0 mt-3 flex gap-2 bg-transparent pt-1 sm:mt-4 sm:gap-3">
+            <form
+              className="chat-composer sticky bottom-0 mt-3 flex gap-2 bg-transparent pt-1 sm:mt-4 sm:gap-3"
+              onSubmit={(event) => {
+                event.preventDefault();
+                void submitPrompt();
+              }}
+            >
               <textarea
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' && !event.shiftKey) {
+                    event.preventDefault();
+                    void submitPrompt();
+                  }
+                }}
                 onFocus={() => {
                   document.body.dataset.chatInputFocused = 'true';
                 }}
@@ -203,14 +215,14 @@ export default function ChatPage() {
               />
               <Button
                 variant="primary"
-                onClick={submitPrompt}
+                type="submit"
                 disabled={loading || input.trim().length === 0}
                 className="h-fit self-end rounded-[18px] px-4 py-3"
                 aria-label={loading ? 'Generating response' : 'Send message'}
               >
                 {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <ArrowUp className="h-4 w-4" />}
               </Button>
-            </div>
+            </form>
           </GlassCard>
         </div>
       </div>

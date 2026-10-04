@@ -69,25 +69,27 @@ export default function FlashcardsPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[300px_1fr]">
           <GlassCard className="p-4">
-            <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Deck</p>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
-              <input
-                value={topic}
-                onChange={(event) => setTopic(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              />
-            </label>
+            <form onSubmit={(event) => { event.preventDefault(); void generateCards(); }}>
+              <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Deck</p>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
+                <input
+                  value={topic}
+                  onChange={(event) => setTopic(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                />
+              </label>
 
-            <div className="mt-4">
-              <DifficultyToggle value={difficulty} onChange={setDifficulty} />
-            </div>
+              <div className="mt-4">
+                <DifficultyToggle value={difficulty} onChange={setDifficulty} />
+              </div>
 
-            <Button onClick={generateCards} variant="primary" className="mt-4 w-full gap-2" disabled={loading}>
-              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
-              Generate deck
-            </Button>
-            {error ? <ApiErrorNotice message={error} onRetry={() => void generateCards()} /> : null}
+              <Button type="submit" variant="primary" className="mt-4 w-full gap-2" disabled={loading}>
+                {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
+                Generate deck
+              </Button>
+              {error ? <ApiErrorNotice message={error} onRetry={() => void generateCards()} /> : null}
+            </form>
           </GlassCard>
 
           <GlassCard className="p-6">

@@ -52,41 +52,43 @@ export default function GrammarPage() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[300px_1fr]">
           <GlassCard className="p-4">
-            <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Grammar</p>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
-              <input
-                value={topic}
-                onChange={(event) => setTopic(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              />
-            </label>
-            <label className="mt-4 block">
-              <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">CEFR</span>
-              <select
-                value={level}
-                onChange={(event) => setLevel(event.target.value)}
-                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
-              >
-                <option className="bg-slate-900">A1</option>
-                <option className="bg-slate-900">A2</option>
-                <option className="bg-slate-900">B1</option>
-                <option className="bg-slate-900">B2</option>
-              </select>
-            </label>
+            <form onSubmit={(event) => { event.preventDefault(); void generateGrammar(); }}>
+              <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Grammar</p>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">Topic</span>
+                <input
+                  value={topic}
+                  onChange={(event) => setTopic(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                />
+              </label>
+              <label className="mt-4 block">
+                <span className="mb-2 block text-xs uppercase tracking-[0.18em] text-slate-300/70">CEFR</span>
+                <select
+                  value={level}
+                  onChange={(event) => setLevel(event.target.value)}
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
+                >
+                  <option className="bg-slate-900">A1</option>
+                  <option className="bg-slate-900">A2</option>
+                  <option className="bg-slate-900">B1</option>
+                  <option className="bg-slate-900">B2</option>
+                </select>
+              </label>
 
-            <div className="mt-4">
-              <DifficultyToggle
-                value={difficulty}
-                onChange={setDifficulty}
-                label="Practice difficulty"
-              />
-            </div>
+              <div className="mt-4">
+                <DifficultyToggle
+                  value={difficulty}
+                  onChange={setDifficulty}
+                  label="Practice difficulty"
+                />
+              </div>
 
-            <Button onClick={generateGrammar} variant="primary" className="mt-5 w-full" disabled={loading}>
-              {loading ? 'Loading...' : 'Generate rule set'}
-            </Button>
-            {error ? <ApiErrorNotice message={error} onRetry={() => void generateGrammar()} /> : null}
+              <Button type="submit" variant="primary" className="mt-5 w-full" disabled={loading}>
+                {loading ? 'Loading...' : 'Generate rule set'}
+              </Button>
+              {error ? <ApiErrorNotice message={error} onRetry={() => void generateGrammar()} /> : null}
+            </form>
           </GlassCard>
 
           <GlassCard className="p-5">
