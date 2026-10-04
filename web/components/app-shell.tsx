@@ -16,14 +16,25 @@ import {
   Moon,
   PanelLeftClose,
   PanelLeftOpen,
+  Pencil,
+  Plus,
   Sun,
+  Trash2,
   Trophy,
   Users,
   X,
 } from 'lucide-react';
 import { useTheme } from 'next-themes';
-import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import { authAdapter } from '@/lib/auth';
+import { STORAGE_KEYS, writeStorage } from '@/lib/storage';
+
+const welcomeMessages = [
+  {
+    role: 'assistant' as const,
+    content: 'Hello! Ask me about algebra, data structures, or any concept you want to master.',
+  },
+];
 
 const navigation = [
   { href: '/chat', label: 'Chat', icon: MessageCircle },
@@ -36,6 +47,8 @@ const navigation = [
   { href: '/admin', label: 'Admin', icon: Users },
 ];
 
+const noSubscribe = () => () => {};
+
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -44,8 +57,12 @@ export function AppShell({ children }: { children: ReactNode }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [language, setLanguage] = useState<'en' | 'bn'>('en');
   const [recentTitle, setRecentTitle] = useState('');
+  const [recentDisplayTitle, setRecentDisplayTitle] = useState('');
   const drawerRef = useRef<HTMLElement>(null);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
+
+  const themeReady = useSyncExternalStore(noSubscribe, () => true, () => false);
+  const isDark = !themeReady || resolvedTheme !== 'light';
 
   const closeDrawer = useCallback(() => {
     setDrawerOpen(false);
@@ -53,11 +70,36 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    setExpanded(window.localStorage.getItem('quantara.sidebar-expanded') !== 'false');
-    setLanguage(window.localStorage.getItem('quantara.language') === 'bn' ? 'bn' : 'en');
-    try {
-      const messages: unknown = JSON.parse(window.localStorage.getItem('quantara.chats') ?? '[]');
-      if (Array.isArray(messages)) {
+    const frame = window.requestAnimationFrame(() => {
+      setExpanded(window.localStorage.getItem('quantara.sidebar-expanded') !== 'false');
+      setLanguage(window.localStorage.getItem('quantara.language') === 'bn' ? 'bn' : 'en');
+      setRecentDisplayTitle(window.localStorage.getItem('quantara.chat-title') ?? '');
+      try {
+        const messages: unknown = JSON.parse(window.localStorage.getItem('quantara.chats') ?? '[]');
+        if (Array.isArray(messages)) {
+          const latest = [...messages].reverse().find(
+            (message): message is { role: string; content: string } =>
+              typeof message === 'object' &&
+              message !== null &&
+              'role' in message &&
+              'content' in message &&
+              message.role === 'user' &&
+              typeof message.content === 'string',
+          );
+          if (latest) setRecentTitle(latest.content.slice(0, 42));
+        }
+      } catch {
+        setRecentTitle('');
+      }
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
+
+  useEffect(() => {
+    function updateRecentChat() {
+      try {
+        const messages: unknown = JSON.parse(window.localStorage.getItem(STORAGE_KEYS.chats) ?? '[]');
+        if (!Array.isArray(messages)) return;
         const latest = [...messages].reverse().find(
           (message): message is { role: string; content: string } =>
             typeof message === 'object' &&
@@ -67,15 +109,20 @@ export function AppShell({ children }: { children: ReactNode }) {
             message.role === 'user' &&
             typeof message.content === 'string',
         );
-        if (latest) setRecentTitle(latest.content.slice(0, 42));
+        setRecentTitle(latest?.content.slice(0, 42) ?? '');
+        setRecentDisplayTitle(window.localStorage.getItem('quantara.chat-title') ?? '');
+      } catch {
+        setRecentTitle('');
+        setRecentDisplayTitle('');
       }
-    } catch {
-      setRecentTitle('');
     }
+    window.addEventListener('quantara:chats-updated', updateRecentChat);
+    return () => window.removeEventListener('quantara:chats-updated', updateRecentChat);
   }, []);
 
   useEffect(() => {
-    setDrawerOpen(false);
+    const frame = window.requestAnimationFrame(() => setDrawerOpen(false));
+    return () => window.cancelAnimationFrame(frame);
   }, [pathname]);
 
   useEffect(() => {
@@ -84,15 +131,16 @@ export function AppShell({ children }: { children: ReactNode }) {
     const focusable = drawer?.querySelectorAll<HTMLElement>(
       'a[href], button:not([disabled])',
     );
-    focusable?.[0]?.focus();
+    const visibleFocusable = Array.from(focusable ?? []).filter((element) => element.getClientRects().length > 0);
+    visibleFocusable[0]?.focus();
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         closeDrawer();
         return;
       }
-      if (event.key !== 'Tab' || !focusable?.length) return;
-      const first = focusable[0];
-      const last = focusable[focusable.length - 1];
+      if (event.key !== 'Tab' || !visibleFocusable.length) return;
+      const first = visibleFocusable[0];
+      const last = visibleFocusable[visibleFocusable.length - 1];
       if (event.shiftKey && document.activeElement === first) {
         event.preventDefault();
         last.focus();
@@ -102,7 +150,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       }
     }
     document.addEventListener('keydown', onKeyDown);
-    return () => document.removeEventListener('keydown', onKeyDown);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      document.body.style.overflow = previousOverflow;
+    };
   }, [closeDrawer, drawerOpen]);
 
   useEffect(() => {
@@ -136,8 +189,37 @@ export function AppShell({ children }: { children: ReactNode }) {
     setLanguage((current) => {
       const next = current === 'en' ? 'bn' : 'en';
       window.localStorage.setItem('quantara.language', next);
+      window.dispatchEvent(new Event('quantara:languagechange'));
       return next;
     });
+  }
+
+  function createNewChat() {
+    writeStorage(STORAGE_KEYS.chats, welcomeMessages);
+    window.localStorage.removeItem('quantara.chat-title');
+    setRecentTitle('');
+    setRecentDisplayTitle('');
+    window.dispatchEvent(new Event('quantara:new-chat'));
+    window.dispatchEvent(new Event('quantara:chats-updated'));
+    router.push('/chat');
+  }
+
+  function renameRecentChat() {
+    const title = window.prompt('Rename this chat', recentTitle || 'New chat');
+    if (title?.trim()) {
+      setRecentTitle(title.trim());
+      setRecentDisplayTitle(title.trim());
+      window.localStorage.setItem('quantara.chat-title', title.trim());
+    }
+  }
+
+  function deleteRecentChat() {
+    writeStorage(STORAGE_KEYS.chats, welcomeMessages);
+    setRecentTitle('');
+    setRecentDisplayTitle('');
+    window.localStorage.removeItem('quantara.chat-title');
+    window.dispatchEvent(new Event('quantara:new-chat'));
+    window.dispatchEvent(new Event('quantara:chats-updated'));
   }
 
   async function signOut() {
@@ -158,6 +240,8 @@ export function AppShell({ children }: { children: ReactNode }) {
       <aside
         ref={drawerRef}
         id="app-sidebar"
+        role={drawerOpen ? 'dialog' : undefined}
+        aria-modal={drawerOpen || undefined}
         aria-label="Application sidebar"
         className={`app-sidebar ${drawerOpen ? 'drawer-open' : ''}`}
       >
@@ -175,10 +259,10 @@ export function AppShell({ children }: { children: ReactNode }) {
             <X aria-hidden="true" size={18} />
           </button>
         </div>
-        <Link href="/chat" className="new-chat-button" title="New chat">
-          <MessageCircle aria-hidden="true" size={18} />
+        <button type="button" onClick={createNewChat} className="new-chat-button" title="New chat">
+          <Plus aria-hidden="true" size={18} />
           <span className="sidebar-link-label">New chat</span>
-        </Link>
+        </button>
         <nav aria-label="Main navigation" className="sidebar-navigation">
           {navigation.filter((item) => item.href !== '/admin' || showAdmin).map(({ href, label, icon: Icon }) => {
             const active = pathname === href || (href === '/chat' && pathname === '/');
@@ -199,10 +283,20 @@ export function AppShell({ children }: { children: ReactNode }) {
         <section className="recent-chats" aria-label="Recent chats">
           <p className="sidebar-section-label">Recent</p>
           {recentTitle ? (
-            <Link href="/chat" className="recent-chat-link" title={recentTitle}>
-              <span aria-hidden="true" className="recent-chat-dot" />
-              <span className="sidebar-link-label">{recentTitle}</span>
-            </Link>
+            <div className="recent-chat-row">
+              <Link href="/chat" className="recent-chat-link" title={recentTitle}>
+                <span aria-hidden="true" className="recent-chat-dot" />
+                <span className="sidebar-link-label">{recentDisplayTitle || recentTitle}</span>
+              </Link>
+              <div className="recent-chat-actions">
+                <button type="button" onClick={renameRecentChat} aria-label="Rename recent chat" title="Rename chat">
+                  <Pencil aria-hidden="true" size={14} />
+                </button>
+                <button type="button" onClick={deleteRecentChat} aria-label="Delete recent chat" title="Delete chat">
+                  <Trash2 aria-hidden="true" size={14} />
+                </button>
+              </div>
+            </div>
           ) : (
             <p className="sidebar-empty sidebar-link-label">Your conversations appear here</p>
           )}
@@ -211,11 +305,11 @@ export function AppShell({ children }: { children: ReactNode }) {
           <button
             type="button"
             className="sidebar-link sidebar-action"
-            onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+            onClick={() => setTheme(isDark ? 'light' : 'dark')}
             title={!expanded ? 'Switch theme' : undefined}
           >
-            {resolvedTheme === 'dark' ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
-            <span className="sidebar-link-label">{resolvedTheme === 'dark' ? 'Light theme' : 'Dark theme'}</span>
+            {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
+            <span className="sidebar-link-label">{isDark ? 'Light theme' : 'Dark theme'}</span>
           </button>
           <button
             type="button"
@@ -264,13 +358,48 @@ export function AppShell({ children }: { children: ReactNode }) {
           <button
             type="button"
             className="sidebar-icon-button"
-            aria-label={resolvedTheme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
-            onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+            aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
+            onClick={() => setTheme(isDark ? 'light' : 'dark')}
           >
-            {resolvedTheme === 'dark' ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
+            {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
+          </button>
+          <button
+            type="button"
+            className="sidebar-icon-button mobile-profile"
+            aria-label="Sign out, Quantara learner"
+            onClick={signOut}
+          >
+            <span className="profile-avatar" aria-hidden="true">Q</span>
           </button>
         </header>
         {children}
+        <nav
+          aria-label="Mobile navigation"
+          className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
+        >
+          {[
+            { href: '/chat', label: 'Chat', icon: MessageCircle },
+            { href: '/quiz', label: 'Quiz', icon: BookOpenCheck },
+            { href: '/vocab', label: 'Vocab', icon: Languages },
+            { href: '/grammar', label: 'Grammar', icon: ClipboardList },
+            { href: '/explore', label: 'Explore', icon: Compass },
+          ].map(({ href, label, icon: Icon }) => {
+            const active = pathname === href || (href === '/chat' && pathname === '/');
+            return (
+              <Link
+                key={href}
+                href={href}
+                aria-current={active ? 'page' : undefined}
+                className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-2xl font-condensed text-[0.58rem] uppercase tracking-[0.12em] ${
+                  active ? 'bg-[#4db8d4]/15 text-[#a9eff7]' : 'text-slate-200/70'
+                }`}
+              >
+                <Icon aria-hidden="true" className="h-4 w-4" />
+                {label}
+              </Link>
+            );
+          })}
+        </nav>
       </div>
     </div>
   );
