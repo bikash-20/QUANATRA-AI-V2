@@ -40,7 +40,7 @@ export default function GrammarPage() {
   }
 
   return (
-    <main className="min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+    <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
         <Navbar />
 
@@ -52,7 +52,7 @@ export default function GrammarPage() {
               <input
                 value={topic}
                 onChange={(event) => setTopic(event.target.value)}
-                className="w-full rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
               />
             </label>
             <label className="mt-4 block">
@@ -60,7 +60,7 @@ export default function GrammarPage() {
               <select
                 value={level}
                 onChange={(event) => setLevel(event.target.value)}
-                className="w-full rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
               >
                 <option className="bg-slate-900">A1</option>
                 <option className="bg-slate-900">A2</option>

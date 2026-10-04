@@ -5,6 +5,7 @@ import { ArrowUp, Loader2, Sparkles, StopCircle } from 'lucide-react';
 import { Navbar } from '@/components/navbar';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
+import { ChatMessageBubble } from '@/components/chat-message';
 import { streamChat, type ChatMessage } from '@/lib/api';
 import { readStorage, STORAGE_KEYS, writeStorage } from '@/lib/storage';
 import { Toast } from '@/components/toast';
@@ -20,12 +21,14 @@ export default function ChatPage() {
   const [lang, setLang] = useState<'en' | 'bn'>('en');
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
+  const [visibleMessageCount, setVisibleMessageCount] = useState(50);
 
   useEffect(() => {
-    const saved = readStorage<ChatMessage[]>(STORAGE_KEYS.chats, defaultMessages);
-    if (saved.length) {
-      setMessages(saved);
-    }
+    const frame = window.requestAnimationFrame(() => {
+      const saved = readStorage<ChatMessage[]>(STORAGE_KEYS.chats, defaultMessages);
+      if (saved.length) setMessages(saved);
+    });
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {
@@ -57,9 +60,10 @@ export default function ChatPage() {
         (chunk) => {
           setMessages((current) => {
             const next = [...current];
-            const last = next[next.length - 1];
+            const lastIndex = next.length - 1;
+            const last = next[lastIndex];
             if (last && last.role === 'assistant') {
-              last.content += chunk;
+              next[lastIndex] = { ...last, content: last.content + chunk };
             }
             return next;
           });
@@ -69,9 +73,13 @@ export default function ChatPage() {
       setToast(error instanceof Error ? error.message : 'Something went wrong');
       setMessages((current) => {
         const next = [...current];
-        const last = next[next.length - 1];
+        const lastIndex = next.length - 1;
+        const last = next[lastIndex];
         if (last && last.role === 'assistant') {
-          last.content = 'I hit a problem while generating the response. Please retry.';
+          next[lastIndex] = {
+            ...last,
+            content: 'I hit a problem while generating the response. Please retry.',
+          };
         }
         return next;
       });
@@ -81,12 +89,12 @@ export default function ChatPage() {
   }
 
   return (
-    <main className="relative min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+    <main className="chat-page relative min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
         <Navbar />
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[240px_1fr]">
-          <GlassCard className="p-4">
+          <GlassCard className="chat-subjects p-4">
             <div className="mb-4 flex items-center gap-2 text-xs uppercase tracking-[0.24em] text-slate-300/70">
               <Sparkles className="h-4 w-4 text-[#8feaf0]" /> Subject
             </div>
@@ -125,7 +133,7 @@ export default function ChatPage() {
             </div>
           </GlassCard>
 
-          <GlassCard className="flex min-h-[700px] flex-col p-4 sm:p-5">
+          <GlassCard className="flex h-[min(calc(100dvh-16rem),760px)] min-h-[12rem] flex-col p-3 sm:min-h-[18rem] sm:p-5">
             <div className="mb-4 flex items-center justify-between">
               <div>
                 <p className="text-xs uppercase tracking-[0.24em] text-slate-300/65">{botName}</p>
@@ -138,34 +146,50 @@ export default function ChatPage() {
               ) : null}
             </div>
 
-            <div className="flex-1 space-y-4 overflow-y-auto rounded-[24px] border border-white/10 bg-[rgba(5,15,19,0.5)] p-4">
-              {messages.map((message, index) => (
-                <div
-                  key={`${message.role}-${index}`}
-                  className={`max-w-[85%] rounded-2xl px-4 py-3 ${
-                    message.role === 'user'
-                      ? 'ml-auto bg-[linear-gradient(135deg,rgba(120,231,241,0.2),rgba(187,152,255,0.16))] text-white'
-                      : 'bg-white/5 text-slate-100'
-                  }`}
+            <div
+              aria-live="polite"
+              className="glass-message-list min-h-0 flex-1 space-y-4 overflow-y-auto rounded-[24px] border p-3 sm:p-4"
+            >
+              {messages.length > visibleMessageCount ? (
+                <Button
+                  variant="ghost"
+                  className="mx-auto flex"
+                  onClick={() => setVisibleMessageCount((count) => count + 50)}
                 >
-                  <div className="whitespace-pre-wrap text-sm leading-7">{message.content || (loading && index === messages.length - 1 ? '...' : '')}</div>
-                </div>
+                  Load earlier messages
+                </Button>
+              ) : null}
+              {messages.slice(Math.max(0, messages.length - visibleMessageCount)).map((message, index, visibleMessages) => (
+                <ChatMessageBubble
+                  key={`${message.role}-${messages.length - visibleMessages.length + index}`}
+                  message={message}
+                  loading={loading}
+                  isLast={messages.length - visibleMessages.length + index === messages.length - 1}
+                />
               ))}
             </div>
 
-            <div className="mt-4 flex gap-3">
+            <div className="chat-composer sticky bottom-0 mt-3 flex gap-2 bg-transparent pt-1 sm:mt-4 sm:gap-3">
               <textarea
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
+                onFocus={() => {
+                  document.body.dataset.chatInputFocused = 'true';
+                }}
+                onBlur={() => {
+                  delete document.body.dataset.chatInputFocused;
+                }}
                 rows={2}
                 placeholder="Ask a question or request a worked example..."
-                className="w-full resize-none rounded-[22px] border border-white/12 bg-white/4 px-4 py-3 text-sm text-white placeholder:text-slate-300/60 focus:outline-none focus:ring-2 focus:ring-[#8feaf0]/40"
+                aria-label="Ask Quantara a question"
+                className="glass-input min-h-12 w-full resize-none rounded-[22px] px-4 py-3 text-sm placeholder:text-slate-300/60 focus:outline-none focus:ring-2 focus:ring-[#59c4df]/50"
               />
               <Button
                 variant="primary"
                 onClick={submitPrompt}
                 disabled={loading || input.trim().length === 0}
                 className="h-fit self-end rounded-[18px] px-4 py-3"
+                aria-label={loading ? 'Generating response' : 'Send message'}
               >
                 {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <ArrowUp className="h-4 w-4" />}
               </Button>

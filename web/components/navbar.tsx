@@ -27,7 +27,10 @@ export function Navbar() {
 
   useEffect(() => {
     const saved = window.localStorage.getItem('quantara.theme');
-    if (saved) setIsDark(saved === 'dark');
+    if (!saved) return;
+
+    const frame = window.requestAnimationFrame(() => setIsDark(saved === 'dark'));
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {
@@ -73,7 +76,7 @@ export function Navbar() {
             {isDark ? <SunMedium className="h-4 w-4 text-[#9be9f4]" /> : <Moon className="h-4 w-4 text-[#327b9c]" />}
             <span className="hidden sm:inline">{isDark ? 'Light' : 'Dark'}</span>
           </button>
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-sm font-medium text-white/90" aria-label="Account">
+          <span aria-hidden="true" className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-sm font-medium text-white/90">
             A
           </span>
         </div>

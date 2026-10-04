@@ -42,6 +42,9 @@ Open http://localhost:3000
 - /progress
 - /admin
 
+## Background image
+The web app uses `web/public/new-bg.jpg` as the source image and serves responsive WebP variants (`new-bg-828.webp` for narrow screens and `new-bg-1920.webp` for larger screens). The desktop variant is enlarged from the supplied source, so a higher-resolution original is recommended for sharper results on large or high-density displays.
+
 ## API contract
 All backend routes are POST JSON calls to the worker:
 

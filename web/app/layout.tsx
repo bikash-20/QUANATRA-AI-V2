@@ -7,21 +7,21 @@ const playfair = Playfair_Display({
   variable: '--font-playfair',
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '600'],
 });
 
 const poppins = Poppins({
   variable: '--font-poppins',
   subsets: ['latin'],
   display: 'swap',
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['400', '500', '600'],
 });
 
 const oswald = Oswald({
   variable: '--font-oswald',
   subsets: ['latin'],
   display: 'swap',
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600'],
 });
 
 export const metadata: Metadata = {
@@ -40,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       className={`${playfair.variable} ${poppins.variable} ${oswald.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <body className="min-h-full">

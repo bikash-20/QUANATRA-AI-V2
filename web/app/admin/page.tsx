@@ -3,7 +3,7 @@ import { GlassCard } from '@/components/glass-card';
 
 export default function AdminPage() {
   return (
-    <main className="min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+    <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
         <Navbar />
         <div className="mt-8">

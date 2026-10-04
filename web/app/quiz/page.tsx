@@ -90,7 +90,7 @@ export default function QuizPage() {
   const total = questions.length;
 
   return (
-    <main className="min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+    <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
         <Navbar />
 
@@ -118,7 +118,7 @@ export default function QuizPage() {
                 <input
                   value={topic}
                   onChange={(event) => setTopic(event.target.value)}
-                  className="w-full rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
                 />
               </label>
 
@@ -129,7 +129,7 @@ export default function QuizPage() {
                     rows={5}
                     value={passage}
                     onChange={(event) => setPassage(event.target.value)}
-                    className="w-full resize-none rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                    className="glass-input w-full resize-none rounded-2xl px-3 py-2.5 text-sm outline-none"
                   />
                 </label>
               ) : null}
@@ -148,7 +148,7 @@ export default function QuizPage() {
                   max={10}
                   value={count}
                   onChange={(event) => setCount(Number(event.target.value) || 1)}
-                  className="w-full rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                  className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
                 />
               </label>
 
@@ -187,7 +187,7 @@ export default function QuizPage() {
                 </div>
 
                 <div className="h-2.5 rounded-full bg-white/8">
-                  <div className="h-full rounded-full bg-[linear-gradient(90deg,#9aeef2,#f8dbe8)]" style={{ width: `${progress}%` }} />
+                  <div className="h-full rounded-full bg-[linear-gradient(90deg,#59c4df,#a4e3f2)]" style={{ width: `${progress}%` }} />
                 </div>
 
                 <h2 className="text-2xl leading-relaxed text-white">{currentQuestion.question}</h2>

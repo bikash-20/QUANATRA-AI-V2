@@ -46,11 +46,6 @@ export default function ExamPage() {
   } | null>(null);
   const tickerRef = useRef<number | null>(null);
 
-  // Reset countdown when the user changes the timer BEFORE starting an exam.
-  useEffect(() => {
-    if (!questions.length) setTimeLeft(timerMinutes * 60);
-  }, [timerMinutes, questions.length]);
-
   // Tick down once a second while an exam is active.
   useEffect(() => {
     if (!questions.length || submitted) return;
@@ -72,6 +67,7 @@ export default function ExamPage() {
 
   function pickTimerMinutes(minutes: number) {
     setTimerMinutes(minutes);
+    if (!questions.length) setTimeLeft(minutes * 60);
     saveExamTimerMinutes(minutes);
   }
 
@@ -132,7 +128,7 @@ export default function ExamPage() {
 
   if (submitted && result) {
     return (
-      <main className="min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+      <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
         <div className="mx-auto max-w-6xl">
           <Navbar />
           <div className="mt-8">
@@ -165,7 +161,7 @@ export default function ExamPage() {
   }
 
   return (
-    <main className="min-h-screen px-4 pb-12 pt-8 text-white sm:px-6 lg:px-10">
+    <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
         <Navbar />
 
@@ -177,7 +173,7 @@ export default function ExamPage() {
               <input
                 value={topic}
                 onChange={(event) => setTopic(event.target.value)}
-                className="w-full rounded-2xl border border-white/10 bg-white/4 px-3 py-2.5 text-sm text-white outline-none"
+                className="glass-input w-full rounded-2xl px-3 py-2.5 text-sm outline-none"
               />
             </label>
 

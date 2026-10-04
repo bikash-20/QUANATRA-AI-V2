@@ -14,6 +14,8 @@
   --teal-soft: rgba(77, 184, 212, 0.2);
   --muted: rgba(232, 242, 255, 0.72);
   --font-sans: var(--font-poppins);
+  --chart-grid: rgba(255, 255, 255, 0.1);
+  --chart-axis: rgba(255, 255, 255, 0.65);
 }
 
 @theme inline {
@@ -67,6 +69,12 @@ body::before {
   transform: scale(1.015);
 }
 
+.site-background picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
 .site-background::after {
   position: absolute;
   inset: 0;
@@ -103,6 +111,10 @@ textarea {
   font: inherit;
 }
 
+button:not(.glass-button) {
+  min-height: 44px;
+}
+
 button,
 a,
 input,
@@ -122,6 +134,7 @@ textarea:focus-visible {
 
 .glass-surface {
   position: relative;
+  min-width: 0;
   border: 1px solid transparent;
   background:
     linear-gradient(145deg, rgba(20, 49, 78, 0.76), rgba(10, 28, 52, 0.72) 55%, rgba(15, 41, 67, 0.78)) padding-box,
@@ -133,6 +146,10 @@ textarea:focus-visible {
   -webkit-backdrop-filter: blur(20px) saturate(165%);
   backdrop-filter: blur(20px) saturate(165%);
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.glass-surface.sticky {
+  position: sticky;
 }
 
 .glass-surface::before {
@@ -216,6 +233,43 @@ textarea:focus-visible {
   border: 1px solid rgba(202, 229, 250, 0.09);
 }
 
+.daily-practice-panel {
+  background: linear-gradient(135deg, rgba(8, 22, 41, 0.8), rgba(11, 43, 69, 0.78), rgba(14, 28, 54, 0.84));
+}
+
+.card-grid .glass-surface,
+.glass-surface .glass-surface {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.card-grid .glass-surface {
+  background:
+    linear-gradient(145deg, rgba(20, 49, 78, 0.88), rgba(10, 28, 52, 0.86) 55%, rgba(15, 41, 67, 0.88)) padding-box,
+    linear-gradient(135deg, rgba(224, 245, 255, 0.3), rgba(158, 208, 239, 0.08) 42%, rgba(203, 234, 255, 0.17)) border-box;
+}
+
+input:not([type='checkbox']),
+textarea,
+select {
+  border-color: rgba(196, 230, 255, 0.2);
+  background-color: rgba(4, 18, 37, 0.58);
+  color: #f4f8ff;
+}
+
+.skeleton-surface {
+  border: 1px solid rgba(202, 229, 250, 0.12);
+  background: linear-gradient(110deg, rgba(218, 238, 255, 0.04), rgba(218, 238, 255, 0.11), rgba(218, 238, 255, 0.04));
+  background-size: 220% 100%;
+  animation: skeleton-shimmer 1.8s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  to {
+    background-position: -220% 0;
+  }
+}
+
 .theme-toggle {
   min-height: 44px;
   border: 1px solid rgba(210, 237, 255, 0.23);
@@ -234,6 +288,8 @@ textarea:focus-visible {
   --glass-rim: rgba(255, 255, 255, 0.8);
   --glass-rim-soft: rgba(48, 93, 128, 0.14);
   --muted: rgba(23, 46, 68, 0.76);
+  --chart-grid: rgba(29, 72, 102, 0.14);
+  --chart-axis: rgba(24, 57, 82, 0.78);
 }
 
 [data-theme='light'] body::before {
@@ -291,6 +347,24 @@ textarea:focus-visible {
   color: #162f46;
 }
 
+[data-theme='light'] .daily-practice-panel {
+  background: linear-gradient(135deg, rgba(243, 250, 254, 0.78), rgba(211, 233, 245, 0.72), rgba(231, 243, 250, 0.82));
+}
+
+[data-theme='light'] .card-grid .glass-surface {
+  background:
+    linear-gradient(145deg, rgba(226, 240, 249, 0.94), rgba(197, 221, 237, 0.9) 55%, rgba(219, 236, 247, 0.95)) padding-box,
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(63, 119, 157, 0.12) 48%, rgba(255, 255, 255, 0.74)) border-box;
+}
+
+[data-theme='light'] input:not([type='checkbox']),
+[data-theme='light'] textarea,
+[data-theme='light'] select {
+  border-color: rgba(45, 89, 120, 0.22);
+  background-color: rgba(247, 252, 255, 0.72);
+  color: #10243b;
+}
+
 [data-theme='light'] .theme-toggle {
   border-color: rgba(46, 89, 119, 0.19);
   background: linear-gradient(135deg, rgba(251, 254, 255, 0.84), rgba(171, 207, 228, 0.52));
@@ -309,6 +383,7 @@ textarea:focus-visible {
 
 [data-theme='light'] .text-slate-100\/80,
 [data-theme='light'] .text-slate-200\/80,
+[data-theme='light'] .text-slate-200\/70,
 [data-theme='light'] .text-slate-200\/90,
 [data-theme='light'] .text-slate-300\/90 {
   color: rgba(25, 54, 78, 0.84);
@@ -321,6 +396,36 @@ textarea:focus-visible {
 [data-theme='light'] .text-slate-300\/68,
 [data-theme='light'] .text-slate-300\/78 {
   color: rgba(31, 60, 83, 0.72);
+}
+
+[data-theme='light'] .text-red-100,
+[data-theme='light'] .text-red-200\/80 {
+  color: #9f2736;
+}
+
+[data-theme='light'] .text-emerald-100,
+[data-theme='light'] .text-emerald-50\/80 {
+  color: #176548;
+}
+
+[data-theme='light'] .text-\[\#bde7ff\],
+[data-theme='light'] .text-\[\#b7f9ff\],
+[data-theme='light'] .text-\[\#c9fbff\],
+[data-theme='light'] .text-\[\#a9eff7\],
+[data-theme='light'] .text-\[\#a5edfa\],
+[data-theme='light'] .text-\[\#c1e5ff\],
+[data-theme='light'] .text-\[\#b9f3f5\],
+[data-theme='light'] .text-\[\#cdeaff\],
+[data-theme='light'] .text-\[\#9feef4\],
+[data-theme='light'] .text-\[\#98f0f1\],
+[data-theme='light'] .text-\[\#8feaf0\],
+[data-theme='light'] .text-\[\#e6faff\],
+[data-theme='light'] .text-\[\#59c4df\] {
+  color: #155e78;
+}
+
+[data-theme='light'] .text-white\/90 {
+  color: rgba(16, 36, 59, 0.9);
 }
 
 [data-theme='light'] .border-white\/10,
@@ -337,6 +442,7 @@ textarea:focus-visible {
 }
 
 .mobile-tabbar {
+  position: fixed;
   padding-bottom: max(0.35rem, env(safe-area-inset-bottom));
 }
 
@@ -358,16 +464,38 @@ textarea:focus-visible {
     backdrop-filter: blur(14px) saturate(150%);
   }
 
-  .glass-surface .glass-surface {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-  }
-
   .glass-button,
   .glass-pill,
   .theme-toggle {
     -webkit-backdrop-filter: blur(10px) saturate(145%);
     backdrop-filter: blur(10px) saturate(145%);
+  }
+
+  @media (max-width: 767px) {
+    body[data-chat-input-focused='true'] .mobile-tabbar {
+      display: none;
+    }
+
+    body[data-chat-input-focused='true'] .chat-subjects {
+      display: none;
+    }
+
+    .chat-composer {
+      flex-shrink: 0;
+    }
+  }
+
+  .chat-page .glass-message {
+    overflow-wrap: anywhere;
+  }
+
+  .chat-page pre,
+  .chat-page code {
+    max-width: 100%;
+  }
+
+  .chat-page pre {
+    overflow-x: auto;
   }
 }
 
@@ -393,5 +521,11 @@ textarea:focus-visible {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-surface {
+    animation: none;
   }
 }
