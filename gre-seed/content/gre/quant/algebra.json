@@ -1,0 +1,96 @@
+[
+ {
+  "id": "q-alg-001",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "If $3x + 7 = 25$, what is the value of $x$?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-002",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $x^2 - 7x + 12 = 0$, what is the sum of the squares of the two solutions?",
+  "choices": [
+   "13",
+   "20",
+   "25",
+   "49",
+   "144"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-003",
+  "type": "qc",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "$(x+1)^2$",
+  "quantityB": "$x^2 + 1$",
+  "answer": "A",
+  "common": "$x > 0$"
+ },
+ {
+  "id": "q-alg-004",
+  "type": "numeric",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "If $4^x = 2^{x+6}$, what is the value of $x$?",
+  "answer": 6
+ },
+ {
+  "id": "q-alg-005",
+  "type": "mcq",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many integers $x$ satisfy $|2x - 3| < 5$?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-006",
+  "type": "multi",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Which of the following inequalities are true for all real numbers $x$? Indicate all such inequalities.",
+  "choices": [
+   "$x^2 \\ge 0$",
+   "$x^2 \\ge x$",
+   "$x^2 + 1 > 0$",
+   "$|x| \\ge x$",
+   "$x^3 \\ge x$"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ]
+ }
+]

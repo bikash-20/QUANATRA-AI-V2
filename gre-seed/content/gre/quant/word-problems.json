@@ -1,0 +1,92 @@
+[
+ {
+  "id": "q-wpr-001",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "stem": "A train travels at a constant speed of $60$ miles per hour for $2.5$ hours. How many miles does it travel?",
+  "choices": [
+   "120",
+   "135",
+   "150",
+   "165",
+   "180"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-002",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "Machine A can complete a job in $6$ hours and Machine B can complete the same job in $12$ hours. Working together at these rates, how many hours will they take to complete the job?",
+  "choices": [
+   "3",
+   "4",
+   "6",
+   "8",
+   "9"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-003",
+  "type": "numeric",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "stem": "An investment of $1000$ dollars earns $10\\%$ interest, compounded annually. What is its value, in dollars, after $2$ years?",
+  "answer": 1210
+ },
+ {
+  "id": "q-wpr-004",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "How many liters of a $20\\%$ acid solution must be added to $10$ liters of a $50\\%$ acid solution to produce a $35\\%$ acid solution?",
+  "choices": [
+   "5",
+   "8",
+   "10",
+   "12",
+   "15"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-005",
+  "type": "qc",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "quantityA": "The final price",
+  "quantityB": "The original price",
+  "answer": "B",
+  "common": "The price of an item is increased by $20\\%$, and the new price is then decreased by $20\\%$."
+ },
+ {
+  "id": "q-wpr-006",
+  "type": "mcq",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "stem": "A car travels from City P to City Q at $60$ miles per hour and returns along the same route at $40$ miles per hour. What is its average speed, in miles per hour, for the round trip?",
+  "choices": [
+   "45",
+   "48",
+   "50",
+   "52",
+   "55"
+  ],
+  "answer": 1
+ }
+]
