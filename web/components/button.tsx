@@ -1,6 +1,7 @@
 'use client';
 
 import * as React from 'react';
+import { GlassButton } from '@/components/ui/glass';
 
 type ButtonVariant = 'primary' | 'secondary' | 'ghost';
 
@@ -33,7 +34,7 @@ export function Button({
   ...rest
 }: ButtonProps) {
   return (
-    <button
+    <GlassButton
       type={type}
       className={`${baseClasses} ${variantClasses[variant]} ${className}`}
       {...rest}

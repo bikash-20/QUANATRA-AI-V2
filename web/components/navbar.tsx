@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Moon, SunMedium } from 'lucide-react';
+import { BookOpenCheck, Compass, MessageCircle, Moon, SunMedium, Type } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const navItems = [
@@ -13,15 +13,21 @@ const navItems = [
   { href: '/grammar', label: 'Grammar' },
 ];
 
+const mobileItems = [
+  { href: '/chat', label: 'Chat', icon: MessageCircle },
+  { href: '/quiz', label: 'Quiz', icon: BookOpenCheck },
+  { href: '/vocab', label: 'Vocab', icon: Type },
+  { href: '/grammar', label: 'Grammar', icon: BookOpenCheck },
+  { href: '/explore', label: 'Explore', icon: Compass },
+];
+
 export function Navbar() {
   const pathname = usePathname();
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     const saved = window.localStorage.getItem('quantara.theme');
-    if (saved) {
-      setIsDark(saved === 'dark');
-    }
+    if (saved) setIsDark(saved === 'dark');
   }, []);
 
   useEffect(() => {
@@ -30,41 +36,70 @@ export function Navbar() {
   }, [isDark]);
 
   return (
-    <header className="sticky top-0 z-20 mx-auto flex w-full max-w-6xl items-center justify-between rounded-full border border-white/15 bg-[rgba(12,22,29,0.7)] px-5 py-3 shadow-[0_16px_38px_rgba(8,18,23,0.4)] backdrop-blur-xl">
-      <Link href="/explore" className="flex items-center gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#8feaf0]/60 bg-[linear-gradient(135deg,rgba(105,216,223,0.24),rgba(255,255,255,0.08))] text-sm font-semibold tracking-[0.22em] text-[#dffcff]">
-          Q
-        </div>
-        <div className="text-[0.68rem] font-medium uppercase tracking-[0.42em] text-slate-200/80">
-          Quantara
-        </div>
-      </Link>
+    <>
+      <header className="glass-surface sticky top-3 z-30 mx-auto flex w-full max-w-6xl items-center justify-between rounded-full px-3 py-2.5 sm:px-5">
+        <Link href="/explore" className="flex min-h-11 items-center gap-2.5 sm:gap-3" aria-label="Quantara home">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#79d4e7]/55 bg-[linear-gradient(135deg,rgba(77,184,212,0.3),rgba(255,255,255,0.08))] font-serif text-lg text-[#e6faff]">
+            Q
+          </span>
+          <span className="font-condensed text-xs font-medium uppercase tracking-[0.3em] text-slate-200/90 sm:tracking-[0.42em]">
+            Quantara
+          </span>
+        </Link>
 
-      <nav className="hidden items-center gap-6 text-sm text-slate-200/80 md:flex">
-        {navItems.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className={`transition ${pathname === item.href ? 'text-white' : 'hover:text-white'}`}
+        <nav aria-label="Main navigation" className="hidden items-center gap-7 md:flex">
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              aria-current={pathname === item.href ? 'page' : undefined}
+              className={`min-h-11 content-center font-condensed text-xs uppercase tracking-[0.2em] transition-colors ${
+                pathname === item.href ? 'text-white' : 'text-slate-200/75 hover:text-white'
+              }`}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-2 sm:gap-3">
+          <button
+            type="button"
+            onClick={() => setIsDark((value) => !value)}
+            className="theme-toggle flex items-center gap-2 rounded-full px-3 text-xs font-medium text-slate-100"
+            aria-label={`Switch to ${isDark ? 'light' : 'dark'} theme`}
+            title={`Switch to ${isDark ? 'light' : 'dark'} theme`}
           >
-            {item.label}
-          </Link>
-        ))}
-      </nav>
-
-      <div className="flex items-center gap-3">
-        <button
-          type="button"
-          onClick={() => setIsDark((value) => !value)}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-100"
-          aria-label="Toggle theme"
-        >
-          {isDark ? <SunMedium className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-        </button>
-        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-sm font-medium text-white/90">
-          A
+            {isDark ? <SunMedium className="h-4 w-4 text-[#9be9f4]" /> : <Moon className="h-4 w-4 text-[#327b9c]" />}
+            <span className="hidden sm:inline">{isDark ? 'Light' : 'Dark'}</span>
+          </button>
+          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-sm font-medium text-white/90" aria-label="Account">
+            A
+          </span>
         </div>
-      </div>
-    </header>
+      </header>
+
+      <nav
+        aria-label="Mobile navigation"
+        className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
+      >
+        {mobileItems.map(({ href, label, icon: Icon }) => {
+          const active = pathname === href;
+          return (
+            <Link
+              key={href}
+              href={href}
+              aria-current={active ? 'page' : undefined}
+              className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-2xl font-condensed text-[0.58rem] uppercase tracking-[0.12em] ${
+                active ? 'bg-[#4db8d4]/15 text-[#a9eff7]' : 'text-slate-200/70'
+              }`}
+            >
+              <Icon aria-hidden="true" className="h-4 w-4" />
+              {label}
+            </Link>
+          );
+        })}
+      </nav>
+    </>
   );
 }
