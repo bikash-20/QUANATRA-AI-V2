@@ -41,3 +41,4 @@ pnpm-debug.log*
 PUKU_PROMPT.md
 **/CLAUDE.md
 **/AGENTS.md
+.vercel
