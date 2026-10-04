@@ -1,6 +1,8 @@
 # Quantara (base)
 live:https://quantara-web-sooty.vercel.app/quiz
 <img width="1162" height="715" alt="image" src="https://github.com/user-attachments/assets/6eb83dfd-c69b-424a-8b0c-6b08bb0d7997" />
+<img width="1280" height="715" alt="image" src="https://github.com/user-attachments/assets/8ef8807d-04fd-4839-9511-957ac43a7b41" />
+
 
 
 ```
