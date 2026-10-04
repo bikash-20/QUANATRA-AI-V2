@@ -54,6 +54,12 @@ export async function apiRequest<T>(
       }
 
       if (!response.ok) {
+        if (response.status === 404) {
+          throw new ApiError(
+            `The configured API service does not provide ${path}. Update or deploy the Worker with this endpoint.`,
+            404,
+          );
+        }
         const msg =
           typeof payload === 'object' && payload && 'error' in payload
             ? String((payload as { error?: string }).error)

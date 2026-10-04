@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { greProgress } from "@/features/gre/progress/repository";
 import type { QuestionType } from "@/features/gre/content/loader.types";
+import { MarkdownContent } from "@/components/markdown-content";
 
 export type ProblemRow = {
   id: string;
@@ -146,7 +147,7 @@ export function GreProblemList({
                 {isSolved ? "✓" : isAttempted ? "•" : "·"}
               </span>
               <Link href={`/gre/quant/problem/${row.id}?topic=${topic}`} className="flex-1 truncate text-sm hover:text-cyan-200">
-                {row.title}
+                <MarkdownContent content={row.title} inline />
               </Link>
               <span className={`rounded-full px-2 py-0.5 text-[0.65rem] uppercase ${
                 row.difficulty === "easy" ? "bg-emerald-500/15 text-emerald-200"

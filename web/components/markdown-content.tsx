@@ -13,9 +13,10 @@ type KatexPlugin = typeof import('rehype-katex').default;
 type Props = {
   content: string;
   isStreaming?: boolean;
+  inline?: boolean;
 };
 
-export function MarkdownContent({ content, isStreaming = false }: Props) {
+export function MarkdownContent({ content, isStreaming = false, inline = false }: Props) {
   const { resolvedTheme } = useTheme();
   const [katexPlugin, setKatexPlugin] = useState<KatexPlugin | null>(null);
   const stableMarkdown = stabilizeStreamingMarkdown(content);
@@ -41,11 +42,12 @@ export function MarkdownContent({ content, isStreaming = false }: Props) {
   }, [hasCompleteMath, katexPlugin]);
 
   return (
-    <div className="markdown-content">
+    <div className={`markdown-content${inline ? ' markdown-content--inline' : ''}`}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={hasCompleteMath && katexPlugin ? [katexPlugin] : []}
         components={{
+          ...(inline ? { p: ({ children }: { children?: React.ReactNode }) => <>{children}</> } : {}),
           table: ({ children }) => (
             <div className="markdown-table-scroll">
               <table>{children}</table>
@@ -55,6 +57,7 @@ export function MarkdownContent({ content, isStreaming = false }: Props) {
           code: ({ className, children }) => {
             const source = String(children).replace(/\n$/, '');
             const language = /language-([\w+-]+)/.exec(className ?? '')?.[1];
+            if (language === 'math') return <span className="math-fallback">{source}</span>;
             if (!language) return <code>{children}</code>;
             if (isStreaming && !content.trimEnd().endsWith('```')) {
               return <pre className="streaming-code"><code>{source}</code></pre>;

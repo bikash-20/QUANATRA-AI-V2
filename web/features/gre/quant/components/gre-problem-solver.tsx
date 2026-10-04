@@ -105,11 +105,11 @@ export function GreProblemSolver({
         correctAnswer: correctText,
         userAnswer: ua ? formatUserAnswer(question, ua) : undefined,
         difficulty: question.difficulty,
-        lang: "en",
+        lang: window.localStorage.getItem("quantara.language") === "bn" ? "bn" : "en",
       });
       setExplainText(text);
     } catch (e) {
-      setExplainError((e as Error).message || "Failed to load explanation");
+      setExplainError(e instanceof Error ? e.message : "Failed to load explanation");
     } finally {
       setExplainLoading(false);
     }
@@ -206,10 +206,11 @@ export function GreProblemSolver({
         )}
         <button
           type="button"
-          onClick={handleExplain}
+          onClick={() => void handleExplain()}
+          disabled={explainLoading}
           className="rounded-md border border-slate-200/20 px-4 py-2 text-sm text-slate-200 hover:bg-slate-800/60"
         >
-          AI explain
+          {explainLoading ? "Loading explanation…" : "AI explain"}
         </button>
         <button
           type="button"
@@ -243,25 +244,22 @@ function renderStem(q: QuantQuestion) {
     return (
       <div className="space-y-3">
         <p className="text-base">
-          <span className="font-semibold text-cyan-200">Quantity A:</span> <TeX text={q.quantityA} />
+          <span className="font-semibold text-cyan-200">Quantity A:</span>{" "}
+          <MarkdownContent content={q.quantityA} inline />
         </p>
         <p className="text-base">
-          <span className="font-semibold text-cyan-200">Quantity B:</span> <TeX text={q.quantityB} />
+          <span className="font-semibold text-cyan-200">Quantity B:</span>{" "}
+          <MarkdownContent content={q.quantityB} inline />
         </p>
         {q.common ? (
-          <p className="text-sm text-slate-400">Given: <TeX text={q.common} /></p>
+          <p className="text-sm text-slate-400">
+            Given: <MarkdownContent content={q.common} inline />
+          </p>
         ) : null}
       </div>
     );
   }
-  return <p className="text-base"><TeX text={q.stem} /></p>;
-}
-
-function TeX({ text }: { text: string }) {
-  // The MarkdownContent renderer handles $...$ via remark-math; this is a
-  // tiny inline shim. We render the whole stem inside MarkdownContent when
-  // we need math, but for the simple stem inline we just pass the text.
-  return <span>{text}</span>;
+  return <MarkdownContent content={q.stem} inline />;
 }
 
 function AnswerInput({
@@ -300,7 +298,7 @@ function AnswerInput({
                     : "border-slate-200/15 hover:bg-slate-800/40"}`}
               >
                 <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
-                <span>{c}</span>
+                <MarkdownContent content={c} inline />
               </button>
             </li>
           );
@@ -335,7 +333,7 @@ function AnswerInput({
                   disabled={submitted}
                 />
                 <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
-                <span>{c}</span>
+                <MarkdownContent content={c} inline />
               </label>
             </li>
           );
@@ -362,7 +360,7 @@ function AnswerInput({
                   : "border-slate-200/15"}`}
             >
               <span className="font-mono text-xs text-slate-400">{l}.</span>
-              <span>{qcText(l)}</span>
+              <MarkdownContent content={qcText(l)} inline />
             </button>
           );
         })}

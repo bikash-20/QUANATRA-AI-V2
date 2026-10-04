@@ -87,7 +87,7 @@ export function AIExplanation({
             <div className="flex flex-wrap items-center gap-3">
               <span role="alert" className="inline-flex items-center gap-2">
                 <AlertCircle aria-hidden="true" size={16} />
-                Explanation could not be loaded.
+                {error}
               </span>
               <button type="button" className="underline underline-offset-2" onClick={() => void loadExplanation(true)}>
                 Retry

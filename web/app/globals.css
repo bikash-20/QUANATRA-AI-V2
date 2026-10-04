@@ -1065,6 +1065,15 @@ select {
   line-height: 1.75;
 }
 
+.markdown-content--inline {
+  display: contents;
+}
+
+.markdown-content--inline > :first-child,
+.markdown-content--inline > :last-child {
+  margin: 0;
+}
+
 .markdown-content > :first-child {
   margin-top: 0;
 }
