@@ -11,7 +11,7 @@
 //              commas, whitespace, and an optional leading minus.
 
 import type { QuantQuestion } from "../content/loader";
-import type { UserAnswer } from "./repository";
+import type { UserAnswer } from "../progress/repository";
 
 export const NUMERIC_TOLERANCE = 1e-6;
 
@@ -80,8 +80,8 @@ export function formatAnswer(q: QuantQuestion, ans: UserAnswer | undefined): str
       if (ans.type !== "multi" || q.type !== "multi") return "(invalid)";
       return ans.choices
         .slice()
-        .sort((a, b) => a - b)
-        .map((i) => `${i + 1}. ${q.choices[i] ?? "?"}`)
+        .sort((a: number, b: number) => a - b)
+        .map((i: number) => `${i + 1}. ${q.choices[i] ?? "?"}`)
         .join("; ");
     case "qc":
       return ans.type === "qc" ? `${ans.letter}. ${qcText(ans.letter)}` : "(invalid)";

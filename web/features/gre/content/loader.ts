@@ -131,7 +131,7 @@ function loadManifest(): Manifest {
       out.totals.quant += list.length;
     }
     for (const set of listVocabSets()) {
-      const words = loadVocabSet(set);
+      const words = getVocabSet(set);
       out.vocab[set] = { count: words.length };
       out.totals.vocab += words.length;
     }
