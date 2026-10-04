@@ -141,6 +141,78 @@ async function handle(req: Request, env: Env): Promise<Response> {
 
   try {
     switch (url.pathname) {
+      case "/api/explain": {
+        if (typeof b?.kind !== "string" || !b.kind.trim() || b.kind.length > 40)
+          return json(env, { error: "kind required (max 40 characters)" }, 400);
+        if (
+          typeof b.question !== "string" ||
+          !b.question.trim() ||
+          b.question.length > 4000
+        )
+          return json(env, { error: "question required (max 4000 characters)" }, 400);
+        if (
+          b.options !== undefined &&
+          (!Array.isArray(b.options) ||
+            b.options.length < 1 ||
+            b.options.length > 12 ||
+            b.options.some(
+              (option: unknown) =>
+                typeof option !== "string" || !option.trim() || option.length > 1000
+            ))
+        )
+          return json(
+            env,
+            { error: "options must be an array of 1-12 strings (max 1000 characters each)" },
+            400
+          );
+        for (const [field, maxLength] of [
+          ["correctAnswer", 2000],
+          ["userAnswer", 2000],
+          ["context", 8000],
+        ] as const) {
+          if (
+            b[field] !== undefined &&
+            (typeof b[field] !== "string" || b[field].length > maxLength)
+          )
+            return json(
+              env,
+              { error: `${field} must be a string (max ${maxLength} characters)` },
+              400
+            );
+        }
+        if (b.difficulty !== "easy" && b.difficulty !== "medium" && b.difficulty !== "hard")
+          return json(env, { error: "difficulty must be easy, medium, or hard" }, 400);
+        if (b.lang !== "en" && b.lang !== "bn")
+          return json(env, { error: "lang must be en or bn" }, 400);
+
+        const { data, model, cacheHit } = await cascadeJSON(
+          env,
+          P.explainPrompt(
+            {
+              kind: b.kind.trim(),
+              question: b.question.trim(),
+              options: b.options,
+              correctAnswer: b.correctAnswer,
+              userAnswer: b.userAnswer,
+              context: b.context,
+            },
+            b.difficulty,
+            b.lang
+          ),
+          1000
+        );
+        if (
+          !data ||
+          typeof data !== "object" ||
+          typeof (data as { explanation?: unknown }).explanation !== "string"
+        )
+          throw new Error("Model did not return a valid explanation");
+        return json(env, data, 200, {
+          "X-Model": model,
+          "X-Cache": cacheHit ? "HIT" : "MISS",
+        });
+      }
+
       // ---- Streaming chat ----
       case "/api/chat": {
         const history: CascadeMsg[] = Array.isArray(b.messages)
