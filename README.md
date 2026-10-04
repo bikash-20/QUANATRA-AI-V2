@@ -31,6 +31,14 @@ NEXT_PUBLIC_API_URL=http://localhost:8787 npm run dev
 
 Open http://localhost:3000
 
+## Deploy the frontend to Vercel
+
+This repository keeps the Next.js app in `web/`. Set the Vercel project's
+**Root Directory** to `web` (Settings → Build and Deployment → Root Directory)
+and leave the framework preset as Next.js. The install and build commands can
+use their defaults. If Vercel runs its Next.js build from the repository root,
+it will fail because the root does not contain the app's `app/` directory.
+
 ## App pages
 - /explore
 - /chat
