@@ -1,8 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { ArrowUp, Loader2, Sparkles, StopCircle } from 'lucide-react';
-import { Navbar } from '@/components/navbar';
+import { ArrowUp, Loader2, StopCircle } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { ChatMessageBubble } from '@/components/chat-message';
@@ -17,7 +16,6 @@ const defaultMessages: ChatMessage[] = [
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMessage[]>(defaultMessages);
   const [input, setInput] = useState('');
-  const [subject, setSubject] = useState('CS');
   const [lang, setLang] = useState<'en' | 'bn'>('en');
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
@@ -56,7 +54,7 @@ export default function ChatPage() {
 
     try {
       await streamChat(
-        { messages: outgoing, subject, lang },
+        { messages: outgoing, lang },
         (chunk) => {
           setMessages((current) => {
             const next = [...current];
@@ -91,49 +89,8 @@ export default function ChatPage() {
   return (
     <main className="chat-page relative min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
-        <Navbar />
-
-        <div className="mt-8 grid gap-6 lg:grid-cols-[240px_1fr]">
-          <GlassCard className="chat-subjects p-4">
-            <div className="mb-4 flex items-center gap-2 text-xs uppercase tracking-[0.24em] text-slate-300/70">
-              <Sparkles className="h-4 w-4 text-[#8feaf0]" /> Subject
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {['CS', 'Math', 'Physics', 'Code', 'English'].map((entry) => (
-                <button
-                  key={entry}
-                  type="button"
-                  onClick={() => setSubject(entry)}
-                  className={`rounded-full px-3 py-2 text-xs uppercase tracking-[0.18em] ${
-                    subject === entry
-                      ? 'border border-[#8feaf0]/50 bg-[#8feaf0]/15 text-[#c9fbff]'
-                      : 'border border-white/10 bg-white/5 text-slate-300/80'
-                  }`}
-                >
-                  {entry}
-                </button>
-              ))}
-            </div>
-
-            <div className="mt-6 flex items-center justify-between rounded-full border border-white/10 bg-white/4 p-1">
-              <button
-                type="button"
-                onClick={() => setLang('en')}
-                className={`flex-1 rounded-full px-3 py-2 text-sm ${lang === 'en' ? 'bg-white/10 text-white' : 'text-slate-300'}`}
-              >
-                EN
-              </button>
-              <button
-                type="button"
-                onClick={() => setLang('bn')}
-                className={`flex-1 rounded-full px-3 py-2 text-sm ${lang === 'bn' ? 'bg-white/10 text-white' : 'text-slate-300'}`}
-              >
-                বাংলা
-              </button>
-            </div>
-          </GlassCard>
-
-          <GlassCard className="flex h-[min(calc(100dvh-16rem),760px)] min-h-[12rem] flex-col p-3 sm:min-h-[18rem] sm:p-5">
+        <div className="chat-layout mx-auto mt-5 grid w-full max-w-[1600px] gap-4 sm:mt-8 sm:px-4 lg:px-8">
+          <GlassCard className="flex h-[calc(100dvh-6.5rem)] min-h-[18rem] flex-col rounded-2xl p-3 sm:h-[calc(100dvh-4rem)] sm:p-5">
             <div className="mb-4 flex items-center justify-between">
               <div>
                 <p className="text-xs uppercase tracking-[0.24em] text-slate-300/65">{botName}</p>

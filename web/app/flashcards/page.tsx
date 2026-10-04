@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { BrainCircuit, Loader2, RefreshCw } from 'lucide-react';
-import { Navbar } from '@/components/navbar';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
@@ -59,7 +58,6 @@ export default function FlashcardsPage() {
   return (
     <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
-        <Navbar />
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[300px_1fr]">
           <GlassCard className="p-4">

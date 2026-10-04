@@ -17,7 +17,6 @@ import {
 } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
-import { Navbar } from '@/components/navbar';
 
 const featurePills = [
   { label: 'CS', glow: 'border border-[#59c4df]/35 bg-[#59c4df]/12 text-[#a5edfa]' },
@@ -44,7 +43,6 @@ export function ExploreView() {
     <main className="relative min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="absolute inset-x-0 top-0 h-[520px] bg-[radial-gradient(circle_at_top,_rgba(100,220,227,0.18),transparent_45%)]" />
       <div className="relative mx-auto max-w-6xl">
-        <Navbar />
 
         <LazyMotion features={domAnimation}>
           <m.section

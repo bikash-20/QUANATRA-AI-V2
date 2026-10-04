@@ -2,7 +2,6 @@
 
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
-import { Navbar } from '@/components/navbar';
 import { GlassCard } from '@/components/glass-card';
 import { getProgressAsync } from '@/lib/storage';
 
@@ -36,7 +35,6 @@ export default function ProgressPage() {
   return (
     <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
-        <Navbar />
 
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <GlassCard className="p-5">

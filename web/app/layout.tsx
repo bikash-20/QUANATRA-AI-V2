@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import Image from 'next/image';
 import { Oswald, Playfair_Display, Poppins } from 'next/font/google';
+import { AppShell } from '@/components/app-shell';
+import { ThemeProvider } from '@/providers/theme-provider';
 import './globals.css';
 
 const playfair = Playfair_Display({
@@ -64,7 +66,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             />
           </picture>
         </div>
-        {children}
+        <ThemeProvider>
+          <AppShell>{children}</AppShell>
+        </ThemeProvider>
       </body>
     </html>
   );

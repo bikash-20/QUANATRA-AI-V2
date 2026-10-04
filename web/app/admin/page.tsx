@@ -1,11 +1,17 @@
-import { Navbar } from '@/components/navbar';
+import { notFound } from 'next/navigation';
 import { GlassCard } from '@/components/glass-card';
 
 export default function AdminPage() {
+  if (
+    process.env.NODE_ENV !== 'development' &&
+    process.env.NEXT_PUBLIC_AUTH_ENABLED !== 'true'
+  ) {
+    notFound();
+  }
+
   return (
     <main className="min-h-dvh px-4 pb-[calc(6rem+env(safe-area-inset-bottom))] pt-5 text-white sm:px-6 sm:pt-8 md:pb-12 lg:px-10">
       <div className="mx-auto max-w-6xl">
-        <Navbar />
         <div className="mt-8">
           <GlassCard className="p-6">
             <p className="text-xs uppercase tracking-[0.24em] text-slate-300/70">Admin</p>
