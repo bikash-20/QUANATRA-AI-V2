@@ -2,6 +2,7 @@ import * as P from "./prompts";
 import type { Difficulty, Lang } from "./prompts";
 import { cascadeHealth, runCascade } from "./cascade";
 import type { CascadeMsg, TierAttempt } from "./cascade";
+import { applyCors } from "./cors";
 import { rateLimit } from "./kv";
 
 export interface Env {
@@ -12,18 +13,13 @@ export interface Env {
   MAX_TOKENS?: string;
   CASCADE_TIMEOUT_MS?: string;
   ALLOWED_ORIGIN: string;
+  ALLOWED_ORIGINS?: string;
   RATE?: KVNamespace;
   RATE_LIMIT_PER_MIN?: string;
   RATE_BURST?: string;
   CACHE?: KVNamespace;
   CACHE_TTL_S?: string;
 }
-
-const cors = (env: Env) => ({
-  "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN || "*",
-  "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type",
-});
 
 const json = (
   env: Env,
@@ -33,7 +29,7 @@ const json = (
 ) =>
   new Response(JSON.stringify(data), {
     status,
-    headers: { "Content-Type": "application/json", ...cors(env), ...extra },
+    headers: { "Content-Type": "application/json", ...extra },
   });
 
 const clamp = (n: unknown, min: number, max: number, d: number) => {
@@ -126,7 +122,7 @@ function extractJSON(text: string): unknown | null {
 
 async function handle(req: Request, env: Env): Promise<Response> {
   const url = new URL(req.url);
-  if (req.method === "OPTIONS") return new Response(null, { headers: cors(env) });
+  if (req.method === "OPTIONS") return new Response(null);
 
   // Health endpoint exposes the cascade config so we can verify it from the browser.
   if (url.pathname === "/" || url.pathname === "/health") {
@@ -299,7 +295,6 @@ async function handle(req: Request, env: Env): Promise<Response> {
             "Cache-Control": "no-cache",
             "X-Model": res.model,
             "X-Cache": res.cacheHit ? "HIT" : "MISS",
-            ...cors(env),
           },
         });
       }
@@ -428,11 +423,11 @@ async function handle(req: Request, env: Env): Promise<Response> {
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     try {
-      return await handle(req, env);
+      return applyCors(req, env, await handle(req, env));
     } catch (e: unknown) {
       console.error("[quantara] unhandled request failure", e);
       const message = e instanceof Error ? e.message : "Server error";
-      return json(env, { error: message }, 500);
+      return applyCors(req, env, json(env, { error: message }, 500));
     }
   },
 } satisfies ExportedHandler<Env>;

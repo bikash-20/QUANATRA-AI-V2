@@ -8,6 +8,7 @@ import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { vocabResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
+import { ApiErrorNotice } from '@/components/api-error-notice';
 
 type VocabItem = {
   word: string;
@@ -22,8 +23,11 @@ export default function VocabPage() {
   const [difficulty, setDifficulty] = useState<Difficulty>('medium');
   const [items, setItems] = useState<VocabItem[]>([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   async function generateVocab() {
+    if (loading) return;
+    setError(null);
     setLoading(true);
     try {
       const response = await apiRequest(
@@ -35,6 +39,7 @@ export default function VocabPage() {
       setItems(response.vocab);
     } catch (error) {
       console.error(error);
+      setError(error instanceof Error ? error.message : 'Vocabulary could not be generated.');
     } finally {
       setLoading(false);
     }
@@ -77,9 +82,10 @@ export default function VocabPage() {
               />
             </div>
 
-            <Button onClick={generateVocab} variant="primary" className="mt-5 w-full">
+            <Button onClick={generateVocab} variant="primary" className="mt-5 w-full" disabled={loading}>
               {loading ? 'Loading...' : 'Generate vocabulary'}
             </Button>
+            {error ? <ApiErrorNotice message={error} onRetry={() => void generateVocab()} /> : null}
           </GlassCard>
 
           <div className="card-grid grid gap-4 md:grid-cols-2 lg:grid-cols-3">

@@ -6,6 +6,7 @@ import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { AIExplanation } from '@/components/ai-explanation';
+import { ApiErrorNotice } from '@/components/api-error-notice';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { examGradeResponseSchema, quizResponseSchema } from '@/lib/api-schemas';
 import {
@@ -38,6 +39,8 @@ export default function ExamPage() {
   const [timerMinutes, setTimerMinutes] = useState<number>(() => getExamTimerMinutes(10));
   const [timeLeft, setTimeLeft] = useState(timerMinutes * 60);
   const [loading, setLoading] = useState(false);
+  const [grading, setGrading] = useState(false);
+  const [requestError, setRequestError] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [result, setResult] = useState<{
     verdict?: string;
@@ -73,6 +76,8 @@ export default function ExamPage() {
   }
 
   async function generateExam() {
+    if (loading) return;
+    setRequestError(null);
     setLoading(true);
     try {
       const response = await apiRequest(
@@ -87,13 +92,18 @@ export default function ExamPage() {
       setSubmitted(false);
       setResult(null);
       setTimeLeft(timerMinutes * 60);
+    } catch (error) {
+      console.error(error);
+      setRequestError(error instanceof Error ? error.message : 'The exam could not be generated.');
     } finally {
       setLoading(false);
     }
   }
 
   async function submitExam() {
-    if (!questions.length) return;
+    if (!questions.length || grading) return;
+    setRequestError(null);
+    setGrading(true);
     const items = questions.map((question, index) => ({
       question: question.question,
       correct: question.answer,
@@ -121,7 +131,9 @@ export default function ExamPage() {
       });
     } catch (e) {
       console.error(e);
-      setSubmitted(true);
+      setRequestError(e instanceof Error ? e.message : 'The exam could not be graded.');
+    } finally {
+      setGrading(false);
     }
   }
 
@@ -235,10 +247,11 @@ export default function ExamPage() {
               </div>
             </div>
 
-            <Button onClick={generateExam} variant="primary" className="mt-5 w-full gap-2">
+            <Button onClick={generateExam} variant="primary" className="mt-5 w-full gap-2" disabled={loading}>
               {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <ShieldCheck className="h-4 w-4" />}
               Generate exam
             </Button>
+            {requestError ? <ApiErrorNotice message={requestError} onRetry={() => void generateExam()} /> : null}
           </GlassCard>
 
           <GlassCard className="p-5">
@@ -293,11 +306,18 @@ export default function ExamPage() {
                       Next
                     </Button>
                   ) : (
-                    <Button variant="primary" onClick={submitExam}>
-                      Submit exam
+                    <Button variant="primary" onClick={submitExam} disabled={grading}>
+                      {grading ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+                      {grading ? 'Grading…' : 'Submit exam'}
                     </Button>
                   )}
                 </div>
+                {requestError ? (
+                  <ApiErrorNotice
+                    message={requestError}
+                    onRetry={() => void (questions.length ? submitExam() : generateExam())}
+                  />
+                ) : null}
               </div>
             )}
           </GlassCard>

@@ -5,6 +5,7 @@ import { BrainCircuit, Loader2, RefreshCw } from 'lucide-react';
 import { GlassCard } from '@/components/glass-card';
 import { Button } from '@/components/button';
 import { AIExplanation } from '@/components/ai-explanation';
+import { ApiErrorNotice } from '@/components/api-error-notice';
 import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { flashcardsResponseSchema } from '@/lib/api-schemas';
@@ -23,6 +24,7 @@ export default function FlashcardsPage() {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
@@ -37,6 +39,8 @@ export default function FlashcardsPage() {
   }, [cards]);
 
   async function generateCards() {
+    if (loading) return;
+    setError(null);
     setLoading(true);
     try {
       const response = await apiRequest(
@@ -51,6 +55,7 @@ export default function FlashcardsPage() {
       setFlipped(false);
     } catch (error) {
       console.error(error);
+      setError(error instanceof Error ? error.message : 'Flashcards could not be generated.');
     } finally {
       setLoading(false);
     }
@@ -78,10 +83,11 @@ export default function FlashcardsPage() {
               <DifficultyToggle value={difficulty} onChange={setDifficulty} />
             </div>
 
-            <Button onClick={generateCards} variant="primary" className="mt-4 w-full gap-2">
+            <Button onClick={generateCards} variant="primary" className="mt-4 w-full gap-2" disabled={loading}>
               {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
               Generate deck
             </Button>
+            {error ? <ApiErrorNotice message={error} onRetry={() => void generateCards()} /> : null}
           </GlassCard>
 
           <GlassCard className="p-6">

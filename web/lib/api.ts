@@ -84,6 +84,12 @@ export async function apiRequest<T>(
       await new Promise((r) => setTimeout(r, 350 * (attempt + 1)));
     }
   }
+  if (lastErr instanceof TypeError) {
+    throw new ApiError(
+      'Unable to reach the AI service. Check NEXT_PUBLIC_API_URL, Worker availability, and the Worker CORS allowlist.',
+      0,
+    );
+  }
   throw lastErr instanceof Error ? lastErr : new Error('Request failed');
 }
 

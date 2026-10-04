@@ -8,6 +8,7 @@ import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { grammarResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
+import { ApiErrorNotice } from '@/components/api-error-notice';
 
 type GrammarRule = {
   rule: string;
@@ -23,8 +24,11 @@ export default function GrammarPage() {
   const [grammar, setGrammar] = useState<GrammarRule | null>(null);
   const [revealed, setRevealed] = useState<Record<number, boolean>>({});
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   async function generateGrammar() {
+    if (loading) return;
+    setError(null);
     setLoading(true);
     try {
       const response = await apiRequest(
@@ -36,6 +40,7 @@ export default function GrammarPage() {
       setGrammar(response.grammar);
     } catch (error) {
       console.error(error);
+      setError(error instanceof Error ? error.message : 'Grammar practice could not be generated.');
     } finally {
       setLoading(false);
     }
@@ -78,9 +83,10 @@ export default function GrammarPage() {
               />
             </div>
 
-            <Button onClick={generateGrammar} variant="primary" className="mt-5 w-full">
+            <Button onClick={generateGrammar} variant="primary" className="mt-5 w-full" disabled={loading}>
               {loading ? 'Loading...' : 'Generate rule set'}
             </Button>
+            {error ? <ApiErrorNotice message={error} onRetry={() => void generateGrammar()} /> : null}
           </GlassCard>
 
           <GlassCard className="p-5">

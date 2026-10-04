@@ -8,6 +8,7 @@ import { DifficultyToggle } from '@/components/difficulty-toggle';
 import { apiRequest, type Difficulty } from '@/lib/api';
 import { quizResponseSchema } from '@/lib/api-schemas';
 import { AIExplanation } from '@/components/ai-explanation';
+import { ApiErrorNotice } from '@/components/api-error-notice';
 import { getAnswerState } from '@/lib/quiz-answer';
 
 type McqQuestion = {
@@ -35,6 +36,7 @@ export default function QuizPage() {
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const currentQuestion = questions[currentIndex];
 
@@ -44,6 +46,8 @@ export default function QuizPage() {
   }, [currentIndex, questions.length]);
 
   async function generateQuiz() {
+    if (loading) return;
+    setError(null);
     setLoading(true);
     try {
       const payload =
@@ -66,6 +70,7 @@ export default function QuizPage() {
       setScore(0);
     } catch (error) {
       console.error(error);
+      setError(error instanceof Error ? error.message : 'Quiz questions could not be generated.');
     } finally {
       setLoading(false);
     }
@@ -153,10 +158,11 @@ export default function QuizPage() {
                 />
               </label>
 
-              <Button onClick={generateQuiz} className="w-full gap-2" variant="primary">
+              <Button onClick={generateQuiz} className="w-full gap-2" variant="primary" disabled={loading}>
                 {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCcw className="h-4 w-4" />}
                 Generate quiz
               </Button>
+              {error ? <ApiErrorNotice message={error} onRetry={() => void generateQuiz()} /> : null}
             </div>
           </GlassCard>
 

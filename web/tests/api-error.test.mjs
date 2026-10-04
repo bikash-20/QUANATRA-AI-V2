@@ -21,3 +21,19 @@ test('API 404 explains that the configured Worker is missing the route', async (
     globalThis.fetch = previousFetch;
   }
 });
+
+test('API network failure explains the Worker URL and CORS checks', async () => {
+  const previousFetch = globalThis.fetch;
+  globalThis.fetch = async () => {
+    throw new TypeError('Failed to fetch');
+  };
+
+  try {
+    await assert.rejects(
+      apiRequest('/api/vocab', {}, z.object({ vocab: z.array(z.unknown()) }), { retries: 0 }),
+      /NEXT_PUBLIC_API_URL, Worker availability, and the Worker CORS allowlist/,
+    );
+  } finally {
+    globalThis.fetch = previousFetch;
+  }
+});

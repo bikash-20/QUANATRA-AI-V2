@@ -31,6 +31,11 @@ NEXT_PUBLIC_API_URL=http://localhost:8787 npm run dev
 
 Open http://localhost:3000
 
+For Vercel, set `NEXT_PUBLIC_API_URL` to the deployed Worker origin. The Worker
+must allow the exact frontend origin in `ALLOWED_ORIGIN` or the comma-separated
+`ALLOWED_ORIGINS` variable. Localhost and loopback origins are permitted for
+local development; other origins are not reflected in CORS responses.
+
 ## Deploy the frontend to Vercel
 
 This repository keeps the Next.js app in `web/`. Set the Vercel project's
