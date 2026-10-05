@@ -1,0 +1,334 @@
+[
+ {
+  "id": "q-geo-306",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In triangle $ABC$, the sides are $6$, $7$, $8$. What type is the triangle?",
+  "choices": [
+   "Acute",
+   "Right",
+   "Obtuse",
+   "Equilateral",
+   "Isoceles"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-307",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A square is inscribed in a circle of radius $5$. What is the area of the square?",
+  "choices": [
+   "$10$",
+   "$20$",
+   "$50$",
+   "$25$",
+   "$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-308",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The line $y = 2x + 7$ passes through $(a, b)$ and $(a+1, b+4)$. What is $a$?",
+  "choices": [
+   "$1$",
+   "$\\frac{3}{2}$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-309",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of circle with radius $7$",
+  "quantityB": "Circumference of circle with radius $7$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-310",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with diameter $24$?",
+  "choices": [
+   "$8$",
+   "$10$",
+   "$12$",
+   "$16$",
+   "$24$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-311",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs $7$ and $24$. What is the hypotenuse?",
+  "choices": [
+   "$25$",
+   "$26$",
+   "$31$",
+   "$50$",
+   "$168$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-312",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $11$?",
+  "choices": [
+   "$22$",
+   "$44$",
+   "$66$",
+   "$88$",
+   "$121$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-geo-313",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(0, 0)$ and $(6, 12)$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$6$",
+   "$12$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-314",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $10$?",
+  "choices": [
+   "$10\\pi$",
+   "$20\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$200\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-315",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $30$-$60$-$90$ triangle, the shorter leg is $8$. What is the longer leg?",
+  "choices": [
+   "$8\\sqrt{3}$",
+   "$16$",
+   "$24$",
+   "$8\\sqrt{2}$",
+   "$8$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-316",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $15$ and height $6$?",
+  "choices": [
+   "$21$",
+   "$45$",
+   "$90$",
+   "$30$",
+   "$15$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-317",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(3, 4)$ and $(7, 8)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5\\sqrt{2}$",
+   "$6$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-318",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the circumference of a circle with diameter $14$? Use $\\pi \\approx 3.14$.",
+  "answer": 43.96
+ },
+ {
+  "id": "q-geo-319",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isoceles triangle, the apex angle is $100\u00b0$. What is each base angle?",
+  "choices": [
+   "$30\u00b0$",
+   "$40\u00b0$",
+   "$50\u00b0$",
+   "$60\u00b0$",
+   "$70\u00b0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-320",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $9$ and $11$ and height $8$. What is the area?",
+  "choices": [
+   "$40$",
+   "$80$",
+   "$60$",
+   "$120$",
+   "$176$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-321",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $y$-intercept of $y = 6x + 13$?",
+  "choices": [
+   "$0$",
+   "$6$",
+   "$13$",
+   "$19$",
+   "$78$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-322",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with area $64\\pi$?",
+  "choices": [
+   "$4$",
+   "$8$",
+   "$16$",
+   "$32$",
+   "$64$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-323",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two sides of a triangle are $9$ and $14$. Which is a possible length of the third side?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$20$",
+   "$23$",
+   "$30$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-324",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which are correct area formulas?",
+  "choices": [
+   "$A = \\pi r^2$",
+   "$A = lw$",
+   "$A = \\frac{1}{2}bh$",
+   "$A = s^2$",
+   "$A = 2\\pi r$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-325",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(3, 5)$ and $(9, 11)$?",
+  "choices": [
+   "$(5, 7)$",
+   "$(6, 8)$",
+   "$(6, 7)$",
+   "$(7, 8)$",
+   "$(5, 8)$"
+  ],
+  "answer": 1
+ }
+]

@@ -1,0 +1,421 @@
+[
+ {
+  "word": "diurnal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or during the day",
+  "synonyms": [
+   "daily",
+   "daytime"
+  ],
+  "antonyms": [
+   "nocturnal",
+   "nightly"
+  ],
+  "example": "Owls are not diurnal creatures.",
+  "id": "v-1401"
+ },
+ {
+  "word": "divine",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "of, from, or like God or a god",
+  "synonyms": [
+   "sacred",
+   "heavenly",
+   "holy"
+  ],
+  "antonyms": [
+   "earthly",
+   "mundane"
+  ],
+  "example": "She claimed to have a divine vision.",
+  "id": "v-1402"
+ },
+ {
+  "word": "doctrinaire",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "seeking to impose a doctrine in all circumstances without regard to practical considerations",
+  "synonyms": [
+   "dogmatic",
+   "rigid",
+   "doctrinal"
+  ],
+  "antonyms": [
+   "pragmatic",
+   "flexible"
+  ],
+  "example": "His doctrinaire approach cost him allies.",
+  "id": "v-1403"
+ },
+ {
+  "word": "dogma",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a principle or set of principles laid down by an authority",
+  "synonyms": [
+   "doctrine",
+   "creed",
+   "tenet"
+  ],
+  "antonyms": [
+   "heterodoxy"
+  ],
+  "example": "The party stuck to its dogma.",
+  "id": "v-1404"
+ },
+ {
+  "word": "droll",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "curious or unusual in a way that provokes dry amusement",
+  "synonyms": [
+   "wry",
+   "comic",
+   "whimsical"
+  ],
+  "antonyms": [
+   "solemn",
+   "serious"
+  ],
+  "example": "His droll remarks lightened the meeting.",
+  "id": "v-1405"
+ },
+ {
+  "word": "dupe",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who has been deceived",
+  "synonyms": [
+   "patsy",
+   "fall guy",
+   "gull"
+  ],
+  "antonyms": [
+   "con artist",
+   "trickster"
+  ],
+  "example": "He was the dupe of a clever scheme.",
+  "id": "v-1406"
+ },
+ {
+  "word": "dyspeptic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing a sour disposition; ill-tempered",
+  "synonyms": [
+   "peevish",
+   "irritable",
+   "bilious"
+  ],
+  "antonyms": [
+   "genial",
+   "easygoing"
+  ],
+  "example": "Her dyspeptic manner alienated new staff.",
+  "id": "v-1407"
+ },
+ {
+  "word": "edify",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to instruct or improve someone morally or intellectually",
+  "synonyms": [
+   "enlighten",
+   "instruct",
+   "educate"
+  ],
+  "antonyms": [
+   "confuse",
+   "miseducate"
+  ],
+  "example": "The sermon was meant to edify the congregation.",
+  "id": "v-1408"
+ },
+ {
+  "word": "eloquent",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "fluent and persuasive in speaking or writing",
+  "synonyms": [
+   "expressive",
+   "articulate",
+   "moving"
+  ],
+  "antonyms": [
+   "inarticulate",
+   "tongue-tied"
+  ],
+  "example": "She gave an eloquent defense of the plan.",
+  "id": "v-1409"
+ },
+ {
+  "word": "enigma",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person or thing that is mysterious or difficult to understand",
+  "synonyms": [
+   "mystery",
+   "puzzle",
+   "riddle"
+  ],
+  "antonyms": [
+   "clarity",
+   "explanation"
+  ],
+  "example": "Her motives remained an enigma.",
+  "id": "v-1410"
+ },
+ {
+  "word": "enumerate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to mention one by one; to list",
+  "synonyms": [
+   "list",
+   "itemize",
+   "detail"
+  ],
+  "antonyms": [
+   "summarize",
+   "generalize"
+  ],
+  "example": "She enumerated the flaws in the plan.",
+  "id": "v-1411"
+ },
+ {
+  "word": "epicure",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who takes particular pleasure in fine food and drink",
+  "synonyms": [
+   "gourmet",
+   "bon vivant",
+   "sensualist"
+  ],
+  "antonyms": [
+   "ascetic"
+  ],
+  "example": "The epicure sampled every dish.",
+  "id": "v-1412"
+ },
+ {
+  "word": "ersatz",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not genuine or original; substitute",
+  "synonyms": [
+   "fake",
+   "imitation",
+   "synthetic"
+  ],
+  "antonyms": [
+   "genuine",
+   "authentic"
+  ],
+  "example": "The ersatz leather soon began to peel.",
+  "id": "v-1413"
+ },
+ {
+  "word": "esoteric",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "intended for or likely to be understood by only a small number of specialists",
+  "synonyms": [
+   "arcane",
+   "recondite",
+   "obscure"
+  ],
+  "antonyms": [
+   "accessible",
+   "mainstream"
+  ],
+  "example": "His lectures were too esoteric for beginners.",
+  "id": "v-1414"
+ },
+ {
+  "word": "ethos",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the characteristic spirit of a culture or community",
+  "synonyms": [
+   "spirit",
+   "character",
+   "values"
+  ],
+  "antonyms": [
+   "anomie"
+  ],
+  "example": "The company ethos prized innovation.",
+  "id": "v-1415"
+ },
+ {
+  "word": "euphemism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a mild or polite word substituted for one considered harsh",
+  "synonyms": [
+   "softening",
+   "politeness"
+  ],
+  "antonyms": [
+   "dysphemism"
+  ],
+  "example": "Passed away is a euphemism for died.",
+  "id": "v-1416"
+ },
+ {
+  "word": "euphony",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being pleasing to the ear",
+  "synonyms": [
+   "melody",
+   "harmony",
+   "sweetness"
+  ],
+  "antonyms": [
+   "cacophony",
+   "discord"
+  ],
+  "example": "The euphony of her verse is widely admired.",
+  "id": "v-1417"
+ },
+ {
+  "word": "exponent",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who advocates or practices a particular thing",
+  "synonyms": [
+   "advocate",
+   "champion",
+   "promoter"
+  ],
+  "antonyms": [
+   "opponent",
+   "critic"
+  ],
+  "example": "She is the leading exponent of the new method.",
+  "id": "v-1418"
+ },
+ {
+  "word": "expurgate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to remove matter considered objectionable from a text",
+  "synonyms": [
+   "censor",
+   "bowdlerize",
+   "redact"
+  ],
+  "antonyms": [
+   "include",
+   "embellish"
+  ],
+  "example": "They expurgated every profanity from the broadcast.",
+  "id": "v-1419"
+ },
+ {
+  "word": "fanatical",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "filled with excessive and single-minded zeal",
+  "synonyms": [
+   "zealous",
+   "obsessive",
+   "extremist"
+  ],
+  "antonyms": [
+   "moderate",
+   "dispassionate"
+  ],
+  "example": "His fanatical devotion alarmed his friends.",
+  "id": "v-1420"
+ },
+ {
+  "word": "fawn",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to show excessive affection or attention",
+  "synonyms": [
+   "grovel",
+   "toady",
+   "flatter"
+  ],
+  "antonyms": [
+   "rebel",
+   "snub"
+  ],
+  "example": "He fawned over the visiting celebrity.",
+  "id": "v-1421"
+ },
+ {
+  "word": "fetid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "smelling very unpleasant",
+  "synonyms": [
+   "malodorous",
+   "stinking",
+   "noisome"
+  ],
+  "antonyms": [
+   "fragrant",
+   "aromatic"
+  ],
+  "example": "A fetid odor rose from the drain.",
+  "id": "v-1422"
+ },
+ {
+  "word": "flag",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to become weak, less enthusiastic, or less vigorous",
+  "synonyms": [
+   "droop",
+   "falter",
+   "wane"
+  ],
+  "antonyms": [
+   "revive",
+   "invigorate"
+  ],
+  "example": "Her interest flagged after the first hour.",
+  "id": "v-1423"
+ },
+ {
+  "word": "frugality",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being economical with money or food",
+  "synonyms": [
+   "thrift",
+   "economy",
+   "parsimony"
+  ],
+  "antonyms": [
+   "extravagance",
+   "waste"
+  ],
+  "example": "Her frugality earned her a fortune.",
+  "id": "v-1424"
+ },
+ {
+  "word": "gambol",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to run or jump about playfully",
+  "synonyms": [
+   "frolic",
+   "caper",
+   "romp"
+  ],
+  "antonyms": [
+   "lumber",
+   "plod"
+  ],
+  "example": "Lambs gamboled in the spring field.",
+  "id": "v-1425"
+ }
+]

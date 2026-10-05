@@ -1,0 +1,321 @@
+[
+ {
+  "word": "tetralogy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a group of four related literary or operatic works",
+  "synonyms": [
+   "quartet",
+   "series"
+  ],
+  "antonyms": [],
+  "example": "She wrote a tetralogy of novels.",
+  "id": "v-1301"
+ },
+ {
+  "word": "thanatopsis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a view or contemplation of death",
+  "synonyms": [
+   "death view"
+  ],
+  "antonyms": [],
+  "example": "His poem was a thanatopsis.",
+  "id": "v-1302"
+ },
+ {
+  "word": "tmesis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the separation of parts of a compound word by an intervening word",
+  "synonyms": [
+   "word-splitting"
+  ],
+  "antonyms": [],
+  "example": "Tmesis appears in some dialects.",
+  "id": "v-1303"
+ },
+ {
+  "word": "torosity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "bulginess",
+  "synonyms": [
+   "bulginess"
+  ],
+  "antonyms": [],
+  "example": "The torosity of the vessel was obvious.",
+  "id": "v-1304"
+ },
+ {
+  "word": "transshape",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to transform in shape",
+  "synonyms": [
+   "transform"
+  ],
+  "antonyms": [],
+  "example": "The clay transshaped in the kiln.",
+  "id": "v-1305"
+ },
+ {
+  "word": "trochilic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to rotating or whirling",
+  "synonyms": [
+   "rotating"
+  ],
+  "antonyms": [],
+  "example": "The trochilic motion fascinated them.",
+  "id": "v-1306"
+ },
+ {
+  "word": "truncation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the shortening of something by cutting off a part",
+  "synonyms": [
+   "shortening"
+  ],
+  "antonyms": [
+   "extension"
+  ],
+  "example": "Truncation of the sentence was needed.",
+  "id": "v-1307"
+ },
+ {
+  "word": "uniparental",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to one parent",
+  "synonyms": [
+   "single-parent"
+  ],
+  "antonyms": [],
+  "example": "Uniparental care was observed.",
+  "id": "v-1308"
+ },
+ {
+  "word": "vacillant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "hesitating; wavering",
+  "synonyms": [
+   "hesitant",
+   "wavering"
+  ],
+  "antonyms": [
+   "resolute"
+  ],
+  "example": "His vacillant response was frustrating.",
+  "id": "v-1309"
+ },
+ {
+  "word": "veneficial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to poisoning",
+  "synonyms": [
+   "poisonous"
+  ],
+  "antonyms": [],
+  "example": "The veneficial herbs were kept locked.",
+  "id": "v-1310"
+ },
+ {
+  "word": "vespertine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to the evening",
+  "synonyms": [
+   "evening",
+   "night"
+  ],
+  "antonyms": [
+   "morning"
+  ],
+  "example": "Bats are vespertine creatures.",
+  "id": "v-1311"
+ },
+ {
+  "word": "volupty",
+  "tier": 3,
+  "pos": "n",
+  "definition": "sensual pleasure",
+  "synonyms": [
+   "pleasure",
+   "luxury"
+  ],
+  "antonyms": [
+   "asceticism"
+  ],
+  "example": "She was devoted to volupty.",
+  "id": "v-1312"
+ },
+ {
+  "word": "vulgate",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a common or prevailing version of a text",
+  "synonyms": [
+   "common version"
+  ],
+  "antonyms": [],
+  "example": "The vulgate of the manuscript was widely used.",
+  "id": "v-1313"
+ },
+ {
+  "word": "wambling",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "shaky or unsteady",
+  "synonyms": [
+   "unsteady",
+   "shaky"
+  ],
+  "antonyms": [
+   "steady"
+  ],
+  "example": "The wambling ladder was dangerous.",
+  "id": "v-1314"
+ },
+ {
+  "word": "wassail",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a festivity or revelry",
+  "synonyms": [
+   "revelry",
+   "drinking party"
+  ],
+  "antonyms": [],
+  "example": "The wassail continued past midnight.",
+  "id": "v-1315"
+ },
+ {
+  "word": "wamble",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to feel nausea",
+  "synonyms": [
+   "nausea"
+  ],
+  "antonyms": [],
+  "example": "Her stomach began to wamble.",
+  "id": "v-1316"
+ },
+ {
+  "word": "xenodochial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "friendly to strangers",
+  "synonyms": [
+   "hospitable"
+  ],
+  "antonyms": [
+   "xenophobic"
+  ],
+  "example": "Her xenodochial nature made her popular.",
+  "id": "v-1317"
+ },
+ {
+  "word": "xenogenesis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the production of offspring unlike the parents",
+  "synonyms": [
+   "foreign origin"
+  ],
+  "antonyms": [],
+  "example": "Xenogenesis occurs in some species.",
+  "id": "v-1318"
+ },
+ {
+  "word": "xerophagy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "eating of dry food",
+  "synonyms": [
+   "dry eating"
+  ],
+  "antonyms": [],
+  "example": "Xerophagy was a Lenten practice.",
+  "id": "v-1319"
+ },
+ {
+  "word": "yaffil",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the green woodpecker",
+  "synonyms": [
+   "woodpecker"
+  ],
+  "antonyms": [],
+  "example": "The yaffil climbed the oak.",
+  "id": "v-1320"
+ },
+ {
+  "word": "yegg",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a burglar, especially one who cracks safes",
+  "synonyms": [
+   "burglar",
+   "safecracker"
+  ],
+  "antonyms": [],
+  "example": "The yegg cracked the safe at midnight.",
+  "id": "v-1321"
+ },
+ {
+  "word": "yestreen",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "yesterday evening",
+  "synonyms": [
+   "last evening"
+  ],
+  "antonyms": [],
+  "example": "She arrived yestreen.",
+  "id": "v-1322"
+ },
+ {
+  "word": "zamarra",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a sheepskin jacket worn in Spain",
+  "synonyms": [
+   "jacket"
+  ],
+  "antonyms": [],
+  "example": "He wore a zamarra to the rodeo.",
+  "id": "v-1323"
+ },
+ {
+  "word": "zetetic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "proceeding by inquiry or investigation",
+  "synonyms": [
+   "investigative"
+  ],
+  "antonyms": [],
+  "example": "The zetetic method is taught.",
+  "id": "v-1324"
+ },
+ {
+  "word": "zooglea",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a jelly-like mass of bacteria",
+  "synonyms": [
+   "bacterial mass"
+  ],
+  "antonyms": [],
+  "example": "Zooglea clogged the filter.",
+  "id": "v-1325"
+ }
+]

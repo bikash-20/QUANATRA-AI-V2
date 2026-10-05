@@ -1,0 +1,332 @@
+[
+ {
+  "id": "q-geo-286",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle is inscribed in a square of side $10$. What is the area of the circle?",
+  "choices": [
+   "$5\\pi$",
+   "$10\\pi$",
+   "$25\\pi$",
+   "$50\\pi$",
+   "$100\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-287",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The line $y = 4x - 1$ passes through $(a, b)$ and $(a+1, b+8)$. What is $a$?",
+  "choices": [
+   "$1$",
+   "$\\frac{9}{4}$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-288",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of circle with radius $6$",
+  "quantityB": "Circumference of circle with radius $6$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-289",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the diameter of a circle with radius $11$?",
+  "choices": [
+   "$11$",
+   "$14$",
+   "$18$",
+   "$22$",
+   "$44$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-290",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs $6$ and $8$. What is the hypotenuse?",
+  "choices": [
+   "$10$",
+   "$12$",
+   "$14$",
+   "$48$",
+   "$100$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-291",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a rectangle with length $11$ and width $5$?",
+  "choices": [
+   "$16$",
+   "$30$",
+   "$40$",
+   "$55$",
+   "$110$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-292",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(0, 0)$ and $(5, 15)$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$5$",
+   "$10$",
+   "$15$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-293",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $8$?",
+  "choices": [
+   "$8\\pi$",
+   "$16\\pi$",
+   "$32\\pi$",
+   "$64\\pi$",
+   "$96\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-294",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $45$-$45$-$90$ triangle, the hypotenuse is $14$. What is each leg?",
+  "choices": [
+   "$7$",
+   "$7\\sqrt{2}$",
+   "$14\\sqrt{2}$",
+   "$14$",
+   "$7\\sqrt{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-295",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $14$ and height $9$?",
+  "choices": [
+   "$23$",
+   "$63$",
+   "$126$",
+   "$252$",
+   "$14$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-296",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(1, 1)$ and $(4, 5)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-297",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the circumference of a circle with diameter $50$? Use $\\pi \\approx 3.14$.",
+  "answer": 157.0
+ },
+ {
+  "id": "q-geo-298",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isoceles triangle, the apex angle is $80\u00b0$. What is each base angle?",
+  "choices": [
+   "$40\u00b0$",
+   "$50\u00b0$",
+   "$60\u00b0$",
+   "$70\u00b0$",
+   "$80\u00b0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-299",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $7$ and $13$ and height $6$. What is the area?",
+  "choices": [
+   "$60$",
+   "$80$",
+   "$40$",
+   "$120$",
+   "$156$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-300",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $y$-intercept of $y = 5x + 11$?",
+  "choices": [
+   "$0$",
+   "$5$",
+   "$11$",
+   "$16$",
+   "$55$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-301",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with area $144\\pi$?",
+  "choices": [
+   "$8$",
+   "$12$",
+   "$16$",
+   "$24$",
+   "$72$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-302",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two sides of a triangle are $8$ and $13$. Which is a possible length of the third side?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$20$",
+   "$21$",
+   "$25$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-303",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which shapes have area computed by $A = \\pi r^2$?",
+  "choices": [
+   "Square",
+   "Triangle",
+   "Circle",
+   "Rectangle",
+   "Sector"
+  ],
+  "answer": [
+   2,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-304",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(2, 6)$ and $(8, 12)$?",
+  "choices": [
+   "$(3, 7)$",
+   "$(4, 8)$",
+   "$(5, 9)$",
+   "$(5, 7)$",
+   "$(6, 10)$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-305",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two circles of radii $6$ and $8$ have centers $14$ apart. How many points of intersection are there?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 0
+ }
+]

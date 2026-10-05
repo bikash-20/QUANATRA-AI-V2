@@ -1,0 +1,371 @@
+[
+ {
+  "word": "rococo",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "ornate or highly decorated in style",
+  "synonyms": [
+   "ornate",
+   "elaborate"
+  ],
+  "antonyms": [
+   "plain"
+  ],
+  "example": "The rococo ceiling was overdone.",
+  "id": "v-1101"
+ },
+ {
+  "word": "scurrilous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making or spreading scandalous claims about someone",
+  "synonyms": [
+   "slanderous",
+   "defamatory"
+  ],
+  "antonyms": [
+   "complimentary"
+  ],
+  "example": "The tabloid ran scurrilous rumors.",
+  "id": "v-1102"
+ },
+ {
+  "word": "sententious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "given to moralizing in a pompous way",
+  "synonyms": [
+   "moralistic",
+   "preachy"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His sententious remarks irritated us.",
+  "id": "v-1103"
+ },
+ {
+  "word": "sinecure",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a position requiring little or no work but giving the holder status or financial benefit",
+  "synonyms": [
+   "cushy job"
+  ],
+  "antonyms": [
+   "hardship"
+  ],
+  "example": "His role felt like a sinecure.",
+  "id": "v-1104"
+ },
+ {
+  "word": "stygian",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "extremely dark; gloomy",
+  "synonyms": [
+   "pitch-dark",
+   "murky"
+  ],
+  "antonyms": [
+   "bright"
+  ],
+  "example": "The stygian cave swallowed the light.",
+  "id": "v-1105"
+ },
+ {
+  "word": "subliminal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "below the threshold of consciousness",
+  "synonyms": [
+   "subconscious",
+   "unconscious"
+  ],
+  "antonyms": [
+   "conscious"
+  ],
+  "example": "The ad had a subliminal message.",
+  "id": "v-1106"
+ },
+ {
+  "word": "sumptuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "splendid and expensive-looking",
+  "synonyms": [
+   "luxurious",
+   "lavish"
+  ],
+  "antonyms": [
+   "plain"
+  ],
+  "example": "The sumptuous feast impressed the guests.",
+  "id": "v-1107"
+ },
+ {
+  "word": "temerarious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "recklessly daring; rash",
+  "synonyms": [
+   "reckless",
+   "audacious"
+  ],
+  "antonyms": [
+   "cautious"
+  ],
+  "example": "His temerarious climb cost him his life.",
+  "id": "v-1108"
+ },
+ {
+  "word": "tenacious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "tending to keep a firm hold of something; persistent",
+  "synonyms": [
+   "persistent",
+   "stubborn"
+  ],
+  "antonyms": [
+   "yielding"
+  ],
+  "example": "Her tenacious grip saved her from falling.",
+  "id": "v-1109"
+ },
+ {
+  "word": "tergiversate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make conflicting or evasive statements; equivocate",
+  "synonyms": [
+   "equivocate",
+   "waffle"
+  ],
+  "antonyms": [
+   "commit"
+  ],
+  "example": "The witness tergiversated under oath.",
+  "id": "v-1110"
+ },
+ {
+  "word": "tutelary",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "serving as a protector, guardian, or patron",
+  "synonyms": [
+   "protective",
+   "guardian"
+  ],
+  "antonyms": [],
+  "example": "The tutelary spirit watched over the village.",
+  "id": "v-1111"
+ },
+ {
+  "word": "untenable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not able to be maintained or defended",
+  "synonyms": [
+   "indefensible",
+   "unsustainable"
+  ],
+  "antonyms": [
+   "defensible"
+  ],
+  "example": "His position became untenable.",
+  "id": "v-1112"
+ },
+ {
+  "word": "variegated",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "exhibiting different colors, especially as irregular patches or streaks",
+  "synonyms": [
+   "multicolored",
+   "mottled"
+  ],
+  "antonyms": [
+   "uniform"
+  ],
+  "example": "The variegated leaves dazzled the eye.",
+  "id": "v-1113"
+ },
+ {
+  "word": "venial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "denoting a sin that is not regarded as depriving the soul of divine grace",
+  "synonyms": [
+   "minor",
+   "pardonable"
+  ],
+  "antonyms": [
+   "mortal"
+  ],
+  "example": "His lie was venial, not mortal.",
+  "id": "v-1114"
+ },
+ {
+  "word": "vicarious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "experienced in the imagination through the feelings or actions of another person",
+  "synonyms": [
+   "indirect",
+   "empathetic"
+  ],
+  "antonyms": [
+   "direct"
+  ],
+  "example": "She found vicarious joy in his success.",
+  "id": "v-1115"
+ },
+ {
+  "word": "wraithlike",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "like a ghost; pale and thin",
+  "synonyms": [
+   "ghostly",
+   "spectral"
+  ],
+  "antonyms": [
+   "solid"
+  ],
+  "example": "She moved in a wraithlike manner.",
+  "id": "v-1116"
+ },
+ {
+  "word": "yare",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "quick, agile, or lively",
+  "synonyms": [
+   "nimble",
+   "agile"
+  ],
+  "antonyms": [
+   "slow"
+  ],
+  "example": "The boat was yare and easy to handle.",
+  "id": "v-1117"
+ },
+ {
+  "word": "zephyr",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a soft, gentle breeze",
+  "synonyms": [
+   "breeze",
+   "draft"
+  ],
+  "antonyms": [
+   "gust"
+  ],
+  "example": "A cool zephyr rustled the curtains.",
+  "id": "v-1118"
+ },
+ {
+  "word": "zeitgeist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the defining spirit or mood of a particular period of history",
+  "synonyms": [
+   "spirit of the times",
+   "ethos"
+  ],
+  "antonyms": [],
+  "example": "Her work captured the zeitgeist of the era.",
+  "id": "v-1119"
+ },
+ {
+  "word": "accretive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "growing by gradual addition",
+  "synonyms": [
+   "additive",
+   "cumulative"
+  ],
+  "antonyms": [
+   "diminishing"
+  ],
+  "example": "The deal proved accretive to earnings.",
+  "id": "v-1120"
+ },
+ {
+  "word": "adumbration",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a sketchy or faint representation",
+  "synonyms": [
+   "foreshadowing",
+   "outline"
+  ],
+  "antonyms": [
+   "clarification"
+  ],
+  "example": "His letter was an adumbration of intent.",
+  "id": "v-1121"
+ },
+ {
+  "word": "alienate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to cause someone to feel isolated or estranged",
+  "synonyms": [
+   "estrange",
+   "antagonize"
+  ],
+  "antonyms": [
+   "reconcile"
+  ],
+  "example": "His behavior alienated his friends.",
+  "id": "v-1122"
+ },
+ {
+  "word": "amaranthine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unfading; everlasting",
+  "synonyms": [
+   "undying",
+   "eternal"
+  ],
+  "antonyms": [
+   "ephemeral"
+  ],
+  "example": "Their amaranthine love survived decades.",
+  "id": "v-1123"
+ },
+ {
+  "word": "ambages",
+  "tier": 3,
+  "pos": "n",
+  "definition": "roundabout or indirect ways of talking",
+  "synonyms": [
+   "circumlocution"
+  ],
+  "antonyms": [
+   "directness"
+  ],
+  "example": "Speak without ambages, please.",
+  "id": "v-1124"
+ },
+ {
+  "word": "anfractuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "winding or circuitous",
+  "synonyms": [
+   "tortuous",
+   "sinuous"
+  ],
+  "antonyms": [
+   "straight"
+  ],
+  "example": "The anfractuous path confused the hikers.",
+  "id": "v-1125"
+ }
+]

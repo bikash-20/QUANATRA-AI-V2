@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import { checkAnswer, numericAnswerFromInput, qcText } from "@/features/gre/quant/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
 import type { QuantQuestion } from "@/features/gre/content/loader.types";
+import { MarkdownContent } from "@/components/markdown-content";
 
 type ClientQuestion = QuantQuestion;
 
@@ -311,13 +312,27 @@ function MockStem({ cur }: { cur: ClientQuestion }) {
   if (cur.type === "qc") {
     return (
       <div className="space-y-3">
-        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity A:</span> {cur.quantityA}</p>
-        <p className="text-base"><span className="font-semibold text-cyan-200">Quantity B:</span> {cur.quantityB}</p>
-        {cur.common ? <p className="text-sm text-slate-400">Given: {cur.common}</p> : null}
+        <p className="text-base">
+          <span className="font-semibold text-cyan-200">Quantity A:</span>{" "}
+          <MarkdownContent content={cur.quantityA} inline />
+        </p>
+        <p className="text-base">
+          <span className="font-semibold text-cyan-200">Quantity B:</span>{" "}
+          <MarkdownContent content={cur.quantityB} inline />
+        </p>
+        {cur.common ? (
+          <p className="text-sm text-slate-400">
+            Given: <MarkdownContent content={cur.common} inline />
+          </p>
+        ) : null}
       </div>
     );
   }
-  return <p className="text-base">{cur.stem}</p>;
+  return (
+    <p className="text-base">
+      <MarkdownContent content={cur.stem ?? ""} inline />
+    </p>
+  );
 }
 
 function MockInput({
@@ -348,7 +363,7 @@ function MockInput({
                 }`}
               >
                 <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
-                <span>{c}</span>
+                <span><MarkdownContent content={c} inline /></span>
               </button>
             </li>
           );
@@ -376,7 +391,7 @@ function MockInput({
                   }}
                 />
                 <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
-                <span>{c}</span>
+                <span><MarkdownContent content={c} inline /></span>
               </label>
             </li>
           );

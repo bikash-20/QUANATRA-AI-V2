@@ -1,0 +1,369 @@
+[
+ {
+  "word": "connive",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to secretly allow or be involved in wrongdoing",
+  "synonyms": [
+   "conspire",
+   "collude"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "The guard connived at the prisoner's escape.",
+  "id": "v-1026"
+ },
+ {
+  "word": "conundrum",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a confusing and difficult problem",
+  "synonyms": [
+   "puzzle",
+   "enigma"
+  ],
+  "antonyms": [
+   "solution"
+  ],
+  "example": "The team faced a conundrum.",
+  "id": "v-1027"
+ },
+ {
+  "word": "cornucopia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an abundant supply of good things",
+  "synonyms": [
+   "abundance",
+   "profusion"
+  ],
+  "antonyms": [
+   "scarcity"
+  ],
+  "example": "The market offered a cornucopia of choices.",
+  "id": "v-1028"
+ },
+ {
+  "word": "coterminous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having the same boundaries or extent",
+  "synonyms": [
+   "coextensive",
+   "conterminous"
+  ],
+  "antonyms": [
+   "disparate"
+  ],
+  "example": "Their interests were coterminous.",
+  "id": "v-1029"
+ },
+ {
+  "word": "crepuscular",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to twilight; dim",
+  "synonyms": [
+   "twilit",
+   "dim"
+  ],
+  "antonyms": [
+   "bright"
+  ],
+  "example": "Bats emerged at the crepuscular hour.",
+  "id": "v-1030"
+ },
+ {
+  "word": "cumbrous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "slow or inefficient; cumbersome",
+  "synonyms": [
+   "cumbersome",
+   "clumsy"
+  ],
+  "antonyms": [
+   "efficient"
+  ],
+  "example": "The cumbrous machine frustrated workers.",
+  "id": "v-1031"
+ },
+ {
+  "word": "debouch",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to emerge from a narrow or confined space",
+  "synonyms": [
+   "emerge",
+   "issue"
+  ],
+  "antonyms": [
+   "enter"
+  ],
+  "example": "Troops debouched from the valley.",
+  "id": "v-1032"
+ },
+ {
+  "word": "declaim",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to speak dramatically or passionately",
+  "synonyms": [
+   "orate",
+   "perorate"
+  ],
+  "antonyms": [
+   "mumble"
+  ],
+  "example": "She declaimed the lines with gusto.",
+  "id": "v-1033"
+ },
+ {
+  "word": "defalcate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to embezzle or misappropriate funds",
+  "synonyms": [
+   "embezzle",
+   "misappropriate"
+  ],
+  "antonyms": [
+   "repay"
+  ],
+  "example": "The treasurer defalcated thousands.",
+  "id": "v-1034"
+ },
+ {
+  "word": "deipnosophist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who is skilled at the art of dining and dinner-table conversation",
+  "synonyms": [
+   "gourmet",
+   "connoisseur"
+  ],
+  "antonyms": [],
+  "example": "The deipnosophist entertained the guests.",
+  "id": "v-1035"
+ },
+ {
+  "word": "demesne",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a domain or area of activity; an estate",
+  "synonyms": [
+   "domain",
+   "realm"
+  ],
+  "antonyms": [],
+  "example": "She ruled her literary demesne with ease.",
+  "id": "v-1036"
+ },
+ {
+  "word": "demotic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to ordinary people; popular",
+  "synonyms": [
+   "popular",
+   "vernacular"
+  ],
+  "antonyms": [
+   "aristocratic"
+  ],
+  "example": "The demotic style resonated with readers.",
+  "id": "v-1037"
+ },
+ {
+  "word": "denouement",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the final part of a play or story",
+  "synonyms": [
+   "conclusion",
+   "resolution"
+  ],
+  "antonyms": [
+   "beginning"
+  ],
+  "example": "The denouement surprised everyone.",
+  "id": "v-1038"
+ },
+ {
+  "word": "deracinate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to uproot or displace from one's culture",
+  "synonyms": [
+   "uproot",
+   "displace"
+  ],
+  "antonyms": [
+   "establish"
+  ],
+  "example": "The war deracinated entire families.",
+  "id": "v-1039"
+ },
+ {
+  "word": "desuetude",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a state of disuse",
+  "synonyms": [
+   "disuse",
+   "obsolescence"
+  ],
+  "antonyms": [
+   "current use"
+  ],
+  "example": "The law had fallen into desuetude.",
+  "id": "v-1040"
+ },
+ {
+  "word": "discombobulate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to disturb or disconcert someone",
+  "synonyms": [
+   "disconcert",
+   "upset"
+  ],
+  "antonyms": [
+   "compose"
+  ],
+  "example": "The sudden noise discombobulated him.",
+  "id": "v-1041"
+ },
+ {
+  "word": "dissonant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking harmony or agreement; discordant",
+  "synonyms": [
+   "discordant",
+   "conflicting"
+  ],
+  "antonyms": [
+   "harmonious"
+  ],
+  "example": "The dissonant chords jarred listeners.",
+  "id": "v-1042"
+ },
+ {
+  "word": "doggerel",
+  "tier": 3,
+  "pos": "n",
+  "definition": "verse of low or trivial quality",
+  "synonyms": [
+   "poor verse"
+  ],
+  "antonyms": [
+   "fine poetry"
+  ],
+  "example": "The song was amusing doggerel.",
+  "id": "v-1043"
+ },
+ {
+  "word": "doleful",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "expressing sorrow; mournful",
+  "synonyms": [
+   "mournful",
+   "sad"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "She gave a doleful sigh.",
+  "id": "v-1044"
+ },
+ {
+  "word": "dotty",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "eccentric or slightly mad",
+  "synonyms": [
+   "eccentric",
+   "batty"
+  ],
+  "antonyms": [
+   "sane"
+  ],
+  "example": "His dotty uncle told tall tales.",
+  "id": "v-1045"
+ },
+ {
+  "word": "doughty",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "brave and persistent",
+  "synonyms": [
+   "valiant",
+   "stalwart"
+  ],
+  "antonyms": [
+   "cowardly"
+  ],
+  "example": "The doughty knight pressed on.",
+  "id": "v-1046"
+ },
+ {
+  "word": "eleemosynary",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to or dependent on charity",
+  "synonyms": [
+   "charitable",
+   "philanthropic"
+  ],
+  "antonyms": [
+   "commercial"
+  ],
+  "example": "The eleemosynary foundation gave generously.",
+  "id": "v-1047"
+ },
+ {
+  "word": "entomology",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the study of insects",
+  "synonyms": [
+   "insect science"
+  ],
+  "antonyms": [],
+  "example": "She earned a degree in entomology.",
+  "id": "v-1048"
+ },
+ {
+  "word": "ethereal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "extremely delicate and light; heavenly",
+  "synonyms": [
+   "airy",
+   "celestial"
+  ],
+  "antonyms": [
+   "earthly"
+  ],
+  "example": "Her ethereal music filled the hall.",
+  "id": "v-1049"
+ },
+ {
+  "word": "exhort",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to urge or advise strongly",
+  "synonyms": [
+   "urge",
+   "admonish"
+  ],
+  "antonyms": [
+   "dissuade"
+  ],
+  "example": "She exhorted the team to keep trying.",
+  "id": "v-1050"
+ }
+]

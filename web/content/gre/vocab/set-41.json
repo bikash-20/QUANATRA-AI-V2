@@ -1,0 +1,369 @@
+[
+ {
+  "word": "argot",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the jargon or slang of a particular group",
+  "synonyms": [
+   "jargon",
+   "cant"
+  ],
+  "antonyms": [
+   "standard speech"
+  ],
+  "example": "The thieves spoke a secret argot.",
+  "id": "v-1001"
+ },
+ {
+  "word": "assiduous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing great care and persistence",
+  "synonyms": [
+   "diligent",
+   "sedulous"
+  ],
+  "antonyms": [
+   "lazy"
+  ],
+  "example": "Her assiduous research paid off.",
+  "id": "v-1002"
+ },
+ {
+  "word": "atrabilious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "melancholic or bad-tempered",
+  "synonyms": [
+   "morose",
+   "irascible"
+  ],
+  "antonyms": [
+   "genial"
+  ],
+  "example": "His atrabilious mood dampened the party.",
+  "id": "v-1003"
+ },
+ {
+  "word": "autodidact",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a self-taught person",
+  "synonyms": [
+   "self-learner"
+  ],
+  "antonyms": [
+   "pedant"
+  ],
+  "example": "As an autodidact, she missed formal training.",
+  "id": "v-1004"
+ },
+ {
+  "word": "bacchanalian",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "characterized by drunken revelry",
+  "synonyms": [
+   "riotous",
+   "orgiastic"
+  ],
+  "antonyms": [
+   "sober"
+  ],
+  "example": "The bacchanalian feast lasted three days.",
+  "id": "v-1005"
+ },
+ {
+  "word": "banausic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not operating on a refined or elevated level; mundane",
+  "synonyms": [
+   "philistine",
+   "utilitarian"
+  ],
+  "antonyms": [
+   "idealistic"
+  ],
+  "example": "He found office work banausic.",
+  "id": "v-1006"
+ },
+ {
+  "word": "beleaguered",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "put in a very difficult situation",
+  "synonyms": [
+   "besieged",
+   "harassed"
+  ],
+  "antonyms": [
+   "comfortable"
+  ],
+  "example": "The beleaguered captain finally surrendered.",
+  "id": "v-1007"
+ },
+ {
+  "word": "bombinate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to buzz, hum, or drone",
+  "synonyms": [
+   "buzz",
+   "hum"
+  ],
+  "antonyms": [
+   "silence"
+  ],
+  "example": "Bees bombinated around the hive.",
+  "id": "v-1008"
+ },
+ {
+  "word": "brackish",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "somewhat salty; unpalatable",
+  "synonyms": [
+   "salty",
+   "briny"
+  ],
+  "antonyms": [
+   "fresh"
+  ],
+  "example": "The brackish water tasted unpleasant.",
+  "id": "v-1009"
+ },
+ {
+  "word": "bucolic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to the pleasant aspects of country life",
+  "synonyms": [
+   "pastoral",
+   "rural"
+  ],
+  "antonyms": [
+   "urban"
+  ],
+  "example": "She longed for a bucolic retirement.",
+  "id": "v-1010"
+ },
+ {
+  "word": "bumptious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "self-assertive or proud to an annoying degree",
+  "synonyms": [
+   "arrogant",
+   "conceited"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His bumptious manner alienated the team.",
+  "id": "v-1011"
+ },
+ {
+  "word": "cacoethes",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an urge to do something inadvisable; mania",
+  "synonyms": [
+   "mania",
+   "compulsion"
+  ],
+  "antonyms": [
+   "aversion"
+  ],
+  "example": "He had a cacoethes for gambling.",
+  "id": "v-1012"
+ },
+ {
+  "word": "caliginous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "dark, misty, or obscure",
+  "synonyms": [
+   "murky",
+   "dim"
+  ],
+  "antonyms": [
+   "bright"
+  ],
+  "example": "The caliginous tunnel was hard to navigate.",
+  "id": "v-1013"
+ },
+ {
+  "word": "calumniate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make false and defamatory statements about",
+  "synonyms": [
+   "slander",
+   "libel"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He was calumniated in the tabloids.",
+  "id": "v-1014"
+ },
+ {
+  "word": "canaille",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the common people; the masses",
+  "synonyms": [
+   "rabble",
+   "riffraff"
+  ],
+  "antonyms": [
+   "elite"
+  ],
+  "example": "Politicians often dismiss the canaille.",
+  "id": "v-1015"
+ },
+ {
+  "word": "cerulean",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "deep sky blue",
+  "synonyms": [
+   "azure",
+   "sky-blue"
+  ],
+  "antonyms": [
+   "drab"
+  ],
+  "example": "The lake shimmered in cerulean tones.",
+  "id": "v-1016"
+ },
+ {
+  "word": "chiastic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "marked by chiasmus; inverted in parallel",
+  "synonyms": [
+   "symmetrical"
+  ],
+  "antonyms": [],
+  "example": "The poem uses a chiastic structure.",
+  "id": "v-1017"
+ },
+ {
+  "word": "cicatrix",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a scar left by a healed wound",
+  "synonyms": [
+   "scar",
+   "mark"
+  ],
+  "antonyms": [],
+  "example": "A faint cicatrix marked her cheek.",
+  "id": "v-1018"
+ },
+ {
+  "word": "circumlocution",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the use of many words where fewer would do",
+  "synonyms": [
+   "periphrasis",
+   "verbosity"
+  ],
+  "antonyms": [
+   "brevity"
+  ],
+  "example": "His circumlocution tested our patience.",
+  "id": "v-1019"
+ },
+ {
+  "word": "comestible",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an item of food",
+  "synonyms": [
+   "foodstuff",
+   "edible"
+  ],
+  "antonyms": [],
+  "example": "She unpacked the comestibles on the table.",
+  "id": "v-1020"
+ },
+ {
+  "word": "comity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "courtesy and friendly recognition among groups",
+  "synonyms": [
+   "civility",
+   "harmony"
+  ],
+  "antonyms": [
+   "discord"
+  ],
+  "example": "Diplomatic comity eased the talks.",
+  "id": "v-1021"
+ },
+ {
+  "word": "comport",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to behave in a particular way",
+  "synonyms": [
+   "behave",
+   "conduct"
+  ],
+  "antonyms": [
+   "misbehave"
+  ],
+  "example": "She comported herself with dignity.",
+  "id": "v-1022"
+ },
+ {
+  "word": "concatenate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to link together in a series or chain",
+  "synonyms": [
+   "link",
+   "chain"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "The clips were concatenated into one reel.",
+  "id": "v-1023"
+ },
+ {
+  "word": "confabulate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to talk together informally; chat",
+  "synonyms": [
+   "chat",
+   "converse"
+  ],
+  "antonyms": [
+   "remain silent"
+  ],
+  "example": "They confabulated over coffee.",
+  "id": "v-1024"
+ },
+ {
+  "word": "conflate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to combine into one; merge",
+  "synonyms": [
+   "merge",
+   "fuse"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "The writer conflated two events.",
+  "id": "v-1025"
+ }
+]

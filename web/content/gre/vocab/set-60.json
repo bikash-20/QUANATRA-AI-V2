@@ -1,0 +1,369 @@
+[
+ {
+  "word": "sufficient",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "enough; adequate",
+  "synonyms": [
+   "adequate",
+   "ample"
+  ],
+  "antonyms": [
+   "insufficient"
+  ],
+  "example": "We have sufficient evidence.",
+  "id": "v-1476"
+ },
+ {
+  "word": "summarize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to give a brief statement of the main points",
+  "synonyms": [
+   "recap",
+   "condense"
+  ],
+  "antonyms": [
+   "elaborate"
+  ],
+  "example": "Summarize the article.",
+  "id": "v-1477"
+ },
+ {
+  "word": "superior",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "higher in rank, status, or quality",
+  "synonyms": [
+   "better",
+   "greater"
+  ],
+  "antonyms": [
+   "inferior"
+  ],
+  "example": "The product is far superior.",
+  "id": "v-1478"
+ },
+ {
+  "word": "support",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to bear all or part of the weight of something",
+  "synonyms": [
+   "hold up",
+   "assist"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "Support the campaign.",
+  "id": "v-1479"
+ },
+ {
+  "word": "sustain",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to strengthen or support physically or mentally",
+  "synonyms": [
+   "maintain",
+   "preserve"
+  ],
+  "antonyms": [
+   "abandon"
+  ],
+  "example": "She sustained serious injuries.",
+  "id": "v-1480"
+ },
+ {
+  "word": "symbol",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a thing that stands for or represents something else",
+  "synonyms": [
+   "sign",
+   "emblem"
+  ],
+  "antonyms": [],
+  "example": "The dove is a symbol of peace.",
+  "id": "v-1481"
+ },
+ {
+  "word": "target",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person, object, or place selected for attack",
+  "synonyms": [
+   "goal",
+   "aim"
+  ],
+  "antonyms": [],
+  "example": "Set a clear target.",
+  "id": "v-1482"
+ },
+ {
+  "word": "task",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a piece of work to be done or undertaken",
+  "synonyms": [
+   "job",
+   "duty"
+  ],
+  "antonyms": [],
+  "example": "Complete the task by Friday.",
+  "id": "v-1483"
+ },
+ {
+  "word": "technique",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a way of carrying out a particular task",
+  "synonyms": [
+   "method",
+   "approach"
+  ],
+  "antonyms": [],
+  "example": "She learned a new technique.",
+  "id": "v-1484"
+ },
+ {
+  "word": "theory",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a system of ideas intended to explain something",
+  "synonyms": [
+   "hypothesis",
+   "concept"
+  ],
+  "antonyms": [
+   "fact"
+  ],
+  "example": "Test the theory carefully.",
+  "id": "v-1485"
+ },
+ {
+  "word": "threat",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person or thing likely to cause damage or danger",
+  "synonyms": [
+   "danger",
+   "risk"
+  ],
+  "antonyms": [
+   "promise"
+  ],
+  "example": "It posed a serious threat.",
+  "id": "v-1486"
+ },
+ {
+  "word": "thrive",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to prosper; to grow or develop well",
+  "synonyms": [
+   "flourish",
+   "prosper"
+  ],
+  "antonyms": [
+   "struggle"
+  ],
+  "example": "Plants thrive in spring.",
+  "id": "v-1487"
+ },
+ {
+  "word": "transfer",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to move from one place to another",
+  "synonyms": [
+   "move",
+   "relocate"
+  ],
+  "antonyms": [
+   "retain"
+  ],
+  "example": "Transfer the file to disk.",
+  "id": "v-1488"
+ },
+ {
+  "word": "transform",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make a marked change in the form or nature of",
+  "synonyms": [
+   "change",
+   "convert"
+  ],
+  "antonyms": [
+   "preserve"
+  ],
+  "example": "The new law transformed the industry.",
+  "id": "v-1489"
+ },
+ {
+  "word": "transmit",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to cause to pass on or spread",
+  "synonyms": [
+   "send",
+   "convey"
+  ],
+  "antonyms": [
+   "receive"
+  ],
+  "example": "Transmit the signal clearly.",
+  "id": "v-1490"
+ },
+ {
+  "word": "treat",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to behave toward or deal with in a certain way",
+  "synonyms": [
+   "handle",
+   "manage"
+  ],
+  "antonyms": [
+   "neglect"
+  ],
+  "example": "Treat others with respect.",
+  "id": "v-1491"
+ },
+ {
+  "word": "ultimate",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "being or happening at the end of a process; final",
+  "synonyms": [
+   "final",
+   "last"
+  ],
+  "antonyms": [
+   "initial"
+  ],
+  "example": "The ultimate goal is peace.",
+  "id": "v-1492"
+ },
+ {
+  "word": "undergo",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to experience or be subjected to something",
+  "synonyms": [
+   "experience",
+   "endure"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "She underwent surgery.",
+  "id": "v-1493"
+ },
+ {
+  "word": "unique",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "being the only one of its kind; unlike anything else",
+  "synonyms": [
+   "distinct",
+   "singular"
+  ],
+  "antonyms": [
+   "common"
+  ],
+  "example": "Each piece is unique.",
+  "id": "v-1494"
+ },
+ {
+  "word": "utilize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make practical and effective use of",
+  "synonyms": [
+   "use",
+   "employ"
+  ],
+  "antonyms": [
+   "waste"
+  ],
+  "example": "Utilize the available resources.",
+  "id": "v-1495"
+ },
+ {
+  "word": "valid",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "having a sound basis; logically consistent",
+  "synonyms": [
+   "sound",
+   "legitimate"
+  ],
+  "antonyms": [
+   "invalid"
+  ],
+  "example": "The argument is valid.",
+  "id": "v-1496"
+ },
+ {
+  "word": "vary",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to differ in size, amount, degree, or nature",
+  "synonyms": [
+   "differ",
+   "change"
+  ],
+  "antonyms": [
+   "remain same"
+  ],
+  "example": "Results vary widely.",
+  "id": "v-1497"
+ },
+ {
+  "word": "verify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make sure or demonstrate that something is true",
+  "synonyms": [
+   "confirm",
+   "validate"
+  ],
+  "antonyms": [
+   "disprove"
+  ],
+  "example": "Verify the facts.",
+  "id": "v-1498"
+ },
+ {
+  "word": "vital",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "absolutely necessary or important; essential",
+  "synonyms": [
+   "essential",
+   "crucial"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "Water is vital for life.",
+  "id": "v-1499"
+ },
+ {
+  "word": "widespread",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "found or distributed over a large area",
+  "synonyms": [
+   "extensive",
+   "pervasive"
+  ],
+  "antonyms": [
+   "limited"
+  ],
+  "example": "The damage was widespread.",
+  "id": "v-1500"
+ }
+]

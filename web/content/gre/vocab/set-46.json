@@ -1,0 +1,343 @@
+[
+ {
+  "word": "apotheosis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the elevation of someone to divine status",
+  "synonyms": [
+   "deification",
+   "glorification"
+  ],
+  "antonyms": [
+   "degradation"
+  ],
+  "example": "His speech was the apotheosis of rhetoric.",
+  "id": "v-1126"
+ },
+ {
+  "word": "caliginosity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "darkness; obscurity",
+  "synonyms": [
+   "murk",
+   "dimness"
+  ],
+  "antonyms": [
+   "brightness"
+  ],
+  "example": "The caliginosity of the forest unnawed her.",
+  "id": "v-1127"
+ },
+ {
+  "word": "censorious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "severely critical of others",
+  "synonyms": [
+   "critical",
+   "carping"
+  ],
+  "antonyms": [
+   "approving"
+  ],
+  "example": "Her censorious tone alienated the audience.",
+  "id": "v-1128"
+ },
+ {
+  "word": "chimerism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the existence of genetically distinct cells in an organism",
+  "synonyms": [
+   "genetic mix"
+  ],
+  "antonyms": [],
+  "example": "The twin showed chimerism in blood tests.",
+  "id": "v-1129"
+ },
+ {
+  "word": "circumjacent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lying around; surrounding",
+  "synonyms": [
+   "surrounding"
+  ],
+  "antonyms": [],
+  "example": "The circumjacent hills sheltered the village.",
+  "id": "v-1130"
+ },
+ {
+  "word": "consanguineous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "related by blood",
+  "synonyms": [
+   "kin",
+   "related"
+  ],
+  "antonyms": [
+   "unrelated"
+  ],
+  "example": "The consanguineous tribes traded freely.",
+  "id": "v-1131"
+ },
+ {
+  "word": "contretemps",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a minor dispute or disagreement",
+  "synonyms": [
+   "setback",
+   "mishap"
+  ],
+  "antonyms": [
+   "harmony"
+  ],
+  "example": "A contretemps delayed the launch.",
+  "id": "v-1132"
+ },
+ {
+  "word": "crepitate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make a crackling or rattling sound",
+  "synonyms": [
+   "crackle",
+   "rattle"
+  ],
+  "antonyms": [],
+  "example": "The fire crepitated in the hearth.",
+  "id": "v-1133"
+ },
+ {
+  "word": "cunctation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "procrastination or delay",
+  "synonyms": [
+   "delay",
+   "procrastination"
+  ],
+  "antonyms": [
+   "promptness"
+  ],
+  "example": "His cunctation cost him the deal.",
+  "id": "v-1134"
+ },
+ {
+  "word": "debouchment",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an act of emerging from a narrow place",
+  "synonyms": [
+   "emergence"
+  ],
+  "antonyms": [],
+  "example": "The river's debouchment widened into a lake.",
+  "id": "v-1135"
+ },
+ {
+  "word": "deipnophobia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a fear of dinner parties",
+  "synonyms": [
+   "social anxiety"
+  ],
+  "antonyms": [],
+  "example": "Her deipnophobia kept her home.",
+  "id": "v-1136"
+ },
+ {
+  "word": "deliquesce",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to become liquid by absorbing moisture from the air",
+  "synonyms": [
+   "melt",
+   "dissolve"
+  ],
+  "antonyms": [
+   "crystallize"
+  ],
+  "example": "Some salts deliquesce in humid air.",
+  "id": "v-1137"
+ },
+ {
+  "word": "desipience",
+  "tier": 3,
+  "pos": "n",
+  "definition": "foolishness; silliness",
+  "synonyms": [
+   "folly",
+   "nonsense"
+  ],
+  "antonyms": [
+   "wisdom"
+  ],
+  "example": "His desipience was on full display.",
+  "id": "v-1138"
+ },
+ {
+  "word": "doxastic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to belief or opinion",
+  "synonyms": [
+   "belief-based"
+  ],
+  "antonyms": [],
+  "example": "The philosopher studied doxastic logic.",
+  "id": "v-1139"
+ },
+ {
+  "word": "floccinaucinihilipilificate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to consider something as worthless",
+  "synonyms": [
+   "deprecate"
+  ],
+  "antonyms": [
+   "esteem"
+  ],
+  "example": "He tends to floccinaucinihilipilificate new ideas.",
+  "id": "v-1140"
+ },
+ {
+  "word": "fuliginous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sooty; dusky",
+  "synonyms": [
+   "sooty",
+   "smoky"
+  ],
+  "antonyms": [
+   "clean"
+  ],
+  "example": "The fuliginous curtains smelled of smoke.",
+  "id": "v-1141"
+ },
+ {
+  "word": "gormandize",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to eat greedily",
+  "synonyms": [
+   "gluttonize",
+   "gorge"
+  ],
+  "antonyms": [
+   "diet"
+  ],
+  "example": "He gormandized at the buffet.",
+  "id": "v-1142"
+ },
+ {
+  "word": "gustatory",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to the sense of taste",
+  "synonyms": [
+   "taste-related"
+  ],
+  "antonyms": [],
+  "example": "The gustatory experience was sublime.",
+  "id": "v-1143"
+ },
+ {
+  "word": "habiliment",
+  "tier": 3,
+  "pos": "n",
+  "definition": "clothing or dress",
+  "synonyms": [
+   "garments",
+   "attire"
+  ],
+  "antonyms": [],
+  "example": "He donned his finest habiliments for the ball.",
+  "id": "v-1144"
+ },
+ {
+  "word": "hagiography",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a biography that idealizes its subject",
+  "synonyms": [
+   "idealized account"
+  ],
+  "antonyms": [
+   "criticism"
+  ],
+  "example": "The book was hagiography, not history.",
+  "id": "v-1145"
+ },
+ {
+  "word": "heliacal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to or near the sun",
+  "synonyms": [
+   "solar"
+  ],
+  "antonyms": [],
+  "example": "The heliacal rising marked the new year.",
+  "id": "v-1146"
+ },
+ {
+  "word": "hirsute",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "covered with coarse hair",
+  "synonyms": [
+   "hairy",
+   "shaggy"
+  ],
+  "antonyms": [
+   "bald"
+  ],
+  "example": "The hirsute biker startled the clerk.",
+  "id": "v-1147"
+ },
+ {
+  "word": "horology",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the study and measurement of time",
+  "synonyms": [
+   "timekeeping"
+  ],
+  "antonyms": [],
+  "example": "She pursued a degree in horology.",
+  "id": "v-1148"
+ },
+ {
+  "word": "idempotent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "denoting an element of a set which is unchanged in value when multiplied or otherwise operated on by itself",
+  "synonyms": [
+   "unchanging"
+  ],
+  "antonyms": [],
+  "example": "An idempotent operation yields the same result.",
+  "id": "v-1149"
+ },
+ {
+  "word": "imbricate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to lay or overlap in regular order",
+  "synonyms": [
+   "overlap"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "Tiles imbricate on the roof.",
+  "id": "v-1150"
+ }
+]

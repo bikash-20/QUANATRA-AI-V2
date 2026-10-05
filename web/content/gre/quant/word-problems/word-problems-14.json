@@ -1,0 +1,332 @@
+[
+ {
+  "id": "q-wpr-286",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A plane flies $1200$ miles in $4$ hours. What is its speed?",
+  "choices": [
+   "$200$ mph",
+   "$250$ mph",
+   "$300$ mph",
+   "$350$ mph",
+   "$400$ mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-287",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If one worker takes $20$ hours, how long for $4$ workers?",
+  "choices": [
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$6$ hr",
+   "$8$ hr"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-288",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the simple interest on $\\$800$ at $4\\%$ for $5$ years?",
+  "choices": [
+   "$\\$80$",
+   "$\\$100$",
+   "$\\$120$",
+   "$\\$160$",
+   "$\\$200$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-289",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Mixing $40\\%$ and $60\\%$ acid in equal parts gives:",
+  "choices": [
+   "$40\\%$",
+   "$45\\%$",
+   "$50\\%$",
+   "$55\\%$",
+   "$60\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-290",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A $\\$150$ item increases by $20\\%$. What is the new price?",
+  "choices": [
+   "$\\$170$",
+   "$\\$175$",
+   "$\\$180$",
+   "$\\$185$",
+   "$\\$190$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-291",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A car drives $120$ miles at $40$ mph and returns at $30$ mph. Average speed for round trip?",
+  "choices": [
+   "$30$ mph",
+   "$\\sim 34.3$ mph",
+   "$35$ mph",
+   "$40$ mph",
+   "$70$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-292",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A takes $4$ hr, B takes $5$ hr, C takes $10$ hr. All three together:",
+  "choices": [
+   "$\\sim 1.5$ hr",
+   "$\\sim 2$ hr",
+   "$\\sim 2.5$ hr",
+   "$3$ hr",
+   "$5$ hr"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-293",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "At what rate does $\\$500$ grow to $\\$700$ in $4$ years (simple)?",
+  "choices": [
+   "$5\\%$",
+   "$7.5\\%$",
+   "$10\\%$",
+   "$12.5\\%$",
+   "$15\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-294",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many liters of $20\\%$ acid mixed with $20$ liters of $50\\%$ acid gives $40\\%$ acid?",
+  "choices": [
+   "$10$ L",
+   "$15$ L",
+   "$20$ L",
+   "$25$ L",
+   "$30$ L"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-295",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A price drops from $\\$120$ to $\\$90$. What is the percent decrease?",
+  "answer": 25.0
+ },
+ {
+  "id": "q-wpr-296",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A runner jogs $4$ miles at $8$ mph and $4$ miles at $4$ mph. Average speed?",
+  "choices": [
+   "$5$ mph",
+   "$\\sim 5.3$ mph",
+   "$6$ mph",
+   "$8$ mph",
+   "$4$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-297",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Boat speed $20$ mph in still water, current $5$ mph. How long to go $75$ miles upstream?",
+  "choices": [
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$6$ hr",
+   "$7.5$ hr"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-298",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A takes $9$ hr, B takes $6$ hr. Together:",
+  "choices": [
+   "$3$ hr",
+   "$\\sim 3.6$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$15$ hr"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-299",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "$\\$3000$ at $5\\%$ compound for $2$ years is approximately:",
+  "choices": [
+   "$\\$3150$",
+   "$\\$3300$",
+   "$\\$3308$",
+   "$\\$3500$",
+   "$\\$3600$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-300",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "A solution is $35\\%$ acid. Which mixtures could produce this?",
+  "choices": [
+   "Mix $50\\%$ and $20\\%$ in $1:1$",
+   "Mix $70\\%$ and $0\\%$ in $1:1$",
+   "Mix $40\\%$ and $30\\%$ in $1:1$",
+   "Mix $80\\%$ and pure water in $1:3$",
+   "Mix $50\\%$ and pure water in $2:1$"
+  ],
+  "answer": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "q-wpr-301",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two trains $300$ miles apart approach each other. $A$ at $80$ mph, $B$ at $60$ mph. When do they meet?",
+  "choices": [
+   "$\\sim 2.1$ hr",
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$6$ hr"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-302",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Pipe A fills in $6$ hr, B fills in $8$ hr, C empties in $12$ hr. All three together take approximately:",
+  "choices": [
+   "$\\sim 3.4$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$6$ hr",
+   "never fills"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-303",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How long to double $\\$100$ at $5\\%$ simple interest?",
+  "choices": [
+   "$10$ yr",
+   "$15$ yr",
+   "$20$ yr",
+   "$25$ yr",
+   "$30$ yr"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-304",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$50\\%$ increase of $100$, then $25\\%$ decrease",
+  "quantityB": "Original amount $100$",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-305",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A boat goes $80$ miles with current in $2$ hr and same distance against in $4$ hr. Average speed for round trip?",
+  "choices": [
+   "$\\sim 26.7$ mph",
+   "$30$ mph",
+   "$35$ mph",
+   "$40$ mph",
+   "$45$ mph"
+  ],
+  "answer": 0
+ }
+]

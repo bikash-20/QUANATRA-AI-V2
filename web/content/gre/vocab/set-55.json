@@ -1,0 +1,356 @@
+[
+ {
+  "word": "comeliness",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being pleasant or attractive in appearance",
+  "synonyms": [
+   "attractiveness",
+   "beauty"
+  ],
+  "antonyms": [
+   "ugliness"
+  ],
+  "example": "Her comeliness won many admirers.",
+  "id": "v-1351"
+ },
+ {
+  "word": "commensurate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "corresponding in size or degree; in proportion",
+  "synonyms": [
+   "proportionate",
+   "corresponding"
+  ],
+  "antonyms": [
+   "disproportionate"
+  ],
+  "example": "Her salary was commensurate with experience.",
+  "id": "v-1352"
+ },
+ {
+  "word": "concomitant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "naturally accompanying or associated",
+  "synonyms": [
+   "accompanying",
+   "attendant"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "War brings concomitant hardship.",
+  "id": "v-1353"
+ },
+ {
+  "word": "confrere",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a fellow member of a profession or organization",
+  "synonyms": [
+   "colleague",
+   "peer"
+  ],
+  "antonyms": [
+   "stranger"
+  ],
+  "example": "She greeted her confreres at the meeting.",
+  "id": "v-1354"
+ },
+ {
+  "word": "congruent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "in agreement or harmony",
+  "synonyms": [
+   "compatible",
+   "consonant"
+  ],
+  "antonyms": [
+   "incompatible"
+  ],
+  "example": "Their actions were congruent with values.",
+  "id": "v-1355"
+ },
+ {
+  "word": "conspectus",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a general or comprehensive view or survey",
+  "synonyms": [
+   "overview",
+   "survey"
+  ],
+  "antonyms": [],
+  "example": "The book offers a conspectus of modern physics.",
+  "id": "v-1356"
+ },
+ {
+  "word": "contemn",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to treat or regard with contempt",
+  "synonyms": [
+   "scorn",
+   "despise"
+  ],
+  "antonyms": [
+   "respect"
+  ],
+  "example": "He contemned their petty quarrels.",
+  "id": "v-1357"
+ },
+ {
+  "word": "crapulence",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the state of feeling sick from eating or drinking too much",
+  "synonyms": [
+   "indigestion",
+   "sickness"
+  ],
+  "antonyms": [],
+  "example": "His crapulence was his own fault.",
+  "id": "v-1358"
+ },
+ {
+  "word": "deasil",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "clockwise; in the direction of the sun's course",
+  "synonyms": [
+   "clockwise"
+  ],
+  "antonyms": [],
+  "example": "Walk deasil around the stones.",
+  "id": "v-1359"
+ },
+ {
+  "word": "debacle",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a sudden and ignominious failure; a fiasco",
+  "synonyms": [
+   "disaster",
+   "fiasco"
+  ],
+  "antonyms": [
+   "success"
+  ],
+  "example": "The launch ended in debacle.",
+  "id": "v-1360"
+ },
+ {
+  "word": "defeasance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the annulment or voiding of a contract",
+  "synonyms": [
+   "annulment"
+  ],
+  "antonyms": [],
+  "example": "The defeasance was recorded in court.",
+  "id": "v-1361"
+ },
+ {
+  "word": "demulcent",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a soothing substance or medicine",
+  "synonyms": [
+   "soother"
+  ],
+  "antonyms": [],
+  "example": "The demulcent eased her throat.",
+  "id": "v-1362"
+ },
+ {
+  "word": "depredate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to plunder or lay waste to",
+  "synonyms": [
+   "plunder",
+   "raid"
+  ],
+  "antonyms": [
+   "protect"
+  ],
+  "example": "Hordes depredated the countryside.",
+  "id": "v-1363"
+ },
+ {
+  "word": "dialectic",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the art of investigating the truth of opinions by discussion",
+  "synonyms": [
+   "discussion",
+   "debate"
+  ],
+  "antonyms": [],
+  "example": "The dialectic method was Socrates' tool.",
+  "id": "v-1364"
+ },
+ {
+  "word": "didacticism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the practice of teaching, especially with an overly moralizing tone",
+  "synonyms": [
+   "preachiness",
+   "pedantry"
+  ],
+  "antonyms": [],
+  "example": "His didacticism alienated readers.",
+  "id": "v-1365"
+ },
+ {
+  "word": "diffidence",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being modest or shy",
+  "synonyms": [
+   "shyness",
+   "modesty"
+  ],
+  "antonyms": [
+   "confidence"
+  ],
+  "example": "Her diffidence hid great talent.",
+  "id": "v-1366"
+ },
+ {
+  "word": "dight",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to clothe or adorn",
+  "synonyms": [
+   "adorn",
+   "dress"
+  ],
+  "antonyms": [
+   "strip"
+  ],
+  "example": "She was dight in her finest clothes.",
+  "id": "v-1367"
+ },
+ {
+  "word": "dilatoriness",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being slow to act",
+  "synonyms": [
+   "tardiness"
+  ],
+  "antonyms": [
+   "promptness"
+  ],
+  "example": "His dilatoriness cost the company.",
+  "id": "v-1368"
+ },
+ {
+  "word": "disport",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to amuse oneself by playing or leaping about",
+  "synonyms": [
+   "frolic",
+   "play"
+  ],
+  "antonyms": [
+   "languish"
+  ],
+  "example": "Children disported in the yard.",
+  "id": "v-1369"
+ },
+ {
+  "word": "dissimulate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to conceal or disguise one's true feelings",
+  "synonyms": [
+   "feign",
+   "mask"
+  ],
+  "antonyms": [
+   "reveal"
+  ],
+  "example": "He dissimulated his disappointment.",
+  "id": "v-1370"
+ },
+ {
+  "word": "doyen",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the most respected or prominent person in a field",
+  "synonyms": [
+   "elder",
+   "leader"
+  ],
+  "antonyms": [
+   "junior"
+  ],
+  "example": "She is the doyenne of the department.",
+  "id": "v-1371"
+ },
+ {
+  "word": "edifying",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "instructive or informative in a moral or uplifting way",
+  "synonyms": [
+   "instructive",
+   "uplifting"
+  ],
+  "antonyms": [
+   "uninformative"
+  ],
+  "example": "The lecture was edifying.",
+  "id": "v-1372"
+ },
+ {
+  "word": "effulgent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "shining brightly; radiant",
+  "synonyms": [
+   "luminous",
+   "radiant"
+  ],
+  "antonyms": [
+   "dim"
+  ],
+  "example": "The effulgent moon lit the path.",
+  "id": "v-1373"
+ },
+ {
+  "word": "epistemic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to knowledge or the conditions for acquiring it",
+  "synonyms": [
+   "knowledge-related"
+  ],
+  "antonyms": [],
+  "example": "The epistemic method was applied.",
+  "id": "v-1374"
+ },
+ {
+  "word": "estimable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "worthy of esteem; admirable",
+  "synonyms": [
+   "admirable",
+   "respectable"
+  ],
+  "antonyms": [
+   "despicable"
+  ],
+  "example": "He was an estimable colleague.",
+  "id": "v-1375"
+ }
+]

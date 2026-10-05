@@ -1,0 +1,349 @@
+[
+ {
+  "word": "impavid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fearless; undaunted",
+  "synonyms": [
+   "fearless",
+   "brave"
+  ],
+  "antonyms": [
+   "fearful"
+  ],
+  "example": "The impavid soldier led the charge.",
+  "id": "v-1151"
+ },
+ {
+  "word": "innoxious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not harmful; innocuous",
+  "synonyms": [
+   "harmless",
+   "innocuous"
+  ],
+  "antonyms": [
+   "harmful"
+  ],
+  "example": "The innoxious weed posed no threat.",
+  "id": "v-1152"
+ },
+ {
+  "word": "inspissate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to thicken or condense",
+  "synonyms": [
+   "thicken"
+  ],
+  "antonyms": [
+   "thin"
+  ],
+  "example": "Boil the stock to inspissate it.",
+  "id": "v-1153"
+ },
+ {
+  "word": "jocund",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "cheerful and lighthearted",
+  "synonyms": [
+   "merry",
+   "cheerful"
+  ],
+  "antonyms": [
+   "sorrowful"
+  ],
+  "example": "The jocund music lifted spirits.",
+  "id": "v-1154"
+ },
+ {
+  "word": "kakistocracy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "government by the least suitable or competent citizens",
+  "synonyms": [
+   "bad government"
+  ],
+  "antonyms": [
+   "meritocracy"
+  ],
+  "example": "Critics warned of a coming kakistocracy.",
+  "id": "v-1155"
+ },
+ {
+  "word": "larcenist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who commits larceny or theft",
+  "synonyms": [
+   "thief"
+  ],
+  "antonyms": [
+   "donor"
+  ],
+  "example": "The larcenist was caught red-handed.",
+  "id": "v-1156"
+ },
+ {
+  "word": "lethologica",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the inability to remember a particular word or name",
+  "synonyms": [
+   "tip-of-the-tongue"
+  ],
+  "antonyms": [],
+  "example": "Her lethologica made the speech awkward.",
+  "id": "v-1157"
+ },
+ {
+  "word": "limaceous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "resembling a slug",
+  "synonyms": [
+   "slimy",
+   "slug-like"
+  ],
+  "antonyms": [],
+  "example": "He recoiled from the limaceous creature.",
+  "id": "v-1158"
+ },
+ {
+  "word": "macilent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lean, gaunt",
+  "synonyms": [
+   "gaunt",
+   "thin"
+  ],
+  "antonyms": [
+   "plump"
+  ],
+  "example": "His macilent frame showed his poverty.",
+  "id": "v-1159"
+ },
+ {
+  "word": "malison",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a curse",
+  "synonyms": [
+   "curse",
+   "anathema"
+  ],
+  "antonyms": [
+   "blessing"
+  ],
+  "example": "The witch's malison fell on them.",
+  "id": "v-1160"
+ },
+ {
+  "word": "maritorious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "husband-like",
+  "synonyms": [
+   "uxorious"
+  ],
+  "antonyms": [],
+  "example": "His maritorious devotion was touching.",
+  "id": "v-1161"
+ },
+ {
+  "word": "matutinal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or occurring in the morning",
+  "synonyms": [
+   "early",
+   "morning"
+  ],
+  "antonyms": [
+   "evening"
+  ],
+  "example": "She began her matutinal walk at dawn.",
+  "id": "v-1162"
+ },
+ {
+  "word": "memoriter",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "from memory",
+  "synonyms": [
+   "by heart"
+  ],
+  "antonyms": [],
+  "example": "He delivered the poem memoriter.",
+  "id": "v-1163"
+ },
+ {
+  "word": "minacious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "menacing; threatening",
+  "synonyms": [
+   "threatening",
+   "menacing"
+  ],
+  "antonyms": [
+   "reassuring"
+  ],
+  "example": "He gave a minacious glare.",
+  "id": "v-1164"
+ },
+ {
+  "word": "mistigris",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a tabby cat",
+  "synonyms": [
+   "tabby cat"
+  ],
+  "antonyms": [],
+  "example": "A mistigris slept on the porch.",
+  "id": "v-1165"
+ },
+ {
+  "word": "moliminous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having great weight or significance",
+  "synonyms": [
+   "weighty",
+   "important"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "The moliminous decision shaped history.",
+  "id": "v-1166"
+ },
+ {
+  "word": "nidify",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to build a nest",
+  "synonyms": [
+   "nest"
+  ],
+  "antonyms": [],
+  "example": "Birds nidify in spring.",
+  "id": "v-1167"
+ },
+ {
+  "word": "noctambulist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a sleepwalker",
+  "synonyms": [
+   "somnambulist"
+  ],
+  "antonyms": [],
+  "example": "The noctambulist roamed the halls at night.",
+  "id": "v-1168"
+ },
+ {
+  "word": "nocuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "harmful; noxious",
+  "synonyms": [
+   "harmful",
+   "noxious"
+  ],
+  "antonyms": [
+   "harmless"
+  ],
+  "example": "The nocuous fumes made us cough.",
+  "id": "v-1169"
+ },
+ {
+  "word": "obnubilate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to cloud over; obscure",
+  "synonyms": [
+   "darken",
+   "obscure"
+  ],
+  "antonyms": [
+   "clarify"
+  ],
+  "example": "Storm clouds obnubilated the sky.",
+  "id": "v-1170"
+ },
+ {
+  "word": "operose",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "involving or displaying much industry or effort",
+  "synonyms": [
+   "laborious",
+   "painstaking"
+  ],
+  "antonyms": [
+   "easy"
+  ],
+  "example": "His operose research took years.",
+  "id": "v-1171"
+ },
+ {
+  "word": "oppugnant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "hostile; antagonistic",
+  "synonyms": [
+   "hostile",
+   "adversarial"
+  ],
+  "antonyms": [
+   "friendly"
+  ],
+  "example": "His oppugnant tone ended the conversation.",
+  "id": "v-1172"
+ },
+ {
+  "word": "peripeteia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a sudden change of fortune or reversal of circumstances",
+  "synonyms": [
+   "reversal",
+   "turn"
+  ],
+  "antonyms": [],
+  "example": "The hero faced peripeteia in act three.",
+  "id": "v-1173"
+ },
+ {
+  "word": "petulance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being petulant; peevishness",
+  "synonyms": [
+   "peevishness",
+   "irritability"
+  ],
+  "antonyms": [
+   "patience"
+  ],
+  "example": "Her petulance wore thin.",
+  "id": "v-1174"
+ },
+ {
+  "word": "philoprogenitive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fond of offspring; prolific",
+  "synonyms": [
+   "prolific"
+  ],
+  "antonyms": [],
+  "example": "The philoprogenitive couple had many children.",
+  "id": "v-1175"
+ }
+]

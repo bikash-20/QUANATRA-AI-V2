@@ -1,0 +1,326 @@
+[
+ {
+  "id": "q-alg-201",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4x + 8 = 0$, what is $x$?",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-202",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 = 49$, what is the larger value of $x$?",
+  "choices": [
+   "$1$",
+   "$5$",
+   "$7$",
+   "$14$",
+   "$49$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-203",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x \\ge 3$, which of the following could be $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$2.9$",
+   "$2.99$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-204",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $10^x = 10{,}000$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-205",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 11$, what is the larger value of $x$?",
+  "choices": [
+   "$-11$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$11$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-206",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4x - 7 = 2x + 5$, what is $x$?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-207",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the vertex $y$-value of $y = (x-3)^2 + 4$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-208",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3x - 2 < 13$, what is the largest integer value of $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-209",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $3^{x+1} = 81$, what is $x$?",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-210",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-8} - 2|$",
+  "quantityB": "$|8 - 2|$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-211",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $y = 5x - 2$ and $y = 3x + 4$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-212",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the axis of symmetry of $y = x^2 - 6x + 5$?",
+  "choices": [
+   "$x = 2$",
+   "$x = 3$",
+   "$x = 4$",
+   "$x = 5$",
+   "$x = 6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-213",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which values of $x$ satisfy $x^2 - 9 \\le 0$?",
+  "choices": [
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-alg-214",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^x = 64$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-215",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 3| = 5$, what is the smaller value of $x$?",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-216",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\frac{3}{x} - \\frac{1}{x} = 4$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$\\frac{1}{4}$",
+   "$1$",
+   "$2$",
+   "$\\frac{1}{8}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-217",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the smallest value of $k$ such that $x^2 - 6x + k = 0$ has real roots?",
+  "answer": 9
+ },
+ {
+  "id": "q-alg-218",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $n$ does $|n - 2| \\le 7$ hold?",
+  "choices": [
+   "$13$",
+   "$14$",
+   "$15$",
+   "$16$",
+   "$17$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-219",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3^{x^2 - 9} = 27$, what is the positive value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-220",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many real solutions does $|x - 5| + |x + 5| = 12$ have?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ }
+]

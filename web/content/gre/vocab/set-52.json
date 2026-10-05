@@ -1,0 +1,320 @@
+[
+ {
+  "word": "profluent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "flowing freely or abundantly",
+  "synonyms": [
+   "flowing",
+   "abundant"
+  ],
+  "antonyms": [
+   "trickling"
+  ],
+  "example": "The profluent river flooded.",
+  "id": "v-1276"
+ },
+ {
+  "word": "psychogony",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the development of the mind or soul",
+  "synonyms": [
+   "mind development"
+  ],
+  "antonyms": [],
+  "example": "She studied psychogony.",
+  "id": "v-1277"
+ },
+ {
+  "word": "puerperium",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the period after childbirth",
+  "synonyms": [
+   "post-birth period"
+  ],
+  "antonyms": [],
+  "example": "Her puerperium was uneventful.",
+  "id": "v-1278"
+ },
+ {
+  "word": "pulicose",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "full of fleas",
+  "synonyms": [
+   "flea-ridden"
+  ],
+  "antonyms": [],
+  "example": "The pulicose dog scratched.",
+  "id": "v-1279"
+ },
+ {
+  "word": "purtenance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the heart, liver, and lights of an animal",
+  "synonyms": [
+   "offal"
+  ],
+  "antonyms": [],
+  "example": "Purtenance was set aside.",
+  "id": "v-1280"
+ },
+ {
+  "word": "ramekin",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a small dish for baking and serving",
+  "synonyms": [
+   "small dish"
+  ],
+  "antonyms": [],
+  "example": "She baked eggs in a ramekin.",
+  "id": "v-1281"
+ },
+ {
+  "word": "recrudesce",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to break out afresh",
+  "synonyms": [
+   "recur",
+   "return"
+  ],
+  "antonyms": [
+   "subside"
+  ],
+  "example": "The fever recrudesced at midnight.",
+  "id": "v-1282"
+ },
+ {
+  "word": "reunion",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an instance of two or more people coming together again after a period of separation",
+  "synonyms": [
+   "gathering",
+   "assembly"
+  ],
+  "antonyms": [
+   "separation"
+  ],
+  "example": "Their reunion was joyful.",
+  "id": "v-1283"
+ },
+ {
+  "word": "rhododendron",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an evergreen flowering shrub",
+  "synonyms": [
+   "shrub"
+  ],
+  "antonyms": [],
+  "example": "The rhododendron bloomed in spring.",
+  "id": "v-1284"
+ },
+ {
+  "word": "sagittate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "shaped like an arrowhead",
+  "synonyms": [
+   "arrow-shaped"
+  ],
+  "antonyms": [],
+  "example": "The sagittate leaves were easy to identify.",
+  "id": "v-1285"
+ },
+ {
+  "word": "saltigrade",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "moving by leaping",
+  "synonyms": [
+   "leaping"
+  ],
+  "antonyms": [],
+  "example": "The saltigrade insect jumped away.",
+  "id": "v-1286"
+ },
+ {
+  "word": "sanguivorous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "feeding on blood",
+  "synonyms": [
+   "blood-feeding"
+  ],
+  "antonyms": [],
+  "example": "The sanguivorous mosquito bit me.",
+  "id": "v-1287"
+ },
+ {
+  "word": "scolecophagus",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an eater of worms",
+  "synonyms": [
+   "worm-eater"
+  ],
+  "antonyms": [],
+  "example": "The scolecophagus fed heartily.",
+  "id": "v-1288"
+ },
+ {
+  "word": "scopophilia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "pleasure derived from looking",
+  "synonyms": [
+   "voyeurism"
+  ],
+  "antonyms": [],
+  "example": "His scopophilia was troubling.",
+  "id": "v-1289"
+ },
+ {
+  "word": "selcouth",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unfamiliar, rare, strange, wonderful",
+  "synonyms": [
+   "unfamiliar",
+   "wonderful"
+  ],
+  "antonyms": [
+   "familiar"
+  ],
+  "example": "The selcouth sight amazed them.",
+  "id": "v-1290"
+ },
+ {
+  "word": "septiferous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "bearing a fence or barrier",
+  "synonyms": [
+   "barrier-bearing"
+  ],
+  "antonyms": [],
+  "example": "The septiferous wall protected them.",
+  "id": "v-1291"
+ },
+ {
+  "word": "sialagogue",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a substance that promotes the secretion of saliva",
+  "synonyms": [
+   "saliva promoter"
+  ],
+  "antonyms": [],
+  "example": "The sialagogue eased his dry mouth.",
+  "id": "v-1292"
+ },
+ {
+  "word": "siticine",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a glutton",
+  "synonyms": [
+   "glutton"
+  ],
+  "antonyms": [],
+  "example": "The siticine ate too much.",
+  "id": "v-1293"
+ },
+ {
+  "word": "sophisticated",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "having refined or complex qualities",
+  "synonyms": [
+   "refined",
+   "complex"
+  ],
+  "antonyms": [
+   "naive"
+  ],
+  "example": "She gave a sophisticated analysis.",
+  "id": "v-1294"
+ },
+ {
+  "word": "spermatorrhea",
+  "tier": 3,
+  "pos": "n",
+  "definition": "involuntary discharge of semen",
+  "synonyms": [
+   "involuntary discharge"
+  ],
+  "antonyms": [],
+  "example": "Spermatorrhea troubled the patient.",
+  "id": "v-1295"
+ },
+ {
+  "word": "spissitude",
+  "tier": 3,
+  "pos": "n",
+  "definition": "density or thickness",
+  "synonyms": [
+   "thickness",
+   "density"
+  ],
+  "antonyms": [
+   "thinness"
+  ],
+  "example": "The spissitude of the mixture was perfect.",
+  "id": "v-1296"
+ },
+ {
+  "word": "strigil",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an instrument for scraping oil and dirt from the skin",
+  "synonyms": [
+   "scraper"
+  ],
+  "antonyms": [],
+  "example": "The athlete used a strigil after exercise.",
+  "id": "v-1297"
+ },
+ {
+  "word": "superfetation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the occurrence of a second conception during pregnancy",
+  "synonyms": [
+   "second conception"
+  ],
+  "antonyms": [],
+  "example": "Superfetation is extremely rare.",
+  "id": "v-1298"
+ },
+ {
+  "word": "syringa",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the mock orange or lilac",
+  "synonyms": [
+   "lilac"
+  ],
+  "antonyms": [],
+  "example": "The syringaleaves were bright green.",
+  "id": "v-1299"
+ },
+ {
+  "word": "tessellate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to decorate with mosaics",
+  "synonyms": [
+   "mosaic"
+  ],
+  "antonyms": [],
+  "example": "The artist tessellated the floor.",
+  "id": "v-1300"
+ }
+]

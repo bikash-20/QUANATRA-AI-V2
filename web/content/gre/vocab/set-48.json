@@ -1,0 +1,343 @@
+[
+ {
+  "word": "picayune",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of little value or significance",
+  "synonyms": [
+   "trivial",
+   "petty"
+  ],
+  "antonyms": [
+   "important"
+  ],
+  "example": "The dispute was picayune and pointless.",
+  "id": "v-1176"
+ },
+ {
+  "word": "popinjay",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a vain or conceited person",
+  "synonyms": [
+   "fop",
+   "dandy"
+  ],
+  "antonyms": [],
+  "example": "He was a popinjay of fashion.",
+  "id": "v-1177"
+ },
+ {
+  "word": "prolepsis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the anticipation of possible objections in order to forestall them",
+  "synonyms": [
+   "anticipation",
+   "foreshadowing"
+  ],
+  "antonyms": [],
+  "example": "The speech was prolepsis at its finest.",
+  "id": "v-1178"
+ },
+ {
+  "word": "prosopopoeia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a figure of speech in which an absent or imaginary person is represented as speaking",
+  "synonyms": [
+   "personification"
+  ],
+  "antonyms": [],
+  "example": "The poem used prosopopoeia effectively.",
+  "id": "v-1179"
+ },
+ {
+  "word": "quagga",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an extinct horse-like zebra",
+  "synonyms": [
+   "extinct zebra"
+  ],
+  "antonyms": [],
+  "example": "The quagga was hunted to extinction.",
+  "id": "v-1180"
+ },
+ {
+  "word": "quiddity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the inherent nature or essence of someone or something",
+  "synonyms": [
+   "essence",
+   "quintessence"
+  ],
+  "antonyms": [],
+  "example": "She pondered the quiddity of art.",
+  "id": "v-1181"
+ },
+ {
+  "word": "rebarbative",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unattractive and objectionable",
+  "synonyms": [
+   "repulsive",
+   "unpleasant"
+  ],
+  "antonyms": [
+   "attractive"
+  ],
+  "example": "His rebarbative manner turned people off.",
+  "id": "v-1182"
+ },
+ {
+  "word": "saturnine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "slow and gloomy",
+  "synonyms": [
+   "morose",
+   "sullen"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "His saturnine look worried us.",
+  "id": "v-1183"
+ },
+ {
+  "word": "sciolist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who pretends to be knowledgeable in a subject",
+  "synonyms": [
+   "dabbler",
+   "pretender"
+  ],
+  "antonyms": [
+   "expert"
+  ],
+  "example": "He was a sciolist on many topics.",
+  "id": "v-1184"
+ },
+ {
+  "word": "sciolism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "pretentious or superficial knowledge",
+  "synonyms": [
+   "dilettantism",
+   "smattering"
+  ],
+  "antonyms": [
+   "expertise"
+  ],
+  "example": "His sciolism was quickly exposed.",
+  "id": "v-1185"
+ },
+ {
+  "word": "stridulous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making a harsh, shrill, or stridulating noise",
+  "synonyms": [
+   "harsh",
+   "shrill"
+  ],
+  "antonyms": [
+   "soft"
+  ],
+  "example": "The stridulous cry of the cicada filled the air.",
+  "id": "v-1186"
+ },
+ {
+  "word": "subaqueous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "existing, formed, or taking place under water",
+  "synonyms": [
+   "underwater",
+   "submerged"
+  ],
+  "antonyms": [
+   "terrestrial"
+  ],
+  "example": "The subaqueous cable spans the ocean.",
+  "id": "v-1187"
+ },
+ {
+  "word": "tarantism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an urge to overcome melancholy by dancing",
+  "synonyms": [
+   "dancing mania"
+  ],
+  "antonyms": [],
+  "example": "The villagers fell into a tarantism.",
+  "id": "v-1188"
+ },
+ {
+  "word": "tenebrous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "dark; shadowy or obscure",
+  "synonyms": [
+   "dark",
+   "gloomy"
+  ],
+  "antonyms": [
+   "bright"
+  ],
+  "example": "The tenebrous forest frightened us.",
+  "id": "v-1189"
+ },
+ {
+  "word": "testudinal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to or resembling a tortoise",
+  "synonyms": [
+   "tortoise-like"
+  ],
+  "antonyms": [],
+  "example": "He moved with testudinal slowness.",
+  "id": "v-1190"
+ },
+ {
+  "word": "thrasonical",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "boastful, vainglorious",
+  "synonyms": [
+   "boastful",
+   "vainglorious"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His thrasonical claims fell flat.",
+  "id": "v-1191"
+ },
+ {
+  "word": "ululant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "howling or wailing",
+  "synonyms": [
+   "wailing",
+   "howling"
+  ],
+  "antonyms": [
+   "quiet"
+  ],
+  "example": "The ululant wolves filled the night.",
+  "id": "v-1192"
+ },
+ {
+  "word": "urtication",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the act of stinging or the resulting sensation",
+  "synonyms": [
+   "stinging",
+   "prickling"
+  ],
+  "antonyms": [],
+  "example": "The nettles caused urtication on her arm.",
+  "id": "v-1193"
+ },
+ {
+  "word": "valetudinarian",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who is unduly anxious about their health",
+  "synonyms": [
+   "hypochondriac",
+   "invalid"
+  ],
+  "antonyms": [],
+  "example": "He was a valetudinarian of the first order.",
+  "id": "v-1194"
+ },
+ {
+  "word": "venery",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the practice or pursuit of sexual pleasure",
+  "synonyms": [
+   "indulgence"
+  ],
+  "antonyms": [],
+  "example": "Venery was a theme of the novel.",
+  "id": "v-1195"
+ },
+ {
+  "word": "vermicular",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "resembling a worm in form or movement",
+  "synonyms": [
+   "worm-like",
+   "sinuous"
+  ],
+  "antonyms": [],
+  "example": "He made a vermicular motion with his hand.",
+  "id": "v-1196"
+ },
+ {
+  "word": "vulpine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to a fox or foxes; crafty or cunning",
+  "synonyms": [
+   "cunning",
+   "sly"
+  ],
+  "antonyms": [
+   "candid"
+  ],
+  "example": "She wore a vulpine smile.",
+  "id": "v-1197"
+ },
+ {
+  "word": "welkin",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the sky; the vault of heaven",
+  "synonyms": [
+   "sky",
+   "firmament"
+  ],
+  "antonyms": [],
+  "example": "Their cheers reached the welkin.",
+  "id": "v-1198"
+ },
+ {
+  "word": "wight",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person or creature; a being",
+  "synonyms": [
+   "creature",
+   "being"
+  ],
+  "antonyms": [],
+  "example": "He was a sad wight indeed.",
+  "id": "v-1199"
+ },
+ {
+  "word": "zibeline",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to sables",
+  "synonyms": [
+   "sable-like"
+  ],
+  "antonyms": [],
+  "example": "She wore a zibeline coat.",
+  "id": "v-1200"
+ }
+]

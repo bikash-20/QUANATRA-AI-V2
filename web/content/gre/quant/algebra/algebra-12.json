@@ -1,0 +1,328 @@
+[
+ {
+  "id": "q-alg-221",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $7x - 3 = 11$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-222",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 = 64$, what is the smaller value of $x$?",
+  "choices": [
+   "$-8$",
+   "$-4$",
+   "$0$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-223",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x \\le 5$, which of the following could be $x$?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$",
+   "$11$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-224",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5^x = 25$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-225",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 13$, what is the larger value of $x$?",
+  "choices": [
+   "$-13$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$13$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-226",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3x + 5 = 2x + 9$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-227",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the vertex $y$-value of $y = (x+2)^2 - 1$?",
+  "choices": [
+   "$-3$",
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-228",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5x - 3 < 17$, what is the largest integer value of $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-229",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $2^{x+2} = 32$, what is $x$?",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-230",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-6} - 4|$",
+  "quantityB": "$|6 - 4|$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-231",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $y = 4x - 3$ and $y = 2x + 7$, what is $x$?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-232",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the axis of symmetry of $y = x^2 - 8x + 12$?",
+  "choices": [
+   "$x = 3$",
+   "$x = 4$",
+   "$x = 5$",
+   "$x = 6$",
+   "$x = 7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-233",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which values of $x$ satisfy $x^2 - 16 \\le 0$?",
+  "choices": [
+   "$-4$",
+   "$-2$",
+   "$0$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-234",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $9^x = 81$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$\\frac{3}{2}$",
+   "$2$",
+   "$3$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-235",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 4| = 6$, what is the larger value of $x$?",
+  "choices": [
+   "$8$",
+   "$9$",
+   "$10$",
+   "$11$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-236",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\frac{5}{x} - \\frac{2}{x} = 6$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$\\frac{1}{3}$",
+   "$1$",
+   "$2$",
+   "$\\frac{1}{6}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-237",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the smallest value of $k$ such that $x^2 - 8x + k = 0$ has real roots?",
+  "answer": 16
+ },
+ {
+  "id": "q-alg-238",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $n$ does $|n + 3| \\le 6$ hold?",
+  "choices": [
+   "$11$",
+   "$12$",
+   "$13$",
+   "$14$",
+   "$15$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-239",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5^{x^2 - 16} = 125$, what is the smaller positive value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-240",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many real solutions does $|x - 3| + |x + 3| = 8$ have?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ }
+]

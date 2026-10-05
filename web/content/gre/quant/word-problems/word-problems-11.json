@@ -1,0 +1,332 @@
+[
+ {
+  "id": "q-wpr-226",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A car travels $240$ miles in $4$ hours. What is its speed?",
+  "choices": [
+   "$30$ mph",
+   "$45$ mph",
+   "$60$ mph",
+   "$80$ mph",
+   "$240$ mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-227",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If one worker can dig a trench in $12$ hours, how long for $3$ workers (together)?",
+  "choices": [
+   "$2$ hr",
+   "$3$ hr",
+   "$4$ hr",
+   "$6$ hr",
+   "$12$ hr"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-228",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the simple interest on $\\$1000$ at $5\\%$ for $3$ years?",
+  "choices": [
+   "$\\$50$",
+   "$\\$100$",
+   "$\\$150$",
+   "$\\$200$",
+   "$\\$300$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-229",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Mixing $30\\%$ and $50\\%$ solution in equal parts gives what percent?",
+  "choices": [
+   "$30\\%$",
+   "$35\\%$",
+   "$40\\%$",
+   "$45\\%$",
+   "$50\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-230",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A $\\$80$ item increases by $25\\%$. What is the new price?",
+  "choices": [
+   "$\\$90$",
+   "$\\$95$",
+   "$\\$100$",
+   "$\\$105$",
+   "$\\$110$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-231",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A train covers $300$ miles in $5$ hours going and the same distance in $6$ hours returning. What is the average speed for the entire trip?",
+  "choices": [
+   "$\\sim 50$ mph",
+   "$\\sim 54.5$ mph",
+   "$60$ mph",
+   "$55$ mph",
+   "$45$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-232",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Pipe A fills a tank in $4$ hours, Pipe B in $6$ hours. How long do both take together?",
+  "choices": [
+   "$2$ hr",
+   "$\\sim 2.4$ hr",
+   "$3$ hr",
+   "$5$ hr",
+   "$10$ hr"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-233",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "At what annual simple interest rate does $\\$500$ grow to $\\$600$ in $4$ years?",
+  "choices": [
+   "$2.5\\%$",
+   "$5\\%$",
+   "$10\\%$",
+   "$20\\%$",
+   "$25\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-234",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many liters of $30\\%$ acid must be mixed with $10$ liters of $60\\%$ acid to get $40\\%$ acid?",
+  "choices": [
+   "$10$ L",
+   "$15$ L",
+   "$20$ L",
+   "$25$ L",
+   "$30$ L"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-235",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A price drops from $\\$80$ to $\\$60$. What is the percent decrease?",
+  "answer": 25.0
+ },
+ {
+  "id": "q-wpr-236",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A car drives $100$ miles at $50$ mph and $100$ miles at $25$ mph. What is the average speed?",
+  "choices": [
+   "$\\sim 33$ mph",
+   "$37.5$ mph",
+   "$40$ mph",
+   "$50$ mph",
+   "$75$ mph"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-237",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a boat goes $20$ mph in still water and the current is $5$ mph, how long to go $50$ miles upstream?",
+  "choices": [
+   "$1$ hr",
+   "$2$ hr",
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-238",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Worker A takes $6$ hours, Worker B takes $8$ hours. How long do they take together?",
+  "choices": [
+   "$\\sim 3.4$ hr",
+   "$4$ hr",
+   "$5$ hr",
+   "$7$ hr",
+   "$14$ hr"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-239",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "$\\$2000$ at $6\\%$ compound interest for $2$ years is approximately:",
+  "choices": [
+   "$\\$2120$",
+   "$\\$2240$",
+   "$\\$2247$",
+   "$\\$2480$",
+   "$\\$2600$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-240",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "A solution is $40\\%$ alcohol. Which mixtures could produce this?",
+  "choices": [
+   "Mix $50\\%$ and $30\\%$ alcohol",
+   "Mix $80\\%$ and $0\\%$ alcohol in $1:1$",
+   "Mix $60\\%$ and $20\\%$ alcohol in $1:1$",
+   "Mix $100\\%$ and pure water in $2:3$",
+   "Mix $70\\%$ and $10\\%$ alcohol in $3:1$"
+  ],
+  "answer": [
+   0,
+   3
+  ]
+ },
+ {
+  "id": "q-wpr-241",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two trains start from stations $300$ miles apart, heading toward each other. One at $50$ mph, the other at $70$ mph. How long until they meet?",
+  "choices": [
+   "$2$ hr",
+   "$\\sim 2.5$ hr",
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-242",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Three pipes fill a tank in $6$, $8$, and $12$ hours respectively. All three together take approximately:",
+  "choices": [
+   "$2$ hr",
+   "$\\sim 2.5$ hr",
+   "$3$ hr",
+   "$4$ hr",
+   "$5$ hr"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-243",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How long does it take for $\\$1000$ to double at $5\\%$ simple interest?",
+  "choices": [
+   "$10$ yr",
+   "$15$ yr",
+   "$20$ yr",
+   "$25$ yr",
+   "$50$ yr"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-244",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Price after $50\\%$ increase, then $50\\%$ decrease",
+  "quantityB": "Original price",
+  "answer": "B"
+ },
+ {
+  "id": "q-wpr-245",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A plane flies $600$ miles with the wind in $2$ hours and the same distance against the wind in $3$ hours. What is the plane's speed in still air?",
+  "choices": [
+   "$100$ mph",
+   "$125$ mph",
+   "$150$ mph",
+   "$175$ mph",
+   "$200$ mph"
+  ],
+  "answer": 1
+ }
+]

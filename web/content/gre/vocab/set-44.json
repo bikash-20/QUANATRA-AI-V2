@@ -1,0 +1,365 @@
+[
+ {
+  "word": "megalomania",
+  "tier": 3,
+  "pos": "n",
+  "definition": "obsession with grandiose schemes or power",
+  "synonyms": [
+   "grandiosity",
+   "egomania"
+  ],
+  "antonyms": [
+   "modesty"
+  ],
+  "example": "His megalomania alienated his allies.",
+  "id": "v-1076"
+ },
+ {
+  "word": "meretricious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "apparently attractive but having no real value",
+  "synonyms": [
+   "tawdry",
+   "gaudy"
+  ],
+  "antonyms": [
+   "genuine"
+  ],
+  "example": "The trophy was meretricious and flimsy.",
+  "id": "v-1077"
+ },
+ {
+  "word": "mnemonic",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a device such as a pattern of letters that aids memory",
+  "synonyms": [
+   "memory aid"
+  ],
+  "antonyms": [],
+  "example": "He used a mnemonic to remember the list.",
+  "id": "v-1078"
+ },
+ {
+  "word": "mordant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sharp or biting in tone or style",
+  "synonyms": [
+   "caustic",
+   "biting"
+  ],
+  "antonyms": [
+   "gentle"
+  ],
+  "example": "Her mordant humor stung him.",
+  "id": "v-1079"
+ },
+ {
+  "word": "niggling",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "troublesome or petty in a tiresome way",
+  "synonyms": [
+   "trivial",
+   "petty"
+  ],
+  "antonyms": [
+   "major"
+  ],
+  "example": "She fixed the niggling details.",
+  "id": "v-1080"
+ },
+ {
+  "word": "nonpareil",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an unrivalled or matchless person or thing",
+  "synonyms": [
+   "paragon",
+   "model"
+  ],
+  "antonyms": [
+   "mediocrity"
+  ],
+  "example": "She is the nonpareil of the dance world.",
+  "id": "v-1081"
+ },
+ {
+  "word": "obloquy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "strong public criticism or verbal abuse",
+  "synonyms": [
+   "vilification",
+   "abuse"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He suffered the obloquy of the tabloids.",
+  "id": "v-1082"
+ },
+ {
+  "word": "onus",
+  "tier": 3,
+  "pos": "n",
+  "definition": "something that is one's duty or responsibility",
+  "synonyms": [
+   "burden",
+   "obligation"
+  ],
+  "antonyms": [
+   "exemption"
+  ],
+  "example": "The onus of proof lies with you.",
+  "id": "v-1083"
+ },
+ {
+  "word": "opprobrious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "expressing scorn or criticism",
+  "synonyms": [
+   "scornful",
+   "contemptuous"
+  ],
+  "antonyms": [
+   "approving"
+  ],
+  "example": "The article was opprobrious in tone.",
+  "id": "v-1084"
+ },
+ {
+  "word": "palimpsest",
+  "tier": 3,
+  "pos": "n",
+  "definition": "something reused or altered but still bearing visible traces of its earlier form",
+  "synonyms": [
+   "overwritten surface"
+  ],
+  "antonyms": [],
+  "example": "The city is a palimpsest of past civilizations.",
+  "id": "v-1085"
+ },
+ {
+  "word": "pandemic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "prevalent over a whole country or the world",
+  "synonyms": [
+   "widespread",
+   "universal"
+  ],
+  "antonyms": [
+   "local"
+  ],
+  "example": "The pandemic flu spread rapidly.",
+  "id": "v-1086"
+ },
+ {
+  "word": "paradigmatic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "serving as a typical example",
+  "synonyms": [
+   "exemplary",
+   "archetypal"
+  ],
+  "antonyms": [
+   "atypical"
+  ],
+  "example": "Her career is paradigmatic of success.",
+  "id": "v-1087"
+ },
+ {
+  "word": "parturient",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "about to give birth; bringing forth ideas",
+  "synonyms": [
+   "expectant"
+  ],
+  "antonyms": [],
+  "example": "The parturient mother was wheeled into the ward.",
+  "id": "v-1088"
+ },
+ {
+  "word": "pavid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "timid or fearful",
+  "synonyms": [
+   "timorous",
+   "cowardly"
+  ],
+  "antonyms": [
+   "brave"
+  ],
+  "example": "The pavid child hid behind her mother.",
+  "id": "v-1089"
+ },
+ {
+  "word": "percipient",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having a ready insight into and understanding of things",
+  "synonyms": [
+   "perceptive",
+   "discerning"
+  ],
+  "antonyms": [
+   "obtuse"
+  ],
+  "example": "Her percipient comments shaped the strategy.",
+  "id": "v-1090"
+ },
+ {
+  "word": "petrous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "like rock; hard and stony",
+  "synonyms": [
+   "stony",
+   "rocky"
+  ],
+  "antonyms": [
+   "soft"
+  ],
+  "example": "The petrous cliff towered above us.",
+  "id": "v-1091"
+ },
+ {
+  "word": "plangent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "resounding loudly, especially with a plaintive or mournful tone",
+  "synonyms": [
+   "resonant",
+   "plaintive"
+  ],
+  "antonyms": [
+   "muffled"
+  ],
+  "example": "The plangent bell echoed across the harbor.",
+  "id": "v-1092"
+ },
+ {
+  "word": "pleonastic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "expressing something using more words than necessary",
+  "synonyms": [
+   "redundant",
+   "verbose"
+  ],
+  "antonyms": [
+   "concise"
+  ],
+  "example": "The pleonastic prose bored me.",
+  "id": "v-1093"
+ },
+ {
+  "word": "pococurante",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "indifferent; uninterested",
+  "synonyms": [
+   "apathetic",
+   "indifferent"
+  ],
+  "antonyms": [
+   "concerned"
+  ],
+  "example": "Her pococurante attitude annoyed the team.",
+  "id": "v-1094"
+ },
+ {
+  "word": "portentous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "ominously significant or important",
+  "synonyms": [
+   "ominous",
+   "foreboding"
+  ],
+  "antonyms": [
+   "insignificant"
+  ],
+  "example": "The portentous clouds warned of a storm.",
+  "id": "v-1095"
+ },
+ {
+  "word": "preternatural",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "beyond what is normal or natural",
+  "synonyms": [
+   "supernatural",
+   "uncanny"
+  ],
+  "antonyms": [
+   "ordinary"
+  ],
+  "example": "She had a preternatural calm.",
+  "id": "v-1096"
+ },
+ {
+  "word": "pseudepigrapha",
+  "tier": 3,
+  "pos": "n",
+  "definition": "spurious writings purporting to be biblical",
+  "synonyms": [
+   "spurious texts"
+  ],
+  "antonyms": [],
+  "example": "The scholar studied the pseudepigrapha.",
+  "id": "v-1097"
+ },
+ {
+  "word": "pulchritude",
+  "tier": 3,
+  "pos": "n",
+  "definition": "beauty",
+  "synonyms": [
+   "loveliness",
+   "beauty"
+  ],
+  "antonyms": [
+   "ugliness"
+  ],
+  "example": "The painting captured her pulchritude.",
+  "id": "v-1098"
+ },
+ {
+  "word": "quagmire",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an awkward, complex, or hazardous situation",
+  "synonyms": [
+   "predicament",
+   "morass"
+  ],
+  "antonyms": [
+   "easy situation"
+  ],
+  "example": "The negotiation became a quagmire.",
+  "id": "v-1099"
+ },
+ {
+  "word": "redolent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "strongly reminiscent or suggestive of",
+  "synonyms": [
+   "evocative",
+   "suggestive"
+  ],
+  "antonyms": [
+   "unrelated"
+  ],
+  "example": "The kitchen was redolent of garlic.",
+  "id": "v-1100"
+ }
+]

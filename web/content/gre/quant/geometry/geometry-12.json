@@ -1,0 +1,334 @@
+[
+ {
+  "id": "q-geo-246",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of circle with radius $5$",
+  "quantityB": "Circumference of circle with radius $5$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-247",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the diameter of a circle with radius $9$?",
+  "choices": [
+   "$9$",
+   "$12$",
+   "$15$",
+   "$18$",
+   "$36$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-248",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An equilateral triangle has side $5$. What is its perimeter?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-249",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a rectangle with length $7$ and width $4$?",
+  "choices": [
+   "$11$",
+   "$22$",
+   "$28$",
+   "$32$",
+   "$56$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-250",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(1, 1)$ and $(4, 7)$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-251",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $6$?",
+  "choices": [
+   "$6\\pi$",
+   "$12\\pi$",
+   "$24\\pi$",
+   "$36\\pi$",
+   "$48\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-252",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $45$-$45$-$90$ triangle, the hypotenuse is $10$. What is each leg?",
+  "choices": [
+   "$5$",
+   "$5\\sqrt{2}$",
+   "$10\\sqrt{2}$",
+   "$10$",
+   "$5\\sqrt{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-253",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $10$ and height $7$?",
+  "choices": [
+   "$17$",
+   "$35$",
+   "$70$",
+   "$140$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-254",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(0, 0)$ and $(3, 4)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-255",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the circumference of a circle with diameter $20$? Use $\\pi \\approx 3.14$.",
+  "answer": 62.8
+ },
+ {
+  "id": "q-geo-256",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isoceles triangle, the apex angle is $50\u00b0$. What is each base angle?",
+  "choices": [
+   "$50\u00b0$",
+   "$55\u00b0$",
+   "$60\u00b0$",
+   "$65\u00b0$",
+   "$70\u00b0$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-257",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $5$ and $9$ and height $6$. What is the area?",
+  "choices": [
+   "$42$",
+   "$54$",
+   "$60$",
+   "$84$",
+   "$108$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-258",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $y$-intercept of $y = 4x + 7$?",
+  "choices": [
+   "$0$",
+   "$4$",
+   "$7$",
+   "$11$",
+   "$28$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-259",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with area $49\\pi$?",
+  "choices": [
+   "$7$",
+   "$12$",
+   "$14$",
+   "$24$",
+   "$49$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-260",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two sides of a triangle are $5$ and $9$. Which is a possible length of the third side?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$14$",
+   "$15$",
+   "$20$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-261",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of these are units of area?",
+  "choices": [
+   "$\\text{cm}^2$",
+   "$\\text{cm}^3$",
+   "$\\text{in}^2$",
+   "$\\text{ft}^2$",
+   "$\\text{m}^2$"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-geo-262",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(0, 0)$ and $(6, 8)$?",
+  "choices": [
+   "$(2, 3)$",
+   "$(3, 4)$",
+   "$(4, 5)$",
+   "$(5, 6)$",
+   "$(6, 4)$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-263",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two circles of radii $3$ and $4$ have centers $5$ apart. How many points of intersection are there?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-264",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In triangle $ABC$, the sides are $3$, $4$, $6$. What type is the triangle?",
+  "choices": [
+   "Acute",
+   "Right",
+   "Obtuse",
+   "Equilateral",
+   "Isoceles"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-265",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A square is inscribed in a circle of radius $4$. What is the area of the square?",
+  "choices": [
+   "$8$",
+   "$16$",
+   "$32$",
+   "$48$",
+   "$64$"
+  ],
+  "answer": 2
+ }
+]

@@ -1,0 +1,328 @@
+[
+ {
+  "id": "q-alg-241",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $9x + 4 = 22$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-242",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 = 121$, what is the positive value of $x$?",
+  "choices": [
+   "$9$",
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-243",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x \\ge -2$, which of the following could be $x$?",
+  "choices": [
+   "$-5$",
+   "$-3$",
+   "$-1$",
+   "$-7$",
+   "$-9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-244",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^x = 256$, what is $x$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-245",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 4$, what is the smaller value of $x$?",
+  "choices": [
+   "$-4$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$4$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-246",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $7x + 3 = 4x + 15$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-247",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the vertex $y$-value of $y = (x-5)^2 + 2$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-248",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4x - 7 < 13$, what is the largest integer value of $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-249",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $4^{x+1} = 256$, what is $x$?",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-250",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-3} - 7|$",
+  "quantityB": "$|3 - 7|$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-251",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $y = 6x + 1$ and $y = 4x + 9$, what is $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-252",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the axis of symmetry of $y = x^2 - 4x + 7$?",
+  "choices": [
+   "$x = 1$",
+   "$x = 2$",
+   "$x = 3$",
+   "$x = 4$",
+   "$x = 5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-253",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which values of $x$ satisfy $x^2 - 25 \\le 0$?",
+  "choices": [
+   "$-5$",
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$5$"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ {
+  "id": "q-alg-254",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $8^x = 32$, what is $x$?",
+  "choices": [
+   "$\\frac{3}{5}$",
+   "$\\frac{5}{3}$",
+   "$1$",
+   "$2$",
+   "$3$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-255",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 6| = 4$, what is the smaller value of $x$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-256",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\frac{4}{x} + \\frac{1}{x} = 10$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$\\frac{1}{5}$",
+   "$\\frac{1}{10}$",
+   "$1/3$",
+   "$1/4$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-257",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the smallest value of $k$ such that $x^2 - 10x + k = 0$ has real roots?",
+  "answer": 25
+ },
+ {
+  "id": "q-alg-258",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $n$ does $|n + 5| \\le 8$ hold?",
+  "choices": [
+   "$15$",
+   "$16$",
+   "$17$",
+   "$18$",
+   "$19$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-259",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^{x^2 - 25} = 16$, what is the smaller positive value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-260",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many real solutions does $|x - 6| + |x + 6| = 14$ have?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ }
+]

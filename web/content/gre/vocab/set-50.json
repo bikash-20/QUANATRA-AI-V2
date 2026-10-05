@@ -1,0 +1,329 @@
+[
+ {
+  "word": "fandangle",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an elaborate or showy display",
+  "synonyms": [
+   "display",
+   "flourish"
+  ],
+  "antonyms": [
+   "simplicity"
+  ],
+  "example": "The fandangle impressed the guests.",
+  "id": "v-1226"
+ },
+ {
+  "word": "flautist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a flute player",
+  "synonyms": [
+   "flutist"
+  ],
+  "antonyms": [],
+  "example": "The flautist performed beautifully.",
+  "id": "v-1227"
+ },
+ {
+  "word": "floccillation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the act of picking at bedclothes, especially in delirium",
+  "synonyms": [
+   "picking"
+  ],
+  "antonyms": [],
+  "example": "The patient exhibited floccillation.",
+  "id": "v-1228"
+ },
+ {
+  "word": "frangible",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fragile; easily broken",
+  "synonyms": [
+   "breakable",
+   "fragile"
+  ],
+  "antonyms": [
+   "durable"
+  ],
+  "example": "The frangible vase shattered easily.",
+  "id": "v-1229"
+ },
+ {
+  "word": "gabelle",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a tax, especially on salt",
+  "synonyms": [
+   "tax",
+   "levy"
+  ],
+  "antonyms": [],
+  "example": "The gabelle angered the people.",
+  "id": "v-1230"
+ },
+ {
+  "word": "galimatias",
+  "tier": 3,
+  "pos": "n",
+  "definition": "nonsensical or incoherent talk",
+  "synonyms": [
+   "gibberish",
+   "nonsense"
+  ],
+  "antonyms": [
+   "clarity"
+  ],
+  "example": "His galimatias confused everyone.",
+  "id": "v-1231"
+ },
+ {
+  "word": "grandrelle",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a type of yarn",
+  "synonyms": [
+   "yarn"
+  ],
+  "antonyms": [],
+  "example": "She chose grandrelle for the scarf.",
+  "id": "v-1232"
+ },
+ {
+  "word": "haurient",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "swallowing or engulfing",
+  "synonyms": [
+   "devouring"
+  ],
+  "antonyms": [],
+  "example": "The haurient fish leaped for food.",
+  "id": "v-1233"
+ },
+ {
+  "word": "hieratic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or concerning priests",
+  "synonyms": [
+   "priestly",
+   "sacred"
+  ],
+  "antonyms": [
+   "secular"
+  ],
+  "example": "The hieratic script was hard to read.",
+  "id": "v-1234"
+ },
+ {
+  "word": "horripilation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the bristling of hairs on the head or body",
+  "synonyms": [
+   "goosebumps"
+  ],
+  "antonyms": [],
+  "example": "Horripilation ran down my spine.",
+  "id": "v-1235"
+ },
+ {
+  "word": "illative",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to inference",
+  "synonyms": [
+   "inferential"
+  ],
+  "antonyms": [],
+  "example": "The illative reasoning was sound.",
+  "id": "v-1236"
+ },
+ {
+  "word": "imbreviate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to enter into a brief or record",
+  "synonyms": [
+   "record"
+  ],
+  "antonyms": [],
+  "example": "The clerk imbreviated the testimony.",
+  "id": "v-1237"
+ },
+ {
+  "word": "imprecation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a spoken curse",
+  "synonyms": [
+   "curse",
+   "maloerance"
+  ],
+  "antonyms": [
+   "blessing"
+  ],
+  "example": "He muttered imprecations under his breath.",
+  "id": "v-1238"
+ },
+ {
+  "word": "inspissation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the process of thickening",
+  "synonyms": [
+   "thickening"
+  ],
+  "antonyms": [
+   "thinning"
+  ],
+  "example": "Inspissation of the sauce occurred.",
+  "id": "v-1239"
+ },
+ {
+  "word": "irredentist",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to the recovery of lost territory",
+  "synonyms": [
+   "territorial"
+  ],
+  "antonyms": [],
+  "example": "The irredentist movement gained followers.",
+  "id": "v-1240"
+ },
+ {
+  "word": "jocosely",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "in a playful or humorous manner",
+  "synonyms": [
+   "playfully",
+   "humorously"
+  ],
+  "antonyms": [
+   "somberly"
+  ],
+  "example": "He spoke jocosely to ease the mood.",
+  "id": "v-1241"
+ },
+ {
+  "word": "jugulate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to check a disease by extreme measures",
+  "synonyms": [
+   "suppress"
+  ],
+  "antonyms": [],
+  "example": "The doctor tried to jugulate the fever.",
+  "id": "v-1242"
+ },
+ {
+  "word": "kilderkin",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a small cask",
+  "synonyms": [
+   "cask"
+  ],
+  "antonyms": [],
+  "example": "He ordered a kilderkin of ale.",
+  "id": "v-1243"
+ },
+ {
+  "word": "lalapalooza",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an extraordinary thing",
+  "synonyms": [
+   "wonder",
+   "marvel"
+  ],
+  "antonyms": [],
+  "example": "The new show is a real lalapalooza.",
+  "id": "v-1244"
+ },
+ {
+  "word": "larrikin",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a mischievous young person",
+  "synonyms": [
+   "rascal",
+   "ruffian"
+  ],
+  "antonyms": [],
+  "example": "The larrikin painted graffiti at night.",
+  "id": "v-1245"
+ },
+ {
+  "word": "lipothymia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a swoon or faint",
+  "synonyms": [
+   "faint",
+   "swoon"
+  ],
+  "antonyms": [],
+  "example": "She suffered lipothymia in the heat.",
+  "id": "v-1246"
+ },
+ {
+  "word": "lustrum",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a period of five years",
+  "synonyms": [
+   "five years"
+  ],
+  "antonyms": [],
+  "example": "A lustrum of peace followed.",
+  "id": "v-1247"
+ },
+ {
+  "word": "marcandier",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a dealer in scrap metal",
+  "synonyms": [
+   "scavenger"
+  ],
+  "antonyms": [],
+  "example": "The marcandier collected old iron.",
+  "id": "v-1248"
+ },
+ {
+  "word": "matinal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to the morning",
+  "synonyms": [
+   "morning",
+   "early"
+  ],
+  "antonyms": [
+   "evening"
+  ],
+  "example": "She enjoyed matinal walks.",
+  "id": "v-1249"
+ },
+ {
+  "word": "meacock",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a timorous or effeminate person",
+  "synonyms": [
+   "coward"
+  ],
+  "antonyms": [],
+  "example": "He was no meacock.",
+  "id": "v-1250"
+ }
+]

@@ -1,0 +1,420 @@
+[
+ {
+  "word": "garner",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to gather or collect, especially something valued",
+  "synonyms": [
+   "gather",
+   "collect",
+   "accumulate"
+  ],
+  "antonyms": [
+   "disperse",
+   "scatter"
+  ],
+  "example": "She garnered praise for her honesty.",
+  "id": "v-1426"
+ },
+ {
+  "word": "gestation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the process of developing or being developed",
+  "synonyms": [
+   "development",
+   "growth",
+   "pregnancy"
+  ],
+  "antonyms": [
+   "termination"
+  ],
+  "example": "The idea was in gestation for years.",
+  "id": "v-1427"
+ },
+ {
+  "word": "gradation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a scale or series of successive changes",
+  "synonyms": [
+   "gradation",
+   "progression",
+   "shades"
+  ],
+  "antonyms": [
+   "uniformity"
+  ],
+  "example": "There are subtle gradations of meaning.",
+  "id": "v-1428"
+ },
+ {
+  "word": "grievous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "causing severe suffering or distress",
+  "synonyms": [
+   "grave",
+   "serious",
+   "dire"
+  ],
+  "antonyms": [
+   "minor",
+   "trivial"
+  ],
+  "example": "The error caused grievous harm.",
+  "id": "v-1429"
+ },
+ {
+  "word": "grovel",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to lie or crawl abjectly on the ground",
+  "synonyms": [
+   "crawl",
+   "kowtow",
+   "cringe"
+  ],
+  "antonyms": [
+   "arrogate",
+   "dominate"
+  ],
+  "example": "He had to grovel to keep his job.",
+  "id": "v-1430"
+ },
+ {
+  "word": "gullible",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "easily fooled or credulous",
+  "synonyms": [
+   "naive",
+   "trusting",
+   "unsuspecting"
+  ],
+  "antonyms": [
+   "skeptical",
+   "suspicious"
+  ],
+  "example": "The gullible tourist fell for the dealer.",
+  "id": "v-1431"
+ },
+ {
+  "word": "hapless",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unfortunate or unlucky",
+  "synonyms": [
+   "unlucky",
+   "forlorn",
+   "ill-fated"
+  ],
+  "antonyms": [
+   "fortunate",
+   "lucky"
+  ],
+  "example": "The hapless traveler lost his passport.",
+  "id": "v-1432"
+ },
+ {
+  "word": "husband",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to use or manage resources carefully",
+  "synonyms": [
+   "conserve",
+   "manage",
+   "economize"
+  ],
+  "antonyms": [
+   "squander",
+   "waste"
+  ],
+  "example": "They husbanded their savings for years.",
+  "id": "v-1433"
+ },
+ {
+  "word": "hyperbole",
+  "tier": 3,
+  "pos": "n",
+  "definition": "exaggerated statements not meant to be taken literally",
+  "synonyms": [
+   "exaggeration",
+   "overstatement"
+  ],
+  "antonyms": [
+   "understatement",
+   "litotes"
+  ],
+  "example": "Her claim was pure hyperbole, not fact.",
+  "id": "v-1434"
+ },
+ {
+  "word": "idiosyncrasy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a distinctive or peculiar feature or habit",
+  "synonyms": [
+   "peculiarity",
+   "quirk",
+   "eccentricity"
+  ],
+  "antonyms": [
+   "norm",
+   "standard"
+  ],
+  "example": "Wearing mismatched socks is his idiosyncrasy.",
+  "id": "v-1435"
+ },
+ {
+  "word": "imbue",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to inspire or permeate with a feeling or quality",
+  "synonyms": [
+   "inspire",
+   "infuse",
+   "permeate"
+  ],
+  "antonyms": [
+   "strip",
+   "deprive"
+  ],
+  "example": "The coach imbued the team with confidence.",
+  "id": "v-1436"
+ },
+ {
+  "word": "impasse",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a situation in which no progress is possible",
+  "synonyms": [
+   "deadlock",
+   "stalemate",
+   "standstill"
+  ],
+  "antonyms": [
+   "progress",
+   "breakthrough"
+  ],
+  "example": "Negotiations reached an impasse.",
+  "id": "v-1437"
+ },
+ {
+  "word": "impervious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not allowing passage through; unaffected by",
+  "synonyms": [
+   "impenetrable",
+   "immune",
+   "resistant"
+  ],
+  "antonyms": [
+   "permeable",
+   "vulnerable"
+  ],
+  "example": "She seemed impervious to criticism.",
+  "id": "v-1438"
+ },
+ {
+  "word": "impious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking piety or reverence for a god",
+  "synonyms": [
+   "irreverent",
+   "ungodly",
+   "blasphemous"
+  ],
+  "antonyms": [
+   "pious",
+   "devout"
+  ],
+  "example": "The impious remarks shocked the elders.",
+  "id": "v-1439"
+ },
+ {
+  "word": "inexorable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "impossible to stop or prevent; relentless",
+  "synonyms": [
+   "relentless",
+   "unstoppable",
+   "implacable"
+  ],
+  "antonyms": [
+   "yielding",
+   "pliant"
+  ],
+  "example": "The inexorable tide of change swept them away.",
+  "id": "v-1440"
+ },
+ {
+  "word": "ingrate",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an ungrateful person",
+  "synonyms": [
+   "thankless person",
+   "ungrateful wretch"
+  ],
+  "antonyms": [
+   "grateful person"
+  ],
+  "example": "They called him an ingrate for refusing praise.",
+  "id": "v-1441"
+ },
+ {
+  "word": "ingratiate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to bring oneself into favor with someone by flattering",
+  "synonyms": [
+   "court",
+   "flatter",
+   "curry favor"
+  ],
+  "antonyms": [
+   "alienate",
+   "antagonize"
+  ],
+  "example": "He tried to ingratiate himself with the boss.",
+  "id": "v-1442"
+ },
+ {
+  "word": "iniquity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "gross injustice or wickedness",
+  "synonyms": [
+   "wickedness",
+   "evil",
+   "sin"
+  ],
+  "antonyms": [
+   "virtue",
+   "goodness"
+  ],
+  "example": "The novel exposed the iniquities of the regime.",
+  "id": "v-1443"
+ },
+ {
+  "word": "inquest",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a judicial inquiry to determine the cause of a death",
+  "synonyms": [
+   "inquiry",
+   "investigation",
+   "hearing"
+  ],
+  "antonyms": [
+   "verdict"
+  ],
+  "example": "The inquest lasted three days.",
+  "id": "v-1444"
+ },
+ {
+  "word": "insurrection",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a violent uprising against authority",
+  "synonyms": [
+   "rebellion",
+   "revolt",
+   "uprising"
+  ],
+  "antonyms": [
+   "submission",
+   "obedience"
+  ],
+  "example": "The insurrection was quickly crushed.",
+  "id": "v-1445"
+ },
+ {
+  "word": "intractable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "hard to control or deal with",
+  "synonyms": [
+   "stubborn",
+   "unmanageable",
+   "refractory"
+  ],
+  "antonyms": [
+   "manageable",
+   "amenable"
+  ],
+  "example": "The intractable problem defied every solution.",
+  "id": "v-1446"
+ },
+ {
+  "word": "intrepid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fearless; adventurous",
+  "synonyms": [
+   "fearless",
+   "dauntless",
+   "bold"
+  ],
+  "antonyms": [
+   "timid",
+   "fearful"
+  ],
+  "example": "The intrepid explorer pressed deeper into the jungle.",
+  "id": "v-1447"
+ },
+ {
+  "word": "inundate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to overwhelm with things to be dealt with; to swamp",
+  "synonyms": [
+   "flood",
+   "overwhelm",
+   "deluge"
+  ],
+  "antonyms": [
+   "drain",
+   "empty"
+  ],
+  "example": "The agency was inundated with requests.",
+  "id": "v-1448"
+ },
+ {
+  "word": "invective",
+  "tier": 3,
+  "pos": "n",
+  "definition": "insulting or abusive language",
+  "synonyms": [
+   "abuse",
+   "vituperation",
+   "tirade"
+  ],
+  "antonyms": [
+   "praise",
+   "commendation"
+  ],
+  "example": "His speech was full of invective.",
+  "id": "v-1449"
+ },
+ {
+  "word": "investiture",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the action of formally giving someone a rank or office",
+  "synonyms": [
+   "installation",
+   "inauguration",
+   "investing"
+  ],
+  "antonyms": [
+   "deposition"
+  ],
+  "example": "The investiture took place in the chapel.",
+  "id": "v-1450"
+ }
+]

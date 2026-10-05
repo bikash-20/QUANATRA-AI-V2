@@ -1,0 +1,336 @@
+[
+ {
+  "word": "zymurgy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the branch of chemistry that deals with fermentation",
+  "synonyms": [
+   "brewing science"
+  ],
+  "antonyms": [],
+  "example": "She studied zymurgy at the university.",
+  "id": "v-1201"
+ },
+ {
+  "word": "aporia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an irresolvable internal contradiction or logical disjunction in a text",
+  "synonyms": [
+   "doubt",
+   "contradiction"
+  ],
+  "antonyms": [
+   "certainty"
+  ],
+  "example": "The philosopher noted an aporia in the argument.",
+  "id": "v-1202"
+ },
+ {
+  "word": "autochthonous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "indigenous; native to a place",
+  "synonyms": [
+   "indigenous",
+   "native"
+  ],
+  "antonyms": [
+   "foreign"
+  ],
+  "example": "Autochthonous traditions were celebrated.",
+  "id": "v-1203"
+ },
+ {
+  "word": "bouffage",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a grand feast",
+  "synonyms": [
+   "feast",
+   "banquet"
+  ],
+  "antonyms": [
+   "famine"
+  ],
+  "example": "The king hosted a bouffage for the ambassadors.",
+  "id": "v-1204"
+ },
+ {
+  "word": "bumptiousness",
+  "tier": 3,
+  "pos": "n",
+  "definition": "arrogant self-assertiveness",
+  "synonyms": [
+   "arrogance",
+   "presumption"
+  ],
+  "antonyms": [
+   "humility"
+  ],
+  "example": "His bumptiousness alienated the voters.",
+  "id": "v-1205"
+ },
+ {
+  "word": "calque",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a loan translation",
+  "synonyms": [
+   "loanword"
+  ],
+  "antonyms": [],
+  "example": "Many phrases are calques from English.",
+  "id": "v-1206"
+ },
+ {
+  "word": "catharsis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the process of releasing strong emotions",
+  "synonyms": [
+   "purgation",
+   "release"
+  ],
+  "antonyms": [
+   "suppression"
+  ],
+  "example": "The tragedy provided catharsis for the audience.",
+  "id": "v-1207"
+ },
+ {
+  "word": "celadon",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a pale grayish green color",
+  "synonyms": [
+   "pale green"
+  ],
+  "antonyms": [],
+  "example": "The celadon vase glowed in the light.",
+  "id": "v-1208"
+ },
+ {
+  "word": "chantage",
+  "tier": 1,
+  "pos": "n",
+  "definition": "blackmail",
+  "synonyms": [
+   "blackmail"
+  ],
+  "antonyms": [],
+  "example": "She refused to engage in chantage.",
+  "id": "v-1209"
+ },
+ {
+  "word": "claudication",
+  "tier": 3,
+  "pos": "n",
+  "definition": "limping or lameness",
+  "synonyms": [
+   "lameness"
+  ],
+  "antonyms": [],
+  "example": "His claudication slowed his gait.",
+  "id": "v-1210"
+ },
+ {
+  "word": "colporteur",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who sells or distributes books or religious tracts",
+  "synonyms": [
+   "peddler"
+  ],
+  "antonyms": [],
+  "example": "The colporteur walked door to door with books.",
+  "id": "v-1211"
+ },
+ {
+  "word": "comitative",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "denoting a case expressing accompaniment",
+  "synonyms": [
+   "accompanying"
+  ],
+  "antonyms": [],
+  "example": "The comitative case shows social group.",
+  "id": "v-1212"
+ },
+ {
+  "word": "cordillera",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a system or group of parallel mountain ranges",
+  "synonyms": [
+   "mountain chain"
+  ],
+  "antonyms": [],
+  "example": "The Andes form a vast cordillera.",
+  "id": "v-1213"
+ },
+ {
+  "word": "cornucopian",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "abundantly productive",
+  "synonyms": [
+   "abundant",
+   "productive"
+  ],
+  "antonyms": [
+   "scarce"
+  ],
+  "example": "The cornucopian harvest fed the village.",
+  "id": "v-1214"
+ },
+ {
+  "word": "cryptomnesia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the appearance of memory for an event without recollection of having experienced it",
+  "synonyms": [
+   "hidden memory"
+  ],
+  "antonyms": [],
+  "example": "The case involved cryptomnesia.",
+  "id": "v-1215"
+ },
+ {
+  "word": "cynanthropy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a delusion in which one believes oneself to be a dog",
+  "synonyms": [
+   "lycanthropy"
+  ],
+  "antonyms": [],
+  "example": "Cynanthropy is a rare condition.",
+  "id": "v-1216"
+ },
+ {
+  "word": "delirium",
+  "tier": 2,
+  "pos": "n",
+  "definition": "an acutely disturbed state of mind",
+  "synonyms": [
+   "frenzy",
+   "mania"
+  ],
+  "antonyms": [
+   "composure"
+  ],
+  "example": "She fell into a delirium after the fever.",
+  "id": "v-1217"
+ },
+ {
+  "word": "deontic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to duty and moral obligation",
+  "synonyms": [
+   "obligatory"
+  ],
+  "antonyms": [],
+  "example": "The philosopher studied deontic logic.",
+  "id": "v-1218"
+ },
+ {
+  "word": "desiderata",
+  "tier": 3,
+  "pos": "n",
+  "definition": "things that are needed or wanted",
+  "synonyms": [
+   "needs",
+   "wishes"
+  ],
+  "antonyms": [],
+  "example": "These items are on my desiderata.",
+  "id": "v-1219"
+ },
+ {
+  "word": "diuturnal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of long duration",
+  "synonyms": [
+   "long-lasting"
+  ],
+  "antonyms": [
+   "short"
+  ],
+  "example": "His diuturnal illness lasted decades.",
+  "id": "v-1220"
+ },
+ {
+  "word": "dovetail",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to fit together neatly or conveniently",
+  "synonyms": [
+   "fit",
+   "interlock"
+  ],
+  "antonyms": [
+   "clash"
+  ],
+  "example": "The pieces dovetailed into a solution.",
+  "id": "v-1221"
+ },
+ {
+  "word": "equipoise",
+  "tier": 3,
+  "pos": "n",
+  "definition": "balance of forces or interests",
+  "synonyms": [
+   "balance",
+   "equilibrium"
+  ],
+  "antonyms": [
+   "imbalance"
+  ],
+  "example": "She maintained her equipoise under stress.",
+  "id": "v-1222"
+ },
+ {
+  "word": "estivate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to spend the summer in a dormant state",
+  "synonyms": [
+   "summer-dormant"
+  ],
+  "antonyms": [
+   "hibernate"
+  ],
+  "example": "Some animals estivate to escape heat.",
+  "id": "v-1223"
+ },
+ {
+  "word": "exsert",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to thrust out",
+  "synonyms": [
+   "protrude"
+  ],
+  "antonyms": [
+   "retract"
+  ],
+  "example": "The plant exserted its stamens.",
+  "id": "v-1224"
+ },
+ {
+  "word": "fabricatress",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a female fabricator",
+  "synonyms": [
+   "maker"
+  ],
+  "antonyms": [],
+  "example": "The fabricatress assembled the device.",
+  "id": "v-1225"
+ }
+]

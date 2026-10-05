@@ -1,0 +1,365 @@
+[
+ {
+  "word": "fabulist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who composes or relates fables",
+  "synonyms": [
+   "storyteller",
+   "mythmaker"
+  ],
+  "antonyms": [],
+  "example": "The fabulist enchanted the children.",
+  "id": "v-1051"
+ },
+ {
+  "word": "factious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to or causing disagreement",
+  "synonyms": [
+   "divisive",
+   "contentious"
+  ],
+  "antonyms": [
+   "unifying"
+  ],
+  "example": "The party split into factious camps.",
+  "id": "v-1052"
+ },
+ {
+  "word": "farrago",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a confused mixture; a hodgepodge",
+  "synonyms": [
+   "mishmash",
+   "jumble"
+  ],
+  "antonyms": [
+   "orderly set"
+  ],
+  "example": "His essay was a farrago of ideas.",
+  "id": "v-1053"
+ },
+ {
+  "word": "fissiparous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "inclined to cause or undergo division into separate parts",
+  "synonyms": [
+   "splintering"
+  ],
+  "antonyms": [
+   "unifying"
+  ],
+  "example": "The fissiparous movement soon fractured.",
+  "id": "v-1054"
+ },
+ {
+  "word": "flagitious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "shockingly wicked or criminal",
+  "synonyms": [
+   "heinous",
+   "atrocious"
+  ],
+  "antonyms": [
+   "exemplary"
+  ],
+  "example": "The dictator's flagitious acts were condemned.",
+  "id": "v-1055"
+ },
+ {
+  "word": "froward",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "habitually disposed to disobedience and opposition",
+  "synonyms": [
+   "contrary",
+   "willful"
+  ],
+  "antonyms": [
+   "compliant"
+  ],
+  "example": "The froward child refused to eat.",
+  "id": "v-1056"
+ },
+ {
+  "word": "glabrous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "free from hair or down; smooth",
+  "synonyms": [
+   "smooth",
+   "hairless"
+  ],
+  "antonyms": [
+   "hairy"
+  ],
+  "example": "The leaf's glabrous surface shone.",
+  "id": "v-1057"
+ },
+ {
+  "word": "gloaming",
+  "tier": 3,
+  "pos": "n",
+  "definition": "twilight; dusk",
+  "synonyms": [
+   "dusk",
+   "twilight"
+  ],
+  "antonyms": [
+   "dawn"
+  ],
+  "example": "They walked home in the gloaming.",
+  "id": "v-1058"
+ },
+ {
+  "word": "gormless",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking sense or initiative; foolish",
+  "synonyms": [
+   "foolish",
+   "dim"
+  ],
+  "antonyms": [
+   "shrewd"
+  ],
+  "example": "His gormless questions embarrassed him.",
+  "id": "v-1059"
+ },
+ {
+  "word": "guffaw",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a loud and boisterous laugh",
+  "synonyms": [
+   "cackle",
+   "roar"
+  ],
+  "antonyms": [
+   "whisper"
+  ],
+  "example": "A guffaw echoed through the room.",
+  "id": "v-1060"
+ },
+ {
+  "word": "hamartia",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a tragic flaw that causes a character's downfall",
+  "synonyms": [
+   "fatal flaw",
+   "weakness"
+  ],
+  "antonyms": [
+   "strength"
+  ],
+  "example": "His hamartia was unchecked pride.",
+  "id": "v-1061"
+ },
+ {
+  "word": "haptic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to the sense of touch",
+  "synonyms": [
+   "tactile"
+  ],
+  "antonyms": [],
+  "example": "The device provides haptic feedback.",
+  "id": "v-1062"
+ },
+ {
+  "word": "hegemony",
+  "tier": 3,
+  "pos": "n",
+  "definition": "leadership or dominance over others",
+  "synonyms": [
+   "dominance",
+   "supremacy"
+  ],
+  "antonyms": [
+   "subordination"
+  ],
+  "example": "The empire asserted its hegemony.",
+  "id": "v-1063"
+ },
+ {
+  "word": "hermetic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "complete and airtight; sealed",
+  "synonyms": [
+   "sealed",
+   "airtight"
+  ],
+  "antonyms": [
+   "open"
+  ],
+  "example": "The lab was hermetic and secure.",
+  "id": "v-1064"
+ },
+ {
+  "word": "hircine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or resembling a goat",
+  "synonyms": [
+   "goatish"
+  ],
+  "antonyms": [],
+  "example": "His hircine face amused the children.",
+  "id": "v-1065"
+ },
+ {
+  "word": "hubristic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "excessively proud or self-confident",
+  "synonyms": [
+   "arrogant",
+   "overconfident"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His hubristic prediction failed.",
+  "id": "v-1066"
+ },
+ {
+  "word": "inculcate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to instill an attitude or idea by persistent instruction",
+  "synonyms": [
+   "instill",
+   "teach"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "Parents inculcate values in their children.",
+  "id": "v-1067"
+ },
+ {
+  "word": "interstice",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a small or narrow space between things",
+  "synonyms": [
+   "gap",
+   "crack"
+  ],
+  "antonyms": [
+   "solid"
+  ],
+  "example": "Light filtered through the interstices.",
+  "id": "v-1068"
+ },
+ {
+  "word": "itinerant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "traveling from place to place",
+  "synonyms": [
+   "nomadic",
+   "peripatetic"
+  ],
+  "antonyms": [
+   "settled"
+  ],
+  "example": "He worked as an itinerant musician.",
+  "id": "v-1069"
+ },
+ {
+  "word": "jingoistic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "characterized by extreme patriotism",
+  "synonyms": [
+   "chauvinistic",
+   "nationalistic"
+  ],
+  "antonyms": [
+   "pacifist"
+  ],
+  "example": "His jingoistic speech alarmed allies.",
+  "id": "v-1070"
+ },
+ {
+  "word": "juggernaut",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a huge, powerful, and overwhelming force or institution",
+  "synonyms": [
+   "behemoth",
+   "leviathan"
+  ],
+  "antonyms": [
+   "weakling"
+  ],
+  "example": "The campaign became a political juggernaut.",
+  "id": "v-1071"
+ },
+ {
+  "word": "lionize",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to treat as a celebrity or hero",
+  "synonyms": [
+   "celebrate",
+   "glorify"
+  ],
+  "antonyms": [
+   "criticize"
+  ],
+  "example": "The press lionized the young author.",
+  "id": "v-1072"
+ },
+ {
+  "word": "logorrhea",
+  "tier": 3,
+  "pos": "n",
+  "definition": "excessive and often incoherent talkativeness",
+  "synonyms": [
+   "verbosity",
+   "garrulity"
+  ],
+  "antonyms": [
+   "taciturnity"
+  ],
+  "example": "His logorrhea bored the audience.",
+  "id": "v-1073"
+ },
+ {
+  "word": "maculate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to spot, stain, or blemish",
+  "synonyms": [
+   "stain",
+   "spot"
+  ],
+  "antonyms": [
+   "cleanse"
+  ],
+  "example": "The spill maculated the rug.",
+  "id": "v-1074"
+ },
+ {
+  "word": "malapropism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the mistaken use of a word in place of a similar-sounding one",
+  "synonyms": [
+   "verbal blunder"
+  ],
+  "antonyms": [],
+  "example": "Her malapropism made us laugh.",
+  "id": "v-1075"
+ }
+]

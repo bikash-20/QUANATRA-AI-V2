@@ -1,0 +1,332 @@
+[
+ {
+  "id": "q-dat-226",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mean of $\\{3, 7, 11\\}$?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$",
+   "$11$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-227",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A die is rolled. What is the probability of getting an even number?",
+  "choices": [
+   "$\\frac{1}{6}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{3}$",
+   "$\\frac{5}{6}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-228",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can you arrange the letters in the word CAT?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$9$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-229",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the median of $\\{4, 8, 12, 16\\}$?",
+  "choices": [
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$",
+   "$16$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-230",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many different 2-letter codes can be made from $26$ letters?",
+  "choices": [
+   "$52$",
+   "$169$",
+   "$338$",
+   "$676$",
+   "$1352$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-231",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mode of $\\{2, 3, 3, 5, 7, 7, 7, 9\\}$?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$",
+   "$4.5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-232",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two dice are rolled. What is the probability of getting a sum of $7$?",
+  "choices": [
+   "$\\frac{1}{12}$",
+   "$\\frac{1}{9}$",
+   "$\\frac{1}{6}$",
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{3}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-233",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many $4$-digit numbers can be formed using digits $0$-$9$?",
+  "choices": [
+   "$1000$",
+   "$5040$",
+   "$6561$",
+   "$9000$",
+   "$10000$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-234",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the standard deviation of $\\{2, 4, 6\\}$?",
+  "answer": 2.83
+ },
+ {
+  "id": "q-dat-235",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A bag contains $3$ red and $7$ blue balls. What is the probability of drawing a red ball?",
+  "choices": [
+   "$\\frac{1}{10}$",
+   "$\\frac{3}{10}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{7}{10}$",
+   "$\\frac{3}{7}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-236",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can a committee of $3$ be chosen from $8$ people?",
+  "choices": [
+   "$24$",
+   "$56$",
+   "$120$",
+   "$336$",
+   "$512$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-237",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The mean of $5$ numbers is $10$. If one number is removed, the mean becomes $9$. What was the removed number?",
+  "choices": [
+   "$13$",
+   "$14$",
+   "$15$",
+   "$16$",
+   "$17$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-238",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A coin is flipped $3$ times. What is the probability of exactly $2$ heads?",
+  "choices": [
+   "$\\frac{1}{8}$",
+   "$\\frac{2}{8}$",
+   "$\\frac{3}{8}$",
+   "$\\frac{4}{8}$",
+   "$\\frac{6}{8}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-239",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following equal $5!$?",
+  "choices": [
+   "$20$",
+   "$60$",
+   "$100$",
+   "$120$",
+   "$240$"
+  ],
+  "answer": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "q-dat-240",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the variance of $\\{2, 4, 6, 8, 10\\}$?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-241",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a class, the median score is $80$ and the range is $40$. Which is necessarily true?",
+  "choices": [
+   "All scores are between $60$ and $100$",
+   "At least one score is $80$",
+   "The mean is $80$",
+   "The mode is $80$",
+   "Exactly half are above $80$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-242",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Five cards are dealt from a $52$-card deck. What is the probability of getting all hearts?",
+  "choices": [
+   "$\\frac{1}{500}$",
+   "$\\frac{1}{1000}$",
+   "$\\frac{1}{2000}$",
+   "$\\frac{1}{5000}$",
+   "$\\frac{1}{10000}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-243",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many distinct ways can you seat $6$ people around a round table?",
+  "choices": [
+   "$120$",
+   "$360$",
+   "$720$",
+   "$5040$",
+   "$40320$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-244",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The mean of $10$ numbers is $5$. If $5$ is added to each, what is the new mean?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$50$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-245",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\Pr(\\text{2 heads in 3 flips})$",
+  "quantityB": "$\\Pr(\\text{3 heads in 3 flips})$",
+  "answer": "A"
+ }
+]

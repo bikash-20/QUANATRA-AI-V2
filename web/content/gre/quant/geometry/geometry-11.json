@@ -1,0 +1,338 @@
+[
+ {
+  "id": "q-geo-226",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with diameter $14$?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$14$",
+   "$28$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-227",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs $3$ and $4$. What is the hypotenuse?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$12$",
+   "$25$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-228",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $6$?",
+  "choices": [
+   "$12$",
+   "$24$",
+   "$30$",
+   "$36$",
+   "$60$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-229",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(0, 0)$ and $(4, 8)$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-230",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $4$?",
+  "choices": [
+   "$4\\pi$",
+   "$8\\pi$",
+   "$12\\pi$",
+   "$16\\pi$",
+   "$32\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-231",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $30$-$60$-$90$ triangle, the shorter leg is $3$. What is the longer leg?",
+  "choices": [
+   "$3\\sqrt{3}$",
+   "$6$",
+   "$9$",
+   "$3\\sqrt{2}$",
+   "$3$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-232",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $8$ and height $5$?",
+  "choices": [
+   "$13$",
+   "$20$",
+   "$40$",
+   "$80$",
+   "$10$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-233",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(1, 2)$ and $(4, 6)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-234",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the circumference of a circle with diameter $10$? Use $\\pi \\approx 3.14$.",
+  "answer": 31.4
+ },
+ {
+  "id": "q-geo-235",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isoceles triangle, the apex angle is $40\u00b0$. What is each base angle?",
+  "choices": [
+   "$40\u00b0$",
+   "$50\u00b0$",
+   "$60\u00b0$",
+   "$70\u00b0$",
+   "$80\u00b0$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-236",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $6$ and $10$ and height $4$. What is the area?",
+  "choices": [
+   "$32$",
+   "$40$",
+   "$48$",
+   "$60$",
+   "$80$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-237",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $y$-intercept of $y = 3x + 5$?",
+  "choices": [
+   "$0$",
+   "$3$",
+   "$5$",
+   "$8$",
+   "$15$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-238",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with area $36\\pi$?",
+  "choices": [
+   "$6$",
+   "$9$",
+   "$12$",
+   "$18$",
+   "$36$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-239",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two sides of a triangle are $7$ and $11$. Which is a possible length of the third side?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$18$",
+   "$20$",
+   "$25$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-240",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of these formulas give the area of a circle?",
+  "choices": [
+   "$\\pi r^2$",
+   "$2\\pi r$",
+   "$\\pi d^2 / 4$",
+   "$\\pi r$",
+   "$4\\pi r^2$"
+  ],
+  "answer": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "q-geo-241",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(2, 4)$ and $(6, 8)$?",
+  "choices": [
+   "$(3, 5)$",
+   "$(4, 6)$",
+   "$(4, 5)$",
+   "$(5, 6)$",
+   "$(5, 7)$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-242",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two circles of radii $5$ and $12$ have centers $13$ apart. How many points of intersection are there?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-243",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In triangle $ABC$, the sides are $5$, $12$, $13$. What type is the triangle?",
+  "choices": [
+   "Acute",
+   "Right",
+   "Obtuse",
+   "Equilateral",
+   "Isoceles"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-244",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle is inscribed in a square of side $8$. What is the area of the circle?",
+  "choices": [
+   "$4\\pi$",
+   "$8\\pi$",
+   "$16\\pi$",
+   "$32\\pi$",
+   "$64\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-245",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The line $y = 2x + 3$ passes through $(a, b)$ and $(a+1, b+5)$. What is $a$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 0
+ }
+]

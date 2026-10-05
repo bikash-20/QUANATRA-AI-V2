@@ -1,0 +1,322 @@
+[
+ {
+  "id": "q-ari-286",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $25\\%$ of $600$?",
+  "choices": [
+   "$100$",
+   "$120$",
+   "$150$",
+   "$180$",
+   "$200$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-287",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The ratio of boys to girls is $5:6$. If there are $25$ boys, how many girls?",
+  "choices": [
+   "$28$",
+   "$30$",
+   "$32$",
+   "$34$",
+   "$36$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-288",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $8$?",
+  "choices": [
+   "$112$",
+   "$123$",
+   "$134$",
+   "$145$",
+   "$156$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-289",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $13^2$?",
+  "choices": [
+   "$144$",
+   "$156$",
+   "$169$",
+   "$181$",
+   "$196$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-290",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "$63$",
+   "$65$",
+   "$67$",
+   "$69$",
+   "$71$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-291",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $50\\%$ of $x$ is $80$, what is $x$?",
+  "choices": [
+   "$120$",
+   "$140$",
+   "$160$",
+   "$180$",
+   "$200$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-292",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b = 9:11$ and $a = 27$, what is $b$?",
+  "choices": [
+   "$30$",
+   "$32$",
+   "$33$",
+   "$34$",
+   "$36$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-293",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many integers between $200$ and $500$ are divisible by $17$?",
+  "choices": [
+   "$17$",
+   "$18$",
+   "$19$",
+   "$20$",
+   "$21$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-294",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $7^3$?",
+  "choices": [
+   "$49$",
+   "$147$",
+   "$243$",
+   "$343$",
+   "$512$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-295",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the largest prime factor of $221$?",
+  "choices": [
+   "$11$",
+   "$13$",
+   "$17$",
+   "$19$",
+   "$23$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-296",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is $85\\%$ of $60$?",
+  "answer": 51
+ },
+ {
+  "id": "q-ari-297",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If the ratio of $a$ to $b$ is $7:11$ and $a = 21$, what is $b$?",
+  "answer": 33
+ },
+ {
+  "id": "q-ari-298",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $n$ is divisible by both $4$ and $6$, what is the smallest?",
+  "choices": [
+   "$0$",
+   "$2$",
+   "$6$",
+   "$12$",
+   "$24$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-299",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^x = 1024$, what is $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-300",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many primes are there between $80$ and $100$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-301",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "After a $40\\%$ discount, an item costs $\\$48$. What was the original price?",
+  "choices": [
+   "$\\$60$",
+   "$\\$70$",
+   "$\\$80$",
+   "$\\$90$",
+   "$\\$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-302",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b:c = 3:7:12$ and $a + b + c = 110$, what is $c$?",
+  "choices": [
+   "$40$",
+   "$50$",
+   "$60$",
+   "$70$",
+   "$80$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-303",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The product of two consecutive even integers is $48$. What is the larger?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-304",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a^b = 243$ and $a, b$ are positive integers, how many ordered pairs $(a, b)$ satisfy this?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-305",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "The number of primes $\\le 100$",
+  "quantityB": "The number of primes $\\le 50$",
+  "answer": "A"
+ }
+]

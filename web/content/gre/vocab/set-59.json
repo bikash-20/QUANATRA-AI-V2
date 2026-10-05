@@ -1,0 +1,383 @@
+[
+ {
+  "word": "invidious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "tending to cause resentment or bitterness",
+  "synonyms": [
+   "offensive",
+   "unfair",
+   "odious"
+  ],
+  "antonyms": [
+   "praiseworthy",
+   "admirable"
+  ],
+  "example": "The invidious distinction divided the team.",
+  "id": "v-1451"
+ },
+ {
+  "word": "keen",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "having or showing eagerness or enthusiasm",
+  "synonyms": [
+   "eager",
+   "enthusiastic",
+   "ardent"
+  ],
+  "antonyms": [
+   "apathetic",
+   "indifferent"
+  ],
+  "example": "She had a keen interest in the project.",
+  "id": "v-1452"
+ },
+ {
+  "word": "kindle",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to light or set on fire; to arouse",
+  "synonyms": [
+   "ignite",
+   "light",
+   "arouse"
+  ],
+  "antonyms": [
+   "extinguish",
+   "quench"
+  ],
+  "example": "The speech kindled hope in the listeners.",
+  "id": "v-1453"
+ },
+ {
+  "word": "lament",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to express sorrow or regret",
+  "synonyms": [
+   "mourn",
+   "bemoan",
+   "bewail"
+  ],
+  "antonyms": [
+   "celebrate",
+   "rejoice"
+  ],
+  "example": "She lamented the loss of the old library.",
+  "id": "v-1454"
+ },
+ {
+  "word": "lapidary",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "engraved on stone or relating to the engraving of stone",
+  "synonyms": [
+   "engraved",
+   "inscribed",
+   "concise"
+  ],
+  "antonyms": [
+   "verbose",
+   "diffuse"
+  ],
+  "example": "His lapidary style suited the inscription.",
+  "id": "v-1455"
+ },
+ {
+  "word": "rankle",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to cause annoyance or resentment that lingers",
+  "synonyms": [
+   "irritate",
+   "annoy"
+  ],
+  "antonyms": [
+   "please"
+  ],
+  "example": "The insult still rankles him.",
+  "id": "v-1456"
+ },
+ {
+  "word": "despite",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "without being affected by; in spite of",
+  "synonyms": [
+   "notwithstanding",
+   "although"
+  ],
+  "antonyms": [
+   "because of"
+  ],
+  "example": "Despite the rain, we went.",
+  "id": "v-1457"
+ },
+ {
+  "word": "resemble",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to look like or be similar to",
+  "synonyms": [
+   "look like",
+   "mirror"
+  ],
+  "antonyms": [
+   "differ from"
+  ],
+  "example": "She resembles her mother.",
+  "id": "v-1458"
+ },
+ {
+  "word": "resolve",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to settle or find a solution to a problem",
+  "synonyms": [
+   "solve",
+   "settle"
+  ],
+  "antonyms": [
+   "complicate"
+  ],
+  "example": "Let's resolve this issue.",
+  "id": "v-1459"
+ },
+ {
+  "word": "respect",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a feeling of deep admiration for someone",
+  "synonyms": [
+   "esteem",
+   "regard"
+  ],
+  "antonyms": [
+   "disrespect"
+  ],
+  "example": "Show some respect.",
+  "id": "v-1460"
+ },
+ {
+  "word": "respond",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to say or do something in reply or reaction",
+  "synonyms": [
+   "reply",
+   "react"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Please respond promptly.",
+  "id": "v-1461"
+ },
+ {
+  "word": "restrict",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to put a limit on; keep under control",
+  "synonyms": [
+   "limit",
+   "confine"
+  ],
+  "antonyms": [
+   "free"
+  ],
+  "example": "Restrict access to the file.",
+  "id": "v-1462"
+ },
+ {
+  "word": "retain",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to keep or hold in a particular place or position",
+  "synonyms": [
+   "keep",
+   "maintain"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "Retain a copy for your records.",
+  "id": "v-1463"
+ },
+ {
+  "word": "reveal",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make known to others something previously unknown",
+  "synonyms": [
+   "disclose",
+   "expose"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "Reveal the truth.",
+  "id": "v-1464"
+ },
+ {
+  "word": "sensible",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "done or chosen in accordance with wisdom or prudence",
+  "synonyms": [
+   "wise",
+   "practical"
+  ],
+  "antonyms": [
+   "foolish"
+  ],
+  "example": "That was a sensible choice.",
+  "id": "v-1465"
+ },
+ {
+  "word": "separate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to cause to move or be apart",
+  "synonyms": [
+   "divide",
+   "split"
+  ],
+  "antonyms": [
+   "unite"
+  ],
+  "example": "Separate the whites and yolks.",
+  "id": "v-1466"
+ },
+ {
+  "word": "shift",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to move or change from one position to another",
+  "synonyms": [
+   "move",
+   "change"
+  ],
+  "antonyms": [],
+  "example": "The wind shifted direction.",
+  "id": "v-1467"
+ },
+ {
+  "word": "significant",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "sufficiently great or important to be worthy of attention",
+  "synonyms": [
+   "important",
+   "notable"
+  ],
+  "antonyms": [
+   "minor"
+  ],
+  "example": "A significant change occurred.",
+  "id": "v-1468"
+ },
+ {
+  "word": "specific",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "clearly defined or identified",
+  "synonyms": [
+   "precise",
+   "exact"
+  ],
+  "antonyms": [
+   "vague"
+  ],
+  "example": "Give specific examples.",
+  "id": "v-1469"
+ },
+ {
+  "word": "stable",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "not likely to change or fail; firmly established",
+  "synonyms": [
+   "steady",
+   "firm"
+  ],
+  "antonyms": [
+   "unstable"
+  ],
+  "example": "The economy is stable.",
+  "id": "v-1470"
+ },
+ {
+  "word": "stimulate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to raise levels of physiological or nervous activity",
+  "synonyms": [
+   "excite",
+   "encourage"
+  ],
+  "antonyms": [
+   "depress"
+  ],
+  "example": "The coffee stimulated her.",
+  "id": "v-1471"
+ },
+ {
+  "word": "strategy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a plan of action designed to achieve a long-term aim",
+  "synonyms": [
+   "plan",
+   "tactic"
+  ],
+  "antonyms": [],
+  "example": "Develop a new strategy.",
+  "id": "v-1472"
+ },
+ {
+  "word": "strengthen",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make or become stronger",
+  "synonyms": [
+   "fortify",
+   "reinforce"
+  ],
+  "antonyms": [
+   "weaken"
+  ],
+  "example": "Exercise strengthens the body.",
+  "id": "v-1473"
+ },
+ {
+  "word": "substantial",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "of considerable importance, size, or worth",
+  "synonyms": [
+   "significant",
+   "considerable"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "He earned a substantial sum.",
+  "id": "v-1474"
+ },
+ {
+  "word": "succeed",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to achieve a desired aim or result",
+  "synonyms": [
+   "achieve",
+   "prosper"
+  ],
+  "antonyms": [
+   "fail"
+  ],
+  "example": "She succeeded in her goals.",
+  "id": "v-1475"
+ }
+]

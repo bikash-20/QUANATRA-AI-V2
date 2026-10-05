@@ -1,40 +1,40 @@
 {
- "generatedAt": "2026-10-05T00:13:22.539Z",
+ "generatedAt": "2026-10-05T04:31:48.118Z",
  "quant": {
   "algebra": {
-   "count": 200,
-   "easy": 41,
-   "medium": 115,
-   "hard": 44,
-   "shards": 10
+   "count": 300,
+   "easy": 66,
+   "medium": 165,
+   "hard": 69,
+   "shards": 15
   },
   "arithmetic": {
-   "count": 225,
-   "easy": 54,
-   "medium": 131,
-   "hard": 40,
-   "shards": 10
+   "count": 325,
+   "easy": 79,
+   "medium": 181,
+   "hard": 65,
+   "shards": 15
   },
   "data-analysis": {
-   "count": 225,
-   "easy": 28,
-   "medium": 148,
-   "hard": 49,
-   "shards": 10
+   "count": 325,
+   "easy": 53,
+   "medium": 198,
+   "hard": 74,
+   "shards": 15
   },
   "geometry": {
-   "count": 225,
-   "easy": 38,
-   "medium": 138,
-   "hard": 49,
-   "shards": 10
+   "count": 325,
+   "easy": 63,
+   "medium": 193,
+   "hard": 69,
+   "shards": 15
   },
   "word-problems": {
-   "count": 225,
-   "easy": 55,
-   "medium": 125,
-   "hard": 45,
-   "shards": 10
+   "count": 325,
+   "easy": 80,
+   "medium": 175,
+   "hard": 70,
+   "shards": 15
   }
  },
  "vocab": {
@@ -157,10 +157,70 @@
   },
   "set-40": {
    "count": 25
+  },
+  "set-41": {
+   "count": 25
+  },
+  "set-42": {
+   "count": 25
+  },
+  "set-43": {
+   "count": 25
+  },
+  "set-44": {
+   "count": 25
+  },
+  "set-45": {
+   "count": 25
+  },
+  "set-46": {
+   "count": 25
+  },
+  "set-47": {
+   "count": 25
+  },
+  "set-48": {
+   "count": 25
+  },
+  "set-49": {
+   "count": 25
+  },
+  "set-50": {
+   "count": 25
+  },
+  "set-51": {
+   "count": 25
+  },
+  "set-52": {
+   "count": 25
+  },
+  "set-53": {
+   "count": 25
+  },
+  "set-54": {
+   "count": 25
+  },
+  "set-55": {
+   "count": 25
+  },
+  "set-56": {
+   "count": 25
+  },
+  "set-57": {
+   "count": 25
+  },
+  "set-58": {
+   "count": 25
+  },
+  "set-59": {
+   "count": 25
+  },
+  "set-60": {
+   "count": 25
   }
  },
  "totals": {
-  "quant": 1100,
-  "vocab": 1000
+  "quant": 1600,
+  "vocab": 1500
  }
 }

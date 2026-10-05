@@ -1,0 +1,375 @@
+[
+ {
+  "word": "exegetical",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to critical explanation or interpretation of a text",
+  "synonyms": [
+   "interpretive"
+  ],
+  "antonyms": [],
+  "example": "The exegetical notes were thorough.",
+  "id": "v-1376"
+ },
+ {
+  "word": "exorbitant",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "unreasonably high in price or amount",
+  "synonyms": [
+   "excessive",
+   "outrageous"
+  ],
+  "antonyms": [
+   "reasonable"
+  ],
+  "example": "The price was exorbitant.",
+  "id": "v-1377"
+ },
+ {
+  "word": "extemporaneous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "spoken or done without preparation",
+  "synonyms": [
+   "impromptu",
+   "unrehearsal"
+  ],
+  "antonyms": [
+   "prepared"
+  ],
+  "example": "She gave an extemporaneous speech.",
+  "id": "v-1378"
+ },
+ {
+  "word": "fatuousness",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the quality of being silly and pointless",
+  "synonyms": [
+   "foolishness",
+   "inaneness"
+  ],
+  "antonyms": [
+   "wisdom"
+  ],
+  "example": "His fatuousness irritated the panel.",
+  "id": "v-1379"
+ },
+ {
+  "word": "grandiloquence",
+  "tier": 3,
+  "pos": "n",
+  "definition": "pompous or extravagant in language",
+  "synonyms": [
+   "bombast",
+   "grandiosity"
+  ],
+  "antonyms": [
+   "plainness"
+  ],
+  "example": "His grandiloquence bored the audience.",
+  "id": "v-1380"
+ },
+ {
+  "word": "ignominy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "public disgrace or shame",
+  "synonyms": [
+   "disgrace",
+   "humiliation"
+  ],
+  "antonyms": [
+   "honor"
+  ],
+  "example": "He suffered the ignominy of defeat.",
+  "id": "v-1381"
+ },
+ {
+  "word": "imbibed",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to drink or absorb",
+  "synonyms": [
+   "absorb",
+   "drink"
+  ],
+  "antonyms": [
+   "discharge"
+  ],
+  "example": "She imbibed the wisdom of her elders.",
+  "id": "v-1382"
+ },
+ {
+  "word": "irrefragable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "undeniable or unarguable",
+  "synonyms": [
+   "undeniable",
+   "irrefutable"
+  ],
+  "antonyms": [
+   "questionable"
+  ],
+  "example": "The evidence was irrefragable.",
+  "id": "v-1383"
+ },
+ {
+  "word": "libertine",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person, especially a man, who behaves without moral principles",
+  "synonyms": [
+   "debauchee",
+   "roue"
+  ],
+  "antonyms": [
+   "ascetic"
+  ],
+  "example": "He was a libertine in his youth.",
+  "id": "v-1384"
+ },
+ {
+  "word": "martinet",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a strict disciplinarian",
+  "synonyms": [
+   "disciplinarian",
+   "tyrant"
+  ],
+  "antonyms": [
+   "pushover"
+  ],
+  "example": "The martinet insisted on rules.",
+  "id": "v-1385"
+ },
+ {
+  "word": "misanthropic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "disliking humankind and avoiding human society",
+  "synonyms": [
+   "cynical",
+   "reclusive"
+  ],
+  "antonyms": [
+   "philanthropic"
+  ],
+  "example": "His misanthropic outlook alienated friends.",
+  "id": "v-1386"
+ },
+ {
+  "word": "oscitate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to yawn or gape",
+  "synonyms": [
+   "yawn"
+  ],
+  "antonyms": [],
+  "example": "He oscitated during the lecture.",
+  "id": "v-1387"
+ },
+ {
+  "word": "aboriginal",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "indigenous; existing from the beginning",
+  "synonyms": [
+   "indigenous",
+   "native"
+  ],
+  "antonyms": [
+   "imported"
+  ],
+  "example": "The aboriginal peoples welcomed visitors.",
+  "id": "v-1388"
+ },
+ {
+  "word": "adjourn",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to break off a meeting with the intention of resuming later",
+  "synonyms": [
+   "suspend",
+   "recess"
+  ],
+  "antonyms": [
+   "convene"
+  ],
+  "example": "The court adjourned until Monday.",
+  "id": "v-1389"
+ },
+ {
+  "word": "ambrosial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "delicious or fragrant; worthy of the gods",
+  "synonyms": [
+   "divine",
+   "heavenly"
+  ],
+  "antonyms": [
+   "vile"
+  ],
+  "example": "The ambrosial scent filled the kitchen.",
+  "id": "v-1390"
+ },
+ {
+  "word": "anticlimactic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to a disappointing end to something",
+  "synonyms": [
+   "disappointing"
+  ],
+  "antonyms": [
+   "climactic"
+  ],
+  "example": "The ending felt anticlimactic.",
+  "id": "v-1391"
+ },
+ {
+  "word": "aphorism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a concise statement of a principle; a maxim",
+  "synonyms": [
+   "maxim",
+   "adage"
+  ],
+  "antonyms": [
+   "ramble"
+  ],
+  "example": "He collected aphorisms from his travels.",
+  "id": "v-1392"
+ },
+ {
+  "word": "bibulous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "excessively fond of drinking alcohol",
+  "synonyms": [
+   "drunken",
+   "tipsy"
+  ],
+  "antonyms": [
+   "abstinent"
+  ],
+  "example": "The bibulous poet wrote by candlelight.",
+  "id": "v-1393"
+ },
+ {
+  "word": "cachinnate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to laugh loudly or immoderately",
+  "synonyms": [
+   "guffaw"
+  ],
+  "antonyms": [
+   "whisper"
+  ],
+  "example": "He cachinnated at the joke.",
+  "id": "v-1394"
+ },
+ {
+  "word": "ceremonious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to or used for formal religious or public events",
+  "synonyms": [
+   "formal",
+   "solemn"
+  ],
+  "antonyms": [
+   "informal"
+  ],
+  "example": "The host was ceremonious and reserved.",
+  "id": "v-1395"
+ },
+ {
+  "word": "derisive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "expressing contempt or ridicule",
+  "synonyms": [
+   "mocking",
+   "scornful"
+  ],
+  "antonyms": [
+   "respectful"
+  ],
+  "example": "She gave a derisive laugh.",
+  "id": "v-1396"
+ },
+ {
+  "word": "sonorous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "imposingly deep and full in sound",
+  "synonyms": [
+   "resonant",
+   "rich"
+  ],
+  "antonyms": [
+   "thin"
+  ],
+  "example": "His sonorous voice filled the hall.",
+  "id": "v-1397"
+ },
+ {
+  "word": "distaff",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of or relating to women or female lineage",
+  "synonyms": [
+   "female",
+   "maternal",
+   "matriarchal"
+  ],
+  "antonyms": [
+   "male",
+   "paternal"
+  ],
+  "example": "The crown passed through the distaff line.",
+  "id": "v-1398"
+ },
+ {
+  "word": "distend",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to swell or cause to swell by pressure from inside",
+  "synonyms": [
+   "swell",
+   "inflate",
+   "expand"
+  ],
+  "antonyms": [
+   "contract",
+   "deflate"
+  ],
+  "example": "The balloon distended to twice its size.",
+  "id": "v-1399"
+ },
+ {
+  "word": "dither",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to be indecisive or irresolute",
+  "synonyms": [
+   "hesitate",
+   "waver",
+   "vacillate"
+  ],
+  "antonyms": [
+   "resolve",
+   "decide"
+  ],
+  "example": "Stop dithering and choose one.",
+  "id": "v-1400"
+ }
+]

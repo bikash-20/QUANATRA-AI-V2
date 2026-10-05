@@ -1,0 +1,352 @@
+[
+ {
+  "word": "abrogate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to repeal or do away with a law or agreement",
+  "synonyms": [
+   "revoke",
+   "annul"
+  ],
+  "antonyms": [
+   "enact"
+  ],
+  "example": "The treaty was abrogated by mutual consent.",
+  "id": "v-1326"
+ },
+ {
+  "word": "accreted",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to grow by accumulation",
+  "synonyms": [
+   "accumulate",
+   "grow"
+  ],
+  "antonyms": [
+   "diminish"
+  ],
+  "example": "Mineral deposits accreted along the riverbed.",
+  "id": "v-1327"
+ },
+ {
+  "word": "addle",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to confuse or muddle",
+  "synonyms": [
+   "confuse",
+   "muddle"
+  ],
+  "antonyms": [
+   "clarify"
+  ],
+  "example": "The long speech addled my thoughts.",
+  "id": "v-1328"
+ },
+ {
+  "word": "adumbrated",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to outline sketchily or foreshadow",
+  "synonyms": [
+   "foreshadow",
+   "hint"
+  ],
+  "antonyms": [
+   "reveal"
+  ],
+  "example": "The author adumbrated future events.",
+  "id": "v-1329"
+ },
+ {
+  "word": "adventive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "arrived from outside an area; not native",
+  "synonyms": [
+   "non-native",
+   "alien"
+  ],
+  "antonyms": [
+   "native"
+  ],
+  "example": "Adventive species can disrupt ecosystems.",
+  "id": "v-1330"
+ },
+ {
+  "word": "aegis",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the protection or backing of someone or something",
+  "synonyms": [
+   "protection",
+   "sponsorship"
+  ],
+  "antonyms": [],
+  "example": "The study was conducted under the aegis of the university.",
+  "id": "v-1331"
+ },
+ {
+  "word": "agon",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a contest or struggle, especially for victory in sports",
+  "synonyms": [
+   "contest",
+   "struggle"
+  ],
+  "antonyms": [],
+  "example": "Each actor is an agon for the prize.",
+  "id": "v-1332"
+ },
+ {
+  "word": "anagoge",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a spiritual or mystical interpretation",
+  "synonyms": [
+   "spiritual interpretation"
+  ],
+  "antonyms": [],
+  "example": "The sermon relied on anagoge.",
+  "id": "v-1333"
+ },
+ {
+  "word": "animadvert",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to comment critically or adversely on something",
+  "synonyms": [
+   "criticize",
+   "censure"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "She animadverted on his conduct.",
+  "id": "v-1334"
+ },
+ {
+  "word": "antecede",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to come before in time or place",
+  "synonyms": [
+   "precede"
+  ],
+  "antonyms": [
+   "follow"
+  ],
+  "example": "The event anteceded the treaty.",
+  "id": "v-1335"
+ },
+ {
+  "word": "arcanum",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a secret or mysterious matter known only to a few",
+  "synonyms": [
+   "secret",
+   "mystery"
+  ],
+  "antonyms": [
+   "common knowledge"
+  ],
+  "example": "She revealed an arcanum at last.",
+  "id": "v-1336"
+ },
+ {
+  "word": "asperity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "harshness of tone or manner",
+  "synonyms": [
+   "harshness",
+   "severity"
+  ],
+  "antonyms": [
+   "gentleness"
+  ],
+  "example": "He spoke with asperity.",
+  "id": "v-1337"
+ },
+ {
+  "word": "athwart",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "from one side to the other of; across",
+  "synonyms": [
+   "across"
+  ],
+  "antonyms": [],
+  "example": "The ship sailed athwart the bay.",
+  "id": "v-1338"
+ },
+ {
+  "word": "autochthon",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a supposed earliest inhabitant of a place",
+  "synonyms": [
+   "native",
+   "indigenous"
+  ],
+  "antonyms": [
+   "newcomer"
+  ],
+  "example": "Autochthons settled the valley first.",
+  "id": "v-1339"
+ },
+ {
+  "word": "bibelot",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a small decorative item or trinket",
+  "synonyms": [
+   "trinket",
+   "ornament"
+  ],
+  "antonyms": [],
+  "example": "She collected bibelots from her travels.",
+  "id": "v-1340"
+ },
+ {
+  "word": "blandish",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to coax or persuade by flattery",
+  "synonyms": [
+   "cajole",
+   "wheedle"
+  ],
+  "antonyms": [
+   "repel"
+  ],
+  "example": "She blandished him into agreeing.",
+  "id": "v-1341"
+ },
+ {
+  "word": "boreas",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the north wind personified",
+  "synonyms": [
+   "north wind"
+  ],
+  "antonyms": [],
+  "example": "Boreas chilled the sailors.",
+  "id": "v-1342"
+ },
+ {
+  "word": "bulwark",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a solid wall serving as a defensive fortification",
+  "synonyms": [
+   "rampart",
+   "fortification"
+  ],
+  "antonyms": [],
+  "example": "The castle's bulwark kept invaders out.",
+  "id": "v-1343"
+ },
+ {
+  "word": "cantankerous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "bad-tempered, argumentative, and uncooperative",
+  "synonyms": [
+   "irritable",
+   "quarrelsome"
+  ],
+  "antonyms": [
+   "pleasant"
+  ],
+  "example": "The cantankerous neighbor shouted.",
+  "id": "v-1344"
+ },
+ {
+  "word": "cavilling",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "raising trivial objections",
+  "synonyms": [
+   "quibbling",
+   "carping"
+  ],
+  "antonyms": [
+   "approving"
+  ],
+  "example": "His cavilling critiques annoyed the panel.",
+  "id": "v-1345"
+ },
+ {
+  "word": "censoriousness",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the tendency to criticize severely",
+  "synonyms": [
+   "severity",
+   "judgment"
+  ],
+  "antonyms": [
+   "approval"
+  ],
+  "example": "Her censoriousness alienated friends.",
+  "id": "v-1346"
+ },
+ {
+  "word": "champaign",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a broad expanse of open land; a plain",
+  "synonyms": [
+   "plain",
+   "expanse"
+  ],
+  "antonyms": [],
+  "example": "The champaign stretched to the horizon.",
+  "id": "v-1347"
+ },
+ {
+  "word": "choreograph",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to plan and organize a complex event or activity",
+  "synonyms": [
+   "plan",
+   "arrange"
+  ],
+  "antonyms": [
+   "improvise"
+  ],
+  "example": "She choreographed the entire gala.",
+  "id": "v-1348"
+ },
+ {
+  "word": "chronicler",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a person who records events historically",
+  "synonyms": [
+   "historian",
+   "recorder"
+  ],
+  "antonyms": [],
+  "example": "The chronicler noted every detail.",
+  "id": "v-1349"
+ },
+ {
+  "word": "coleopterous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "relating to beetles",
+  "synonyms": [
+   "beetle-like"
+  ],
+  "antonyms": [],
+  "example": "Coleopterous insects filled the field.",
+  "id": "v-1350"
+ }
+]

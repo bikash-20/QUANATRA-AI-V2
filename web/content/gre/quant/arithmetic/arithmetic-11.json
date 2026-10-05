@@ -1,0 +1,322 @@
+[
+ {
+  "id": "q-ari-226",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $10\\%$ of $250$?",
+  "choices": [
+   "$15$",
+   "$20$",
+   "$25$",
+   "$30$",
+   "$35$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-227",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The ratio of cats to dogs is $2:3$. If there are $8$ cats, how many dogs are there?",
+  "choices": [
+   "$9$",
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-228",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $5$?",
+  "choices": [
+   "$42$",
+   "$55$",
+   "$63$",
+   "$71$",
+   "$82$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-229",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $9^2$?",
+  "choices": [
+   "$18$",
+   "$27$",
+   "$54$",
+   "$72$",
+   "$81$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-230",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is a prime number?",
+  "choices": [
+   "$15$",
+   "$21$",
+   "$27$",
+   "$29$",
+   "$33$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-231",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $25\\%$ of $x$ is $40$, what is $x$?",
+  "choices": [
+   "$100$",
+   "$120$",
+   "$160$",
+   "$180$",
+   "$200$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-232",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b = 3:7$ and $b = 21$, what is $a$?",
+  "choices": [
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$",
+   "$11$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-233",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many integers between $10$ and $100$ are divisible by $7$?",
+  "choices": [
+   "$11$",
+   "$12$",
+   "$13$",
+   "$14$",
+   "$15$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-234",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $3^5$?",
+  "choices": [
+   "$81$",
+   "$125$",
+   "$162$",
+   "$243$",
+   "$729$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-235",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the largest prime factor of $91$?",
+  "choices": [
+   "$7$",
+   "$11$",
+   "$13$",
+   "$17$",
+   "$19$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-236",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is $40\\%$ of $75$?",
+  "answer": 30
+ },
+ {
+  "id": "q-ari-237",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If the ratio of $a$ to $b$ is $4:9$ and $a = 12$, what is $b$?",
+  "answer": 27
+ },
+ {
+  "id": "q-ari-238",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $n$ is a positive integer and $2n + 1$ is odd, what is $2n + 3$?",
+  "choices": [
+   "always even",
+   "always odd",
+   "sometimes odd, sometimes even",
+   "always prime",
+   "never integer"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-239",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^x = 64$, what is $x$?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-240",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many primes are there between $20$ and $40$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-241",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A price increases by $20\\%$, then decreases by $20\\%$. What is the net change?",
+  "choices": [
+   "$0\\%$",
+   "$-2\\%$",
+   "$-4\\%$",
+   "$+2\\%$",
+   "$+4\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-242",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b:c = 2:3:5$ and $a + b + c = 100$, what is $b$?",
+  "choices": [
+   "$20$",
+   "$30$",
+   "$40$",
+   "$50$",
+   "$60$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-243",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The product of three consecutive even integers is $48$. What is the largest?",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-244",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a^b = 64$ and $a, b$ are positive integers, how many ordered pairs $(a, b)$ satisfy this?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-245",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "The number of primes $\\le 30$",
+  "quantityB": "The number of primes $\\le 20$",
+  "answer": "A"
+ }
+]

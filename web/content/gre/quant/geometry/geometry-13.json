@@ -1,0 +1,333 @@
+[
+ {
+  "id": "q-geo-266",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The line $y = 3x + 1$ passes through $(a, b)$ and $(a+1, b+6)$. What is $a$?",
+  "choices": [
+   "$1$",
+   "$\\frac{5}{3}$",
+   "$2$",
+   "$3$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-267",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of circle with radius $4$",
+  "quantityB": "Circumference of circle with radius $4$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-268",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with diameter $20$?",
+  "choices": [
+   "$5$",
+   "$8$",
+   "$10$",
+   "$15$",
+   "$20$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-269",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs $5$ and $12$. What is the hypotenuse?",
+  "choices": [
+   "$13$",
+   "$14$",
+   "$15$",
+   "$17$",
+   "$60$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-270",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $9$?",
+  "choices": [
+   "$18$",
+   "$36$",
+   "$54$",
+   "$72$",
+   "$81$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-271",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(0, 0)$ and $(2, 8)$?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$6$",
+   "$8$",
+   "$16$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-272",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $3$?",
+  "choices": [
+   "$3\\pi$",
+   "$6\\pi$",
+   "$9\\pi$",
+   "$12\\pi$",
+   "$18\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-273",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $30$-$60$-$90$ triangle, the shorter leg is $5$. What is the longer leg?",
+  "choices": [
+   "$5\\sqrt{3}$",
+   "$10$",
+   "$15$",
+   "$5\\sqrt{2}$",
+   "$5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-274",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $12$ and height $8$?",
+  "choices": [
+   "$20$",
+   "$48$",
+   "$96$",
+   "$24$",
+   "$32$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-275",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(2, 3)$ and $(5, 7)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-276",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the circumference of a circle with diameter $30$? Use $\\pi \\approx 3.14$.",
+  "answer": 94.2
+ },
+ {
+  "id": "q-geo-277",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isoceles triangle, the apex angle is $60\u00b0$. What is each base angle?",
+  "choices": [
+   "$40\u00b0$",
+   "$50\u00b0$",
+   "$60\u00b0$",
+   "$70\u00b0$",
+   "$80\u00b0$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-278",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $8$ and $12$ and height $5$. What is the area?",
+  "choices": [
+   "$40$",
+   "$50$",
+   "$60$",
+   "$80$",
+   "$100$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-279",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $y$-intercept of $y = 2x + 9$?",
+  "choices": [
+   "$0$",
+   "$2$",
+   "$9$",
+   "$11$",
+   "$18$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-280",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with area $100\\pi$?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$50$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-281",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two sides of a triangle are $6$ and $10$. Which is a possible length of the third side?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$15$",
+   "$17$",
+   "$25$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-282",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which formulas give the area of a triangle?",
+  "choices": [
+   "$\\frac{1}{2}bh$",
+   "$\\sqrt{s(s-a)(s-b)(s-c)}$",
+   "$\\pi r^2$",
+   "$\\frac{1}{2}d_1 d_2$",
+   "$2\\pi r$"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "q-geo-283",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(1, 3)$ and $(5, 9)$?",
+  "choices": [
+   "$(2, 5)$",
+   "$(3, 6)$",
+   "$(4, 6)$",
+   "$(3, 5)$",
+   "$(4, 7)$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-284",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two circles of radii $4$ and $6$ have centers $10$ apart. How many points of intersection are there?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-285",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In triangle $ABC$, the sides are $4$, $5$, $7$. What type is the triangle?",
+  "choices": [
+   "Acute",
+   "Right",
+   "Obtuse",
+   "Equilateral",
+   "Isoceles"
+  ],
+  "answer": 2
+ }
+]
