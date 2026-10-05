@@ -78,6 +78,8 @@ The cumulative effect: **a learner can install the app, work through the 4-week 
 
 This is the centrepiece. Quantara ships a complete, validator-driven GRE content system.
 
+**For AI coding agents:** before changing GRE routes, content, schemas, quiz/mock logic, progress, or explanations, read the [GRE system and contribution guide](web/docs/GRE-SYSTEM.md).
+
 | | |
 |---|---|
 | **Quant topics** | Arithmetic & Number Properties, Algebra, Geometry, Data Analysis/Probability/Counting, Word Problems |
