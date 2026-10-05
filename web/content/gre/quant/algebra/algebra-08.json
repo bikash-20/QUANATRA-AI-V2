@@ -1,0 +1,329 @@
+[
+ {
+  "id": "q-alg-141",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $f(x) = 4x - 7$, for what value of $x$ is $f(x) = 1$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-142",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A ball is thrown upward; its height in feet is $h = -16t^2 + 64t + 5$. At what time does it reach its maximum height?",
+  "choices": [
+   "$1$ s",
+   "$2$ s",
+   "$3$ s",
+   "$4$ s",
+   "$5$ s"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-143",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $n$ is $2n + 3 \\le 11$ true?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-144",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $9^x = 27$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{3}$",
+   "$\\frac{3}{2}$",
+   "$2$",
+   "$3$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-145",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x + 4| \\le 3$, what is the largest possible value of $x$?",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$3$",
+   "$7$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-146",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The cost of a taxi is $\\$3$ plus $\\$0.50$ per mile. If the fare is $\\$18$, how many miles were traveled?",
+  "choices": [
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$",
+   "$15$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-147",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the minimum value of $y = x^2 - 8x + 17$?",
+  "answer": 1
+ },
+ {
+  "id": "q-alg-148",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 < 9$, what is the range of $x$?",
+  "choices": [
+   "$x > 3$",
+   "$x < -3$",
+   "$-3 < x < 3$",
+   "$x > -3$",
+   "All reals"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-149",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^{x+3} = 8^{x-1}$, what is $x$?",
+  "choices": [
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$",
+   "$11$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-150",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|2x - 1| > 5$, which is a value of $x$?",
+  "choices": [
+   "$0$",
+   "$2$",
+   "$3$",
+   "$-2$",
+   "$1$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-151",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5x = 35$, what is $x$?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-152",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the value of $x$ if $x^2 = 49$ and $x$ is negative?",
+  "choices": [
+   "$-9$",
+   "$-7$",
+   "$-5$",
+   "$-3$",
+   "$-1$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-153",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x + 3 > 7$, what is the smallest integer value of $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-154",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $2^5$?",
+  "choices": [
+   "$10$",
+   "$16$",
+   "$25$",
+   "$32$",
+   "$64$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-155",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "$|{-9}|$ equals what?",
+  "choices": [
+   "$-9$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$9$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-156",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $\\frac{x - 3}{2} = \\frac{x + 5}{4}$.",
+  "choices": [
+   "$-1$",
+   "$1$",
+   "$11$",
+   "$13$",
+   "$15$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-157",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the discriminant of $x^2 + 4x + 1 = 0$?",
+  "choices": [
+   "$0$",
+   "$12$",
+   "$16$",
+   "$20$",
+   "$32$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-158",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $-3 \\le 2x - 1 < 9$, what is the range of $x$?",
+  "choices": [
+   "$-1 \\le x < 5$",
+   "$-1 < x \\le 5$",
+   "$-2 < x < 4$",
+   "$0 \\le x < 4$",
+   "$1 < x \\le 5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-159",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$5^{0}$",
+  "quantityB": "$0^5$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-160",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 2| = 7$, what is the sum of all possible values of $x$?",
+  "choices": [
+   "$-2$",
+   "$0$",
+   "$2$",
+   "$4$",
+   "$7$"
+  ],
+  "answer": 3
+ }
+]

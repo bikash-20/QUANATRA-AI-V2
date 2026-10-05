@@ -1,0 +1,407 @@
+[
+ {
+  "id": "q-dat-151",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mean of $\\{4, 8, 12\\}$?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$24$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-152",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the probability of drawing a red card from a standard deck?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{13}{52}$",
+   "$\\frac{26}{52}$",
+   "$1$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-153",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many $2$-letter permutations from $\\{A, B, C, D\\}$?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$16$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-154",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A student's scores are $\\{70, 80, 90\\}$. What is the mean?",
+  "choices": [
+   "$70$",
+   "$75$",
+   "$80$",
+   "$85$",
+   "$90$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-155",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A bag contains $4$ white and $6$ black balls. What is the probability of drawing white?",
+  "choices": [
+   "$\\frac{1}{10}$",
+   "$\\frac{2}{5}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{3}{5}$",
+   "$\\frac{2}{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-156",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many distinct arrangements of $MATHEMATICS$ (letters)?",
+  "choices": [
+   "$4989600$",
+   "$11!$",
+   "$11!/2$",
+   "$11!/2^2$",
+   "$11!/8$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-157",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Boxplots are most useful for displaying:",
+  "choices": [
+   "Categorical data",
+   "Distribution and outliers",
+   "Probabilities",
+   "Frequencies",
+   "Means only"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-158",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Rolling a die twice: probability of two even numbers?",
+  "choices": [
+   "$\\frac{1}{4}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{2}{3}$",
+   "$\\frac{1}{6}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-159",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many diagonals does a hexagon have?",
+  "answer": 9
+ },
+ {
+  "id": "q-dat-160",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A correlation coefficient of $-0.95$ indicates:",
+  "choices": [
+   "Strong positive",
+   "Strong negative",
+   "Weak positive",
+   "No correlation",
+   "Weak negative"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-161",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A coin is flipped $3$ times. What is the probability of exactly $2$ heads?",
+  "choices": [
+   "$\\frac{1}{8}$",
+   "$\\frac{2}{8}$",
+   "$\\frac{3}{8}$",
+   "$\\frac{4}{8}$",
+   "$\\frac{1}{2}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-162",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In how many ways can a president and VP be chosen from $10$?",
+  "choices": [
+   "$10$",
+   "$20$",
+   "$45$",
+   "$90$",
+   "$100$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-163",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If every value in a dataset is doubled, the mean:",
+  "choices": [
+   "Stays the same",
+   "Doubles",
+   "Halves",
+   "Quadruples",
+   "Is squared"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-164",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$P(\\text{heads then tails on 2 flips})$",
+  "quantityB": "$P(\\text{at least one head on 2 flips})$",
+  "answer": "B"
+ },
+ {
+  "id": "q-dat-165",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many distinct paths from corner to opposite corner of a $3 \\times 3$ grid (right or up only)?",
+  "choices": [
+   "$3$",
+   "$6$",
+   "$9$",
+   "$12$",
+   "$20$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-166",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the interquartile range?",
+  "choices": [
+   "$Q_3 - Q_2$",
+   "$Q_3 - Q_1$",
+   "$Q_2 - Q_1$",
+   "$Q_3 + Q_1$",
+   "$Q_3 \\cdot Q_1$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-167",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two fair dice are rolled. What is the probability of a sum of $7$?",
+  "choices": [
+   "$\\frac{1}{36}$",
+   "$\\frac{5}{36}$",
+   "$\\frac{6}{36}$",
+   "$\\frac{7}{36}$",
+   "$\\frac{2}{36}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-168",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "$_nC_0$ equals:",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$n$",
+   "$n!$",
+   "Undefined"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-169",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A population of $1000$ has mean $50$. A new value of $70$ is added. The new mean is approximately:",
+  "choices": [
+   "$50.02$",
+   "$50.2$",
+   "$51$",
+   "$60$",
+   "$70$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-170",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $P(A) = 0.2$, $P(B|A) = 0.5$, what is $P(A \\cap B)$?",
+  "choices": [
+   "$0.10$",
+   "$0.20$",
+   "$0.30$",
+   "$0.40$",
+   "$0.50$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-171",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A survey of test scores is symmetric with mean $70$. Which is most plausible as the median?",
+  "choices": [
+   "$60$",
+   "$65$",
+   "$70$",
+   "$75$",
+   "$80$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-172",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many ways to shuffle a deck of $52$ cards? (approximate)",
+  "answer": 8.07e+67
+ },
+ {
+  "id": "q-dat-173",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In how many ways can a $5$-character password be made using lowercase letters (26 letters)?",
+  "choices": [
+   "$26^5$",
+   "$5^{26}$",
+   "$26!/(21!)$",
+   "$26!$",
+   "$26 \\cdot 5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-174",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A dataset's standard deviation is $0$. This means:",
+  "choices": [
+   "The mean is $0$",
+   "All values are equal",
+   "There is one outlier",
+   "The range is $0$",
+   "All values are positive"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-175",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A box has $3$ red and $7$ blue. If $2$ are drawn, what is the probability both are blue?",
+  "choices": [
+   "$\\frac{7}{15}$",
+   "$\\frac{21}{90}$",
+   "$\\frac{7}{30}$",
+   "$\\frac{14}{30}$",
+   "$\\frac{1}{3}$"
+  ],
+  "answer": 0
+ }
+]

@@ -1,0 +1,359 @@
+[
+ {
+  "word": "potential",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "having or showing the capacity to develop into something",
+  "synonyms": [
+   "possible",
+   "latent"
+  ],
+  "antonyms": [
+   "actual"
+  ],
+  "example": "She has great potential.",
+  "id": "v-0976"
+ },
+ {
+  "word": "predict",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to say that something will happen in the future",
+  "synonyms": [
+   "forecast",
+   "foresee"
+  ],
+  "antonyms": [],
+  "example": "Predict the outcome.",
+  "id": "v-0977"
+ },
+ {
+  "word": "preserve",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to maintain in its original or existing state",
+  "synonyms": [
+   "conserve",
+   "protect"
+  ],
+  "antonyms": [
+   "destroy"
+  ],
+  "example": "Preserve the environment.",
+  "id": "v-0978"
+ },
+ {
+  "word": "prevail",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to be victorious or win out; to be widespread",
+  "synonyms": [
+   "triumph",
+   "dominate"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "Truth will prevail.",
+  "id": "v-0979"
+ },
+ {
+  "word": "principal",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "first in order of importance; main",
+  "synonyms": [
+   "main",
+   "chief"
+  ],
+  "antonyms": [
+   "minor"
+  ],
+  "example": "The principal reason is cost.",
+  "id": "v-0980"
+ },
+ {
+  "word": "principle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a fundamental truth or proposition",
+  "synonyms": [
+   "rule",
+   "law"
+  ],
+  "antonyms": [],
+  "example": "Stand on your principles.",
+  "id": "v-0981"
+ },
+ {
+  "word": "priority",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a thing that is regarded as more important than another",
+  "synonyms": [
+   "preference",
+   "concern"
+  ],
+  "antonyms": [
+   "triviality"
+  ],
+  "example": "Safety is the priority.",
+  "id": "v-0982"
+ },
+ {
+  "word": "promote",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to further the progress of something",
+  "synonyms": [
+   "advance",
+   "encourage"
+  ],
+  "antonyms": [
+   "hinder"
+  ],
+  "example": "Promote the new product.",
+  "id": "v-0983"
+ },
+ {
+  "word": "propose",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to put forward an idea for consideration",
+  "synonyms": [
+   "suggest",
+   "offer"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "I propose a new plan.",
+  "id": "v-0984"
+ },
+ {
+  "word": "prospect",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the possibility or likelihood of some future event",
+  "synonyms": [
+   "possibility",
+   "expectation"
+  ],
+  "antonyms": [],
+  "example": "The prospect of rain increased.",
+  "id": "v-0985"
+ },
+ {
+  "word": "pursue",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to follow or chase someone or something",
+  "synonyms": [
+   "chase",
+   "follow"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "She pursued her dreams.",
+  "id": "v-0986"
+ },
+ {
+  "word": "qualify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to be entitled to a particular benefit or rank",
+  "synonyms": [
+   "certify",
+   "entitle"
+  ],
+  "antonyms": [
+   "disqualify"
+  ],
+  "example": "She qualified for the finals.",
+  "id": "v-0987"
+ },
+ {
+  "word": "react",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to respond or behave in a particular way",
+  "synonyms": [
+   "respond",
+   "reply"
+  ],
+  "antonyms": [],
+  "example": "How did she react?",
+  "id": "v-0988"
+ },
+ {
+  "word": "realistic",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "having a sensible and practical idea of what can be achieved",
+  "synonyms": [
+   "practical",
+   "sensible"
+  ],
+  "antonyms": [
+   "unrealistic"
+  ],
+  "example": "Set realistic goals.",
+  "id": "v-0989"
+ },
+ {
+  "word": "realize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to become fully aware of something as a fact",
+  "synonyms": [
+   "understand",
+   "comprehend"
+  ],
+  "antonyms": [
+   "miss"
+  ],
+  "example": "I realized my mistake.",
+  "id": "v-0990"
+ },
+ {
+  "word": "recognize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to identify from previous knowledge or experience",
+  "synonyms": [
+   "identify",
+   "acknowledge"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "I recognized her voice.",
+  "id": "v-0991"
+ },
+ {
+  "word": "recommend",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to suggest that something is suitable or worthwhile",
+  "synonyms": [
+   "suggest",
+   "advise"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "I recommend the book.",
+  "id": "v-0992"
+ },
+ {
+  "word": "reduce",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make smaller or less in amount or degree",
+  "synonyms": [
+   "decrease",
+   "lessen"
+  ],
+  "antonyms": [
+   "increase"
+  ],
+  "example": "Reduce the noise.",
+  "id": "v-0993"
+ },
+ {
+  "word": "refer",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to direct someone's attention to something",
+  "synonyms": [
+   "point",
+   "direct"
+  ],
+  "antonyms": [],
+  "example": "Refer to the manual.",
+  "id": "v-0994"
+ },
+ {
+  "word": "regulate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to control or maintain the rate or speed of something",
+  "synonyms": [
+   "control",
+   "govern"
+  ],
+  "antonyms": [],
+  "example": "Regulate the temperature.",
+  "id": "v-0995"
+ },
+ {
+  "word": "reject",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to dismiss as inadequate or unacceptable",
+  "synonyms": [
+   "refuse",
+   "decline"
+  ],
+  "antonyms": [
+   "accept"
+  ],
+  "example": "Reject the offer.",
+  "id": "v-0996"
+ },
+ {
+  "word": "rely",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to depend on with full trust or confidence",
+  "synonyms": [
+   "depend",
+   "trust"
+  ],
+  "antonyms": [],
+  "example": "You can rely on me.",
+  "id": "v-0997"
+ },
+ {
+  "word": "remove",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to take something away from a position",
+  "synonyms": [
+   "take away",
+   "eliminate"
+  ],
+  "antonyms": [
+   "add"
+  ],
+  "example": "Remove the obstacle.",
+  "id": "v-0998"
+ },
+ {
+  "word": "replace",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to take the place of something or someone",
+  "synonyms": [
+   "substitute",
+   "exchange"
+  ],
+  "antonyms": [],
+  "example": "Replace the old batteries.",
+  "id": "v-0999"
+ },
+ {
+  "word": "require",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to need for a particular purpose",
+  "synonyms": [
+   "need",
+   "necessitate"
+  ],
+  "antonyms": [],
+  "example": "This requires patience.",
+  "id": "v-1000"
+ }
+]

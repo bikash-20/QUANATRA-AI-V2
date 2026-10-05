@@ -1,0 +1,319 @@
+[
+ {
+  "id": "q-alg-181",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5x + 2 = 3x + 10$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-182",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the maximum value of $y = -x^2 + 6x - 5$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-183",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2x - 1 > 7$ and $x$ is an integer, what is the smallest value of $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-184",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^x = 32$, what is $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-185",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are solutions to $|x| = 10$? Indicate all such values.",
+  "choices": [
+   "$10$",
+   "$-10$",
+   "$0$",
+   "$5$",
+   "$-5$"
+  ],
+  "answer": [
+   0,
+   1
+  ]
+ },
+ {
+  "id": "q-alg-186",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A store sells notebooks for $\\$3$ each and pens for $\\$2$ each. If $30$ items were sold for a total of $\\$80$, how many notebooks were sold?",
+  "choices": [
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$",
+   "$30$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-187",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 + 2x - 15 = 0$, what are the roots?",
+  "choices": [
+   "$3, -5$",
+   "$-3, 5$",
+   "$5, -3$",
+   "$-5, 3$",
+   "$1, -15$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-188",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $x$ is $7 - x > 2$ true?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "Infinitely many"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-189",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$10^{0.5}$",
+  "quantityB": "$10^{0.25}$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-190",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 1| = 4$, what is the sum of all solutions?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-191",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A cyclist starts at point A and rides toward B at $15$ mph. A second cyclist leaves B toward A at $10$ mph. If A and B are $50$ miles apart, after how many hours do they meet?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-192",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the axis of symmetry of $y = 2x^2 + 8x - 3$?",
+  "choices": [
+   "$x = -2$",
+   "$x = -1$",
+   "$x = 0$",
+   "$x = 1$",
+   "$x = 2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-193",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $0 < x < 10$, which is a possible value of $x$?",
+  "choices": [
+   "$-1$",
+   "$0$",
+   "$5$",
+   "$10$",
+   "$11$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-194",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $5^{x+1} = 125$, what is $x$?",
+  "answer": 2
+ },
+ {
+  "id": "q-alg-195",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-5} - 3|$",
+  "quantityB": "$|5 + 3|$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-196",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\frac{2}{x} + \\frac{3}{x} = 10$, what is $x$?",
+  "choices": [
+   "$\\frac{1}{2}$",
+   "$\\frac{1}{5}$",
+   "$\\frac{1}{10}$",
+   "$\\frac{2}{5}$",
+   "$\\frac{1}{4}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-197",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the smallest value of $k$ such that $x^2 - 4x + k = 0$ has real roots?",
+  "answer": 4
+ },
+ {
+  "id": "q-alg-198",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For how many integer values of $n$ does $|n - 1| \\le 5$ hold?",
+  "choices": [
+   "$9$",
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-199",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^{x^2 - 4} = 8$, what is the smaller value of $x$?",
+  "choices": [
+   "$-3$",
+   "$-2$",
+   "$-1$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-200",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many real solutions does $|x - 4| + |x + 4| = 10$ have?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ }
+]

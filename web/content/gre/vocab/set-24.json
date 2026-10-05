@@ -1,0 +1,377 @@
+[
+ {
+  "word": "compromise",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an agreement reached by mutual concessions",
+  "synonyms": [
+   "settlement",
+   "concession"
+  ],
+  "antonyms": [
+   "stalemate"
+  ],
+  "example": "Both sides agreed to a compromise on the budget.",
+  "id": "v-0576"
+ },
+ {
+  "word": "conceit",
+  "tier": 3,
+  "pos": "n",
+  "definition": "excessive pride in oneself; a fanciful idea",
+  "synonyms": [
+   "vanity",
+   "egotism"
+  ],
+  "antonyms": [
+   "humility"
+  ],
+  "example": "Her conceit was matched only by her talent.",
+  "id": "v-0577"
+ },
+ {
+  "word": "concentric",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having a common center",
+  "synonyms": [
+   "converging",
+   "centered"
+  ],
+  "antonyms": [
+   "eccentric"
+  ],
+  "example": "The targets were drawn as concentric circles.",
+  "id": "v-0578"
+ },
+ {
+  "word": "conciliatory",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "intended to placate or pacify",
+  "synonyms": [
+   "appeasing",
+   "mollifying"
+  ],
+  "antonyms": [
+   "antagonistic"
+  ],
+  "example": "His conciliatory tone eased the tension.",
+  "id": "v-0579"
+ },
+ {
+  "word": "concordance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "agreement or compatibility between things",
+  "synonyms": [
+   "agreement",
+   "harmony"
+  ],
+  "antonyms": [
+   "discord"
+  ],
+  "example": "There was perfect concordance between the two reports.",
+  "id": "v-0580"
+ },
+ {
+  "word": "conformist",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who follows established conventions",
+  "synonyms": [
+   "traditionalist",
+   "conventional"
+  ],
+  "antonyms": [
+   "rebel"
+  ],
+  "example": "The school rewarded the conformist and punished the rebel.",
+  "id": "v-0581"
+ },
+ {
+  "word": "conjecture",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an opinion or conclusion formed on incomplete evidence",
+  "synonyms": [
+   "speculation",
+   "guess"
+  ],
+  "antonyms": [
+   "fact"
+  ],
+  "example": "His conclusions were mere conjecture.",
+  "id": "v-0582"
+ },
+ {
+  "word": "conjure",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to summon a spirit; to call to mind",
+  "synonyms": [
+   "evoke",
+   "summon"
+  ],
+  "antonyms": [
+   "banish"
+  ],
+  "example": "The smell of pine conjured memories of childhood.",
+  "id": "v-0583"
+ },
+ {
+  "word": "conscientious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "wishing to do what is right and proper",
+  "synonyms": [
+   "diligent",
+   "scrupulous"
+  ],
+  "antonyms": [
+   "careless"
+  ],
+  "example": "The conscientious editor caught every typo.",
+  "id": "v-0584"
+ },
+ {
+  "word": "daunt",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make someone feel intimidated or apprehensive",
+  "synonyms": [
+   "intimidate",
+   "dishearten"
+  ],
+  "antonyms": [
+   "encourage"
+  ],
+  "example": "The challenge did not daunt the volunteers.",
+  "id": "v-0585"
+ },
+ {
+  "word": "dawdle",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to waste time; to be slow",
+  "synonyms": [
+   "linger",
+   "loiter"
+  ],
+  "antonyms": [
+   "hurry"
+  ],
+  "example": "Don't dawdle or you'll miss the bus.",
+  "id": "v-0586"
+ },
+ {
+  "word": "debase",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to lower the quality, value, or dignity of",
+  "synonyms": [
+   "degrade",
+   "demean"
+  ],
+  "antonyms": [
+   "elevate"
+  ],
+  "example": "Such lies debase the public discourse.",
+  "id": "v-0587"
+ },
+ {
+  "word": "decadence",
+  "tier": 3,
+  "pos": "n",
+  "definition": "moral or cultural decline as a concept",
+  "synonyms": [
+   "decline",
+   "degeneracy"
+  ],
+  "antonyms": [
+   "austerity"
+  ],
+  "example": "Critics blamed decadence for the empire's fall.",
+  "id": "v-0588"
+ },
+ {
+  "word": "decipher",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to decode or work out the meaning of",
+  "synonyms": [
+   "decode",
+   "interpret"
+  ],
+  "antonyms": [
+   "encode"
+  ],
+  "example": "She deciphered the inscription on the wall.",
+  "id": "v-0589"
+ },
+ {
+  "word": "decrepit",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "worn out or ruined because of age or neglect",
+  "synonyms": [
+   "dilapidated",
+   "ramshackle"
+  ],
+  "antonyms": [
+   "sturdy"
+  ],
+  "example": "The decrepit barn was due for demolition.",
+  "id": "v-0590"
+ },
+ {
+  "word": "deduce",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to arrive at a conclusion by reasoning",
+  "synonyms": [
+   "infer",
+   "conclude"
+  ],
+  "antonyms": [
+   "guess"
+  ],
+  "example": "From his tone, she deduced he was angry.",
+  "id": "v-0591"
+ },
+ {
+  "word": "defame",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to damage the reputation of by libel or slander",
+  "synonyms": [
+   "slander",
+   "malign"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The article defamed the professor's reputation.",
+  "id": "v-0592"
+ },
+ {
+  "word": "defiance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "open resistance; bold disobedience",
+  "synonyms": [
+   "resistance",
+   "rebellion"
+  ],
+  "antonyms": [
+   "obedience"
+  ],
+  "example": "His defiance of the rule cost him dearly.",
+  "id": "v-0593"
+ },
+ {
+  "word": "deluge",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a severe flood; an overwhelming amount",
+  "synonyms": [
+   "flood",
+   "torrent"
+  ],
+  "antonyms": [
+   "drought"
+  ],
+  "example": "A deluge of complaints flooded the inbox.",
+  "id": "v-0594"
+ },
+ {
+  "word": "denizen",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an inhabitant or regular visitor of a place",
+  "synonyms": [
+   "inhabitant",
+   "resident"
+  ],
+  "antonyms": [
+   "stranger"
+  ],
+  "example": "The denizens of the forest stayed hidden.",
+  "id": "v-0595"
+ },
+ {
+  "word": "depose",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to remove from office, especially suddenly",
+  "synonyms": [
+   "oust",
+   "overthrow"
+  ],
+  "antonyms": [
+   "install"
+  ],
+  "example": "The general was deposed in a coup.",
+  "id": "v-0596"
+ },
+ {
+  "word": "despondent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "in low spirits from loss of hope or courage",
+  "synonyms": [
+   "dejected",
+   "despairing"
+  ],
+  "antonyms": [
+   "hopeful"
+  ],
+  "example": "She felt despondent about her job search.",
+  "id": "v-0597"
+ },
+ {
+  "word": "destitute",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "extremely poor; lacking the necessities of life",
+  "synonyms": [
+   "impoverished",
+   "needy"
+  ],
+  "antonyms": [
+   "wealthy"
+  ],
+  "example": "The floods left thousands destitute.",
+  "id": "v-0598"
+ },
+ {
+  "word": "dexterous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing or having skill, especially with the hands",
+  "synonyms": [
+   "deft",
+   "skillful"
+  ],
+  "antonyms": [
+   "clumsy"
+  ],
+  "example": "The dexterous chef sliced the fish thin.",
+  "id": "v-0599"
+ },
+ {
+  "word": "dichotomy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a separation into two contrasting parts",
+  "synonyms": [
+   "division",
+   "split"
+  ],
+  "antonyms": [
+   "unity"
+  ],
+  "example": "There is a dichotomy between theory and practice.",
+  "id": "v-0600"
+ }
+]

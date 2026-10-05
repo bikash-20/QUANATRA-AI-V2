@@ -1,0 +1,377 @@
+[
+ {
+  "word": "impudent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not showing due respect; impertinent",
+  "synonyms": [
+   "insolent",
+   "impertinent"
+  ],
+  "antonyms": [
+   "polite"
+  ],
+  "example": "The impudent child talked back.",
+  "id": "v-0676"
+ },
+ {
+  "word": "impugn",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to dispute the validity of something",
+  "synonyms": [
+   "challenge",
+   "question"
+  ],
+  "antonyms": [
+   "uphold"
+  ],
+  "example": "The lawyer impugned the witness's testimony.",
+  "id": "v-0677"
+ },
+ {
+  "word": "inadvertent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not resulting from deliberate planning",
+  "synonyms": [
+   "accidental",
+   "unintentional"
+  ],
+  "antonyms": [
+   "deliberate"
+  ],
+  "example": "An inadvertent keystroke deleted the file.",
+  "id": "v-0678"
+ },
+ {
+  "word": "inane",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking sense or meaning; silly",
+  "synonyms": [
+   "silly",
+   "vacuous"
+  ],
+  "antonyms": [
+   "sensible"
+  ],
+  "example": "She laughed at his inane joke.",
+  "id": "v-0679"
+ },
+ {
+  "word": "inanimate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not alive, especially not animated",
+  "synonyms": [
+   "lifeless",
+   "inert"
+  ],
+  "antonyms": [
+   "living"
+  ],
+  "example": "The story features both animate and inanimate objects.",
+  "id": "v-0680"
+ },
+ {
+  "word": "incendiary",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "tending to stir up conflict; inflammable",
+  "synonyms": [
+   "inflammatory",
+   "provocative"
+  ],
+  "antonyms": [
+   "calming"
+  ],
+  "example": "The speech was incendiary and divisive.",
+  "id": "v-0681"
+ },
+ {
+  "word": "incongruous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not in harmony or keeping with surroundings",
+  "synonyms": [
+   "incompatible",
+   "out of place"
+  ],
+  "antonyms": [
+   "harmonious"
+  ],
+  "example": "A modern sofa was incongruous in the old cottage.",
+  "id": "v-0682"
+ },
+ {
+  "word": "incorrigible",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not able to be corrected or reformed",
+  "synonyms": [
+   "hopeless",
+   "unreformable"
+  ],
+  "antonyms": [
+   "reformable"
+  ],
+  "example": "He was an incorrigible optimist.",
+  "id": "v-0683"
+ },
+ {
+  "word": "indigent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "poor; needy",
+  "synonyms": [
+   "destitute",
+   "impoverished"
+  ],
+  "antonyms": [
+   "affluent"
+  ],
+  "example": "The fund aids indigent families in the area.",
+  "id": "v-0684"
+ },
+ {
+  "word": "indignant",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "feeling or showing anger at something unfair",
+  "synonyms": [
+   "resentful",
+   "irate"
+  ],
+  "antonyms": [
+   "pleased"
+  ],
+  "example": "She was indignant at the accusation.",
+  "id": "v-0685"
+ },
+ {
+  "word": "infelicitous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unsuitable or unfortunate in manner or expression",
+  "synonyms": [
+   "inappropriate",
+   "unfortunate"
+  ],
+  "antonyms": [
+   "apt"
+  ],
+  "example": "It was an infelicitous choice of words.",
+  "id": "v-0686"
+ },
+ {
+  "word": "infidel",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who does not believe in a religion",
+  "synonyms": [
+   "nonbeliever",
+   "atheist"
+  ],
+  "antonyms": [
+   "believer"
+  ],
+  "example": "The medieval poem treats heretics as infidels.",
+  "id": "v-0687"
+ },
+ {
+  "word": "ingenious",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "clever, original, and inventive",
+  "synonyms": [
+   "clever",
+   "inventive"
+  ],
+  "antonyms": [
+   "clumsy"
+  ],
+  "example": "She devised an ingenious solution to the puzzle.",
+  "id": "v-0688"
+ },
+ {
+  "word": "ingenuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "innocent and unsuspecting",
+  "synonyms": [
+   "naive",
+   "artless"
+  ],
+  "antonyms": [
+   "cunning"
+  ],
+  "example": "Her ingenuous smile won everyone over.",
+  "id": "v-0689"
+ },
+ {
+  "word": "innocuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not harmful or offensive",
+  "synonyms": [
+   "harmless",
+   "benign"
+  ],
+  "antonyms": [
+   "harmful"
+  ],
+  "example": "His innocuous comment sparked controversy anyway.",
+  "id": "v-0690"
+ },
+ {
+  "word": "insensate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking sensation or feeling; without sympathy",
+  "synonyms": [
+   "callous",
+   "unfeeling"
+  ],
+  "antonyms": [
+   "sensitive"
+  ],
+  "example": "He was insensate to the suffering around him.",
+  "id": "v-0691"
+ },
+ {
+  "word": "insidious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "proceeding in a gradual, subtle way, but with harmful effects",
+  "synonyms": [
+   "subtle",
+   "treacherous"
+  ],
+  "antonyms": [
+   "obvious"
+  ],
+  "example": "The disease is insidious and hard to detect.",
+  "id": "v-0692"
+ },
+ {
+  "word": "insipid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking vigor or interest; dull",
+  "synonyms": [
+   "bland",
+   "tasteless"
+  ],
+  "antonyms": [
+   "exciting"
+  ],
+  "example": "The play was insipid and forgettable.",
+  "id": "v-0693"
+ },
+ {
+  "word": "insolent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing a rude and arrogant lack of respect",
+  "synonyms": [
+   "impudent",
+   "disrespectful"
+  ],
+  "antonyms": [
+   "polite"
+  ],
+  "example": "His insolent reply got him suspended.",
+  "id": "v-0694"
+ },
+ {
+  "word": "intangible",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "unable to be touched or grasped; not having physical presence",
+  "synonyms": [
+   "abstract",
+   "elusive"
+  ],
+  "antonyms": [
+   "tangible"
+  ],
+  "example": "Trust is an intangible asset.",
+  "id": "v-0695"
+ },
+ {
+  "word": "interminable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lasting for a very long time; endless",
+  "synonyms": [
+   "endless",
+   "unending"
+  ],
+  "antonyms": [
+   "brief"
+  ],
+  "example": "The interminable meeting wore on for hours.",
+  "id": "v-0696"
+ },
+ {
+  "word": "inured",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "accustomed to something, especially something unpleasant",
+  "synonyms": [
+   "hardened",
+   "habituated"
+  ],
+  "antonyms": [
+   "sensitive"
+  ],
+  "example": "The soldiers were inured to hardship.",
+  "id": "v-0697"
+ },
+ {
+  "word": "irate",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "very angry",
+  "synonyms": [
+   "furious",
+   "enraged"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The irate customer demanded a refund.",
+  "id": "v-0698"
+ },
+ {
+  "word": "irreproachable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "beyond criticism or fault",
+  "synonyms": [
+   "blameless",
+   "impeccable"
+  ],
+  "antonyms": [
+   "blameworthy"
+  ],
+  "example": "Her conduct was irreproachable.",
+  "id": "v-0699"
+ },
+ {
+  "word": "jargon",
+  "tier": 2,
+  "pos": "n",
+  "definition": "special words or expressions used by a particular group",
+  "synonyms": [
+   "terminology",
+   "parlance"
+  ],
+  "antonyms": [
+   "plain speech"
+  ],
+  "example": "The legal jargon confused the jury.",
+  "id": "v-0700"
+ }
+]

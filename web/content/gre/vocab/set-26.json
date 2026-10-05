@@ -1,0 +1,375 @@
+[
+ {
+  "word": "fabricate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to invent in order to deceive",
+  "synonyms": [
+   "concoct",
+   "invent"
+  ],
+  "antonyms": [
+   "verify"
+  ],
+  "example": "He fabricated a story to cover his tracks.",
+  "id": "v-0626"
+ },
+ {
+  "word": "fallacious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "based on a mistaken belief; misleading",
+  "synonyms": [
+   "false",
+   "mistaken"
+  ],
+  "antonyms": [
+   "valid"
+  ],
+  "example": "He based his argument on a fallacious premise.",
+  "id": "v-0627"
+ },
+ {
+  "word": "familiarity",
+  "tier": 1,
+  "pos": "n",
+  "definition": "close acquaintance with something",
+  "synonyms": [
+   "knowledge",
+   "acquaintance"
+  ],
+  "antonyms": [
+   "ignorance"
+  ],
+  "example": "Her familiarity with the law impressed the jury.",
+  "id": "v-0628"
+ },
+ {
+  "word": "fawning",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "displaying exaggerated flattery or affection",
+  "synonyms": [
+   "sycophantic",
+   "obsequious"
+  ],
+  "antonyms": [
+   "aloof"
+  ],
+  "example": "She grew tired of his fawning admirers.",
+  "id": "v-0629"
+ },
+ {
+  "word": "feasible",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "possible and practical; likely to be achieved",
+  "synonyms": [
+   "practical",
+   "viable"
+  ],
+  "antonyms": [
+   "impractical"
+  ],
+  "example": "The plan was ambitious but feasible.",
+  "id": "v-0630"
+ },
+ {
+  "word": "fervid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "intensely enthusiastic or passionate",
+  "synonyms": [
+   "impassioned",
+   "fervent"
+  ],
+  "antonyms": [
+   "apathetic"
+  ],
+  "example": "His fervid speech moved the audience.",
+  "id": "v-0631"
+ },
+ {
+  "word": "fervor",
+  "tier": 3,
+  "pos": "n",
+  "definition": "intense and passionate feeling",
+  "synonyms": [
+   "ardor",
+   "passion"
+  ],
+  "antonyms": [
+   "apathy"
+  ],
+  "example": "She defended the policy with great fervor.",
+  "id": "v-0632"
+ },
+ {
+  "word": "fickle",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "liable to change one's mind or loyalties",
+  "synonyms": [
+   "capricious",
+   "changeable"
+  ],
+  "antonyms": [
+   "steadfast"
+  ],
+  "example": "Fickle winds drove the sailors mad.",
+  "id": "v-0633"
+ },
+ {
+  "word": "filibuster",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an action such as prolonged speech to obstruct progress",
+  "synonyms": [
+   "delay",
+   "obstruction"
+  ],
+  "antonyms": [],
+  "example": "The senator launched a filibuster on the bill.",
+  "id": "v-0634"
+ },
+ {
+  "word": "flamboyant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showy, exuberant, or extravagant",
+  "synonyms": [
+   "showy",
+   "ostentatious"
+  ],
+  "antonyms": [
+   "understated"
+  ],
+  "example": "The magician had a flamboyant stage persona.",
+  "id": "v-0635"
+ },
+ {
+  "word": "flourish",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to grow or develop in a healthy way",
+  "synonyms": [
+   "thrive",
+   "prosper"
+  ],
+  "antonyms": [
+   "decline"
+  ],
+  "example": "The arts flourish in times of peace.",
+  "id": "v-0636"
+ },
+ {
+  "word": "fluctuate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to rise and fall irregularly",
+  "synonyms": [
+   "vary",
+   "oscillate"
+  ],
+  "antonyms": [
+   "stabilize"
+  ],
+  "example": "Prices fluctuate with the seasons.",
+  "id": "v-0637"
+ },
+ {
+  "word": "foment",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to stir up or incite trouble",
+  "synonyms": [
+   "instigate",
+   "incite"
+  ],
+  "antonyms": [
+   "quell"
+  ],
+  "example": "He was accused of fomenting unrest.",
+  "id": "v-0638"
+ },
+ {
+  "word": "forbearance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "patient self-control; tolerance",
+  "synonyms": [
+   "patience",
+   "restraint"
+  ],
+  "antonyms": [
+   "impatience"
+  ],
+  "example": "She responded with grace and forbearance.",
+  "id": "v-0639"
+ },
+ {
+  "word": "fortitude",
+  "tier": 3,
+  "pos": "n",
+  "definition": "courage in pain or adversity",
+  "synonyms": [
+   "bravery",
+   "resolve"
+  ],
+  "antonyms": [
+   "cowardice"
+  ],
+  "example": "He bore the loss with quiet fortitude.",
+  "id": "v-0640"
+ },
+ {
+  "word": "fraught",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "filled with or causing something undesirable",
+  "synonyms": [
+   "laden",
+   "charged"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The meeting was fraught with tension.",
+  "id": "v-0641"
+ },
+ {
+  "word": "frenetic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fast and energetic in a disorganized way",
+  "synonyms": [
+   "frantic",
+   "hectic"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The frenetic pace left everyone exhausted.",
+  "id": "v-0642"
+ },
+ {
+  "word": "frugal",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sparing or economical with money or food",
+  "synonyms": [
+   "thrifty",
+   "economical"
+  ],
+  "antonyms": [
+   "wasteful"
+  ],
+  "example": "His frugal habits saved him from debt.",
+  "id": "v-0643"
+ },
+ {
+  "word": "fulminate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to express vehement protest or anger",
+  "synonyms": [
+   "denounce",
+   "rail"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He fulminated against the new regulations.",
+  "id": "v-0644"
+ },
+ {
+  "word": "furtive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "attempting to avoid notice or attention",
+  "synonyms": [
+   "sneaky",
+   "stealthy"
+  ],
+  "antonyms": [
+   "open"
+  ],
+  "example": "She cast a furtive glance at the clock.",
+  "id": "v-0645"
+ },
+ {
+  "word": "glib",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fluent but insincere and shallow",
+  "synonyms": [
+   "smooth",
+   "slick"
+  ],
+  "antonyms": [
+   "earnest"
+  ],
+  "example": "His glib answer did not satisfy the auditors.",
+  "id": "v-0646"
+ },
+ {
+  "word": "glower",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to stare angrily",
+  "synonyms": [
+   "scowl",
+   "glare"
+  ],
+  "antonyms": [
+   "smile"
+  ],
+  "example": "He glowered at the noisy neighbors.",
+  "id": "v-0647"
+ },
+ {
+  "word": "goad",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to provoke or annoy someone to take action",
+  "synonyms": [
+   "prod",
+   "spur"
+  ],
+  "antonyms": [
+   "soothe"
+  ],
+  "example": "The critics goaded him into a reply.",
+  "id": "v-0648"
+ },
+ {
+  "word": "gorge",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to eat a large amount greedily",
+  "synonyms": [
+   "stuff",
+   "devour"
+  ],
+  "antonyms": [
+   "fast"
+  ],
+  "example": "They gorged themselves at the buffet.",
+  "id": "v-0649"
+ },
+ {
+  "word": "gregarious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fond of company; sociable",
+  "synonyms": [
+   "sociable",
+   "convivial"
+  ],
+  "antonyms": [
+   "reclusive"
+  ],
+  "example": "The gregarious host kept the table in laughter.",
+  "id": "v-0650"
+ }
+]

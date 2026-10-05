@@ -1,0 +1,414 @@
+[
+ {
+  "id": "q-geo-126",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many degrees are in a full circle?",
+  "choices": [
+   "$90$",
+   "$180$",
+   "$270$",
+   "$360$",
+   "$400$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-127",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many sides does a triangle have?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-128",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $6$?",
+  "choices": [
+   "$12$",
+   "$18$",
+   "$24$",
+   "$30$",
+   "$36$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-geo-129",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the x-axis?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "Undefined",
+   "$-\\infty$",
+   "$10$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-130",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle whose area is $25\\pi$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$10$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-131",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a right triangle with legs $6$ and $8$, what is the hypotenuse?",
+  "choices": [
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$",
+   "$100$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-132",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle has radius $10$. What is its area?",
+  "choices": [
+   "$10\\pi$",
+   "$20\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$200\\pi$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-133",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the equation of the x-axis?",
+  "choices": [
+   "$x = 0$",
+   "$y = 0$",
+   "$x = y$",
+   "$y = x + 1$",
+   "$y = 1$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-134",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The diameter of a circle is twice the radius. If radius is $7$, what is the diameter?",
+  "choices": [
+   "$3.5$",
+   "$7$",
+   "$14$",
+   "$21$",
+   "$49$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-135",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An isosceles triangle has vertex angle $40^\\circ$. What are the two base angles?",
+  "choices": [
+   "$40^\\circ$ each",
+   "$70^\\circ$ each",
+   "$80^\\circ$ each",
+   "$100^\\circ$ each",
+   "$140^\\circ$ each"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-136",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A rectangle has area $36$ and length $9$. What is its width?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-137",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of a line through $(1, 2)$ and $(4, 8)$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-138",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A pizza has radius $10$ inches. What is its circumference (as a multiple of $\\pi$)?",
+  "choices": [
+   "$5\\pi$",
+   "$10\\pi$",
+   "$20\\pi$",
+   "$25\\pi$",
+   "$100\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-139",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the sum of the interior angles of a triangle (in degrees)?",
+  "choices": [
+   "$90$",
+   "$180$",
+   "$270$",
+   "$360$",
+   "$540$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-140",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a triangle with base $6$ and height $4$",
+  "quantityB": "Area of a square with side $4$",
+  "answer": "B"
+ },
+ {
+  "id": "q-geo-141",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance from $(1, 1)$ to $(4, 5)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-142",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many square inches are in a circle of radius $3$? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$3\\pi$",
+   "$6\\pi$",
+   "$9\\pi$",
+   "$12\\pi$",
+   "$18\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-143",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a right triangle, if one angle is $30^\\circ$, what is the other acute angle?",
+  "choices": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$",
+   "$120^\\circ$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-144",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A trapezoid has parallel sides $4$ and $8$, height $3$. What is its area?",
+  "choices": [
+   "$12$",
+   "$18$",
+   "$24$",
+   "$36$",
+   "$48$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-145",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the $x$-intercept of $y = 2x - 6$?",
+  "choices": [
+   "$-6$",
+   "$-3$",
+   "$0$",
+   "$3$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-146",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle has equation $(x-2)^2 + (y+3)^2 = 16$. What is its center?",
+  "choices": [
+   "$(2, -3)$",
+   "$(-2, 3)$",
+   "$(2, 3)$",
+   "$(-2, -3)$",
+   "$(4, 9)$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-147",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "In a right triangle with legs $5$ and $12$, what is the hypotenuse?",
+  "answer": 13
+ },
+ {
+  "id": "q-geo-148",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A regular hexagon has side length $s$. What is its area?",
+  "choices": [
+   "$3s^2$",
+   "$6s^2$",
+   "$\\frac{3\\sqrt{3}}{2}s^2$",
+   "$\\frac{3\\sqrt{3}}{2}s$",
+   "$s^2$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-149",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between parallel lines $y = 2x + 1$ and $y = 2x + 4$?",
+  "choices": [
+   "$\\frac{3}{\\sqrt{5}}$",
+   "$\\frac{1}{\\sqrt{5}}$",
+   "$3$",
+   "$\\sqrt{5}$",
+   "$\\frac{2}{\\sqrt{5}}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-150",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a $6$-$8$-$10$ right triangle is inscribed in a circle, what is the circle's diameter?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 2
+ }
+]

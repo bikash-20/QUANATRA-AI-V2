@@ -1,0 +1,367 @@
+[
+ {
+  "word": "burdensome",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "causing difficulty or effort",
+  "synonyms": [
+   "onerous",
+   "oppressive"
+  ],
+  "antonyms": [
+   "light"
+  ],
+  "example": "The new regulations were burdensome for small firms.",
+  "id": "v-0551"
+ },
+ {
+  "word": "byzantine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "excessively complicated and intricate",
+  "synonyms": [
+   "complex",
+   "convoluted"
+  ],
+  "antonyms": [
+   "simple"
+  ],
+  "example": "The byzantine rules baffled the new hires.",
+  "id": "v-0552"
+ },
+ {
+  "word": "cajole",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to persuade by flattery or coaxing",
+  "synonyms": [
+   "coax",
+   "wheedle"
+  ],
+  "antonyms": [
+   "demand"
+  ],
+  "example": "She cajoled him into staying one more hour.",
+  "id": "v-0553"
+ },
+ {
+  "word": "calamity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a disastrous event causing great loss or distress",
+  "synonyms": [
+   "disaster",
+   "catastrophe"
+  ],
+  "antonyms": [
+   "blessing"
+  ],
+  "example": "The flood was the worst calamity in decades.",
+  "id": "v-0554"
+ },
+ {
+  "word": "calculated",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "deliberately planned to achieve a purpose",
+  "synonyms": [
+   "planned",
+   "deliberate"
+  ],
+  "antonyms": [
+   "spontaneous"
+  ],
+  "example": "It was a calculated risk worth taking.",
+  "id": "v-0555"
+ },
+ {
+  "word": "canon",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a body of works considered authentic or authoritative",
+  "synonyms": [
+   "standard",
+   "corpus"
+  ],
+  "antonyms": [
+   "heresy"
+  ],
+  "example": "The novel entered the literary canon in 1925.",
+  "id": "v-0556"
+ },
+ {
+  "word": "canvass",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to seek votes or opinions systematically",
+  "synonyms": [
+   "poll",
+   "survey"
+  ],
+  "antonyms": [],
+  "example": "Volunteers canvassed the neighborhood for support.",
+  "id": "v-0557"
+ },
+ {
+  "word": "cavil",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to raise trivial objections",
+  "synonyms": [
+   "quibble",
+   "carp"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He caviled at every clause in the contract.",
+  "id": "v-0558"
+ },
+ {
+  "word": "centurion",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the commander of a century in the Roman army",
+  "synonyms": [
+   "officer",
+   "captain"
+  ],
+  "antonyms": [],
+  "example": "The centurion led his men across the plain.",
+  "id": "v-0559"
+ },
+ {
+  "word": "chastise",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to rebuke or reprimand severely",
+  "synonyms": [
+   "rebuke",
+   "chide"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The principal chastised the bullies in front of the school.",
+  "id": "v-0560"
+ },
+ {
+  "word": "cherubic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having the innocence or plump prettiness of a child",
+  "synonyms": [
+   "angelic",
+   "innocent"
+  ],
+  "antonyms": [
+   "sinister"
+  ],
+  "example": "The cherubic toddler stole the show.",
+  "id": "v-0561"
+ },
+ {
+  "word": "chivalrous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "courteous and gallant, especially to women",
+  "synonyms": [
+   "gallant",
+   "courtly"
+  ],
+  "antonyms": [
+   "boorish"
+  ],
+  "example": "His chivalrous gesture earned her thanks.",
+  "id": "v-0562"
+ },
+ {
+  "word": "chronicle",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a factual written account of important events in order",
+  "synonyms": [
+   "record",
+   "account"
+  ],
+  "antonyms": [],
+  "example": "The chronicle recounts the war's darkest days.",
+  "id": "v-0563"
+ },
+ {
+  "word": "circuitous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "longer than the most direct way; roundabout",
+  "synonyms": [
+   "indirect",
+   "roundabout"
+  ],
+  "antonyms": [
+   "direct"
+  ],
+  "example": "We took a circuitous route to avoid traffic.",
+  "id": "v-0564"
+ },
+ {
+  "word": "clamorous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making a loud and sustained noise",
+  "synonyms": [
+   "noisy",
+   "vociferous"
+  ],
+  "antonyms": [
+   "quiet"
+  ],
+  "example": "The clamorous crowd demanded answers.",
+  "id": "v-0565"
+ },
+ {
+  "word": "clique",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a small exclusive group of friends or associates",
+  "synonyms": [
+   "circle",
+   "coterie"
+  ],
+  "antonyms": [],
+  "example": "The school had a popular clique that drew notice.",
+  "id": "v-0566"
+ },
+ {
+  "word": "coercion",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the practice of forcing someone to act against their will",
+  "synonyms": [
+   "compulsion",
+   "force"
+  ],
+  "antonyms": [
+   "persuasion"
+  ],
+  "example": "The confession was obtained by coercion.",
+  "id": "v-0567"
+ },
+ {
+  "word": "colloquial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "used in ordinary or familiar conversation",
+  "synonyms": [
+   "informal",
+   "conversational"
+  ],
+  "antonyms": [
+   "formal"
+  ],
+  "example": "The essay's colloquial style felt approachable.",
+  "id": "v-0568"
+ },
+ {
+  "word": "combustion",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the process of burning something",
+  "synonyms": [
+   "burning",
+   "ignition"
+  ],
+  "antonyms": [],
+  "example": "Spontaneous combustion started the fire.",
+  "id": "v-0569"
+ },
+ {
+  "word": "commendable",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "deserving praise and approval",
+  "synonyms": [
+   "praiseworthy",
+   "admirable"
+  ],
+  "antonyms": [
+   "deplorable"
+  ],
+  "example": "Her efforts on the project were commendable.",
+  "id": "v-0570"
+ },
+ {
+  "word": "commodious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "roomy and comfortable",
+  "synonyms": [
+   "spacious",
+   "ample"
+  ],
+  "antonyms": [
+   "cramped"
+  ],
+  "example": "The commodious apartment suited their family.",
+  "id": "v-0571"
+ },
+ {
+  "word": "compatible",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "able to exist or work together without conflict",
+  "synonyms": [
+   "harmonious",
+   "congenial"
+  ],
+  "antonyms": [
+   "incompatible"
+  ],
+  "example": "The two systems are fully compatible.",
+  "id": "v-0572"
+ },
+ {
+  "word": "competent",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "having the necessary ability or skill",
+  "synonyms": [
+   "capable",
+   "skilled"
+  ],
+  "antonyms": [
+   "incompetent"
+  ],
+  "example": "She is a competent translator of legal jargon.",
+  "id": "v-0573"
+ },
+ {
+  "word": "complacency",
+  "tier": 3,
+  "pos": "n",
+  "definition": "smug satisfaction with oneself or one's achievements",
+  "synonyms": [
+   "smugness",
+   "self-satisfaction"
+  ],
+  "antonyms": [
+   "vigilance"
+  ],
+  "example": "The team's complacency cost them the lead.",
+  "id": "v-0574"
+ },
+ {
+  "word": "composure",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the state of being calm and in control of emotions",
+  "synonyms": [
+   "calmness",
+   "equanimity"
+  ],
+  "antonyms": [
+   "agitation"
+  ],
+  "example": "She maintained her composure during the crisis.",
+  "id": "v-0575"
+ }
+]

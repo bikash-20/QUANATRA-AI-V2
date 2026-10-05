@@ -1,0 +1,377 @@
+[
+ {
+  "word": "allegiance",
+  "tier": 3,
+  "pos": "n",
+  "definition": "loyalty or commitment to a cause or person",
+  "synonyms": [
+   "loyalty",
+   "devotion"
+  ],
+  "antonyms": [
+   "treachery"
+  ],
+  "example": "She pledged her allegiance to the new regime.",
+  "id": "v-0526"
+ },
+ {
+  "word": "allegory",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a story with a hidden meaning, often moral or political",
+  "synonyms": [
+   "parable",
+   "fable"
+  ],
+  "antonyms": [
+   "literal"
+  ],
+  "example": "The tale is an allegory of innocence lost.",
+  "id": "v-0527"
+ },
+ {
+  "word": "allocate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to distribute for a particular purpose",
+  "synonyms": [
+   "assign",
+   "apportion"
+  ],
+  "antonyms": [
+   "hoard"
+  ],
+  "example": "The school allocates funds for new books.",
+  "id": "v-0528"
+ },
+ {
+  "word": "alluring",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "powerfully and mysteriously attractive",
+  "synonyms": [
+   "enticing",
+   "seductive"
+  ],
+  "antonyms": [
+   "repulsive"
+  ],
+  "example": "The brochure offered an alluring picture of island life.",
+  "id": "v-0529"
+ },
+ {
+  "word": "amateur",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person who engages in something as a pastime",
+  "synonyms": [
+   "nonprofessional",
+   "dabbler"
+  ],
+  "antonyms": [
+   "professional"
+  ],
+  "example": "The tournament welcomes amateurs and pros alike.",
+  "id": "v-0530"
+ },
+ {
+  "word": "amiable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having a friendly and pleasant manner",
+  "synonyms": [
+   "friendly",
+   "cordial"
+  ],
+  "antonyms": [
+   "hostile"
+  ],
+  "example": "His amiable nature made him welcome everywhere.",
+  "id": "v-0531"
+ },
+ {
+  "word": "amicable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "characterized by friendliness and absence of discord",
+  "synonyms": [
+   "peaceable",
+   "harmonious"
+  ],
+  "antonyms": [
+   "hostile"
+  ],
+  "example": "They reached an amicable settlement.",
+  "id": "v-0532"
+ },
+ {
+  "word": "amorphous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "without a definite shape or form",
+  "synonyms": [
+   "shapeless",
+   "formless"
+  ],
+  "antonyms": [
+   "defined"
+  ],
+  "example": "The proposal remains amorphous and unfinished.",
+  "id": "v-0533"
+ },
+ {
+  "word": "analogy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a comparison between two things for explanation",
+  "synonyms": [
+   "comparison",
+   "parallel"
+  ],
+  "antonyms": [
+   "contrast"
+  ],
+  "example": "He drew an analogy between the heart and a pump.",
+  "id": "v-0534"
+ },
+ {
+  "word": "banish",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to send away from a place, often as punishment",
+  "synonyms": [
+   "exile",
+   "expel"
+  ],
+  "antonyms": [
+   "welcome"
+  ],
+  "example": "The king banished him to a distant island.",
+  "id": "v-0535"
+ },
+ {
+  "word": "barren",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "too poor to produce much vegetation; unproductive",
+  "synonyms": [
+   "sterile",
+   "infertile"
+  ],
+  "antonyms": [
+   "fertile"
+  ],
+  "example": "The barren soil yielded nothing that season.",
+  "id": "v-0536"
+ },
+ {
+  "word": "bashful",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "easily embarrassed; shy",
+  "synonyms": [
+   "shy",
+   "timid"
+  ],
+  "antonyms": [
+   "bold"
+  ],
+  "example": "The bashful child hid behind her mother.",
+  "id": "v-0537"
+ },
+ {
+  "word": "begrudge",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to envy someone for possessing something",
+  "synonyms": [
+   "envy",
+   "resent"
+  ],
+  "antonyms": [
+   "rejoice"
+  ],
+  "example": "He begrudged his brother every success.",
+  "id": "v-0538"
+ },
+ {
+  "word": "benefactor",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who gives money or aid to another",
+  "synonyms": [
+   "patron",
+   "donor"
+  ],
+  "antonyms": [
+   "recipient"
+  ],
+  "example": "An anonymous benefactor funded the new library.",
+  "id": "v-0539"
+ },
+ {
+  "word": "benevolent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "well meaning and kindly",
+  "synonyms": [
+   "generous",
+   "kindly"
+  ],
+  "antonyms": [
+   "malevolent"
+  ],
+  "example": "Her benevolent smile put everyone at ease.",
+  "id": "v-0540"
+ },
+ {
+  "word": "bigot",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who is intolerant of others' views",
+  "synonyms": [
+   "fanatic",
+   "zealot"
+  ],
+  "antonyms": [
+   "tolerant"
+  ],
+  "example": "He was widely regarded as a bigot.",
+  "id": "v-0541"
+ },
+ {
+  "word": "blanch",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to become or cause to become pale",
+  "synonyms": [
+   "pale",
+   "whiten"
+  ],
+  "antonyms": [
+   "flush"
+  ],
+  "example": "She blanched at the mention of his name.",
+  "id": "v-0542"
+ },
+ {
+  "word": "bland",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking strong features or characteristics",
+  "synonyms": [
+   "tasteless",
+   "insipid"
+  ],
+  "antonyms": [
+   "pungent"
+  ],
+  "example": "The soup was bland and needed seasoning.",
+  "id": "v-0543"
+ },
+ {
+  "word": "blandishment",
+  "tier": 3,
+  "pos": "n",
+  "definition": "flattery intended to coax or persuade",
+  "synonyms": [
+   "flattery",
+   "cajolery"
+  ],
+  "antonyms": [
+   "rebuke"
+  ],
+  "example": "She was immune to his blandishments.",
+  "id": "v-0544"
+ },
+ {
+  "word": "bleak",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "cold and miserable; lacking hope",
+  "synonyms": [
+   "dreary",
+   "grim"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "The forecast was bleak and discouraging.",
+  "id": "v-0545"
+ },
+ {
+  "word": "blunder",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a stupid or careless mistake",
+  "synonyms": [
+   "error",
+   "gaffe"
+  ],
+  "antonyms": [
+   "masterstroke"
+  ],
+  "example": "The gaffe was a serious blunder for the campaign.",
+  "id": "v-0546"
+ },
+ {
+  "word": "boisterous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "noisy, energetic, and cheerful",
+  "synonyms": [
+   "rowdy",
+   "rambunctious"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The boisterous crowd cheered through the night.",
+  "id": "v-0547"
+ },
+ {
+  "word": "brazen",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "bold and without shame",
+  "synonyms": [
+   "shameless",
+   "audacious"
+  ],
+  "antonyms": [
+   "bashful"
+  ],
+  "example": "He told a brazen lie to the interviewer.",
+  "id": "v-0548"
+ },
+ {
+  "word": "brevity",
+  "tier": 2,
+  "pos": "n",
+  "definition": "concise and exact use of words",
+  "synonyms": [
+   "conciseness",
+   "pithiness"
+  ],
+  "antonyms": [
+   "verbosity"
+  ],
+  "example": "Brevity is the soul of wit.",
+  "id": "v-0549"
+ },
+ {
+  "word": "buoyant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "cheerful and optimistic; able to float",
+  "synonyms": [
+   "cheerful",
+   "upbeat"
+  ],
+  "antonyms": [
+   "dejected"
+  ],
+  "example": "Her buoyant spirits lifted the whole team.",
+  "id": "v-0550"
+ }
+]

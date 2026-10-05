@@ -1,0 +1,331 @@
+[
+ {
+  "id": "q-alg-101",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3x + 6 = 0$, what is $x$?",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-102",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 = 25$, what is the positive value of $x$?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$5$",
+   "$10$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-103",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x > 4$, which of the following could be $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-104",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $10^x = 1000$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-105",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 7$, what is the smaller value of $x$?",
+  "choices": [
+   "$-7$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$7$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-106",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $y = 3x - 1$ and $y = 2x + 4$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-107",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the vertex $y$-value of $y = (x-2)^2 + 3$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-108",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $-2 < 3x + 1 < 10$, what is the range of $x$?",
+  "choices": [
+   "$-1 < x < 3$",
+   "$-\\frac{1}{3} < x < 3$",
+   "$0 < x < 3$",
+   "$-1 < x < 9$",
+   "$-3 < x < 9$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-109",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are equal to $2^8$? Indicate all such values.",
+  "choices": [
+   "$4^4$",
+   "$8^2$",
+   "$16^2$",
+   "$2^4 \\cdot 2^4$",
+   "$2^{10}$"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ]
+ },
+ {
+  "id": "q-alg-110",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x - 3| = 5$, what is the sum of all values of $x$?",
+  "choices": [
+   "$-2$",
+   "$0$",
+   "$3$",
+   "$6$",
+   "$10$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-111",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A jar contains red and blue marbles in the ratio $3:5$. If there are $24$ marbles in total, how many are blue?",
+  "choices": [
+   "$9$",
+   "$12$",
+   "$15$",
+   "$18$",
+   "$20$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-112",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 - 9x + 14 = 0$, what is the larger root?",
+  "choices": [
+   "$2$",
+   "$5$",
+   "$7$",
+   "$9$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-113",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-4}|$",
+  "quantityB": "$|-2|$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-114",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $\\frac{5^{12}}{5^4}$.",
+  "choices": [
+   "$5^3$",
+   "$5^8$",
+   "$5^{16}$",
+   "$25^4$",
+   "$1$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-115",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following values of $x$ satisfy $|x| < 4$? Indicate all such values.",
+  "choices": [
+   "$0$",
+   "$-3$",
+   "$3$",
+   "$4$",
+   "$-5$"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "id": "q-alg-116",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A phone plan charges $\\$20$ for the first $500$ minutes and $\\$0.10$ per additional minute. If the bill is $\\$35$, how many extra minutes were used?",
+  "choices": [
+   "$50$",
+   "$100$",
+   "$150$",
+   "$200$",
+   "$250$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-117",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many real roots does $x^2 + 4x + 5 = 0$ have?",
+  "answer": 0
+ },
+ {
+  "id": "q-alg-118",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x$ is an integer and $5 - 2x > 1$, what is the greatest possible value of $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-119",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^{x+1} = 16^x$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-120",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|{-8} + |4||$",
+  "quantityB": "$|-8 + 4|$",
+  "answer": "A"
+ }
+]

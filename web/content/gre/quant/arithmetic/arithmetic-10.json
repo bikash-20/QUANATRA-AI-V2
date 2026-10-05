@@ -1,0 +1,401 @@
+[
+ {
+  "id": "q-ari-201",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $50\\%$ of $90$?",
+  "choices": [
+   "$30$",
+   "$40$",
+   "$45$",
+   "$50$",
+   "$55$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-202",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a 30-student class, girls : boys = $2:1$. How many girls?",
+  "choices": [
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$",
+   "$30$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-203",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which is a multiple of $4$?",
+  "choices": [
+   "$22$",
+   "$26$",
+   "$32$",
+   "$38$",
+   "$42$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-204",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $10^4$?",
+  "choices": [
+   "$100$",
+   "$1000$",
+   "$10000$",
+   "$100000$",
+   "$1000000$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-205",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $12$?",
+  "choices": [
+   "$36$",
+   "$48$",
+   "$60$",
+   "$72$",
+   "All of the above"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-206",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is prime?",
+  "choices": [
+   "$45$",
+   "$49$",
+   "$53$",
+   "$55$",
+   "$57$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-207",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A store offers $15\\%$ off. An item costs $\\$34$ after discount. What was the original price?",
+  "choices": [
+   "$\\$38$",
+   "$\\$40$",
+   "$\\$42$",
+   "$\\$45$",
+   "$\\$50$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-208",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The ratio of A's age to B's age is $4:5$. If A is $20$, how old is B?",
+  "choices": [
+   "$22$",
+   "$24$",
+   "$25$",
+   "$28$",
+   "$30$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-209",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the units digit of $11^{17}$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-210",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many positive divisors does $48$ have?",
+  "answer": 10
+ },
+ {
+  "id": "q-ari-211",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $a^0$ for $a \\ne 0$.",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$a$",
+   "$a^2$",
+   "Undefined"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-212",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A number leaves remainder $2$ when divided by $5$. What does it leave when divided by $10$?",
+  "choices": [
+   "$2$ or $7$",
+   "$5$",
+   "$0$",
+   "$2$",
+   "$7$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-213",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of twin-prime pairs below $30$",
+  "quantityB": "$4$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-214",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "After two successive $10\\%$ discounts, what percent of the original is the final price?",
+  "choices": [
+   "$80\\%$",
+   "$81\\%$",
+   "$85\\%$",
+   "$90\\%$",
+   "$100\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-215",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a : b = 3 : 4$, what is $2a : 2b$?",
+  "choices": [
+   "$3:4$",
+   "$4:3$",
+   "$6:8$",
+   "$9:16$",
+   "$6:4$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-216",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the smallest positive multiple of $7$ greater than $100$?",
+  "choices": [
+   "$101$",
+   "$103$",
+   "$105$",
+   "$107$",
+   "$109$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-217",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Express $0.0001$ as a power of $10$.",
+  "choices": [
+   "$10^{-1}$",
+   "$10^{-2}$",
+   "$10^{-3}$",
+   "$10^{-4}$",
+   "$10^{-5}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-218",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the least common multiple of $4$ and $10$?",
+  "choices": [
+   "$10$",
+   "$14$",
+   "$20$",
+   "$40$",
+   "$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-219",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Largest prime less than $50$",
+  "quantityB": "$47$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-220",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What percent of $80$ is $20$?",
+  "choices": [
+   "$15\\%$",
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$",
+   "$35\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-221",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b = 4:7$ and $b:c = 3:5$, what is $a:c$?",
+  "choices": [
+   "$12:35$",
+   "$4:5$",
+   "$7:5$",
+   "$12:5$",
+   "$4:35$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-222",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many integers from $1$ to $200$ are divisible by $3$ or $5$?",
+  "answer": 107
+ },
+ {
+  "id": "q-ari-223",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^{x^2} = 2^{8x}$, what is $x$?",
+  "choices": [
+   "$0$",
+   "$2$",
+   "$4$",
+   "$8$",
+   "$16$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-224",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the smallest $n$ such that $n!$ has $5$ trailing zeros?",
+  "choices": [
+   "$20$",
+   "$22$",
+   "$24$",
+   "$25$",
+   "$30$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-225",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is a Mersenne prime (of form $2^p - 1$)?",
+  "choices": [
+   "$7$",
+   "$15$",
+   "$21$",
+   "$25$",
+   "$27$"
+  ],
+  "answer": 0
+ }
+]

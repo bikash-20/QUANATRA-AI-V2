@@ -1,0 +1,363 @@
+[
+ {
+  "word": "issue",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an important topic or problem for debate",
+  "synonyms": [
+   "matter",
+   "problem"
+  ],
+  "antonyms": [],
+  "example": "We must address this issue.",
+  "id": "v-0951"
+ },
+ {
+  "word": "justify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to show or prove to be right or reasonable",
+  "synonyms": [
+   "defend",
+   "vindicate"
+  ],
+  "antonyms": [
+   "condemn"
+  ],
+  "example": "Can you justify the cost?",
+  "id": "v-0952"
+ },
+ {
+  "word": "label",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a small piece of paper or fabric attached for identification",
+  "synonyms": [
+   "tag",
+   "marker"
+  ],
+  "antonyms": [],
+  "example": "Read the label carefully.",
+  "id": "v-0953"
+ },
+ {
+  "word": "locate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to discover the exact place or position of",
+  "synonyms": [
+   "find",
+   "discover"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "Can you locate the file?",
+  "id": "v-0954"
+ },
+ {
+  "word": "maintain",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to keep in an existing state; to assert",
+  "synonyms": [
+   "preserve",
+   "sustain"
+  ],
+  "antonyms": [
+   "abandon"
+  ],
+  "example": "Maintain the equipment well.",
+  "id": "v-0955"
+ },
+ {
+  "word": "manipulate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to control or use skillfully",
+  "synonyms": [
+   "handle",
+   "operate"
+  ],
+  "antonyms": [],
+  "example": "She manipulated the controls easily.",
+  "id": "v-0956"
+ },
+ {
+  "word": "maximize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make as large or great as possible",
+  "synonyms": [
+   "increase",
+   "optimize"
+  ],
+  "antonyms": [
+   "minimize"
+  ],
+  "example": "Maximize your savings.",
+  "id": "v-0957"
+ },
+ {
+  "word": "minimize",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to reduce to the smallest possible amount or degree",
+  "synonyms": [
+   "reduce",
+   "lessen"
+  ],
+  "antonyms": [
+   "maximize"
+  ],
+  "example": "Minimize the risks.",
+  "id": "v-0958"
+ },
+ {
+  "word": "modify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make partial or minor changes to something",
+  "synonyms": [
+   "change",
+   "alter"
+  ],
+  "antonyms": [
+   "preserve"
+  ],
+  "example": "Modify the plan accordingly.",
+  "id": "v-0959"
+ },
+ {
+  "word": "monitor",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to observe and check the progress of something over time",
+  "synonyms": [
+   "track",
+   "observe"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Monitor the situation closely.",
+  "id": "v-0960"
+ },
+ {
+  "word": "motivate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to provide someone with a reason to act in a particular way",
+  "synonyms": [
+   "inspire",
+   "drive"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "He motivated the team.",
+  "id": "v-0961"
+ },
+ {
+  "word": "mutual",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "experienced or done by each of two or more toward the other",
+  "synonyms": [
+   "shared",
+   "reciprocal"
+  ],
+  "antonyms": [
+   "one-sided"
+  ],
+  "example": "It was a mutual decision.",
+  "id": "v-0962"
+ },
+ {
+  "word": "negotiate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to try to reach an agreement by discussion",
+  "synonyms": [
+   "bargain",
+   "discuss"
+  ],
+  "antonyms": [],
+  "example": "They negotiated a fair deal.",
+  "id": "v-0963"
+ },
+ {
+  "word": "neutral",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "not supporting or helping either side in a conflict",
+  "synonyms": [
+   "impartial",
+   "unbiased"
+  ],
+  "antonyms": [
+   "biased"
+  ],
+  "example": "He remained neutral in the debate.",
+  "id": "v-0964"
+ },
+ {
+  "word": "nevertheless",
+  "tier": 1,
+  "pos": "adv",
+  "definition": "in spite of that; however",
+  "synonyms": [
+   "nonetheless",
+   "however"
+  ],
+  "antonyms": [],
+  "example": "It rained; nevertheless, we went.",
+  "id": "v-0965"
+ },
+ {
+  "word": "obscure",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "not discovered or known about; uncertain",
+  "synonyms": [
+   "unclear",
+   "vague"
+  ],
+  "antonyms": [
+   "clear"
+  ],
+  "example": "The origins are obscure.",
+  "id": "v-0966"
+ },
+ {
+  "word": "obtain",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to get, acquire, or secure something",
+  "synonyms": [
+   "get",
+   "acquire"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "Obtain the necessary permits.",
+  "id": "v-0967"
+ },
+ {
+  "word": "occupy",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to fill or take up time or space",
+  "synonyms": [
+   "fill",
+   "engage"
+  ],
+  "antonyms": [
+   "vacate"
+  ],
+  "example": "The task occupied her morning.",
+  "id": "v-0968"
+ },
+ {
+  "word": "operate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to control the functioning of something",
+  "synonyms": [
+   "run",
+   "manage"
+  ],
+  "antonyms": [],
+  "example": "She operates the machine.",
+  "id": "v-0969"
+ },
+ {
+  "word": "oppose",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to disagree with or disapprove of something",
+  "synonyms": [
+   "resist",
+   "fight"
+  ],
+  "antonyms": [
+   "support"
+  ],
+  "example": "He opposed the new rule.",
+  "id": "v-0970"
+ },
+ {
+  "word": "perceive",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to become aware or conscious of something",
+  "synonyms": [
+   "sense",
+   "detect"
+  ],
+  "antonyms": [
+   "miss"
+  ],
+  "example": "I perceived a change in her mood.",
+  "id": "v-0971"
+ },
+ {
+  "word": "persist",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to continue firmly in a course of action",
+  "synonyms": [
+   "continue",
+   "persevere"
+  ],
+  "antonyms": [
+   "stop"
+  ],
+  "example": "She persisted despite setbacks.",
+  "id": "v-0972"
+ },
+ {
+  "word": "persuade",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to induce someone to do something through reasoning",
+  "synonyms": [
+   "convince",
+   "influence"
+  ],
+  "antonyms": [
+   "dissuade"
+  ],
+  "example": "She persuaded him to stay.",
+  "id": "v-0973"
+ },
+ {
+  "word": "policy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a course or principle of action adopted by an organization",
+  "synonyms": [
+   "procedure",
+   "plan"
+  ],
+  "antonyms": [],
+  "example": "The policy is clear.",
+  "id": "v-0974"
+ },
+ {
+  "word": "pose",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to present or constitute a problem or danger",
+  "synonyms": [
+   "present",
+   "create"
+  ],
+  "antonyms": [
+   "solve"
+  ],
+  "example": "It poses a real risk.",
+  "id": "v-0975"
+ }
+]

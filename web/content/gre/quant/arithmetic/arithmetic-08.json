@@ -1,0 +1,401 @@
+[
+ {
+  "id": "q-ari-151",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $15\\%$ of $60$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-152",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a class of $30$ students, the ratio of boys to girls is $2:3$. How many boys are there?",
+  "choices": [
+   "$10$",
+   "$12$",
+   "$15$",
+   "$18$",
+   "$20$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-153",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is a multiple of $7$?",
+  "choices": [
+   "$36$",
+   "$42$",
+   "$46$",
+   "$52$",
+   "$56$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-154",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $3^4$?",
+  "choices": [
+   "$12$",
+   "$27$",
+   "$64$",
+   "$81$",
+   "$243$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-155",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $6$?",
+  "choices": [
+   "$28$",
+   "$34$",
+   "$42$",
+   "$46$",
+   "$52$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-156",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is NOT prime?",
+  "choices": [
+   "$23$",
+   "$29$",
+   "$31$",
+   "$37$",
+   "$39$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-157",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A price rises from $\\$71$ to $\\$85$. What is the percent increase?",
+  "choices": [
+   "$14\\%$",
+   "$16\\%$",
+   "$18\\%$",
+   "$20\\%$",
+   "$22\\%$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-158",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3$ oranges cost the same as $5$ apples, what is the ratio of price per orange to price per apple?",
+  "choices": [
+   "$3:5$",
+   "$5:3$",
+   "$1:1$",
+   "$2:1$",
+   "$1:2$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-159",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many prime numbers are less than $20$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-160",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the sum of the first $20$ positive integers?",
+  "answer": 210
+ },
+ {
+  "id": "q-ari-161",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $\\frac{3^5}{3^2}$.",
+  "choices": [
+   "$3^2$",
+   "$3^3$",
+   "$3^5$",
+   "$3^7$",
+   "$3^{10}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-162",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which number has the most factors among $20, 24, 30, 36$?",
+  "choices": [
+   "$20$",
+   "$24$",
+   "$30$",
+   "$36$",
+   "All equal"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-163",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Sum of primes between $10$ and $20$",
+  "quantityB": "$30$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-164",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A $10\\%$ tip on a bill of $\\$45$ is how much?",
+  "choices": [
+   "$\\$3.50$",
+   "$\\$4.00$",
+   "$\\$4.50$",
+   "$\\$5.00$",
+   "$\\$5.50$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-165",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A mixture of nuts has almonds and cashews in the ratio $3:5$. If there are $40$ nuts total, how many are almonds?",
+  "choices": [
+   "$10$",
+   "$12$",
+   "$15$",
+   "$20$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-166",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the units digit of $2^{10}$?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$6$",
+   "$8$",
+   "$0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-167",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Express $10^6$ in standard form.",
+  "choices": [
+   "$1000$",
+   "$10000$",
+   "$100000$",
+   "$1000000$",
+   "$10000000$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-168",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the greatest common divisor of $84$ and $132$?",
+  "choices": [
+   "$6$",
+   "$12$",
+   "$24$",
+   "$36$",
+   "$42$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-169",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\pi(30)$ (number of primes less than $30$)",
+  "quantityB": "$10$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-170",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "After a $20\\%$ decrease, a price is $\\$80$. What was the original price?",
+  "choices": [
+   "$\\$95$",
+   "$\\$100$",
+   "$\\$105$",
+   "$\\$110$",
+   "$\\$120$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-171",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x:y = 5:3$ and $x - y = 14$, what is $x$?",
+  "choices": [
+   "$21$",
+   "$28$",
+   "$30$",
+   "$35$",
+   "$42$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-172",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many integers from $1$ to $100$ are coprime to $10$?",
+  "answer": 40
+ },
+ {
+  "id": "q-ari-173",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^x = 8^{x-1}$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-174",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many trailing zeros does $25!$ have?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$10$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-175",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is the prime factorization of $180$?",
+  "choices": [
+   "$2 \\cdot 90$",
+   "$2^2 \\cdot 45$",
+   "$2^2 \\cdot 3^2 \\cdot 5$",
+   "$4 \\cdot 45$",
+   "$2 \\cdot 3 \\cdot 30$"
+  ],
+  "answer": 2
+ }
+]

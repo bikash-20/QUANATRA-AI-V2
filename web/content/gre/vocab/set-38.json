@@ -1,0 +1,367 @@
+[
+ {
+  "word": "guarantee",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to promise that something will happen",
+  "synonyms": [
+   "ensure",
+   "promise"
+  ],
+  "antonyms": [],
+  "example": "We guarantee satisfaction.",
+  "id": "v-0926"
+ },
+ {
+  "word": "identify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to establish or indicate who or what someone is",
+  "synonyms": [
+   "recognize",
+   "name"
+  ],
+  "antonyms": [
+   "confuse"
+  ],
+  "example": "Can you identify the culprit?",
+  "id": "v-0927"
+ },
+ {
+  "word": "ignore",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to refuse to take notice of or acknowledge",
+  "synonyms": [
+   "disregard",
+   "neglect"
+  ],
+  "antonyms": [
+   "acknowledge"
+  ],
+  "example": "He ignored the warning.",
+  "id": "v-0928"
+ },
+ {
+  "word": "impact",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a marked effect or influence",
+  "synonyms": [
+   "effect",
+   "influence"
+  ],
+  "antonyms": [],
+  "example": "It had a major impact.",
+  "id": "v-0929"
+ },
+ {
+  "word": "implement",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to put a decision or plan into effect",
+  "synonyms": [
+   "execute",
+   "enact"
+  ],
+  "antonyms": [
+   "abandon"
+  ],
+  "example": "Implement the new policy.",
+  "id": "v-0930"
+ },
+ {
+  "word": "imply",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to suggest something without saying it directly",
+  "synonyms": [
+   "suggest",
+   "hint"
+  ],
+  "antonyms": [
+   "state"
+  ],
+  "example": "What are you implying?",
+  "id": "v-0931"
+ },
+ {
+  "word": "impose",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to force the acceptance of something",
+  "synonyms": [
+   "inflict",
+   "levy"
+  ],
+  "antonyms": [
+   "remove"
+  ],
+  "example": "Don't impose your views.",
+  "id": "v-0932"
+ },
+ {
+  "word": "improve",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make or become better",
+  "synonyms": [
+   "enhance",
+   "better"
+  ],
+  "antonyms": [
+   "worsen"
+  ],
+  "example": "She improved her skills.",
+  "id": "v-0933"
+ },
+ {
+  "word": "include",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to comprise or contain as part of a whole",
+  "synonyms": [
+   "contain",
+   "incorporate"
+  ],
+  "antonyms": [
+   "exclude"
+  ],
+  "example": "Include everyone in the list.",
+  "id": "v-0934"
+ },
+ {
+  "word": "incorporate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to take in or include as part of a whole",
+  "synonyms": [
+   "include",
+   "integrate"
+  ],
+  "antonyms": [
+   "exclude"
+  ],
+  "example": "Incorporate the new data.",
+  "id": "v-0935"
+ },
+ {
+  "word": "indicate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to point out or show",
+  "synonyms": [
+   "show",
+   "suggest"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "The data indicates a trend.",
+  "id": "v-0936"
+ },
+ {
+  "word": "induce",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to succeed in persuading or influencing someone to do something",
+  "synonyms": [
+   "persuade",
+   "prompt"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "The drug induced sleep.",
+  "id": "v-0937"
+ },
+ {
+  "word": "influence",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the power to affect someone or something",
+  "synonyms": [
+   "effect",
+   "sway"
+  ],
+  "antonyms": [],
+  "example": "She had great influence.",
+  "id": "v-0938"
+ },
+ {
+  "word": "inhibit",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to hinder, restrain, or prevent an action",
+  "synonyms": [
+   "restrain",
+   "hinder"
+  ],
+  "antonyms": [
+   "encourage"
+  ],
+  "example": "The drug inhibits growth.",
+  "id": "v-0939"
+ },
+ {
+  "word": "initial",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "existing or occurring at the beginning",
+  "synonyms": [
+   "first",
+   "opening"
+  ],
+  "antonyms": [
+   "final"
+  ],
+  "example": "The initial results were good.",
+  "id": "v-0940"
+ },
+ {
+  "word": "initiate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to cause a process to begin",
+  "synonyms": [
+   "begin",
+   "start"
+  ],
+  "antonyms": [
+   "conclude"
+  ],
+  "example": "She initiated the project.",
+  "id": "v-0941"
+ },
+ {
+  "word": "innovate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to introduce new ideas, methods, or products",
+  "synonyms": [
+   "create",
+   "invent"
+  ],
+  "antonyms": [
+   "imitate"
+  ],
+  "example": "The company innovates constantly.",
+  "id": "v-0942"
+ },
+ {
+  "word": "inspect",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to look at something closely in order to assess it",
+  "synonyms": [
+   "examine",
+   "check"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Inspect the equipment daily.",
+  "id": "v-0943"
+ },
+ {
+  "word": "integrate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to combine one thing with another to form a whole",
+  "synonyms": [
+   "combine",
+   "merge"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "Integrate the new system.",
+  "id": "v-0944"
+ },
+ {
+  "word": "interact",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to act in such a way as to have an effect on each other",
+  "synonyms": [
+   "communicate",
+   "engage"
+  ],
+  "antonyms": [],
+  "example": "Children learn by interacting.",
+  "id": "v-0945"
+ },
+ {
+  "word": "interpret",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to explain the meaning of information or actions",
+  "synonyms": [
+   "explain",
+   "understand"
+  ],
+  "antonyms": [
+   "misinterpret"
+  ],
+  "example": "How do you interpret the data?",
+  "id": "v-0946"
+ },
+ {
+  "word": "intervene",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to come between so as to prevent or alter a result",
+  "synonyms": [
+   "intercede",
+   "mediate"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "The government intervened quickly.",
+  "id": "v-0947"
+ },
+ {
+  "word": "investigate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to carry out a systematic or formal inquiry",
+  "synonyms": [
+   "examine",
+   "probe"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Police investigated the crime.",
+  "id": "v-0948"
+ },
+ {
+  "word": "invoke",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to call on a deity or spirit in prayer",
+  "synonyms": [
+   "call",
+   "summon"
+  ],
+  "antonyms": [],
+  "example": "She invoked a higher power.",
+  "id": "v-0949"
+ },
+ {
+  "word": "isolate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to set apart or cut off from others",
+  "synonyms": [
+   "separate",
+   "segregate"
+  ],
+  "antonyms": [
+   "integrate"
+  ],
+  "example": "Isolate the sick patients.",
+  "id": "v-0950"
+ }
+]

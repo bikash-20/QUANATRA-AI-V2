@@ -1,0 +1,369 @@
+[
+ {
+  "word": "protean",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "tending or able to change frequently; versatile",
+  "synonyms": [
+   "changeable",
+   "versatile"
+  ],
+  "antonyms": [
+   "static"
+  ],
+  "example": "His protean talents surprised everyone.",
+  "id": "v-0801"
+ },
+ {
+  "word": "prurient",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having or encouraging an excessive interest in sexual matters",
+  "synonyms": [
+   "lascivious",
+   "lewd"
+  ],
+  "antonyms": [
+   "ascetic"
+  ],
+  "example": "The film was banned for prurient content.",
+  "id": "v-0802"
+ },
+ {
+  "word": "pundit",
+  "tier": 2,
+  "pos": "n",
+  "definition": "an expert or authority on a subject",
+  "synonyms": [
+   "expert",
+   "authority"
+  ],
+  "antonyms": [
+   "novice"
+  ],
+  "example": "The pundit predicted the election outcome.",
+  "id": "v-0803"
+ },
+ {
+  "word": "quaff",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to drink something, especially an alcoholic drink, heartily",
+  "synonyms": [
+   "drink",
+   "gulp"
+  ],
+  "antonyms": [
+   "sip"
+  ],
+  "example": "They quaffed the ale together.",
+  "id": "v-0804"
+ },
+ {
+  "word": "quail",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to feel or show fear; flinch",
+  "synonyms": [
+   "flinch",
+   "cower"
+  ],
+  "antonyms": [
+   "bold"
+  ],
+  "example": "She quailed at the thought.",
+  "id": "v-0805"
+ },
+ {
+  "word": "quaint",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "attractively unusual or old-fashioned",
+  "synonyms": [
+   "charming",
+   "picturesque"
+  ],
+  "antonyms": [
+   "modern"
+  ],
+  "example": "The cottage was quaint and cozy.",
+  "id": "v-0806"
+ },
+ {
+  "word": "qualm",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a feeling of doubt or uneasiness about one's conduct",
+  "synonyms": [
+   "unease",
+   "doubt"
+  ],
+  "antonyms": [
+   "confidence"
+  ],
+  "example": "She had no qualms about the decision.",
+  "id": "v-0807"
+ },
+ {
+  "word": "quantum",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a discrete quantity of energy proportional to the frequency",
+  "synonyms": [
+   "amount",
+   "unit"
+  ],
+  "antonyms": [],
+  "example": "A quantum of hope remained.",
+  "id": "v-0808"
+ },
+ {
+  "word": "quarry",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a person or thing that is the aim of an attack or pursuit",
+  "synonyms": [
+   "prey",
+   "target"
+  ],
+  "antonyms": [],
+  "example": "The hunters tracked their quarry.",
+  "id": "v-0809"
+ },
+ {
+  "word": "quasi",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having some resemblance to; seemingly but not actually",
+  "synonyms": [
+   "pseudo",
+   "apparent"
+  ],
+  "antonyms": [
+   "genuine"
+  ],
+  "example": "It was a quasi legal argument.",
+  "id": "v-0810"
+ },
+ {
+  "word": "ramble",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to walk for pleasure without a definite route",
+  "synonyms": [
+   "wander",
+   "roam"
+  ],
+  "antonyms": [
+   "march"
+  ],
+  "example": "They rambled through the woods.",
+  "id": "v-0811"
+ },
+ {
+  "word": "ramification",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a consequence of an action or event",
+  "synonyms": [
+   "consequence",
+   "implication"
+  ],
+  "antonyms": [
+   "cause"
+  ],
+  "example": "There were many ramifications to consider.",
+  "id": "v-0812"
+ },
+ {
+  "word": "rancor",
+  "tier": 2,
+  "pos": "n",
+  "definition": "bitterness or resentfulness, especially when longstanding",
+  "synonyms": [
+   "bitterness",
+   "resentment"
+  ],
+  "antonyms": [
+   "goodwill"
+  ],
+  "example": "The dispute left lingering rancor.",
+  "id": "v-0813"
+ },
+ {
+  "word": "raucous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making a loud, harsh sound",
+  "synonyms": [
+   "harsh",
+   "noisy"
+  ],
+  "antonyms": [
+   "soft"
+  ],
+  "example": "The raucous laughter filled the bar.",
+  "id": "v-0814"
+ },
+ {
+  "word": "rebus",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a puzzle in which words are represented by combinations of pictures and letters",
+  "synonyms": [
+   "puzzle",
+   "riddle"
+  ],
+  "antonyms": [],
+  "example": "The children decoded the rebus quickly.",
+  "id": "v-0815"
+ },
+ {
+  "word": "recant",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to say that one no longer holds an opinion or belief",
+  "synonyms": [
+   "retract",
+   "renounce"
+  ],
+  "antonyms": [
+   "affirm"
+  ],
+  "example": "He recanted his earlier testimony.",
+  "id": "v-0816"
+ },
+ {
+  "word": "recluse",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a person who lives a solitary life",
+  "synonyms": [
+   "hermit",
+   "loner"
+  ],
+  "antonyms": [
+   "socialite"
+  ],
+  "example": "She became a recluse after the tragedy.",
+  "id": "v-0817"
+ },
+ {
+  "word": "reminiscence",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a story told about a past event remembered by the narrator",
+  "synonyms": [
+   "memory",
+   "recollection"
+  ],
+  "antonyms": [],
+  "example": "Her reminiscences charmed the listeners.",
+  "id": "v-0818"
+ },
+ {
+  "word": "renounce",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to formally abandon or give up",
+  "synonyms": [
+   "relinquish",
+   "forswear"
+  ],
+  "antonyms": [
+   "claim"
+  ],
+  "example": "He renounced his citizenship.",
+  "id": "v-0819"
+ },
+ {
+  "word": "replete",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "filled or well-supplied with something",
+  "synonyms": [
+   "full",
+   "laden"
+  ],
+  "antonyms": [
+   "lacking"
+  ],
+  "example": "The book is replete with errors.",
+  "id": "v-0820"
+ },
+ {
+  "word": "reproach",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the expression of disapproval or disappointment",
+  "synonyms": [
+   "rebuke",
+   "censure"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "She endured his reproach in silence.",
+  "id": "v-0821"
+ },
+ {
+  "word": "reprobate",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an unprincipled person",
+  "synonyms": [
+   "scoundrel",
+   "villain"
+  ],
+  "antonyms": [
+   "paragon"
+  ],
+  "example": "He was a known reprobate.",
+  "id": "v-0822"
+ },
+ {
+  "word": "repudiate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to refuse to accept or be associated with",
+  "synonyms": [
+   "reject",
+   "disavow"
+  ],
+  "antonyms": [
+   "embrace"
+  ],
+  "example": "She repudiated the accusation.",
+  "id": "v-0823"
+ },
+ {
+  "word": "rescind",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to revoke, cancel, or repeal",
+  "synonyms": [
+   "revoke",
+   "annul"
+  ],
+  "antonyms": [
+   "enact"
+  ],
+  "example": "The committee rescinded its earlier vote.",
+  "id": "v-0824"
+ },
+ {
+  "word": "rhapsodize",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to speak or write about something with great enthusiasm",
+  "synonyms": [
+   "rave",
+   "enthuse"
+  ],
+  "antonyms": [
+   "criticize"
+  ],
+  "example": "He rhapsodized about the new car.",
+  "id": "v-0825"
+ }
+]

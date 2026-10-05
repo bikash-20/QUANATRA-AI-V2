@@ -1,0 +1,414 @@
+[
+ {
+  "id": "q-geo-176",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many degrees is a right angle?",
+  "choices": [
+   "$45$",
+   "$90$",
+   "$180$",
+   "$270$",
+   "$360$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-177",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many degrees is each angle in an equilateral triangle?",
+  "choices": [
+   "$30$",
+   "$45$",
+   "$60$",
+   "$90$",
+   "$120$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-178",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with perimeter $20$?",
+  "choices": [
+   "$5$",
+   "$20$",
+   "$25$",
+   "$50$",
+   "$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-179",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which point is on the y-axis?",
+  "choices": [
+   "$(0, 5)$",
+   "$(5, 0)$",
+   "$(5, 5)$",
+   "$(-5, 5)$",
+   "$(1, 1)$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-180",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The radius of a circle is $4$. What is the circumference? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$4\\pi$",
+   "$8\\pi$",
+   "$16\\pi$",
+   "$2\\pi$",
+   "$32\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-181",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A triangle has a $90^\\circ$ angle and two sides $6$ and $8$. Which side is the hypotenuse?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$14$",
+   "$48$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-182",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A triangle has base $8$ and area $20$. What is its height?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$5$",
+   "$8$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-183",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of a vertical line?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$-1$",
+   "Undefined",
+   "Infinity"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-184",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circular pool has diameter $20$ feet. What is its area? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$20\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$400\\pi$",
+   "$10\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-185",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a right triangle, the angles are $90^\\circ$, $45^\\circ$, and $x$. What is $x$?",
+  "choices": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$",
+   "$135^\\circ$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-186",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A rhombus has diagonals $10$ and $12$. What is its area?",
+  "choices": [
+   "$22$",
+   "$30$",
+   "$44$",
+   "$60$",
+   "$120$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-187",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the equation of a line with slope $2$ and y-intercept $3$?",
+  "choices": [
+   "$y = 3x + 2$",
+   "$y = 2x + 3$",
+   "$y = 2x - 3$",
+   "$y = 3x - 2$",
+   "$y = -2x + 3$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-188",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a quarter-circle with radius $4$? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$\\pi$",
+   "$2\\pi$",
+   "$4\\pi$",
+   "$8\\pi$",
+   "$16\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-189",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the perimeter of a $3$-$4$-$5$ right triangle?",
+  "choices": [
+   "$7$",
+   "$12$",
+   "$15$",
+   "$25$",
+   "$60$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-190",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with radius $5$",
+  "quantityB": "Area of a triangle with base $10$ and height $5$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-191",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line connecting $(0, 0)$ and $(7, 7)$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$7$",
+   "$-1$",
+   "Undefined"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-192",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A sector with central angle $90^\\circ$ has area $9\\pi$. What is its radius?",
+  "choices": [
+   "$3$",
+   "$6$",
+   "$9$",
+   "$12$",
+   "$18$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-193",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A triangle has sides $8, 15, 17$. What type is it?",
+  "choices": [
+   "Equilateral",
+   "Isosceles",
+   "Right",
+   "Acute scalene",
+   "Obtuse"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-194",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle is inscribed in a square of area $36$. What is the area of the circle? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$9\\pi$",
+   "$12\\pi$",
+   "$36\\pi$",
+   "$18\\pi$",
+   "$6\\pi$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-195",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the midpoint of $(3, 7)$ and $(11, 9)$?",
+  "choices": [
+   "$(7, 8)$",
+   "$(8, 7)$",
+   "$(7, 9)$",
+   "$(8, 16)$",
+   "$(14, 2)$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-196",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A chord $8$ units from the center has length $6$. What is the radius?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$8$",
+   "$10$",
+   "$100$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-197",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "In a right triangle, if the hypotenuse is $10$ and one leg is $6$, what is the other leg?",
+  "answer": 8
+ },
+ {
+  "id": "q-geo-198",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A regular pentagon has side length $2$. Which formula gives the area?",
+  "choices": [
+   "$\\frac{5 \\cdot 2^2}{4 \\tan(36^\\circ)}$",
+   "$5 \\cdot 2$",
+   "$\\frac{5 \\cdot 2^2}{2}$",
+   "$2 \\cdot 5!$",
+   "$2^5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-199",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance from the origin to the line $3x + 4y = 12$?",
+  "choices": [
+   "$1$",
+   "$\\frac{12}{5}$",
+   "$2$",
+   "$\\frac{5}{12}$",
+   "$3$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-200",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the angle subtended by a diameter at any point on the circle?",
+  "choices": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$",
+   "$180^\\circ$"
+  ],
+  "answer": 3
+ }
+]

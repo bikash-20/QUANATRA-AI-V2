@@ -1,0 +1,371 @@
+[
+ {
+  "word": "lax",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not sufficiently strict or severe",
+  "synonyms": [
+   "careless",
+   "slack"
+  ],
+  "antonyms": [
+   "strict"
+  ],
+  "example": "Lax security led to the breach.",
+  "id": "v-0726"
+ },
+ {
+  "word": "leaven",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to lighten or relieve with an element",
+  "synonyms": [
+   "lighten",
+   "season"
+  ],
+  "antonyms": [
+   "deaden"
+  ],
+  "example": "Humor leavens the heavy lecture.",
+  "id": "v-0727"
+ },
+ {
+  "word": "leery",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "cautious or wary about something",
+  "synonyms": [
+   "wary",
+   "suspicious"
+  ],
+  "antonyms": [
+   "trusting"
+  ],
+  "example": "She was leery of his promises.",
+  "id": "v-0728"
+ },
+ {
+  "word": "legitimate",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "conforming to the law or to rules",
+  "synonyms": [
+   "lawful",
+   "valid"
+  ],
+  "antonyms": [
+   "illegal"
+  ],
+  "example": "The judge's ruling was legitimate.",
+  "id": "v-0729"
+ },
+ {
+  "word": "lethargy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a lack of energy and enthusiasm",
+  "synonyms": [
+   "sluggishness",
+   "torpor"
+  ],
+  "antonyms": [
+   "energy"
+  ],
+  "example": "The disease caused extreme lethargy.",
+  "id": "v-0730"
+ },
+ {
+  "word": "levity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the treatment of a serious matter with humor",
+  "synonyms": [
+   "lightness",
+   "humor"
+  ],
+  "antonyms": [
+   "gravity"
+  ],
+  "example": "His levity at the meeting was unwelcome.",
+  "id": "v-0731"
+ },
+ {
+  "word": "libel",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a published false statement that is damaging",
+  "synonyms": [
+   "slander",
+   "defamation"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The article was libel, in tone.",
+  "id": "v-0732"
+ },
+ {
+  "word": "linger",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to stay in a place longer than necessary",
+  "synonyms": [
+   "stay",
+   "loiter"
+  ],
+  "antonyms": [
+   "depart"
+  ],
+  "example": "She lingered at the door.",
+  "id": "v-0733"
+ },
+ {
+  "word": "lithe",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "thin, supple, and graceful",
+  "synonyms": [
+   "supple",
+   "graceful"
+  ],
+  "antonyms": [
+   "stiff"
+  ],
+  "example": "The lithe dancer leaped across the stage.",
+  "id": "v-0734"
+ },
+ {
+  "word": "litigant",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person involved in a lawsuit",
+  "synonyms": [
+   "party",
+   "suitor"
+  ],
+  "antonyms": [],
+  "example": "The litigant appealed the verdict.",
+  "id": "v-0735"
+ },
+ {
+  "word": "loath",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "unwilling or reluctant to do something",
+  "synonyms": [
+   "reluctant",
+   "averse"
+  ],
+  "antonyms": [
+   "eager"
+  ],
+  "example": "She was loath to apologize.",
+  "id": "v-0736"
+ },
+ {
+  "word": "loathe",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to feel intense dislike or disgust for",
+  "synonyms": [
+   "detest",
+   "abhor"
+  ],
+  "antonyms": [
+   "love"
+  ],
+  "example": "He loathed the smell of onions.",
+  "id": "v-0737"
+ },
+ {
+  "word": "luminous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "full of or shedding light; bright",
+  "synonyms": [
+   "radiant",
+   "glowing"
+  ],
+  "antonyms": [
+   "dim"
+  ],
+  "example": "The luminous moon lit the path.",
+  "id": "v-0738"
+ },
+ {
+  "word": "lush",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "growing luxuriantly; opulent",
+  "synonyms": [
+   "luxuriant",
+   "opulent"
+  ],
+  "antonyms": [
+   "sparse"
+  ],
+  "example": "The valley was lush and green.",
+  "id": "v-0739"
+ },
+ {
+  "word": "malaise",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a general feeling of discomfort or unease",
+  "synonyms": [
+   "unease",
+   "discomfort"
+  ],
+  "antonyms": [
+   "well-being"
+  ],
+  "example": "A general malaise settled over the country.",
+  "id": "v-0740"
+ },
+ {
+  "word": "malcontent",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who is dissatisfied and rebellious",
+  "synonyms": [
+   "dissident",
+   "agitator"
+  ],
+  "antonyms": [
+   "conformist"
+  ],
+  "example": "The malcontent stirred up the crowd.",
+  "id": "v-0741"
+ },
+ {
+  "word": "malediction",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a curse; a wish of evil upon another",
+  "synonyms": [
+   "curse",
+   "anathema"
+  ],
+  "antonyms": [
+   "blessing"
+  ],
+  "example": "The novel ends with a malediction.",
+  "id": "v-0742"
+ },
+ {
+  "word": "malevolent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "wishing evil to others",
+  "synonyms": [
+   "evil",
+   "hostile"
+  ],
+  "antonyms": [
+   "benevolent"
+  ],
+  "example": "She gave him a malevolent stare.",
+  "id": "v-0743"
+ },
+ {
+  "word": "malign",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to speak ill of; slander",
+  "synonyms": [
+   "slander",
+   "defame"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The press maligned the candidate unfairly.",
+  "id": "v-0744"
+ },
+ {
+  "word": "marital",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "relating to marriage",
+  "synonyms": [
+   "married",
+   "conjugal"
+  ],
+  "antonyms": [],
+  "example": "The couple sought marital counseling.",
+  "id": "v-0745"
+ },
+ {
+  "word": "marquee",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a canopy over the entrance to a building",
+  "synonyms": [
+   "canopy",
+   "sign"
+  ],
+  "antonyms": [],
+  "example": "The marquee listed the evening's performers.",
+  "id": "v-0746"
+ },
+ {
+  "word": "martial",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "relating to or suitable for war",
+  "synonyms": [
+   "military",
+   "warlike"
+  ],
+  "antonyms": [
+   "peaceful"
+  ],
+  "example": "The country adopted a martial stance.",
+  "id": "v-0747"
+ },
+ {
+  "word": "maudlin",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "self-pityingly or tearfully sentimental",
+  "synonyms": [
+   "sentimental",
+   "mawkish"
+  ],
+  "antonyms": [
+   "unsentimental"
+  ],
+  "example": "His maudlin confession embarrassed everyone.",
+  "id": "v-0748"
+ },
+ {
+  "word": "mawkish",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sentimental in a feeble or sickly way",
+  "synonyms": [
+   "saccharine",
+   "maudlin"
+  ],
+  "antonyms": [
+   "unsentimental"
+  ],
+  "example": "The movie was mawkish and overlong.",
+  "id": "v-0749"
+ },
+ {
+  "word": "meddlesome",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "tending to interfere in other people's affairs",
+  "synonyms": [
+   "interfering",
+   "intrusive"
+  ],
+  "antonyms": [
+   "unobtrusive"
+  ],
+  "example": "The meddlesome neighbor annoyed everyone.",
+  "id": "v-0750"
+ }
+]

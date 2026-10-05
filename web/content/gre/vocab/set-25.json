@@ -1,0 +1,375 @@
+[
+ {
+  "word": "diffuse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "spread out over a large area; not concentrated",
+  "synonyms": [
+   "scattered",
+   "dispersed"
+  ],
+  "antonyms": [
+   "concentrated"
+  ],
+  "example": "The light was diffuse and soft.",
+  "id": "v-0601"
+ },
+ {
+  "word": "diminish",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make or become smaller or less",
+  "synonyms": [
+   "decrease",
+   "lessen"
+  ],
+  "antonyms": [
+   "increase"
+  ],
+  "example": "His role in the project diminished over time.",
+  "id": "v-0602"
+ },
+ {
+  "word": "disarm",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to win over or relieve of hostility or suspicion",
+  "synonyms": [
+   "placate",
+   "win over"
+  ],
+  "antonyms": [
+   "antagonize"
+  ],
+  "example": "Her smile could disarm the most hostile critic.",
+  "id": "v-0603"
+ },
+ {
+  "word": "disconsolate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "very unhappy and unable to be comforted",
+  "synonyms": [
+   "inconsolable",
+   "dejected"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "She was disconsolate after the loss.",
+  "id": "v-0604"
+ },
+ {
+  "word": "discredit",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to harm the reputation of; to cause disbelief",
+  "synonyms": [
+   "disgrace",
+   "disbelieve"
+  ],
+  "antonyms": [
+   "credit"
+  ],
+  "example": "The scandal discredited the agency.",
+  "id": "v-0605"
+ },
+ {
+  "word": "discreet",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "careful and prudent in speech and action",
+  "synonyms": [
+   "tactful",
+   "prudent"
+  ],
+  "antonyms": [
+   "indiscreet"
+  ],
+  "example": "She was discreet about the surprise party.",
+  "id": "v-0606"
+ },
+ {
+  "word": "disingenuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not sincere; giving a false impression",
+  "synonyms": [
+   "insincere",
+   "deceitful"
+  ],
+  "antonyms": [
+   "candid"
+  ],
+  "example": "It would be disingenuous to claim otherwise.",
+  "id": "v-0607"
+ },
+ {
+  "word": "disjointed",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking coherence or connection",
+  "synonyms": [
+   "disconnected",
+   "incoherent"
+  ],
+  "antonyms": [
+   "coherent"
+  ],
+  "example": "His speech was disjointed and rambling.",
+  "id": "v-0608"
+ },
+ {
+  "word": "dismissive",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "feeling or showing that something is unworthy",
+  "synonyms": [
+   "cavalier",
+   "disdainful"
+  ],
+  "antonyms": [
+   "respectful"
+  ],
+  "example": "She gave a dismissive wave of the hand.",
+  "id": "v-0609"
+ },
+ {
+  "word": "dispassionate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not influenced by strong feeling; impartial",
+  "synonyms": [
+   "objective",
+   "unbiased"
+  ],
+  "antonyms": [
+   "biased"
+  ],
+  "example": "The judge was dispassionate in her ruling.",
+  "id": "v-0610"
+ },
+ {
+  "word": "earnest",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "showing sincere and intense conviction",
+  "synonyms": [
+   "sincere",
+   "serious"
+  ],
+  "antonyms": [
+   "frivolous"
+  ],
+  "example": "She made an earnest plea for clemency.",
+  "id": "v-0611"
+ },
+ {
+  "word": "eccentric",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "unconventional and slightly strange",
+  "synonyms": [
+   "unconventional",
+   "odd"
+  ],
+  "antonyms": [
+   "conventional"
+  ],
+  "example": "His eccentric neighbors kept peacocks and goats.",
+  "id": "v-0612"
+ },
+ {
+  "word": "edict",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an official order or announcement",
+  "synonyms": [
+   "decree",
+   "command"
+  ],
+  "antonyms": [
+   "suggestion"
+  ],
+  "example": "The emperor issued an edict against hunting.",
+  "id": "v-0613"
+ },
+ {
+  "word": "efface",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to erase or make oneself inconspicuous",
+  "synonyms": [
+   "erase",
+   "obliterate"
+  ],
+  "antonyms": [
+   "emphasize"
+  ],
+  "example": "Time had effaced the original inscription.",
+  "id": "v-0614"
+ },
+ {
+  "word": "efficacy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the ability to produce a desired result",
+  "synonyms": [
+   "effectiveness",
+   "potency"
+  ],
+  "antonyms": [
+   "ineffectiveness"
+  ],
+  "example": "The drug's efficacy was confirmed by trials.",
+  "id": "v-0615"
+ },
+ {
+  "word": "engrossing",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "absorbing all one's attention",
+  "synonyms": [
+   "absorbing",
+   "riveting"
+  ],
+  "antonyms": [
+   "boring"
+  ],
+  "example": "The novel proved engrossing from the first page.",
+  "id": "v-0616"
+ },
+ {
+  "word": "enhance",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to intensify, increase, or further improve",
+  "synonyms": [
+   "improve",
+   "augment"
+  ],
+  "antonyms": [
+   "diminish"
+  ],
+  "example": "The candles enhanced the romantic mood.",
+  "id": "v-0617"
+ },
+ {
+  "word": "enthrall",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to capture the fascinated attention of",
+  "synonyms": [
+   "captivate",
+   "mesmerize"
+  ],
+  "antonyms": [
+   "bore"
+  ],
+  "example": "The performer enthralled the audience.",
+  "id": "v-0618"
+ },
+ {
+  "word": "epitome",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person or thing that is a perfect example",
+  "synonyms": [
+   "quintessence",
+   "embodiment"
+  ],
+  "antonyms": [],
+  "example": "She was the epitome of elegance.",
+  "id": "v-0619"
+ },
+ {
+  "word": "eradicate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to destroy completely; put an end to",
+  "synonyms": [
+   "eliminate",
+   "exterminate"
+  ],
+  "antonyms": [
+   "create"
+  ],
+  "example": "The program aims to eradicate poverty.",
+  "id": "v-0620"
+ },
+ {
+  "word": "erratic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not even or regular in pattern",
+  "synonyms": [
+   "unpredictable",
+   "irregular"
+  ],
+  "antonyms": [
+   "steady"
+  ],
+  "example": "His erratic behavior worried his friends.",
+  "id": "v-0621"
+ },
+ {
+  "word": "esteem",
+  "tier": 2,
+  "pos": "n",
+  "definition": "respect and admiration",
+  "synonyms": [
+   "regard",
+   "respect"
+  ],
+  "antonyms": [
+   "disdain"
+  ],
+  "example": "She held him in high esteem.",
+  "id": "v-0622"
+ },
+ {
+  "word": "euphoria",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a feeling of intense excitement and happiness",
+  "synonyms": [
+   "elation",
+   "exhilaration"
+  ],
+  "antonyms": [
+   "depression"
+  ],
+  "example": "The team was in euphoria after the win.",
+  "id": "v-0623"
+ },
+ {
+  "word": "exacting",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making great demands on one's time or energy",
+  "synonyms": [
+   "demanding",
+   "rigorous"
+  ],
+  "antonyms": [
+   "easy"
+  ],
+  "example": "The job was exacting and poorly suited to her.",
+  "id": "v-0624"
+ },
+ {
+  "word": "exhilarate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make one feel very happy or animated",
+  "synonyms": [
+   "elate",
+   "thrill"
+  ],
+  "antonyms": [
+   "depress"
+  ],
+  "example": "The ride exhilarated the children.",
+  "id": "v-0625"
+ }
+]

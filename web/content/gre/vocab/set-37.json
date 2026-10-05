@@ -1,0 +1,363 @@
+[
+ {
+  "word": "emerge",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to move out of or away from something and become visible",
+  "synonyms": [
+   "appear",
+   "surface"
+  ],
+  "antonyms": [
+   "disappear"
+  ],
+  "example": "A pattern emerged.",
+  "id": "v-0901"
+ },
+ {
+  "word": "emphasis",
+  "tier": 1,
+  "pos": "n",
+  "definition": "special importance placed upon something",
+  "synonyms": [
+   "stress",
+   "importance"
+  ],
+  "antonyms": [],
+  "example": "He put emphasis on quality.",
+  "id": "v-0902"
+ },
+ {
+  "word": "endorse",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to declare one's public approval or support",
+  "synonyms": [
+   "support",
+   "sanction"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "She endorsed the candidate.",
+  "id": "v-0903"
+ },
+ {
+  "word": "ensure",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make certain that something will occur",
+  "synonyms": [
+   "guarantee",
+   "secure"
+  ],
+  "antonyms": [],
+  "example": "Ensure the door is locked.",
+  "id": "v-0904"
+ },
+ {
+  "word": "essential",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "absolutely necessary; extremely important",
+  "synonyms": [
+   "vital",
+   "crucial"
+  ],
+  "antonyms": [
+   "dispensable"
+  ],
+  "example": "Water is essential for life.",
+  "id": "v-0905"
+ },
+ {
+  "word": "establish",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to set up on a firm or permanent basis",
+  "synonyms": [
+   "found",
+   "create"
+  ],
+  "antonyms": [
+   "abolish"
+  ],
+  "example": "They established a new school.",
+  "id": "v-0906"
+ },
+ {
+  "word": "evaluate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to assess the value or quality of something",
+  "synonyms": [
+   "assess",
+   "appraise"
+  ],
+  "antonyms": [],
+  "example": "We need to evaluate the options.",
+  "id": "v-0907"
+ },
+ {
+  "word": "evident",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "clearly seen or understood; obvious",
+  "synonyms": [
+   "obvious",
+   "clear"
+  ],
+  "antonyms": [
+   "obscure"
+  ],
+  "example": "It was evident she was upset.",
+  "id": "v-0908"
+ },
+ {
+  "word": "examine",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to inspect or scrutinize carefully",
+  "synonyms": [
+   "inspect",
+   "study"
+  ],
+  "antonyms": [
+   "glance"
+  ],
+  "example": "Examine the data carefully.",
+  "id": "v-0909"
+ },
+ {
+  "word": "exclude",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to deny access to or bar from a place",
+  "synonyms": [
+   "bar",
+   "omit"
+  ],
+  "antonyms": [
+   "include"
+  ],
+  "example": "They excluded him from the list.",
+  "id": "v-0910"
+ },
+ {
+  "word": "explicit",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "stated clearly and in detail, leaving no room for confusion",
+  "synonyms": [
+   "clear",
+   "definite"
+  ],
+  "antonyms": [
+   "vague"
+  ],
+  "example": "She gave explicit instructions.",
+  "id": "v-0911"
+ },
+ {
+  "word": "exploit",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to use something to maximum advantage",
+  "synonyms": [
+   "utilize",
+   "leverage"
+  ],
+  "antonyms": [
+   "waste"
+  ],
+  "example": "They exploited the opportunity.",
+  "id": "v-0912"
+ },
+ {
+  "word": "expose",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make something visible by uncovering it",
+  "synonyms": [
+   "reveal",
+   "uncover"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "The book exposed the fraud.",
+  "id": "v-0913"
+ },
+ {
+  "word": "facilitate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to make a process easier or help it happen",
+  "synonyms": [
+   "ease",
+   "assist"
+  ],
+  "antonyms": [
+   "hinder"
+  ],
+  "example": "Computers facilitate learning.",
+  "id": "v-0914"
+ },
+ {
+  "word": "factor",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a circumstance contributing to a result",
+  "synonyms": [
+   "element",
+   "cause"
+  ],
+  "antonyms": [],
+  "example": "Price is a key factor.",
+  "id": "v-0915"
+ },
+ {
+  "word": "feature",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a distinctive attribute or aspect of something",
+  "synonyms": [
+   "characteristic",
+   "trait"
+  ],
+  "antonyms": [],
+  "example": "Speed is a key feature.",
+  "id": "v-0916"
+ },
+ {
+  "word": "focus",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to concentrate on something",
+  "synonyms": [
+   "concentrate",
+   "center"
+  ],
+  "antonyms": [
+   "distract"
+  ],
+  "example": "Focus on the positive.",
+  "id": "v-0917"
+ },
+ {
+  "word": "formula",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a mathematical relationship expressed in symbols",
+  "synonyms": [
+   "equation",
+   "rule"
+  ],
+  "antonyms": [],
+  "example": "Apply the formula carefully.",
+  "id": "v-0918"
+ },
+ {
+  "word": "function",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an activity or purpose natural to a person or thing",
+  "synonyms": [
+   "purpose",
+   "role"
+  ],
+  "antonyms": [],
+  "example": "What is its function?",
+  "id": "v-0919"
+ },
+ {
+  "word": "fundamental",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "forming a necessary base or core",
+  "synonyms": [
+   "basic",
+   "essential"
+  ],
+  "antonyms": [
+   "superficial"
+  ],
+  "example": "Honesty is fundamental.",
+  "id": "v-0920"
+ },
+ {
+  "word": "gain",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to obtain or acquire something",
+  "synonyms": [
+   "acquire",
+   "obtain"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "She gained experience.",
+  "id": "v-0921"
+ },
+ {
+  "word": "generate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to cause something to arise or come about",
+  "synonyms": [
+   "produce",
+   "create"
+  ],
+  "antonyms": [
+   "destroy"
+  ],
+  "example": "The project generated interest.",
+  "id": "v-0922"
+ },
+ {
+  "word": "genuine",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "truly what something is said to be; authentic",
+  "synonyms": [
+   "authentic",
+   "real"
+  ],
+  "antonyms": [
+   "fake"
+  ],
+  "example": "Her joy was genuine.",
+  "id": "v-0923"
+ },
+ {
+  "word": "global",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "relating to the whole world; worldwide",
+  "synonyms": [
+   "worldwide",
+   "universal"
+  ],
+  "antonyms": [
+   "local"
+  ],
+  "example": "It was a global problem.",
+  "id": "v-0924"
+ },
+ {
+  "word": "grant",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to agree to give or allow",
+  "synonyms": [
+   "give",
+   "allow"
+  ],
+  "antonyms": [
+   "deny"
+  ],
+  "example": "They granted the request.",
+  "id": "v-0925"
+ }
+]

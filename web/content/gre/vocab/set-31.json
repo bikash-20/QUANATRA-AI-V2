@@ -1,0 +1,373 @@
+[
+ {
+  "word": "melancholy",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a deep, persistent sadness",
+  "synonyms": [
+   "sadness",
+   "gloom"
+  ],
+  "antonyms": [
+   "happiness"
+  ],
+  "example": "A melancholy settled over the room.",
+  "id": "v-0751"
+ },
+ {
+  "word": "meticulous",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "showing great attention to detail",
+  "synonyms": [
+   "thorough",
+   "precise"
+  ],
+  "antonyms": [
+   "careless"
+  ],
+  "example": "Her meticulous work impressed the editor.",
+  "id": "v-0752"
+ },
+ {
+  "word": "militant",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "combative and aggressive in support of a cause",
+  "synonyms": [
+   "aggressive",
+   "combative"
+  ],
+  "antonyms": [
+   "peaceful"
+  ],
+  "example": "The militant faction dominated the meeting.",
+  "id": "v-0753"
+ },
+ {
+  "word": "miscreant",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who behaves badly or illegally",
+  "synonyms": [
+   "villain",
+   "wrongdoer"
+  ],
+  "antonyms": [
+   "hero"
+  ],
+  "example": "The miscreant was caught and jailed.",
+  "id": "v-0754"
+ },
+ {
+  "word": "miserly",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "excessively concerned with saving money",
+  "synonyms": [
+   "stingy",
+   "parsimonious"
+  ],
+  "antonyms": [
+   "generous"
+  ],
+  "example": "His miserly habits cost him friends.",
+  "id": "v-0755"
+ },
+ {
+  "word": "misnomer",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a wrong or inaccurate name or designation",
+  "synonyms": [
+   "misnomer",
+   "error"
+  ],
+  "antonyms": [
+   "accurate name"
+  ],
+  "example": "The name is something of a misnomer.",
+  "id": "v-0756"
+ },
+ {
+  "word": "mollify",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to appease the anger or anxiety of",
+  "synonyms": [
+   "placate",
+   "appease"
+  ],
+  "antonyms": [
+   "anger"
+  ],
+  "example": "She tried to mollify the upset customer.",
+  "id": "v-0757"
+ },
+ {
+  "word": "momentous",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "of great importance or significance",
+  "synonyms": [
+   "important",
+   "significant"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "It was a momentous decision.",
+  "id": "v-0758"
+ },
+ {
+  "word": "monotonous",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "dull, tedious, and repetitious",
+  "synonyms": [
+   "tedious",
+   "boring"
+  ],
+  "antonyms": [
+   "varied"
+  ],
+  "example": "His monotonous delivery put the audience to sleep.",
+  "id": "v-0759"
+ },
+ {
+  "word": "moratorium",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a temporary prohibition of an activity",
+  "synonyms": [
+   "ban",
+   "suspension"
+  ],
+  "antonyms": [
+   "approval"
+  ],
+  "example": "The council declared a moratorium on building.",
+  "id": "v-0760"
+ },
+ {
+  "word": "mundane",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking interest or excitement; dull",
+  "synonyms": [
+   "ordinary",
+   "humdrum"
+  ],
+  "antonyms": [
+   "exciting"
+  ],
+  "example": "She longed to escape her mundane routine.",
+  "id": "v-0761"
+ },
+ {
+  "word": "myopic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking foresight or intellectual insight",
+  "synonyms": [
+   "shortsighted",
+   "nearsighted"
+  ],
+  "antonyms": [
+   "far-sighted"
+  ],
+  "example": "His myopic plan doomed the project.",
+  "id": "v-0762"
+ },
+ {
+  "word": "negligent",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "failing to take proper care",
+  "synonyms": [
+   "careless",
+   "remiss"
+  ],
+  "antonyms": [
+   "careful"
+  ],
+  "example": "The negligent driver caused the crash.",
+  "id": "v-0763"
+ },
+ {
+  "word": "nonchalant",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "feeling or appearing casually calm",
+  "synonyms": [
+   "casual",
+   "unconcerned"
+  ],
+  "antonyms": [
+   "anxious"
+  ],
+  "example": "He remained nonchalant despite the chaos.",
+  "id": "v-0764"
+ },
+ {
+  "word": "nostalgia",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a sentimental longing for the past",
+  "synonyms": [
+   "longing",
+   "wistfulness"
+  ],
+  "antonyms": [],
+  "example": "He felt nostalgia for his childhood.",
+  "id": "v-0765"
+ },
+ {
+  "word": "notorious",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "famous for something bad",
+  "synonyms": [
+   "infamous",
+   "disreputable"
+  ],
+  "antonyms": [
+   "famous"
+  ],
+  "example": "He was notorious for late payments.",
+  "id": "v-0766"
+ },
+ {
+  "word": "novel",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "new and not resembling something formerly known",
+  "synonyms": [
+   "new",
+   "original"
+  ],
+  "antonyms": [
+   "familiar"
+  ],
+  "example": "They proposed a novel approach.",
+  "id": "v-0767"
+ },
+ {
+  "word": "noxious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "harmful, poisonous, or very unpleasant",
+  "synonyms": [
+   "harmful",
+   "toxic"
+  ],
+  "antonyms": [
+   "harmless"
+  ],
+  "example": "The factory released noxious fumes.",
+  "id": "v-0768"
+ },
+ {
+  "word": "nuance",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a subtle difference in meaning, opinion, or attitude",
+  "synonyms": [
+   "subtlety",
+   "shade"
+  ],
+  "antonyms": [
+   "obviousness"
+  ],
+  "example": "He missed every nuance of the speech.",
+  "id": "v-0769"
+ },
+ {
+  "word": "nugatory",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of no value or importance",
+  "synonyms": [
+   "worthless",
+   "trivial"
+  ],
+  "antonyms": [
+   "valuable"
+  ],
+  "example": "His objections were nugatory and ignored.",
+  "id": "v-0770"
+ },
+ {
+  "word": "nurture",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to care for and protect during growth",
+  "synonyms": [
+   "foster",
+   "cultivate"
+  ],
+  "antonyms": [
+   "neglect"
+  ],
+  "example": "She nurtured her talent with care.",
+  "id": "v-0771"
+ },
+ {
+  "word": "obstinate",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "stubbornly refusing to change one's opinion",
+  "synonyms": [
+   "stubborn",
+   "mulish"
+  ],
+  "antonyms": [
+   "flexible"
+  ],
+  "example": "The obstinate child refused to eat.",
+  "id": "v-0772"
+ },
+ {
+  "word": "obtrusive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "noticeable or conspicuous in an unwelcome way",
+  "synonyms": [
+   "conspicuous",
+   "intrusive"
+  ],
+  "antonyms": [
+   "unobtrusive"
+  ],
+  "example": "The obtrusive sign ruined the view.",
+  "id": "v-0773"
+ },
+ {
+  "word": "obtuse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "slow to understand; not sharp or quick",
+  "synonyms": [
+   "dull",
+   "stupid"
+  ],
+  "antonyms": [
+   "acute"
+  ],
+  "example": "His obtuse remarks confused everyone.",
+  "id": "v-0774"
+ },
+ {
+  "word": "odyssey",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a long, adventurous voyage or experience",
+  "synonyms": [
+   "journey",
+   "quest"
+  ],
+  "antonyms": [],
+  "example": "Their road trip was a real odyssey.",
+  "id": "v-0775"
+ }
+]

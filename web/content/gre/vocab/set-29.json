@@ -1,0 +1,369 @@
+[
+ {
+  "word": "jaundiced",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "affected by bitterness or prejudice",
+  "synonyms": [
+   "biased",
+   "prejudiced"
+  ],
+  "antonyms": [
+   "open-minded"
+  ],
+  "example": "He had a jaundiced view of the new manager.",
+  "id": "v-0701"
+ },
+ {
+  "word": "jaunt",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a short journey taken for pleasure",
+  "synonyms": [
+   "outing",
+   "excursion"
+  ],
+  "antonyms": [],
+  "example": "They went on a jaunt to the coast.",
+  "id": "v-0702"
+ },
+ {
+  "word": "jaunty",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having or expressing a lively manner",
+  "synonyms": [
+   "cheerful",
+   "sprightly"
+  ],
+  "antonyms": [
+   "gloomy"
+  ],
+  "example": "He wore a jaunty hat to the party.",
+  "id": "v-0703"
+ },
+ {
+  "word": "jeopardize",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to put at risk of being harmed or lost",
+  "synonyms": [
+   "endanger",
+   "imperil"
+  ],
+  "antonyms": [
+   "protect"
+  ],
+  "example": "Don't jeopardize your career over this.",
+  "id": "v-0704"
+ },
+ {
+  "word": "jingoism",
+  "tier": 3,
+  "pos": "n",
+  "definition": "extreme patriotism, especially in aggressive foreign policy",
+  "synonyms": [
+   "chauvinism",
+   "nationalism"
+  ],
+  "antonyms": [
+   "pacifism"
+  ],
+  "example": "The speech was dismissed as jingoism.",
+  "id": "v-0705"
+ },
+ {
+  "word": "jocose",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "playful or humorous",
+  "synonyms": [
+   "playful",
+   "whimsical"
+  ],
+  "antonyms": [
+   "serious"
+  ],
+  "example": "His jocose tone lightened the meeting.",
+  "id": "v-0706"
+ },
+ {
+  "word": "jocular",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "fond of or characterized by joking; humorous",
+  "synonyms": [
+   "humorous",
+   "jovial"
+  ],
+  "antonyms": [
+   "somber"
+  ],
+  "example": "He made a jocular remark about the cat.",
+  "id": "v-0707"
+ },
+ {
+  "word": "jovial",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "cheerful and friendly",
+  "synonyms": [
+   "jolly",
+   "genial"
+  ],
+  "antonyms": [
+   "somber"
+  ],
+  "example": "The host was in a jovial mood.",
+  "id": "v-0708"
+ },
+ {
+  "word": "jubilant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "feeling or expressing great happiness",
+  "synonyms": [
+   "elated",
+   "overjoyed"
+  ],
+  "antonyms": [
+   "dejected"
+  ],
+  "example": "The fans were jubilant after the win.",
+  "id": "v-0709"
+ },
+ {
+  "word": "juncture",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a particular point in events or time",
+  "synonyms": [
+   "moment",
+   "juncture"
+  ],
+  "antonyms": [],
+  "example": "At this juncture, we must act.",
+  "id": "v-0710"
+ },
+ {
+  "word": "jurisdiction",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the official power to make legal decisions",
+  "synonyms": [
+   "authority",
+   "domain"
+  ],
+  "antonyms": [],
+  "example": "The court had no jurisdiction in this matter.",
+  "id": "v-0711"
+ },
+ {
+  "word": "juxtapose",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to place close together for contrasting effect",
+  "synonyms": [
+   "compare",
+   "contrast"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "The artist juxtaposed light and shadow.",
+  "id": "v-0712"
+ },
+ {
+  "word": "kaleidoscopic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having complex patterns of colors; multifaceted",
+  "synonyms": [
+   "variegated",
+   "diverse"
+  ],
+  "antonyms": [
+   "uniform"
+  ],
+  "example": "The market was a kaleidoscopic display of color.",
+  "id": "v-0713"
+ },
+ {
+  "word": "kernel",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the central or most important part of something",
+  "synonyms": [
+   "core",
+   "essence"
+  ],
+  "antonyms": [
+   "periphery"
+  ],
+  "example": "There was a kernel of truth to his story.",
+  "id": "v-0714"
+ },
+ {
+  "word": "knavery",
+  "tier": 3,
+  "pos": "n",
+  "definition": "dishonest or unscrupulous behavior",
+  "synonyms": [
+   "trickery",
+   "villainy"
+  ],
+  "antonyms": [
+   "honesty"
+  ],
+  "example": "His knavery was eventually exposed.",
+  "id": "v-0715"
+ },
+ {
+  "word": "knell",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the sound of a bell, especially for a funeral",
+  "synonyms": [
+   "tolling",
+   "ring"
+  ],
+  "antonyms": [],
+  "example": "The bell's knell signaled the end of an era.",
+  "id": "v-0716"
+ },
+ {
+  "word": "knotty",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "extremely difficult or complex",
+  "synonyms": [
+   "complex",
+   "complicated"
+  ],
+  "antonyms": [
+   "simple"
+  ],
+  "example": "We faced a knotty problem indeed.",
+  "id": "v-0717"
+ },
+ {
+  "word": "kudos",
+  "tier": 2,
+  "pos": "n",
+  "definition": "praise given for an achievement",
+  "synonyms": [
+   "praise",
+   "acclaim"
+  ],
+  "antonyms": [
+   "criticism"
+  ],
+  "example": "He received kudos for his work.",
+  "id": "v-0718"
+ },
+ {
+  "word": "labyrinthine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "complicated and confusing in structure",
+  "synonyms": [
+   "complex",
+   "tangled"
+  ],
+  "antonyms": [
+   "simple"
+  ],
+  "example": "The labyrinthine corridors confused visitors.",
+  "id": "v-0719"
+ },
+ {
+  "word": "lacerate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to tear or make deep cuts in",
+  "synonyms": [
+   "tear",
+   "mangle"
+  ],
+  "antonyms": [
+   "heal"
+  ],
+  "example": "The wire lacerated his hand badly.",
+  "id": "v-0720"
+ },
+ {
+  "word": "lambaste",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to criticize harshly",
+  "synonyms": [
+   "rebuke",
+   "castigate"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The press lambasted the senator's record.",
+  "id": "v-0721"
+ },
+ {
+  "word": "lampoon",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to publicly criticize by using satire",
+  "synonyms": [
+   "satirize",
+   "mock"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The cartoon lampooned the mayor.",
+  "id": "v-0722"
+ },
+ {
+  "word": "lassitude",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a state of physical or mental weariness",
+  "synonyms": [
+   "weariness",
+   "fatigue"
+  ],
+  "antonyms": [
+   "energy"
+  ],
+  "example": "A deep lassitude settled over the office.",
+  "id": "v-0723"
+ },
+ {
+  "word": "latent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "existing but not yet manifest or active",
+  "synonyms": [
+   "hidden",
+   "dormant"
+  ],
+  "antonyms": [
+   "active"
+  ],
+  "example": "The latent talent finally emerged.",
+  "id": "v-0724"
+ },
+ {
+  "word": "lavish",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "sumptuously rich, elaborate, or luxurious",
+  "synonyms": [
+   "opulent",
+   "sumptuous"
+  ],
+  "antonyms": [
+   "sparse"
+  ],
+  "example": "The wedding was lavish and elegant.",
+  "id": "v-0725"
+ }
+]

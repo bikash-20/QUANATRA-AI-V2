@@ -1,0 +1,377 @@
+[
+ {
+  "word": "abate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to reduce in intensity or amount",
+  "synonyms": [
+   "diminish",
+   "lessen"
+  ],
+  "antonyms": [
+   "intensify"
+  ],
+  "example": "The storm began to abate by midnight.",
+  "id": "v-0501"
+ },
+ {
+  "word": "abhor",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to regard with disgust and hatred",
+  "synonyms": [
+   "detest",
+   "loathe"
+  ],
+  "antonyms": [
+   "adore"
+  ],
+  "example": "She abhorred the very idea of compromise.",
+  "id": "v-0502"
+ },
+ {
+  "word": "ablaze",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "burning fiercely; brightly lit up",
+  "synonyms": [
+   "aflame",
+   "ignited"
+  ],
+  "antonyms": [
+   "extinguished"
+  ],
+  "example": "The building was ablaze within minutes.",
+  "id": "v-0503"
+ },
+ {
+  "word": "abortive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "failing to produce the desired result",
+  "synonyms": [
+   "unsuccessful",
+   "futile"
+  ],
+  "antonyms": [
+   "successful"
+  ],
+  "example": "The abortive coup ended with the leaders arrested.",
+  "id": "v-0504"
+ },
+ {
+  "word": "absolution",
+  "tier": 3,
+  "pos": "n",
+  "definition": "formal release from guilt or obligation",
+  "synonyms": [
+   "forgiveness",
+   "pardon"
+  ],
+  "antonyms": [
+   "condemnation"
+  ],
+  "example": "He sought absolution for his past mistakes.",
+  "id": "v-0505"
+ },
+ {
+  "word": "accentuate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make more noticeable or prominent",
+  "synonyms": [
+   "emphasize",
+   "highlight"
+  ],
+  "antonyms": [
+   "downplay"
+  ],
+  "example": "The lighting accentuated her cheekbones.",
+  "id": "v-0506"
+ },
+ {
+  "word": "accessible",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "able to be reached or easily understood",
+  "synonyms": [
+   "approachable",
+   "available"
+  ],
+  "antonyms": [
+   "inaccessible"
+  ],
+  "example": "The library is accessible to all residents.",
+  "id": "v-0507"
+ },
+ {
+  "word": "accolade",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an award or expression of praise",
+  "synonyms": [
+   "honor",
+   "tribute"
+  ],
+  "antonyms": [
+   "criticism"
+  ],
+  "example": "The author received accolades for her debut.",
+  "id": "v-0508"
+ },
+ {
+  "word": "accommodate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to fit in with the wishes or needs of",
+  "synonyms": [
+   "adapt",
+   "adjust"
+  ],
+  "antonyms": [
+   "resist"
+  ],
+  "example": "We will accommodate your request if possible.",
+  "id": "v-0509"
+ },
+ {
+  "word": "acquiesce",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to accept something reluctantly without protest",
+  "synonyms": [
+   "comply",
+   "consent"
+  ],
+  "antonyms": [
+   "resist"
+  ],
+  "example": "She acquiesced to the new schedule.",
+  "id": "v-0510"
+ },
+ {
+  "word": "acquittal",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a judgment that a person is not guilty",
+  "synonyms": [
+   "exoneration",
+   "clearance"
+  ],
+  "antonyms": [
+   "conviction"
+  ],
+  "example": "The acquittal was announced after an hour.",
+  "id": "v-0511"
+ },
+ {
+  "word": "acrid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sharp and harsh in taste or smell; bitter",
+  "synonyms": [
+   "pungent",
+   "caustic"
+  ],
+  "antonyms": [
+   "mild"
+  ],
+  "example": "The acrid smoke stung her eyes.",
+  "id": "v-0512"
+ },
+ {
+  "word": "adamantine",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unbreakable; utterly unyielding",
+  "synonyms": [
+   "immovable",
+   "inflexible"
+  ],
+  "antonyms": [
+   "yielding"
+  ],
+  "example": "Her adamantine will saw her through hardship.",
+  "id": "v-0513"
+ },
+ {
+  "word": "adherent",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who supports a particular party or set of ideas",
+  "synonyms": [
+   "supporter",
+   "follower"
+  ],
+  "antonyms": [
+   "opponent"
+  ],
+  "example": "Adherents of the theory gathered for the lecture.",
+  "id": "v-0514"
+ },
+ {
+  "word": "adjacent",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "next to or adjoining something else",
+  "synonyms": [
+   "neighboring",
+   "adjoining"
+  ],
+  "antonyms": [
+   "distant"
+  ],
+  "example": "Their offices are adjacent to the conference room.",
+  "id": "v-0515"
+ },
+ {
+  "word": "admonition",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a warning or reprimand about behavior",
+  "synonyms": [
+   "caution",
+   "rebuke"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He ignored the admonition and proceeded anyway.",
+  "id": "v-0516"
+ },
+ {
+  "word": "adore",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to love and respect deep",
+  "synonyms": [
+   "cherish",
+   "worship"
+  ],
+  "antonyms": [
+   "despise"
+  ],
+  "example": "She adored her grandmother's stories.",
+  "id": "v-0517"
+ },
+ {
+  "word": "adventitious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "happening as a result of chance rather than design",
+  "synonyms": [
+   "accidental",
+   "fortuitous"
+  ],
+  "antonyms": [
+   "planned"
+  ],
+  "example": "Their meeting was adventitious, not planned.",
+  "id": "v-0518"
+ },
+ {
+  "word": "adversity",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a difficult or unpleasant situation",
+  "synonyms": [
+   "hardship",
+   "misfortune"
+  ],
+  "antonyms": [
+   "prosperity"
+  ],
+  "example": "He showed courage in the face of adversity.",
+  "id": "v-0519"
+ },
+ {
+  "word": "affectation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "behavior that is artificial and designed to impress",
+  "synonyms": [
+   "pretense",
+   "pose"
+  ],
+  "antonyms": [
+   "sincerity"
+  ],
+  "example": "His British accent was a mere affectation.",
+  "id": "v-0520"
+ },
+ {
+  "word": "affinity",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a natural liking or close similarity",
+  "synonyms": [
+   "rapport",
+   "kinship"
+  ],
+  "antonyms": [
+   "aversion"
+  ],
+  "example": "She felt an instant affinity with the new colleague.",
+  "id": "v-0521"
+ },
+ {
+  "word": "aggrieved",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "feeling resentment at being unfairly treated",
+  "synonyms": [
+   "wronged",
+   "resentful"
+  ],
+  "antonyms": [
+   "content"
+  ],
+  "example": "The aggrieved party demanded an apology.",
+  "id": "v-0522"
+ },
+ {
+  "word": "agnostic",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a person who believes the existence of God is unknown",
+  "synonyms": [
+   "skeptic",
+   "doubter"
+  ],
+  "antonyms": [
+   "believer"
+  ],
+  "example": "She describes herself as agnostic, not atheist.",
+  "id": "v-0523"
+ },
+ {
+  "word": "alarming",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "worrying or frightening",
+  "synonyms": [
+   "disturbing",
+   "frightening"
+  ],
+  "antonyms": [
+   "reassuring"
+  ],
+  "example": "The news was alarming enough to rouse the staff.",
+  "id": "v-0524"
+ },
+ {
+  "word": "alchemy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a medieval form of chemistry aimed at transmutation",
+  "synonyms": [
+   "magic",
+   "transmutation"
+  ],
+  "antonyms": [
+   "science"
+  ],
+  "example": "Alchemy once seemed to rival modern chemistry.",
+  "id": "v-0525"
+ }
+]

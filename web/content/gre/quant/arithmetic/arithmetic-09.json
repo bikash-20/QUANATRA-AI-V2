@@ -1,0 +1,401 @@
+[
+ {
+  "id": "q-ari-176",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $25\\%$ of $80$?",
+  "choices": [
+   "$15$",
+   "$18$",
+   "$20$",
+   "$22$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-177",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A recipe calls for flour to sugar in ratio $4:1$. If you use $200$ g of flour, how much sugar?",
+  "choices": [
+   "$25$ g",
+   "$50$ g",
+   "$75$ g",
+   "$100$ g",
+   "$125$ g"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-178",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is a multiple of $5$?",
+  "choices": [
+   "$42$",
+   "$48$",
+   "$54$",
+   "$65$",
+   "$72$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-179",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $2^7$?",
+  "choices": [
+   "$14$",
+   "$49$",
+   "$64$",
+   "$128$",
+   "$256$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-180",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $8$?",
+  "choices": [
+   "$48$",
+   "$54$",
+   "$62$",
+   "$68$",
+   "$74$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-181",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many prime numbers are between $20$ and $30$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-182",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $40\\%$ of a number is $16$, what is the number?",
+  "choices": [
+   "$30$",
+   "$35$",
+   "$40$",
+   "$45$",
+   "$50$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-183",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b = 2:7$ and $b = 21$, what is $a$?",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-184",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many factors does $24$ have?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-185",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is the smallest positive integer with exactly $6$ divisors?",
+  "answer": 12
+ },
+ {
+  "id": "q-ari-186",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $(5^2)^3$.",
+  "choices": [
+   "$5^5$",
+   "$5^6$",
+   "$5^{10}$",
+   "$5^{12}$",
+   "$5^{15}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-187",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the least common multiple of $5$ and $7$?",
+  "choices": [
+   "$12$",
+   "$25$",
+   "$30$",
+   "$35$",
+   "$42$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-188",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of primes between $1$ and $50$",
+  "quantityB": "$15$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-189",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An item costs $\\$120$ after a $20\\%$ discount. What was the original price?",
+  "choices": [
+   "$\\$140$",
+   "$\\$145$",
+   "$\\$150$",
+   "$\\$160$",
+   "$\\$180$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-190",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a school, the ratio of teachers to students is $1:30$. If there are $45$ teachers, how many students?",
+  "choices": [
+   "$900$",
+   "$1200$",
+   "$1350$",
+   "$1500$",
+   "$1800$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-191",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the remainder when $1234$ is divided by $9$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-192",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $\\sqrt[3]{27}$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-193",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is divisible by $11$?",
+  "choices": [
+   "$121$",
+   "$132$",
+   "$143$",
+   "$154$",
+   "All of the above"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-194",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Sum of first $5$ primes",
+  "quantityB": "$28$",
+  "answer": "C"
+ },
+ {
+  "id": "q-ari-195",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A price drops $10\\%$, then rises $10\\%$. What is the net percent change?",
+  "choices": [
+   "$0\\%$",
+   "$-1\\%$",
+   "$1\\%$",
+   "$-2\\%$",
+   "$2\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-196",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b:c = 2:3:5$ and $a + b + c = 100$, what is $b$?",
+  "choices": [
+   "$20$",
+   "$25$",
+   "$30$",
+   "$35$",
+   "$40$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-197",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "How many integers from $1$ to $1000$ are perfect squares?",
+  "answer": 31
+ },
+ {
+  "id": "q-ari-198",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a^2 \\cdot a^4 = a^{2x}$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-199",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many trailing zeros does $100!$ have?",
+  "choices": [
+   "$20$",
+   "$22$",
+   "$24$",
+   "$25$",
+   "$30$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-200",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which is true about every prime greater than $2$?",
+  "choices": [
+   "It is even",
+   "It is a multiple of $3$",
+   "It is odd",
+   "It is a multiple of $5$",
+   "It is divisible by $7$"
+  ],
+  "answer": 2
+ }
+]

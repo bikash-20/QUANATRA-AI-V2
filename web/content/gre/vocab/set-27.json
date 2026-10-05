@@ -1,0 +1,377 @@
+[
+ {
+  "word": "guile",
+  "tier": 3,
+  "pos": "n",
+  "definition": "sly or cunning intelligence",
+  "synonyms": [
+   "cunning",
+   "craftiness"
+  ],
+  "antonyms": [
+   "candor"
+  ],
+  "example": "He achieved his goals through guile, not work.",
+  "id": "v-0651"
+ },
+ {
+  "word": "haggard",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "looking exhausted and drawn",
+  "synonyms": [
+   "drawn",
+   "worn"
+  ],
+  "antonyms": [
+   "rested"
+  ],
+  "example": "She looked haggard after the long flight.",
+  "id": "v-0652"
+ },
+ {
+  "word": "hallowed",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "made holy; revered",
+  "synonyms": [
+   "sacred",
+   "venerated"
+  ],
+  "antonyms": [
+   "profane"
+  ],
+  "example": "The hallowed grounds hold a special place in memory.",
+  "id": "v-0653"
+ },
+ {
+  "word": "halting",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "slow and hesitant, as if lacking confidence",
+  "synonyms": [
+   "hesitant",
+   "tentative"
+  ],
+  "antonyms": [
+   "fluent"
+  ],
+  "example": "His halting speech betrayed his nerves.",
+  "id": "v-0654"
+ },
+ {
+  "word": "harness",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to control and make use of natural resources",
+  "synonyms": [
+   "utilize",
+   "channel"
+  ],
+  "antonyms": [
+   "waste"
+  ],
+  "example": "We must harness solar power efficiently.",
+  "id": "v-0655"
+ },
+ {
+  "word": "harrowing",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "acutely distressing or painful",
+  "synonyms": [
+   "distressing",
+   "traumatic"
+  ],
+  "antonyms": [
+   "soothing"
+  ],
+  "example": "The passengers described a harrowing experience.",
+  "id": "v-0656"
+ },
+ {
+  "word": "haughty",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "arrogantly proud and disdainful",
+  "synonyms": [
+   "arrogant",
+   "disdainful"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "The haughty waiter sniffed at our order.",
+  "id": "v-0657"
+ },
+ {
+  "word": "heresy",
+  "tier": 3,
+  "pos": "n",
+  "definition": "belief contrary to religious or other doctrine",
+  "synonyms": [
+   "dissent",
+   "unorthodoxy"
+  ],
+  "antonyms": [
+   "orthodoxy"
+  ],
+  "example": "The church condemned his teachings as heresy.",
+  "id": "v-0658"
+ },
+ {
+  "word": "heyday",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the period of greatest prosperity or popularity",
+  "synonyms": [
+   "prime",
+   "peak"
+  ],
+  "antonyms": [
+   "decline"
+  ],
+  "example": "In the heyday of rail travel, stations were palaces.",
+  "id": "v-0659"
+ },
+ {
+  "word": "hindmost",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "furthest behind",
+  "synonyms": [
+   "rear",
+   "last"
+  ],
+  "antonyms": [
+   "foremost"
+  ],
+  "example": "The hindmost runners barely finished the race.",
+  "id": "v-0660"
+ },
+ {
+  "word": "histrionic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "overly theatrical or melodramatic in character",
+  "synonyms": [
+   "theatrical",
+   "melodramatic"
+  ],
+  "antonyms": [
+   "understated"
+  ],
+  "example": "His histrionic apology fooled no one.",
+  "id": "v-0661"
+ },
+ {
+  "word": "hoary",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "grayish-white; old and trite",
+  "synonyms": [
+   "ancient",
+   "aged"
+  ],
+  "antonyms": [
+   "fresh"
+  ],
+  "example": "The hoary cliches wore out their welcome.",
+  "id": "v-0662"
+ },
+ {
+  "word": "homogeneous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of the same kind; uniform",
+  "synonyms": [
+   "uniform",
+   "identical"
+  ],
+  "antonyms": [
+   "diverse"
+  ],
+  "example": "The neighborhood was remarkably homogeneous.",
+  "id": "v-0663"
+ },
+ {
+  "word": "hospitable",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "friendly and welcoming to strangers",
+  "synonyms": [
+   "welcoming",
+   "cordial"
+  ],
+  "antonyms": [
+   "hostile"
+  ],
+  "example": "They were hospitable hosts throughout our stay.",
+  "id": "v-0664"
+ },
+ {
+  "word": "hubris",
+  "tier": 3,
+  "pos": "n",
+  "definition": "excessive pride or self-confidence",
+  "synonyms": [
+   "arrogance",
+   "pride"
+  ],
+  "antonyms": [
+   "humility"
+  ],
+  "example": "The hero's hubris led to his downfall.",
+  "id": "v-0665"
+ },
+ {
+  "word": "idolatry",
+  "tier": 3,
+  "pos": "n",
+  "definition": "extreme admiration or devotion",
+  "synonyms": [
+   "worship",
+   "adulation"
+  ],
+  "antonyms": [
+   "disdain"
+  ],
+  "example": "The fans' idolatry of the singer was intense.",
+  "id": "v-0666"
+ },
+ {
+  "word": "imminent",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "about to happen",
+  "synonyms": [
+   "impending",
+   "upcoming"
+  ],
+  "antonyms": [
+   "distant"
+  ],
+  "example": "The storm's arrival was imminent.",
+  "id": "v-0667"
+ },
+ {
+  "word": "immutable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unchanging over time",
+  "synonyms": [
+   "unchangeable",
+   "fixed"
+  ],
+  "antonyms": [
+   "changeable"
+  ],
+  "example": "Laws of physics are immutable.",
+  "id": "v-0668"
+ },
+ {
+  "word": "impartial",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "treating all rivals or disputants equally",
+  "synonyms": [
+   "unbiased",
+   "fair"
+  ],
+  "antonyms": [
+   "biased"
+  ],
+  "example": "The judge was scrupulously impartial.",
+  "id": "v-0669"
+ },
+ {
+  "word": "impermeable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not allowing fluid to pass through",
+  "synonyms": [
+   "impervious",
+   "sealed"
+  ],
+  "antonyms": [
+   "permeable"
+  ],
+  "example": "The coat is impermeable to rain.",
+  "id": "v-0670"
+ },
+ {
+  "word": "impinge",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to have an effect or impact, often encroachment",
+  "synonyms": [
+   "encroach",
+   "infringe"
+  ],
+  "antonyms": [
+   "yield"
+  ],
+  "example": "His constant calls impinged on her work.",
+  "id": "v-0671"
+ },
+ {
+  "word": "implacable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unable to be appeased or placated",
+  "synonyms": [
+   "unrelenting",
+   "relentless"
+  ],
+  "antonyms": [
+   "placable"
+  ],
+  "example": "He was an implacable foe of the new tax.",
+  "id": "v-0672"
+ },
+ {
+  "word": "implicit",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "implied though not expressed directly",
+  "synonyms": [
+   "implied",
+   "tacit"
+  ],
+  "antonyms": [
+   "explicit"
+  ],
+  "example": "There was implicit criticism in her silence.",
+  "id": "v-0673"
+ },
+ {
+  "word": "impolitic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lacking tact or prudence; unwise",
+  "synonyms": [
+   "tactless",
+   "unwise"
+  ],
+  "antonyms": [
+   "prudent"
+  ],
+  "example": "It was impolitic to mention his rival.",
+  "id": "v-0674"
+ },
+ {
+  "word": "impromptu",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "done without preparation",
+  "synonyms": [
+   "unrehearsed",
+   "spontaneous"
+  ],
+  "antonyms": [
+   "planned"
+  ],
+  "example": "She gave an impromptu speech at the wedding.",
+  "id": "v-0675"
+ }
+]

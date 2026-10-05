@@ -1,0 +1,372 @@
+[
+ {
+  "word": "opaque",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "not able to be seen through; not transparent",
+  "synonyms": [
+   "murky",
+   "cloudy"
+  ],
+  "antonyms": [
+   "transparent"
+  ],
+  "example": "The opaque glass hid the room.",
+  "id": "v-0776"
+ },
+ {
+  "word": "ostentatious",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "designed to attract notice and impress others",
+  "synonyms": [
+   "showy",
+   "pretentious"
+  ],
+  "antonyms": [
+   "modest"
+  ],
+  "example": "Their ostentatious mansion drew stares.",
+  "id": "v-0777"
+ },
+ {
+  "word": "overweening",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "excessively arrogant or presumptuous",
+  "synonyms": [
+   "arrogant",
+   "presumptuous"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His overweening pride alienated friends.",
+  "id": "v-0778"
+ },
+ {
+  "word": "palatable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "pleasant to taste; acceptable",
+  "synonyms": [
+   "acceptable",
+   "agreeable"
+  ],
+  "antonyms": [
+   "unacceptable"
+  ],
+  "example": "The compromise was palatable to both sides.",
+  "id": "v-0779"
+ },
+ {
+  "word": "pallor",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an unnaturally pale complexion",
+  "synonyms": [
+   "paleness",
+   "wan"
+  ],
+  "antonyms": [
+   "color"
+  ],
+  "example": "Her pallor worried the doctor.",
+  "id": "v-0780"
+ },
+ {
+  "word": "panache",
+  "tier": 3,
+  "pos": "n",
+  "definition": "flamboyant confidence of style or manner",
+  "synonyms": [
+   "flair",
+   "dash"
+  ],
+  "antonyms": [
+   "timidity"
+  ],
+  "example": "He tackled the role with panache.",
+  "id": "v-0781"
+ },
+ {
+  "word": "paradigm",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a typical example or pattern",
+  "synonyms": [
+   "model",
+   "pattern"
+  ],
+  "antonyms": [],
+  "example": "The trial was a paradigm of justice.",
+  "id": "v-0782"
+ },
+ {
+  "word": "paradox",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a seemingly absurd or contradictory statement",
+  "synonyms": [
+   "contradiction",
+   "puzzle"
+  ],
+  "antonyms": [
+   "truth"
+  ],
+  "example": "It was a famous logical paradox.",
+  "id": "v-0783"
+ },
+ {
+  "word": "partisan",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "prejudiced in support of one side",
+  "synonyms": [
+   "biased",
+   "factional"
+  ],
+  "antonyms": [
+   "neutral"
+  ],
+  "example": "The partisan crowd cheered loudly.",
+  "id": "v-0784"
+ },
+ {
+  "word": "patent",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "readily visible or understood",
+  "synonyms": [
+   "obvious",
+   "evident"
+  ],
+  "antonyms": [
+   "obscure"
+  ],
+  "example": "It was a patent falsehood.",
+  "id": "v-0785"
+ },
+ {
+  "word": "patronize",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to treat with an appearance of kindness that betrays a feeling of superiority",
+  "synonyms": [
+   "condescend",
+   "talk down to"
+  ],
+  "antonyms": [
+   "respect"
+  ],
+  "example": "Don't patronize me with that tone.",
+  "id": "v-0786"
+ },
+ {
+  "word": "peccadillo",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a minor sin or offense",
+  "synonyms": [
+   "misdeed",
+   "indiscretion"
+  ],
+  "antonyms": [
+   "serious crime"
+  ],
+  "example": "His peccadillo came to light.",
+  "id": "v-0787"
+ },
+ {
+  "word": "pedestrian",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "lacking imagination or excitement; dull",
+  "synonyms": [
+   "mundane",
+   "ordinary"
+  ],
+  "antonyms": [
+   "imaginative"
+  ],
+  "example": "The lecture was pedestrian and uninspired.",
+  "id": "v-0788"
+ },
+ {
+  "word": "perjury",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the offense of willfully telling an untruth under oath",
+  "synonyms": [
+   "false testimony"
+  ],
+  "antonyms": [
+   "truth"
+  ],
+  "example": "He was convicted of perjury.",
+  "id": "v-0789"
+ },
+ {
+  "word": "permeable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "allowing liquids or gases to pass through",
+  "synonyms": [
+   "porous",
+   "penetrable"
+  ],
+  "antonyms": [
+   "impermeable"
+  ],
+  "example": "The membrane is permeable to water.",
+  "id": "v-0790"
+ },
+ {
+  "word": "plastic",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "easily shaped or molded; impressionable",
+  "synonyms": [
+   "malleable",
+   "pliable"
+  ],
+  "antonyms": [
+   "rigid"
+  ],
+  "example": "Children's minds are plastic and receptive.",
+  "id": "v-0791"
+ },
+ {
+  "word": "plebiscite",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a direct vote by the people on an important issue",
+  "synonyms": [
+   "referendum",
+   "vote"
+  ],
+  "antonyms": [],
+  "example": "The plebiscite decided the question.",
+  "id": "v-0792"
+ },
+ {
+  "word": "plethora",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a large or excessive amount of something",
+  "synonyms": [
+   "excess",
+   "surplus"
+  ],
+  "antonyms": [
+   "scarcity"
+  ],
+  "example": "There was a plethora of options.",
+  "id": "v-0793"
+ },
+ {
+  "word": "ponderous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "slow and clumsy because of great weight",
+  "synonyms": [
+   "heavy",
+   "labored"
+  ],
+  "antonyms": [
+   "light"
+  ],
+  "example": "His ponderous prose tired readers.",
+  "id": "v-0794"
+ },
+ {
+  "word": "prestige",
+  "tier": 2,
+  "pos": "n",
+  "definition": "widespread respect and admiration",
+  "synonyms": [
+   "renown",
+   "status"
+  ],
+  "antonyms": [
+   "disgrace"
+  ],
+  "example": "The award brought her great prestige.",
+  "id": "v-0795"
+ },
+ {
+  "word": "profligate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "recklessly extravagant; wasteful",
+  "synonyms": [
+   "wasteful",
+   "dissolute"
+  ],
+  "antonyms": [
+   "frugal"
+  ],
+  "example": "His profligate spending bankrupted him.",
+  "id": "v-0796"
+ },
+ {
+  "word": "promulgate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to promote or make widely known",
+  "synonyms": [
+   "spread",
+   "disseminate"
+  ],
+  "antonyms": [
+   "suppress"
+  ],
+  "example": "The decree was promulgated across the land.",
+  "id": "v-0797"
+ },
+ {
+  "word": "propensity",
+  "tier": 2,
+  "pos": "n",
+  "definition": "an inclination or natural tendency to behave in a particular way",
+  "synonyms": [
+   "tendency",
+   "predisposition"
+  ],
+  "antonyms": [
+   "aversion"
+  ],
+  "example": "She had a propensity to gossip.",
+  "id": "v-0798"
+ },
+ {
+  "word": "proscribe",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to forbid, especially by law",
+  "synonyms": [
+   "ban",
+   "outlaw"
+  ],
+  "antonyms": [
+   "permit"
+  ],
+  "example": "The new rules proscribe smoking indoors.",
+  "id": "v-0799"
+ },
+ {
+  "word": "protagonist",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the leading character in a story",
+  "synonyms": [
+   "hero",
+   "lead"
+  ],
+  "antonyms": [
+   "antagonist"
+  ],
+  "example": "The protagonist faces many trials.",
+  "id": "v-0800"
+ }
+]

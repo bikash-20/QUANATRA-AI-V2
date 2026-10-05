@@ -1,0 +1,414 @@
+[
+ {
+  "id": "q-geo-151",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with diameter $10$? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$10\\pi$",
+   "$25\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$5\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-152",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs of length $5$ and $12$. What is its perimeter?",
+  "choices": [
+   "$17$",
+   "$30$",
+   "$34$",
+   "$60$",
+   "$169$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-153",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $4$ and height $3$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$12$",
+   "$24$",
+   "$36$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-154",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which point lies on the line $y = 3x + 1$?",
+  "choices": [
+   "$(0, 1)$",
+   "$(1, 4)$",
+   "$(2, 6)$",
+   "$(1, 3)$",
+   "$(3, 1)$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-155",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A semicircle of radius $r$ has area:",
+  "choices": [
+   "$\\pi r$",
+   "$\\pi r^2$",
+   "$\\frac{\\pi r^2}{2}$",
+   "$2\\pi r$",
+   "$\\pi r^3$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-156",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A triangle has angles $50^\\circ$, $60^\\circ$, $70^\\circ$. What type is it?",
+  "choices": [
+   "Equilateral",
+   "Isosceles",
+   "Right",
+   "Scalene",
+   "Obtuse"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-157",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A rhombus has diagonals $6$ and $8$. What is its area?",
+  "choices": [
+   "$14$",
+   "$24$",
+   "$28$",
+   "$48$",
+   "$56$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-158",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of a horizontal line?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$-1$",
+   "Undefined",
+   "Infinity"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-159",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle has circumference $20\\pi$. What is its radius?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$40$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-160",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An equilateral triangle has area $9\\sqrt{3}$. What is its side length?",
+  "choices": [
+   "$3$",
+   "$6$",
+   "$9$",
+   "$12$",
+   "$\\sqrt{3}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-161",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A square has diagonal $10$. What is its area?",
+  "choices": [
+   "$10$",
+   "$20$",
+   "$25$",
+   "$50$",
+   "$100$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-162",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the equation of a vertical line through $(3, 5)$?",
+  "choices": [
+   "$y = 5$",
+   "$x = 5$",
+   "$x = 3$",
+   "$y = 3$",
+   "$y = x + 2$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-163",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A wheel has radius $14$ inches. How far does it travel in one full rotation? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$7\\pi$",
+   "$14\\pi$",
+   "$28\\pi$",
+   "$49\\pi$",
+   "$196\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-164",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the hypotenuse of a right triangle with legs $5$ and $12$?",
+  "choices": [
+   "$13$",
+   "$17$",
+   "$34$",
+   "$60$",
+   "$169$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-165",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Perimeter of a square with side $7$",
+  "quantityB": "Perimeter of an equilateral triangle with side $9$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-166",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line $3x - 4y = 12$?",
+  "choices": [
+   "$-3$",
+   "$-\\frac{3}{4}$",
+   "$\\frac{3}{4}$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-167",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a semicircle with radius $6$? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$6\\pi$",
+   "$12\\pi$",
+   "$18\\pi$",
+   "$36\\pi$",
+   "$72\\pi$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-168",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a triangle, two sides are $5$ and $7$. Between what values must the third side lie?",
+  "choices": [
+   "$2 < c < 12$",
+   "$3 < c < 11$",
+   "$5 < c < 7$",
+   "$1 < c < 13$",
+   "$c > 12$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-169",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A rectangle has perimeter $30$ and length $8$. What is its area?",
+  "choices": [
+   "$30$",
+   "$56$",
+   "$64$",
+   "$120$",
+   "$240$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-170",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between $(-2, 1)$ and $(4, 9)$?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-171",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle inscribed in a square of side $10$? Express as a multiple of $\\pi$.",
+  "choices": [
+   "$10\\pi$",
+   "$25\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$20\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-172",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If the sides of a triangle are $5, 12, 13$, what is its area?",
+  "answer": 30
+ },
+ {
+  "id": "q-geo-173",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circular garden has area $100\\pi$. What is the length of fence needed to enclose it?",
+  "choices": [
+   "$10\\pi$",
+   "$20\\pi$",
+   "$50\\pi$",
+   "$100\\pi$",
+   "$200\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-174",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of the triangle with vertices $(0, 0)$, $(4, 0)$, and $(0, 3)$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$12$",
+   "$24$",
+   "$36$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-175",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the longest chord of a circle with radius $10$?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$100$"
+  ],
+  "answer": 1
+ }
+]

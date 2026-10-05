@@ -1,0 +1,371 @@
+[
+ {
+  "word": "rhetoric",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the art of effective or persuasive speaking and writing",
+  "synonyms": [
+   "oratory",
+   "eloquence"
+  ],
+  "antonyms": [],
+  "example": "His rhetoric swayed the crowd.",
+  "id": "v-0826"
+ },
+ {
+  "word": "rictus",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a fixed grimace or grin",
+  "synonyms": [
+   "grimace",
+   "smile"
+  ],
+  "antonyms": [],
+  "example": "His rictus suggested hostility.",
+  "id": "v-0827"
+ },
+ {
+  "word": "sanctimonious",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "making a show of being morally superior",
+  "synonyms": [
+   "self-righteous",
+   "pious"
+  ],
+  "antonyms": [
+   "humble"
+  ],
+  "example": "His sanctimonious tone annoyed everyone.",
+  "id": "v-0828"
+ },
+ {
+  "word": "scathing",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "harshly critical; very sharp and severe",
+  "synonyms": [
+   "harsh",
+   "caustic"
+  ],
+  "antonyms": [
+   "mild"
+  ],
+  "example": "The reviewer wrote a scathing critique.",
+  "id": "v-0829"
+ },
+ {
+  "word": "sclerotic",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "becoming rigid and unable to adapt",
+  "synonyms": [
+   "rigid",
+   "ossified"
+  ],
+  "antonyms": [
+   "flexible"
+  ],
+  "example": "The sclerotic bureaucracy resisted change.",
+  "id": "v-0830"
+ },
+ {
+  "word": "sobriety",
+  "tier": 3,
+  "pos": "n",
+  "definition": "the state of being sober, not drunk",
+  "synonyms": [
+   "abstinence",
+   "temperance"
+  ],
+  "antonyms": [
+   "drunkenness"
+  ],
+  "example": "He prided himself on his sobriety.",
+  "id": "v-0831"
+ },
+ {
+  "word": "solicitous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing concern or care for someone's welfare",
+  "synonyms": [
+   "concerned",
+   "attentive"
+  ],
+  "antonyms": [
+   "indifferent"
+  ],
+  "example": "Her solicitous manner was reassuring.",
+  "id": "v-0832"
+ },
+ {
+  "word": "sordid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "involving ignoble actions and motives",
+  "synonyms": [
+   "sleazy",
+   "seamy"
+  ],
+  "antonyms": [
+   "uplifting"
+  ],
+  "example": "The story revealed a sordid past.",
+  "id": "v-0833"
+ },
+ {
+  "word": "stymie",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to prevent or hinder the progress of",
+  "synonyms": [
+   "thwart",
+   "hinder"
+  ],
+  "antonyms": [
+   "facilitate"
+  ],
+  "example": "His absence stymied the investigation.",
+  "id": "v-0834"
+ },
+ {
+  "word": "sublime",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "of such excellence as to inspire great admiration or awe",
+  "synonyms": [
+   "exalted",
+   "lofty"
+  ],
+  "antonyms": [
+   "mundane"
+  ],
+  "example": "The view from the peak was sublime.",
+  "id": "v-0835"
+ },
+ {
+  "word": "subpoena",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a writ ordering a person to attend court",
+  "synonyms": [
+   "summons",
+   "writ"
+  ],
+  "antonyms": [],
+  "example": "She was served a subpoena.",
+  "id": "v-0836"
+ },
+ {
+  "word": "subsume",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to include or absorb in something else",
+  "synonyms": [
+   "include",
+   "incorporate"
+  ],
+  "antonyms": [
+   "exclude"
+  ],
+  "example": "The theory subsumes many examples.",
+  "id": "v-0837"
+ },
+ {
+  "word": "subversive",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "intended to undermine or overthrow",
+  "synonyms": [
+   "seditious",
+   "destabilizing"
+  ],
+  "antonyms": [
+   "loyal"
+  ],
+  "example": "The book was banned as subversive.",
+  "id": "v-0838"
+ },
+ {
+  "word": "sultry",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "hot and humid; sensuous",
+  "synonyms": [
+   "humid",
+   "torrid"
+  ],
+  "antonyms": [
+   "cool"
+  ],
+  "example": "The sultry air lay heavy over the city.",
+  "id": "v-0839"
+ },
+ {
+  "word": "supplicate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to ask or beg for something earnestly or humbly",
+  "synonyms": [
+   "implore",
+   "beg"
+  ],
+  "antonyms": [
+   "demand"
+  ],
+  "example": "She supplicated the king for mercy.",
+  "id": "v-0840"
+ },
+ {
+  "word": "terse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sparing in the use of words; abrupt",
+  "synonyms": [
+   "concise",
+   "curt"
+  ],
+  "antonyms": [
+   "verbose"
+  ],
+  "example": "He gave a terse reply.",
+  "id": "v-0841"
+ },
+ {
+  "word": "tranquil",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "free from disturbance; calm",
+  "synonyms": [
+   "peaceful",
+   "serene"
+  ],
+  "antonyms": [
+   "turbulent"
+  ],
+  "example": "The tranquil lake reflected the mountains.",
+  "id": "v-0842"
+ },
+ {
+  "word": "transgression",
+  "tier": 3,
+  "pos": "n",
+  "definition": "an act that goes against a law, rule, or code of conduct",
+  "synonyms": [
+   "violation",
+   "sin"
+  ],
+  "antonyms": [
+   "obedience"
+  ],
+  "example": "He apologized for his transgression.",
+  "id": "v-0843"
+ },
+ {
+  "word": "trepidation",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a feeling of fear or agitation about something that may happen",
+  "synonyms": [
+   "apprehension",
+   "dread"
+  ],
+  "antonyms": [
+   "confidence"
+  ],
+  "example": "She opened the letter with trepidation.",
+  "id": "v-0844"
+ },
+ {
+  "word": "underscore",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to emphasize or stress",
+  "synonyms": [
+   "emphasize",
+   "highlight"
+  ],
+  "antonyms": [
+   "downplay"
+  ],
+  "example": "The data underscored her argument.",
+  "id": "v-0845"
+ },
+ {
+  "word": "unfettered",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not confined or restricted",
+  "synonyms": [
+   "free",
+   "unrestrained"
+  ],
+  "antonyms": [
+   "confined"
+  ],
+  "example": "Her mind was unfettered by convention.",
+  "id": "v-0846"
+ },
+ {
+  "word": "valedictory",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "serving as a farewell",
+  "synonyms": [
+   "farewell",
+   "parting"
+  ],
+  "antonyms": [
+   "welcoming"
+  ],
+  "example": "He gave a valedictory address.",
+  "id": "v-0847"
+ },
+ {
+  "word": "valorous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing great courage in the face of danger",
+  "synonyms": [
+   "brave",
+   "courageous"
+  ],
+  "antonyms": [
+   "cowardly"
+  ],
+  "example": "His valorous deeds were celebrated.",
+  "id": "v-0848"
+ },
+ {
+  "word": "vanquish",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to defeat thoroughly",
+  "synonyms": [
+   "conquer",
+   "subdue"
+  ],
+  "antonyms": [
+   "surrender"
+  ],
+  "example": "The hero vanquished the dragon.",
+  "id": "v-0849"
+ },
+ {
+  "word": "vapid",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "offering nothing that is stimulating or challenging",
+  "synonyms": [
+   "dull",
+   "insipid"
+  ],
+  "antonyms": [
+   "interesting"
+  ],
+  "example": "The conversation was vapid.",
+  "id": "v-0850"
+ }
+]

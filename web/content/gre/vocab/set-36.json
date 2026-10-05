@@ -1,0 +1,369 @@
+[
+ {
+  "word": "concentrate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to focus one's attention or efforts on something",
+  "synonyms": [
+   "focus",
+   "center"
+  ],
+  "antonyms": [
+   "distract"
+  ],
+  "example": "Try to concentrate on the task.",
+  "id": "v-0876"
+ },
+ {
+  "word": "conclude",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to bring something to an end; to judge after consideration",
+  "synonyms": [
+   "finish",
+   "determine"
+  ],
+  "antonyms": [
+   "begin"
+  ],
+  "example": "She concluded her speech.",
+  "id": "v-0877"
+ },
+ {
+  "word": "confine",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to keep or restrict someone within certain limits",
+  "synonyms": [
+   "restrict",
+   "imprison"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "He was confined to a wheelchair.",
+  "id": "v-0878"
+ },
+ {
+  "word": "conflict",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a serious disagreement or argument",
+  "synonyms": [
+   "dispute",
+   "clash"
+  ],
+  "antonyms": [
+   "agreement"
+  ],
+  "example": "The conflict lasted years.",
+  "id": "v-0879"
+ },
+ {
+  "word": "consequence",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a result or effect of an action or condition",
+  "synonyms": [
+   "outcome",
+   "result"
+  ],
+  "antonyms": [
+   "cause"
+  ],
+  "example": "There were serious consequences.",
+  "id": "v-0880"
+ },
+ {
+  "word": "considerable",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "notably large in size, amount, or extent",
+  "synonyms": [
+   "substantial",
+   "significant"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "He earned a considerable sum.",
+  "id": "v-0881"
+ },
+ {
+  "word": "consist",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to be composed or made up of",
+  "synonyms": [
+   "comprise",
+   "include"
+  ],
+  "antonyms": [],
+  "example": "The class consists of ten students.",
+  "id": "v-0882"
+ },
+ {
+  "word": "consistent",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "acting or done in the same way over time",
+  "synonyms": [
+   "steady",
+   "uniform"
+  ],
+  "antonyms": [
+   "inconsistent"
+  ],
+  "example": "Her work has been consistent.",
+  "id": "v-0883"
+ },
+ {
+  "word": "constant",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "occurring continuously over a period of time",
+  "synonyms": [
+   "continuous",
+   "steady"
+  ],
+  "antonyms": [
+   "intermittent"
+  ],
+  "example": "The constant noise was annoying.",
+  "id": "v-0884"
+ },
+ {
+  "word": "contribute",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to give something in order to help achieve a goal",
+  "synonyms": [
+   "donate",
+   "add"
+  ],
+  "antonyms": [
+   "withhold"
+  ],
+  "example": "Many contributed to the cause.",
+  "id": "v-0885"
+ },
+ {
+  "word": "controversial",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "giving rise to public disagreement",
+  "synonyms": [
+   "disputed",
+   "debatable"
+  ],
+  "antonyms": [
+   "uncontroversial"
+  ],
+  "example": "It was a controversial decision.",
+  "id": "v-0886"
+ },
+ {
+  "word": "convey",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to communicate or make known",
+  "synonyms": [
+   "communicate",
+   "express"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "Please convey my regards.",
+  "id": "v-0887"
+ },
+ {
+  "word": "convince",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to cause someone to believe firmly in the truth of something",
+  "synonyms": [
+   "persuade",
+   "assure"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "He convinced me to stay.",
+  "id": "v-0888"
+ },
+ {
+  "word": "coordinate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to bring the different elements of a complex activity into harmony",
+  "synonyms": [
+   "organize",
+   "harmonize"
+  ],
+  "antonyms": [
+   "confuse"
+  ],
+  "example": "She coordinated the event well.",
+  "id": "v-0889"
+ },
+ {
+  "word": "crucial",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "of great importance; critical",
+  "synonyms": [
+   "essential",
+   "vital"
+  ],
+  "antonyms": [
+   "trivial"
+  ],
+  "example": "It was a crucial moment.",
+  "id": "v-0890"
+ },
+ {
+  "word": "decline",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to politely refuse; to become smaller or weaker",
+  "synonyms": [
+   "refuse",
+   "decrease"
+  ],
+  "antonyms": [
+   "accept"
+  ],
+  "example": "She declined the offer.",
+  "id": "v-0891"
+ },
+ {
+  "word": "define",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to state or describe exactly the nature of something",
+  "synonyms": [
+   "describe",
+   "specify"
+  ],
+  "antonyms": [
+   "confuse"
+  ],
+  "example": "Define the term clearly.",
+  "id": "v-0892"
+ },
+ {
+  "word": "deliberate",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "done consciously and intentionally",
+  "synonyms": [
+   "intentional",
+   "planned"
+  ],
+  "antonyms": [
+   "accidental"
+  ],
+  "example": "It was a deliberate act.",
+  "id": "v-0893"
+ },
+ {
+  "word": "demonstrate",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to clearly show the existence or truth of something",
+  "synonyms": [
+   "show",
+   "prove"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "The data demonstrates the trend.",
+  "id": "v-0894"
+ },
+ {
+  "word": "denote",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to be a sign of; indicate",
+  "synonyms": [
+   "indicate",
+   "signify"
+  ],
+  "antonyms": [],
+  "example": "Red denotes danger.",
+  "id": "v-0895"
+ },
+ {
+  "word": "derive",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to obtain something from a specified source",
+  "synonyms": [
+   "obtain",
+   "extract"
+  ],
+  "antonyms": [],
+  "example": "She derived pleasure from music.",
+  "id": "v-0896"
+ },
+ {
+  "word": "disclose",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to reveal or make known",
+  "synonyms": [
+   "reveal",
+   "uncover"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "Please disclose the source.",
+  "id": "v-0897"
+ },
+ {
+  "word": "domain",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a sphere of activity, interest, or function",
+  "synonyms": [
+   "field",
+   "sphere"
+  ],
+  "antonyms": [],
+  "example": "It is outside my domain.",
+  "id": "v-0898"
+ },
+ {
+  "word": "elaborate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to develop or present in further detail",
+  "synonyms": [
+   "develop",
+   "expand"
+  ],
+  "antonyms": [
+   "simplify"
+  ],
+  "example": "Please elaborate on the plan.",
+  "id": "v-0899"
+ },
+ {
+  "word": "element",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a component or part of something",
+  "synonyms": [
+   "component",
+   "part"
+  ],
+  "antonyms": [
+   "whole"
+  ],
+  "example": "Honesty is a key element.",
+  "id": "v-0900"
+ }
+]

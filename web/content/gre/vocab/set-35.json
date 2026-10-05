@@ -1,0 +1,363 @@
+[
+ {
+  "word": "verbose",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "using or expressed in more words than are needed",
+  "synonyms": [
+   "wordy",
+   "long-winded"
+  ],
+  "antonyms": [
+   "concise"
+  ],
+  "example": "His verbose answers grew tiresome.",
+  "id": "v-0851"
+ },
+ {
+  "word": "verdant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "green with grass or other rich vegetation",
+  "synonyms": [
+   "lush",
+   "green"
+  ],
+  "antonyms": [
+   "barren"
+  ],
+  "example": "The verdant fields stretched to the horizon.",
+  "id": "v-0852"
+ },
+ {
+  "word": "vestige",
+  "tier": 3,
+  "pos": "n",
+  "definition": "a very small amount or remnant",
+  "synonyms": [
+   "trace",
+   "remnant"
+  ],
+  "antonyms": [],
+  "example": "There was not a vestige of truth in his tale.",
+  "id": "v-0853"
+ },
+ {
+  "word": "vilify",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to speak or write about in a very negative way",
+  "synonyms": [
+   "denounce",
+   "malign"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The press vilified the senator.",
+  "id": "v-0854"
+ },
+ {
+  "word": "volatile",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "liable to change rapidly and unpredictably",
+  "synonyms": [
+   "unstable",
+   "changeable"
+  ],
+  "antonyms": [
+   "stable"
+  ],
+  "example": "The situation is volatile and could explode.",
+  "id": "v-0855"
+ },
+ {
+  "word": "wary",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "feeling or showing caution about possible dangers or problems",
+  "synonyms": [
+   "cautious",
+   "guarded"
+  ],
+  "antonyms": [
+   "trusting"
+  ],
+  "example": "Be wary of strangers offering deals.",
+  "id": "v-0856"
+ },
+ {
+  "word": "adequate",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "satisfactory or acceptable in quality or quantity",
+  "synonyms": [
+   "sufficient",
+   "suitable"
+  ],
+  "antonyms": [
+   "inadequate"
+  ],
+  "example": "The salary was adequate for our needs.",
+  "id": "v-0857"
+ },
+ {
+  "word": "advantage",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a condition or circumstance that puts one in a favorable position",
+  "synonyms": [
+   "benefit",
+   "edge"
+  ],
+  "antonyms": [
+   "disadvantage"
+  ],
+  "example": "Speed gave them an advantage.",
+  "id": "v-0858"
+ },
+ {
+  "word": "affect",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to produce a change in someone or something",
+  "synonyms": [
+   "influence",
+   "impact"
+  ],
+  "antonyms": [],
+  "example": "The storm affected travel.",
+  "id": "v-0859"
+ },
+ {
+  "word": "agree",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to have the same opinion about something",
+  "synonyms": [
+   "concur",
+   "consent"
+  ],
+  "antonyms": [
+   "disagree"
+  ],
+  "example": "They agreed to the terms.",
+  "id": "v-0860"
+ },
+ {
+  "word": "analyze",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to examine in detail for purposes of explanation",
+  "synonyms": [
+   "examine",
+   "study"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "She analyzed the data carefully.",
+  "id": "v-0861"
+ },
+ {
+  "word": "approach",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a way of considering or doing something",
+  "synonyms": [
+   "method",
+   "strategy"
+  ],
+  "antonyms": [],
+  "example": "We need a fresh approach.",
+  "id": "v-0862"
+ },
+ {
+  "word": "approximate",
+  "tier": 2,
+  "pos": "adj",
+  "definition": "close to the actual amount or value but not completely accurate",
+  "synonyms": [
+   "rough",
+   "estimated"
+  ],
+  "antonyms": [
+   "exact"
+  ],
+  "example": "The cost is approximate.",
+  "id": "v-0863"
+ },
+ {
+  "word": "argument",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an exchange of diverging or opposite views",
+  "synonyms": [
+   "dispute",
+   "debate"
+  ],
+  "antonyms": [
+   "agreement"
+  ],
+  "example": "They had a heated argument.",
+  "id": "v-0864"
+ },
+ {
+  "word": "assess",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to evaluate or estimate the nature of something",
+  "synonyms": [
+   "evaluate",
+   "appraise"
+  ],
+  "antonyms": [],
+  "example": "The teacher assessed the work.",
+  "id": "v-0865"
+ },
+ {
+  "word": "assume",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to suppose to be the case without proof",
+  "synonyms": [
+   "presume",
+   "suppose"
+  ],
+  "antonyms": [
+   "prove"
+  ],
+  "example": "I assume you are right.",
+  "id": "v-0866"
+ },
+ {
+  "word": "authority",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the power or right to give orders or make decisions",
+  "synonyms": [
+   "power",
+   "control"
+  ],
+  "antonyms": [
+   "powerlessness"
+  ],
+  "example": "He had authority over the team.",
+  "id": "v-0867"
+ },
+ {
+  "word": "available",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "able to be used or obtained; at someone's disposal",
+  "synonyms": [
+   "accessible",
+   "obtainable"
+  ],
+  "antonyms": [
+   "unavailable"
+  ],
+  "example": "Tickets are still available.",
+  "id": "v-0868"
+ },
+ {
+  "word": "benefit",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an advantage or profit gained from something",
+  "synonyms": [
+   "gain",
+   "advantage"
+  ],
+  "antonyms": [
+   "disadvantage"
+  ],
+  "example": "There are many benefits to exercise.",
+  "id": "v-0869"
+ },
+ {
+  "word": "challenge",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a new or difficult task that tests ability",
+  "synonyms": [
+   "test",
+   "task"
+  ],
+  "antonyms": [],
+  "example": "It was a real challenge.",
+  "id": "v-0870"
+ },
+ {
+  "word": "circumstance",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a fact or condition connected with an event",
+  "synonyms": [
+   "situation",
+   "condition"
+  ],
+  "antonyms": [],
+  "example": "Under the circumstances, we must wait.",
+  "id": "v-0871"
+ },
+ {
+  "word": "clarify",
+  "tier": 1,
+  "pos": "v",
+  "definition": "to make a statement or situation less confused",
+  "synonyms": [
+   "explain",
+   "clear up"
+  ],
+  "antonyms": [
+   "confuse"
+  ],
+  "example": "Please clarify your point.",
+  "id": "v-0872"
+ },
+ {
+  "word": "commitment",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the state of being dedicated to a cause or activity",
+  "synonyms": [
+   "dedication",
+   "devotion"
+  ],
+  "antonyms": [
+   "apathy"
+  ],
+  "example": "She showed real commitment.",
+  "id": "v-0873"
+ },
+ {
+  "word": "compensate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to give something to make up for loss or inconvenience",
+  "synonyms": [
+   "reimburse",
+   "make up"
+  ],
+  "antonyms": [],
+  "example": "They compensated her for the trouble.",
+  "id": "v-0874"
+ },
+ {
+  "word": "complex",
+  "tier": 1,
+  "pos": "adj",
+  "definition": "consisting of many different and connected parts",
+  "synonyms": [
+   "complicated",
+   "intricate"
+  ],
+  "antonyms": [
+   "simple"
+  ],
+  "example": "It was a complex problem.",
+  "id": "v-0875"
+ }
+]
