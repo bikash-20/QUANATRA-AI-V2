@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-alg-361",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $x + 9 = 14$.",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-362",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x^2 = 81$, what is the positive value of $x$?",
+  "choices": [
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$",
+   "$11$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-363",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $x - 4 > 2$, what is the smallest integer $x$ that satisfies this?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-364",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the value of $5^0$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$5$",
+   "$-1$",
+   "undefined"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-365",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 12$, what is $|x|$?",
+  "choices": [
+   "$-12$",
+   "$0$",
+   "$12$",
+   "$\\pm 12$",
+   "$144$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-366",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $\\dfrac{x}{4} - \\dfrac{x}{6} = 1$.",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-367",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $x^2 + 4x + 4 = 0$.",
+  "choices": [
+   "$x = -2$ (double root)",
+   "$x = 2$ (double root)",
+   "$x = -1$ or $x = -4$",
+   "$x = 1$ or $x = 4$",
+   "no real solutions"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-368",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $3 - 2x < 11$.",
+  "choices": [
+   "$x > -4$",
+   "$x < -4$",
+   "$x > 4$",
+   "$x < 4$",
+   "$x > -2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-369",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^{x+2} = 64$, what is $x$?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-370",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following values satisfy $|x + 2| = 5$?",
+  "choices": [
+   "$x = 3$",
+   "$x = -7$",
+   "$x = 5$",
+   "$x = -3$",
+   "$x = 7$"
+  ],
+  "answer": [0, 1]
+ },
+ {
+  "id": "q-alg-371",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Solve for $x$: $2(x - 1) + 3(x + 1) = 4(x + 2)$.",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-372",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $x^2 + x - 12 = 0$ and $x > 0$, what is $x$?",
+  "answer": 3
+ },
+ {
+  "id": "q-alg-373",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of integer solutions to $-x + 5 \\geq 3$",
+  "quantityB": "Number of integer solutions to $2x - 1 \\leq 9$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-374",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a^{5} \\div a^{2} = a^{x}$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$5$",
+   "$7$",
+   "$10$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-375",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $|x + 4| \\geq 6$.",
+  "choices": [
+   "$x \\geq -10$ and $x \\leq 2$",
+   "$x \\leq -10$ or $x \\geq 2$",
+   "$-10 \\leq x \\leq 2$",
+   "$-2 \\leq x \\leq 10$",
+   "$x = -10$ or $x = 2$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-376",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\dfrac{a + b}{a - b} = \\dfrac{3}{2}$, what is $\\dfrac{a}{b}$?",
+  "choices": [
+   "$\\dfrac{5}{1}$",
+   "$\\dfrac{3}{2}$",
+   "$\\dfrac{1}{5}$",
+   "$\\dfrac{2}{3}$",
+   "$5$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-377",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following quadratic equations have discriminant $b^2 - 4ac = 25$?",
+  "choices": [
+   "$x^2 - 5x + 3 = 0$",
+   "$x^2 + 5x + 3 = 0$",
+   "$x^2 - 3x + 5 = 0$",
+   "$x^2 - 5x - 3 = 0$",
+   "$x^2 + 3x - 5 = 0$"
+  ],
+  "answer": [0, 1]
+ },
+ {
+  "id": "q-alg-378",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $\\dfrac{x - 1}{2} - \\dfrac{x + 3}{4} > 1$.",
+  "choices": [
+   "$x > 5$",
+   "$x < 5$",
+   "$x > -5$",
+   "$x < -5$",
+   "no solution"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-379",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3^{x} = 5^{y}$ and $x = \\log_{3}(5) \\cdot y$, what does this say about $x$?",
+  "choices": [
+   "$x = y$",
+   "$x > y$",
+   "$x < y$",
+   "$x$ and $y$ are unrelated",
+   "$x = 0$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-380",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|8 - 15|$",
+  "quantityB": "$|12 - 9|$",
+  "answer": "A"
+ }
+]

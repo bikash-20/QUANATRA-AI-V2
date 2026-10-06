@@ -1,0 +1,400 @@
+[
+ {
+  "id": "v-1651",
+  "word": "vivid",
+  "tier": 1,
+  "pos": "n",
+  "definition": "producing strong, clear images in the mind",
+  "synonyms": [
+   "intense",
+   "graphic",
+   "lively"
+  ],
+  "antonyms": [
+   "dull"
+  ],
+  "example": "She gave a vivid description."
+ },
+ {
+  "id": "v-1652",
+  "word": "void",
+  "tier": 1,
+  "pos": "n",
+  "definition": "not valid or legally binding; completely empty",
+  "synonyms": [
+   "invalid",
+   "null",
+   "empty"
+  ],
+  "antonyms": [
+   "valid"
+  ],
+  "example": "The contract was void."
+ },
+ {
+  "id": "v-1653",
+  "word": "wander",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to walk or move in a leisurely or aimless way",
+  "synonyms": [
+   "roam",
+   "rove",
+   "drift"
+  ],
+  "antonyms": [
+   "stay"
+  ],
+  "example": "She wandered through the park."
+ },
+ {
+  "id": "v-1654",
+  "word": "wicked",
+  "tier": 1,
+  "pos": "n",
+  "definition": "evil or morally wrong",
+  "synonyms": [
+   "evil",
+   "sinful",
+   "immoral"
+  ],
+  "antonyms": [
+   "virtuous"
+  ],
+  "example": "The wicked witch cackled."
+ },
+ {
+  "id": "v-1655",
+  "word": "wily",
+  "tier": 1,
+  "pos": "n",
+  "definition": "skilled at gaining advantage by deceit or trickery",
+  "synonyms": [
+   "cunning",
+   "sly",
+   "crafty"
+  ],
+  "antonyms": [
+   "honest"
+  ],
+  "example": "The wily fox outsmarted the hunters."
+ },
+ {
+  "id": "v-1656",
+  "word": "wither",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to become dry and shriveled",
+  "synonyms": [
+   "shrivel",
+   "dry up",
+   "fade"
+  ],
+  "antonyms": [
+   "bloom"
+  ],
+  "example": "The flowers withered in the heat."
+ },
+ {
+  "id": "v-1657",
+  "word": "wretched",
+  "tier": 1,
+  "pos": "n",
+  "definition": "in a very unhappy or unfortunate state",
+  "synonyms": [
+   "miserable",
+   "forlorn",
+   "pitiable"
+  ],
+  "antonyms": [
+   "happy"
+  ],
+  "example": "He felt wretched after the loss."
+ },
+ {
+  "id": "v-1658",
+  "word": "abound",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to exist in large numbers or amounts",
+  "synonyms": [
+   "abound",
+   "flourish",
+   "teem"
+  ],
+  "antonyms": [
+   "lack"
+  ],
+  "example": "Fish abound in these waters."
+ },
+ {
+  "id": "v-1659",
+  "word": "anoint",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to smear or rub with oil as part of a religious ceremony",
+  "synonyms": [
+   "consecrate",
+   "bless",
+   "smear"
+  ],
+  "antonyms": [],
+  "example": "The priest anointed the sick man."
+ },
+ {
+  "id": "v-1660",
+  "word": "appall",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to greatly dismay or horrify",
+  "synonyms": [
+   "horrify",
+   "shock",
+   "dismay"
+  ],
+  "antonyms": [
+   "delight"
+  ],
+  "example": "The violence appalled the onlookers."
+ },
+ {
+  "id": "v-1661",
+  "word": "ardent",
+  "tier": 2,
+  "pos": "n",
+  "definition": "showing strong feelings; passionate",
+  "synonyms": [
+   "passionate",
+   "fervent",
+   "enthusiastic"
+  ],
+  "antonyms": [
+   "apathetic"
+  ],
+  "example": "He was an ardent supporter of the cause."
+ },
+ {
+  "id": "v-1662",
+  "word": "assent",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to express agreement or approval",
+  "synonyms": [
+   "agree",
+   "consent",
+   "accede"
+  ],
+  "antonyms": [
+   "dissent"
+  ],
+  "example": "She nodded her assent."
+ },
+ {
+  "id": "v-1663",
+  "word": "assert",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to state a fact or belief confidently",
+  "synonyms": [
+   "declare",
+   "affirm",
+   "maintain"
+  ],
+  "antonyms": [
+   "deny"
+  ],
+  "example": "He asserted his innocence."
+ },
+ {
+  "id": "v-1664",
+  "word": "avail",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to be of use or advantage",
+  "synonyms": [
+   "help",
+   "benefit",
+   "serve"
+  ],
+  "antonyms": [
+   "harm"
+  ],
+  "example": "His effort availed him nothing."
+ },
+ {
+  "id": "v-1665",
+  "word": "avenge",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to inflict harm in return for a wrong",
+  "synonyms": [
+   "revenge",
+   "retaliate",
+   "vindicate"
+  ],
+  "antonyms": [
+   "pardon"
+  ],
+  "example": "He avenged his brother's death."
+ },
+ {
+  "id": "v-1666",
+  "word": "bestow",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to give or confer an honor or gift",
+  "synonyms": [
+   "confer",
+   "grant",
+   "present"
+  ],
+  "antonyms": [
+   "withhold"
+  ],
+  "example": "She bestowed a medal on the hero."
+ },
+ {
+  "id": "v-1667",
+  "word": "betray",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to expose to the enemy by treachery or disloyalty",
+  "synonyms": [
+   "deceive",
+   "double-cross",
+   "sell out"
+  ],
+  "antonyms": [
+   "protect"
+  ],
+  "example": "He betrayed his country."
+ },
+ {
+  "id": "v-1668",
+  "word": "beware",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to be cautious or on guard about something",
+  "synonyms": [
+   "mind",
+   "watch out",
+   "guard"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Beware of the dog."
+ },
+ {
+  "id": "v-1669",
+  "word": "bicker",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to argue about petty matters",
+  "synonyms": [
+   "quarrel",
+   "squabble",
+   "wrangle"
+  ],
+  "antonyms": [
+   "agree"
+  ],
+  "example": "The children bickered constantly."
+ },
+ {
+  "id": "v-1670",
+  "word": "boast",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to talk with excessive pride about oneself",
+  "synonyms": [
+   "brag",
+   "vaunt",
+   "crow"
+  ],
+  "antonyms": [
+   "downplay"
+  ],
+  "example": "He boasted about his victory."
+ },
+ {
+  "id": "v-1671",
+  "word": "bold",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing a willingness to take risks; confident",
+  "synonyms": [
+   "brave",
+   "courageous",
+   "daring"
+  ],
+  "antonyms": [
+   "timid"
+  ],
+  "example": "She made a bold decision."
+ },
+ {
+  "id": "v-1672",
+  "word": "brisk",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "active, fast, and energetic",
+  "synonyms": [
+   "energetic",
+   "lively",
+   "vigorous"
+  ],
+  "antonyms": [
+   "sluggish"
+  ],
+  "example": "They took a brisk walk."
+ },
+ {
+  "id": "v-1673",
+  "word": "calm",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not showing or feeling nervousness or anger",
+  "synonyms": [
+   "tranquil",
+   "serene",
+   "placid"
+  ],
+  "antonyms": [
+   "agitated"
+  ],
+  "example": "She remained calm during the crisis."
+ },
+ {
+  "id": "v-1674",
+  "word": "canny",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having shrewdness and good judgment",
+  "synonyms": [
+   "shrewd",
+   "astute",
+   "clever"
+  ],
+  "antonyms": [
+   "foolish"
+  ],
+  "example": "A canny investor knows when to buy."
+ },
+ {
+  "id": "v-1675",
+  "word": "capable",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "having the ability or quality to do something",
+  "synonyms": [
+   "able",
+   "competent",
+   "skilled"
+  ],
+  "antonyms": [
+   "incapable"
+  ],
+  "example": "She is capable of great work."
+ }
+]

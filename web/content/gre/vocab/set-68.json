@@ -1,0 +1,398 @@
+[
+ {
+  "id": "v-1676",
+  "word": "caprice",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a sudden and unaccountable change of mood or behavior",
+  "synonyms": [
+   "whim",
+   "fancy",
+   "vagary"
+  ],
+  "antonyms": [
+   "consistency"
+  ],
+  "example": "His decisions were driven by caprice."
+ },
+ {
+  "id": "v-1677",
+  "word": "cease",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to come to an end; stop",
+  "synonyms": [
+   "stop",
+   "halt",
+   "desist"
+  ],
+  "antonyms": [
+   "continue"
+  ],
+  "example": "The noise ceased at midnight."
+ },
+ {
+  "id": "v-1678",
+  "word": "chant",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to say or shout repeatedly",
+  "synonyms": [
+   "intone",
+   "sing",
+   "recite"
+  ],
+  "antonyms": [],
+  "example": "The crowd chanted his name."
+ },
+ {
+  "id": "v-1679",
+  "word": "cherish",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to protect and care for lovingly",
+  "synonyms": [
+   "treasure",
+   "nurture",
+   "prize"
+  ],
+  "antonyms": [
+   "neglect"
+  ],
+  "example": "She cherished the old photograph."
+ },
+ {
+  "id": "v-1680",
+  "word": "chide",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to scold or rebuke gently",
+  "synonyms": [
+   "scold",
+   "reprimand",
+   "admonish"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "She chided him for being late."
+ },
+ {
+  "id": "v-1681",
+  "word": "cite",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to quote or refer to as evidence",
+  "synonyms": [
+   "quote",
+   "mention",
+   "reference"
+  ],
+  "antonyms": [],
+  "example": "She cited several studies in her paper."
+ },
+ {
+  "id": "v-1682",
+  "word": "clasp",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to grasp tightly with one's hand",
+  "synonyms": [
+   "grasp",
+   "grip",
+   "clutch"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "She clasped his hand."
+ },
+ {
+  "id": "v-1683",
+  "word": "cleave",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to split or sever along a natural line",
+  "synonyms": [
+   "split",
+   "sever",
+   "divide"
+  ],
+  "antonyms": [
+   "unite"
+  ],
+  "example": "He cleaved the log with an axe."
+ },
+ {
+  "id": "v-1684",
+  "word": "clutch",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to grasp tightly",
+  "synonyms": [
+   "grip",
+   "clasp",
+   "seize"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "She clutched her purse."
+ },
+ {
+  "id": "v-1685",
+  "word": "collude",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to cooperate secretly for deceitful purposes",
+  "synonyms": [
+   "conspire",
+   "connive",
+   "plot"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "They colluded to fix prices."
+ },
+ {
+  "id": "v-1686",
+  "word": "combat",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to fight or struggle against",
+  "synonyms": [
+   "fight",
+   "battle",
+   "contend"
+  ],
+  "antonyms": [
+   "surrender"
+  ],
+  "example": "We must combat the disease."
+ },
+ {
+  "id": "v-1687",
+  "word": "compel",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to force or oblige someone to do something",
+  "synonyms": [
+   "force",
+   "oblige",
+   "coerce"
+  ],
+  "antonyms": [
+   "free"
+  ],
+  "example": "Hunger compelled him to act."
+ },
+ {
+  "id": "v-1688",
+  "word": "conceal",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to keep from sight; hide",
+  "synonyms": [
+   "hide",
+   "mask",
+   "shroud"
+  ],
+  "antonyms": [
+   "reveal"
+  ],
+  "example": "She concealed the letter."
+ },
+ {
+  "id": "v-1689",
+  "word": "condemn",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to express complete disapproval of",
+  "synonyms": [
+   "censure",
+   "denounce",
+   "criticize"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The report condemned the policy."
+ },
+ {
+  "id": "v-1690",
+  "word": "confide",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to tell someone about a secret privately",
+  "synonyms": [
+   "disclose",
+   "reveal",
+   "impart"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "She confided her fears to me."
+ },
+ {
+  "id": "v-1691",
+  "word": "conform",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to comply with rules or standards",
+  "synonyms": [
+   "obey",
+   "comply",
+   "adhere"
+  ],
+  "antonyms": [
+   "deviate"
+  ],
+  "example": "He conforms to the dress code."
+ },
+ {
+  "id": "v-1692",
+  "word": "conspire",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make secret plans to commit a wrongdoing",
+  "synonyms": [
+   "plot",
+   "scheme",
+   "collude"
+  ],
+  "antonyms": [
+   "oppose"
+  ],
+  "example": "They conspired to overthrow the king."
+ },
+ {
+  "id": "v-1693",
+  "word": "contend",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to struggle or compete with another",
+  "synonyms": [
+   "compete",
+   "vie",
+   "fight"
+  ],
+  "antonyms": [
+   "yield"
+  ],
+  "example": "She had to contend with many problems."
+ },
+ {
+  "id": "v-1694",
+  "word": "convict",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to declare someone guilty of a criminal offense",
+  "synonyms": [
+   "condemn",
+   "sentence",
+   "find guilty"
+  ],
+  "antonyms": [
+   "acquit"
+  ],
+  "example": "The jury convicted him of theft."
+ },
+ {
+  "id": "v-1695",
+  "word": "cower",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to crouch down in fear",
+  "synonyms": [
+   "cringe",
+   "flinch",
+   "shrink"
+  ],
+  "antonyms": [
+   "bold"
+  ],
+  "example": "The dog cowered at the loud noise."
+ },
+ {
+  "id": "v-1696",
+  "word": "cradle",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to hold gently and protectively",
+  "synonyms": [
+   "hold",
+   "cuddle",
+   "nurse"
+  ],
+  "antonyms": [
+   "abandon"
+  ],
+  "example": "She cradled the baby in her arms."
+ },
+ {
+  "id": "v-1697",
+  "word": "crave",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to feel a powerful desire for something",
+  "synonyms": [
+   "desire",
+   "long for",
+   "yearn"
+  ],
+  "antonyms": [
+   "despise"
+  ],
+  "example": "She craved a slice of cake."
+ },
+ {
+  "id": "v-1698",
+  "word": "crook",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a person who is dishonest or a criminal",
+  "synonyms": [
+   "thief",
+   "criminal",
+   "rogue"
+  ],
+  "antonyms": [
+   "paragon"
+  ],
+  "example": "The crook stole the money."
+ },
+ {
+  "id": "v-1699",
+  "word": "crux",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "the most important point or issue",
+  "synonyms": [
+   "core",
+   "essence",
+   "heart"
+  ],
+  "antonyms": [
+   "triviality"
+  ],
+  "example": "That's the crux of the matter."
+ },
+ {
+  "id": "v-1700",
+  "word": "curse",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to invoke harm or evil upon",
+  "synonyms": [
+   "damn",
+   "execrate",
+   "imprecate"
+  ],
+  "antonyms": [
+   "bless"
+  ],
+  "example": "He cursed his bad luck."
+ }
+]

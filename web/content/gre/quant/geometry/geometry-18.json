@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-geo-366",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the diameter of a circle with radius $9$?",
+  "choices": [
+   "$9$",
+   "$18$",
+   "$27$",
+   "$36$",
+   "$81$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-367",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the sum of the angles in a triangle?",
+  "choices": [
+   "$90^\\circ$",
+   "$120^\\circ$",
+   "$180^\\circ$",
+   "$270^\\circ$",
+   "$360^\\circ$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-368",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $11$?",
+  "choices": [
+   "$22$",
+   "$44$",
+   "$121$",
+   "$144$",
+   "$242$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-369",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(0, 0)$ and $(5, 10)$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$5$",
+   "$10$",
+   "$50$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-370",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle has circumference $44$. What is its diameter? Use $\\pi \\approx \\dfrac{22}{7}$.",
+  "choices": [
+   "$7$",
+   "$14$",
+   "$21$",
+   "$28$",
+   "$44$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-371",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In an isosceles triangle, the two equal angles are each $70^\\circ$. What is the third angle?",
+  "choices": [
+   "$40^\\circ$",
+   "$50^\\circ$",
+   "$60^\\circ$",
+   "$70^\\circ$",
+   "$80^\\circ$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-372",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The radius of a circle is $r$. What is its area in terms of $r$?",
+  "choices": [
+   "$\\pi r$",
+   "$2\\pi r$",
+   "$\\pi r^{2}$",
+   "$2\\pi r^{2}$",
+   "$\\dfrac{4}{3}\\pi r^{3}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-373",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Find the midpoint of the segment joining $(2, 4)$ and $(6, 8)$.",
+  "choices": [
+   "$(4, 6)$",
+   "$(4, 12)$",
+   "$(8, 12)$",
+   "$(2, 4)$",
+   "$(6, 8)$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-374",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with circumference $22\\pi$?",
+  "choices": [
+   "$5$",
+   "$7$",
+   "$11$",
+   "$22$",
+   "$44$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-375",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are special types of triangles?",
+  "choices": [
+   "Equilateral",
+   "Isosceles",
+   "Right",
+   "Scalene",
+   "Obtuse"
+  ],
+  "answer": [0, 1, 2, 3, 4]
+ },
+ {
+  "id": "q-geo-376",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the area of a circle with radius $3$. Use $\\pi \\approx 3.14$.",
+  "answer": 28.26
+ },
+ {
+  "id": "q-geo-377",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the distance between $(1, 1)$ and $(4, 5)$.",
+  "answer": 5
+ },
+ {
+  "id": "q-geo-378",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with radius $3$",
+  "quantityB": "Area of a circle with radius $4$",
+  "answer": "B"
+ },
+ {
+  "id": "q-geo-379",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has legs $a$ and $b$. What is the hypotenuse?",
+  "choices": [
+   "$\\sqrt{a + b}$",
+   "$\\sqrt{a^{2} + b^{2}}$",
+   "$\\sqrt{a^{2} - b^{2}}$",
+   "$a + b$",
+   "$a \\cdot b$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-380",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a rhombus with diagonals $8$ and $10$?",
+  "choices": [
+   "$40$",
+   "$80$",
+   "$18$",
+   "$60$",
+   "$100$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-381",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a chord of length $8$ is $3$ units from the center of a circle, what is the radius?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-382",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The area of a triangle is $36$ and its base is $9$. What is its height?",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$8$",
+   "$12$",
+   "$18$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-383",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a regular hexagon with side length $4$?",
+  "choices": [
+   "$12$",
+   "$24$",
+   "$24\\sqrt{3}$",
+   "$48$",
+   "$48\\sqrt{3}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-384",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following equations represent a line?",
+  "choices": [
+   "$y = 3x + 2$",
+   "$y = x^{2} + 1$",
+   "$2x + 3y = 6$",
+   "$y = 5$",
+   "$x = y^{2}$"
+  ],
+  "answer": [0, 2, 3]
+ },
+ {
+  "id": "q-geo-385",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with circumference $2\\pi$",
+  "quantityB": "Area of a circle with circumference $4\\pi$",
+  "answer": "B"
+ }
+]

@@ -1,0 +1,398 @@
+[
+ {
+  "id": "v-1951",
+  "word": "steer",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to guide the course of something",
+  "synonyms": [
+   "guide",
+   "direct",
+   "pilot"
+  ],
+  "antonyms": [
+   "drift"
+  ],
+  "example": "She steered the ship into port."
+ },
+ {
+  "id": "v-1952",
+  "word": "stem",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to originate from or arise from",
+  "synonyms": [
+   "originate",
+   "arise",
+   "spring"
+  ],
+  "antonyms": [
+   "result"
+  ],
+  "example": "His illness stems from stress."
+ },
+ {
+  "id": "v-1953",
+  "word": "stifle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to prevent or constrain an activity or idea",
+  "synonyms": [
+   "suppress",
+   "smother",
+   "muffle"
+  ],
+  "antonyms": [
+   "encourage"
+  ],
+  "example": "He stifled a laugh."
+ },
+ {
+  "id": "v-1954",
+  "word": "stipulate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to demand or require a term in an agreement",
+  "synonyms": [
+   "specify",
+   "require",
+   "demand"
+  ],
+  "antonyms": [],
+  "example": "The contract stipulates monthly payments."
+ },
+ {
+  "id": "v-1955",
+  "word": "stray",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to move away from the main group or proper place",
+  "synonyms": [
+   "wander",
+   "roam",
+   "deviate"
+  ],
+  "antonyms": [
+   "stay"
+  ],
+  "example": "The dog strayed from home."
+ },
+ {
+  "id": "v-1956",
+  "word": "stride",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to walk with long, decisive steps",
+  "synonyms": [
+   "march",
+   "stalk",
+   "tread"
+  ],
+  "antonyms": [
+   "shuffle"
+  ],
+  "example": "He would stride into the room."
+ },
+ {
+  "id": "v-1957",
+  "word": "strive",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make great efforts to achieve or obtain something",
+  "synonyms": [
+   "endeavor",
+   "struggle",
+   "try"
+  ],
+  "antonyms": [
+   "give up"
+  ],
+  "example": "She must strive to succeed."
+ },
+ {
+  "id": "v-1958",
+  "word": "subdue",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to overcome, quieten, or bring under control",
+  "synonyms": [
+   "conquer",
+   "subjugate",
+   "overpower"
+  ],
+  "antonyms": [
+   "incite"
+  ],
+  "example": "Troops subdued the rebels."
+ },
+ {
+  "id": "v-1959",
+  "word": "submit",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to accept or yield to a superior force or stronger person",
+  "synonyms": [
+   "yield",
+   "defer",
+   "surrender"
+  ],
+  "antonyms": [
+   "resist"
+  ],
+  "example": "He refused to submit."
+ },
+ {
+  "id": "v-1960",
+  "word": "suborn",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to bribe or induce someone to commit an unlawful act",
+  "synonyms": [
+   "bribe",
+   "corrupt",
+   "induce"
+  ],
+  "antonyms": [],
+  "example": "He suborned a witness."
+ },
+ {
+  "id": "v-1961",
+  "word": "subsist",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to maintain or support oneself, especially at a minimal level",
+  "synonyms": [
+   "survive",
+   "live",
+   "exist"
+  ],
+  "antonyms": [
+   "flourish"
+  ],
+  "example": "She subsisted on a small income."
+ },
+ {
+  "id": "v-1962",
+  "word": "subvert",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to undermine the power and authority of an established system",
+  "synonyms": [
+   "undermine",
+   "sabotage",
+   "overthrow"
+  ],
+  "antonyms": [
+   "support"
+  ],
+  "example": "They sought to subvert the government."
+ },
+ {
+  "id": "v-1963",
+  "word": "summon",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to authoritatively call on to be present",
+  "synonyms": [
+   "call",
+   "beckon",
+   "convoke"
+  ],
+  "antonyms": [
+   "dismiss"
+  ],
+  "example": "She summoned the staff."
+ },
+ {
+  "id": "v-1964",
+  "word": "surmount",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to overcome a difficulty or obstacle",
+  "synonyms": [
+   "overcome",
+   "conquer",
+   "vanquish"
+  ],
+  "antonyms": [
+   "succumb"
+  ],
+  "example": "She surmounted every obstacle."
+ },
+ {
+  "id": "v-1965",
+  "word": "surpass",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to exceed; be greater than",
+  "synonyms": [
+   "exceed",
+   "outdo",
+   "outstrip"
+  ],
+  "antonyms": [
+   "fall short"
+  ],
+  "example": "She surpassed her rivals."
+ },
+ {
+  "id": "v-1966",
+  "word": "surrender",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to give up or hand over on demand or under pressure",
+  "synonyms": [
+   "yield",
+   "capitulate",
+   "submit"
+  ],
+  "antonyms": [
+   "resist"
+  ],
+  "example": "They surrendered the fort."
+ },
+ {
+  "id": "v-1967",
+  "word": "survey",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to examine and record the features of an area",
+  "synonyms": [
+   "examine",
+   "inspect",
+   "review"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "She surveyed the landscape."
+ },
+ {
+  "id": "v-1968",
+  "word": "suspect",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to have an idea that something is possible or likely",
+  "synonyms": [
+   "believe",
+   "suppose",
+   "distrust"
+  ],
+  "antonyms": [
+   "trust"
+  ],
+  "example": "I suspect he is lying."
+ },
+ {
+  "id": "v-1969",
+  "word": "sway",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to move or cause to move slowly back and forth",
+  "synonyms": [
+   "rock",
+   "swing",
+   "influence"
+  ],
+  "antonyms": [
+   "stabilize"
+  ],
+  "example": "The trees swayed in the wind."
+ },
+ {
+  "id": "v-1970",
+  "word": "tantalize",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to torment or tease by keeping something desired just out of reach",
+  "synonyms": [
+   "tease",
+   "torment",
+   "bait"
+  ],
+  "antonyms": [
+   "satisfy"
+  ],
+  "example": "The smell tantalized the hungry child."
+ },
+ {
+  "id": "v-1971",
+  "word": "taunt",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to provoke or challenge with mocking remarks",
+  "synonyms": [
+   "mock",
+   "tease",
+   "jeer"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "The bully taunted him."
+ },
+ {
+  "id": "v-1972",
+  "word": "teem",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to be full of or swarming with",
+  "synonyms": [
+   "abound",
+   "swarm",
+   "overflow"
+  ],
+  "antonyms": [
+   "lack"
+  ],
+  "example": "The river teemed with fish."
+ },
+ {
+  "id": "v-1973",
+  "word": "terrify",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to cause extreme fear in",
+  "synonyms": [
+   "frighten",
+   "scare",
+   "horrify"
+  ],
+  "antonyms": [
+   "comfort"
+  ],
+  "example": "The horror film terrified her."
+ },
+ {
+  "id": "v-1974",
+  "word": "thwart",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to prevent from accomplishing a purpose",
+  "synonyms": [
+   "foil",
+   "frustrate",
+   "baffle"
+  ],
+  "antonyms": [
+   "assist"
+  ],
+  "example": "He thwarted the robbery."
+ },
+ {
+  "id": "v-1975",
+  "word": "tire",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to cause to feel in need of rest",
+  "synonyms": [
+   "fatigue",
+   "exhaust",
+   "weary"
+  ],
+  "antonyms": [
+   "energize"
+  ],
+  "example": "The long hike tired her out."
+ }
+]

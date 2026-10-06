@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-geo-406",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with diameter $14$?",
+  "choices": [
+   "$5$",
+   "$7$",
+   "$14$",
+   "$21$",
+   "$28$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-407",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has one acute angle of $35^\\circ$. What is the other acute angle?",
+  "choices": [
+   "$35^\\circ$",
+   "$45^\\circ$",
+   "$55^\\circ$",
+   "$65^\\circ$",
+   "$145^\\circ$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-408",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $13$?",
+  "choices": [
+   "$26$",
+   "$52$",
+   "$144$",
+   "$169$",
+   "$338$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-409",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of a horizontal line?",
+  "choices": [
+   "$0$",
+   "$1$",
+   "undefined",
+   "$\\infty$",
+   "$-\\infty$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-410",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with diameter $20$? Use $\\pi \\approx 3.14$.",
+  "choices": [
+   "$31.4$",
+   "$62.8$",
+   "$100$",
+   "$314$",
+   "$628$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-411",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a $30-60-90$ triangle, the side opposite $30^\\circ$ is $4$. What is the hypotenuse?",
+  "choices": [
+   "$4$",
+   "$4\\sqrt{2}$",
+   "$4\\sqrt{3}$",
+   "$8$",
+   "$8\\sqrt{3}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-412",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The area of a parallelogram is $60$ and its base is $12$. What is its height?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$8$",
+   "$10$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-413",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(3, 4)$ and $(3, 9)$?",
+  "choices": [
+   "$0$",
+   "$\\dfrac{1}{2}$",
+   "$1$",
+   "$5$",
+   "undefined"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-geo-414",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the diameter of a circle with area $64\\pi$?",
+  "choices": [
+   "$4$",
+   "$8$",
+   "$16$",
+   "$32$",
+   "$64$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-415",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following formulas give the area of a triangle?",
+  "choices": [
+   "$\\dfrac{1}{2} \\times \\text{base} \\times \\text{height}$",
+   "$\\sqrt{s(s-a)(s-b)(s-c)}$",
+   "$\\dfrac{1}{2}ab \\sin C$",
+   "$\\pi r^{2}$",
+   "$\\dfrac{1}{2}d_1 d_2$"
+  ],
+  "answer": [0, 1, 2]
+ },
+ {
+  "id": "q-geo-416",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the area of a circle with diameter $6$. Use $\\pi \\approx 3.14$.",
+  "answer": 28.26
+ },
+ {
+  "id": "q-geo-417",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the slope of the line $y = \\dfrac{1}{3}x - 4$.",
+  "answer": 0.3333333333333333
+ },
+ {
+  "id": "q-geo-418",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Diameter of a circle with radius $5$",
+  "quantityB": "Side of a square with perimeter $20$",
+  "answer": "C"
+ },
+ {
+  "id": "q-geo-419",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A right triangle has a hypotenuse of $13$ and one leg of $5$. What is the other leg?",
+  "choices": [
+   "$8$",
+   "$10$",
+   "$12$",
+   "$14$",
+   "$18$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-420",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The area of a triangle is $50$ and its base is $10$. What is its height?",
+  "choices": [
+   "$5$",
+   "$8$",
+   "$10$",
+   "$15$",
+   "$20$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-421",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two circles have radii $3$ and $4$. What is the ratio of their areas?",
+  "choices": [
+   "$3:4$",
+   "$9:16$",
+   "$1:1$",
+   "$4:3$",
+   "$16:9$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-422",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The perimeter of an isosceles triangle is $30$ and the base is $8$. What is the length of each equal side?",
+  "choices": [
+   "$8$",
+   "$11$",
+   "$15$",
+   "$22$",
+   "$30$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-423",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A regular pentagon has side $5$. Approximately what is its area? (Hint: split into $5$ isoceles triangles from center.)",
+  "choices": [
+   "$25$",
+   "$43$",
+   "$75$",
+   "$125$",
+   "$150$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-424",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following pairs of lines are perpendicular?",
+  "choices": [
+   "$y = 2x + 1$ and $y = 2x - 1$",
+   "$y = 2x + 1$ and $y = -\\dfrac{1}{2}x + 3$",
+   "$y = x$ and $y = -x$",
+   "$y = 0$ and $x = 0$",
+   "$y = 5$ and $y = 7$"
+  ],
+  "answer": [1, 2, 3]
+ },
+ {
+  "id": "q-geo-425",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with radius $r$",
+  "quantityB": "Perimeter of an equilateral triangle with side $r$",
+  "answer": "D"
+ }
+]

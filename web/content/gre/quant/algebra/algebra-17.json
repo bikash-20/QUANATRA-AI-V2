@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-alg-321",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $5x - 4 = 16$.",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-322",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $x^2 - 25 = 0$.",
+  "choices": [
+   "$5$",
+   "$\\pm 4$",
+   "$\\pm 5$",
+   "$\\pm 6$",
+   "no solution"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-323",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3x + 5 \\leq 23$, what is the largest integer $x$ that satisfies this?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-324",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $\\dfrac{3^6}{3^2}$.",
+  "choices": [
+   "$3^3$",
+   "$3^4$",
+   "$3^8$",
+   "$9$",
+   "$81$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-325",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $|x| = 4$, what is $x^2$?",
+  "choices": [
+   "$2$",
+   "$4$",
+   "$8$",
+   "$16$",
+   "$32$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-326",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $4(x - 1) - 2(x + 3) = 6$.",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-327",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $2x^2 - 8x + 6 = 0$.",
+  "choices": [
+   "$1$ and $3$",
+   "$2$ and $3$",
+   "$1$ and $6$",
+   "$-1$ and $-3$",
+   "$2$ and $-3$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-328",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $-5x + 10 > 45$.",
+  "choices": [
+   "$x > -7$",
+   "$x < -7$",
+   "$x > 7$",
+   "$x < 11$",
+   "$x > 11$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-329",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5^{2x} = 25^{x+1}$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "any real",
+   "no solution",
+   "$0$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-330",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following values satisfy $|x| < 4$?",
+  "choices": [
+   "$-3$",
+   "$3$",
+   "$0$",
+   "$-4$",
+   "$4$"
+  ],
+  "answer": [0, 1, 2]
+ },
+ {
+  "id": "q-alg-331",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Solve for $x$: $3(x+2) = 2(x+5) + 1$.",
+  "answer": 5
+ },
+ {
+  "id": "q-alg-332",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the larger root of $x^2 - 7x + 12 = 0$.",
+  "answer": 4
+ },
+ {
+  "id": "q-alg-333",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of integer solutions to $2x - 3 \\leq 9$",
+  "quantityB": "Number of integer solutions to $3 - x < 5$",
+  "answer": "A"
+ },
+ {
+  "id": "q-alg-334",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $4^{x+1} = 64$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-335",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $|3x - 6| \\leq 9$.",
+  "choices": [
+   "$-1 \\leq x \\leq 5$",
+   "$x \\leq -1$ or $x \\geq 5$",
+   "$-5 \\leq x \\leq 1$",
+   "$-1 < x < 5$",
+   "$-5 < x < 1$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-336",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\dfrac{x + y}{2} = 7$ and $\\dfrac{2x - y}{3} = 4$, what is $x - y$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-337",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If the product of the roots of $x^2 - bx + 24 = 0$ is $24$ and the sum is $11$, what is the equation?",
+  "choices": [
+   "$x^2 - 11x + 24 = 0$",
+   "$x^2 + 11x + 24 = 0$",
+   "$x^2 - 11x - 24 = 0$",
+   "$x^2 + 24x - 11 = 0$",
+   "$x^2 - 24x + 11 = 0$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-338",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following values of $x$ satisfy $x^2 - 4x - 5 \\leq 0$?",
+  "choices": [
+   "$x = 0$",
+   "$x = 5$",
+   "$x = -1$",
+   "$x = 6$",
+   "$x = 4$"
+  ],
+  "answer": [0, 1, 2, 4]
+ },
+ {
+  "id": "q-alg-339",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a^{2x} \\cdot a^{3} = a^{13}$ and $a \\neq 0, \\pm 1$, what is $x$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-340",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of integer solutions to $|x - 3| \\leq 5$",
+  "quantityB": "$11$",
+  "answer": "C"
+ }
+]

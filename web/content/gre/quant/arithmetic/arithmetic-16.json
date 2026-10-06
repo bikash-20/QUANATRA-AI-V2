@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-ari-326",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $15\\%$ of $260$?",
+  "choices": [
+   "$34$",
+   "$36$",
+   "$38$",
+   "$39$",
+   "$42$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-327",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a class, the ratio of boys to girls is $4:5$. If there are $24$ boys, how many girls are there?",
+  "choices": [
+   "$25$",
+   "$28$",
+   "$30$",
+   "$32$",
+   "$36$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-328",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following numbers are divisible by $4$?",
+  "choices": [
+   "$28$",
+   "$36$",
+   "$52$",
+   "$74$",
+   "$88$"
+  ],
+  "answer": [0, 1, 2, 4]
+ },
+ {
+  "id": "q-ari-329",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $9^3$?",
+  "choices": [
+   "$243$",
+   "$512$",
+   "$625$",
+   "$729$",
+   "$900$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-330",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many prime numbers are between $20$ and $40$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-331",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A number is increased by $25\\%$ to become $240$. What was the original number?",
+  "choices": [
+   "$180$",
+   "$190$",
+   "$192$",
+   "$195$",
+   "$200$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-332",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two numbers are in the ratio $7:11$. If their difference is $48$, what is the larger number?",
+  "choices": [
+   "$96$",
+   "$104$",
+   "$112$",
+   "$120$",
+   "$132$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-ari-333",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many positive factors does $84$ have?",
+  "choices": [
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-334",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Simplify $\\dfrac{2^5 \\cdot 2^3}{2^4}$.",
+  "choices": [
+   "$2^3$",
+   "$2^4$",
+   "$2^5$",
+   "$2^7$",
+   "$2^8$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-335",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the greatest common divisor of $84$ and $120$?",
+  "choices": [
+   "$6$",
+   "$12$",
+   "$18$",
+   "$24$",
+   "$36$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-336",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "What is $20\\%$ of $75$?",
+  "answer": 15
+ },
+ {
+  "id": "q-ari-337",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If the ratio of $x$ to $y$ is $5:8$ and $x = 35$, what is $y$?",
+  "answer": 56
+ },
+ {
+  "id": "q-ari-338",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of even factors of $60$",
+  "quantityB": "Number of odd factors of $60$",
+  "answer": "A"
+ },
+ {
+  "id": "q-ari-339",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5^x \\cdot 5^4 = 5^{12}$, what is $x$?",
+  "choices": [
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-340",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are prime numbers?",
+  "choices": [
+   "$91$",
+   "$97$",
+   "$111$",
+   "$119$",
+   "$127$"
+  ],
+  "answer": [1, 4]
+ },
+ {
+  "id": "q-ari-341",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A store raises a price by $20\\%$ then offers a $20\\%$ discount. Compared to the original price, the final price is what percent?",
+  "choices": [
+   "$96\\%$",
+   "$97\\%$",
+   "$98\\%$",
+   "$99\\%$",
+   "$100\\%$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-342",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The ratio of $a$ to $b$ is $3:5$ and the ratio of $b$ to $c$ is $10:7$. What is the ratio of $a$ to $c$?",
+  "choices": [
+   "$3:7$",
+   "$5:7$",
+   "$6:7$",
+   "$15:14$",
+   "$30:35$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-343",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many integers between $1$ and $1000$ are divisible by both $7$ and $11$?",
+  "choices": [
+   "$10$",
+   "$11$",
+   "$12$",
+   "$13$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-344",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^{a} = 32$ and $b^{3} = 64$, what is $a + b$?",
+  "choices": [
+   "$7$",
+   "$9$",
+   "$10$",
+   "$11$",
+   "$13$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-345",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of primes $\\le 100$",
+  "quantityB": "Number of composites $\\le 50$",
+  "answer": "B"
+ }
+]

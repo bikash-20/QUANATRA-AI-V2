@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-dat-366",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mean of $2, 4, 6, 8, 10$?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-367",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A die is rolled. What is the probability of getting a number greater than $4$?",
+  "choices": [
+   "$\\dfrac{1}{6}$",
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{1}{3}$",
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{2}{3}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-368",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can you choose a president and vice-president from $5$ people?",
+  "choices": [
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$",
+   "$30$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-369",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the median of the following data: $12, 15, 18, 22, 25$?",
+  "choices": [
+   "$12$",
+   "$15$",
+   "$18$",
+   "$22$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-370",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A card is drawn from a standard deck. What is the probability it is a heart?",
+  "choices": [
+   "$\\dfrac{1}{52}$",
+   "$\\dfrac{1}{26}$",
+   "$\\dfrac{1}{13}$",
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{1}{2}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-371",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a data set, the sum of the values is $240$ and there are $12$ values. What is the mean?",
+  "choices": [
+   "$15$",
+   "$18$",
+   "$20$",
+   "$22$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-372",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A bag has $3$ red, $2$ white, $5$ blue marbles. One marble is drawn. What is the probability it is white?",
+  "choices": [
+   "$\\dfrac{1}{10}$",
+   "$\\dfrac{1}{5}$",
+   "$\\dfrac{2}{10}$",
+   "$\\dfrac{3}{10}$",
+   "$\\dfrac{1}{2}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-373",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In how many ways can $5$ people sit in a row?",
+  "choices": [
+   "$25$",
+   "$60$",
+   "$100$",
+   "$120$",
+   "$200$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-374",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The first quartile of a data set is the value below which what percent of the data falls?",
+  "choices": [
+   "$10\\%$",
+   "$25\\%$",
+   "$50\\%$",
+   "$75\\%$",
+   "$90\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-375",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following scenarios involve independent events?",
+  "choices": [
+   "Flipping a coin and rolling a die",
+   "Drawing two cards with replacement",
+   "Drawing two cards without replacement",
+   "Tossing a coin twice",
+   "Two students' heights"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-dat-376",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "The mean of $7$ numbers is $14$. If $6$ of them sum to $84$, what is the seventh number?",
+  "answer": 14
+ },
+ {
+  "id": "q-dat-377",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A bag has $10$ balls numbered $1$ to $10$. If you draw one ball, what is the probability it is divisible by $4$?",
+  "answer": 0.2
+ },
+ {
+  "id": "q-dat-378",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\binom{8}{3}$",
+  "quantityB": "$\\binom{8}{5}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-379",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A data set has variance $9$. What is the standard deviation?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$9$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-380",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the probability of drawing a King or a Queen from a standard deck?",
+  "choices": [
+   "$\\dfrac{1}{13}$",
+   "$\\dfrac{2}{13}$",
+   "$\\dfrac{4}{13}$",
+   "$\\dfrac{8}{13}$",
+   "$\\dfrac{1}{2}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-381",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The mean of $n$ numbers is $\\mu$. If each number is increased by $5$, what is the new mean?",
+  "choices": [
+   "$\\mu$",
+   "$\\mu + 5$",
+   "$\\mu + 5n$",
+   "$\\mu n + 5$",
+   "$5\\mu$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-382",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Three horses race. There is one winner. How many possible outcomes (top three in order) are there?",
+  "choices": [
+   "$3$",
+   "$6$",
+   "$9$",
+   "$27$",
+   "$81$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-383",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many $3$-element subsets of $\\{1, 2, 3, 4, 5, 6, 7\\}$ contain the number $5$?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$10$",
+   "$15$",
+   "$20$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-384",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following statements about the median are true?",
+  "choices": [
+   "It is the middle value of a sorted data set",
+   "It is affected by outliers",
+   "It is unique for a given data set",
+   "Half the data lies above it",
+   "It equals the mean for symmetric data"
+  ],
+  "answer": [0, 3]
+ },
+ {
+  "id": "q-dat-385",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$P(\\text{exactly 1 head in 2 coin flips})$",
+  "quantityB": "$P(\\text{exactly 1 tail in 2 coin flips})$",
+  "answer": "C"
+ }
+]

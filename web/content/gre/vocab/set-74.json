@@ -1,0 +1,400 @@
+[
+ {
+  "id": "v-1826",
+  "word": "irritate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make someone annoyed or angry",
+  "synonyms": [
+   "annoy",
+   "exasperate",
+   "vex"
+  ],
+  "antonyms": [
+   "soothe"
+  ],
+  "example": "His whistling irritated her."
+ },
+ {
+  "id": "v-1827",
+  "word": "lash",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to strike with a whip or similar; to fasten securely",
+  "synonyms": [
+   "whip",
+   "strike",
+   "bind"
+  ],
+  "antonyms": [
+   "loosen"
+  ],
+  "example": "He lashed the horse."
+ },
+ {
+  "id": "v-1828",
+  "word": "latch",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to fasten with a latch; to attach",
+  "synonyms": [
+   "fasten",
+   "secure",
+   "hook"
+  ],
+  "antonyms": [
+   "unlatch"
+  ],
+  "example": "Latch the gate behind you."
+ },
+ {
+  "id": "v-1829",
+  "word": "loiter",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to stand or wait around without purpose",
+  "synonyms": [
+   "linger",
+   "dawdle",
+   "hang around"
+  ],
+  "antonyms": [
+   "hurry"
+  ],
+  "example": "Don't loiter near the school."
+ },
+ {
+  "id": "v-1830",
+  "word": "lurk",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to be or remain hidden so as to wait in ambush",
+  "synonyms": [
+   "skulk",
+   "sneak",
+   "prowl"
+  ],
+  "antonyms": [
+   "emerge"
+  ],
+  "example": "A predator lurked in the shadows."
+ },
+ {
+  "id": "v-1831",
+  "word": "maul",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to attack and injure savagely",
+  "synonyms": [
+   "attack",
+   "tear",
+   "mangle"
+  ],
+  "antonyms": [
+   "caress"
+  ],
+  "example": "The bear mauled the hiker."
+ },
+ {
+  "id": "v-1832",
+  "word": "meddle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to interfere in something that is not one's concern",
+  "synonyms": [
+   "interfere",
+   "tamper",
+   "intrude"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Don't meddle in my affairs."
+ },
+ {
+  "id": "v-1833",
+  "word": "mediate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to intervene in a dispute to bring about agreement",
+  "synonyms": [
+   "arbitrate",
+   "intervene",
+   "reconcile"
+  ],
+  "antonyms": [
+   "aggravate"
+  ],
+  "example": "She mediated the labor dispute."
+ },
+ {
+  "id": "v-1834",
+  "word": "menace",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a threatening quality or person",
+  "synonyms": [
+   "threat",
+   "danger",
+   "peril"
+  ],
+  "antonyms": [
+   "asset"
+  ],
+  "example": "He was a menace on the road."
+ },
+ {
+  "id": "v-1835",
+  "word": "merge",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to combine to form a single entity",
+  "synonyms": [
+   "combine",
+   "unite",
+   "blend"
+  ],
+  "antonyms": [
+   "separate"
+  ],
+  "example": "The companies merged last year."
+ },
+ {
+  "id": "v-1836",
+  "word": "mire",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to involve in difficulties",
+  "synonyms": [
+   "entangle",
+   "stuck",
+   "bog down"
+  ],
+  "antonyms": [
+   "free"
+  ],
+  "example": "He was mired in debt."
+ },
+ {
+  "id": "v-1837",
+  "word": "mislead",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to cause to have the wrong idea",
+  "synonyms": [
+   "deceive",
+   "delude",
+   "misinform"
+  ],
+  "antonyms": [
+   "enlighten"
+  ],
+  "example": "His lies misled me."
+ },
+ {
+  "id": "v-1838",
+  "word": "mock",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to tease or laugh at in a scornful or contemptuous manner",
+  "synonyms": [
+   "ridicule",
+   "deride",
+   "taunt"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "They mocked his accent."
+ },
+ {
+  "id": "v-1839",
+  "word": "molest",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to bother or attack someone",
+  "synonyms": [
+   "harass",
+   "bother",
+   "annoy"
+  ],
+  "antonyms": [
+   "comfort"
+  ],
+  "example": "The victim was molested."
+ },
+ {
+  "id": "v-1840",
+  "word": "muster",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to assemble or summon troops or forces",
+  "synonyms": [
+   "assemble",
+   "gather",
+   "rally"
+  ],
+  "antonyms": [
+   "disperse"
+  ],
+  "example": "He mustered the courage to speak."
+ },
+ {
+  "id": "v-1841",
+  "word": "narrate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to give a spoken or written account of",
+  "synonyms": [
+   "tell",
+   "recount",
+   "relate"
+  ],
+  "antonyms": [],
+  "example": "She narrated the story."
+ },
+ {
+  "id": "v-1842",
+  "word": "neglect",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to fail to care for properly",
+  "synonyms": [
+   "ignore",
+   "overlook",
+   "disregard"
+  ],
+  "antonyms": [
+   "cherish"
+  ],
+  "example": "He neglected his duties."
+ },
+ {
+  "id": "v-1843",
+  "word": "obstruct",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to block or get in the way of",
+  "synonyms": [
+   "block",
+   "impede",
+   "hinder"
+  ],
+  "antonyms": [
+   "clear"
+  ],
+  "example": "The barrier obstructed the road."
+ },
+ {
+  "id": "v-1844",
+  "word": "offend",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to cause to feel hurt, anger, or upset",
+  "synonyms": [
+   "affront",
+   "insult",
+   "outrage"
+  ],
+  "antonyms": [
+   "delight"
+  ],
+  "example": "His remarks offended many."
+ },
+ {
+  "id": "v-1845",
+  "word": "oppress",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to keep in subjection and hardship",
+  "synonyms": [
+   "persecute",
+   "tyrannize",
+   "subjugate"
+  ],
+  "antonyms": [
+   "liberate"
+  ],
+  "example": "The dictator oppressed the people."
+ },
+ {
+  "id": "v-1846",
+  "word": "outdo",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to be superior to or defeat in a contest",
+  "synonyms": [
+   "surpass",
+   "exceed",
+   "beat"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "She tried to outdo her brother."
+ },
+ {
+  "id": "v-1847",
+  "word": "outlive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to live longer than another person",
+  "synonyms": [
+   "survive",
+   "outlast",
+   "endure"
+  ],
+  "antonyms": [
+   "predecease"
+  ],
+  "example": "She outlived her husband."
+ },
+ {
+  "id": "v-1848",
+  "word": "outwit",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to deceive or defeat by greater ingenuity",
+  "synonyms": [
+   "trick",
+   "outsmart",
+   "outmaneuver"
+  ],
+  "antonyms": [
+   "lose to"
+  ],
+  "example": "He outwitted the opponent."
+ },
+ {
+  "id": "v-1849",
+  "word": "overdo",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to do something excessively or to excess",
+  "synonyms": [
+   "exaggerate",
+   "overwork",
+   "excess"
+  ],
+  "antonyms": [
+   "underdo"
+  ],
+  "example": "Don't overdo the salt."
+ },
+ {
+  "id": "v-1850",
+  "word": "overtake",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to catch up with and pass while traveling",
+  "synonyms": [
+   "pass",
+   "surpass",
+   "catch up"
+  ],
+  "antonyms": [
+   "lag behind"
+  ],
+  "example": "The car overtook us on the highway."
+ }
+]

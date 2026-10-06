@@ -1,0 +1,400 @@
+[
+ {
+  "id": "v-1751",
+  "word": "errant",
+  "tier": 1,
+  "pos": "n",
+  "definition": "erring or straying from the correct course",
+  "synonyms": [
+   "straying",
+   "wandering",
+   "misguided"
+  ],
+  "antonyms": [
+   "right"
+  ],
+  "example": "An errant knight wandered the land."
+ },
+ {
+  "id": "v-1752",
+  "word": "evade",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to escape or avoid, especially by cleverness or trickery",
+  "synonyms": [
+   "avoid",
+   "elude",
+   "escape"
+  ],
+  "antonyms": [
+   "confront"
+  ],
+  "example": "He evaded the question."
+ },
+ {
+  "id": "v-1753",
+  "word": "evoke",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to bring or recall to the conscious mind",
+  "synonyms": [
+   "summon",
+   "call up",
+   "provoke"
+  ],
+  "antonyms": [
+   "suppress"
+  ],
+  "example": "The music evoked old memories."
+ },
+ {
+  "id": "v-1754",
+  "word": "exact",
+  "tier": 1,
+  "pos": "n",
+  "definition": "demanding and requiring precise accuracy",
+  "synonyms": [
+   "precise",
+   "accurate",
+   "meticulous"
+  ],
+  "antonyms": [
+   "vague"
+  ],
+  "example": "She gave him exact instructions."
+ },
+ {
+  "id": "v-1755",
+  "word": "exert",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to apply or bring to bear a force or quality",
+  "synonyms": [
+   "apply",
+   "use",
+   "exercise"
+  ],
+  "antonyms": [
+   "abstain"
+  ],
+  "example": "He exerted great effort."
+ },
+ {
+  "id": "v-1756",
+  "word": "exile",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to bar from one's native country, typically as a punishment",
+  "synonyms": [
+   "banish",
+   "expel",
+   "deport"
+  ],
+  "antonyms": [
+   "welcome"
+  ],
+  "example": "The traitor was exiled."
+ },
+ {
+  "id": "v-1757",
+  "word": "exist",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to have objective reality or being",
+  "synonyms": [
+   "live",
+   "be",
+   "subsist"
+  ],
+  "antonyms": [
+   "cease"
+  ],
+  "example": "Do ghosts exist?"
+ },
+ {
+  "id": "v-1758",
+  "word": "expel",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to force or drive out",
+  "synonyms": [
+   "eject",
+   "evict",
+   "oust"
+  ],
+  "antonyms": [
+   "admit"
+  ],
+  "example": "He was expelled from school."
+ },
+ {
+  "id": "v-1759",
+  "word": "expire",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to come to the end of a period of validity",
+  "synonyms": [
+   "end",
+   "lapse",
+   "terminate"
+  ],
+  "antonyms": [
+   "begin"
+  ],
+  "example": "My contract expires next month."
+ },
+ {
+  "id": "v-1760",
+  "word": "expound",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to present and explain a theory or idea in detail",
+  "synonyms": [
+   "explain",
+   "elaborate",
+   "set forth"
+  ],
+  "antonyms": [
+   "muddle"
+  ],
+  "example": "He expounded his theory for an hour."
+ },
+ {
+  "id": "v-1761",
+  "word": "expunge",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to erase or remove completely",
+  "synonyms": [
+   "erase",
+   "delete",
+   "obliterate"
+  ],
+  "antonyms": [
+   "add"
+  ],
+  "example": "He tried to expunge the record."
+ },
+ {
+  "id": "v-1762",
+  "word": "extract",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to remove or take out, especially by effort",
+  "synonyms": [
+   "remove",
+   "draw out",
+   "pull out"
+  ],
+  "antonyms": [
+   "insert"
+  ],
+  "example": "She extracted the tooth."
+ },
+ {
+  "id": "v-1763",
+  "word": "extricate",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to free someone or something from a constraint or difficulty",
+  "synonyms": [
+   "free",
+   "liberate",
+   "disentangle"
+  ],
+  "antonyms": [
+   "entangle"
+  ],
+  "example": "He extricated himself from the contract."
+ },
+ {
+  "id": "v-1764",
+  "word": "facile",
+  "tier": 2,
+  "pos": "v",
+  "definition": "appearing neat and easy but lacking depth or sincerity",
+  "synonyms": [
+   "superficial",
+   "glib",
+   "shallow"
+  ],
+  "antonyms": [
+   "profound"
+  ],
+  "example": "His facile answers didn't convince anyone."
+ },
+ {
+  "id": "v-1765",
+  "word": "falter",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to start to lose strength or momentum",
+  "synonyms": [
+   "waver",
+   "hesitate",
+   "stumble"
+  ],
+  "antonyms": [
+   "persist"
+  ],
+  "example": "Her voice began to falter."
+ },
+ {
+  "id": "v-1766",
+  "word": "fancy",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to feel a desire or liking for",
+  "synonyms": [
+   "desire",
+   "like",
+   "want"
+  ],
+  "antonyms": [
+   "dislike"
+  ],
+  "example": "Do you fancy a walk?"
+ },
+ {
+  "id": "v-1767",
+  "word": "fathom",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to understand or comprehend after much thought",
+  "synonyms": [
+   "understand",
+   "comprehend",
+   "grasp"
+  ],
+  "antonyms": [
+   "misunderstand"
+  ],
+  "example": "I can't fathom his motives."
+ },
+ {
+  "id": "v-1768",
+  "word": "fester",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to become worse or more intense, typically through neglect",
+  "synonyms": [
+   "rot",
+   "rankle",
+   "suppurate"
+  ],
+  "antonyms": [
+   "heal"
+  ],
+  "example": "The wound festered without care."
+ },
+ {
+  "id": "v-1769",
+  "word": "feign",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to pretend to be affected by a feeling",
+  "synonyms": [
+   "pretend",
+   "simulate",
+   "fake"
+  ],
+  "antonyms": [
+   "be genuine"
+  ],
+  "example": "She feigned surprise."
+ },
+ {
+  "id": "v-1770",
+  "word": "fervent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having or displaying a passionate intensity",
+  "synonyms": [
+   "passionate",
+   "ardent",
+   "intense"
+  ],
+  "antonyms": [
+   "apathetic"
+  ],
+  "example": "She is a fervent supporter."
+ },
+ {
+  "id": "v-1771",
+  "word": "flail",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to wave or swing wildly",
+  "synonyms": [
+   "flounder",
+   "struggle",
+   "thrash"
+  ],
+  "antonyms": [],
+  "example": "He flailed his arms in panic."
+ },
+ {
+  "id": "v-1772",
+  "word": "flair",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a special or distinctive quality or talent",
+  "synonyms": [
+   "talent",
+   "gift",
+   "style"
+  ],
+  "antonyms": [
+   "inability"
+  ],
+  "example": "She has a flair for design."
+ },
+ {
+  "id": "v-1773",
+  "word": "flatter",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to lavish praise or compliments on, often insincerely",
+  "synonyms": [
+   "praise",
+   "compliment",
+   "wheedle"
+  ],
+  "antonyms": [
+   "criticize"
+  ],
+  "example": "He flattered her with compliments."
+ },
+ {
+  "id": "v-1774",
+  "word": "flaunt",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to display ostentatiously",
+  "synonyms": [
+   "show off",
+   "display",
+   "parade"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "He flaunted his wealth."
+ },
+ {
+  "id": "v-1775",
+  "word": "flee",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to run away from a place or situation",
+  "synonyms": [
+   "run",
+   "escape",
+   "bolt"
+  ],
+  "antonyms": [
+   "stay"
+  ],
+  "example": "They would flee the burning building."
+ }
+]

@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-dat-406",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the median of $1, 3, 5, 7, 9$?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$5$",
+   "$7$",
+   "$9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-407",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A die is rolled. What is the probability of getting $6$?",
+  "choices": [
+   "$\\dfrac{1}{36}$",
+   "$\\dfrac{1}{6}$",
+   "$\\dfrac{1}{3}$",
+   "$\\dfrac{1}{2}$",
+   "$1$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-408",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can you choose $3$ fruits from a basket of $5$ fruits?",
+  "choices": [
+   "$5$",
+   "$8$",
+   "$10$",
+   "$15$",
+   "$20$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-409",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mode of $1, 2, 3, 3, 4, 5, 5, 5, 6$?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-410",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many possible outcomes are there when $2$ dice are rolled?",
+  "choices": [
+   "$6$",
+   "$12$",
+   "$24$",
+   "$36$",
+   "$72$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-411",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a histogram, the highest bar represents the:",
+  "choices": [
+   "Mean",
+   "Median",
+   "Mode",
+   "Range",
+   "Variance"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-412",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A bag has $5$ white and $5$ black marbles. If $2$ marbles are drawn with replacement, what is the probability both are white?",
+  "choices": [
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{9}{100}$",
+   "$\\dfrac{2}{9}$",
+   "$\\dfrac{5}{9}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-413",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many $3$-letter words can be formed from the word $\\text{BOOK}$ (letters can repeat)?",
+  "choices": [
+   "$12$",
+   "$24$",
+   "$27$",
+   "$64$",
+   "$81$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-414",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For data $3, 7, 8, 5, 12, 14, 21, 13$, the $25$th percentile (Q1) is closest to:",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-415",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following have probability $\\dfrac{1}{3}$?",
+  "choices": [
+   "Rolling a multiple of $2$ on a die",
+   "Picking a vowel from $\\{a, b, c, d, e, f\\}$",
+   "Picking a prime from $\\{2, 3, 4, 5, 6, 7\\}$",
+   "Drawing a red card from a deck",
+   "Getting heads in a fair coin flip"
+  ],
+  "answer": [1, 2]
+ },
+ {
+  "id": "q-dat-416",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A class of $20$ students has a mean score of $75$. What is the total of their scores?",
+  "answer": 1500
+ },
+ {
+  "id": "q-dat-417",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $P(A) = 0.7$, what is $P(\\text{not } A)$?",
+  "answer": 0.3
+ },
+ {
+  "id": "q-dat-418",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\binom{12}{4}$",
+  "quantityB": "$\\binom{12}{8}$",
+  "answer": "C"
+ },
+ {
+  "id": "q-dat-419",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What type of graph best shows how a variable changes over time?",
+  "choices": [
+   "Bar chart",
+   "Pie chart",
+   "Line graph",
+   "Histogram",
+   "Box plot"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-420",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $P(A \\cup B) = 0.7$ and $A$, $B$ are mutually exclusive with $P(A) = 0.3$, what is $P(B)$?",
+  "choices": [
+   "$0.1$",
+   "$0.3$",
+   "$0.4$",
+   "$0.5$",
+   "$0.7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-421",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a class, students' test scores have mean $72$ and standard deviation $8$. If the distribution is normal, approximately what percent score between $64$ and $80$?",
+  "choices": [
+   "$50\\%$",
+   "$68\\%$",
+   "$95\\%$",
+   "$99.7\\%$",
+   "$75\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-422",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the probability of getting a flush (all same suit) in $5$ cards from a standard deck?",
+  "choices": [
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{4}{2598960}$",
+   "$\\dfrac{5148}{2598960}$",
+   "$\\dfrac{1}{649740}$",
+   "$\\dfrac{1}{50000}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-423",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can the letters of $\\text{MATHEMATICS}$ be arranged?",
+  "choices": [
+   "$11!$",
+   "$\\dfrac{11!}{2! \\cdot 2! \\cdot 2!}$",
+   "$\\dfrac{11!}{2! \\cdot 3!}$",
+   "$\\dfrac{11!}{2 \\cdot 2}$",
+   "$\\dfrac{11!}{2! \\cdot 2! \\cdot 2! \\cdot 1!}$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-424",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are measures of central tendency?",
+  "choices": [
+   "Mean",
+   "Median",
+   "Mode",
+   "Range",
+   "Variance"
+  ],
+  "answer": [0, 1, 2]
+ },
+ {
+  "id": "q-dat-425",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$P(\\text{at least 2 heads in 3 fair coin flips})$",
+  "quantityB": "$P(\\text{at most 1 head in 3 fair coin flips})$",
+  "answer": "C"
+ }
+]

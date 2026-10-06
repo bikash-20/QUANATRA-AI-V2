@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-geo-326",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the circumference of a circle with radius $7$? Use $\\pi \\approx \\dfrac{22}{7}$.",
+  "choices": [
+   "$22$",
+   "$33$",
+   "$44$",
+   "$49$",
+   "$154$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-327",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If two angles of a triangle are $50^\\circ$ and $60^\\circ$, what is the third angle?",
+  "choices": [
+   "$60^\\circ$",
+   "$70^\\circ$",
+   "$80^\\circ$",
+   "$90^\\circ$",
+   "$100^\\circ$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-328",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a rectangle with length $12$ and width $5$?",
+  "choices": [
+   "$30$",
+   "$34$",
+   "$50$",
+   "$60$",
+   "$120$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-329",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line through $(1, 2)$ and $(4, 8)$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-330",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a circle with radius $7$? Use $\\pi \\approx \\dfrac{22}{7}$.",
+  "choices": [
+   "$22$",
+   "$44$",
+   "$49$",
+   "$77$",
+   "$154$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-geo-331",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a right triangle, the legs are $6$ and $8$. What is the hypotenuse?",
+  "choices": [
+   "$10$",
+   "$12$",
+   "$14$",
+   "$16$",
+   "$24$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-332",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a triangle with base $10$ and height $8$?",
+  "choices": [
+   "$18$",
+   "$40$",
+   "$60$",
+   "$80$",
+   "$160$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-333",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the distance between points $(0, 0)$ and $(3, 4)$?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-334",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If the diameter of a circle is $14$, what is the area? Use $\\pi \\approx \\dfrac{22}{7}$.",
+  "choices": [
+   "$22$",
+   "$44$",
+   "$77$",
+   "$154$",
+   "$308$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-335",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are valid triples for the sides of a right triangle?",
+  "choices": [
+   "$(3, 4, 5)$",
+   "$(5, 12, 13)$",
+   "$(6, 7, 8)$",
+   "$(8, 15, 17)$",
+   "$(7, 9, 10)$"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-geo-336",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the area of a circle with radius $5$. Use $\\pi \\approx 3.14$.",
+  "answer": 78.5
+ },
+ {
+  "id": "q-geo-337",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the slope of the line through $(2, 3)$ and $(6, 11)$.",
+  "answer": 2
+ },
+ {
+  "id": "q-geo-338",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with radius $4$",
+  "quantityB": "Area of a circle with diameter $10$",
+  "answer": "A"
+ },
+ {
+  "id": "q-geo-339",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An equilateral triangle has a side of $6$. What is its perimeter?",
+  "choices": [
+   "$12$",
+   "$15$",
+   "$18$",
+   "$24$",
+   "$36$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-340",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A square has a diagonal of $10\\sqrt{2}$. What is its area?",
+  "choices": [
+   "$50$",
+   "$100$",
+   "$200$",
+   "$300$",
+   "$400$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-341",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a circle has area $49\\pi$, what is its circumference?",
+  "choices": [
+   "$7\\pi$",
+   "$14\\pi$",
+   "$21\\pi$",
+   "$28\\pi$",
+   "$49\\pi$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-342",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a triangle, two sides are $5$ and $8$. Which of the following is a possible length of the third side?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$10$",
+   "$14$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-343",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A circle is inscribed in a square of side $8$. What is the area of the circle? Use $\\pi \\approx 3.14$.",
+  "choices": [
+   "$12.56$",
+   "$25.12$",
+   "$50.24$",
+   "$100.48$",
+   "$200.96$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-344",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following points lie on the line $y = 2x - 1$?",
+  "choices": [
+   "$(0, -1)$",
+   "$(1, 1)$",
+   "$(2, 3)$",
+   "$(3, 6)$",
+   "$(4, 7)$"
+  ],
+  "answer": [0, 1, 2, 4]
+ },
+ {
+  "id": "q-geo-345",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with radius $r$",
+  "quantityB": "Perimeter of a square with side $r$",
+  "answer": "D"
+ }
+]

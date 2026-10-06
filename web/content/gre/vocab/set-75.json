@@ -1,0 +1,394 @@
+[
+ {
+  "id": "v-1851",
+  "word": "overturn",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to tip over or upset",
+  "synonyms": [
+   "upend",
+   "reverse",
+   "topple"
+  ],
+  "antonyms": [
+   "uphold"
+  ],
+  "example": "The car overturned in the ditch."
+ },
+ {
+  "id": "v-1852",
+  "word": "parry",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to ward off or deflect a blow or attack",
+  "synonyms": [
+   "block",
+   "deflect",
+   "fend off"
+  ],
+  "antonyms": [
+   "yield"
+  ],
+  "example": "He parried the thrust."
+ },
+ {
+  "id": "v-1853",
+  "word": "partake",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to join in or take part in an activity",
+  "synonyms": [
+   "participate",
+   "share",
+   "join"
+  ],
+  "antonyms": [
+   "abstain"
+  ],
+  "example": "They partook of the feast."
+ },
+ {
+  "id": "v-1854",
+  "word": "perish",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to die, especially in a violent or sudden way",
+  "synonyms": [
+   "die",
+   "expire",
+   "succumb"
+  ],
+  "antonyms": [
+   "survive"
+  ],
+  "example": "Many perished in the fire."
+ },
+ {
+  "id": "v-1855",
+  "word": "petition",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a formal written request to a higher authority",
+  "synonyms": [
+   "appeal",
+   "request",
+   "supplication"
+  ],
+  "antonyms": [
+   "refusal"
+  ],
+  "example": "They petitioned the government."
+ },
+ {
+  "id": "v-1856",
+  "word": "plunder",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to steal goods from a place, typically during war",
+  "synonyms": [
+   "loot",
+   "pillage",
+   "ransack"
+  ],
+  "antonyms": [
+   "return"
+  ],
+  "example": "Pirates plundered the ship."
+ },
+ {
+  "id": "v-1857",
+  "word": "plunge",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to thrust or cast into something; to fall steeply",
+  "synonyms": [
+   "dive",
+   "drop",
+   "descend"
+  ],
+  "antonyms": [
+   "rise"
+  ],
+  "example": "He plunged into the cold water."
+ },
+ {
+  "id": "v-1858",
+  "word": "ponder",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to think about something carefully",
+  "synonyms": [
+   "consider",
+   "reflect",
+   "mull over"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "She pondered the question."
+ },
+ {
+  "id": "v-1859",
+  "word": "portend",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to be a sign or warning that something will happen",
+  "synonyms": [
+   "foretell",
+   "augur",
+   "presage"
+  ],
+  "antonyms": [],
+  "example": "The dark clouds portend a storm."
+ },
+ {
+  "id": "v-1860",
+  "word": "possess",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to have as property; to own",
+  "synonyms": [
+   "own",
+   "have",
+   "hold"
+  ],
+  "antonyms": [
+   "lack"
+  ],
+  "example": "He possesses great wealth."
+ },
+ {
+  "id": "v-1861",
+  "word": "premise",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a previous statement from which another is inferred",
+  "synonyms": [
+   "assumption",
+   "proposition",
+   "presupposition"
+  ],
+  "antonyms": [
+   "conclusion"
+  ],
+  "example": "The argument rests on a false premise."
+ },
+ {
+  "id": "v-1862",
+  "word": "prey",
+  "tier": 2,
+  "pos": "n",
+  "definition": "an animal hunted and killed for food",
+  "synonyms": [
+   "quarry",
+   "victim",
+   "target"
+  ],
+  "antonyms": [
+   "predator"
+  ],
+  "example": "Owls prey on mice."
+ },
+ {
+  "id": "v-1863",
+  "word": "probe",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to investigate or examine thoroughly",
+  "synonyms": [
+   "investigate",
+   "examine",
+   "explore"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "The doctor probed the wound."
+ },
+ {
+  "id": "v-1864",
+  "word": "proclaim",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to announce officially or publicly",
+  "synonyms": [
+   "announce",
+   "declare",
+   "herald"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "She proclaimed her candidacy."
+ },
+ {
+  "id": "v-1865",
+  "word": "prod",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to poke or jab with a finger or pointed object",
+  "synonyms": [
+   "poke",
+   "jab",
+   "nudge"
+  ],
+  "antonyms": [],
+  "example": "He prodded her with his elbow."
+ },
+ {
+  "id": "v-1866",
+  "word": "profess",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to claim or state openly, often insincerely",
+  "synonyms": [
+   "claim",
+   "declare",
+   "assert"
+  ],
+  "antonyms": [
+   "deny"
+  ],
+  "example": "He professed his love."
+ },
+ {
+  "id": "v-1867",
+  "word": "proffer",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to offer or hold out for acceptance",
+  "synonyms": [
+   "offer",
+   "tender",
+   "present"
+  ],
+  "antonyms": [
+   "withhold"
+  ],
+  "example": "He proffered his hand."
+ },
+ {
+  "id": "v-1868",
+  "word": "project",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to estimate or forecast on the basis of present trends",
+  "synonyms": [
+   "estimate",
+   "forecast",
+   "predict"
+  ],
+  "antonyms": [],
+  "example": "Analysts project a rise in sales."
+ },
+ {
+  "id": "v-1869",
+  "word": "prompt",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to cause or bring about an action",
+  "synonyms": [
+   "cause",
+   "induce",
+   "trigger"
+  ],
+  "antonyms": [
+   "discourage"
+  ],
+  "example": "The letter prompted a reply."
+ },
+ {
+  "id": "v-1870",
+  "word": "pronounce",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to say or articulate a word",
+  "synonyms": [
+   "say",
+   "articulate",
+   "utter"
+  ],
+  "antonyms": [
+   "mumble"
+  ],
+  "example": "She pronounced the name clearly."
+ },
+ {
+  "id": "v-1871",
+  "word": "prostrate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to lay oneself flat on the ground, especially in submission",
+  "synonyms": [
+   "bow",
+   "kneel",
+   "submit"
+  ],
+  "antonyms": [
+   "rise"
+  ],
+  "example": "He prostrated himself before the king."
+ },
+ {
+  "id": "v-1872",
+  "word": "protect",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to keep safe from harm or injury",
+  "synonyms": [
+   "guard",
+   "shield",
+   "defend"
+  ],
+  "antonyms": [
+   "endanger"
+  ],
+  "example": "She protected her children."
+ },
+ {
+  "id": "v-1873",
+  "word": "protest",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to express an objection or disagreement",
+  "synonyms": [
+   "object",
+   "complain",
+   "demur"
+  ],
+  "antonyms": [
+   "accept"
+  ],
+  "example": "They protested the new law."
+ },
+ {
+  "id": "v-1874",
+  "word": "provoke",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to stimulate or give rise to a reaction",
+  "synonyms": [
+   "incite",
+   "stir",
+   "elicit"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "His remarks provoked laughter."
+ },
+ {
+  "id": "v-1875",
+  "word": "pry",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to inquire too curiously into a person's private affairs",
+  "synonyms": [
+   "snoop",
+   "intrude",
+   "meddle"
+  ],
+  "antonyms": [],
+  "example": "Don't pry into my business."
+ }
+]

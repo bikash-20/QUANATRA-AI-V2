@@ -1,0 +1,398 @@
+[
+ {
+  "id": "v-1976",
+  "word": "tolerate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to allow without opposition or protest",
+  "synonyms": [
+   "endure",
+   "bear",
+   "stand"
+  ],
+  "antonyms": [
+   "resist"
+  ],
+  "example": "I cannot tolerate his rudeness."
+ },
+ {
+  "id": "v-1977",
+  "word": "toss",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to throw carelessly or casually",
+  "synonyms": [
+   "throw",
+   "fling",
+   "hurl"
+  ],
+  "antonyms": [
+   "catch"
+  ],
+  "example": "She tossed the ball to him."
+ },
+ {
+  "id": "v-1978",
+  "word": "transcend",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to be or go beyond the range or limits of",
+  "synonyms": [
+   "surpass",
+   "exceed",
+   "rise above"
+  ],
+  "antonyms": [
+   "fall short"
+  ],
+  "example": "The poem transcends language."
+ },
+ {
+  "id": "v-1979",
+  "word": "tremble",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to shake involuntarily, typically as a result of anxiety or excitement",
+  "synonyms": [
+   "shake",
+   "shiver",
+   "quiver"
+  ],
+  "antonyms": [
+   "steady"
+  ],
+  "example": "His voice trembled with rage."
+ },
+ {
+  "id": "v-1980",
+  "word": "trudge",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to walk slowly and with heavy steps",
+  "synonyms": [
+   "plod",
+   "tramp",
+   "trek"
+  ],
+  "antonyms": [
+   "sprint"
+  ],
+  "example": "They trudged through the snow."
+ },
+ {
+  "id": "v-1981",
+  "word": "truncate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to shorten by cutting off a part",
+  "synonyms": [
+   "shorten",
+   "curtail",
+   "abbreviate"
+  ],
+  "antonyms": [
+   "extend"
+  ],
+  "example": "He truncated his speech."
+ },
+ {
+  "id": "v-1982",
+  "word": "tug",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to pull hard or suddenly",
+  "synonyms": [
+   "pull",
+   "yank",
+   "jerk"
+  ],
+  "antonyms": [
+   "push"
+  ],
+  "example": "He tugged at the rope."
+ },
+ {
+  "id": "v-1983",
+  "word": "tutor",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to teach or coach someone",
+  "synonyms": [
+   "teach",
+   "instruct",
+   "coach"
+  ],
+  "antonyms": [],
+  "example": "She tutored him in math."
+ },
+ {
+  "id": "v-1984",
+  "word": "unify",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to make or become united, uniform, or whole",
+  "synonyms": [
+   "unite",
+   "merge",
+   "combine"
+  ],
+  "antonyms": [
+   "divide"
+  ],
+  "example": "He unified the factions."
+ },
+ {
+  "id": "v-1985",
+  "word": "unnerve",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to make someone lose courage or confidence",
+  "synonyms": [
+   "intimidate",
+   "disconcert",
+   "demoralize"
+  ],
+  "antonyms": [
+   "embolden"
+  ],
+  "example": "His stare unnerved her."
+ },
+ {
+  "id": "v-1986",
+  "word": "unravel",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to undo or untwist; to solve a mystery",
+  "synonyms": [
+   "undo",
+   "solve",
+   "disentangle"
+  ],
+  "antonyms": [
+   "tangle"
+  ],
+  "example": "Detectives unraveled the mystery."
+ },
+ {
+  "id": "v-1987",
+  "word": "unseat",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to remove from a seat or position",
+  "synonyms": [
+   "depose",
+   "dislodge",
+   "oust"
+  ],
+  "antonyms": [
+   "install"
+  ],
+  "example": "The voters unseated the senator."
+ },
+ {
+  "id": "v-1988",
+  "word": "uproot",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to pull something up by the roots; to displace",
+  "synonyms": [
+   "eradicate",
+   "displace",
+   "remove"
+  ],
+  "antonyms": [
+   "plant"
+  ],
+  "example": "The storm uprooted trees."
+ },
+ {
+  "id": "v-1989",
+  "word": "usher",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to show or guide someone somewhere",
+  "synonyms": [
+   "guide",
+   "escort",
+   "lead"
+  ],
+  "antonyms": [
+   "dismiss"
+  ],
+  "example": "She ushered them to their seats."
+ },
+ {
+  "id": "v-1990",
+  "word": "utter",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to make a sound with one's voice; to say",
+  "synonyms": [
+   "say",
+   "speak",
+   "pronounce"
+  ],
+  "antonyms": [
+   "silence"
+  ],
+  "example": "She uttered a cry."
+ },
+ {
+  "id": "v-1991",
+  "word": "vanish",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to disappear suddenly and completely",
+  "synonyms": [
+   "disappear",
+   "evaporate",
+   "fade"
+  ],
+  "antonyms": [
+   "appear"
+  ],
+  "example": "The magician vanished in a puff of smoke."
+ },
+ {
+  "id": "v-1992",
+  "word": "vaunt",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to boast about or praise something excessively",
+  "synonyms": [
+   "boast",
+   "brag",
+   "crow"
+  ],
+  "antonyms": [
+   "downplay"
+  ],
+  "example": "He vaunted his achievements."
+ },
+ {
+  "id": "v-1993",
+  "word": "vent",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to express a strong emotion freely",
+  "synonyms": [
+   "express",
+   "release",
+   "discharge"
+  ],
+  "antonyms": [
+   "suppress"
+  ],
+  "example": "She vented her anger on him."
+ },
+ {
+  "id": "v-1994",
+  "word": "venture",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to undertake a risky or daring journey or course of action",
+  "synonyms": [
+   "dare",
+   "embark",
+   "undertake"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "He ventured into the cave."
+ },
+ {
+  "id": "v-1995",
+  "word": "vex",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make someone feel annoyed or frustrated",
+  "synonyms": [
+   "annoy",
+   "irritate",
+   "provoke"
+  ],
+  "antonyms": [
+   "please"
+  ],
+  "example": "His questions vexed me."
+ },
+ {
+  "id": "v-1996",
+  "word": "vie",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to compete eagerly with someone in order to obtain something",
+  "synonyms": [
+   "compete",
+   "contend",
+   "rival"
+  ],
+  "antonyms": [
+   "yield"
+  ],
+  "example": "The firms vied for the contract."
+ },
+ {
+  "id": "v-1997",
+  "word": "vouch",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to assert or guarantee as being true or accurate",
+  "synonyms": [
+   "attest",
+   "guarantee",
+   "warrant"
+  ],
+  "antonyms": [
+   "disclaim"
+  ],
+  "example": "I can vouch for his honesty."
+ },
+ {
+  "id": "v-1998",
+  "word": "wade",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to walk through water or another liquid",
+  "synonyms": [
+   "trudge",
+   "splash",
+   "ford"
+  ],
+  "antonyms": [],
+  "example": "We waded across the stream."
+ },
+ {
+  "id": "v-1999",
+  "word": "wail",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to cry out loudly in grief or pain",
+  "synonyms": [
+   "howl",
+   "cry",
+   "lament"
+  ],
+  "antonyms": [
+   "laugh"
+  ],
+  "example": "She wailed in sorrow."
+ },
+ {
+  "id": "v-2000",
+  "word": "waive",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to refrain from insisting on or using a right or claim",
+  "synonyms": [
+   "relinquish",
+   "forgo",
+   "abandon"
+  ],
+  "antonyms": [
+   "insist"
+  ],
+  "example": "He waived his right to appeal."
+ }
+]

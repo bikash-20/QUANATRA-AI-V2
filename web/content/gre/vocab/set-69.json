@@ -1,0 +1,398 @@
+[
+ {
+  "id": "v-1701",
+  "word": "dazzle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to impress deeply; to overpower with light",
+  "synonyms": [
+   "impress",
+   "amaze",
+   "astonish"
+  ],
+  "antonyms": [
+   "bore"
+  ],
+  "example": "Her performance dazzled the audience."
+ },
+ {
+  "id": "v-1702",
+  "word": "deceive",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to deliberately cause to believe something untrue",
+  "synonyms": [
+   "mislead",
+   "dupe",
+   "fool"
+  ],
+  "antonyms": [
+   "enlighten"
+  ],
+  "example": "He deceived his friends."
+ },
+ {
+  "id": "v-1703",
+  "word": "decree",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an official order issued by a legal authority",
+  "synonyms": [
+   "order",
+   "edict",
+   "command"
+  ],
+  "antonyms": [
+   "request"
+  ],
+  "example": "The king issued a decree."
+ },
+ {
+  "id": "v-1704",
+  "word": "defy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to openly resist or refuse to obey",
+  "synonyms": [
+   "resist",
+   "oppose",
+   "challenge"
+  ],
+  "antonyms": [
+   "obey"
+  ],
+  "example": "He would defy his parents' wishes."
+ },
+ {
+  "id": "v-1705",
+  "word": "delight",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to please greatly",
+  "synonyms": [
+   "please",
+   "charm",
+   "thrill"
+  ],
+  "antonyms": [
+   "disgust"
+  ],
+  "example": "The gift delighted her."
+ },
+ {
+  "id": "v-1706",
+  "word": "demand",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to ask for something forcefully",
+  "synonyms": [
+   "request",
+   "require",
+   "claim"
+  ],
+  "antonyms": [
+   "supply"
+  ],
+  "example": "She demanded an apology."
+ },
+ {
+  "id": "v-1707",
+  "word": "demise",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person's death; end of something",
+  "synonyms": [
+   "death",
+   "end",
+   "passing"
+  ],
+  "antonyms": [
+   "birth"
+  ],
+  "example": "The king's demise led to war."
+ },
+ {
+  "id": "v-1708",
+  "word": "depict",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to show or represent in a picture or words",
+  "synonyms": [
+   "portray",
+   "represent",
+   "describe"
+  ],
+  "antonyms": [
+   "distort"
+  ],
+  "example": "The painting depicts a battle."
+ },
+ {
+  "id": "v-1709",
+  "word": "deport",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to expel from a country",
+  "synonyms": [
+   "expel",
+   "exile",
+   "banish"
+  ],
+  "antonyms": [
+   "admit"
+  ],
+  "example": "The government deported the illegal immigrants."
+ },
+ {
+  "id": "v-1710",
+  "word": "deprave",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to make morally bad or corrupt",
+  "synonyms": [
+   "corrupt",
+   "debase",
+   "pervert"
+  ],
+  "antonyms": [
+   "improve"
+  ],
+  "example": "Such cruelty depraved him."
+ },
+ {
+  "id": "v-1711",
+  "word": "depute",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to appoint or choose to act on one's behalf",
+  "synonyms": [
+   "appoint",
+   "delegate",
+   "assign"
+  ],
+  "antonyms": [
+   "retain"
+  ],
+  "example": "She deputed her assistant to attend."
+ },
+ {
+  "id": "v-1712",
+  "word": "descend",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to move from a higher to a lower level",
+  "synonyms": [
+   "fall",
+   "drop",
+   "sink"
+  ],
+  "antonyms": [
+   "ascend"
+  ],
+  "example": "The plane began to descend."
+ },
+ {
+  "id": "v-1713",
+  "word": "desire",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to strongly wish for or want something",
+  "synonyms": [
+   "want",
+   "crave",
+   "long for"
+  ],
+  "antonyms": [
+   "despise"
+  ],
+  "example": "He desired a better life."
+ },
+ {
+  "id": "v-1714",
+  "word": "despair",
+  "tier": 2,
+  "pos": "v",
+  "definition": "the complete loss or absence of hope",
+  "synonyms": [
+   "hopelessness",
+   "desperation",
+   "anguish"
+  ],
+  "antonyms": [
+   "hope"
+  ],
+  "example": "He was filled with despair."
+ },
+ {
+  "id": "v-1715",
+  "word": "destine",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to intend or choose for a particular purpose",
+  "synonyms": [
+   "predestine",
+   "intend",
+   "ordain"
+  ],
+  "antonyms": [],
+  "example": "He was destined for greatness."
+ },
+ {
+  "id": "v-1716",
+  "word": "detach",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to separate or remove from something",
+  "synonyms": [
+   "separate",
+   "disconnect",
+   "unfasten"
+  ],
+  "antonyms": [
+   "attach"
+  ],
+  "example": "She detached the trailer."
+ },
+ {
+  "id": "v-1717",
+  "word": "detain",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to keep someone in official custody",
+  "synonyms": [
+   "hold",
+   "confine",
+   "imprison"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "Police detained the suspect."
+ },
+ {
+  "id": "v-1718",
+  "word": "devise",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to plan or invent a clever method or device",
+  "synonyms": [
+   "invent",
+   "design",
+   "conceive"
+  ],
+  "antonyms": [],
+  "example": "He devised a new theory."
+ },
+ {
+  "id": "v-1719",
+  "word": "devour",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to eat hungrily or quickly",
+  "synonyms": [
+   "consume",
+   "gobble",
+   "wolf down"
+  ],
+  "antonyms": [
+   "abstain"
+  ],
+  "example": "The hungry child devoured the food."
+ },
+ {
+  "id": "v-1720",
+  "word": "differ",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to be unlike or dissimilar",
+  "synonyms": [
+   "vary",
+   "diverge",
+   "contrast"
+  ],
+  "antonyms": [
+   "match"
+  ],
+  "example": "Our opinions differ."
+ },
+ {
+  "id": "v-1721",
+  "word": "dilute",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make a liquid weaker by adding water",
+  "synonyms": [
+   "thin",
+   "weaken",
+   "water down"
+  ],
+  "antonyms": [
+   "concentrate"
+  ],
+  "example": "Dilute the juice with water."
+ },
+ {
+  "id": "v-1722",
+  "word": "disable",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make unable to perform a task",
+  "synonyms": [
+   "incapacitate",
+   "impair",
+   "cripple"
+  ],
+  "antonyms": [
+   "enable"
+  ],
+  "example": "The injury disabled him."
+ },
+ {
+  "id": "v-1723",
+  "word": "disavow",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to deny any responsibility for or connection with",
+  "synonyms": [
+   "repudiate",
+   "deny",
+   "reject"
+  ],
+  "antonyms": [
+   "acknowledge"
+  ],
+  "example": "He disavowed any knowledge of the crime."
+ },
+ {
+  "id": "v-1724",
+  "word": "discern",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to perceive or recognize clearly",
+  "synonyms": [
+   "perceive",
+   "detect",
+   "distinguish"
+  ],
+  "antonyms": [
+   "miss"
+  ],
+  "example": "She could discern a faint light."
+ },
+ {
+  "id": "v-1725",
+  "word": "disclaim",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to deny or renounce any claim to or connection with",
+  "synonyms": [
+   "renounce",
+   "reject",
+   "repudiate"
+  ],
+  "antonyms": [
+   "claim"
+  ],
+  "example": "He disclaimed responsibility."
+ }
+]

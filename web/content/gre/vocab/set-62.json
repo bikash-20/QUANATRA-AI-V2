@@ -1,0 +1,396 @@
+[
+ {
+  "id": "v-1526",
+  "word": "hiatus",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a pause or gap in a sequence",
+  "synonyms": [
+   "pause",
+   "break",
+   "intermission"
+  ],
+  "antonyms": [
+   "continuation"
+  ],
+  "example": "After a hiatus, she returned to acting."
+ },
+ {
+  "id": "v-1527",
+  "word": "hinder",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to create difficulties, resulting in delay or obstruction",
+  "synonyms": [
+   "impede",
+   "obstruct",
+   "hamper"
+  ],
+  "antonyms": [
+   "aid"
+  ],
+  "example": "Storm hindered rescue efforts."
+ },
+ {
+  "id": "v-1528",
+  "word": "hoodwink",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to deceive or trick",
+  "synonyms": [
+   "deceive",
+   "dupe",
+   "bamboozle"
+  ],
+  "antonyms": [
+   "enlighten"
+  ],
+  "example": "He was hoodwinked into buying a fake."
+ },
+ {
+  "id": "v-1529",
+  "word": "infamy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the state of being well known for some bad quality",
+  "synonyms": [
+   "notoriety",
+   "disgrace",
+   "ignominy"
+  ],
+  "antonyms": [
+   "honor"
+  ],
+  "example": "He earned infamy for his crimes."
+ },
+ {
+  "id": "v-1530",
+  "word": "insular",
+  "tier": 1,
+  "pos": "n",
+  "definition": "isolated from others; narrow-minded",
+  "synonyms": [
+   "isolated",
+   "parochial",
+   "provincial"
+  ],
+  "antonyms": [
+   "cosmopolitan"
+  ],
+  "example": "Their insular views limited their appeal."
+ },
+ {
+  "id": "v-1531",
+  "word": "liaison",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person who serves as a link or connection",
+  "synonyms": [
+   "link",
+   "connection",
+   "intermediary"
+  ],
+  "antonyms": [
+   "disconnection"
+  ],
+  "example": "She acted as liaison between the groups."
+ },
+ {
+  "id": "v-1532",
+  "word": "lucid",
+  "tier": 1,
+  "pos": "n",
+  "definition": "expressed clearly; easy to understand",
+  "synonyms": [
+   "clear",
+   "intelligible",
+   "perspicuous"
+  ],
+  "antonyms": [
+   "confused"
+  ],
+  "example": "She gave a lucid explanation."
+ },
+ {
+  "id": "v-1533",
+  "word": "maxim",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a short statement expressing a general truth",
+  "synonyms": [
+   "saying",
+   "adage",
+   "aphorism"
+  ],
+  "antonyms": [],
+  "example": "He lived by the maxim 'honesty is best.'"
+ },
+ {
+  "id": "v-1534",
+  "word": "milieu",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a person's social environment",
+  "synonyms": [
+   "environment",
+   "surroundings",
+   "setting"
+  ],
+  "antonyms": [],
+  "example": "He felt out of place in that milieu."
+ },
+ {
+  "id": "v-1535",
+  "word": "munificent",
+  "tier": 2,
+  "pos": "n",
+  "definition": "more generous than is usual or necessary",
+  "synonyms": [
+   "generous",
+   "magnificent",
+   "munificent"
+  ],
+  "antonyms": [
+   "stingy"
+  ],
+  "example": "A munificent donor funded the building."
+ },
+ {
+  "id": "v-1536",
+  "word": "penchant",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a strong or habitual liking for something",
+  "synonyms": [
+   "inclination",
+   "fondness",
+   "predilection"
+  ],
+  "antonyms": [
+   "aversion"
+  ],
+  "example": "He has a penchant for adventure."
+ },
+ {
+  "id": "v-1537",
+  "word": "perennial",
+  "tier": 2,
+  "pos": "n",
+  "definition": "lasting for an indefinitely long time",
+  "synonyms": [
+   "enduring",
+   "perpetual",
+   "everlasting"
+  ],
+  "antonyms": [
+   "temporary"
+  ],
+  "example": "It's a perennial favorite."
+ },
+ {
+  "id": "v-1538",
+  "word": "preamble",
+  "tier": 2,
+  "pos": "v",
+  "definition": "a preliminary statement; introduction",
+  "synonyms": [
+   "introduction",
+   "preface",
+   "prelude"
+  ],
+  "antonyms": [
+   "conclusion"
+  ],
+  "example": "The preamble explained the purpose."
+ },
+ {
+  "id": "v-1539",
+  "word": "preclude",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to prevent from happening; make impossible",
+  "synonyms": [
+   "prevent",
+   "forestall",
+   "rule out"
+  ],
+  "antonyms": [
+   "allow"
+  ],
+  "example": "Bad weather precluded the trip."
+ },
+ {
+  "id": "v-1540",
+  "word": "profuse",
+  "tier": 2,
+  "pos": "v",
+  "definition": "abundant; plentiful",
+  "synonyms": [
+   "abundant",
+   "copious",
+   "lavish"
+  ],
+  "antonyms": [
+   "scarce"
+  ],
+  "example": "She gave profuse thanks."
+ },
+ {
+  "id": "v-1541",
+  "word": "protracted",
+  "tier": 2,
+  "pos": "v",
+  "definition": "lasting for a long time or longer than expected",
+  "synonyms": [
+   "extended",
+   "prolonged",
+   "drawn-out"
+  ],
+  "antonyms": [
+   "brief"
+  ],
+  "example": "The protracted negotiations finally ended."
+ },
+ {
+  "id": "v-1542",
+  "word": "prudent",
+  "tier": 3,
+  "pos": "v",
+  "definition": "acting with care and thought for the future",
+  "synonyms": [
+   "wise",
+   "sensible",
+   "judicious"
+  ],
+  "antonyms": [
+   "reckless"
+  ],
+  "example": "It was prudent to save money."
+ },
+ {
+  "id": "v-1543",
+  "word": "puerile",
+  "tier": 3,
+  "pos": "v",
+  "definition": "childishly silly and trivial",
+  "synonyms": [
+   "juvenile",
+   "childish",
+   "infantile"
+  ],
+  "antonyms": [
+   "mature"
+  ],
+  "example": "His puerile jokes embarrassed everyone."
+ },
+ {
+  "id": "v-1544",
+  "word": "rant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to speak or shout at length in an impassioned way",
+  "synonyms": [
+   "rave",
+   "fulminate",
+   "harangue"
+  ],
+  "antonyms": [
+   "whisper"
+  ],
+  "example": "He ranted about the unfairness."
+ },
+ {
+  "id": "v-1545",
+  "word": "refute",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to prove a statement or theory to be wrong",
+  "synonyms": [
+   "disprove",
+   "rebut",
+   "debunk"
+  ],
+  "antonyms": [
+   "confirm"
+  ],
+  "example": "She refuted his claim."
+ },
+ {
+  "id": "v-1546",
+  "word": "repartee",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "conversation characterized by quick, witty comments",
+  "synonyms": [
+   "banter",
+   "wit",
+   "wordplay"
+  ],
+  "antonyms": [],
+  "example": "Their dinner repartee impressed the guests."
+ },
+ {
+  "id": "v-1547",
+  "word": "restive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "unable to remain still or quiet; restless",
+  "synonyms": [
+   "restless",
+   "fidgety",
+   "uneasy"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The audience grew restive during the long talk."
+ },
+ {
+  "id": "v-1548",
+  "word": "slander",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a false spoken statement damaging to character",
+  "synonyms": [
+   "defamation",
+   "libel",
+   "calumny"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He sued for slander."
+ },
+ {
+  "id": "v-1549",
+  "word": "solvent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "having enough money to pay debts",
+  "synonyms": [
+   "financially stable",
+   "sound",
+   "creditworthy"
+  ],
+  "antonyms": [
+   "bankrupt"
+  ],
+  "example": "The firm remains solvent."
+ },
+ {
+  "id": "v-1550",
+  "word": "sporadic",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "occurring at irregular intervals; scattered",
+  "synonyms": [
+   "occasional",
+   "intermittent",
+   "spasmodic"
+  ],
+  "antonyms": [
+   "regular"
+  ],
+  "example": "Sporadic gunfire continued through the night."
+ }
+]

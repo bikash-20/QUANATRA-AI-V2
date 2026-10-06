@@ -1,0 +1,323 @@
+[
+ {
+  "id": "q-ari-366",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $40\\%$ of $150$?",
+  "choices": [
+   "$50$",
+   "$55$",
+   "$60$",
+   "$65$",
+   "$70$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-367",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If the ratio of boys to girls is $5:3$ and there are $15$ boys, how many girls are there?",
+  "choices": [
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-368",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Which of the following is an odd integer?",
+  "choices": [
+   "$246$",
+   "$358$",
+   "$462$",
+   "$573$",
+   "$688$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-369",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $6^3$?",
+  "choices": [
+   "$126$",
+   "$180$",
+   "$196$",
+   "$216$",
+   "$256$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-370",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many prime numbers are less than $30$?",
+  "choices": [
+   "$8$",
+   "$9$",
+   "$10$",
+   "$11$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-371",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A price increases by $15\\%$ and then decreases by $15\\%$. Compared to the original, the final price is:",
+  "choices": [
+   "lower than the original",
+   "the same as the original",
+   "higher than the original",
+   "exactly half",
+   "exactly double"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-372",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $a:b = 9:4$ and $b = 20$, what is $a$?",
+  "choices": [
+   "$36$",
+   "$40$",
+   "$45$",
+   "$48$",
+   "$50$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-373",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are multiples of $12$?",
+  "choices": [
+   "$36$",
+   "$54$",
+   "$72$",
+   "$96$",
+   "$108$"
+  ],
+  "answer": [0, 2, 3, 4]
+ },
+ {
+  "id": "q-ari-374",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Compute $3^4 \\div 3^2$.",
+  "answer": 9
+ },
+ {
+  "id": "q-ari-375",
+  "topic": "arithmetic",
+  "subtopic": "divisibility",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the least common multiple of $6$ and $8$?",
+  "choices": [
+   "$12$",
+   "$18$",
+   "$24$",
+   "$36$",
+   "$48$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-376",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A $\\$240$ item is discounted by $25\\%$. What is the sale price?",
+  "choices": [
+   "$\\$160$",
+   "$\\$170$",
+   "$\\$180$",
+   "$\\$190$",
+   "$\\$200$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-377",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $5$ machines make $5$ widgets in $5$ minutes, how long does it take $100$ machines to make $100$ widgets?",
+  "choices": [
+   "$1$ minute",
+   "$5$ minutes",
+   "$20$ minutes",
+   "$100$ minutes",
+   "$500$ minutes"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-378",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of integers from $1$ to $100$ divisible by $6$",
+  "quantityB": "Number of integers from $1$ to $100$ divisible by $5$",
+  "answer": "B"
+ },
+ {
+  "id": "q-ari-379",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $7^x = 343$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-ari-380",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the largest prime factor of $143$?",
+  "choices": [
+   "$7$",
+   "$11$",
+   "$13$",
+   "$17$",
+   "$19$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-381",
+  "topic": "arithmetic",
+  "subtopic": "percent",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An investment loses $20\\%$ in year $1$ and gains $25\\%$ in year $2$. Compared to the original value, it is:",
+  "choices": [
+   "exactly equal",
+   "$5\\%$ less",
+   "$5\\%$ more",
+   "$10\\%$ less",
+   "$10\\%$ more"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-ari-382",
+  "topic": "arithmetic",
+  "subtopic": "ratio",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following ratios are equivalent to $3:4$?",
+  "choices": [
+   "$6:8$",
+   "$9:12$",
+   "$12:15$",
+   "$15:20$",
+   "$18:25$"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-ari-383",
+  "topic": "arithmetic",
+  "subtopic": "number-properties",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the smallest positive integer with exactly $8$ positive divisors?",
+  "choices": [
+   "$12$",
+   "$18$",
+   "$20$",
+   "$24$",
+   "$30$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-ari-384",
+  "topic": "arithmetic",
+  "subtopic": "exponents",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many digits are in $2^{10}$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-ari-385",
+  "topic": "arithmetic",
+  "subtopic": "primes",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Number of twin primes $(p, p+2)$ with $p \\le 50$",
+  "quantityB": "$10$",
+  "answer": "A"
+ }
+]

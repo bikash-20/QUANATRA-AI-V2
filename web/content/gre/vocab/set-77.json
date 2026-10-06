@@ -1,0 +1,394 @@
+[
+ {
+  "id": "v-1901",
+  "word": "remit",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to send a payment; to cancel or refrain from inflicting",
+  "synonyms": [
+   "send",
+   "forward",
+   "forgive"
+  ],
+  "antonyms": [
+   "collect"
+  ],
+  "example": "He remitted the fee by mail."
+ },
+ {
+  "id": "v-1902",
+  "word": "rename",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to give a new name to",
+  "synonyms": [
+   "rechristen",
+   "relabel",
+   "retitle"
+  ],
+  "antonyms": [],
+  "example": "They renamed the file."
+ },
+ {
+  "id": "v-1903",
+  "word": "repeal",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to revoke or annul a law or act",
+  "synonyms": [
+   "revoke",
+   "rescind",
+   "cancel"
+  ],
+  "antonyms": [
+   "enact"
+  ],
+  "example": "The legislature repealed the tax."
+ },
+ {
+  "id": "v-1904",
+  "word": "repress",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to restrain or prevent the natural expression of",
+  "synonyms": [
+   "suppress",
+   "subdue",
+   "stifle"
+  ],
+  "antonyms": [
+   "express"
+  ],
+  "example": "She repressed her anger."
+ },
+ {
+  "id": "v-1905",
+  "word": "reprove",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to rebuke or scold someone",
+  "synonyms": [
+   "rebuke",
+   "reprimand",
+   "chide"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He reproved her for lateness."
+ },
+ {
+  "id": "v-1906",
+  "word": "resign",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to voluntarily leave a job or position",
+  "synonyms": [
+   "quit",
+   "abdicate",
+   "step down"
+  ],
+  "antonyms": [
+   "take office"
+  ],
+  "example": "He resigned from the firm."
+ },
+ {
+  "id": "v-1907",
+  "word": "resound",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to fill or echo with a sound",
+  "synonyms": [
+   "echo",
+   "reverberate",
+   "ring"
+  ],
+  "antonyms": [
+   "fade"
+  ],
+  "example": "Cheers resounded through the hall."
+ },
+ {
+  "id": "v-1908",
+  "word": "restrain",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to prevent from doing something; keep under control",
+  "synonyms": [
+   "check",
+   "curb",
+   "hold back"
+  ],
+  "antonyms": [
+   "free"
+  ],
+  "example": "He restrained his anger."
+ },
+ {
+  "id": "v-1909",
+  "word": "retire",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to leave one's job and cease to work",
+  "synonyms": [
+   "quit",
+   "resign",
+   "withdraw"
+  ],
+  "antonyms": [
+   "join"
+  ],
+  "example": "She retired at age sixty."
+ },
+ {
+  "id": "v-1910",
+  "word": "revile",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to criticize in an abusive or angrily contemptuous manner",
+  "synonyms": [
+   "vilify",
+   "denounce",
+   "berate"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "He reviled his enemies."
+ },
+ {
+  "id": "v-1911",
+  "word": "revoke",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to officially cancel a decree, decision, or promise",
+  "synonyms": [
+   "annul",
+   "rescind",
+   "retract"
+  ],
+  "antonyms": [
+   "enact"
+  ],
+  "example": "They revoked his license."
+ },
+ {
+  "id": "v-1912",
+  "word": "reward",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a thing given in recognition of service or effort",
+  "synonyms": [
+   "prize",
+   "compensation",
+   "bounty"
+  ],
+  "antonyms": [
+   "penalty"
+  ],
+  "example": "He got a reward for his honesty."
+ },
+ {
+  "id": "v-1913",
+  "word": "rile",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to make someone annoyed or irritated",
+  "synonyms": [
+   "annoy",
+   "irritate",
+   "vex"
+  ],
+  "antonyms": [
+   "soothe"
+  ],
+  "example": "Don't rile the dog."
+ },
+ {
+  "id": "v-1914",
+  "word": "rouse",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to wake or stir up from sleep or inactivity",
+  "synonyms": [
+   "wake",
+   "stir",
+   "arouse"
+  ],
+  "antonyms": [
+   "lull"
+  ],
+  "example": "The noise roused the baby."
+ },
+ {
+  "id": "v-1915",
+  "word": "rout",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to defeat utterly; cause to retreat in disorder",
+  "synonyms": [
+   "defeat",
+   "crush",
+   "overwhelm"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "The army routed the enemy."
+ },
+ {
+  "id": "v-1916",
+  "word": "rummage",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to search untidily through a collection",
+  "synonyms": [
+   "search",
+   "rifle",
+   "scramble"
+  ],
+  "antonyms": [],
+  "example": "He rummaged through the drawer."
+ },
+ {
+  "id": "v-1917",
+  "word": "sadden",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to cause to feel unhappiness or sorrow",
+  "synonyms": [
+   "grieve",
+   "depress",
+   "dispirit"
+  ],
+  "antonyms": [
+   "cheer"
+  ],
+  "example": "The news saddened her."
+ },
+ {
+  "id": "v-1918",
+  "word": "salute",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to greet with a gesture of respect",
+  "synonyms": [
+   "greet",
+   "acknowledge",
+   "hail"
+  ],
+  "antonyms": [
+   "snub"
+  ],
+  "example": "They saluted the flag."
+ },
+ {
+  "id": "v-1919",
+  "word": "saturate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to soak thoroughly; fill to capacity",
+  "synonyms": [
+   "soak",
+   "drench",
+   "impregnate"
+  ],
+  "antonyms": [
+   "dry"
+  ],
+  "example": "The rain saturated the soil."
+ },
+ {
+  "id": "v-1920",
+  "word": "scavenge",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to search for and collect discarded items",
+  "synonyms": [
+   "scour",
+   "forage",
+   "hunt"
+  ],
+  "antonyms": [],
+  "example": "Raccoons scavenge for food."
+ },
+ {
+  "id": "v-1921",
+  "word": "scold",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to reprimand someone angrily",
+  "synonyms": [
+   "rebuke",
+   "reprimand",
+   "admonish"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "She scolded the children."
+ },
+ {
+  "id": "v-1922",
+  "word": "scour",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to clean or brighten the surface of by rubbing",
+  "synonyms": [
+   "scrub",
+   "clean",
+   "polish"
+  ],
+  "antonyms": [
+   "soil"
+  ],
+  "example": "She scoured the pots."
+ },
+ {
+  "id": "v-1923",
+  "word": "scowl",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to frown angrily",
+  "synonyms": [
+   "glare",
+   "glower",
+   "frown"
+  ],
+  "antonyms": [
+   "smile"
+  ],
+  "example": "He scowled at the report."
+ },
+ {
+  "id": "v-1924",
+  "word": "scrape",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to drag or push a hard object across a surface",
+  "synonyms": [
+   "scratch",
+   "rub",
+   "graze"
+  ],
+  "antonyms": [],
+  "example": "She scraped the paint off."
+ },
+ {
+  "id": "v-1925",
+  "word": "scream",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to cry out loudly on account of fear or pain",
+  "synonyms": [
+   "shriek",
+   "yell",
+   "shout"
+  ],
+  "antonyms": [
+   "whisper"
+  ],
+  "example": "She screamed in pain."
+ }
+]

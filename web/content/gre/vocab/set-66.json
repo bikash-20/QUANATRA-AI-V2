@@ -1,0 +1,396 @@
+[
+ {
+  "id": "v-1626",
+  "word": "surly",
+  "tier": 1,
+  "pos": "n",
+  "definition": "bad-tempered and unfriendly",
+  "synonyms": [
+   "grumpy",
+   "churlish",
+   "curmudgeonly"
+  ],
+  "antonyms": [
+   "amiable"
+  ],
+  "example": "The surly clerk refused to help."
+ },
+ {
+  "id": "v-1627",
+  "word": "swagger",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to walk or behave in a confident, arrogant way",
+  "synonyms": [
+   "strut",
+   "sway",
+   "show off"
+  ],
+  "antonyms": [
+   "shrink"
+  ],
+  "example": "He swaggered into the room."
+ },
+ {
+  "id": "v-1628",
+  "word": "tactful",
+  "tier": 1,
+  "pos": "n",
+  "definition": "having or showing sensitivity in dealing with others",
+  "synonyms": [
+   "diplomatic",
+   "politic",
+   "considerate"
+  ],
+  "antonyms": [
+   "tactless"
+  ],
+  "example": "She was tactful in her criticism."
+ },
+ {
+  "id": "v-1629",
+  "word": "talisman",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an object thought to have magical powers",
+  "synonyms": [
+   "amulet",
+   "charm",
+   "fetish"
+  ],
+  "antonyms": [],
+  "example": "He wore the talisman around his neck."
+ },
+ {
+  "id": "v-1630",
+  "word": "tardy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "delaying or late",
+  "synonyms": [
+   "late",
+   "slow",
+   "behind"
+  ],
+  "antonyms": [
+   "punctual"
+  ],
+  "example": "He was tardy for the meeting."
+ },
+ {
+  "id": "v-1631",
+  "word": "tedious",
+  "tier": 1,
+  "pos": "n",
+  "definition": "too long, slow, or dull; tiresome",
+  "synonyms": [
+   "boring",
+   "monotonous",
+   "tiresome"
+  ],
+  "antonyms": [
+   "exciting"
+  ],
+  "example": "The lecture was tedious."
+ },
+ {
+  "id": "v-1632",
+  "word": "tempest",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a violent windy storm; a commotion",
+  "synonyms": [
+   "storm",
+   "gale",
+   "turmoil"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The tempest battered the coast."
+ },
+ {
+  "id": "v-1633",
+  "word": "thrifty",
+  "tier": 1,
+  "pos": "n",
+  "definition": "using money and other resources carefully",
+  "synonyms": [
+   "frugal",
+   "economical",
+   "sparing"
+  ],
+  "antonyms": [
+   "wasteful"
+  ],
+  "example": "Her thrifty habits saved a fortune."
+ },
+ {
+  "id": "v-1634",
+  "word": "timid",
+  "tier": 2,
+  "pos": "n",
+  "definition": "lacking courage or confidence",
+  "synonyms": [
+   "shy",
+   "timorous",
+   "fearful"
+  ],
+  "antonyms": [
+   "brave"
+  ],
+  "example": "The timid child hid behind her mother."
+ },
+ {
+  "id": "v-1635",
+  "word": "torment",
+  "tier": 2,
+  "pos": "n",
+  "definition": "severe physical or mental suffering",
+  "synonyms": [
+   "anguish",
+   "agony",
+   "torture"
+  ],
+  "antonyms": [
+   "pleasure"
+  ],
+  "example": "The wound was a torment."
+ },
+ {
+  "id": "v-1636",
+  "word": "tremor",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a slight shaking or trembling movement",
+  "synonyms": [
+   "shaking",
+   "quiver",
+   "vibration"
+  ],
+  "antonyms": [
+   "stillness"
+  ],
+  "example": "There was a tremor in his voice."
+ },
+ {
+  "id": "v-1637",
+  "word": "tyranny",
+  "tier": 2,
+  "pos": "n",
+  "definition": "cruel and oppressive government or rule",
+  "synonyms": [
+   "despotism",
+   "dictatorship",
+   "autocracy"
+  ],
+  "antonyms": [
+   "democracy"
+  ],
+  "example": "The people rebelled against tyranny."
+ },
+ {
+  "id": "v-1638",
+  "word": "uphold",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to confirm or support which has been questioned",
+  "synonyms": [
+   "support",
+   "sustain",
+   "maintain"
+  ],
+  "antonyms": [
+   "overturn"
+  ],
+  "example": "The court will uphold the ruling."
+ },
+ {
+  "id": "v-1639",
+  "word": "upright",
+  "tier": 2,
+  "pos": "v",
+  "definition": "vertical; honest and morally correct",
+  "synonyms": [
+   "vertical",
+   "honorable",
+   "honest"
+  ],
+  "antonyms": [
+   "dishonest"
+  ],
+  "example": "He is an upright citizen."
+ },
+ {
+  "id": "v-1640",
+  "word": "vacant",
+  "tier": 2,
+  "pos": "v",
+  "definition": "empty; not occupied",
+  "synonyms": [
+   "empty",
+   "unfilled",
+   "unoccupied"
+  ],
+  "antonyms": [
+   "occupied"
+  ],
+  "example": "The room was vacant."
+ },
+ {
+  "id": "v-1641",
+  "word": "valiant",
+  "tier": 2,
+  "pos": "v",
+  "definition": "showing courage or determination",
+  "synonyms": [
+   "brave",
+   "courageous",
+   "heroic"
+  ],
+  "antonyms": [
+   "cowardly"
+  ],
+  "example": "The valiant soldier saved his comrades."
+ },
+ {
+  "id": "v-1642",
+  "word": "valor",
+  "tier": 3,
+  "pos": "v",
+  "definition": "great courage in the face of danger",
+  "synonyms": [
+   "bravery",
+   "courage",
+   "heroism"
+  ],
+  "antonyms": [
+   "cowardice"
+  ],
+  "example": "He showed valor under fire."
+ },
+ {
+  "id": "v-1643",
+  "word": "vast",
+  "tier": 3,
+  "pos": "v",
+  "definition": "of very great extent or quantity",
+  "synonyms": [
+   "huge",
+   "immense",
+   "enormous"
+  ],
+  "antonyms": [
+   "tiny"
+  ],
+  "example": "The desert was vast and empty."
+ },
+ {
+  "id": "v-1644",
+  "word": "vengeance",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "punishment inflicted in retaliation for injury",
+  "synonyms": [
+   "revenge",
+   "retribution",
+   "reprisal"
+  ],
+  "antonyms": [
+   "forgiveness"
+  ],
+  "example": "He swore vengeance on his enemies."
+ },
+ {
+  "id": "v-1645",
+  "word": "verdict",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a decision on a disputed issue in a civil or criminal case",
+  "synonyms": [
+   "judgment",
+   "decision",
+   "ruling"
+  ],
+  "antonyms": [],
+  "example": "The jury reached a verdict."
+ },
+ {
+  "id": "v-1646",
+  "word": "vessel",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a ship or large boat; a hollow container",
+  "synonyms": [
+   "ship",
+   "craft",
+   "container"
+  ],
+  "antonyms": [],
+  "example": "The vessel sailed into the harbor."
+ },
+ {
+  "id": "v-1647",
+  "word": "vigilant",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "keeping careful watch for possible danger or difficulties",
+  "synonyms": [
+   "watchful",
+   "alert",
+   "attentive"
+  ],
+  "antonyms": [
+   "careless"
+  ],
+  "example": "Be vigilant of suspicious activity."
+ },
+ {
+  "id": "v-1648",
+  "word": "vigor",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "physical or mental energy and enthusiasm",
+  "synonyms": [
+   "energy",
+   "vitality",
+   "force"
+  ],
+  "antonyms": [
+   "lethargy"
+  ],
+  "example": "He attacked the task with vigor."
+ },
+ {
+  "id": "v-1649",
+  "word": "violate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to break or fail to comply with a rule",
+  "synonyms": [
+   "breach",
+   "infringe",
+   "transgress"
+  ],
+  "antonyms": [
+   "obey"
+  ],
+  "example": "He violated the law."
+ },
+ {
+  "id": "v-1650",
+  "word": "virtuous",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "having high moral standards",
+  "synonyms": [
+   "moral",
+   "ethical",
+   "upright"
+  ],
+  "antonyms": [
+   "immoral"
+  ],
+  "example": "She led a virtuous life."
+ }
+]

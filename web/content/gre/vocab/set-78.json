@@ -1,0 +1,390 @@
+[
+ {
+  "id": "v-1926",
+  "word": "screech",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make a loud, harsh, piercing sound",
+  "synonyms": [
+   "scream",
+   "shriek",
+   "shout"
+  ],
+  "antonyms": [
+   "murmur"
+  ],
+  "example": "The tires screeched on the road."
+ },
+ {
+  "id": "v-1927",
+  "word": "scruple",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a feeling of doubt or hesitation as to an action",
+  "synonyms": [
+   "hesitation",
+   "doubt",
+   "qualms"
+  ],
+  "antonyms": [
+   "confidence"
+  ],
+  "example": "He had no scruples about lying."
+ },
+ {
+  "id": "v-1928",
+  "word": "scrutinize",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to examine or inspect closely and thoroughly",
+  "synonyms": [
+   "examine",
+   "inspect",
+   "study"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "She scrutinized the document."
+ },
+ {
+  "id": "v-1929",
+  "word": "scuffle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a short, confused fight or struggle",
+  "synonyms": [
+   "brawl",
+   "tussle",
+   "skirmish"
+  ],
+  "antonyms": [],
+  "example": "A scuffle broke out in the line."
+ },
+ {
+  "id": "v-1930",
+  "word": "sear",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to burn or scorch the surface of something",
+  "synonyms": [
+   "burn",
+   "scorch",
+   "singe"
+  ],
+  "antonyms": [],
+  "example": "The hot iron seared the fabric."
+ },
+ {
+  "id": "v-1931",
+  "word": "secure",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to fix or attach firmly; to succeed in obtaining",
+  "synonyms": [
+   "fasten",
+   "obtain",
+   "acquire"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "example": "She secured the door."
+ },
+ {
+  "id": "v-1932",
+  "word": "seethe",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to be filled with intense but unexpressed anger",
+  "synonyms": [
+   "boil",
+   "fume",
+   "storm"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "He seethed with resentment."
+ },
+ {
+  "id": "v-1933",
+  "word": "seize",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to take hold of suddenly and forcibly",
+  "synonyms": [
+   "grab",
+   "snatch",
+   "grasp"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "He seized the opportunity."
+ },
+ {
+  "id": "v-1934",
+  "word": "sever",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to cut off or break forcibly; to put an end to",
+  "synonyms": [
+   "cut",
+   "separate",
+   "divide"
+  ],
+  "antonyms": [
+   "unite"
+  ],
+  "example": "She severed the rope."
+ },
+ {
+  "id": "v-1935",
+  "word": "shatter",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to break suddenly and violently into pieces",
+  "synonyms": [
+   "smash",
+   "break",
+   "shiver"
+  ],
+  "antonyms": [
+   "mend"
+  ],
+  "example": "The glass shattered on the floor."
+ },
+ {
+  "id": "v-1936",
+  "word": "shove",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to push roughly or carelessly",
+  "synonyms": [
+   "push",
+   "thrust",
+   "jostle"
+  ],
+  "antonyms": [
+   "pull"
+  ],
+  "example": "He shoved the box aside."
+ },
+ {
+  "id": "v-1937",
+  "word": "shun",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to persistently avoid or reject",
+  "synonyms": [
+   "avoid",
+   "eschew",
+   "steer clear of"
+  ],
+  "antonyms": [
+   "embrace"
+  ],
+  "example": "She shunned publicity."
+ },
+ {
+  "id": "v-1938",
+  "word": "sift",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to put through a sieve; examine carefully",
+  "synonyms": [
+   "screen",
+   "filter",
+   "sort"
+  ],
+  "antonyms": [],
+  "example": "He sifted through the evidence."
+ },
+ {
+  "id": "v-1939",
+  "word": "smite",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to strike heavily, especially with the hand or a weapon",
+  "synonyms": [
+   "strike",
+   "hit",
+   "slay"
+  ],
+  "antonyms": [],
+  "example": "The warrior would smite his enemy."
+ },
+ {
+  "id": "v-1940",
+  "word": "snub",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to rebuff or ignore someone in a disdainful way",
+  "synonyms": [
+   "rebuff",
+   "ignore",
+   "slight"
+  ],
+  "antonyms": [
+   "welcome"
+  ],
+  "example": "She snubbed his invitation."
+ },
+ {
+  "id": "v-1941",
+  "word": "soar",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to fly or rise high in the air",
+  "synonyms": [
+   "rise",
+   "ascend",
+   "tower"
+  ],
+  "antonyms": [
+   "descend"
+  ],
+  "example": "The eagle soared above."
+ },
+ {
+  "id": "v-1942",
+  "word": "solace",
+  "tier": 3,
+  "pos": "v",
+  "definition": "comfort or consolation in a time of distress",
+  "synonyms": [
+   "comfort",
+   "consolation",
+   "relief"
+  ],
+  "antonyms": [
+   "torment"
+  ],
+  "example": "She found solace in music."
+ },
+ {
+  "id": "v-1943",
+  "word": "soothe",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to gently calm a person or emotions",
+  "synonyms": [
+   "calm",
+   "comfort",
+   "pacify"
+  ],
+  "antonyms": [
+   "agitate"
+  ],
+  "example": "She soothed the crying baby."
+ },
+ {
+  "id": "v-1944",
+  "word": "sow",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to plant seeds by scattering them on the soil",
+  "synonyms": [
+   "plant",
+   "scatter",
+   "seed"
+  ],
+  "antonyms": [
+   "reap"
+  ],
+  "example": "He sowed the field with wheat."
+ },
+ {
+  "id": "v-1945",
+  "word": "spear",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a thrusting weapon with a long shaft and sharp point",
+  "synonyms": [
+   "lance",
+   "pike",
+   "javelin"
+  ],
+  "antonyms": [],
+  "example": "He threw the spear at the target."
+ },
+ {
+  "id": "v-1946",
+  "word": "splinter",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to break or cause to break into small sharp pieces",
+  "synonyms": [
+   "shatter",
+   "split",
+   "shiver"
+  ],
+  "antonyms": [
+   "unite"
+  ],
+  "example": "The wood splintered under pressure."
+ },
+ {
+  "id": "v-1947",
+  "word": "squelch",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to suppress or silence completely",
+  "synonyms": [
+   "quash",
+   "crush",
+   "stifle"
+  ],
+  "antonyms": [
+   "amplify"
+  ],
+  "example": "He squelched the rumor."
+ },
+ {
+  "id": "v-1948",
+  "word": "stagger",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to walk or move unsteadily, as if about to fall",
+  "synonyms": [
+   "lurch",
+   "reel",
+   "totter"
+  ],
+  "antonyms": [
+   "march"
+  ],
+  "example": "He staggered from the blow."
+ },
+ {
+  "id": "v-1949",
+  "word": "stanch",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to stop the flow of a liquid, especially blood",
+  "synonyms": [
+   "stop",
+   "stem",
+   "halt"
+  ],
+  "antonyms": [],
+  "example": "He stanched the bleeding."
+ },
+ {
+  "id": "v-1950",
+  "word": "stare",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to look fixedly at someone or something",
+  "synonyms": [
+   "gaze",
+   "gape",
+   "goggle"
+  ],
+  "antonyms": [
+   "glance"
+  ],
+  "example": "He stared at the painting."
+ }
+]

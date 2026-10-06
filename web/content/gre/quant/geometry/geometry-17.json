@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-geo-346",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the diameter of a circle with radius $5$?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$25$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-347",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a triangle has angles $30^\\circ$, $60^\\circ$, and one more, what is the third angle?",
+  "choices": [
+   "$30^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$",
+   "$120^\\circ$",
+   "$180^\\circ$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-348",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a square with side $7$?",
+  "choices": [
+   "$14$",
+   "$28$",
+   "$42$",
+   "$49$",
+   "$56$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-geo-349",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the slope of the line $y = 3x + 5$?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$5$",
+   "$8$",
+   "$15$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-350",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the radius of a circle with diameter $20$?",
+  "choices": [
+   "$5$",
+   "$10$",
+   "$15$",
+   "$20$",
+   "$40$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-351",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the perimeter of an isosceles triangle with two equal sides of $7$ and a base of $4$?",
+  "choices": [
+   "$11$",
+   "$14$",
+   "$18$",
+   "$21$",
+   "$28$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-352",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the area of a trapezoid with parallel sides $6$ and $10$ and height $4$?",
+  "choices": [
+   "$20$",
+   "$24$",
+   "$32$",
+   "$40$",
+   "$64$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-353",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the equation of the line with slope $2$ through $(1, 3)$?",
+  "choices": [
+   "$y = 2x + 1$",
+   "$y = 2x + 3$",
+   "$y = x + 2$",
+   "$y = 2x + 5$",
+   "$y = 3x + 2$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-354",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the circumference of a circle with diameter $14$? Use $\\pi \\approx \\dfrac{22}{7}$.",
+  "choices": [
+   "$22$",
+   "$33$",
+   "$44$",
+   "$49$",
+   "$154$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-355",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are right triangles (with sides as given)?",
+  "choices": [
+   "$(6, 8, 10)$",
+   "$(9, 12, 15)$",
+   "$(5, 5, 5)$",
+   "$(7, 24, 25)$",
+   "$(8, 10, 12)$"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-geo-356",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the area of a circle with radius $10$. Use $\\pi \\approx 3.14$.",
+  "answer": 314
+ },
+ {
+  "id": "q-geo-357",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Find the slope of the line $y = -\\dfrac{1}{2}x + 7$.",
+  "answer": -0.5
+ },
+ {
+  "id": "q-geo-358",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Circumference of a circle with radius $6$",
+  "quantityB": "Perimeter of an equilateral triangle with side $12$",
+  "answer": "B"
+ },
+ {
+  "id": "q-geo-359",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "An isosceles right triangle has two equal legs. If each leg is $5$, what is the hypotenuse?",
+  "choices": [
+   "$5$",
+   "$5\\sqrt{2}$",
+   "$10$",
+   "$10\\sqrt{2}$",
+   "$25$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-360",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A parallelogram has base $9$ and height $5$. What is its area?",
+  "choices": [
+   "$14$",
+   "$30$",
+   "$45$",
+   "$60$",
+   "$90$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-361",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two concentric circles have radii $3$ and $5$. What is the area of the annulus between them? Use $\\pi \\approx 3.14$.",
+  "choices": [
+   "$15.7$",
+   "$31.4$",
+   "$50.24$",
+   "$78.5$",
+   "$200.96$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-geo-362",
+  "topic": "geometry",
+  "subtopic": "triangles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The sides of a triangle are $5, 12, 13$. Is this a right triangle, and what is its area?",
+  "choices": [
+   "Yes, area $30$",
+   "Yes, area $60$",
+   "No, area $30$",
+   "Yes, area $25$",
+   "No, area $60$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-geo-363",
+  "topic": "geometry",
+  "subtopic": "area",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A sector of a circle has central angle $60^\\circ$ and radius $6$. What is its area? Use $\\pi \\approx 3.14$.",
+  "choices": [
+   "$3.14$",
+   "$6.28$",
+   "$18.84$",
+   "$37.68$",
+   "$113.04$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-geo-364",
+  "topic": "geometry",
+  "subtopic": "coordinate-geometry",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following points are on the circle with center $(0, 0)$ and radius $5$?",
+  "choices": [
+   "$(3, 4)$",
+   "$(5, 0)$",
+   "$(0, 5)$",
+   "$(2, 3)$",
+   "$(1, \\sqrt{24})$"
+  ],
+  "answer": [0, 1, 2, 4]
+ },
+ {
+  "id": "q-geo-365",
+  "topic": "geometry",
+  "subtopic": "circles",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Area of a circle with diameter $10$",
+  "quantityB": "Perimeter of a square with side $8$",
+  "answer": "A"
+ }
+]

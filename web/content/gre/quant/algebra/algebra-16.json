@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-alg-301",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $3x + 7 = 22$.",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-302",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $x^2 = 49$.",
+  "choices": [
+   "$\\pm 5$",
+   "$\\pm 6$",
+   "$\\pm 7$",
+   "$\\pm 8$",
+   "$7$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-303",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2x - 3 < 11$, what is the smallest integer $x$ that satisfies this?",
+  "choices": [
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$",
+   "$9$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-304",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^x \\cdot 2^3 = 2^7$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-305",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is $|{-15}|$?",
+  "choices": [
+   "$-15$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$15$"
+  ],
+  "answer": 4
+ },
+ {
+  "id": "q-alg-306",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $\\dfrac{x + 4}{3} - \\dfrac{x - 2}{5} = 2$.",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-alg-307",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve for $x$: $x^2 - 5x + 6 = 0$.",
+  "choices": [
+   "$1$ and $6$",
+   "$2$ and $3$",
+   "$-2$ and $-3$",
+   "$-1$ and $6$",
+   "$1$ and $-6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-308",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve the inequality $-2x + 5 \\geq 13$.",
+  "choices": [
+   "$x \\leq -4$",
+   "$x \\geq -4$",
+   "$x \\leq 4$",
+   "$x \\geq 4$",
+   "$x \\geq 9$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-309",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $3^{x+1} = 81$, what is $x$?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-310",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are solutions to $|x - 5| = 3$?",
+  "choices": [
+   "$x = 2$",
+   "$x = 5$",
+   "$x = 8$",
+   "$x = 3$",
+   "$x = -2$"
+  ],
+  "answer": [0, 2]
+ },
+ {
+  "id": "q-alg-311",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Solve for $x$: $5(x - 3) + 2 = 4(x + 1) - 7$.",
+  "answer": 4
+ },
+ {
+  "id": "q-alg-312",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If $x^2 - 9x + 14 = 0$ and $x > 5$, what is $x$?",
+  "answer": 7
+ },
+ {
+  "id": "q-alg-313",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Largest integer $x$ with $3x - 4 \\leq 17$",
+  "quantityB": "Smallest integer $y$ with $5y + 6 \\geq 41$",
+  "answer": "C"
+ },
+ {
+  "id": "q-alg-314",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $2^{2x} \\cdot 4^x = 8^4$, what is $x$?",
+  "choices": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$",
+   "$5$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-alg-315",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Solve $|2x - 3| < 7$.",
+  "choices": [
+   "$-2 < x < 5$",
+   "$x < 5$",
+   "$x > -2$",
+   "$-5 < x < 2$",
+   "$x < -2$ or $x > 5$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-316",
+  "topic": "algebra",
+  "subtopic": "linear-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\dfrac{1}{a} + \\dfrac{1}{b} = \\dfrac{1}{c}$ and $a, b, c$ are positive integers, which expression equals $\\dfrac{a+b}{ab}$?",
+  "choices": [
+   "$\\dfrac{1}{c}$",
+   "$c$",
+   "$ac$",
+   "$\\dfrac{1}{ac}$",
+   "$abc$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-317",
+  "topic": "algebra",
+  "subtopic": "quadratics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "For what value of $k$ does $x^2 + 6x + k$ have exactly one real root?",
+  "choices": [
+   "$5$",
+   "$7$",
+   "$8$",
+   "$9$",
+   "$10$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-alg-318",
+  "topic": "algebra",
+  "subtopic": "inequalities",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following values of $x$ satisfy both $x \\geq -2$ and $-3x + 5 < 14$?",
+  "choices": [
+   "$x = -2$",
+   "$x = -1$",
+   "$x = 0$",
+   "$x = -3$",
+   "$x = 4$"
+  ],
+  "answer": [0, 1, 2, 4]
+ },
+ {
+  "id": "q-alg-319",
+  "topic": "algebra",
+  "subtopic": "exponents-equations",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $9^{x} = 27$ and $4^{y} = 8$, what is $xy$?",
+  "choices": [
+   "$\\dfrac{3}{2}$",
+   "$\\dfrac{3}{4}$",
+   "$\\dfrac{2}{3}$",
+   "$\\dfrac{1}{2}$",
+   "$1$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-alg-320",
+  "topic": "algebra",
+  "subtopic": "absolute-value",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$|5 - 12|$",
+  "quantityB": "$|-9 + 2|$",
+  "answer": "C"
+ }
+]

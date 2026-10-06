@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-wpr-346",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a runner covers $5$ miles in $25$ minutes, what is the speed in mph?",
+  "choices": [
+   "$10$ mph",
+   "$12$ mph",
+   "$15$ mph",
+   "$20$ mph",
+   "$25$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-347",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If it takes $4$ workers $9$ days to finish a job, how many days would $6$ workers take?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$",
+   "$8$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-348",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the simple interest on $\\$500$ at $6\\%$ per year for $3$ years?",
+  "choices": [
+   "$\\$30$",
+   "$\\$60$",
+   "$\\$90$",
+   "$\\$120$",
+   "$\\$180$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-349",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Mix $2$ liters of pure orange juice with $3$ liters of water. What is the concentration of orange juice?",
+  "choices": [
+   "$30\\%$",
+   "$40\\%$",
+   "$50\\%$",
+   "$60\\%$",
+   "$20\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-350",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If the price of a stock drops from $\\$50$ to $\\$40$, what is the percent decrease?",
+  "choices": [
+   "$10\\%$",
+   "$15\\%$",
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-351",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A car travels $30$ miles at $60$ mph and $30$ miles at $30$ mph. What is the average speed?",
+  "choices": [
+   "$35$ mph",
+   "$40$ mph",
+   "$45$ mph",
+   "$50$ mph",
+   "$55$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-352",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If a plane flies $1200$ miles in $4$ hours, what is its average speed?",
+  "choices": [
+   "$250$ mph",
+   "$300$ mph",
+   "$350$ mph",
+   "$400$ mph",
+   "$450$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-353",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If 3 machines can produce 30 widgets in 2 hours, how long does it take 6 machines to produce 30 widgets?",
+  "choices": [
+   "$30$ minutes",
+   "$1$ hour",
+   "$2$ hours",
+   "$3$ hours",
+   "$4$ hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-354",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How much must you invest at $4\\%$ simple interest to earn $\\$80$ in $2$ years?",
+  "choices": [
+   "$\\$500$",
+   "$\\$800$",
+   "$\\$1000$",
+   "$\\$1500$",
+   "$\\$2000$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-355",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many grams of salt must be added to $400$ grams of a $5\\%$ salt solution to make it $20\\%$ salt?",
+  "choices": [
+   "$50$",
+   "$60$",
+   "$75$",
+   "$80$",
+   "$100$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-356",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A population grew from $2000$ to $2500$. What is the percent increase?",
+  "choices": [
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$",
+   "$50\\%$",
+   "$80\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-357",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A cyclist rides $20$ miles uphill at $10$ mph and the same distance downhill at $30$ mph. What is the average speed?",
+  "choices": [
+   "$12$ mph",
+   "$15$ mph",
+   "$20$ mph",
+   "$25$ mph",
+   "$30$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-358",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If a train travels $250$ miles in $5$ hours, what is its average speed in mph?",
+  "answer": 50
+ },
+ {
+  "id": "q-wpr-359",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If it takes 5 workers 12 days to build a wall, how many workers are needed to build it in 6 days?",
+  "answer": 10
+ },
+ {
+  "id": "q-wpr-360",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Interest on $\\$1000$ at $5\\%$ simple for $4$ years",
+  "quantityB": "Interest on $\\$500$ at $8\\%$ simple for $4$ years",
+  "answer": "A"
+ },
+ {
+  "id": "q-wpr-361",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many liters of $60\\%$ acid must be added to $30$ liters of $20\\%$ acid to get a $40\\%$ solution?",
+  "choices": [
+   "$20$",
+   "$25$",
+   "$30$",
+   "$35$",
+   "$40$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-362",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A store raises the price of a $\\$200$ item by $10\\%$, then offers a $10\\%$ discount. What is the final price?",
+  "choices": [
+   "$\\$180$",
+   "$\\$190$",
+   "$\\$198$",
+   "$\\$200$",
+   "$\\$210$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-363",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two cyclists leave the same point at $10$ mph and $15$ mph respectively. After $1$ hour, how far apart are they?",
+  "choices": [
+   "$5$ miles",
+   "$10$ miles",
+   "$15$ miles",
+   "$20$ miles",
+   "$25$ miles"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-wpr-364",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Pipe A fills in $6$ hours, pipe B fills in $8$ hours, pipe C empties in $12$ hours. If all three are open, how long to fill?",
+  "choices": [
+   "$4$ hours",
+   "$4.8$ hours",
+   "$6$ hours",
+   "$8$ hours",
+   "$24$ hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-365",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Average speed for $60$ miles at $30$ mph and $60$ miles at $60$ mph",
+  "quantityB": "$45$ mph",
+  "answer": "B"
+ }
+]

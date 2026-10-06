@@ -1,0 +1,402 @@
+[
+ {
+  "id": "v-1576",
+  "word": "oblivious",
+  "tier": 1,
+  "pos": "n",
+  "definition": "not aware of or concerned about what is happening",
+  "synonyms": [
+   "unaware",
+   "unmindful",
+   "heedless"
+  ],
+  "antonyms": [
+   "aware"
+  ],
+  "example": "He was oblivious to the danger."
+ },
+ {
+  "id": "v-1577",
+  "word": "passive",
+  "tier": 1,
+  "pos": "n",
+  "definition": "accepting or submitting without objection",
+  "synonyms": [
+   "inactive",
+   "submissive",
+   "acquiescent"
+  ],
+  "antonyms": [
+   "active"
+  ],
+  "example": "He played a passive role."
+ },
+ {
+  "id": "v-1578",
+  "word": "pensive",
+  "tier": 1,
+  "pos": "n",
+  "definition": "engaged in deep or serious thought",
+  "synonyms": [
+   "thoughtful",
+   "reflective",
+   "meditative"
+  ],
+  "antonyms": [
+   "thoughtless"
+  ],
+  "example": "She looked pensive by the window."
+ },
+ {
+  "id": "v-1579",
+  "word": "perfidy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "deceitfulness; treachery",
+  "synonyms": [
+   "treachery",
+   "faithlessness",
+   "disloyalty"
+  ],
+  "antonyms": [
+   "loyalty"
+  ],
+  "example": "His perfidy shocked his friends."
+ },
+ {
+  "id": "v-1580",
+  "word": "persecute",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to subject someone to hostility or ill-treatment",
+  "synonyms": [
+   "harass",
+   "oppress",
+   "hound"
+  ],
+  "antonyms": [
+   "support"
+  ],
+  "example": "They were persecuted for their beliefs."
+ },
+ {
+  "id": "v-1581",
+  "word": "pervade",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to spread through every part of something",
+  "synonyms": [
+   "permeate",
+   "saturate",
+   "fill"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "A sense of dread pervaded the room."
+ },
+ {
+  "id": "v-1582",
+  "word": "philanthropy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the desire to promote the welfare of others",
+  "synonyms": [
+   "charity",
+   "benevolence",
+   "altruism"
+  ],
+  "antonyms": [
+   "misanthropy"
+  ],
+  "example": "Her philanthropy funded a hospital."
+ },
+ {
+  "id": "v-1583",
+  "word": "placid",
+  "tier": 1,
+  "pos": "n",
+  "definition": "not easily upset or excited; calm",
+  "synonyms": [
+   "calm",
+   "tranquil",
+   "serene"
+  ],
+  "antonyms": [
+   "agitated"
+  ],
+  "example": "The placid lake reflected the sky."
+ },
+ {
+  "id": "v-1584",
+  "word": "potent",
+  "tier": 2,
+  "pos": "n",
+  "definition": "having great power, influence, or effect",
+  "synonyms": [
+   "powerful",
+   "forceful",
+   "effective"
+  ],
+  "antonyms": [
+   "weak"
+  ],
+  "example": "The potent argument swayed the jury."
+ },
+ {
+  "id": "v-1585",
+  "word": "presume",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to suppose that something is the case without proof",
+  "synonyms": [
+   "assume",
+   "suppose",
+   "presuppose"
+  ],
+  "antonyms": [
+   "doubt"
+  ],
+  "example": "I presume you are right."
+ },
+ {
+  "id": "v-1586",
+  "word": "prominent",
+  "tier": 2,
+  "pos": "n",
+  "definition": "important; famous; conspicuous",
+  "synonyms": [
+   "famous",
+   "eminent",
+   "conspicuous"
+  ],
+  "antonyms": [
+   "obscure"
+  ],
+  "example": "She is a prominent scientist."
+ },
+ {
+  "id": "v-1587",
+  "word": "prone",
+  "tier": 2,
+  "pos": "n",
+  "definition": "likely to or liable to suffer from something",
+  "synonyms": [
+   "liable",
+   "subject",
+   "inclined"
+  ],
+  "antonyms": [
+   "resistant"
+  ],
+  "example": "He is prone to errors."
+ },
+ {
+  "id": "v-1588",
+  "word": "prosper",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to flourish or thrive, especially financially",
+  "synonyms": [
+   "flourish",
+   "thrive",
+   "succeed"
+  ],
+  "antonyms": [
+   "fail"
+  ],
+  "example": "The business prospered under her leadership."
+ },
+ {
+  "id": "v-1589",
+  "word": "quell",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to put an end to, typically by force",
+  "synonyms": [
+   "suppress",
+   "stifle",
+   "subdue"
+  ],
+  "antonyms": [
+   "incite"
+  ],
+  "example": "Troops quelled the riot."
+ },
+ {
+  "id": "v-1590",
+  "word": "quibble",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to argue about petty or trivial things",
+  "synonyms": [
+   "cavil",
+   "niggle",
+   "bicker"
+  ],
+  "antonyms": [
+   "agree"
+  ],
+  "example": "Don't quibble over details."
+ },
+ {
+  "id": "v-1591",
+  "word": "ravenous",
+  "tier": 2,
+  "pos": "v",
+  "definition": "extremely hungry",
+  "synonyms": [
+   "starving",
+   "famished",
+   "voracious"
+  ],
+  "antonyms": [
+   "sated"
+  ],
+  "example": "After the hike, I was ravenous."
+ },
+ {
+  "id": "v-1592",
+  "word": "rebellious",
+  "tier": 3,
+  "pos": "v",
+  "definition": "showing a desire to resist authority",
+  "synonyms": [
+   "insubordinate",
+   "defiant",
+   "mutinous"
+  ],
+  "antonyms": [
+   "obedient"
+  ],
+  "example": "The rebellious teenager defied his parents."
+ },
+ {
+  "id": "v-1593",
+  "word": "reform",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to make changes to improve something",
+  "synonyms": [
+   "improve",
+   "amend",
+   "better"
+  ],
+  "antonyms": [
+   "worsen"
+  ],
+  "example": "They reformed the legal system."
+ },
+ {
+  "id": "v-1594",
+  "word": "relent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to abandon or mitigate a harsh intention",
+  "synonyms": [
+   "yield",
+   "soften",
+   "capitulate"
+  ],
+  "antonyms": [
+   "persist"
+  ],
+  "example": "She finally relented and agreed."
+ },
+ {
+  "id": "v-1595",
+  "word": "remorse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "deep regret for wrongdoing",
+  "synonyms": [
+   "guilt",
+   "contrition",
+   "rue"
+  ],
+  "antonyms": [
+   "indifference"
+  ],
+  "example": "He was filled with remorse."
+ },
+ {
+  "id": "v-1596",
+  "word": "renegade",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a person who deserts a cause or group",
+  "synonyms": [
+   "traitor",
+   "defector",
+   "turncoat"
+  ],
+  "antonyms": [
+   "loyalist"
+  ],
+  "example": "The renegade betrayed his comrades."
+ },
+ {
+  "id": "v-1597",
+  "word": "resent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to feel bitterness or indignation at",
+  "synonyms": [
+   "fume",
+   "grudge",
+   "begrudge"
+  ],
+  "antonyms": [
+   "accept"
+  ],
+  "example": "She resented the criticism."
+ },
+ {
+  "id": "v-1598",
+  "word": "resolute",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "admirably purposeful and unwavering",
+  "synonyms": [
+   "determined",
+   "steadfast",
+   "firm"
+  ],
+  "antonyms": [
+   "wavering"
+  ],
+  "example": "She was resolute in her decision."
+ },
+ {
+  "id": "v-1599",
+  "word": "reticent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "not revealing one's thoughts or feelings readily",
+  "synonyms": [
+   "reserved",
+   "taciturn",
+   "uncommunicative"
+  ],
+  "antonyms": [
+   "open"
+  ],
+  "example": "He was reticent about his past."
+ },
+ {
+  "id": "v-1600",
+  "word": "revere",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to feel deep respect or admiration for",
+  "synonyms": [
+   "venerate",
+   "adore",
+   "idolize"
+  ],
+  "antonyms": [
+   "despise"
+  ],
+  "example": "She revered her grandmother."
+ }
+]

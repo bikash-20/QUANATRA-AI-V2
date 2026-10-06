@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-wpr-386",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A train travels $240$ miles in $4$ hours. What is its speed?",
+  "choices": [
+   "$50$ mph",
+   "$60$ mph",
+   "$70$ mph",
+   "$80$ mph",
+   "$240$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-387",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A machine produces $50$ items per hour. How many items in $8$ hours?",
+  "choices": [
+   "$200$",
+   "$300$",
+   "$400$",
+   "$500$",
+   "$600$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-388",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the interest on $\\$300$ at $4\\%$ simple interest for $5$ years?",
+  "choices": [
+   "$\\$30$",
+   "$\\$45$",
+   "$\\$60$",
+   "$\\$75$",
+   "$\\$80$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-389",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $6$ liters of $30\\%$ acid are diluted with $4$ liters of water, what is the new concentration?",
+  "choices": [
+   "$10\\%$",
+   "$15\\%$",
+   "$18\\%$",
+   "$20\\%$",
+   "$25\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-390",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If your salary increases from $\\$40,000$ to $\\$44,000$, what is the percent increase?",
+  "choices": [
+   "$8\\%$",
+   "$9\\%$",
+   "$10\\%$",
+   "$11\\%$",
+   "$12\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-391",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "You drive $40$ miles at $40$ mph and $40$ miles at $80$ mph. What is your average speed?",
+  "choices": [
+   "$50$ mph",
+   "$53.3$ mph",
+   "$60$ mph",
+   "$80$ mph",
+   "$120$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-392",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A man walks at $4$ mph and jogs at $8$ mph. If he walks for $1$ hour and jogs for $1$ hour, total distance?",
+  "choices": [
+   "$8$ miles",
+   "$10$ miles",
+   "$12$ miles",
+   "$14$ miles",
+   "$16$ miles"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-393",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $8$ workers can build a wall in $15$ days, how many days for $12$ workers?",
+  "choices": [
+   "$8$",
+   "$9$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-394",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "At what rate must $\\$800$ be invested to earn $\\$240$ in $5$ years of simple interest?",
+  "choices": [
+   "$4\\%$",
+   "$5\\%$",
+   "$6\\%$",
+   "$7\\%$",
+   "$8\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-395",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many kg of $10\\%$ sugar solution must be mixed with $30$ kg of $40\\%$ solution to get a $25\\%$ solution?",
+  "choices": [
+   "$10$",
+   "$15$",
+   "$20$",
+   "$30$",
+   "$40$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-396",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A product's price goes from $\\$100$ to $\\$80$ and then to $\\$96$. What is the net percent change from start?",
+  "choices": [
+   "$-20\\%$",
+   "$-4\\%$",
+   "$+4\\%$",
+   "$-16\\%$",
+   "$+20\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-397",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following affect the average speed of a round trip?",
+  "choices": [
+   "Speed going",
+   "Speed returning",
+   "Distance of each leg",
+   "Total time",
+   "Direction of travel"
+  ],
+  "answer": [0, 1, 2]
+ },
+ {
+  "id": "q-wpr-398",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A cyclist rides $45$ miles in $3$ hours. What is the speed in mph?",
+  "answer": 15
+ },
+ {
+  "id": "q-wpr-399",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "If 4 workers can paint a house in 9 days, how many days for 6 workers? Give the answer to one decimal place.",
+  "answer": 6
+ },
+ {
+  "id": "q-wpr-400",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\$700$ at $5\\%$ simple interest for $4$ years",
+  "quantityB": "$\\$500$ at $7\\%$ simple interest for $4$ years",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-401",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How much pure acid must be added to $100$ ml of $20\\%$ acid to make a $50\\%$ solution?",
+  "choices": [
+   "$30$ ml",
+   "$40$ ml",
+   "$50$ ml",
+   "$60$ ml",
+   "$80$ ml"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-402",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A stock loses $40\\%$ of its value. What percent increase is needed to return to original?",
+  "choices": [
+   "$40\\%$",
+   "$50\\%$",
+   "$60\\%$",
+   "$\\dfrac{200}{3}\\%$",
+   "$80\\%$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-403",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two trains $A$ and $B$ are $300$ miles apart, moving toward each other at $40$ mph and $60$ mph. How long to meet?",
+  "choices": [
+   "$2$ hours",
+   "$3$ hours",
+   "$4$ hours",
+   "$5$ hours",
+   "$6$ hours"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-404",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Worker A and B together take $6$ days; B and C together take $15$ days; A and C together take $10$ days. How long for all three?",
+  "choices": [
+   "$4$ days",
+   "$5$ days",
+   "$6$ days",
+   "$7$ days",
+   "$8$ days"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-405",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Average speed for $90$ miles at $45$ mph and $90$ miles at $90$ mph",
+  "quantityB": "$60$ mph",
+  "answer": "C"
+ }
+]

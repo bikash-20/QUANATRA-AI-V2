@@ -1,0 +1,394 @@
+[
+ {
+  "id": "v-1726",
+  "word": "disdain",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to regard with contempt or scorn",
+  "synonyms": [
+   "scorn",
+   "despise",
+   "look down on"
+  ],
+  "antonyms": [
+   "respect"
+  ],
+  "example": "She disdained the cheap offer."
+ },
+ {
+  "id": "v-1727",
+  "word": "dispose",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to get rid of; arrange in a particular order",
+  "synonyms": [
+   "arrange",
+   "tidy",
+   "discard"
+  ],
+  "antonyms": [
+   "retain"
+  ],
+  "example": "She disposed of the trash."
+ },
+ {
+  "id": "v-1728",
+  "word": "disprove",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to show that something is false",
+  "synonyms": [
+   "refute",
+   "debunk",
+   "rebut"
+  ],
+  "antonyms": [
+   "confirm"
+  ],
+  "example": "New evidence disproved the theory."
+ },
+ {
+  "id": "v-1729",
+  "word": "disrupt",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to interrupt or disturb an activity",
+  "synonyms": [
+   "disturb",
+   "interrupt",
+   "upset"
+  ],
+  "antonyms": [
+   "facilitate"
+  ],
+  "example": "The protest disrupted traffic."
+ },
+ {
+  "id": "v-1730",
+  "word": "dissuade",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to persuade someone not to take a course of action",
+  "synonyms": [
+   "discourage",
+   "deter",
+   "persuade"
+  ],
+  "antonyms": [
+   "encourage"
+  ],
+  "example": "She tried to dissuade him."
+ },
+ {
+  "id": "v-1731",
+  "word": "divert",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to turn aside from a course or direction",
+  "synonyms": [
+   "redirect",
+   "turn",
+   "deflect"
+  ],
+  "antonyms": [
+   "direct"
+  ],
+  "example": "We diverted the river's course."
+ },
+ {
+  "id": "v-1732",
+  "word": "dodge",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to avoid by moving quickly aside",
+  "synonyms": [
+   "avoid",
+   "evade",
+   "sidestep"
+  ],
+  "antonyms": [
+   "confront"
+  ],
+  "example": "He dodged the question."
+ },
+ {
+  "id": "v-1733",
+  "word": "dread",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to anticipate with great fear",
+  "synonyms": [
+   "fear",
+   "apprehend",
+   "shrink from"
+  ],
+  "antonyms": [
+   "welcome"
+  ],
+  "example": "She dreaded the appointment."
+ },
+ {
+  "id": "v-1734",
+  "word": "dwindle",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to diminish gradually in size or amount",
+  "synonyms": [
+   "shrink",
+   "decrease",
+   "wane"
+  ],
+  "antonyms": [
+   "grow"
+  ],
+  "example": "Supplies dwindled to nothing."
+ },
+ {
+  "id": "v-1735",
+  "word": "eject",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to force or throw out violently",
+  "synonyms": [
+   "expel",
+   "oust",
+   "evict"
+  ],
+  "antonyms": [
+   "admit"
+  ],
+  "example": "The pilot ejected from the plane."
+ },
+ {
+  "id": "v-1736",
+  "word": "elapse",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to pass or go by, as of time",
+  "synonyms": [
+   "pass",
+   "go by",
+   "slip by"
+  ],
+  "antonyms": [],
+  "example": "Hours elapsed before he returned."
+ },
+ {
+  "id": "v-1737",
+  "word": "elude",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to escape or avoid in a skillful or cunning way",
+  "synonyms": [
+   "evade",
+   "escape",
+   "avoid"
+  ],
+  "antonyms": [
+   "confront"
+  ],
+  "example": "The thief eluded the police."
+ },
+ {
+  "id": "v-1738",
+  "word": "embark",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to begin a course of action; board a ship",
+  "synonyms": [
+   "begin",
+   "start",
+   "board"
+  ],
+  "antonyms": [
+   "disembark"
+  ],
+  "example": "They embarked on a new venture."
+ },
+ {
+  "id": "v-1739",
+  "word": "embody",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to give a body or form to; represent in physical form",
+  "synonyms": [
+   "represent",
+   "exemplify",
+   "incarnate"
+  ],
+  "antonyms": [],
+  "example": "She embodied the spirit of the team."
+ },
+ {
+  "id": "v-1740",
+  "word": "emote",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to show emotion in an exaggerated way",
+  "synonyms": [
+   "express",
+   "act",
+   "perform"
+  ],
+  "antonyms": [],
+  "example": "He emoted during the speech."
+ },
+ {
+  "id": "v-1741",
+  "word": "endure",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to suffer something painful or difficult patiently",
+  "synonyms": [
+   "bear",
+   "suffer",
+   "tolerate"
+  ],
+  "antonyms": [
+   "succumb"
+  ],
+  "example": "She endured the pain bravely."
+ },
+ {
+  "id": "v-1742",
+  "word": "engulf",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to swallow up or overwhelm",
+  "synonyms": [
+   "swamp",
+   "submerge",
+   "overwhelm"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "The flames engulfed the building."
+ },
+ {
+  "id": "v-1743",
+  "word": "enjoin",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to instruct or urge someone to do something",
+  "synonyms": [
+   "order",
+   "direct",
+   "command"
+  ],
+  "antonyms": [
+   "forbid"
+  ],
+  "example": "He enjoined them to be silent."
+ },
+ {
+  "id": "v-1744",
+  "word": "ensue",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to happen or follow as a result",
+  "synonyms": [
+   "follow",
+   "result",
+   "develop"
+  ],
+  "antonyms": [
+   "precede"
+  ],
+  "example": "An argument ensued."
+ },
+ {
+  "id": "v-1745",
+  "word": "entail",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to involve or require as a necessary part",
+  "synonyms": [
+   "involve",
+   "necessitate",
+   "require"
+  ],
+  "antonyms": [
+   "exclude"
+  ],
+  "example": "The job entails long hours."
+ },
+ {
+  "id": "v-1746",
+  "word": "entreat",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to ask someone earnestly or anxiously",
+  "synonyms": [
+   "beg",
+   "implore",
+   "beseech"
+  ],
+  "antonyms": [
+   "demand"
+  ],
+  "example": "She entreated him to stay."
+ },
+ {
+  "id": "v-1747",
+  "word": "envoy",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a messenger or representative",
+  "synonyms": [
+   "messenger",
+   "delegate",
+   "emissary"
+  ],
+  "antonyms": [],
+  "example": "The envoy delivered the message."
+ },
+ {
+  "id": "v-1748",
+  "word": "equate",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to consider one thing as equal to another",
+  "synonyms": [
+   "liken",
+   "compare",
+   "identify"
+  ],
+  "antonyms": [
+   "contrast"
+  ],
+  "example": "Don't equate wealth with happiness."
+ },
+ {
+  "id": "v-1749",
+  "word": "erase",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to remove completely",
+  "synonyms": [
+   "delete",
+   "wipe out",
+   "obliterate"
+  ],
+  "antonyms": [
+   "create"
+  ],
+  "example": "She erased the chalkboard."
+ },
+ {
+  "id": "v-1750",
+  "word": "erect",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to build or construct",
+  "synonyms": [
+   "build",
+   "construct",
+   "raise"
+  ],
+  "antonyms": [
+   "demolish"
+  ],
+  "example": "They erected a statue in the square."
+ }
+]

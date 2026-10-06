@@ -1,0 +1,392 @@
+[
+ {
+  "id": "v-1776",
+  "word": "flinch",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make a quick, nervous movement as a reaction to fear",
+  "synonyms": [
+   "wince",
+   "recoil",
+   "shrink"
+  ],
+  "antonyms": [
+   "face"
+  ],
+  "example": "She didn't flinch at the news."
+ },
+ {
+  "id": "v-1777",
+  "word": "fluster",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make someone nervous or confused",
+  "synonyms": [
+   "disconcert",
+   "agitate",
+   "confuse"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "The question flustered him."
+ },
+ {
+  "id": "v-1778",
+  "word": "fondle",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to stroke or touch lovingly or tenderly",
+  "synonyms": [
+   "caress",
+   "stroke",
+   "cuddle"
+  ],
+  "antonyms": [],
+  "example": "She fondled the kitten."
+ },
+ {
+  "id": "v-1779",
+  "word": "forbid",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to refuse to allow something",
+  "synonyms": [
+   "prohibit",
+   "ban",
+   "disallow"
+  ],
+  "antonyms": [
+   "permit"
+  ],
+  "example": "Smoking is forbidden here."
+ },
+ {
+  "id": "v-1780",
+  "word": "forgo",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to go without; abstain from",
+  "synonyms": [
+   "abstain",
+   "relinquish",
+   "sacrifice"
+  ],
+  "antonyms": [
+   "indulge"
+  ],
+  "example": "She decided to forgo dessert."
+ },
+ {
+  "id": "v-1781",
+  "word": "forsake",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to abandon or give up completely",
+  "synonyms": [
+   "abandon",
+   "desert",
+   "renounce"
+  ],
+  "antonyms": [
+   "embrace"
+  ],
+  "example": "He forsook his old life."
+ },
+ {
+  "id": "v-1782",
+  "word": "fortify",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to strengthen or invigorate",
+  "synonyms": [
+   "strengthen",
+   "reinforce",
+   "secure"
+  ],
+  "antonyms": [
+   "weaken"
+  ],
+  "example": "The soldiers fortified the castle."
+ },
+ {
+  "id": "v-1783",
+  "word": "found",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to establish or set up on a firm basis",
+  "synonyms": [
+   "establish",
+   "create",
+   "institute"
+  ],
+  "antonyms": [
+   "dissolve"
+  ],
+  "example": "She founded the company in 1990."
+ },
+ {
+  "id": "v-1784",
+  "word": "fret",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to feel or express worry or anxiety",
+  "synonyms": [
+   "worry",
+   "agonize",
+   "stew"
+  ],
+  "antonyms": [
+   "relax"
+  ],
+  "example": "Don't fret about the small stuff."
+ },
+ {
+  "id": "v-1785",
+  "word": "frustrate",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to prevent the progress or success of",
+  "synonyms": [
+   "thwart",
+   "baffle",
+   "vex"
+  ],
+  "antonyms": [
+   "fulfill"
+  ],
+  "example": "The delay frustrated her."
+ },
+ {
+  "id": "v-1786",
+  "word": "gauge",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to measure or assess, especially precisely",
+  "synonyms": [
+   "measure",
+   "assess",
+   "evaluate"
+  ],
+  "antonyms": [
+   "guess"
+  ],
+  "example": "She gauged the distance."
+ },
+ {
+  "id": "v-1787",
+  "word": "glean",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to gather information in small amounts",
+  "synonyms": [
+   "gather",
+   "collect",
+   "extract"
+  ],
+  "antonyms": [
+   "discard"
+  ],
+  "example": "He gleaned facts from the report."
+ },
+ {
+  "id": "v-1788",
+  "word": "glide",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to move smoothly and continuously",
+  "synonyms": [
+   "slide",
+   "sail",
+   "float"
+  ],
+  "antonyms": [
+   "stumble"
+  ],
+  "example": "The boat glided across the lake."
+ },
+ {
+  "id": "v-1789",
+  "word": "gnaw",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to bite or chew persistently",
+  "synonyms": [
+   "chew",
+   "bite",
+   "nibble"
+  ],
+  "antonyms": [],
+  "example": "The dog gnawed the bone."
+ },
+ {
+  "id": "v-1790",
+  "word": "gouge",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to make a groove or hole in; overcharge",
+  "synonyms": [
+   "scoop",
+   "overcharge",
+   "fleece"
+  ],
+  "antonyms": [
+   "bargain"
+  ],
+  "example": "He was gouged by the mechanic."
+ },
+ {
+  "id": "v-1791",
+  "word": "grapple",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to struggle or wrestle; to try to deal with",
+  "synonyms": [
+   "wrestle",
+   "struggle",
+   "tackle"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "She grappled with the difficult problem."
+ },
+ {
+  "id": "v-1792",
+  "word": "grasp",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to seize and hold firmly; to understand",
+  "synonyms": [
+   "seize",
+   "grip",
+   "comprehend"
+  ],
+  "antonyms": [
+   "release"
+  ],
+  "example": "He grasped the rope tightly."
+ },
+ {
+  "id": "v-1793",
+  "word": "gravitate",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to move toward or be attracted to something",
+  "synonyms": [
+   "tend",
+   "incline",
+   "lean"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "He gravitated toward leadership roles."
+ },
+ {
+  "id": "v-1794",
+  "word": "grieve",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to feel intense sorrow",
+  "synonyms": [
+   "mourn",
+   "sorrow",
+   "lament"
+  ],
+  "antonyms": [
+   "rejoice"
+  ],
+  "example": "She grieved for her lost friend."
+ },
+ {
+  "id": "v-1795",
+  "word": "grind",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to reduce to small particles or powder by crushing",
+  "synonyms": [
+   "crush",
+   "pulverize",
+   "mill"
+  ],
+  "antonyms": [],
+  "example": "He would grind the coffee beans."
+ },
+ {
+  "id": "v-1796",
+  "word": "grope",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to feel about or search blindly or uncertainly",
+  "synonyms": [
+   "fumble",
+   "feel",
+   "search"
+  ],
+  "antonyms": [],
+  "example": "He groped for the light switch."
+ },
+ {
+  "id": "v-1797",
+  "word": "grudge",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a persistent feeling of ill will or resentment",
+  "synonyms": [
+   "resentment",
+   "grievance",
+   "animosity"
+  ],
+  "antonyms": [
+   "goodwill"
+  ],
+  "example": "She bore him no grudge."
+ },
+ {
+  "id": "v-1798",
+  "word": "grunt",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make a low, short, guttural sound",
+  "synonyms": [
+   "growl",
+   "snort",
+   "mumble"
+  ],
+  "antonyms": [],
+  "example": "He grunted in response."
+ },
+ {
+  "id": "v-1799",
+  "word": "harass",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to trouble and annoy continually",
+  "synonyms": [
+   "torment",
+   "badger",
+   "pester"
+  ],
+  "antonyms": [
+   "comfort"
+  ],
+  "example": "He was harassed by creditors."
+ },
+ {
+  "id": "v-1800",
+  "word": "harsh",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "unpleasantly rough or jarring to the senses",
+  "synonyms": [
+   "severe",
+   "austere",
+   "rough"
+  ],
+  "antonyms": [
+   "gentle"
+  ],
+  "example": "The climate was harsh."
+ }
+]

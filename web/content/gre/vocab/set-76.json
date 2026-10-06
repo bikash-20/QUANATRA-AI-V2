@@ -1,0 +1,389 @@
+[
+ {
+  "id": "v-1876",
+  "word": "quench",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to satisfy thirst by drinking; to extinguish a fire",
+  "synonyms": [
+   "slake",
+   "extinguish",
+   "douse"
+  ],
+  "antonyms": [
+   "ignite"
+  ],
+  "example": "He quenched his thirst with water."
+ },
+ {
+  "id": "v-1877",
+  "word": "quiver",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to tremble or shake with a slight rapid motion",
+  "synonyms": [
+   "tremble",
+   "shiver",
+   "shudder"
+  ],
+  "antonyms": [
+   "steady"
+  ],
+  "example": "Her lips quivered with fear."
+ },
+ {
+  "id": "v-1878",
+  "word": "rally",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to come together again; to recover strength",
+  "synonyms": [
+   "muster",
+   "recover",
+   "rebound"
+  ],
+  "antonyms": [
+   "scatter"
+  ],
+  "example": "The team rallied in the second half."
+ },
+ {
+  "id": "v-1879",
+  "word": "rapture",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a feeling of intense pleasure or joy",
+  "synonyms": [
+   "ecstasy",
+   "delight",
+   "elation"
+  ],
+  "antonyms": [
+   "misery"
+  ],
+  "example": "She listened with rapture."
+ },
+ {
+  "id": "v-1880",
+  "word": "raze",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to completely destroy a building or area",
+  "synonyms": [
+   "demolish",
+   "level",
+   "flatten"
+  ],
+  "antonyms": [
+   "build"
+  ],
+  "example": "The fire razed the city."
+ },
+ {
+  "id": "v-1881",
+  "word": "reap",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to cut or gather a crop; to receive a reward",
+  "synonyms": [
+   "harvest",
+   "gather",
+   "collect"
+  ],
+  "antonyms": [
+   "sow"
+  ],
+  "example": "He reaped the rewards of hard work."
+ },
+ {
+  "id": "v-1882",
+  "word": "rebuke",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to express sharp disapproval or criticism of",
+  "synonyms": [
+   "reprimand",
+   "scold",
+   "admonish"
+  ],
+  "antonyms": [
+   "praise"
+  ],
+  "example": "She rebuked him for being rude."
+ },
+ {
+  "id": "v-1883",
+  "word": "recede",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to move back or further away from a previous position",
+  "synonyms": [
+   "retreat",
+   "withdraw",
+   "ebb"
+  ],
+  "antonyms": [
+   "advance"
+  ],
+  "example": "The floodwaters receded."
+ },
+ {
+  "id": "v-1884",
+  "word": "recite",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to repeat aloud from memory",
+  "synonyms": [
+   "repeat",
+   "recount",
+   "declaim"
+  ],
+  "antonyms": [],
+  "example": "She recited a poem."
+ },
+ {
+  "id": "v-1885",
+  "word": "reckon",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to consider or regard in a specified way",
+  "synonyms": [
+   "judge",
+   "consider",
+   "esteem"
+  ],
+  "antonyms": [],
+  "example": "He is reckoned a great leader."
+ },
+ {
+  "id": "v-1886",
+  "word": "reclaim",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to retrieve or recover something previously lost",
+  "synonyms": [
+   "recover",
+   "regain",
+   "retrieve"
+  ],
+  "antonyms": [
+   "abandon"
+  ],
+  "example": "She reclaimed her luggage."
+ },
+ {
+  "id": "v-1887",
+  "word": "recoil",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to suddenly spring or flinch back in fear or disgust",
+  "synonyms": [
+   "flinch",
+   "shrink",
+   "rebound"
+  ],
+  "antonyms": [
+   "advance"
+  ],
+  "example": "She recoiled in horror."
+ },
+ {
+  "id": "v-1888",
+  "word": "recount",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to tell someone about something that has happened",
+  "synonyms": [
+   "narrate",
+   "relate",
+   "describe"
+  ],
+  "antonyms": [],
+  "example": "She recounted her adventures."
+ },
+ {
+  "id": "v-1889",
+  "word": "redeem",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to compensate for the faults or bad aspects of",
+  "synonyms": [
+   "save",
+   "salvage",
+   "rescue"
+  ],
+  "antonyms": [
+   "forsake"
+  ],
+  "example": "He redeemed his reputation."
+ },
+ {
+  "id": "v-1890",
+  "word": "redress",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to remedy or set right an undesirable situation",
+  "synonyms": [
+   "remedy",
+   "correct",
+   "right"
+  ],
+  "antonyms": [
+   "aggrieve"
+  ],
+  "example": "She sought to redress the injustice."
+ },
+ {
+  "id": "v-1891",
+  "word": "reek",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to smell strongly and unpleasantly",
+  "synonyms": [
+   "stink",
+   "smell"
+  ],
+  "antonyms": [],
+  "example": "The room reeked of smoke."
+ },
+ {
+  "id": "v-1892",
+  "word": "regale",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to entertain or amuse with talk or stories",
+  "synonyms": [
+   "entertain",
+   "delight",
+   "amuse"
+  ],
+  "antonyms": [
+   "bore"
+  ],
+  "example": "He regaled us with tales."
+ },
+ {
+  "id": "v-1893",
+  "word": "regress",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to return to a former or less developed state",
+  "synonyms": [
+   "revert",
+   "relapse",
+   "retrograde"
+  ],
+  "antonyms": [
+   "progress"
+  ],
+  "example": "The patient began to regress."
+ },
+ {
+  "id": "v-1894",
+  "word": "rehearse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to practice a play or other performance for later public performance",
+  "synonyms": [
+   "practice",
+   "drill",
+   "prepare"
+  ],
+  "antonyms": [],
+  "example": "The band rehearsed the song."
+ },
+ {
+  "id": "v-1895",
+  "word": "reign",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to hold royal office; rule as monarch",
+  "synonyms": [
+   "rule",
+   "govern",
+   "dominate"
+  ],
+  "antonyms": [],
+  "example": "The queen reigned for fifty years."
+ },
+ {
+  "id": "v-1896",
+  "word": "rejoice",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to feel or show great joy",
+  "synonyms": [
+   "celebrate",
+   "exult",
+   "delight"
+  ],
+  "antonyms": [
+   "mourn"
+  ],
+  "example": "We rejoiced at the news."
+ },
+ {
+  "id": "v-1897",
+  "word": "relapse",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to suffer a deterioration after a period of improvement",
+  "synonyms": [
+   "regress",
+   "backslide",
+   "fall back"
+  ],
+  "antonyms": [
+   "recover"
+  ],
+  "example": "He relapsed into old habits."
+ },
+ {
+  "id": "v-1898",
+  "word": "relax",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make or become less tense or anxious",
+  "synonyms": [
+   "unwind",
+   "loosen",
+   "ease"
+  ],
+  "antonyms": [
+   "tense"
+  ],
+  "example": "She relaxed on the beach."
+ },
+ {
+  "id": "v-1899",
+  "word": "relinquish",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to voluntarily cease to keep or claim",
+  "synonyms": [
+   "abandon",
+   "renounce",
+   "surrender"
+  ],
+  "antonyms": [
+   "retain"
+  ],
+  "example": "He relinquished his throne."
+ },
+ {
+  "id": "v-1900",
+  "word": "relish",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to enjoy greatly; to anticipate with pleasure",
+  "synonyms": [
+   "enjoy",
+   "savor",
+   "appreciate"
+  ],
+  "antonyms": [
+   "dislike"
+  ],
+  "example": "She relished every moment."
+ }
+]

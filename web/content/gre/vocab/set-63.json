@@ -1,0 +1,395 @@
+[
+ {
+  "id": "v-1551",
+  "word": "stigma",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a mark of disgrace associated with a circumstance",
+  "synonyms": [
+   "disgrace",
+   "shame",
+   "stain"
+  ],
+  "antonyms": [
+   "honor"
+  ],
+  "example": "There is a stigma attached to failure."
+ },
+ {
+  "id": "v-1552",
+  "word": "stoic",
+  "tier": 1,
+  "pos": "n",
+  "definition": "enduring pain and hardship without showing feelings",
+  "synonyms": [
+   "resigned",
+   "impassive",
+   "stolid"
+  ],
+  "antonyms": [
+   "emotional"
+  ],
+  "example": "She remained stoic through the crisis."
+ },
+ {
+  "id": "v-1553",
+  "word": "stratagem",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a plan or scheme designed to achieve an aim",
+  "synonyms": [
+   "tactic",
+   "ploy",
+   "ruse"
+  ],
+  "antonyms": [],
+  "example": "They used a clever stratagem."
+ },
+ {
+  "id": "v-1554",
+  "word": "surreptitious",
+  "tier": 1,
+  "pos": "n",
+  "definition": "kept secret because it would not be approved of",
+  "synonyms": [
+   "clandestine",
+   "sneaky",
+   "stealthy"
+  ],
+  "antonyms": [
+   "overt"
+  ],
+  "example": "He took a surreptitious glance."
+ },
+ {
+  "id": "v-1555",
+  "word": "tenuous",
+  "tier": 1,
+  "pos": "n",
+  "definition": "very weak or slight; insubstantial",
+  "synonyms": [
+   "thin",
+   "flimsy",
+   "nebulous"
+  ],
+  "antonyms": [
+   "strong"
+  ],
+  "example": "He had only tenuous evidence."
+ },
+ {
+  "id": "v-1556",
+  "word": "transient",
+  "tier": 1,
+  "pos": "n",
+  "definition": "lasting only for a short time; impermanent",
+  "synonyms": [
+   "fleeting",
+   "temporary",
+   "ephemeral"
+  ],
+  "antonyms": [
+   "permanent"
+  ],
+  "example": "Their joy was transient."
+ },
+ {
+  "id": "v-1557",
+  "word": "virulent",
+  "tier": 1,
+  "pos": "n",
+  "definition": "extremely severe or harmful in its effects",
+  "synonyms": [
+   "poisonous",
+   "bitter",
+   "toxic"
+  ],
+  "antonyms": [
+   "mild"
+  ],
+  "example": "The virulent disease spread quickly."
+ },
+ {
+  "id": "v-1558",
+  "word": "vociferous",
+  "tier": 1,
+  "pos": "n",
+  "definition": "expressing opinions loudly and forcefully",
+  "synonyms": [
+   "outspoken",
+   "clamorous",
+   "strident"
+  ],
+  "antonyms": [
+   "quiet"
+  ],
+  "example": "The vociferous crowd demanded change."
+ },
+ {
+  "id": "v-1559",
+  "word": "whimsical",
+  "tier": 2,
+  "pos": "n",
+  "definition": "playfully quaint or fanciful",
+  "synonyms": [
+   "playful",
+   "fanciful",
+   "impish"
+  ],
+  "antonyms": [
+   "serious"
+  ],
+  "example": "Her whimsical stories delighted readers."
+ },
+ {
+  "id": "v-1560",
+  "word": "docile",
+  "tier": 2,
+  "pos": "n",
+  "definition": "ready to accept control or instruction; submissive",
+  "synonyms": [
+   "obedient",
+   "tractable",
+   "compliant"
+  ],
+  "antonyms": [
+   "recalcitrant"
+  ],
+  "example": "The docile horse was easy to train."
+ },
+ {
+  "id": "v-1561",
+  "word": "ensconce",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to establish or settle in a comfortable, safe place",
+  "synonyms": [
+   "settle",
+   "nestle",
+   "install"
+  ],
+  "antonyms": [
+   "dislodge"
+  ],
+  "example": "She was ensconced in a cozy chair."
+ },
+ {
+  "id": "v-1562",
+  "word": "eon",
+  "tier": 2,
+  "pos": "n",
+  "definition": "an indefinitely long period of time; an age",
+  "synonyms": [
+   "age",
+   "era",
+   "aeon"
+  ],
+  "antonyms": [
+   "moment"
+  ],
+  "example": "The mountains have stood for eons."
+ },
+ {
+  "id": "v-1563",
+  "word": "fray",
+  "tier": 2,
+  "pos": "v",
+  "definition": "a situation of intense activity, typically a fight",
+  "synonyms": [
+   "conflict",
+   "brawl",
+   "clash"
+  ],
+  "antonyms": [
+   "peace"
+  ],
+  "example": "He entered the fray with enthusiasm."
+ },
+ {
+  "id": "v-1564",
+  "word": "friction",
+  "tier": 2,
+  "pos": "v",
+  "definition": "the rubbing of one object against another; disagreement",
+  "synonyms": [
+   "rubbing",
+   "discord",
+   "conflict"
+  ],
+  "antonyms": [
+   "harmony"
+  ],
+  "example": "There was friction between the brothers."
+ },
+ {
+  "id": "v-1565",
+  "word": "ingrained",
+  "tier": 2,
+  "pos": "v",
+  "definition": "deeply embedded; firmly established",
+  "synonyms": [
+   "deep-rooted",
+   "entrenched",
+   "fixed"
+  ],
+  "antonyms": [
+   "superficial"
+  ],
+  "example": "Her ingrained habits were hard to change."
+ },
+ {
+  "id": "v-1566",
+  "word": "jeopardy",
+  "tier": 2,
+  "pos": "v",
+  "definition": "danger of loss, harm, or failure",
+  "synonyms": [
+   "peril",
+   "danger",
+   "risk"
+  ],
+  "antonyms": [
+   "safety"
+  ],
+  "example": "His life was in jeopardy."
+ },
+ {
+  "id": "v-1567",
+  "word": "lackluster",
+  "tier": 3,
+  "pos": "v",
+  "definition": "lacking energy or inspiration",
+  "synonyms": [
+   "dull",
+   "uninspired",
+   "drab"
+  ],
+  "antonyms": [
+   "brilliant"
+  ],
+  "example": "The performance was lackluster."
+ },
+ {
+  "id": "v-1568",
+  "word": "lethargic",
+  "tier": 3,
+  "pos": "v",
+  "definition": "sluggish and apathetic",
+  "synonyms": [
+   "sluggish",
+   "listless",
+   "torpid"
+  ],
+  "antonyms": [
+   "energetic"
+  ],
+  "example": "The heat made me lethargic."
+ },
+ {
+  "id": "v-1569",
+  "word": "mar",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to spoil or damage the quality of",
+  "synonyms": [
+   "spoil",
+   "ruin",
+   "impair"
+  ],
+  "antonyms": [
+   "improve"
+  ],
+  "example": "The rain marred the picnic."
+ },
+ {
+  "id": "v-1570",
+  "word": "marvel",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to be filled with wonder",
+  "synonyms": [
+   "wonder",
+   "admire"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "I marvel at her skill."
+ },
+ {
+  "id": "v-1571",
+  "word": "masochist",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a person who takes pleasure in pain or humiliation",
+  "synonyms": [
+   "self-tormentor"
+  ],
+  "antonyms": [],
+  "example": "Don't be a masochist about it."
+ },
+ {
+  "id": "v-1572",
+  "word": "mediocre",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "of only moderate quality; not very good",
+  "synonyms": [
+   "ordinary",
+   "average",
+   "inferior"
+  ],
+  "antonyms": [
+   "excellent"
+  ],
+  "example": "The meal was mediocre at best."
+ },
+ {
+  "id": "v-1573",
+  "word": "monotony",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "lack of variety; tedious sameness",
+  "synonyms": [
+   "tedium",
+   "sameness",
+   "boredom"
+  ],
+  "antonyms": [
+   "variety"
+  ],
+  "example": "The monotony of the job wore her down."
+ },
+ {
+  "id": "v-1574",
+  "word": "morose",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "sullen and ill-tempered; gloomy",
+  "synonyms": [
+   "gloomy",
+   "sullen",
+   "sulky"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "He grew morose after the loss."
+ },
+ {
+  "id": "v-1575",
+  "word": "noble",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "having fine personal qualities or high moral principles",
+  "synonyms": [
+   "aristocratic",
+   "lofty",
+   "magnificent"
+  ],
+  "antonyms": [
+   "ignoble"
+  ],
+  "example": "She had a noble heart."
+ }
+]

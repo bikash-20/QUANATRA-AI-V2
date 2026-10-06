@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-dat-346",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the range of $3, 7, 12, 18, 22$?",
+  "choices": [
+   "$15$",
+   "$18$",
+   "$19$",
+   "$22$",
+   "$25$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-347",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A die is rolled. What is the probability of getting an odd number?",
+  "choices": [
+   "$\\dfrac{1}{6}$",
+   "$\\dfrac{1}{3}$",
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{2}{3}$",
+   "$\\dfrac{5}{6}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-348",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many different outfits can be made from $4$ shirts and $3$ pants?",
+  "choices": [
+   "$7$",
+   "$9$",
+   "$10$",
+   "$12$",
+   "$14$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-349",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the mean of $10, 20, 30, 40, 50$?",
+  "choices": [
+   "$20$",
+   "$25$",
+   "$30$",
+   "$35$",
+   "$40$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-350",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Two coins are flipped. What is the probability of getting two heads?",
+  "choices": [
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{3}{4}$",
+   "$1$",
+   "$\\dfrac{1}{3}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-351",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A data set has values $4, 6, 8, 10, 12$. What is the variance?",
+  "choices": [
+   "$4$",
+   "$5$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-352",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Three fair coins are flipped. What is the probability of getting exactly $2$ heads?",
+  "choices": [
+   "$\\dfrac{1}{8}$",
+   "$\\dfrac{2}{8}$",
+   "$\\dfrac{3}{8}$",
+   "$\\dfrac{4}{8}$",
+   "$\\dfrac{6}{8}$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-353",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many distinct arrangements of the letters in the word $\\text{CAT}$ are there?",
+  "choices": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$",
+   "$9$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-dat-354",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If the mean of $8$ numbers is $15$ and one number is removed, the mean becomes $14$. What was the removed number?",
+  "choices": [
+   "$20$",
+   "$22$",
+   "$24$",
+   "$26$",
+   "$28$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-355",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following events are independent when rolling two dice?",
+  "choices": [
+   "The first die shows $3$",
+   "The second die shows $4$",
+   "The sum is $7$",
+   "The product is even",
+   "Both dice show the same number"
+  ],
+  "answer": [0, 1]
+ },
+ {
+  "id": "q-dat-356",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "The average of $6$ numbers is $25$. If $5$ of them are $20, 22, 28, 30, 25$, what is the sixth?",
+  "answer": 25
+ },
+ {
+  "id": "q-dat-357",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Out of $200$ tickets, $5$ win a prize. What is the probability of winning if you buy one ticket? Give the answer as a decimal.",
+  "answer": 0.025
+ },
+ {
+  "id": "q-dat-358",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$5!$",
+  "quantityB": "$6 \\cdot 4!$",
+  "answer": "B"
+ },
+ {
+  "id": "q-dat-359",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "In a histogram, the bar of height $20$ represents which of the following?",
+  "choices": [
+   "A value of $20$ in the data",
+   "A frequency of $20$ for that interval",
+   "A percentage of $20\\%$ of the total",
+   "An average of $20$ for that bin",
+   "A standard deviation of $20$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-360",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A spinner has $8$ equal sectors numbered $1$ through $8$. What is the probability of landing on a number divisible by $3$?",
+  "choices": [
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{3}{8}$",
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{5}{8}$",
+   "$\\dfrac{3}{4}$"
+  ],
+  "answer": 0
+ },
+ {
+  "id": "q-dat-361",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "The median of $10, 20, 30, 40, x$ is $25$. What is the sum of all possible values of $x$?",
+  "choices": [
+   "$30$",
+   "$40$",
+   "$50$",
+   "$70$",
+   "$80$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-362",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $P(A) = 0.6$ and $P(B) = 0.5$ and $A, B$ are independent, what is $P(A \\cap B)$?",
+  "choices": [
+   "$0.1$",
+   "$0.2$",
+   "$0.3$",
+   "$0.4$",
+   "$0.5$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-dat-363",
+  "topic": "data-analysis",
+  "subtopic": "counting",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How many ways can a committee of $4$ be chosen from $10$ people?",
+  "choices": [
+   "$120$",
+   "$210$",
+   "$360$",
+   "$5040$",
+   "$625$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-dat-364",
+  "topic": "data-analysis",
+  "subtopic": "statistics",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following are measures of spread in a data set?",
+  "choices": [
+   "Range",
+   "Variance",
+   "Median",
+   "Standard deviation",
+   "Mode"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-dat-365",
+  "topic": "data-analysis",
+  "subtopic": "probability",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Probability of rolling a sum $\\leq 7$ with two dice",
+  "quantityB": "Probability of rolling a sum $\\geq 7$ with two dice",
+  "answer": "C"
+ }
+]

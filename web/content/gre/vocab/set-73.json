@@ -1,0 +1,392 @@
+[
+ {
+  "id": "v-1801",
+  "word": "hasten",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to move or act quickly; accelerate",
+  "synonyms": [
+   "hurry",
+   "rush",
+   "speed"
+  ],
+  "antonyms": [
+   "delay"
+  ],
+  "example": "She hastened to the door."
+ },
+ {
+  "id": "v-1802",
+  "word": "heal",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make or become sound or healthy again",
+  "synonyms": [
+   "cure",
+   "recover",
+   "mend"
+  ],
+  "antonyms": [
+   "wound"
+  ],
+  "example": "The wound healed quickly."
+ },
+ {
+  "id": "v-1803",
+  "word": "hearken",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to listen or pay attention",
+  "synonyms": [
+   "listen",
+   "hark",
+   "attend"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Friends, hearken unto my advice."
+ },
+ {
+  "id": "v-1804",
+  "word": "hearten",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to make more cheerful or confident",
+  "synonyms": [
+   "encourage",
+   "cheer",
+   "embolden"
+  ],
+  "antonyms": [
+   "dishearten"
+  ],
+  "example": "The news heartened the team."
+ },
+ {
+  "id": "v-1805",
+  "word": "heave",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to lift or haul with great effort",
+  "synonyms": [
+   "lift",
+   "haul",
+   "toss"
+  ],
+  "antonyms": [],
+  "example": "He heaved the bag onto his shoulder."
+ },
+ {
+  "id": "v-1806",
+  "word": "heed",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to pay attention to; take notice of",
+  "synonyms": [
+   "mind",
+   "regard",
+   "note"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "example": "Heed my warning."
+ },
+ {
+  "id": "v-1807",
+  "word": "hoard",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to accumulate and store away, typically for future use",
+  "synonyms": [
+   "stockpile",
+   "amass",
+   "stash"
+  ],
+  "antonyms": [
+   "squander"
+  ],
+  "example": "He hoarded food for the winter."
+ },
+ {
+  "id": "v-1808",
+  "word": "hover",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to remain in one place in the air",
+  "synonyms": [
+   "float",
+   "linger",
+   "loom"
+  ],
+  "antonyms": [
+   "depart"
+  ],
+  "example": "The hawk hovered above."
+ },
+ {
+  "id": "v-1809",
+  "word": "ignite",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to set on fire; catch fire",
+  "synonyms": [
+   "light",
+   "kindle",
+   "set off"
+  ],
+  "antonyms": [
+   "extinguish"
+  ],
+  "example": "The match ignited the kindling."
+ },
+ {
+  "id": "v-1810",
+  "word": "impair",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to weaken or damage, especially in a way that makes something less effective",
+  "synonyms": [
+   "weaken",
+   "damage",
+   "diminish"
+  ],
+  "antonyms": [
+   "improve"
+  ],
+  "example": "Alcohol impaired his judgment."
+ },
+ {
+  "id": "v-1811",
+  "word": "impart",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to make known; to give",
+  "synonyms": [
+   "communicate",
+   "convey",
+   "bestow"
+  ],
+  "antonyms": [
+   "withhold"
+  ],
+  "example": "She imparted her wisdom to the class."
+ },
+ {
+  "id": "v-1812",
+  "word": "impede",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to delay or prevent by obstructing",
+  "synonyms": [
+   "hinder",
+   "obstruct",
+   "hamper"
+  ],
+  "antonyms": [
+   "assist"
+  ],
+  "example": "The fallen tree impeded traffic."
+ },
+ {
+  "id": "v-1813",
+  "word": "importune",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to harass with persistent requests",
+  "synonyms": [
+   "pester",
+   "badger",
+   "beg"
+  ],
+  "antonyms": [],
+  "example": "He importuned the manager for a favor."
+ },
+ {
+  "id": "v-1814",
+  "word": "incise",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to cut into; engrave",
+  "synonyms": [
+   "cut",
+   "carve",
+   "engrave"
+  ],
+  "antonyms": [],
+  "example": "The artist incised the stone."
+ },
+ {
+  "id": "v-1815",
+  "word": "incite",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to encourage or stir up",
+  "synonyms": [
+   "provoke",
+   "instigate",
+   "stir up"
+  ],
+  "antonyms": [
+   "calm"
+  ],
+  "example": "His speech incited the crowd."
+ },
+ {
+  "id": "v-1816",
+  "word": "incline",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to lean or bend; to dispose toward",
+  "synonyms": [
+   "lean",
+   "bend",
+   "tend"
+  ],
+  "antonyms": [
+   "disincline"
+  ],
+  "example": "I incline to disagree."
+ },
+ {
+  "id": "v-1817",
+  "word": "incur",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to become subject to through one's own action",
+  "synonyms": [
+   "incur",
+   "sustain",
+   "earn"
+  ],
+  "antonyms": [
+   "avoid"
+  ],
+  "example": "He incurred heavy debts."
+ },
+ {
+  "id": "v-1818",
+  "word": "indict",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to formally charge with a serious crime",
+  "synonyms": [
+   "accuse",
+   "charge",
+   "arraign"
+  ],
+  "antonyms": [
+   "acquit"
+  ],
+  "example": "The grand jury indicted him."
+ },
+ {
+  "id": "v-1819",
+  "word": "inflict",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to cause something unpleasant to be suffered",
+  "synonyms": [
+   "impose",
+   "deliver",
+   "wreak"
+  ],
+  "antonyms": [
+   "relieve"
+  ],
+  "example": "He inflicted pain on his enemies."
+ },
+ {
+  "id": "v-1820",
+  "word": "ingest",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to take food or drink into the body",
+  "synonyms": [
+   "consume",
+   "swallow",
+   "eat"
+  ],
+  "antonyms": [
+   "expel"
+  ],
+  "example": "Birds ingest seeds and spread them."
+ },
+ {
+  "id": "v-1821",
+  "word": "instill",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to gradually establish an attitude or feeling",
+  "synonyms": [
+   "implant",
+   "inculcate",
+   "impress"
+  ],
+  "antonyms": [
+   "eradicate"
+  ],
+  "example": "She instilled confidence in her children."
+ },
+ {
+  "id": "v-1822",
+  "word": "insult",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to speak to or treat with contempt",
+  "synonyms": [
+   "offend",
+   "affront",
+   "disparage"
+  ],
+  "antonyms": [
+   "compliment"
+  ],
+  "example": "He insulted her appearance."
+ },
+ {
+  "id": "v-1823",
+  "word": "intend",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to have a course of action as one's purpose or plan",
+  "synonyms": [
+   "plan",
+   "mean",
+   "aim"
+  ],
+  "antonyms": [],
+  "example": "I intend to leave soon."
+ },
+ {
+  "id": "v-1824",
+  "word": "inter",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to place a dead body in a grave or tomb",
+  "synonyms": [
+   "bury",
+   "entomb",
+   "inhume"
+  ],
+  "antonyms": [
+   "exhume"
+  ],
+  "example": "He was interred in the family plot."
+ },
+ {
+  "id": "v-1825",
+  "word": "intone",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to say or recite in a solemn or monotone voice",
+  "synonyms": [
+   "chant",
+   "recite",
+   "pronounce"
+  ],
+  "antonyms": [],
+  "example": "The priest intoned the prayer."
+ }
+]

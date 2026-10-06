@@ -1,0 +1,316 @@
+[
+ {
+  "id": "q-wpr-366",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If it takes $2$ hours to travel $80$ miles, what is the speed?",
+  "choices": [
+   "$30$ mph",
+   "$35$ mph",
+   "$40$ mph",
+   "$45$ mph",
+   "$50$ mph"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-367",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $6$ painters paint $3$ houses in $12$ days, how many days for $6$ painters to paint $1$ house?",
+  "choices": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$",
+   "$12$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-368",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "What is the simple interest on $\\$200$ at $5\\%$ per year for $4$ years?",
+  "choices": [
+   "$\\$10$",
+   "$\\$20$",
+   "$\\$30$",
+   "$\\$40$",
+   "$\\$50$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-369",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $1$ cup of sugar is added to $4$ cups of water, what fraction of the mixture is sugar?",
+  "choices": [
+   "$\\dfrac{1}{2}$",
+   "$\\dfrac{1}{3}$",
+   "$\\dfrac{1}{4}$",
+   "$\\dfrac{1}{5}$",
+   "$\\dfrac{4}{5}$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-370",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "easy",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If sales go from $50$ to $75$, what is the percent increase?",
+  "choices": [
+   "$25\\%$",
+   "$33\\%$",
+   "$50\\%$",
+   "$75\\%$",
+   "$150\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-371",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "John walks $5$ miles at $5$ mph and returns at $2.5$ mph. What is his average speed?",
+  "choices": [
+   "$2.5$ mph",
+   "$3.3$ mph",
+   "$3.75$ mph",
+   "$5$ mph",
+   "$7.5$ mph"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-372",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A car travels at $60$ mph for $2$ hours, then $40$ mph for $1$ hour. Total distance?",
+  "choices": [
+   "$100$ miles",
+   "$120$ miles",
+   "$140$ miles",
+   "$160$ miles",
+   "$200$ miles"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-373",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Three identical machines complete a job in $12$ hours. How long for $2$ such machines?",
+  "choices": [
+   "$6$",
+   "$8$",
+   "$12$",
+   "$18$",
+   "$24$"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-374",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "If $\\$500$ is invested at $8\\%$ simple interest, how much total after $3$ years?",
+  "choices": [
+   "$\\$500$",
+   "$\\$620$",
+   "$\\$640$",
+   "$\\$700$",
+   "$\\$720$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-375",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "Mix $5$ liters of $20\\%$ salt with $5$ liters of $40\\%$ salt. What is the concentration?",
+  "choices": [
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$",
+   "$35\\%$",
+   "$40\\%$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-376",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A price drops from $\\$200$ to $\\$150$. What is the percent decrease?",
+  "choices": [
+   "$20\\%$",
+   "$25\\%$",
+   "$30\\%$",
+   "$33\\%$",
+   "$50\\%$"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-377",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "multi",
+  "stem": "Which of the following statements about average speed are true?",
+  "choices": [
+   "It is total distance divided by total time",
+   "It equals the harmonic mean of the two speeds for equal distances",
+   "It equals the arithmetic mean of the two speeds",
+   "It can never exceed the maximum of the two speeds",
+   "It can be higher than both individual speeds"
+  ],
+  "answer": [0, 1, 3]
+ },
+ {
+  "id": "q-wpr-378",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "A plane flies $600$ miles in $3$ hours. What is its speed in mph?",
+  "answer": 200
+ },
+ {
+  "id": "q-wpr-379",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "numeric",
+  "stem": "Worker A can finish a job in 10 days, and worker B can finish it in 15 days. How long do they take together? Give the answer as a decimal to one place.",
+  "answer": 6
+ },
+ {
+  "id": "q-wpr-380",
+  "topic": "word-problems",
+  "subtopic": "interest",
+  "difficulty": "medium",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "$\\$400$ at $6\\%$ simple interest for $2$ years",
+  "quantityB": "$\\$300$ at $8\\%$ simple interest for $2$ years",
+  "answer": "C"
+ },
+ {
+  "id": "q-wpr-381",
+  "topic": "word-problems",
+  "subtopic": "mixtures",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "How much $30\\%$ acid must be added to $40$ liters of $10\\%$ acid to get a $20\\%$ solution?",
+  "choices": [
+   "$20$",
+   "$30$",
+   "$40$",
+   "$50$",
+   "$60$"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-382",
+  "topic": "word-problems",
+  "subtopic": "percent-change",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A value decreases by $50\\%$ and then increases by $50\\%$. Compared to the original, the new value is:",
+  "choices": [
+   "the same",
+   "$25\\%$ less",
+   "$25\\%$ more",
+   "$50\\%$ less",
+   "$75\\%$ of the original"
+  ],
+  "answer": 1
+ },
+ {
+  "id": "q-wpr-383",
+  "topic": "word-problems",
+  "subtopic": "rate",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A boat's speed in still water is $10$ mph, current is $2$ mph. Time to go $24$ miles upstream?",
+  "choices": [
+   "$1.5$ hours",
+   "$2$ hours",
+   "$2.4$ hours",
+   "$3$ hours",
+   "$4$ hours"
+  ],
+  "answer": 3
+ },
+ {
+  "id": "q-wpr-384",
+  "topic": "word-problems",
+  "subtopic": "work",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "mcq",
+  "stem": "A and B can do a job in $10$ days. B and C in $15$ days. A and C in $20$ days. How long for all three?",
+  "choices": [
+   "$8$ days",
+   "$9$ days",
+   "$\\dfrac{120}{13}$ days",
+   "$12$ days",
+   "$15$ days"
+  ],
+  "answer": 2
+ },
+ {
+  "id": "q-wpr-385",
+  "topic": "word-problems",
+  "subtopic": "average-speed",
+  "difficulty": "hard",
+  "tags": [],
+  "type": "qc",
+  "quantityA": "Average speed if equal time at $30$ mph and $60$ mph",
+  "quantityB": "$45$ mph",
+  "answer": "C"
+ }
+]

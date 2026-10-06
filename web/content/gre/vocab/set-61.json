@@ -1,0 +1,392 @@
+[
+ {
+  "id": "v-1501",
+  "word": "ailment",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an illness or disorder, especially a minor one",
+  "synonyms": [
+   "illness",
+   "affliction"
+  ],
+  "antonyms": [
+   "health"
+  ],
+  "example": "He suffered from a chronic ailment."
+ },
+ {
+  "id": "v-1502",
+  "word": "amalgam",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a mixture or blend of different elements",
+  "synonyms": [
+   "blend",
+   "alloy",
+   "mixture"
+  ],
+  "antonyms": [
+   "separation"
+  ],
+  "example": "The album is an amalgam of jazz and rock."
+ },
+ {
+  "id": "v-1503",
+  "word": "ambush",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a surprise attack from a concealed position",
+  "synonyms": [
+   "trap",
+   "surprise attack"
+  ],
+  "antonyms": [
+   "expected meeting"
+  ],
+  "example": "The patrol walked into an ambush."
+ },
+ {
+  "id": "v-1504",
+  "word": "antidote",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a medicine that counteracts a poison",
+  "synonyms": [
+   "remedy",
+   "cure",
+   "counteragent"
+  ],
+  "antonyms": [
+   "poison"
+  ],
+  "example": "Antidotes must be administered quickly."
+ },
+ {
+  "id": "v-1505",
+  "word": "artisan",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a person skilled in a craft",
+  "synonyms": [
+   "craftsperson",
+   "artificer"
+  ],
+  "antonyms": [
+   "amateur"
+  ],
+  "example": "The artisan carved a wooden chair."
+ },
+ {
+  "id": "v-1506",
+  "word": "asylum",
+  "tier": 1,
+  "pos": "n",
+  "definition": "shelter or protection from danger",
+  "synonyms": [
+   "refuge",
+   "sanctuary"
+  ],
+  "antonyms": [
+   "danger"
+  ],
+  "example": "He sought asylum in a foreign embassy."
+ },
+ {
+  "id": "v-1507",
+  "word": "atrocity",
+  "tier": 1,
+  "pos": "n",
+  "definition": "an extremely wicked or cruel act",
+  "synonyms": [
+   "outrage",
+   "horror"
+  ],
+  "antonyms": [
+   "kindness"
+  ],
+  "example": "The atrocity shocked the world."
+ },
+ {
+  "id": "v-1508",
+  "word": "autonomy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the right or condition of self-government",
+  "synonyms": [
+   "independence",
+   "self-rule"
+  ],
+  "antonyms": [
+   "dependence"
+  ],
+  "example": "The region fought for autonomy."
+ },
+ {
+  "id": "v-1509",
+  "word": "bias",
+  "tier": 2,
+  "pos": "n",
+  "definition": "prejudice in favor of or against something",
+  "synonyms": [
+   "prejudice",
+   "partiality"
+  ],
+  "antonyms": [
+   "fairness"
+  ],
+  "example": "The media showed bias in its coverage."
+ },
+ {
+  "id": "v-1510",
+  "word": "blight",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a thing that spoils or damages something",
+  "synonyms": [
+   "curse",
+   "scourge",
+   "plague"
+  ],
+  "antonyms": [
+   "blessing"
+  ],
+  "example": "Disease was a blight on the crops."
+ },
+ {
+  "id": "v-1511",
+  "word": "clamor",
+  "tier": 2,
+  "pos": "n",
+  "definition": "a loud and confused noise",
+  "synonyms": [
+   "uproar",
+   "din",
+   "hullabaloo"
+  ],
+  "antonyms": [
+   "silence"
+  ],
+  "example": "The clamor outside woke the neighbors."
+ },
+ {
+  "id": "v-1512",
+  "word": "cogency",
+  "tier": 2,
+  "pos": "n",
+  "definition": "the quality of being clear and convincing",
+  "synonyms": [
+   "persuasiveness",
+   "force"
+  ],
+  "antonyms": [
+   "weakness"
+  ],
+  "example": "The cogency of her argument won the room."
+ },
+ {
+  "id": "v-1513",
+  "word": "colossal",
+  "tier": 2,
+  "pos": "v",
+  "definition": "extremely great in size or degree",
+  "synonyms": [
+   "huge",
+   "enormous",
+   "immense"
+  ],
+  "antonyms": [
+   "tiny"
+  ],
+  "example": "The colossal statue towered above."
+ },
+ {
+  "id": "v-1514",
+  "word": "comply",
+  "tier": 2,
+  "pos": "v",
+  "definition": "to act in accordance with a wish or command",
+  "synonyms": [
+   "obey",
+   "conform",
+   "accede"
+  ],
+  "antonyms": [
+   "defy"
+  ],
+  "example": "She complied with the regulation."
+ },
+ {
+  "id": "v-1515",
+  "word": "covenant",
+  "tier": 2,
+  "pos": "v",
+  "definition": "a solemn agreement",
+  "synonyms": [
+   "pact",
+   "contract",
+   "compact"
+  ],
+  "antonyms": [
+   "breach"
+  ],
+  "example": "The two nations signed a covenant."
+ },
+ {
+  "id": "v-1516",
+  "word": "criterion",
+  "tier": 2,
+  "pos": "v",
+  "definition": "a principle or standard by which something is judged",
+  "synonyms": [
+   "standard",
+   "benchmark",
+   "measure"
+  ],
+  "antonyms": [],
+  "example": "Speed was the main criterion for success."
+ },
+ {
+  "id": "v-1517",
+  "word": "dearth",
+  "tier": 3,
+  "pos": "v",
+  "definition": "a scarcity or lack of something",
+  "synonyms": [
+   "scarcity",
+   "shortage",
+   "paucity"
+  ],
+  "antonyms": [
+   "abundance"
+  ],
+  "example": "There is a dearth of qualified teachers."
+ },
+ {
+  "id": "v-1518",
+  "word": "deplore",
+  "tier": 3,
+  "pos": "v",
+  "definition": "to feel or express strong disapproval of",
+  "synonyms": [
+   "condemn",
+   "denounce",
+   "lament"
+  ],
+  "antonyms": [
+   "applaud"
+  ],
+  "example": "We deplore all acts of violence."
+ },
+ {
+  "id": "v-1519",
+  "word": "diligent",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "showing care and conscientiousness in one's work",
+  "synonyms": [
+   "hardworking",
+   "industrious",
+   "assiduous"
+  ],
+  "antonyms": [
+   "lazy"
+  ],
+  "example": "The diligent student earned top marks."
+ },
+ {
+  "id": "v-1520",
+  "word": "dispel",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make a doubt or feeling disappear",
+  "synonyms": [
+   "banish",
+   "eliminate",
+   "drive away"
+  ],
+  "antonyms": [
+   "induce"
+  ],
+  "example": "His smile dispelled her fears."
+ },
+ {
+  "id": "v-1521",
+  "word": "divulge",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to make known private or sensitive information",
+  "synonyms": [
+   "reveal",
+   "disclose",
+   "impart"
+  ],
+  "antonyms": [
+   "conceal"
+  ],
+  "example": "He refused to divulge the secret."
+ },
+ {
+  "id": "v-1522",
+  "word": "engross",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to absorb all the attention of",
+  "synonyms": [
+   "absorb",
+   "captivate",
+   "occupy"
+  ],
+  "antonyms": [
+   "bore"
+  ],
+  "example": "The book engrossed me for hours."
+ },
+ {
+  "id": "v-1523",
+  "word": "ennui",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "a feeling of listlessness and dissatisfaction",
+  "synonyms": [
+   "boredom",
+   "tedium",
+   "world-weariness"
+  ],
+  "antonyms": [
+   "enthusiasm"
+  ],
+  "example": "He suffered from a deep ennui."
+ },
+ {
+  "id": "v-1524",
+  "word": "fetter",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "to restrain or confine",
+  "synonyms": [
+   "restrain",
+   "shackle",
+   "confine"
+  ],
+  "antonyms": [
+   "free"
+  ],
+  "example": "Debt fettered the company's growth."
+ },
+ {
+  "id": "v-1525",
+  "word": "hedonist",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "a person who believes pleasure is the highest good",
+  "synonyms": [
+   "pleasure-seeker",
+   "sybarite",
+   "voluptuary"
+  ],
+  "antonyms": [
+   "ascetic"
+  ],
+  "example": "The hedonist lived for pleasure."
+ }
+]

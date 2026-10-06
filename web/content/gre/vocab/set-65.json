@@ -1,0 +1,401 @@
+[
+ {
+  "id": "v-1601",
+  "word": "rigor",
+  "tier": 1,
+  "pos": "n",
+  "definition": "the quality of being extremely thorough and careful",
+  "synonyms": [
+   "strictness",
+   "precision",
+   "harshness"
+  ],
+  "antonyms": [
+   "leniency"
+  ],
+  "example": "The experiment was conducted with rigor."
+ },
+ {
+  "id": "v-1602",
+  "word": "rivet",
+  "tier": 1,
+  "pos": "n",
+  "definition": "to hold attention completely",
+  "synonyms": [
+   "captivate",
+   "fascinate",
+   "grip"
+  ],
+  "antonyms": [
+   "bore"
+  ],
+  "example": "The film riveted the audience."
+ },
+ {
+  "id": "v-1603",
+  "word": "sane",
+  "tier": 1,
+  "pos": "n",
+  "definition": "of sound mind; mentally healthy",
+  "synonyms": [
+   "rational",
+   "lucid",
+   "compos mentis"
+  ],
+  "antonyms": [
+   "insane"
+  ],
+  "example": "He seemed sane and calm."
+ },
+ {
+  "id": "v-1604",
+  "word": "scorn",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a feeling of contempt or disdain",
+  "synonyms": [
+   "contempt",
+   "derision",
+   "disdain"
+  ],
+  "antonyms": [
+   "admiration"
+  ],
+  "example": "She met his idea with scorn."
+ },
+ {
+  "id": "v-1605",
+  "word": "scurvy",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a disease caused by vitamin C deficiency; despicable",
+  "synonyms": [
+   "contemptible",
+   "despicable",
+   "vile"
+  ],
+  "antonyms": [
+   "honorable"
+  ],
+  "example": "The scurvy treatment shocked the guests."
+ },
+ {
+  "id": "v-1606",
+  "word": "sedate",
+  "tier": 1,
+  "pos": "n",
+  "definition": "calm, dignified, and unhurried",
+  "synonyms": [
+   "calm",
+   "composed",
+   "tranquil"
+  ],
+  "antonyms": [
+   "excited"
+  ],
+  "example": "She led a sedate life."
+ },
+ {
+  "id": "v-1607",
+  "word": "sentry",
+  "tier": 1,
+  "pos": "n",
+  "definition": "a soldier stationed to guard a place",
+  "synonyms": [
+   "guard",
+   "lookout",
+   "watchman"
+  ],
+  "antonyms": [],
+  "example": "The sentry stood watch all night."
+ },
+ {
+  "id": "v-1608",
+  "word": "shrewd",
+  "tier": 1,
+  "pos": "n",
+  "definition": "having or showing sharp powers of judgment",
+  "synonyms": [
+   "astute",
+   "sharp",
+   "perceptive"
+  ],
+  "antonyms": [
+   "naive"
+  ],
+  "example": "She is a shrewd businesswoman."
+ },
+ {
+  "id": "v-1609",
+  "word": "sincere",
+  "tier": 2,
+  "pos": "n",
+  "definition": "free from pretense or deceit; genuine",
+  "synonyms": [
+   "genuine",
+   "honest",
+   "candid"
+  ],
+  "antonyms": [
+   "insincere"
+  ],
+  "example": "He gave a sincere apology."
+ },
+ {
+  "id": "v-1610",
+  "word": "sinister",
+  "tier": 2,
+  "pos": "n",
+  "definition": "suggesting or threatening evil",
+  "synonyms": [
+   "menacing",
+   "ominous",
+   "malevolent"
+  ],
+  "antonyms": [
+   "benign"
+  ],
+  "example": "There was a sinister look in his eye."
+ },
+ {
+  "id": "v-1611",
+  "word": "sober",
+  "tier": 2,
+  "pos": "n",
+  "definition": "not affected by alcohol; serious",
+  "synonyms": [
+   "serious",
+   "grave",
+   "sensible"
+  ],
+  "antonyms": [
+   "drunk",
+   "frivolous"
+  ],
+  "example": "He was stone-cold sober."
+ },
+ {
+  "id": "v-1612",
+  "word": "solicit",
+  "tier": 2,
+  "pos": "n",
+  "definition": "to ask for or try to obtain something",
+  "synonyms": [
+   "request",
+   "seek",
+   "petition"
+  ],
+  "antonyms": [
+   "refuse"
+  ],
+  "example": "She solicited donations for charity."
+ },
+ {
+  "id": "v-1613",
+  "word": "somber",
+  "tier": 2,
+  "pos": "v",
+  "definition": "dark or dull in color or tone; serious",
+  "synonyms": [
+   "gloomy",
+   "grave",
+   "melancholy"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "They wore somber clothes to the funeral."
+ },
+ {
+  "id": "v-1614",
+  "word": "spite",
+  "tier": 2,
+  "pos": "v",
+  "definition": "a desire to hurt, annoy, or offend",
+  "synonyms": [
+   "malice",
+   "grudge",
+   "animosity"
+  ],
+  "antonyms": [
+   "goodwill"
+  ],
+  "example": "He did it out of spite."
+ },
+ {
+  "id": "v-1615",
+  "word": "splendid",
+  "tier": 2,
+  "pos": "v",
+  "definition": "very good; magnificent",
+  "synonyms": [
+   "magnificent",
+   "superb",
+   "glorious"
+  ],
+  "antonyms": [
+   "mediocre"
+  ],
+  "example": "We had a splendid time."
+ },
+ {
+  "id": "v-1616",
+  "word": "spontaneous",
+  "tier": 2,
+  "pos": "v",
+  "definition": "occurring without planning; natural",
+  "synonyms": [
+   "impromptu",
+   "unplanned",
+   "unrehearsed"
+  ],
+  "antonyms": [
+   "planned"
+  ],
+  "example": "Her spontaneous song delighted the guests."
+ },
+ {
+  "id": "v-1617",
+  "word": "steadfast",
+  "tier": 3,
+  "pos": "v",
+  "definition": "resolutely firm and unwavering",
+  "synonyms": [
+   "loyal",
+   "committed",
+   "staunch"
+  ],
+  "antonyms": [
+   "fickle"
+  ],
+  "example": "He remained steadfast in his beliefs."
+ },
+ {
+  "id": "v-1618",
+  "word": "stingy",
+  "tier": 3,
+  "pos": "v",
+  "definition": "unwilling to spend or give",
+  "synonyms": [
+   "miserly",
+   "parsimonious",
+   "tightfisted"
+  ],
+  "antonyms": [
+   "generous"
+  ],
+  "example": "Her stingy uncle never tipped."
+ },
+ {
+  "id": "v-1619",
+  "word": "strenuous",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "requiring or using much physical effort",
+  "synonyms": [
+   "arduous",
+   "exhausting",
+   "laborious"
+  ],
+  "antonyms": [
+   "easy"
+  ],
+  "example": "It was a strenuous climb."
+ },
+ {
+  "id": "v-1620",
+  "word": "strife",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "angry or bitter disagreement",
+  "synonyms": [
+   "conflict",
+   "discord",
+   "dissension"
+  ],
+  "antonyms": [
+   "peace"
+  ],
+  "example": "The nation was torn by strife."
+ },
+ {
+  "id": "v-1621",
+  "word": "submissive",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "ready to conform to the authority of others",
+  "synonyms": [
+   "obedient",
+   "compliant",
+   "yielding"
+  ],
+  "antonyms": [
+   "rebellious"
+  ],
+  "example": "The dog was submissive to its owner."
+ },
+ {
+  "id": "v-1622",
+  "word": "subtle",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "delicate and difficult to detect or analyze",
+  "synonyms": [
+   "delicate",
+   "nuanced",
+   "refined"
+  ],
+  "antonyms": [
+   "obvious"
+  ],
+  "example": "There was a subtle difference."
+ },
+ {
+  "id": "v-1623",
+  "word": "sullen",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "bad-tempered and sulky",
+  "synonyms": [
+   "morose",
+   "sulky",
+   "surly"
+  ],
+  "antonyms": [
+   "cheerful"
+  ],
+  "example": "The sullen child refused to play."
+ },
+ {
+  "id": "v-1624",
+  "word": "superb",
+  "tier": 3,
+  "pos": "adj",
+  "definition": "very good; of the highest quality",
+  "synonyms": [
+   "excellent",
+   "magnificent",
+   "splendid"
+  ],
+  "antonyms": [
+   "poor"
+  ],
+  "example": "The chef prepared a superb meal."
+ },
+ {
+  "id": "v-1625",
+  "word": "suppress",
+  "tier": 3,
+  "pos": "adv",
+  "definition": "to forcibly put an end to",
+  "synonyms": [
+   "quell",
+   "stifle",
+   "repress"
+  ],
+  "antonyms": [
+   "encourage"
+  ],
+  "example": "The rebellion was suppressed."
+ }
+]
