@@ -30,6 +30,7 @@ import {
 import { useTheme } from 'next-themes';
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import { authAdapter } from '@/lib/auth';
+import { AuthBar } from '@/components/auth-bar';
 import { STORAGE_KEYS, writeStorage } from '@/lib/storage';
 
 const welcomeMessages = [
@@ -266,6 +267,17 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   async function signOut() {
     await authAdapter.signOut();
+    // Notify any active header bars (this tab + cross-tab via storage).
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new Event('quantara:auth-changed'));
+      try {
+        window.localStorage.setItem('quantara:auth-changed', String(Date.now()));
+      } catch {
+        // localStorage may be unavailable (private mode); the in-tab event
+        // still fires.
+      }
+    }
+    setSession(null);
     if (authAdapter.kind === 'google') {
       // Hard navigate so the server-rendered layout re-evaluates auth.
       // eslint-disable-next-line @next/next/no-location-assign-relative-destination
@@ -405,14 +417,37 @@ export function AppShell({ children }: { children: ReactNode }) {
             <Languages aria-hidden="true" size={18} />
             <span className="sidebar-link-label">{language === 'en' ? 'EN / বাংলা' : 'বাংলা / EN'}</span>
           </button>
-          <button type="button" className="profile-button" onClick={signOut} title="Sign out">
-            <span className="profile-avatar">Q</span>
-            <span className="sidebar-link-label">
-              <strong>{session?.name ?? 'Quantara learner'}</strong>
-              <small>{session?.email ?? (authAdapter.kind === 'google' ? 'Signed in with Google' : 'Development account')}</small>
-            </span>
-            <ChevronLeft className="sidebar-link-label profile-signout" aria-hidden="true" size={16} />
-          </button>
+          {session ? (
+            <button type="button" className="profile-button" onClick={signOut} title="Sign out">
+              <span className="profile-avatar">Q</span>
+              <span className="sidebar-link-label">
+                <strong>{session.name}</strong>
+                <small>{session.email || (authAdapter.kind === 'google' ? 'Signed in with Google' : 'Development account')}</small>
+              </span>
+              <ChevronLeft className="sidebar-link-label profile-signout" aria-hidden="true" size={16} />
+            </button>
+          ) : (
+            <button
+              type="button"
+              className="sidebar-link sidebar-action auth-sidebar-signin"
+              onClick={async () => {
+                await authAdapter.signIn(pathname && pathname.startsWith('/') && !pathname.startsWith('//') ? pathname : '/chat');
+                if (authAdapter.kind === 'dev') {
+                  // DevAuthAdapter resolves immediately; refresh the session
+                  // so the sidebar flips from the sign-in row to the profile row.
+                  const next = await authAdapter.getSession();
+                  setSession(next);
+                }
+              }}
+              title="Sign in"
+            >
+              <span className="profile-avatar" aria-hidden="true">Q</span>
+              <span className="sidebar-link-label">
+                <strong>Sign in</strong>
+                <small>Continue with Google</small>
+              </span>
+            </button>
+          )}
         </div>
         <button
           type="button"
@@ -434,15 +469,18 @@ export function AppShell({ children }: { children: ReactNode }) {
               <span>Back</span>
             </button>
           ) : null}
-          <button
-            type="button"
-            className="theme-toggle desktop-theme-toggle"
-            aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
-            onClick={() => setTheme(isDark ? 'light' : 'dark')}
-          >
-            {isDark ? <Sun aria-hidden="true" size={17} /> : <Moon aria-hidden="true" size={17} />}
-            <span>{isDark ? 'Light mode' : 'Dark mode'}</span>
-          </button>
+          <div className="desktop-app-header-right">
+            <button
+              type="button"
+              className="theme-toggle desktop-theme-toggle"
+              aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
+              onClick={() => setTheme(isDark ? 'light' : 'dark')}
+            >
+              {isDark ? <Sun aria-hidden="true" size={17} /> : <Moon aria-hidden="true" size={17} />}
+              <span>{isDark ? 'Light mode' : 'Dark mode'}</span>
+            </button>
+            <AuthBar variant="desktop" />
+          </div>
         </header>
         <header className="mobile-app-header">
           <div className="mobile-app-header-left">
@@ -474,14 +512,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             >
               {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
             </button>
-            <button
-              type="button"
-              className="sidebar-icon-button mobile-profile"
-              aria-label="Sign out, Quantara learner"
-              onClick={signOut}
-            >
-              <span className="profile-avatar" aria-hidden="true">Q</span>
-            </button>
+            <AuthBar variant="mobile" />
           </div>
         </header>
         {children}
