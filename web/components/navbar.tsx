@@ -40,7 +40,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className="glass-surface sticky top-3 z-30 mx-auto flex w-full max-w-6xl items-center justify-between rounded-full px-3 py-2.5 sm:px-5">
+      <header className="glass-surface sticky top-3 mx-auto flex w-full max-w-6xl items-center justify-between rounded-full px-3 py-2.5 sm:px-5">
         <Link href="/explore" className="flex min-h-11 items-center gap-2.5 sm:gap-3" aria-label="Quantara home">
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#79d4e7]/55 bg-[linear-gradient(135deg,rgba(77,184,212,0.3),rgba(255,255,255,0.08))] font-serif text-lg text-[#e6faff]">
             Q
@@ -84,7 +84,7 @@ export function Navbar() {
 
       <nav
         aria-label="Mobile navigation"
-        className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
+        className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
       >
         {mobileItems.map(({ href, label, icon: Icon }) => {
           const active = pathname === href;
@@ -93,7 +93,7 @@ export function Navbar() {
               key={href}
               href={href}
               aria-current={active ? 'page' : undefined}
-              className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-2xl font-condensed text-[0.58rem] uppercase tracking-[0.12em] ${
+              className={`flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-2xl font-condensed text-[0.66rem] uppercase tracking-[0.06em] ${
                 active ? 'bg-[#4db8d4]/15 text-[#a9eff7]' : 'text-slate-200/70'
               }`}
             >

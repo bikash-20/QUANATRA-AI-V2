@@ -2,6 +2,16 @@
 
 :root {
   color-scheme: dark;
+
+  /* Centralized z-index scale. Use these instead of ad-hoc z-index values. */
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-header: 30;
+  --z-nav: 40;
+  --z-tabbar: 45;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-toast: 70;
   --background: #071226;
   --foreground: #eaf4ff;
   --surface: rgba(10, 24, 46, 0.9);
@@ -534,7 +544,7 @@ select {
 
 .app-sidebar {
   position: fixed;
-  z-index: 60;
+  z-index: var(--z-modal);
   inset: 0 auto 0 0;
   display: flex;
   width: var(--sidebar-width);
@@ -557,7 +567,7 @@ select {
 
 .desktop-app-header {
   position: sticky;
-  z-index: 30;
+  z-index: var(--z-header);
   top: 0;
   display: flex;
   min-height: 3.75rem;
@@ -1577,7 +1587,7 @@ select {
 
 @media (max-width: 767px) {
   .app-sidebar {
-    width: min(19rem, calc(100vw - 3rem));
+    width: min(19rem, calc(100% - 3rem));
     transform: translateX(-105%);
     box-shadow: none;
   }
@@ -1588,7 +1598,7 @@ select {
   }
 
   .sidebar-collapsed .app-sidebar {
-    width: min(19rem, calc(100vw - 3rem));
+    width: min(19rem, calc(100% - 3rem));
   }
 
   .sidebar-collapsed .sidebar-brand-label,
@@ -1617,28 +1627,55 @@ select {
 
   .mobile-app-header {
     position: fixed;
-    z-index: 40;
+    z-index: var(--z-header);
     inset: 0 0 auto;
-    display: flex;
-    height: calc(3.5rem + env(safe-area-inset-top));
+    display: grid;
+    /* Three equal-width zones. The center column sizes to its content
+       (the wordmark) but is allowed to shrink; the side columns reserve
+       at least a 44px tap target each so the buttons never collapse. */
+    grid-template-columns: minmax(2.75rem, 1fr) auto minmax(2.75rem, 1fr);
     align-items: center;
-    justify-content: space-between;
-    gap: 0.15rem;
-    padding: env(safe-area-inset-top) 0.75rem 0;
+    gap: 0.5rem;
+    height: calc(3.5rem + env(safe-area-inset-top));
+    padding: env(safe-area-inset-top)
+      max(0.5rem, env(safe-area-inset-right))
+      0
+      max(0.5rem, env(safe-area-inset-left));
     border-bottom: 1px solid var(--border);
     background: var(--surface);
   }
 
-  .mobile-brand {
-    position: absolute;
-    left: 50%;
+  .mobile-app-header-left,
+  .mobile-app-header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
     min-width: 0;
-    flex: none;
-    transform: translateX(-50%);
+  }
+  .mobile-app-header-right { justify-content: flex-end; }
+
+  .mobile-brand {
+    min-width: 0;
+    max-width: 100%;
     text-align: center;
     color: var(--foreground);
     font-family: var(--font-playfair), Georgia, serif;
+    /* Fluid font-size: 0.95rem on 320px, ~1.1rem on 390px, capped at 1.15rem. */
+    font-size: clamp(0.95rem, 3.2vw, 1.15rem);
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.01em;
     text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* On very narrow phones (<360px) the right zone has no room for two
+     44px buttons next to a centered wordmark. Hide the theme toggle in
+     the header; it remains available in the sidebar. */
+  @media (max-width: 359px) {
+    .mobile-app-header .theme-toggle-mobile { display: none; }
   }
 
   .desktop-app-header {
@@ -1651,6 +1688,16 @@ select {
 
   .mobile-app-header .mobile-back-button {
     display: flex;
+  }
+
+  /* Mobile tab bar: align its horizontal gutter to the content gutter
+     (px-4 = 1rem on mobile) instead of inset-x-2. The content pages
+     already use px-4 on small screens, so matching the gutter keeps
+     the tab bar edges flush with the page card edges. */
+  .mobile-tabbar {
+    left: max(0.75rem, env(safe-area-inset-left));
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.5rem, env(safe-area-inset-bottom));
   }
 
   .sidebar-icon-button {
@@ -1669,7 +1716,7 @@ select {
 
   .sidebar-backdrop {
     position: fixed;
-    z-index: 55;
+    z-index: var(--z-overlay);
     inset: 0;
     display: block;
     border: 0;
@@ -1687,6 +1734,7 @@ select {
 
 .mobile-tabbar {
   position: fixed;
+  z-index: var(--z-tabbar);
   padding-bottom: max(0.35rem, env(safe-area-inset-bottom));
 }
 
@@ -1772,4 +1820,38 @@ select {
   .skeleton-surface {
     animation: none;
   }
+}
+
+/* Reduced transparency: drop the (expensive) backdrop blurs and use a
+   solid surface so the page is legible without GPU compositing. */
+@media (prefers-reduced-transparency: reduce) {
+  .glass-surface,
+  .glass-button,
+  .glass-pill,
+  .theme-toggle,
+  .desktop-app-header,
+  .mobile-app-header,
+  .mobile-tabbar {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background-color: rgba(11, 28, 52, 0.97) !important;
+  }
+}
+
+/* Global focus-visible. The accent color provides a 3:1 contrast ring
+   against the dark surface; most components inherit this. Components
+   that already define their own :focus-visible (login theme toggle,
+   glass buttons) keep their tighter styling. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Toast positioning. Lives at bottom-right, above the safe-area-inset
+   so it is not covered by the iPhone home indicator. */
+.app-toast {
+  z-index: var(--z-toast);
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  right: max(1.25rem, env(safe-area-inset-right));
 }

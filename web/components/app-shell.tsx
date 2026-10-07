@@ -426,44 +426,49 @@ export function AppShell({ children }: { children: ReactNode }) {
           </button>
         </header>
         <header className="mobile-app-header">
-          <button
-            ref={menuButtonRef}
-            type="button"
-            className="sidebar-icon-button"
-            aria-label="Open navigation"
-            aria-expanded={drawerOpen}
-            aria-controls="app-sidebar"
-            onClick={() => setDrawerOpen(true)}
-          >
-            <Menu aria-hidden="true" size={20} />
-          </button>
-          {!isExploreHome ? (
-            <button type="button" className="sidebar-icon-button mobile-back-button" aria-label="Go back" onClick={goBack}>
-              <ArrowLeft aria-hidden="true" size={18} />
+          <div className="mobile-app-header-left">
+            <button
+              ref={menuButtonRef}
+              type="button"
+              className="sidebar-icon-button"
+              aria-label="Open navigation"
+              aria-expanded={drawerOpen}
+              aria-controls="app-sidebar"
+              onClick={() => setDrawerOpen(true)}
+            >
+              <Menu aria-hidden="true" size={20} />
             </button>
-          ) : null}
+            {!isExploreHome ? (
+              <button type="button" className="sidebar-icon-button mobile-back-button" aria-label="Go back" onClick={goBack}>
+                <ArrowLeft aria-hidden="true" size={18} />
+              </button>
+            ) : null}
+          </div>
           <Link href="/explore" className="mobile-brand">Quantara</Link>
-          <button
-            type="button"
-            className="sidebar-icon-button"
-            aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
-            onClick={() => setTheme(isDark ? 'light' : 'dark')}
-          >
-            {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
-          </button>
-          <button
-            type="button"
-            className="sidebar-icon-button mobile-profile"
-            aria-label="Sign out, Quantara learner"
-            onClick={signOut}
-          >
-            <span className="profile-avatar" aria-hidden="true">Q</span>
-          </button>
+          <div className="mobile-app-header-right">
+            <button
+              type="button"
+              className="sidebar-icon-button theme-toggle-mobile"
+              aria-label={isDark ? 'Switch to light theme' : 'Switch to dark theme'}
+              aria-pressed={isDark}
+              onClick={() => setTheme(isDark ? 'light' : 'dark')}
+            >
+              {isDark ? <Sun aria-hidden="true" size={18} /> : <Moon aria-hidden="true" size={18} />}
+            </button>
+            <button
+              type="button"
+              className="sidebar-icon-button mobile-profile"
+              aria-label="Sign out, Quantara learner"
+              onClick={signOut}
+            >
+              <span className="profile-avatar" aria-hidden="true">Q</span>
+            </button>
+          </div>
         </header>
         {children}
         <nav
           aria-label="Mobile navigation"
-          className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 z-50 grid grid-cols-6 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
+          className="mobile-tabbar glass-surface fixed inset-x-2 bottom-2 grid grid-cols-5 rounded-[1.65rem] px-1.5 pt-1.5 md:hidden"
         >
           {[
             { href: '/chat', label: 'Chat', icon: MessageCircle },
@@ -471,7 +476,6 @@ export function AppShell({ children }: { children: ReactNode }) {
             { href: '/vocab', label: 'Vocab', icon: Languages },
             { href: '/grammar', label: 'Grammar', icon: ClipboardList },
             { href: '/gre', label: 'GRE', icon: BrainCircuit },
-            { href: '/explore', label: 'Explore', icon: Compass },
           ].map(({ href, label, icon: Icon }) => {
             const active =
               pathname === href ||
@@ -482,12 +486,12 @@ export function AppShell({ children }: { children: ReactNode }) {
                 key={href}
                 href={href}
                 aria-current={active ? 'page' : undefined}
-                className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-2xl font-condensed text-[0.58rem] uppercase tracking-[0.12em] ${
+                className={`flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-2xl font-condensed text-[0.66rem] uppercase tracking-[0.06em] ${
                   active ? 'bg-[#4db8d4]/15 text-[#a9eff7]' : 'text-slate-200/70'
                 }`}
               >
                 <Icon aria-hidden="true" className="h-4 w-4" />
-                {label}
+                <span>{label}</span>
               </Link>
             );
           })}
