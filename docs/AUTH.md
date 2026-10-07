@@ -15,8 +15,18 @@ Selection is driven by `NEXT_PUBLIC_AUTH_ENABLED`:
 - `NEXT_PUBLIC_AUTH_ENABLED=false` (default) → `DevAuthAdapter`.
 - `NEXT_PUBLIC_AUTH_ENABLED=true` → `GoogleAuthAdapter`.
 
-With auth disabled, the app remains open; production builds return
-`404` for `/admin`.
+The proxy (`web/proxy.ts`) also reads this flag:
+
+- **Auth disabled** — pages stay public so local development works
+  without signing in. Production builds still `404` for `/admin`.
+- **Auth enabled** — `/login` and `/api/auth/*` are the only
+  unauthenticated paths. Every other route (including `/`, `/chat`,
+  `/quiz`, `/vocab`, `/grammar`, `/exam`, `/progress`, `/gre/*`, and
+  `/admin`) requires a valid signed `quantara.session` cookie. Missing
+  or expired sessions redirect to `/login?return_to=<original-path>` so
+  the user lands back where they intended after signing in. Static
+  assets under `/_next/*`, `/favicon.ico`, and any file with an
+  extension (e.g. `/bg-login.jpg`) are exempt from the gate.
 
 ## Google OAuth adapter checklist
 
