@@ -204,6 +204,19 @@ export function AppShell({ children }: { children: ReactNode }) {
   const isLogin = pathname === '/login';
   const isExploreHome = pathname === '/' || pathname === '/explore';
   const showAdmin = process.env.NODE_ENV === 'development';
+
+  const [session, setSession] = useState<{ name: string; email: string } | null>(null);
+  useEffect(() => {
+    if (authAdapter.kind !== 'google') return;
+    let active = true;
+    void authAdapter.getSession().then((s) => {
+      if (active && s) setSession({ name: s.name, email: s.email });
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
   if (isLogin) return <>{children}</>;
 
   function toggleExpanded() {
@@ -253,6 +266,12 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   async function signOut() {
     await authAdapter.signOut();
+    if (authAdapter.kind === 'google') {
+      // Hard navigate so the server-rendered layout re-evaluates auth.
+      // eslint-disable-next-line @next/next/no-location-assign-relative-destination
+      window.location.assign('/login');
+      return;
+    }
     router.push('/login');
   }
 
@@ -389,8 +408,8 @@ export function AppShell({ children }: { children: ReactNode }) {
           <button type="button" className="profile-button" onClick={signOut} title="Sign out">
             <span className="profile-avatar">Q</span>
             <span className="sidebar-link-label">
-              <strong>Quantara learner</strong>
-              <small>Development account</small>
+              <strong>{session?.name ?? 'Quantara learner'}</strong>
+              <small>{session?.email ?? (authAdapter.kind === 'google' ? 'Signed in with Google' : 'Development account')}</small>
             </span>
             <ChevronLeft className="sidebar-link-label profile-signout" aria-hidden="true" size={16} />
           </button>

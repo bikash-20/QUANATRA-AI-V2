@@ -242,6 +242,33 @@ Open <http://localhost:3000>.
 
 For Vercel, set `NEXT_PUBLIC_API_URL` to the deployed Worker origin. The Worker must allow the exact frontend origin in `ALLOWED_ORIGIN` or the comma-separated `ALLOWED_ORIGINS` variable. Localhost and loopback origins are permitted for local development; other origins are not reflected in CORS responses.
 
+## Auth (Google OAuth)
+
+The frontend ships with two adapters selected at build time:
+
+- `DevAuthAdapter` (default) — a localStorage mock used while you
+  develop. The login button creates a fake "Quantara learner"
+  session.
+- `GoogleAuthAdapter` — drives a real Google OAuth 2.0 flow against
+  `/api/auth/google` → Google consent → `/api/auth/callback`. The
+  server mints a signed HttpOnly session cookie.
+
+Switch with `NEXT_PUBLIC_AUTH_ENABLED=true` and supply these server-only
+env vars (see [`web/.env.example`](web/.env.example) for the full list):
+
+```env
+NEXT_PUBLIC_AUTH_ENABLED=true
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+AUTH_REDIRECT_URI=https://your-domain.example/api/auth/callback
+SESSION_SECRET=$(openssl rand -hex 32)
+# Optional: promote specific Google accounts to admin.
+AUTH_ADMIN_EMAILS=you@gmail.com
+```
+
+See [`docs/AUTH.md`](docs/AUTH.md) for the full setup checklist,
+security notes, and adapter API.
+
 ---
 
 ## Deploy to frontend on Vercel

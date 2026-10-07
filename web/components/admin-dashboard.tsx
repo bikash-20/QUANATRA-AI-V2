@@ -15,15 +15,25 @@ export function AdminDashboard() {
   useEffect(() => {
     let active = true;
     void (async () => {
-      if (process.env.NODE_ENV !== 'development') {
+      if (process.env.NEXT_PUBLIC_AUTH_ENABLED === 'true') {
         const session = await authAdapter.getSession();
-        if (process.env.NEXT_PUBLIC_AUTH_ENABLED !== 'true' || session?.role !== 'admin') {
+        if (!session) {
+          if (active) router.replace('/login');
+          return;
+        }
+        if (session.role !== 'admin') {
           if (active) {
             setAccess('denied');
-            router.replace(session ? '/' : '/login');
+            router.replace('/');
           }
           return;
         }
+      } else if (process.env.NODE_ENV !== 'development') {
+        if (active) {
+          setAccess('denied');
+          router.replace('/login');
+        }
+        return;
       }
       if (active) setAccess('allowed');
       try {

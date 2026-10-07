@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTheme } from 'next-themes';
 import { ArrowRight, BookOpenCheck, BrainCircuit, Moon, Sun } from 'lucide-react';
-import { useState, useSyncExternalStore } from 'react';
+import { useMemo, useState, useSyncExternalStore } from 'react';
 import { authAdapter } from '@/lib/auth';
 
 const noSubscribe = () => () => {};
@@ -32,16 +32,51 @@ export default function LoginPage() {
   const router = useRouter();
   const { resolvedTheme, setTheme } = useTheme();
   const themeReady = useSyncExternalStore(noSubscribe, () => true, () => false);
+  const returnTo = useMemo(() => {
+    if (typeof window === 'undefined') return '/chat';
+    const raw = new URLSearchParams(window.location.search).get('return_to');
+    if (!raw) return '/chat';
+    if (!raw.startsWith('/') || raw.startsWith('//')) return '/chat';
+    return raw;
+  }, []);
+
+  const initialError = useMemo(() => {
+    if (typeof window === 'undefined') return null;
+    const code = new URLSearchParams(window.location.search).get('error');
+    if (!code) return null;
+    const messages: Record<string, string> = {
+      state_mismatch: 'The sign-in session expired. Please try again.',
+      exchange_failed: 'Google rejected the sign-in code. Please try again.',
+      no_access_token: 'Google did not return an access token. Please try again.',
+      profile_failed: 'Could not read your Google profile. Please try again.',
+      email_unverified: 'Your Google email is not verified. Verify it and try again.',
+      session_signing_failed: 'Internal session error. Please try again.',
+      access_denied: 'You cancelled the Google sign-in.',
+    };
+    return messages[code] ?? 'Sign-in failed. Please try again.';
+  }, []);
+
   const [busy, setBusy] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(initialError);
 
   async function continueWithGoogle() {
     if (busy) return;
     setBusy(true);
     setError(null);
     try {
-      await authAdapter.signIn();
-      router.replace('/chat');
+      const session = await authAdapter.signIn(returnTo);
+      // DevAuthAdapter resolves immediately and returns a real session.
+      // GoogleAuthAdapter navigates away; if we still have control, the
+      // session is the placeholder "Signing in…" entry.
+      if (authAdapter.kind === 'dev' && session?.email) {
+        router.replace(returnTo);
+      } else if (authAdapter.kind === 'google') {
+        // Navigation should already be in flight; reset busy so the button
+        // can recover if Google fails to redirect.
+        setTimeout(() => setBusy(false), 1500);
+      } else {
+        router.replace(returnTo);
+      }
     } catch {
       setError('Sign-in is unavailable right now. Please try again.');
       setBusy(false);
