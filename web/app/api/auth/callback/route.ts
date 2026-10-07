@@ -2,6 +2,7 @@
 // the authorization code for tokens, fetches the user's profile, mints a
 // signed session cookie, and redirects to the original destination.
 
+import { createHash } from "node:crypto";
 import { NextResponse, type NextRequest } from "next/server";
 import { OAuth2Client } from "google-auth-library";
 import { getAuthConfig } from "@/lib/server-env";
@@ -11,6 +12,13 @@ import {
   signSession,
   verifySession,
 } from "@/lib/server-session";
+
+// Pin to Node + dynamic so Vercel does not statically optimize or hand
+// the handler to the edge cache; on the edge, request.cookies can be
+// empty even when the browser sent the cookie, which surfaces as a
+// false `state_mismatch`.
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 type GoogleTokenResponse = {
   access_token?: string;
@@ -36,6 +44,42 @@ function safeOrigin(request: NextRequest): URL {
   return new URL(request.url);
 }
 
+// TEMP: state-cookie diagnostic — remove after the production
+// `state_mismatch` is resolved.
+function shortHash(value: string | undefined): string {
+  if (!value) return "<none>";
+  return createHash("sha256").update(value).digest("hex").slice(0, 10);
+}
+
+/**
+ * Pull the raw `state` value from the query string without going through
+ * `URLSearchParams.get()`. The latter URL-decodes the value, which would
+ * break byte-for-byte equality with the cookie (which is stored as the
+ * raw `statePayload`). The browser re-encodes the value as
+ * `key=<percentEncoded>` when it issues the redirect; we decode it the
+ * same way.
+ */
+function readRawState(search: string): string | null {
+  const raw = search.startsWith("?") ? search.slice(1) : search;
+  for (const pair of raw.split("&")) {
+    if (!pair) continue;
+    const eq = pair.indexOf("=");
+    if (eq < 0) {
+      if (pair === "state") return "";
+      continue;
+    }
+    const key = pair.slice(0, eq);
+    if (key !== "state") continue;
+    const encoded = pair.slice(eq + 1);
+    try {
+      return decodeURIComponent(encoded.replace(/\+/g, " "));
+    } catch {
+      return encoded;
+    }
+  }
+  return null;
+}
+
 export async function GET(request: NextRequest): Promise<NextResponse> {
   let config;
   try {
@@ -49,12 +93,25 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
 
   const url = new URL(request.url);
   const code = url.searchParams.get("code");
-  const state = url.searchParams.get("state");
+  const state = readRawState(url.search);
   const errorParam = url.searchParams.get("error");
 
   const origin = safeOrigin(request);
   const loginUrl = new URL("/login", origin);
   const stateCookie = request.cookies.get(config.stateCookieName)?.value;
+
+  // TEMP: state-cookie diagnostic — remove after production is fixed.
+  console.info(
+    "[auth/callback] cookie=%s cookieHash=%s state=%s stateHash=%s equal=%s code=%s reqUrl=%s search=%s",
+    stateCookie ? "yes" : "no",
+    shortHash(stateCookie),
+    state ? state.slice(0, 16) : "<none>",
+    shortHash(state ?? undefined),
+    state && stateCookie && state === stateCookie ? "yes" : "no",
+    code ? "yes" : "no",
+    request.url,
+    url.search,
+  );
 
   if (errorParam) {
     loginUrl.searchParams.set("error", errorParam);
@@ -76,11 +133,19 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
     return response;
   }
 
-  // Decode the destination from the state payload (third segment).
+  // Decode the destination from the state payload (third segment). The
+  // segment is base64url-encoded by the start route so the payload only
+  // contains cookie- and URL-safe characters; we invert that here.
   const segments = state.split(".");
-  const returnTo = segments.length >= 3 && isSafeReturnPath(decodeURIComponent(segments[2]))
-    ? decodeURIComponent(segments[2])
-    : "/chat";
+  const returnTo = (() => {
+    if (segments.length < 3 || !segments[2]) return "/chat";
+    try {
+      const decoded = Buffer.from(segments[2], "base64url").toString("utf8");
+      return isSafeReturnPath(decoded) ? decoded : "/chat";
+    } catch {
+      return "/chat";
+    }
+  })();
 
   const client = new OAuth2Client(config.googleClientId, config.googleClientSecret, config.redirectUri);
   let tokens: GoogleTokenResponse;
