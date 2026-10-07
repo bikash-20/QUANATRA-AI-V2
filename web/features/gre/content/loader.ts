@@ -12,6 +12,13 @@ import "server-only";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
+import {
+  DEFAULT_CACHE_TTL_MS,
+  enforceSizeGuard,
+  MapWithTTL,
+  MAX_CACHE_ENTRIES,
+  TtlSlot,
+} from "./cache";
 
 // Mirror of content/gre/schema.ts (we cannot import .ts from runtime
 // directly in a Next build, so duplicate the schemas here; the validator
@@ -89,27 +96,35 @@ function readJson<T>(rel: string): T {
 
 // --- caches ---------------------------------------------------------------
 
-let taxonomyCache: Taxonomy | null = null;
-let manifestCache: Manifest | null = null;
-const questionCache = new Map<string, QuantQuestion>();
-const allQuestionsByTopic: Map<string, QuantQuestion[]> = new Map();
-let allQuestions: QuantQuestion[] | null = null;
-const vocabBySet: Map<string, VocabWord[]> = new Map();
-const wordById: Map<string, VocabWord> = new Map();
+// TTL primitives live in ./cache.ts so they can be unit-tested without
+// pulling in "server-only" or any Node-only deps. See cache.ts for the
+// 60s default + 5,000-entry cap rationale.
+
+const taxonomySlot = new TtlSlot<Taxonomy>();
+const manifestSlot = new TtlSlot<Manifest>();
+const allQuestionsSlot = new TtlSlot<QuantQuestion[]>();
+const questionCache = new MapWithTTL<string, QuantQuestion>();
+const allQuestionsByTopic = new MapWithTTL<string, QuantQuestion[]>();
+const vocabBySet = new MapWithTTL<string, VocabWord[]>();
+const wordById = new MapWithTTL<string, VocabWord>();
 
 function loadTaxonomy(): Taxonomy {
-  if (taxonomyCache) return taxonomyCache;
-  taxonomyCache = readJson<Taxonomy>("taxonomy.json");
-  return taxonomyCache;
+  const cached = taxonomySlot.read();
+  if (cached) return cached;
+  const value = readJson<Taxonomy>("taxonomy.json");
+  taxonomySlot.write(value);
+  return value;
 }
 
 function loadManifest(): Manifest {
-  if (manifestCache) return manifestCache;
+  const cached = manifestSlot.read();
+  if (cached) return cached;
   // Validator writes this file. If missing (fresh checkout before build),
   // fall back to scanning the shards directly.
   try {
-    manifestCache = readJson<Manifest>("manifest.json");
-    return manifestCache;
+    const value = readJson<Manifest>("manifest.json");
+    manifestSlot.write(value);
+    return value;
   } catch {
     // Fallback: scan now.
     const tax = loadTaxonomy();
@@ -135,7 +150,7 @@ function loadManifest(): Manifest {
       out.vocab[set] = { count: words.length };
       out.totals.vocab += words.length;
     }
-    manifestCache = out;
+    manifestSlot.write(out);
     return out;
   }
 }
@@ -159,6 +174,7 @@ function loadQuestionListByTopic(slug: string, filters: QuestionFilters, pageSiz
       }
     }
     allQuestionsByTopic.set(slug, list);
+    enforceSizeGuard([questionCache, allQuestionsByTopic, vocabBySet, wordById] as Array<MapWithTTL<unknown, unknown>>, MAX_CACHE_ENTRIES);
   }
   let filtered = list;
   if (filters.difficulty) filtered = filtered.filter((q) => q.difficulty === filters.difficulty);
@@ -192,15 +208,17 @@ export function getQuestionList(topic: string, filters: QuestionFilters = {}, pa
 }
 
 export function getAllQuestions(): QuantQuestion[] {
-  if (allQuestions) return allQuestions;
+  const cached = allQuestionsSlot.read();
+  if (cached) return cached;
   const out: QuantQuestion[] = [];
   for (const t of loadTaxonomy().quant) out.push(...loadQuestionListByTopic(t.slug, {}, Infinity));
-  allQuestions = out;
+  allQuestionsSlot.write(out);
   return out;
 }
 
 export function getQuestion(id: string): QuantQuestion | null {
-  if (questionCache.has(id)) return questionCache.get(id)!;
+  const cached = questionCache.get(id);
+  if (cached) return cached;
   for (const q of getAllQuestions()) {
     questionCache.set(q.id, q);
     if (q.id === id) return q;
@@ -213,7 +231,8 @@ export function getVocabSets(): { id: string; count: number }[] {
 }
 
 export function getVocabSet(setId: string): VocabWord[] {
-  if (vocabBySet.has(setId)) return vocabBySet.get(setId)!;
+  const cached = vocabBySet.get(setId);
+  if (cached) return cached;
   const list = readJson<unknown[]>(`vocab/${setId}.json`);
   const out: VocabWord[] = [];
   for (const item of list) {
@@ -225,6 +244,7 @@ export function getVocabSet(setId: string): VocabWord[] {
     wordById.set(parsed.data.id, parsed.data);
   }
   vocabBySet.set(setId, out);
+  enforceSizeGuard([questionCache, allQuestionsByTopic, vocabBySet, wordById] as Array<MapWithTTL<unknown, unknown>>, MAX_CACHE_ENTRIES);
   return out;
 }
 
@@ -238,7 +258,8 @@ export function listVocabSets(): string[] {
 }
 
 export function getWord(id: string): VocabWord | null {
-  if (wordById.has(id)) return wordById.get(id)!;
+  const cached = wordById.get(id);
+  if (cached) return cached;
   for (const set of listVocabSets()) {
     for (const w of getVocabSet(set)) {
       if (w.id === id) return w;

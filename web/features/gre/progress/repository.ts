@@ -6,50 +6,37 @@
 //   - Every attempt is stored in greAttempts.
 //   - Solved status: any correct attempt -> solved.
 //   - Accuracy and weak-topic stats: FIRST attempt per question only.
+//
+// The interface and value types live in ./types.ts so the cached wrapper
+// and unit tests can use them without pulling in IDB / "@/" deps.
 
 import { dbDelete, dbGet, dbList, dbPut } from "@/lib/db";
 
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric";
+import type {
+  Attempt,
+  Bookmark,
+  GreProgressRepository,
+  MockState,
+  Report,
+  RoadmapProgress,
+  StreakState,
+  VocabState,
+  VocabStatus,
+} from "./types";
 
-export type UserAnswer =
-  | { type: "mcq"; choice: number }
-  | { type: "multi"; choices: number[] }
-  | { type: "qc"; letter: "A" | "B" | "C" | "D" }
-  | { type: "numeric"; value: number };
-
-export type Attempt = {
-  id: string;             // "<questionId>:<timestamp>" — first wins
-  questionId: string;
-  topic: string;
-  subtopic: string;
-  difficulty: "easy" | "medium" | "hard";
-  questionType: QuestionType;
-  userAnswer: UserAnswer;
-  correct: boolean;
-  timeMs: number;
-  at: number;             // epoch ms
-  fromMock?: string;      // mock id if attempt was part of a mock
-};
-
-export type Bookmark = {
-  id: string;             // questionId
-  questionId: string;
-  topic: string;
-  createdAt: number;
-};
-
-export type VocabStatus = "new" | "learning" | "known";
-export type VocabState = {
-  id: string;             // wordId
-  wordId: string;
-  status: VocabStatus;
-  // SM-2 lite
-  interval: number;       // days
-  due: number;            // epoch ms
-  reps: number;
-  lapses: number;
-  lastReviewed?: number;
-};
+export type {
+  Attempt,
+  Bookmark,
+  GreProgressRepository,
+  MockState,
+  QuestionType,
+  Report,
+  RoadmapProgress,
+  StreakState,
+  UserAnswer,
+  VocabState,
+  VocabStatus,
+} from "./types";
 
 export function createVocabStatusUpdate(
   wordId: string,
@@ -69,77 +56,6 @@ export function createVocabStatusUpdate(
         lapses: 0,
         lastReviewed: now,
       };
-}
-
-export type RoadmapProgress = {
-  id: "default";
-  completed: Record<string, true>; // dayKey `${week}.${day}`
-  updatedAt: number;
-};
-
-export type StreakState = {
-  id: "default";
-  currentStreak: number;
-  longestStreak: number;
-  lastActiveDay: string;        // YYYY-MM-DD
-  recentDays: Array<{ day: string; correct: number; total: number }>;
-};
-
-export type MockState = {
-  id: string;                   // mock id
-  startedAt: number;
-  // Question ids in order, the user's selection per question, flagged set,
-  // and a "submitted" flag. The question list is reconstructed from
-  // questionIds; we don't store the question objects.
-  questionIds: string[];
-  answers: Record<string, UserAnswer | undefined>;
-  flagged: Record<string, true | undefined>;
-  finishedAt?: number;
-  autoSubmitted?: boolean;
-  result?: { score: number; total: number; timePerQ: number[] };
-};
-
-export type Report = {
-  id: string;                   // report id
-  questionId: string;
-  reason: string;
-  at: number;
-};
-
-// -------------------------------------------------------------------------
-// Interface
-// -------------------------------------------------------------------------
-
-export interface GreProgressRepository {
-  recordAttempt(a: Omit<Attempt, "id">): Promise<Attempt>;
-  listAttempts(): Promise<Attempt[]>;
-  listAttemptsForQuestion(qid: string): Promise<Attempt[]>;
-  isSolved(qid: string): Promise<boolean>;
-  firstAttemptFor(qid: string): Promise<Attempt | null>;
-  solvedIds(): Promise<Set<string>>;
-  attemptedIds(): Promise<Set<string>>;
-
-  toggleBookmark(qid: string, topic: string): Promise<boolean>;
-  isBookmarked(qid: string): Promise<boolean>;
-  bookmarkedIds(): Promise<Set<string>>;
-
-  getVocabState(wordId: string): Promise<VocabState | null>;
-  setVocabState(s: VocabState): Promise<void>;
-  listVocabStates(): Promise<VocabState[]>;
-
-  getRoadmap(): Promise<RoadmapProgress>;
-  setRoadmapDay(week: number, day: number, done: boolean): Promise<void>;
-
-  getStreak(): Promise<StreakState>;
-  recordDayActivity(correct: number, total: number): Promise<StreakState>;
-
-  saveMock(m: MockState): Promise<void>;
-  getMock(id: string): Promise<MockState | null>;
-  getActiveMock(): Promise<MockState | null>;
-  listMocks(): Promise<MockState[]>;
-  deleteMock(id: string): Promise<void>;
-
-  reportQuestion(qid: string, reason: string): Promise<Report>;
 }
 
 // -------------------------------------------------------------------------
@@ -332,5 +248,19 @@ export class IndexedDBGreProgressRepository implements GreProgressRepository {
   }
 }
 
+// -------------------------------------------------------------------------
+// In-memory memo with revision-based write-invalidation
+// -------------------------------------------------------------------------
+//
+// The cached wrapper lives in ./cached-repository.ts so it can be unit-
+// tested under the Node strip-types runner without pulling in IDB / "@/"
+// aliases. The default export here wires the wrapper around the IDB impl
+// so component callers continue to use the same `greProgress` singleton.
+
+export { CachedGreProgressRepository } from "./cached-repository";
+import { CachedGreProgressRepository } from "./cached-repository";
+
 // Default export so components can import a singleton.
-export const greProgress: GreProgressRepository = new IndexedDBGreProgressRepository();
+export const greProgress: GreProgressRepository = new CachedGreProgressRepository(
+  new IndexedDBGreProgressRepository(),
+);
