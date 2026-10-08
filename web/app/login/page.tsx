@@ -7,6 +7,7 @@ import { useTheme } from 'next-themes';
 import { ArrowRight, BookOpenCheck, BrainCircuit, Moon, Sun } from 'lucide-react';
 import { useMemo, useState, useSyncExternalStore } from 'react';
 import { authAdapter } from '@/lib/auth';
+import { DeveloperCredit } from '@/components/developer-credit';
 
 const noSubscribe = () => () => {};
 
@@ -172,6 +173,7 @@ export default function LoginPage() {
           <p>“Every expert was once a beginner who kept asking.”</p>
           <span>Built for curious minds · Quantara</span>
         </footer>
+        <DeveloperCredit variant="inline" />
       </div>
     </main>
   );

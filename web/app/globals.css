@@ -1082,6 +1082,12 @@ select {
   text-align: right;
 }
 
+.login-shell > .developer-credit--inline {
+  align-self: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .login-error {
   margin-top: 1rem !important;
   color: #ffc0c6 !important;
@@ -2215,4 +2221,98 @@ select {
     backdrop-filter: none !important;
     background: var(--panel-strong) !important;
   }
+}
+
+/* ----- Developer credit -----
+   Small "Developed by Bikash Talukder" line shown in the login footer,
+   the desktop sidebar footer, and as a floating chip above the mobile
+   tabbar. Same color tokens as the rest of the chrome so it inherits
+   the active theme automatically. */
+
+.developer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.developer-credit:hover {
+  color: var(--foreground);
+}
+
+.developer-credit:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.developer-credit strong {
+  color: inherit;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+.developer-credit-dot {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+/* Inline (login footer): single line, right-aligned next to the
+   "Built for curious minds" line. */
+.developer-credit--inline {
+  margin: 0;
+}
+
+/* Footer (sidebar): a small caption row that lives at the bottom of
+   the sidebar. */
+.developer-credit--footer {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  border-top: 1px solid var(--border);
+  justify-content: center;
+}
+
+/* Mobile: a small chip floating above the bottom tabbar. Sits flush
+   against the safe-area-inset so it never collides with the home
+   indicator. */
+.developer-credit--mobile {
+  position: fixed;
+  z-index: var(--z-tabbar);
+  right: max(0.75rem, env(safe-area-inset-right));
+  bottom: calc(3.7rem + max(0.5rem, env(safe-area-inset-bottom)));
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--glass-rim-soft);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--panel-strong) 86%, transparent);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  backdrop-filter: blur(10px) saturate(150%);
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+}
+
+.developer-credit--mobile .developer-credit-dot {
+  width: 0.32rem;
+  height: 0.32rem;
+}
+
+@media (min-width: 768px) {
+  .developer-credit--mobile {
+    display: none;
+  }
+}
+
+[data-theme='light'] .developer-credit--mobile {
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(11, 31, 58, 0.1);
+  box-shadow: 0 6px 18px rgba(8, 24, 48, 0.08);
 }

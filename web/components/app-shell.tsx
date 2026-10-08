@@ -31,6 +31,7 @@ import { useTheme } from 'next-themes';
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import { authAdapter } from '@/lib/auth';
 import { AuthBar } from '@/components/auth-bar';
+import { DeveloperCredit } from '@/components/developer-credit';
 import { STORAGE_KEYS, writeStorage } from '@/lib/storage';
 
 const welcomeMessages = [
@@ -448,6 +449,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               </span>
             </button>
           )}
+          <DeveloperCredit variant="footer" />
         </div>
         <button
           type="button"
@@ -547,6 +549,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           })}
         </nav>
       </div>
+      <DeveloperCredit variant="mobile" />
     </div>
   );
 }
