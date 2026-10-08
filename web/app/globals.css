@@ -2086,3 +2086,133 @@ select {
        header right-zone alongside the theme toggle and drawer button. */
   }
 }
+
+/* ----- PWA install banner -----
+   Bottom-left toast that surfaces the browser's `beforeinstallprompt`
+   event. Sized to clear the mobile tabbar (which lives at `bottom: 2`
+   with `inset-x-2`); the desktop breakpoint relaxes both. */
+
+.install-banner {
+  position: fixed;
+  left: 1rem;
+  bottom: 5rem; /* clears the mobile tabbar */
+  z-index: var(--z-toast);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: min(22rem, calc(100vw - 2rem));
+  padding: 0.75rem;
+  border-radius: 1rem;
+  background: var(--panel-strong);
+  border: 1px solid var(--glass-rim-soft);
+  color: var(--foreground);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  backdrop-filter: blur(14px) saturate(150%);
+  opacity: 0;
+  transform: translateY(0.5rem);
+  pointer-events: none;
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease;
+}
+
+.install-banner--in {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.install-banner-icon img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.install-banner-body {
+  min-width: 0;
+  flex: 1;
+}
+
+.install-banner-title {
+  margin: 0;
+  color: var(--foreground);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.install-banner-sub {
+  margin: 0.15rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.install-banner-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.install-banner-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.4rem;
+  padding: 0.45rem 0.7rem;
+  border: 0;
+  border-radius: 0.6rem;
+  background: var(--accent);
+  color: var(--accent-foreground);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 160ms ease;
+}
+
+.install-banner-cta:hover {
+  filter: brightness(1.05);
+}
+
+.install-banner-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+  min-width: 2.4rem;
+  padding: 0.4rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 160ms ease, background-color 160ms ease;
+}
+
+.install-banner-close:hover {
+  color: var(--foreground);
+  background: var(--surface-muted);
+}
+
+@media (min-width: 768px) {
+  .install-banner {
+    left: 1.5rem;
+    bottom: 1.5rem;
+  }
+}
+
+[data-theme='light'] .install-banner {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(11, 31, 58, 0.08);
+  box-shadow: 0 10px 30px rgba(8, 24, 48, 0.16);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .install-banner {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    background: var(--panel-strong) !important;
+  }
+}
