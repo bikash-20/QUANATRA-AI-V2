@@ -173,7 +173,7 @@ export default function LoginPage() {
           <p>“Every expert was once a beginner who kept asking.”</p>
           <span>Built for curious minds · Quantara</span>
         </footer>
-        <DeveloperCredit variant="inline" />
+        <DeveloperCredit />
       </div>
     </main>
   );
