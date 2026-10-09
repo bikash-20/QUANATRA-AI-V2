@@ -40,7 +40,11 @@ export function getTaxonomy(): Taxonomy {
   return {
     version: 0,
     quant: [],
-    questionTypes: { mcq: "", multi: "", qc: "", numeric: "", "rc-single": "", "rc-multi": "" },
+    questionTypes: {
+      mcq: "", multi: "", qc: "", numeric: "",
+      "rc-single": "", "rc-multi": "",
+      "rc-single-answer": "", "rc-multi-answer": "", "rc-sentence": "",
+    },
     qcChoices: [],
     difficulty: ["easy", "medium", "hard"],
     vocabTiers: { "1": "Hard", "2": "Harder", "3": "Hardest" },

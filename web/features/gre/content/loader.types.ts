@@ -2,7 +2,10 @@
 // import them without pulling in server-only code.
 
 export type Difficulty = "easy" | "medium" | "hard";
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
+export type QuestionType =
+  | "mcq" | "multi" | "qc" | "numeric"
+  | "rc-single" | "rc-multi"                  // legacy (kept during migration window)
+  | "rc-single-answer" | "rc-multi-answer" | "rc-sentence"; // upgraded shape
 
 export type QuantQuestion =
   | { id: string; type: "mcq"; topic: string; subtopic: string; difficulty: Difficulty; tags: string[]; stem: string; choices: string[]; answer: number }
@@ -22,6 +25,59 @@ export type VocabWord = {
 };
 
 export type ReadingCategory = "business" | "science" | "social-science" | "arts";
+
+// --- Upgraded RC schema ---------------------------------------------------
+
+export type RcSource = "original" | "ai" | "external";
+
+export type RcQType =
+  | "main-idea"
+  | "detail"
+  | "inference"
+  | "author-attitude"
+  | "function"
+  | "structure"
+  | "vocab-in-context"
+  | "strengthen-weaken";
+
+export type RcQuestionKind = "single" | "multi" | "select-sentence";
+
+export type RcEvidence = { sentence: number; anchor: string };
+
+/**
+ * The upgraded RC question shape. Discriminated by `kind`:
+ *   * "single"          — 1 correct of 5 choices (radio).
+ *   * "multi"           — 1+ correct of 3 choices (checkbox set).
+ *   * "select-sentence" — pick one sentence index from the passage.
+ *
+ * `qType` and `evidence` are required. `evidence[i].anchor` must match
+ * the start of the indexed sentence — the validator checks this.
+ */
+export type RcQuestion =
+  | { kind: "single"; questionId: string; qType: RcQType; evidence: RcEvidence[]; stem: string; choices: string[]; answer: number; rationale: string }
+  | { kind: "multi"; questionId: string; qType: RcQType; evidence: RcEvidence[]; stem: string; choices: string[]; answer: number[]; rationale: string }
+  | { kind: "select-sentence"; questionId: string; qType: RcQType; evidence: RcEvidence[]; stem: string; answer: number; rationale: string };
+
+/**
+ * The upgraded RC passage shape. `wordCount` is computed by the
+ * validator, never hand-typed. `sentences` is an optional override; the
+ * splitter handles the vast majority of cases, but we allow it for
+ * tricky prose.
+ */
+export type RcPassage = {
+  id: string;
+  category: ReadingCategory;
+  title: string;
+  source: RcSource;
+  attribution?: string;
+  body: string;
+  difficulty: Difficulty;
+  tags: string[];
+  sentences?: string[];
+  questions: RcQuestion[];
+};
+
+// --- Legacy shape (kept during the migration window) -----------------------
 
 export type ReadingQuestion =
   | { type: "rc-single"; questionId: string; stem: string; choices: string[]; answer: number; rationale: string }

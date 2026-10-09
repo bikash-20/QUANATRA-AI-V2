@@ -50,6 +50,11 @@ const VocabWord = z.object({
 
 // Reading comprehension shapes. Mirrors content/gre/schema.ts. The category
 // set is closed at 4 entries — extend `reading` in taxonomy.json first.
+//
+// The legacy `ReadingQuestion` / `ReadingPassage` shape is kept for the
+// migration window (commit #1 introduces the Rc* types but does not
+// migrate the data files). After commit #3 the data will use the Rc* shape
+// exclusively and this file can drop the legacy shim.
 const ReadingCategory = z.enum(["business", "science", "social-science", "arts"]);
 const readingBaseShape = {
   id: z.string().regex(/^rc-[a-z]{2,4}-\d{3}$/),
@@ -67,12 +72,55 @@ const ReadingQuestion = z.discriminatedUnion("type", [
 ]);
 const ReadingPassage = z.object({ ...readingBaseShape, questions: z.array(ReadingQuestion).min(3).max(5) });
 
+// --- Upgraded RC schema (mirror) ------------------------------------------
+
+const RcSource = z.enum(["original", "ai", "external"]);
+const RcQType = z.enum([
+  "main-idea", "detail", "inference", "author-attitude",
+  "function", "structure", "vocab-in-context", "strengthen-weaken",
+]);
+const RcQuestionKind = z.enum(["single", "multi", "select-sentence"]);
+const RcEvidence = z.object({
+  sentence: z.number().int().min(0),
+  anchor: z.string().min(8).max(80),
+});
+const rcBase = {
+  questionId: z.string().regex(/^q-rc-[a-z0-9-]+$/),
+  stem: z.string().min(10).max(800),
+  qType: RcQType,
+  evidence: z.array(RcEvidence).min(1).max(4),
+  rationale: z.string().min(20).max(800),
+};
+const RcQuestion = z.discriminatedUnion("kind", [
+  z.object({ ...rcBase, kind: z.literal("single"), choices: z.array(z.string().min(1).max(400)).length(5), answer: z.number().int().min(0).max(4) }),
+  z.object({ ...rcBase, kind: z.literal("multi"), choices: z.array(z.string().min(1).max(400)).length(3), answer: z.array(z.number().int().min(0).max(2)).min(1).max(3) }),
+  z.object({ ...rcBase, kind: z.literal("select-sentence"), answer: z.number().int().min(0) }),
+]);
+const RcPassage = z.object({
+  id: z.string().regex(/^rc-[a-z]{2,4}-\d{3}$/),
+  category: ReadingCategory,
+  title: z.string().min(8).max(160),
+  source: RcSource,
+  attribution: z.string().max(200).optional(),
+  body: z.string().min(800).max(4500),
+  difficulty: Difficulty,
+  tags: z.array(z.string()).default([]),
+  sentences: z.array(z.string().min(1).max(600)).min(3).max(60).optional(),
+  questions: z.array(RcQuestion).min(3).max(5),
+});
+
 export type QuantQuestion = z.infer<typeof QuantQuestion>;
 export type VocabWord = z.infer<typeof VocabWord>;
 export type ReadingQuestion = z.infer<typeof ReadingQuestion>;
 export type ReadingPassage = z.infer<typeof ReadingPassage>;
+export type RcSource = z.infer<typeof RcSource>;
+export type RcQType = z.infer<typeof RcQType>;
+export type RcQuestionKind = z.infer<typeof RcQuestionKind>;
+export type RcEvidence = z.infer<typeof RcEvidence>;
+export type RcQuestion = z.infer<typeof RcQuestion>;
+export type RcPassage = z.infer<typeof RcPassage>;
 export type ReadingCategoryType = z.infer<typeof ReadingCategory>;
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
+export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi" | "rc-single-answer" | "rc-multi-answer" | "rc-sentence";
 export type Difficulty = "easy" | "medium" | "hard";
 
 export type Taxonomy = {
