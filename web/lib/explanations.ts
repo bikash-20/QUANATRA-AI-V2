@@ -5,6 +5,7 @@ import {
   explanationResponseSchema,
   parseExplanationResponse,
 } from '@/lib/explanation-schema';
+import { parseEvidenceFromText } from './rc/evidence.ts';
 
 export type ExplanationInput = {
   kind: string;
@@ -20,6 +21,8 @@ export type ExplanationInput = {
   lang: 'en' | 'bn';
 };
 
+export { parseEvidenceFromText };
+
 type CachedExplanation = {
   id: string;
   explanation: string;
@@ -32,11 +35,15 @@ async function sha256(s: string): Promise<string> {
 }
 
 async function cacheKey(input: ExplanationInput): Promise<string> {
-  // Per spec, the cache key for gre-quant and gre-reading is questionId +
+  // Per spec, the cache key for gre-quant and gre-rc is questionId +
   // userAnswer + lang. Other kinds keep the full-payload key so behavior
-  // is unchanged.
+  // is unchanged. `gre-reading` is kept here during the migration window
+  // so the legacy callers don't see a cold cache.
   if (input.kind === 'gre-quant' && input.questionId) {
     return `explain:gre-quant:${await sha256(`${input.questionId}|${input.userAnswer ?? ''}|${input.lang}`)}`;
+  }
+  if (input.kind === 'gre-rc' && input.questionId) {
+    return `explain:gre-rc:${await sha256(`${input.questionId}|${input.userAnswer ?? ''}|${input.lang}`)}`;
   }
   if (input.kind === 'gre-reading' && input.questionId) {
     return `explain:gre-reading:${await sha256(`${input.questionId}|${input.userAnswer ?? ''}|${input.lang}`)}`;

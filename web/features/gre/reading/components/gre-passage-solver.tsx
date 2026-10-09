@@ -7,9 +7,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
 import { greProgress, type UserAnswer } from "@/features/gre/progress/repository";
 import { checkAnswer, formatCorrectAnswer, choiceLetter } from "@/features/gre/reading/checker";
-import { getExplanation } from "@/lib/explanations";
+import { getExplanation, parseEvidenceFromText } from "@/lib/explanations";
 import { MarkdownContent } from "@/components/markdown-content";
 import { GrePassageText } from "./gre-passage-text";
+import { GreQTypeBadge } from "./gre-qtype-badge";
 
 type Props = {
   passage: RcPassage;
@@ -25,6 +26,10 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
   const [activeIndex, setActiveIndex] = useState(0);
   const [bookmarked, setBookmarked] = useState(false);
   const [showPassage, setShowPassage] = useState(true);
+  // Lifted up so the passage renderer can read the explainer's
+  // EVIDENCE trailer and highlight additional sentences on top of
+  // the qType's evidence anchors.
+  const [extraEvidenceByQ, setExtraEvidenceByQ] = useState<Record<string, number[]>>({});
 
   useEffect(() => {
     let cancelled = false;
@@ -80,7 +85,10 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
               passageId={passage.id}
               body={passage.body}
               sentences={sentences ?? []}
-              evidence={question.evidence.map((e) => e.sentence)}
+              evidence={Array.from(new Set([
+                ...question.evidence.map((e) => e.sentence),
+                ...(extraEvidenceByQ[question.questionId] ?? []),
+              ]))}
             />
           </article>
         </aside>
@@ -114,6 +122,7 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
             passageBody={passage.body}
             onPrev={activeIndex > 0 ? () => setActiveIndex(activeIndex - 1) : null}
             onNext={activeIndex < total - 1 ? () => setActiveIndex(activeIndex + 1) : null}
+            onExtraEvidence={(indices) => setExtraEvidenceByQ((prev) => ({ ...prev, [question.questionId]: indices }))}
           />
         </section>
       </div>
@@ -122,7 +131,7 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
 }
 
 function QuestionCard({
-  question, passageId, category, difficulty, source, passageBody, onPrev, onNext,
+  question, passageId, category, difficulty, source, passageBody, onPrev, onNext, onExtraEvidence,
 }: {
   question: RcQuestion;
   passageId: string;
@@ -132,6 +141,7 @@ function QuestionCard({
   passageBody: string;
   onPrev: (() => void) | null;
   onNext: (() => void) | null;
+  onExtraEvidence: (indices: number[]) => void;
 }) {
   const isPickable = question.kind === "single" || question.kind === "multi";
   const choices: string[] = isPickable ? (question as Extract<RcQuestion, { kind: "single" | "multi" }>).choices : [];
@@ -203,7 +213,7 @@ function QuestionCard({
       const ua = buildUserAnswer();
       const correctText = formatCorrectAnswer(question);
       const text = await getExplanation({
-        kind: "gre-reading",
+        kind: "gre-rc",
         questionId: question.questionId,
         question: question.stem,
         options: isPickable ? choices : [],
@@ -214,6 +224,8 @@ function QuestionCard({
         lang: window.localStorage.getItem("quantara.language") === "bn" ? "bn" : "en",
       });
       setExplainText(text);
+      const ev = parseEvidenceFromText(text);
+      if (ev.length > 0) onExtraEvidence(ev);
     } catch (e) {
       setExplainError(e instanceof Error ? e.message : "Failed to load explanation");
     } finally {
@@ -239,6 +251,7 @@ function QuestionCard({
             : question.kind === "multi" ? "select all that apply"
             : "select a sentence"}
         </span>
+        {submitted ? <GreQTypeBadge qType={question.qType} /> : null}
       </header>
 
       <div className="text-base text-slate-100">
