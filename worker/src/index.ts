@@ -4,6 +4,13 @@ import { cascadeHealth, runCascade } from "./cascade";
 import type { CascadeMsg, TierAttempt } from "./cascade";
 import { applyCors } from "./cors";
 import { rateLimit } from "./kv";
+import {
+  cleanPassageShape,
+  crossCheckPassage,
+  dropBadQuestions,
+  extractBodyText,
+  splitSentencesLocal,
+} from "./rc-pipeline";
 
 export interface Env {
   AI: Ai;
@@ -77,7 +84,8 @@ async function cascadeJSON(
   env: Env,
   prompt: { system: string; user: string },
   maxTokens: number,
-  timeoutMs?: number
+  timeoutMs?: number,
+  exclude?: string[]
 ): Promise<{ data: unknown; model: string; cacheHit: boolean }> {
   const messages: CascadeMsg[] = [
     { role: "system", content: prompt.system },
@@ -91,6 +99,7 @@ async function cascadeJSON(
       jsonMode: true,
       maxTokens,
       timeoutMs,
+      exclude,
     });
     lastModel = res.model;
     lastCacheHit = res.cacheHit;
@@ -119,6 +128,13 @@ function extractJSON(text: string): unknown | null {
   }
   return null;
 }
+
+// ---------------------------------------------------------------------------
+// RC pipeline helpers live in ./rc-pipeline.ts so they can be unit-tested.
+// The handler in this file orchestrates generate → verify → cross-check
+// → retry and tags the response with `source: "ai"` and the
+// `verification` tier.
+// ---------------------------------------------------------------------------
 
 async function handle(req: Request, env: Env): Promise<Response> {
   const url = new URL(req.url);
@@ -331,28 +347,147 @@ async function handle(req: Request, env: Env): Promise<Response> {
       }
 
       case "/api/reading/generate": {
+        // Moved to /api/gre/generate-passage. The old endpoint is gone —
+        // 410 Gone so old clients update cleanly.
+        return json(
+          env,
+          { error: "Moved to /api/gre/generate-passage", moved: "/api/gre/generate-passage" },
+          410
+        );
+      }
+
+      case "/api/gre/generate-passage": {
         const cat = String(b.category || "");
         if (!["business", "science", "social-science", "arts"].includes(cat))
-          return json(env, { error: "category must be business|science|social-science|arts" }, 400);
+          return json(
+            env,
+            { error: "category must be business|science|social-science|arts" },
+            400
+          );
         const topic = String(b.topic || cat).slice(0, 120);
         const count = clamp(b.count ?? 4, 3, 5, 4);
-        // Inject a per-request nonce into the system prompt so the cascade
-        // cache key changes every call. The user wants fresh material each
-        // request, so we never want to serve a stale passage. The nonce
-        // tells the model to ignore it ("ignore prior context") so the
-        // output is unaffected.
-        const nonce = crypto.randomUUID();
-        const basePrompt = P.readingGeneratePrompt(cat, topic, count, lang, difficulty);
-        const { data, model } = await cascadeJSON(
-          env,
-          {
-            system: `${basePrompt.system}\nRequest nonce: ${nonce}. Ignore this token; it is only there to keep the response fresh.`,
-            user: basePrompt.user,
-          },
-          3000,
-          30000
+        const kindsMix = isRecord(b.kindsMix)
+          ? Object.fromEntries(
+              Object.entries(b.kindsMix).filter(
+                ([, v]) => typeof v === "number" && Number.isFinite(v)
+              )
+            )
+          : undefined;
+
+        // Generate → verify → cross-check → retry once on mismatch → drop bad
+        // questions on the second failure. The generator output is cached by
+        // (category, topic, count, kindsMix, lang, difficulty) so identical
+        // inputs can be reused; the verifier call is NOT cached (we always
+        // want a fresh second opinion).
+        const basePrompt = P.rcGeneratePassagePrompt(
+          cat,
+          topic,
+          count,
+          lang,
+          difficulty,
+          kindsMix as Partial<Record<string, number>> | undefined
         );
-        return json(env, data, 200, { "X-Model": model, "X-Cache": "BYPASS" });
+
+        let generatorModel = "unknown";
+        let verifierModel: string | null = null;
+        let verification: "cross-checked" | "weak" | "single-model" = "single-model";
+        let lastError: string | null = null;
+        let passageObj: unknown = null;
+
+        for (let attempt = 0; attempt < 2 && passageObj === null; attempt++) {
+          // --- Generate ---
+          const { data: genRaw, model: genModel } = await cascadeJSON(
+            env,
+            {
+              system: basePrompt.system,
+              user: basePrompt.user,
+            },
+            3000,
+            30000
+          );
+          generatorModel = genModel;
+
+          // --- Programmatic checks ---
+          const sentences = splitSentencesLocal(extractBodyText(genRaw));
+          const cleaned = cleanPassageShape(genRaw, sentences);
+          if (cleaned === null) {
+            lastError = "passage failed shape checks";
+            continue; // retry
+          }
+          const sanitized = dropBadQuestions(cleaned, sentences);
+          if (sanitized === null) {
+            lastError = "passage has fewer than 3 valid questions";
+            continue; // retry
+          }
+
+          // --- Verify (blind — no answer key, no evidence) ---
+          const verifyPrompt = P.rcVerifyPassagePrompt(lang, difficulty);
+          try {
+            const { data: verRaw, model: verModel } = await cascadeJSON(
+              env,
+              {
+                system: verifyPrompt.system,
+                user: `${verifyPrompt.user}\n\n${JSON.stringify({
+                  body: cleaned.body,
+                  sentences,
+                  questions: sanitized.questions.map((q) => ({
+                    questionId: q.questionId,
+                    stem: q.stem,
+                    kind: q.kind,
+                    choices: "choices" in q ? q.choices : undefined,
+                  })),
+                })}`,
+              },
+              1500,
+              20000,
+              [genModel] // exclude the generator from the verifier cascade
+            );
+            verifierModel = verModel;
+            const verified = crossCheckPassage(sanitized, verRaw);
+            if (verified.ok === false) {
+              lastError = `verifier disagreed on ${verified.badCount} question(s)`;
+              continue; // retry
+            }
+            verification = verified.ambiguous
+              ? "weak"
+              : genModel === verModel
+              ? "single-model"
+              : "cross-checked";
+            passageObj = verified.passage;
+          } catch (verifyErr) {
+            // Verifier cascade failed: fall back to the generator-only shape.
+            // This is the "single-model" tier — the passage is still served
+            // so the user always gets practice material.
+            console.error(
+              "[quantara] rc verifier cascade failed:",
+              verifyErr instanceof Error ? verifyErr.message : String(verifyErr)
+            );
+            lastError = "verifier cascade failed; serving generator-only";
+            verifierModel = null;
+            verification = "single-model";
+            passageObj = sanitized;
+          }
+        }
+
+        if (passageObj === null) {
+          return json(
+            env,
+            { error: lastError ?? "generation failed", category: cat, topic },
+            503
+          );
+        }
+
+        const finalPassage = passageObj as Record<string, unknown>;
+        finalPassage.source = "ai";
+        finalPassage.generatorModel = generatorModel;
+        finalPassage.verifierModel = verifierModel;
+        finalPassage.verification = verification;
+        finalPassage.createdAt = Date.now();
+        return json(env, finalPassage, 200, {
+          "X-Model": generatorModel,
+          "X-Verifier": verifierModel ?? "",
+          "X-Verification": verification,
+        });
       }
 
       case "/api/flashcards": {

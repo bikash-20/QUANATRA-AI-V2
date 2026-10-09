@@ -224,6 +224,104 @@ Rules:
 - Do not prefix with "Output:" or any other text. Just the JSON object.`,
 });
 
+/**
+ * Generator prompt for the cross-checked /api/gre/generate-passage
+ * pipeline. Output must be a complete RcPassage envelope (kind, qType,
+ * evidence, etc.) so the validator and the loader accept it without
+ * remapping. The `kindsMix` argument lets the caller request a specific
+ * distribution of question types.
+ */
+export const rcGeneratePassagePrompt = (
+  category: string,
+  topic: string,
+  count: number,
+  lang: Lang,
+  difficulty: Difficulty,
+  kindsMix?: Partial<Record<string, number>>
+) => {
+  const mix =
+    kindsMix && Object.keys(kindsMix).length > 0
+      ? `\nQuestion type mix (HARD requirement — exactly this many of each):\n${JSON.stringify(kindsMix, null, 2)}`
+      : "";
+  return {
+    system: `You are a GRE reading-comprehension author. Write a single original passage in the requested category with ${count} well-calibrated questions. ${JSON_ONLY} ${langRule(lang)}`,
+    user: `Category: ${category}
+Topic: ${topic}
+Question count: ${count}
+${difficultyBlock(difficulty, "passage")}${mix}
+
+Schema (output exactly this, nothing else — no fences, no commentary):
+{
+  "id": "rc-ai-<8-char-hash>",
+  "category": "${category}",
+  "title": "string (8-160 chars)",
+  "source": "ai",
+  "body": "string (the passage; 3-4 paragraphs; use \\n\\n between paragraphs; 150-450 words; do NOT include any real researchers, organisations, or citations; use original placeholder names if needed)",
+  "difficulty": "${difficulty}",
+  "tags": ["string", "string"],
+  "questions": [
+    {
+      "kind": "single" | "multi" | "select-sentence",
+      "questionId": "q-rc-ai-<short>-<n>",
+      "stem": "string (10-800 chars)",
+      "qType": "main-idea" | "detail" | "inference" | "author-attitude" | "function" | "structure" | "vocab-in-context" | "strengthen-weaken",
+      "evidence": [
+        { "sentence": <0-based sentence index>, "anchor": "<first 5 words of that sentence, lowercase, 8-80 chars>" }
+      ],
+      "rationale": "string (20-800 chars)",
+      // single:
+      "choices": ["string", "string", "string", "string", "string"],
+      "answer": <index 0-4, single correct option>,
+      // multi:
+      "choices": ["string", "string", "string"],
+      "answer": [<index 0-2>, <index 0-2>] (1-3 correct indices),
+      // select-sentence:
+      "answer": <0-based sentence index>
+    }
+  ]
+}
+
+Rules:
+- ORIGINAL passage. Do NOT cite real people, real papers, real companies, real statistics, or anything that looks like a real-world attribution.
+- Body in 3-4 paragraphs separated by a blank line. Use a formal register; medium and hard should use hedged claims ("researchers have argued", "some evidence suggests") and include at least one "however" or "nevertheless" transition.
+- Question kind rules:
+  - "single" — exactly 5 choices; exactly 1 correct; randomized correct index.
+  - "multi" — exactly 3 choices; 1-3 correct; use "Select all that apply." in the stem.
+  - "select-sentence" — no choices field; answer is a 0-based index into the passage.
+- Wrong-answer trap design (single/multi): too extreme, out of scope, reverses the claim, true but irrelevant, partially correct, misattributes a view.
+- Evidence: every question must list 1-4 sentence indices that the answer depends on. The "anchor" must be the first ~5 words of that sentence, exactly as it appears in the body. 0-indexed. Sentence count is the number of sentences in the body (treat each . ! ? followed by whitespace+capital as a split; abbreviations are not split).
+- Do not prefix with "Output:" or any other text. Just the JSON object.`,
+  };
+};
+
+/**
+ * Verifier prompt for the cross-checked pipeline. The verifier receives
+ * ONLY the passage, sentence list, and the question text/choices — never
+ * the answer key. It returns its own answer set and flags any question
+ * where two choices seem defensible.
+ */
+export const rcVerifyPassagePrompt = (
+  lang: Lang,
+  difficulty: Difficulty
+) => ({
+  system: `You are a skeptical GRE reading-comprehension reader. Answer each question independently. The answer must be textually supported by the passage. If two choices seem defensible, set that question's "ambiguous" to true. Use only the question text and the passage — no outside knowledge. ${JSON_ONLY} ${langRule(lang)} ${difficultyBlock(difficulty, "passage")}`,
+  user: `You are given a passage, the pre-split sentence list, and the questions. Output your answers.
+
+Schema (output exactly this, nothing else):
+{
+  "answers": [<answer for q1>, <answer for q2>, ...],
+  "ambiguous": [<true|false for q1>, <true|false for q2>, ...]
+}
+
+Rules:
+- "answers[i]" is the answer for questions[i] in the same order.
+- For "single" questions, the answer is the 0-based index of the chosen choice.
+- For "multi" questions, the answer is the array of 0-based indices (sorted ascending).
+- For "select-sentence" questions, the answer is the 0-based sentence index.
+- If you cannot choose between two options for any question, set that question's "ambiguous" to true and pick the most defensible answer anyway.
+- "ambiguous" must be an array of the same length as "answers".`,
+});
+
 export const flashcardPrompt = (topic: string, count: number, lang: Lang, difficulty: Difficulty) => ({
   system: `You create concise study flashcards. ${JSON_ONLY} ${langRule(lang)}`,
   user: `Topic: ${topic}

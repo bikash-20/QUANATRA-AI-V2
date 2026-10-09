@@ -2,8 +2,8 @@
 // Tries models in order until one returns text. Used for every generation
 // endpoint so a single model outage can't take down a feature.
 
-import { openRouterComplete, openRouterStream } from "./openrouter";
-import { cacheGetJSON, cachePutJSON } from "./kv";
+import { openRouterComplete, openRouterStream } from "./openrouter.ts";
+import { cacheGetJSON, cachePutJSON } from "./kv.ts";
 
 export type CascadeMsg = { role: "system" | "user" | "assistant"; content: string };
 
@@ -16,6 +16,14 @@ export type CascadeOpts = {
   timeoutMs?: number;
   /** OpenRouter API key. Optional — if absent, OpenRouter tiers are skipped. */
   openRouterKey?: string;
+  /**
+   * Model ids to skip in the cascade. Used by the dual-model RC pipeline
+   * so the verifier never queries the same model the generator used. If
+   * every model is excluded we fall back to the full cascade rather than
+   * returning 503 — the caller tags the output with a "single-model"
+   * verification flag instead.
+   */
+  exclude?: string[];
 };
 
 export type CascadeResult = {
@@ -99,11 +107,14 @@ async function cacheWrite(env: WorkerEnv, key: string, value: string): Promise<v
 export async function cacheKey(opts: CascadeOpts): Promise<string> {
   // Include the complete prompt and generation settings so distinct system
   // instructions or conversation histories cannot receive one another's output.
+  // `exclude` is part of the key so the dual-model RC pipeline doesn't share
+  // a cache slot across verifier/generator calls with different exclusions.
   const raw = JSON.stringify({
     messages: opts.messages,
     jsonMode: opts.jsonMode ?? false,
     maxTokens: opts.maxTokens ?? 1500,
     temperature: opts.temperature ?? 0.4,
+    exclude: opts.exclude ?? [],
   });
   // KV caps keys at 512 bytes; messages can run longer. Hash to a fixed-size
   // hex string so the key stays well under the limit everywhere.
@@ -173,6 +184,23 @@ function cfModels(env: WorkerEnv): string[] {
   }
   const primary = env.MODEL || DEFAULT_CF_CASCADE[0];
   return [primary, ...DEFAULT_CF_CASCADE.filter((m) => m !== primary)];
+}
+
+/**
+ * Apply the `exclude` option to a model list. If the exclusion would empty
+ * the list we log and return the full list — the caller can tag the output
+ * with a "single-model" flag so the UI is honest about what happened.
+ */
+function applyExclude(models: string[], exclude: string[] | undefined): string[] {
+  if (!exclude || exclude.length === 0) return models;
+  const filtered = models.filter((m) => !exclude.includes(m));
+  if (filtered.length === 0) {
+    console.warn(
+      `[quantara] cascade exclude removed every model (${exclude.join(",")}); falling back to full cascade`
+    );
+    return models;
+  }
+  return filtered;
 }
 
 async function callCf(
@@ -245,7 +273,7 @@ export async function runCascade(
   }
 
   // 1. CF cascade
-  for (const model of cfModels(env)) {
+  for (const model of applyExclude(cfModels(env), opts.exclude)) {
     const start = Date.now();
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), timeoutMs);
@@ -282,7 +310,7 @@ export async function runCascade(
 
   // 2. OpenRouter cascade (if key is configured)
   if (env.OPENROUTER_API_KEY) {
-    for (const model of DEFAULT_OPENROUTER_CASCADE) {
+    for (const model of applyExclude(DEFAULT_OPENROUTER_CASCADE, opts.exclude)) {
       const start = Date.now();
       const ctrl = new AbortController();
       const timer = setTimeout(() => ctrl.abort(), timeoutMs);

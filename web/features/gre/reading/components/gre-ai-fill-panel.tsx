@@ -1,13 +1,10 @@
 "use client";
-// AI-fill panel: hit /api/reading/generate and render the returned passage
-// inline. No caching at the network layer — the user wants fresh practice
-// material each call.
-//
-// The expected response shape is the new RcPassage / RcQuestion envelope
-// (post commit #3). The old /api/reading/generate endpoint is being
-// replaced by /api/gre/generate-passage in commit #14 — for now the
-// panel still works against the old endpoint, and the schema below
-// matches the new envelope. The endpoint is updated in #14.
+// AI-fill panel: hit /api/gre/generate-passage and render the returned
+// passage inline. The new endpoint runs a cross-checked pipeline
+// (generate → verify → programmatic checks → retry on disagreement),
+// so every passage the user gets has at minimum a generator-only
+// sanity check, and usually a blind verifier pass too. The response
+// envelope is the same RcPassage shape used everywhere else.
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -31,14 +28,22 @@ const PassageSchema = z.object({
       z.object({ kind: z.literal("select-sentence"), questionId: z.string(), stem: z.string(), qType: z.enum(["main-idea", "detail", "inference", "author-attitude", "function", "structure", "vocab-in-context", "strengthen-weaken"]), evidence: z.array(z.object({ sentence: z.number(), anchor: z.string() })), answer: z.number().int().min(0), rationale: z.string() }),
     ])
   ).min(3).max(5),
-}) satisfies z.ZodType<RcPassage>;
+  // AI-pipeline metadata (commit #14). Optional because hand-authored
+  // passages never set them. Stored alongside the passage so the
+  // sessionStorage copy can show the source + verification badge.
+  generatorModel: z.string().optional(),
+  verifierModel: z.string().nullable().optional(),
+  verification: z.enum(["cross-checked", "weak", "single-model"]).optional(),
+  createdAt: z.number().optional(),
+});
+type GeneratedPassage = z.infer<typeof PassageSchema>;
 
 export function GreAiFillPanel({ category }: { category: RcPassage["category"] }) {
   const [topic, setTopic] = useState("");
   const [difficulty, setDifficulty] = useState<"easy" | "medium" | "hard">("medium");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [lastPassage, setLastPassage] = useState<RcPassage | null>(null);
+  const [lastPassage, setLastPassage] = useState<GeneratedPassage | null>(null);
   const router = useRouter();
 
   async function handleGenerate() {
@@ -46,7 +51,7 @@ export function GreAiFillPanel({ category }: { category: RcPassage["category"] }
     setError(null);
     try {
       const passage = await apiRequest(
-        "/api/reading/generate",
+        "/api/gre/generate-passage",
         { category, topic: topic.trim() || category, difficulty, lang: window.localStorage.getItem("quantara.language") === "bn" ? "bn" : "en" },
         PassageSchema,
       );
