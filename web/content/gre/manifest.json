@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T19:34:52.635Z",
+ "generatedAt": "2026-10-09T20:23:24.989Z",
  "quant": {
   "algebra": {
    "count": 400,
@@ -286,7 +286,13 @@
    "medium": 1,
    "hard": 1,
    "shards": 8,
-   "passages": 2
+   "passages": 2,
+   "questions": 6,
+   "byQType": {
+    "author-attitude": 2,
+    "function": 1,
+    "detail": 3
+   }
   },
   "science": {
    "count": 2,
@@ -294,7 +300,14 @@
    "medium": 1,
    "hard": 1,
    "shards": 8,
-   "passages": 2
+   "passages": 2,
+   "questions": 6,
+   "byQType": {
+    "function": 1,
+    "detail": 3,
+    "main-idea": 1,
+    "inference": 1
+   }
   },
   "social-science": {
    "count": 2,
@@ -302,7 +315,13 @@
    "medium": 1,
    "hard": 1,
    "shards": 8,
-   "passages": 2
+   "passages": 2,
+   "questions": 6,
+   "byQType": {
+    "detail": 3,
+    "function": 2,
+    "main-idea": 1
+   }
   },
   "arts": {
    "count": 2,
@@ -310,12 +329,19 @@
    "medium": 1,
    "hard": 1,
    "shards": 8,
-   "passages": 2
+   "passages": 2,
+   "questions": 6,
+   "byQType": {
+    "author-attitude": 1,
+    "vocab-in-context": 1,
+    "detail": 3,
+    "function": 1
+   }
   }
  },
  "totals": {
   "quant": 2100,
   "vocab": 2000,
-  "reading": 8
+  "reading": 24
  }
 }

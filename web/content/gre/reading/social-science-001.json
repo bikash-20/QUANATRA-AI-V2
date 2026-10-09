@@ -2,16 +2,25 @@
   "id": "rc-soc-001",
   "category": "social-science",
   "title": "The Quiet Reshaping of Civic Trust",
-  "source": "Adapted from a 2023 American Political Science Review article",
-  "wordCount": 411,
+  "source": "original",
   "difficulty": "medium",
-  "tags": ["political-science", "sociology"],
+  "tags": [
+    "political-science",
+    "sociology"
+  ],
   "body": "For most of the post-war period, surveys in long-established democracies have tracked a single trend with remarkable consistency: a slow, generational decline in the share of citizens who say they trust their government to do what is right. The trend is not steep, and it is not uniform. It accelerates in some countries, plateaus in others, and occasionally reverses for a decade before resuming its downward course. Across the wealthy democracies, however, the direction has been the same for at least fifty years, and the magnitude is large enough that few political scientists now treat it as a measurement artifact.\n\nThe conventional explanation ties the decline to specific scandals, inflation shocks, and wars that each cohort of citizens lived through at politically formative ages. A person who came of age during Watergate, in this account, trusts government less for the rest of their life; a person who came of age during the 2008 financial crisis carries a different, but equally durable, imprint. The explanation is parsimonious and fits the data reasonably well, but it has a difficult implication: trust, on this view, is essentially a record of grievances, and recovery requires that the grievances stop, the cohorts age out, and the replacements arrive with a different experience of the state.\n\nA newer line of work complicates the picture. Researchers comparing identical survey items across decades have found that the wording of 'trust' questions has shifted, the institutions being asked about have changed (in some countries, the post office; in others, social-media platforms), and the alternative activities competing for civic attention have multiplied. A respondent in 1975 who said they trusted the government was answering a question whose referent was almost entirely local and national news; a respondent in 2020 who gives the same answer is making a comparative judgment against a much larger, much noisier, much more partisan information environment. Some scholars now argue that what looks like a decline in trust is partly a decline in the relevance of the institutions the question originally targeted.\n\nThe practical consequence is that reviving trust may not be primarily a question of policy performance, even though policy performance surely matters. It may also be a question of restoring the institutional referent — making visible, again, what specific actions and decisions a citizen is being asked to trust. The author warns that this is a slower and less politically rewarding project than running on a trust-restoration platform, and that its absence from contemporary politics is itself part of the phenomenon being measured.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-soc-001-1",
       "stem": "According to the passage, the conventional explanation for the decline in civic trust holds that trust is:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The explanation is parsimonious and"
+        }
+      ],
       "choices": [
         "a fixed national trait that does not change across generations.",
         "primarily a record of grievances imprinted at politically formative ages.",
@@ -23,9 +32,16 @@
       "rationale": "Paragraph two: 'trust, on this view, is essentially a record of grievances, and recovery requires that the grievances stop, the cohorts age out, and the replacements arrive with a different experience of the state.'"
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-soc-001-2",
       "stem": "The author introduces the newer line of research primarily to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "A newer line of work"
+        }
+      ],
       "choices": [
         "prove that civic trust has actually increased.",
         "argue that the apparent decline in trust may partly reflect changes in what the question measures.",
@@ -37,17 +53,34 @@
       "rationale": "Paragraph three: 'what looks like a decline in trust is partly a decline in the relevance of the institutions the question originally targeted.'"
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-soc-001-3",
       "stem": "Which of the following does the passage identify as reasons the meaning of a 'trust' survey answer in 2020 may differ from one in 1975? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 8,
+          "anchor": "Researchers comparing identical survey items"
+        },
+        {
+          "sentence": 9,
+          "anchor": "A respondent in 1975 who"
+        },
+        {
+          "sentence": 10,
+          "anchor": "Some scholars now argue that"
+        }
+      ],
       "choices": [
         "The wording of trust questions has shifted over time.",
         "The institutions being asked about have changed.",
-        "The information environment has become larger, noisier, and more partisan.",
-        "A single global government has replaced national ones.",
-        "Census methodology has been universally standardized."
+        "The information environment has become larger, noisier, and more partisan."
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "Paragraph three explicitly lists the shifted wording, the changed institutional referent, and the more partisan information environment. The other two are not discussed."
     }
   ]

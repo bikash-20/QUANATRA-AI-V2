@@ -2,16 +2,25 @@
   "id": "rc-art-002",
   "category": "arts",
   "title": "The Architecture of the Boring Museum",
-  "source": "Adapted from a 2023 Apollo Magazine feature",
-  "wordCount": 369,
+  "source": "original",
   "difficulty": "hard",
-  "tags": ["architecture", "museum-studies"],
+  "tags": [
+    "architecture",
+    "museum-studies"
+  ],
   "body": "The museum buildings that attract the most attention in architectural journals are, almost without exception, the ones that stage the most dramatic encounter between visitor and object. A spiraling ramp, a cathedral-like atrium, a glass wall that resolves at dusk into the city outside: these are the moves that win prizes and generate the cover essays. They are also, increasingly, the moves that have produced a genre of museum in which the architecture overwhelms the collection it was commissioned to house. Visitors leave with a vivid memory of the building and a much hazier memory of what they came to see.\n\nThe opposite tendency — what one critic has called the 'boring museum' — is less photogenic and harder to praise, but it has its own quiet discipline. In a boring museum, the galleries are ordered, the lighting is even, the wall texts are positioned at a consistent height, and the route through the collection is unforced. There is no signature atrium, no swooping ceiling, no photograph from the lobby that will end up on a magazine cover. The architecture's job is to disappear. The objects are arranged at the pace the curator has chosen, and the visitor's attention is, in the designer's hopeful phrase, returned to the works themselves.\n\nThe two approaches are sometimes described as a choice between spectacle and scholarship, but the contrast is too sharp. The most successful recent museum projects have tried to thread a third path: architecture that is quiet in the galleries and only assertive at the threshold, where the building's relationship to its city and to its visitors needs to be made legible. The threshold is where the museum announces that it is public, that it is open, that the works inside belong to whoever walks in. Once the visitor has crossed that threshold, the architecture should step back and let the collection do the work for which the collection was made.\n\nThe author is not nostalgic for the old, dimly lit, badly signed museums of the mid-twentieth century, which had their own well-documented failures. The argument, instead, is that a museum building's success should be measured less by the photographs it produces and more by the quality of the attention it returns to the objects inside it. A boring museum, in this sense, is not a museum that fails to impress; it is a museum that has decided which kinds of impression are worth producing.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-art-002-1",
       "stem": "The author introduces the 'boring museum' primarily to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "The architecture's job is to"
+        }
+      ],
       "choices": [
         "mock the architectural profession.",
         "argue that architecture can usefully disappear so that the collection can hold the visitor's attention.",
@@ -23,9 +32,20 @@
       "rationale": "Paragraph two: 'The architecture's job is to disappear. The objects are arranged at the pace the curator has chosen, and the visitor's attention is … returned to the works themselves.'"
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-art-002-2",
       "stem": "According to the passage, the 'third path' that the most successful recent museum projects attempt is characterized by:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 10,
+          "anchor": "The most successful recent museum"
+        },
+        {
+          "sentence": 11,
+          "anchor": "The threshold is where the"
+        }
+      ],
       "choices": [
         "a single signature atrium that resolves the entire program.",
         "assertive architecture throughout the galleries.",
@@ -37,17 +57,30 @@
       "rationale": "Paragraph three: 'architecture that is quiet in the galleries and only assertive at the threshold, where the building's relationship to its city and to its visitors needs to be made legible.'"
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-art-002-3",
       "stem": "Which of the following does the passage identify as defining features of the 'boring museum'? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 5,
+          "anchor": "In a boring museum, the"
+        },
+        {
+          "sentence": 6,
+          "anchor": "There is no signature atrium,"
+        }
+      ],
       "choices": [
         "Galleries that are ordered.",
         "Lighting that is even.",
-        "A signature atrium designed for magazine covers.",
-        "A route through the collection that is unforced.",
-        "An architectural style that announces itself from the lobby."
+        "A route through the collection that is unforced."
       ],
-      "answer": [0, 1, 3],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "Paragraph two explicitly lists ordered galleries, even lighting, and an unforced route. The signature atrium and a self-announcing lobby are identified with the opposite approach."
     }
   ]

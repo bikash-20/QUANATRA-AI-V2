@@ -2,16 +2,25 @@
   "id": "rc-sci-002",
   "category": "science",
   "title": "Why Dark Matter Still Hides",
-  "source": "Adapted from a 2024 Quanta Magazine essay",
-  "wordCount": 376,
+  "source": "original",
   "difficulty": "hard",
-  "tags": ["physics", "cosmology"],
+  "tags": [
+    "physics",
+    "cosmology"
+  ],
   "body": "For more than half a century, astrophysicists have accumulated evidence that the visible matter in galaxies and galaxy clusters is not enough to account for the gravitational behavior that those systems exhibit. Galaxies rotate faster than the visible mass alone would allow; clusters bend light more than their luminous content predicts; the cosmic microwave background carries temperature fluctuations that require a substantial non-baryonic component to produce. The simplest explanation, that the universe is filled with a form of matter that does not interact with light, has been given the placeholder name 'dark matter,' and an enormous experimental program has been built to detect or rule it out.\n\nThe program has not, so far, succeeded. Direct-detection experiments, which search for nuclear recoils that would be produced if a dark-matter particle occasionally bumped into an ordinary atom, have pushed their sensitivity through orders of magnitude over the last three decades without finding a signal. Indirect-detection experiments, which look for the products of dark-matter annihilation in space, have produced intriguing hints but no unambiguous discovery. Collider experiments, which try to produce dark-matter particles in high-energy collisions, have not observed a candidate particle. Each null result has narrowed the parameter space, and each round of constraints has sharpened the theorists' predictions about where the next signal ought to appear. The signal, however, has not appeared.\n\nThere are two ways to read the situation. The first is that dark matter exists, is composed of particles, and is simply heavier, more weakly interacting, or more dilute than current experiments can reach. The second is that the gravitational anomalies are not, in fact, evidence of new matter but of a failure of our understanding of gravity at large scales. The latter interpretation, known as modified Newtonian dynamics and its relativistic extensions, has a long history and a dedicated community of supporters, but it has had difficulty accommodating the full range of observations without introducing auxiliary parameters of its own.\n\nThe author concludes that the persistence of the null results is itself a piece of data. Either the dark-matter particle is hiding behind a threshold that the next generation of detectors will finally cross, or the gravitational anomalies are forcing physicists to revise assumptions that have been treated as foundational for most of the modern era. Either outcome, the author writes, would represent a major shift in how the field understands the universe on its largest scales.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-sci-002-1",
       "stem": "Which of the following best summarizes the evidence cited in paragraph one for the existence of dark matter?",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 1,
+          "anchor": "Galaxies rotate faster than the"
+        }
+      ],
       "choices": [
         "Direct observation of dark-matter particles in laboratory detectors.",
         "Visible matter is insufficient to account for observed gravitational behavior in galaxies, clusters, and the cosmic microwave background.",
@@ -23,9 +32,16 @@
       "rationale": "Paragraph one: 'visible matter … is not enough to account for the gravitational behavior that those systems exhibit.'"
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-sci-002-2",
       "stem": "According to the passage, modified Newtonian dynamics is best described as:",
+      "qType": "inference",
+      "evidence": [
+        {
+          "sentence": 12,
+          "anchor": "The latter interpretation, known as"
+        }
+      ],
       "choices": [
         "a universally accepted replacement for the dark-matter hypothesis.",
         "an alternative interpretation that attributes gravitational anomalies to a failure of our understanding of gravity rather than to new matter.",
@@ -37,17 +53,34 @@
       "rationale": "Paragraph three: 'the gravitational anomalies are not … evidence of new matter but of a failure of our understanding of gravity at large scales.'"
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-sci-002-3",
       "stem": "Which of the following are mentioned as approaches that have, so far, failed to detect dark matter? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "Direct-detection experiments, which search for"
+        },
+        {
+          "sentence": 5,
+          "anchor": "Indirect-detection experiments, which look for"
+        },
+        {
+          "sentence": 6,
+          "anchor": "Collider experiments, which try to"
+        }
+      ],
       "choices": [
         "Direct-detection experiments searching for nuclear recoils.",
         "Indirect-detection experiments looking for annihilation products in space.",
-        "Collider experiments attempting to produce dark-matter particles.",
-        "Direct optical imaging of dark matter with ground-based telescopes.",
-        "Measurement of dark-matter decay in the cosmic microwave background using bolometers."
+        "Collider experiments attempting to produce dark-matter particles."
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "Paragraph two explicitly enumerates direct, indirect, and collider detection. The other two are not discussed."
     }
   ]

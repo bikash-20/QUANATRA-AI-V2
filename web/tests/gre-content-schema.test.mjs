@@ -114,3 +114,43 @@ test('taxonomy.json declares the topics', () => {
     assert.ok(slugs.includes(slug), `taxonomy missing ${slug}`);
   }
 });
+
+test('all GRE reading passages parse with the upgraded schema', () => {
+  // Lightweight mirror of the upgraded RcPassage schema. Validates only
+  // shape (id format, source enum, kind, evidence, choices length per
+  // kind); the validator script does the full anchor / drift / range
+  // checks at build time.
+  const readingDir = join(ROOT, 'reading');
+  if (!existsSync(readingDir)) return;
+  const RC_SOURCES = new Set(['original', 'ai', 'external']);
+  const RC_QTYPES = new Set([
+    'main-idea', 'detail', 'inference', 'author-attitude',
+    'function', 'structure', 'vocab-in-context', 'strengthen-weaken',
+  ]);
+  const RC_KINDS = new Set(['single', 'multi', 'select-sentence']);
+  let total = 0;
+  for (const f of readdirSync(readingDir).filter((x) => x.endsWith('.json')).sort()) {
+    const data = JSON.parse(readFileSync(join(readingDir, f), 'utf8'));
+    assert.ok(/^rc-[a-z]{2,4}-\d{3}$/.test(data.id), `${f}: bad id`);
+    assert.ok(RC_SOURCES.has(data.source), `${f}: bad source ${data.source}`);
+    assert.ok(typeof data.body === 'string' && data.body.length >= 400, `${f}: body too short`);
+    assert.ok(['easy', 'medium', 'hard'].includes(data.difficulty), `${f}: bad difficulty`);
+    assert.ok(Array.isArray(data.questions) && data.questions.length >= 3, `${f}: too few questions`);
+    for (const q of data.questions) {
+      assert.ok(RC_KINDS.has(q.kind), `${f}:${q.questionId} bad kind ${q.kind}`);
+      assert.ok(RC_QTYPES.has(q.qType), `${f}:${q.questionId} bad qType ${q.qType}`);
+      assert.ok(Array.isArray(q.evidence) && q.evidence.length >= 1, `${f}:${q.questionId} missing evidence`);
+      for (const ev of q.evidence) {
+        assert.equal(typeof ev.sentence, 'number', `${f}:${q.questionId} bad evidence.sentence`);
+        assert.equal(typeof ev.anchor, 'string', `${f}:${q.questionId} bad evidence.anchor`);
+      }
+      if (q.kind === 'single') {
+        assert.equal(q.choices.length, 5, `${f}:${q.questionId} single should have 5 choices`);
+      } else if (q.kind === 'multi') {
+        assert.equal(q.choices.length, 3, `${f}:${q.questionId} multi should have 3 choices`);
+      }
+      total++;
+    }
+  }
+  assert.ok(total >= 24, `expected at least 24 questions across passages, saw ${total}`);
+});

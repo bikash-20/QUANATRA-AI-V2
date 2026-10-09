@@ -2,16 +2,25 @@
   "id": "rc-biz-002",
   "category": "business",
   "title": "Why Carbon Credits Rarely Travel",
-  "source": "Adapted from a 2023 MIT Sloan working paper",
-  "wordCount": 392,
+  "source": "original",
   "difficulty": "hard",
-  "tags": ["climate", "finance"],
+  "tags": [
+    "climate",
+    "finance"
+  ],
   "body": "Voluntary carbon markets were sold, in the late 2010s, as the cleanest way for a corporation to fund emissions reductions it could not achieve in its own operations. A company would buy a credit representing one metric ton of CO2 avoided or removed somewhere else, retire the credit, and report the corresponding reduction. Theoretically elegant, the model assumed that the credit was interchangeable with a ton of physical abatement. In practice, equivalence has been harder to establish than its architects hoped.\n\nThe first set of problems is methodological. Estimating how much carbon a forest would have absorbed without a preservation project requires a counterfactual that is, by definition, unobservable. Different auditors have produced estimates that differ by an order of magnitude for the same project. The resulting credit prices therefore embed not just the cost of preservation but the analyst's prior about deforestation risk, the discount rate applied to a hundred-year horizon, and the verification regime in use. Two credits that both say 'one ton' can carry wildly different climate value.\n\nThe second set of problems is political. Credits generated in one jurisdiction face skepticism in another, not always for technical reasons. A European buyer may decline a Brazilian credit for reasons that include genuine concerns about additionality but also a desire to fund domestic projects. Conversely, host countries have begun to restrict credit exports in order to retain the financial and reputational benefits of climate investment within their borders. The result is a fragmented market in which credits rarely cross borders, despite the rhetoric of a global carbon price.\n\nThe most recent wave of reform has tried to address both sets of problems. Newer methodologies require more conservative baselines, third-party verification by accredited bodies, and a clearer distinction between avoidance and removal credits. Removal, in particular, is treated as the harder, more durable claim and is priced accordingly. Even with these reforms, however, the market remains small relative to the regulatory compliance markets that drive most carbon pricing globally. The voluntary market, the author concludes, is best understood not as a substitute for regulation but as a useful laboratory in which new methodologies and price signals can be tested before they are hardened into compliance rules.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-biz-002-1",
       "stem": "According to the passage, why do two credits that both say 'one ton' often carry different climate value?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "The resulting credit prices therefore"
+        }
+      ],
       "choices": [
         "Because one is denominated in US dollars and the other in euros.",
         "Because they are issued by different national governments.",
@@ -23,9 +32,16 @@
       "rationale": "Paragraph two explicitly lists the analyst's deforestation prior, the discount rate, and the verification regime as inputs that drive the divergence."
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-biz-002-2",
       "stem": "The author characterizes the voluntary carbon market as:",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 18,
+          "anchor": "The voluntary market, the author"
+        }
+      ],
       "choices": [
         "a viable substitute for binding regulation.",
         "the dominant source of global carbon pricing.",
@@ -37,17 +53,34 @@
       "rationale": "The final sentence: 'best understood not as a substitute for regulation but as a useful laboratory in which new methodologies and price signals can be tested before they are hardened into compliance rules.'"
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-biz-002-3",
       "stem": "Which of the following does the passage cite as causes of the fragmented, low-volume nature of voluntary carbon markets? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first set of problems"
+        },
+        {
+          "sentence": 9,
+          "anchor": "The second set of problems"
+        },
+        {
+          "sentence": 12,
+          "anchor": "Conversely, host countries have begun"
+        }
+      ],
       "choices": [
         "Wide variation in estimates of avoided emissions for the same project.",
         "Skepticism across jurisdictions driven by both technical and political factors.",
-        "Host-country restrictions on credit exports.",
-        "A global consensus on a single carbon price.",
-        "The absence of any methodological standards."
+        "Host-country restrictions on credit exports."
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "The methodological problem, the cross-jurisdiction skepticism, and host-country export restrictions are each discussed as causes of fragmentation. The other two are contradicted by the passage."
     }
   ]

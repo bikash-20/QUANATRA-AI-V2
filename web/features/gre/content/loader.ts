@@ -134,12 +134,14 @@ export type Taxonomy = {
 };
 
 export type ReadingCategoryBucket = {
-  count: number;
-  easy: number;
+  count: number;          // question count (post-migration)
+  easy: number;           // easy-question count
   medium: number;
   hard: number;
   shards: number;
   passages: number;
+  questions: number;      // explicit question count
+  byQType: Partial<Record<string, number>>;
 };
 
 export type Manifest = {
@@ -239,15 +241,18 @@ function loadManifest(): Manifest {
     const readingCats: ReadingCategoryType[] = tax.reading ?? ["business", "science", "social-science", "arts"];
     for (const cat of readingCats) {
       const list = getPassageList(cat);
+      const questionCount = list.reduce((s, p) => s + (Array.isArray(p.questions) ? p.questions.length : 0), 0);
       out.reading![cat] = {
-        count: list.length,
+        count: questionCount,
         easy: list.filter((p) => p.difficulty === "easy").length,
         medium: list.filter((p) => p.difficulty === "medium").length,
         hard: list.filter((p) => p.difficulty === "hard").length,
         shards: 0,
         passages: list.length,
+        questions: questionCount,
+        byQType: {},
       };
-      out.totals.reading = (out.totals.reading ?? 0) + list.length;
+      out.totals.reading = (out.totals.reading ?? 0) + questionCount;
     }
     manifestSlot.write(out);
     return out;
@@ -405,11 +410,20 @@ function loadReadingCategory(category: ReadingCategoryType): ReadingPassage[] {
     const files = readdirSync(dir).filter((f) => f.startsWith(`${category}-`) && f.endsWith(".json")).sort();
     for (const f of files) {
       const raw = readJson<unknown>(`reading/${f}`);
-      const parsed = ReadingPassage.safeParse(raw);
+      // After commit #3 the data uses the upgraded RcPassage shape.
+      // We try the new schema first; if it fails, fall back to the
+      // legacy ReadingPassage schema for any in-flight files that have
+      // not been migrated yet.
+      const parsed = RcPassage.safeParse(raw);
       if (!parsed.success) {
-        throw new GreContentError("invalid", `Invalid passage in reading/${f}: ${parsed.error.message}`);
+        const legacy = ReadingPassage.safeParse(raw);
+        if (!legacy.success) {
+          throw new GreContentError("invalid", `Invalid passage in reading/${f}: ${parsed.error.message}`);
+        }
+        list.push(legacy.data as unknown as ReadingPassage);
+        continue;
       }
-      list.push(parsed.data);
+      list.push(parsed.data as unknown as ReadingPassage);
     }
   }
   passagesByCategory.set(category, list);

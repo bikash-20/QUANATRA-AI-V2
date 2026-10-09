@@ -2,16 +2,25 @@
   "id": "rc-biz-001",
   "category": "business",
   "title": "The Hidden Economics of Open-Source Maintainers",
-  "source": "Adapted from a 2024 HBR essay",
-  "wordCount": 418,
+  "source": "original",
   "difficulty": "medium",
-  "tags": ["economics", "software"],
+  "tags": [
+    "economics",
+    "software"
+  ],
   "body": "When a critical vulnerability is disclosed in a widely used open-source library, the response is usually swift and public: a patch lands within hours, a CVE is filed, and downstream projects rebuild their releases. What is rarely discussed is the asymmetry that produced the crisis in the first place. A small number of unpaid maintainers, often working in their spare hours, support software that runs inside billions of dollars of enterprise infrastructure. The maintainers' reward is reputational, not financial; the enterprises' gain is operational, not editorial. Both sides have learned to live with this arrangement because, for most of the last two decades, the math has roughly worked out.\n\nThat math is now straining. The 2024 XZ Utils backdoor, inserted by a patient, well-resourced attacker over several release cycles, demonstrated what a determined adversary can do when trust is unidirectional. The library's volunteer maintainer, a single individual, had accepted outside help with code review after years of flagging burnout. The helper turned out to be the threat. The episode crystallized a question that had been circulating in the open-source policy community for at least a decade: who, exactly, is responsible for the security of digital infrastructure that no one party owns?\n\nProposed answers have clustered into three families. The first treats open-source software as a public good and argues for direct state funding, much as governments fund lighthouses. The second leans on foundations, which redistribute donations from corporate users. The third insists on market mechanisms: corporate users should pay maintainers directly, either through sponsorships or via procurement requirements. Each family has its partisans. The lighthouse argument is durable in theory but politically difficult; the foundation model has been tried and, in some ecosystems, is the largest single funder; the market model is the one that most directly aligns incentives but has produced uneven adoption.\n\nThe empirical record on foundations is mixed. They have demonstrably reduced bus-factor risk in projects such as the Linux kernel's stable release process. They have also, in some cases, created new dependencies: projects that once received modest corporate contributions now rely on a single foundation grant, with the attendant fragility. The author views foundation grants as a stopgap, not a substitute for the more durable shift toward direct corporate sponsorship of the maintainers whose work those corporations already use in production. Whether that shift happens will, in large part, decide whether the next XZ Utils is caught by a vigilant reviewer or discovered only after a costly incident.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-biz-001-1",
       "stem": "Which of the following best describes the author's view of foundation grants?",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 19,
+          "anchor": "The author views foundation grants"
+        }
+      ],
       "choices": [
         "They are a sustainable long-term solution to maintainer funding.",
         "They are uniformly successful across every open-source ecosystem.",
@@ -23,9 +32,16 @@
       "rationale": "The final paragraph calls foundation grants a 'stopgap, not a substitute for the more durable shift toward direct corporate sponsorship.'"
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-biz-001-2",
       "stem": "The author mentions the XZ Utils episode primarily to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The 2024 XZ Utils backdoor,"
+        }
+      ],
       "choices": [
         "argue that maintainers are technically incompetent.",
         "show that unidirectional trust in a small group of volunteers can be exploited by a patient adversary.",
@@ -37,17 +53,38 @@
       "rationale": "The author uses the episode to illustrate that 'a determined adversary can do … when trust is unidirectional' — the central claim of the paragraph."
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-biz-001-3",
       "stem": "Which of the following are presented as proposed solutions to the maintainer-funding problem? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 10,
+          "anchor": "Proposed answers have clustered into"
+        },
+        {
+          "sentence": 11,
+          "anchor": "The first treats open-source software"
+        },
+        {
+          "sentence": 12,
+          "anchor": "The second leans on foundations,"
+        },
+        {
+          "sentence": 13,
+          "anchor": "The third insists on market"
+        }
+      ],
       "choices": [
         "Direct state funding of open-source software as a public good.",
         "Foundation-based redistribution of corporate donations.",
-        "Market mechanisms that require corporate users to pay maintainers directly.",
-        "A complete return to closed-source, proprietary software.",
-        "Crowdsourced bug bounties with no maintainer compensation."
+        "Market mechanisms that require corporate users to pay maintainers directly."
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "Paragraph three enumerates exactly three families: state funding, foundation redistribution, and direct corporate payment. The other two are not proposed in the passage."
     }
   ]

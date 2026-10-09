@@ -73,6 +73,27 @@ for (const f of readdirSync(vocabDir).filter((x) => /^set-\d+\.json$/.test(x))) 
 
 // --- reading comprehension -------------------------------------------------
 // One passage per file. Layout: content/gre/reading/<category>-NNN.json
+//
+// After commit #3 the data uses the upgraded schema:
+//   * source is a closed enum: "original" | "ai" | "external".
+//   * wordCount is computed by the validator, never hand-typed.
+//   * questions use `kind: "single" | "multi" | "select-sentence"`,
+//     `qType` (one of 8), and `evidence: [{sentence, anchor}]`.
+//   * multi questions have 3 choices, not 5.
+//   * select-sentence questions have 0 choices and answer is a sentence
+//     index.
+//
+// The validator uses the same splitter as the loader to verify evidence
+// anchors haven't drifted.
+import { splitSentences, SPLITTER_VERSION, firstWords } from "../lib/rc/splitter.ts";
+
+const RC_SOURCES = new Set(["original", "ai", "external"]);
+const RC_QTYPES = new Set([
+  "main-idea", "detail", "inference", "author-attitude",
+  "function", "structure", "vocab-in-context", "strengthen-weaken",
+]);
+const RC_KINDS = new Set(["single", "multi", "select-sentence"]);
+
 const readingDir = join(root, "reading");
 const validReadingCats = new Set(tax.reading ?? []);
 const seenPassageIds = new Set();
@@ -80,7 +101,7 @@ const seenQuestionIds = new Set();
 
 // Pre-seed empty buckets so the manifest always exposes a count per category.
 for (const cat of validReadingCats) {
-  manifest.reading[cat] = { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0 };
+  manifest.reading[cat] = { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0, questions: 0, byQType: {} };
 }
 
 if (existsSync(readingDir)) {
@@ -98,13 +119,27 @@ if (existsSync(readingDir)) {
     seenPassageIds.add(raw.id);
     if (!/^rc-[a-z]{2,4}-\d{3}$/.test(raw.id)) err(`reading/${f} passage id ${raw.id} must match rc-<cat>-NNN`);
     if (!raw.title || raw.title.length < 8) err(`reading/${f} title too short`);
-    if (!raw.source) err(`reading/${f} source required`);
-    if (!Number.isInteger(raw.wordCount) || raw.wordCount < 100 || raw.wordCount > 1500) err(`reading/${f} wordCount out of range`);
+    if (!RC_SOURCES.has(raw.source)) err(`reading/${f} source must be one of original|ai|external, got ${raw.source}`);
+    if (raw.source === "external" && !raw.attribution) err(`reading/${f} external source requires attribution`);
     if (!raw.body || raw.body.length < 400) err(`reading/${f} body too short`);
     if (!["easy", "medium", "hard"].includes(raw.difficulty)) err(`reading/${f} bad difficulty ${raw.difficulty}`);
     if (!Array.isArray(raw.questions) || raw.questions.length < 3 || raw.questions.length > 5)
       err(`reading/${f} questions must be array of 3-5`);
-    const bucket = manifest.reading[raw.category] ?? (manifest.reading[raw.category] = { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0 });
+
+    // Compute wordCount; warn if it differs wildly from a sensible range.
+    const computedWordCount = raw.body.trim().split(/\s+/).length;
+    if (computedWordCount < 100 || computedWordCount > 1500) err(`reading/${f} computed wordCount ${computedWordCount} out of range`);
+
+    // Split sentences for evidence anchor checks.
+    let sentences;
+    try {
+      sentences = splitSentences(raw.body);
+    } catch (e) {
+      err(`reading/${f} splitter error: ${e.message}`);
+      sentences = [];
+    }
+
+    const bucket = manifest.reading[raw.category] ?? (manifest.reading[raw.category] = { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0, questions: 0, byQType: {} });
     bucket[raw.difficulty] += 1;
     bucket.count += 1;
     bucket.passages += 1;
@@ -113,16 +148,38 @@ if (existsSync(readingDir)) {
       if (seenQuestionIds.has(q.questionId)) err(`reading/${f} duplicate questionId ${q.questionId}`);
       seenQuestionIds.add(q.questionId);
       if (!q.stem || q.stem.length < 10) err(`reading/${f}:${q.questionId} stem too short`);
-      if (!Array.isArray(q.choices) || q.choices.length !== 5) err(`reading/${f}:${q.questionId} must have 5 choices`);
-      if (q.choices && new Set(q.choices).size !== q.choices.length) err(`reading/${f}:${q.questionId} duplicate choices`);
       if (!q.rationale || q.rationale.length < 20) err(`reading/${f}:${q.questionId} rationale too short`);
-      if (q.type === "rc-single") {
-        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 4) err(`reading/${f}:${q.questionId} rc-single answer out of range`);
-      } else if (q.type === "rc-multi") {
-        if (!Array.isArray(q.answer) || q.answer.length < 1 || q.answer.length > 3) err(`reading/${f}:${q.questionId} rc-multi must have 1-3 answers`);
-        if (!q.answer.every((i) => Number.isInteger(i) && i >= 0 && i < 5)) err(`reading/${f}:${q.questionId} rc-multi answer index out of range`);
-        if (new Set(q.answer).size !== q.answer.length) err(`reading/${f}:${q.questionId} rc-multi duplicate answers`);
-      } else err(`reading/${f}:${q.questionId} unknown type ${q.type}`);
+      if (!RC_KINDS.has(q.kind)) err(`reading/${f}:${q.questionId} kind must be single|multi|select-sentence, got ${q.kind}`);
+      if (!RC_QTYPES.has(q.qType)) err(`reading/${f}:${q.questionId} qType ${q.qType} not in taxonomy`);
+      if (!Array.isArray(q.evidence) || q.evidence.length < 1 || q.evidence.length > 4)
+        err(`reading/${f}:${q.questionId} evidence must be 1-4 entries`);
+
+      // Verify each evidence anchor.
+      for (const ev of q.evidence ?? []) {
+        if (!Number.isInteger(ev.sentence) || ev.sentence < 0 || ev.sentence >= sentences.length)
+          err(`reading/${f}:${q.questionId} evidence sentence index ${ev.sentence} out of range (have ${sentences.length})`);
+        const expected = firstWords(sentences[ev.sentence] ?? "", 5);
+        if (ev.anchor && expected && ev.anchor.trim().toLowerCase() !== expected.trim().toLowerCase())
+          err(`reading/${f}:${q.questionId} evidence anchor drift: got "${ev.anchor}", expected "${expected}"`);
+      }
+
+      bucket.questions += 1;
+      bucket.byQType[q.qType] = (bucket.byQType[q.qType] ?? 0) + 1;
+
+      if (q.kind === "single") {
+        if (!Array.isArray(q.choices) || q.choices.length !== 5) err(`reading/${f}:${q.questionId} single must have 5 choices`);
+        if (q.choices && new Set(q.choices).size !== q.choices.length) err(`reading/${f}:${q.questionId} duplicate choices`);
+        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 4) err(`reading/${f}:${q.questionId} single answer out of range`);
+      } else if (q.kind === "multi") {
+        if (!Array.isArray(q.choices) || q.choices.length !== 3) err(`reading/${f}:${q.questionId} multi must have 3 choices`);
+        if (q.choices && new Set(q.choices).size !== q.choices.length) err(`reading/${f}:${q.questionId} duplicate choices`);
+        if (!Array.isArray(q.answer) || q.answer.length < 1 || q.answer.length > 3) err(`reading/${f}:${q.questionId} multi must have 1-3 answers`);
+        if (!q.answer.every((i) => Number.isInteger(i) && i >= 0 && i < 3)) err(`reading/${f}:${q.questionId} multi answer index out of range`);
+        if (new Set(q.answer).size !== q.answer.length) err(`reading/${f}:${q.questionId} multi duplicate answers`);
+      } else if (q.kind === "select-sentence") {
+        if (q.choices !== undefined) err(`reading/${f}:${q.questionId} select-sentence must not have choices`);
+        if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= sentences.length) err(`reading/${f}:${q.questionId} select-sentence answer sentence index out of range`);
+      }
     }
   }
   for (const cat of validReadingCats) {
@@ -136,7 +193,7 @@ if (existsSync(readingDir)) {
 manifest.totals = {
   quant: Object.values(manifest.quant).reduce((s, t) => s + t.count, 0),
   vocab: Object.values(manifest.vocab).reduce((s, v) => s + v.count, 0),
-  reading: Object.values(manifest.reading).reduce((s, c) => s + c.count, 0),
+  reading: Object.values(manifest.reading).reduce((s, c) => s + c.questions, 0),
 };
 
 if (errors.length) {

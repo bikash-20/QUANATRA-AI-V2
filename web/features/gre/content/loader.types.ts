@@ -96,12 +96,14 @@ export type ReadingPassage = {
 };
 
 export type ReadingBucket = {
-  count: number;
+  count: number;          // question count (post-migration)
   easy: number;
   medium: number;
   hard: number;
   shards: number;
   passages: number;
+  questions: number;      // explicit question count
+  byQType: Partial<Record<string, number>>;
 };
 
 export type Manifest = {

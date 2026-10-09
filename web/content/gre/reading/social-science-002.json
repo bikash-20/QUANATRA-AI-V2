@@ -2,16 +2,29 @@
   "id": "rc-soc-002",
   "category": "social-science",
   "title": "Why Poverty Persists Between Neighbors",
-  "source": "Adapted from a 2022 Brookings Institution working paper",
-  "wordCount": 403,
+  "source": "original",
   "difficulty": "hard",
-  "tags": ["economics", "urban-policy"],
+  "tags": [
+    "economics",
+    "urban-policy"
+  ],
   "body": "Two census tracts in the same metropolitan area, separated by a freeway and a handful of blocks, can have median household incomes that differ by a factor of three or four. The persistence of such gaps, across decades and across cities, has prompted two broad families of explanation. The first emphasizes the characteristics of the residents themselves — their education, their work history, their family structure — and asks why those characteristics cluster so reliably in space. The second emphasizes the characteristics of the places themselves — their housing stock, their transit access, their school financing, their exposure to environmental hazards — and asks why those characteristics so reliably produce divergent outcomes for residents who move into them.\n\nEach family has generated an enormous empirical literature, and each has produced findings that survive careful replication. Neighborhoods with high concentrations of poverty tend to have weaker retail labor markets, fewer two-parent households, lower-quality school inputs, and higher rates of reported crime, even after controlling for the incomes of the residents who happen to live there at a given moment. Conversely, residents who move from high-poverty to low-poverty neighborhoods, in the handful of randomized housing-mobility experiments that have been run, see measurable improvements in long-term earnings and in the educational attainment of their children, with the largest effects concentrated among children who moved at the youngest ages.\n\nThe two families are not, in principle, mutually exclusive. A complete account of neighborhood-level inequality would treat individual characteristics and place characteristics as jointly determined, with sorting into neighborhoods and investment in neighborhoods feeding back on each other. In practice, however, the policy implications diverge sharply. A policy that targets residents directly — through cash transfers, job training, or expanded educational access — operates on the first family of explanations and assumes that, given comparable resources, residents in different places would produce comparable outcomes. A policy that targets places directly — through place-based tax credits, infrastructure investment, or zoning reform — operates on the second family and assumes that, even with comparable residents, places will produce different outcomes until the places themselves are changed.\n\nThe author argues that the most useful next step is neither to declare one family correct nor to call for a single grand synthesis. It is, instead, to design evaluations of place-based policies that measure outcomes for the residents who actually live in the targeted places, and to design evaluations of person-based policies that measure spillovers onto the places those residents move to. Each family of explanations will continue to generate evidence, and the policy question will continue to be decided, in the author's view, by which side of the feedback loop the available instruments can reach most reliably.",
   "questions": [
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-soc-002-1",
       "stem": "According to the passage, the two families of explanation for neighborhood-level inequality differ primarily in whether they emphasize:",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 2,
+          "anchor": "The first emphasizes the characteristics"
+        },
+        {
+          "sentence": 3,
+          "anchor": "The second emphasizes the characteristics"
+        }
+      ],
       "choices": [
         "federal versus local government responsibility.",
         "characteristics of residents versus characteristics of the places where they live.",
@@ -23,9 +36,16 @@
       "rationale": "Paragraph one: 'The first emphasizes the characteristics of the residents themselves … The second emphasizes the characteristics of the places themselves.'"
     },
     {
-      "type": "rc-single",
+      "kind": "single",
       "questionId": "q-rc-soc-002-2",
       "stem": "The randomized housing-mobility experiments mentioned in paragraph two are most useful to the author's argument as evidence that:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "Conversely, residents who move from"
+        }
+      ],
       "choices": [
         "all poverty is caused by personal failure.",
         "moving children to lower-poverty neighborhoods can improve their long-term educational attainment.",
@@ -37,17 +57,30 @@
       "rationale": "Paragraph two reports that residents who moved to low-poverty neighborhoods 'see measurable improvements in long-term earnings and in the educational attainment of their children.'"
     },
     {
-      "type": "rc-multi",
+      "kind": "multi",
       "questionId": "q-rc-soc-002-3",
       "stem": "Which of the following does the passage identify as place-based policy instruments? Select all that apply.",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 10,
+          "anchor": "A policy that targets residents"
+        },
+        {
+          "sentence": 11,
+          "anchor": "A policy that targets places"
+        }
+      ],
       "choices": [
         "Place-based tax credits.",
         "Infrastructure investment targeted at specific neighborhoods.",
-        "Zoning reform.",
-        "Direct cash transfers to individuals.",
-        "Job training programs open to any resident."
+        "Zoning reform."
       ],
-      "answer": [0, 1, 2],
+      "answer": [
+        0,
+        1,
+        2
+      ],
       "rationale": "Paragraph three lists exactly those three as place-based: 'place-based tax credits, infrastructure investment, or zoning reform.' Cash transfers and job training are classified as person-based."
     }
   ]

@@ -2,7 +2,7 @@
 // imports — kept here so the cached wrapper and unit tests can use the
 // `GreProgressRepository` interface without pulling in browser-only deps.
 
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
+export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi" | "rc-single-answer" | "rc-multi-answer" | "rc-sentence";
 
 export type UserAnswer =
   | { type: "mcq"; choice: number }
@@ -10,7 +10,8 @@ export type UserAnswer =
   | { type: "qc"; letter: "A" | "B" | "C" | "D" }
   | { type: "numeric"; value: number }
   | { type: "rc-single"; choice: number }
-  | { type: "rc-multi"; choices: number[] };
+  | { type: "rc-multi"; choices: number[] }
+  | { type: "rc-sentence"; sentence: number };
 
 export type Attempt = {
   id: string;             // "<questionId>:<timestamp>" — first wins
