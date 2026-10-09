@@ -33,7 +33,7 @@ export default async function GreReadingCategoryPage({ params }: { params: Promi
             <p className="text-xs uppercase tracking-wider text-slate-400">Reading</p>
             <h1 className="text-2xl font-bold md:text-3xl">{TITLES[slug] ?? slug}</h1>
             <p className="text-sm text-slate-400">
-              {m ? `${m.passages} passages · ${m.count} questions · ${m.easy} easy / ${m.medium} medium / ${m.hard} hard` : "—"}
+              {m ? `${m.passages} passages · ${m.questions} questions · ${m.easy} easy / ${m.medium} medium / ${m.hard} hard` : "—"}
             </p>
           </div>
           <Link

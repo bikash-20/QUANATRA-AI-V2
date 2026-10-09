@@ -141,7 +141,6 @@ if (existsSync(readingDir)) {
 
     const bucket = manifest.reading[raw.category] ?? (manifest.reading[raw.category] = { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0, questions: 0, byQType: {} });
     bucket[raw.difficulty] += 1;
-    bucket.count += 1;
     bucket.passages += 1;
     for (const q of raw.questions ?? []) {
       if (!q.questionId) err(`reading/${f} question missing id`);

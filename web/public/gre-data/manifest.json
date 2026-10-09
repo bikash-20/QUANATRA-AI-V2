@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T20:28:57.154Z",
+ "generatedAt": "2026-10-09T20:30:12.872Z",
  "quant": {
   "algebra": {
    "count": 400,
@@ -281,7 +281,7 @@
  },
  "reading": {
   "business": {
-   "count": 2,
+   "count": 0,
    "easy": 0,
    "medium": 1,
    "hard": 1,
@@ -295,7 +295,7 @@
    }
   },
   "science": {
-   "count": 2,
+   "count": 0,
    "easy": 0,
    "medium": 1,
    "hard": 1,
@@ -310,7 +310,7 @@
    }
   },
   "social-science": {
-   "count": 2,
+   "count": 0,
    "easy": 0,
    "medium": 1,
    "hard": 1,
@@ -324,7 +324,7 @@
    }
   },
   "arts": {
-   "count": 2,
+   "count": 0,
    "easy": 0,
    "medium": 1,
    "hard": 1,

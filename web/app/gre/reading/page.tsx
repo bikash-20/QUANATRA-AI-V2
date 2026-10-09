@@ -40,7 +40,7 @@ export default function GreReadingIndexPage() {
 
         <ul className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {cats.map((cat) => {
-            const m = manifest.reading?.[cat] ?? { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0 };
+            const m = manifest.reading?.[cat] ?? { count: 0, easy: 0, medium: 0, hard: 0, shards: 0, passages: 0, questions: 0 };
             return (
               <li key={cat}>
                 <Link
@@ -54,7 +54,7 @@ export default function GreReadingIndexPage() {
                     </span>
                   </div>
                   <p className="mt-1 text-xs text-slate-400">
-                    {m.easy} easy · {m.medium} medium · {m.hard} hard · {m.count} questions
+                    {m.questions} questions · {m.passages} passages
                   </p>
                 </Link>
               </li>
