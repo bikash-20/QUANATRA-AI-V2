@@ -1,14 +1,18 @@
 "use client";
 // Reading-comprehension mock runner. Mirrors gre-mock-runner.tsx but
 // the side panel pins the current passage and the questions cycle
-// through the precomputed list.
+// through the precomputed list. After submit, the runner switches to
+// a review view that shows the original passage (sentence-indexed, with
+// evidence highlights) and per-question state.
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { checkAnswer, choiceLetter } from "@/features/gre/reading/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
 import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
-import { MarkdownContent } from "@/components/markdown-content";
+import { GrePassageText } from "./gre-passage-text";
+import { GreQTypeBadge } from "./gre-qtype-badge";
+import { READING_MOCK_SPEC, type MockSpec } from "../builder";
 
 type FlatItem = { passageId: string; questionId: string };
 
@@ -19,6 +23,7 @@ export function GreReadingMockRunner({
   startedAt,
   initialRemainingSec,
   initialState,
+  spec = READING_MOCK_SPEC,
 }: {
   mockId: string;
   passages: RcPassage[];
@@ -26,8 +31,10 @@ export function GreReadingMockRunner({
   startedAt: number;
   initialRemainingSec: number;
   initialState: MockState | null;
+  spec?: MockSpec;
 }) {
   const router = useRouter();
+  void spec; // accepted for API symmetry with the picker; duration flows through initialRemainingSec
   const total = items.length;
   const passageById = useMemo(() => {
     const m = new Map<string, RcPassage>();
@@ -75,7 +82,9 @@ export function GreReadingMockRunner({
       await greProgress.saveMock(m);
       if (cancelled) return;
     })();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, [answers, flagged, mockId, items, finished]);
 
   const submit = useCallback(
@@ -135,7 +144,9 @@ export function GreReadingMockRunner({
     [answers, flagged, finished, mockId, items, passageById, questionById],
   );
 
-  useEffect(() => { submitRef.current = submit; }, [submit]);
+  useEffect(() => {
+    submitRef.current = submit;
+  }, [submit]);
 
   useEffect(() => {
     if (remainingSec !== 0) return;
@@ -168,24 +179,15 @@ export function GreReadingMockRunner({
 
   if (finished) {
     return (
-      <div className="flex flex-col gap-4">
-        <div className="rounded-2xl border border-slate-200/15 bg-slate-900/40 p-6">
-          <h2 className="text-2xl font-bold">Mock complete</h2>
-          <p className="mt-1 text-sm text-slate-400">
-            Score: <span className="text-emerald-300">{score.correct}</span> / {score.total}
-            {" · "}
-            {score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0}%
-          </p>
-          <p className="mt-1 text-xs text-slate-500">{autoSubmitted ? "Auto-submitted at zero time." : "Submitted manually."}</p>
-          <button
-            type="button"
-            onClick={() => router.push("/gre/reading")}
-            className="mt-4 rounded-md bg-cyan-400/20 px-4 py-2 text-sm font-medium text-cyan-100 hover:bg-cyan-400/30"
-          >
-            Back to reading
-          </button>
-        </div>
-      </div>
+      <ReviewView
+        score={score}
+        autoSubmitted={autoSubmitted}
+        items={items}
+        passageById={passageById}
+        questionById={questionById}
+        answers={answers}
+        onBack={() => router.push("/gre/reading")}
+      />
     );
   }
   if (total === 0) {
@@ -213,9 +215,13 @@ export function GreReadingMockRunner({
       <div className="gre-passage-grid">
         {curP ? (
           <aside className="gre-passage-panel">
-            <article className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5 text-sm leading-relaxed text-slate-200">
-              <p className="mb-3 text-xs uppercase tracking-wider text-slate-500">{curP.source}</p>
-              <MarkdownContent content={curP.body} />
+            <article className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
+              <GrePassageText
+                passageId={curP.id}
+                body={curP.body}
+                sentences={[]}
+                evidence={[]}
+              />
             </article>
           </aside>
         ) : null}
@@ -246,7 +252,7 @@ export function GreReadingMockRunner({
                   {flagged[curQ.questionId] ? "★ Flagged" : "☆ Flag for review"}
                 </button>
               </header>
-              <p className="text-base text-slate-100"><MarkdownContent content={curQ.stem} inline /></p>
+              <p className="text-base text-slate-100">{curQ.stem}</p>
               {(curQ.kind === "single" || curQ.kind === "multi") ? (
                 <ol className="flex flex-col gap-2">
                   {curQ.choices.map((c, i) => {
@@ -275,7 +281,7 @@ export function GreReadingMockRunner({
                             }}
                           />
                           <span className="font-mono text-xs text-slate-400">{choiceLetter(i)}.</span>
-                          <span className="flex-1"><MarkdownContent content={c} inline /></span>
+                          <span className="flex-1">{c}</span>
                         </label>
                       </li>
                     );
@@ -355,4 +361,177 @@ function fmt(s: number): string {
   const mm = Math.floor(s / 60).toString().padStart(2, "0");
   const ss = (s % 60).toString().padStart(2, "0");
   return `${mm}:${ss}`;
+}
+
+function ReviewView({
+  score,
+  autoSubmitted,
+  items,
+  passageById,
+  questionById,
+  answers,
+  onBack,
+}: {
+  score: { correct: number; total: number };
+  autoSubmitted: boolean;
+  items: FlatItem[];
+  passageById: Map<string, RcPassage>;
+  questionById: Map<string, RcQuestion>;
+  answers: Record<string, UserAnswer | undefined>;
+  onBack: () => void;
+}) {
+  const [reviewIdx, setReviewIdx] = useState(0);
+  const total = items.length;
+  const cur = items[Math.min(reviewIdx, total - 1)];
+  const curQ = cur ? questionById.get(cur.questionId) : undefined;
+  const curP = cur ? passageById.get(cur.passageId) : undefined;
+  const curAns = cur ? answers[cur.questionId] : undefined;
+  const curCorrect = curQ && curAns ? checkAnswer(curQ, curAns) : false;
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="rounded-2xl border border-slate-200/15 bg-slate-900/40 p-6">
+        <h2 className="text-2xl font-bold">Mock complete</h2>
+        <p className="mt-1 text-sm text-slate-400">
+          Score: <span className="text-emerald-300">{score.correct}</span> / {score.total}
+          {" · "}
+          {score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0}%
+        </p>
+        <p className="mt-1 text-xs text-slate-500">{autoSubmitted ? "Auto-submitted at zero time." : "Submitted manually."}</p>
+        <button
+          type="button"
+          onClick={onBack}
+          className="mt-4 rounded-md bg-cyan-400/20 px-4 py-2 text-sm font-medium text-cyan-100 hover:bg-cyan-400/30"
+        >
+          Back to reading
+        </button>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200/15 bg-slate-900/40 p-4">
+        <nav className="flex flex-wrap gap-1" aria-label="Review questions">
+          {items.map((it, i) => {
+            const q = questionById.get(it.questionId);
+            const ua = answers[it.questionId];
+            const ok = q && ua ? checkAnswer(q, ua) : false;
+            const active = i === reviewIdx;
+            return (
+              <button
+                key={it.questionId}
+                type="button"
+                onClick={() => setReviewIdx(i)}
+                aria-label={`Review question ${i + 1}${ok ? " (correct)" : " (incorrect)"}`}
+                className={`h-8 w-8 rounded-md border text-xs font-mono ${
+                  active
+                    ? "border-cyan-400/60 bg-cyan-500/20 text-cyan-100"
+                    : ok
+                      ? "border-emerald-400/40 bg-emerald-500/15 text-emerald-100"
+                      : ua
+                        ? "border-rose-400/40 bg-rose-500/15 text-rose-100"
+                        : "border-slate-200/20 text-slate-400"
+                }`}
+              >
+                {i + 1}
+              </button>
+            );
+          })}
+        </nav>
+      </div>
+
+      {curP && curQ ? (
+        <div className="gre-passage-grid">
+          <aside className="gre-passage-panel">
+            <article className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
+              <GrePassageText
+                passageId={curP.id}
+                body={curP.body}
+                sentences={[]}
+                evidence={curQ.evidence.map((e) => e.sentence)}
+              />
+            </article>
+          </aside>
+          <section className="gre-question-panel flex flex-col gap-4">
+            <article className="flex flex-col gap-4 rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
+              <header className="flex flex-wrap items-center gap-2 text-xs">
+                <span className={`rounded-full px-2 py-0.5 uppercase ${
+                  curP.difficulty === "easy" ? "bg-emerald-500/15 text-emerald-200"
+                    : curP.difficulty === "medium" ? "bg-amber-500/15 text-amber-200"
+                    : "bg-rose-500/15 text-rose-200"
+                }`}>{curP.difficulty}</span>
+                <span className="rounded-md border border-slate-200/15 px-1.5 py-0.5 uppercase text-slate-400">
+                  {curQ.kind === "single" ? "single answer"
+                    : curQ.kind === "multi" ? "select all that apply"
+                    : "select a sentence"}
+                </span>
+                <GreQTypeBadge qType={curQ.qType} />
+                <span
+                  className={`ml-auto rounded-md px-2 py-1 text-xs ${
+                    curCorrect ? "bg-emerald-500/15 text-emerald-200" : "bg-rose-500/15 text-rose-200"
+                  }`}
+                >
+                  {curCorrect ? "Correct" : "Incorrect"}
+                </span>
+              </header>
+              <p className="text-base text-slate-100">{curQ.stem}</p>
+              {(curQ.kind === "single" || curQ.kind === "multi") ? (
+                <ol className="flex flex-col gap-2">
+                  {curQ.choices.map((c, i) => {
+                    const isCorrectChoice =
+                      curQ.kind === "single" ? curQ.answer === i
+                        : curQ.kind === "multi" ? curQ.answer.includes(i)
+                        : false;
+                    const isUserPick =
+                      curQ.kind === "single"
+                        ? curAns?.type === "rc-single" && curAns.choice === i
+                        : curAns?.type === "rc-multi" && curAns.choices.includes(i);
+                    const showAsRight = isCorrectChoice;
+                    const showAsWrong = isUserPick && !isCorrectChoice;
+                    return (
+                      <li key={i}>
+                        <div
+                          className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm ${
+                            showAsRight
+                              ? "border-emerald-400/40 bg-emerald-500/10"
+                              : showAsWrong
+                                ? "border-rose-400/40 bg-rose-500/10"
+                                : "border-slate-200/15 bg-slate-950/40"
+                          }`}
+                        >
+                          <span className="font-mono text-xs text-slate-400">{choiceLetter(i)}.</span>
+                          <span className="flex-1">{c}</span>
+                          {showAsRight ? <span className="text-xs text-emerald-200">✓</span> : null}
+                          {showAsWrong ? <span className="text-xs text-rose-200">✗</span> : null}
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ol>
+              ) : null}
+              <div className="rounded-md border border-slate-200/15 bg-slate-950/40 p-3 text-sm text-slate-300">
+                <p className="text-xs uppercase tracking-wider text-slate-500">Rationale</p>
+                <p className="mt-1">{curQ.rationale}</p>
+              </div>
+            </article>
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setReviewIdx(Math.max(0, reviewIdx - 1))}
+                disabled={reviewIdx === 0}
+                className="rounded-md border border-slate-200/20 px-3 py-1.5 text-xs text-slate-300 hover:bg-slate-800/60 disabled:opacity-40"
+              >
+                ← Previous
+              </button>
+              <button
+                type="button"
+                onClick={() => setReviewIdx(Math.min(total - 1, reviewIdx + 1))}
+                disabled={reviewIdx >= total - 1}
+                className="rounded-md border border-slate-200/20 px-3 py-1.5 text-xs text-slate-300 hover:bg-slate-800/60 disabled:opacity-40"
+              >
+                Next →
+              </button>
+            </div>
+          </section>
+        </div>
+      ) : null}
+    </div>
+  );
 }

@@ -77,6 +77,24 @@ export type RcPassage = {
   questions: RcQuestion[];
 };
 
+// --- Mock preset (type only; data lives in content/gre/rc/mock-config.ts) -
+
+export type MockCategoryWeight = Partial<Record<ReadingCategory, number>>;
+export type MockDifficultyRamp = "flat" | "easy-to-hard" | "alternating";
+
+export type MockSpec = {
+  id: string;
+  label: string;
+  description: string;
+  passages: number;
+  questionsPerPassage: number[];
+  totalQuestions: number;
+  durationSec: number;
+  byDifficulty: { easy: number; medium: number; hard: number };
+  byCategory: MockCategoryWeight;
+  difficultyRamp: MockDifficultyRamp;
+};
+
 // --- Legacy shape (kept during the migration window) -----------------------
 
 export type ReadingQuestion =

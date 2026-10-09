@@ -199,8 +199,33 @@ if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);
 }
+
+// --- mock config: validate and mirror to public -------------------------
+// The single source of truth is content/gre/rc/mock-config.ts. The
+// validator imports the presets, runs validateMockPreset on each, and
+// writes a JSON mirror to public/gre-data/rc-mock-config.json so the
+// client can fetch it without bundling a .ts file from the content tree.
+const mockCfgMod = await import("../content/gre/rc/mock-config.ts");
+for (const preset of mockCfgMod.MOCK_PRESETS) {
+  try {
+    mockCfgMod.validateMockPreset(preset);
+  } catch (e) {
+    err(`mock-config: ${e.message}`);
+  }
+}
+if (errors.length) {
+  console.error(errors.join("\n"));
+  process.exit(1);
+}
+const mockMirror = {
+  presets: mockCfgMod.MOCK_PRESETS,
+  defaultPresetId: mockCfgMod.DEFAULT_MOCK_PRESET_ID,
+  note: mockCfgMod.MOCK_CONFIG_NOTE,
+};
+
 mkdirSync(publicOut, { recursive: true });
 writeFileSync(join(root, "manifest.json"), JSON.stringify(manifest, null, 1));
 writeFileSync(join(publicOut, "manifest.json"), JSON.stringify(manifest, null, 1));
 writeFileSync(join(publicOut, "taxonomy.json"), JSON.stringify(tax, null, 1));
+writeFileSync(join(publicOut, "rc-mock-config.json"), JSON.stringify(mockMirror, null, 1));
 console.log("OK", JSON.stringify(manifest.totals), JSON.stringify(manifest.quant), JSON.stringify(manifest.vocab), JSON.stringify(manifest.reading));

@@ -1,0 +1,58 @@
+{
+ "presets": [
+  {
+   "id": "practice-rc",
+   "label": "Practice RC mock",
+   "description": "4 passages · 14 questions · 30 min · 4 easy / 7 medium / 3 hard. Mixed categories. Easy-to-hard ramp.",
+   "passages": 4,
+   "questionsPerPassage": [
+    3,
+    4,
+    4,
+    3
+   ],
+   "totalQuestions": 14,
+   "durationSec": 1800,
+   "byDifficulty": {
+    "easy": 4,
+    "medium": 7,
+    "hard": 3
+   },
+   "byCategory": {
+    "business": 4,
+    "science": 4,
+    "social-science": 3,
+    "arts": 3
+   },
+   "difficultyRamp": "easy-to-hard"
+  },
+  {
+   "id": "official-pace",
+   "label": "Official pacing (14q, 21 min)",
+   "description": "Same 14 questions as practice-rc but compressed to 1.5 min/question for test-pace reps. NOT the official ETS section — only the per-question pace.",
+   "passages": 4,
+   "questionsPerPassage": [
+    3,
+    4,
+    4,
+    3
+   ],
+   "totalQuestions": 14,
+   "durationSec": 1260,
+   "byDifficulty": {
+    "easy": 4,
+    "medium": 7,
+    "hard": 3
+   },
+   "byCategory": {
+    "business": 4,
+    "science": 4,
+    "social-science": 3,
+    "arts": 3
+   },
+   "difficultyRamp": "easy-to-hard"
+  }
+ ],
+ "defaultPresetId": "practice-rc",
+ "note": "These are practice presets, not the official ETS format. Verify the current RC section structure on ets.org before labelling any preset as 'official'."
+}

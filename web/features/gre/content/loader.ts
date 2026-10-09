@@ -493,44 +493,54 @@ export function getReadingManifestSlice(): NonNullable<Manifest["reading"]> {
 
 // --- mock spec / pool -----------------------------------------------------
 //
-// The mock spec is currently a single hard-coded preset; commit #12
-// introduces the data-driven preset list at content/gre/rc/mock-config.ts.
-// The shape returned here is the contract that the page, the runner, and
-// the review view depend on, so commit #12 will return the same shape
-// from the preset file.
+// The mock spec lives in content/gre/rc/mock-config.ts (single source of
+// truth) and is mirrored to public/gre-data/rc-mock-config.json by the
+// content validator. The loader reads the JSON mirror so the server
+// doesn't need to import a .ts file from the content tree. The client
+// can also fetch the same JSON via /gre-data/rc-mock-config.json.
 
-export type MockSpec = {
-  id: string;
-  label: string;
-  description: string;
-  passages: number;
-  questionsPerPassage: number[];
-  totalQuestions: number;
-  durationSec: number;
-  byDifficulty: { easy: number; medium: number; hard: number };
+import type { ReadingCategory, MockSpec } from "./loader.types";
+
+export type { MockSpec, MockCategoryWeight, MockDifficultyRamp } from "./loader.types";
+
+export type MockConfig = {
+  presets: MockSpec[];
+  defaultPresetId: string;
+  note: string;
 };
 
 export const DEFAULT_MOCK_PRESET_ID = "practice-rc";
 
+/** Read the JSON mirror. Called at most once per process; cached forever
+ * because the file is generated at build time and only changes on the
+ * next content commit. */
+let _mockConfig: MockConfig | null = null;
+function readMockConfig(): MockConfig {
+  if (_mockConfig) return _mockConfig;
+  // The mirror lives at public/gre-data/rc-mock-config.json relative to
+  // the repo root. In a Next build the process.cwd() is the web/ dir.
+  const path = join(process.cwd(), "public", "gre-data", "rc-mock-config.json");
+  const raw = readFileSync(path, "utf8");
+  const parsed = JSON.parse(raw) as MockConfig;
+  _mockConfig = parsed;
+  return parsed;
+}
+
+export function getMockConfig(): MockConfig {
+  return readMockConfig();
+}
+
 export function getMockSpec(id: string = DEFAULT_MOCK_PRESET_ID): MockSpec {
-  // Single preset for now; commit #12 will replace this with a lookup
-  // against the data-driven presets file.
-  if (id === "practice-rc" || id === DEFAULT_MOCK_PRESET_ID) {
-    return {
-      id: "practice-rc",
-      label: "Practice RC mock",
-      description:
-        "4 passages · 14 questions · 30 min · 4 easy / 7 medium / 3 hard · mixed categories · easy-to-hard ramp.",
-      passages: 4,
-      questionsPerPassage: [3, 4, 4, 3],
-      totalQuestions: 14,
-      durationSec: 30 * 60,
-      byDifficulty: { easy: 4, medium: 7, hard: 3 },
-    };
-  }
-  // Unknown id: fall back to the default. The validator will reject
-  // any spec that doesn't sum correctly; this path is just a safety net.
-  return getMockSpec(DEFAULT_MOCK_PRESET_ID);
+  const cfg = readMockConfig();
+  const found = cfg.presets.find((p) => p.id === id);
+  if (found) return found;
+  // Unknown id: fall back to the default.
+  const fallback = cfg.presets.find((p) => p.id === cfg.defaultPresetId) ?? cfg.presets[0];
+  if (!fallback)
+    throw new Error(
+      "No mock presets available — public/gre-data/rc-mock-config.json is missing or empty."
+    );
+  return fallback;
 }
 
 /**
