@@ -5,7 +5,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { checkAnswer } from "@/features/gre/reading/checker";
+import { checkAnswer, choiceLetter } from "@/features/gre/reading/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
 import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
 import { MarkdownContent } from "@/components/markdown-content";
@@ -274,7 +274,7 @@ export function GreReadingMockRunner({
                               }
                             }}
                           />
-                          <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
+                          <span className="font-mono text-xs text-slate-400">{choiceLetter(i)}.</span>
                           <span className="flex-1"><MarkdownContent content={c} inline /></span>
                         </label>
                       </li>

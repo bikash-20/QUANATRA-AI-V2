@@ -6,7 +6,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
 import { greProgress, type UserAnswer } from "@/features/gre/progress/repository";
-import { checkAnswer, formatCorrectAnswer } from "@/features/gre/reading/checker";
+import { checkAnswer, formatCorrectAnswer, choiceLetter } from "@/features/gre/reading/checker";
 import { getExplanation } from "@/lib/explanations";
 import { MarkdownContent } from "@/components/markdown-content";
 
@@ -280,7 +280,7 @@ function QuestionCard({
                   }}
                   disabled={submitted}
                 />
-                <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
+                <span className="font-mono text-xs text-slate-400">{choiceLetter(i)}.</span>
                 <span className="flex-1"><MarkdownContent content={c} inline /></span>
               </label>
             </li>
@@ -310,14 +310,25 @@ function QuestionCard({
             <p className="mt-1"><MarkdownContent content={question.rationale} inline /></p>
           </div>
         ) : null}
-        <button
-          type="button"
-          onClick={() => void handleExplain()}
-          disabled={explainLoading}
-          className="rounded-md border border-slate-200/20 px-4 py-2 text-sm text-slate-200 hover:bg-slate-800/60"
-        >
-          {explainLoading ? "Loading…" : "AI explain"}
-        </button>
+        {submitted ? (
+          <button
+            type="button"
+            onClick={() => void handleExplain()}
+            disabled={explainLoading}
+            className="rounded-md border border-slate-200/20 px-4 py-2 text-sm text-slate-200 hover:bg-slate-800/60"
+          >
+            {explainLoading ? "Loading…" : "AI explain"}
+          </button>
+        ) : (
+          <button
+            type="button"
+            disabled
+            title="Submit first to enable the AI explainer."
+            className="cursor-not-allowed rounded-md border border-slate-200/20 px-4 py-2 text-sm text-slate-500/70"
+          >
+            AI explain
+          </button>
+        )}
         {onPrev ? (
           <button type="button" onClick={onPrev} className="rounded-md border border-slate-200/15 px-3 py-1.5 text-xs text-slate-300 hover:bg-slate-800/60">
             ← Previous
@@ -332,7 +343,7 @@ function QuestionCard({
           type="button"
           onClick={handleReport}
           disabled={reportSent}
-          className="ml-auto rounded-md border border-slate-200/15 px-3 py-1.5 text-xs text-slate-400 hover:bg-slate-800/60 disabled:opacity-60"
+          className="ml-auto text-xs text-slate-500 underline-offset-2 hover:text-slate-300 hover:underline disabled:opacity-60"
         >
           {reportSent ? "Reported" : "Report a problem"}
         </button>
@@ -357,10 +368,10 @@ function QuestionCard({
 
 function formatUserAnswer(q: RcQuestion, ua: UserAnswer): string {
   if (ua.type === "rc-single" && q.kind === "single") {
-    return `${ua.choice + 1}. ${q.choices[ua.choice] ?? "?"}`;
+    return `${choiceLetter(ua.choice)}. ${q.choices[ua.choice] ?? "?"}`;
   }
   if (ua.type === "rc-multi" && q.kind === "multi") {
-    return ua.choices.map((choice) => `${choice + 1}. ${q.choices[choice] ?? "?"}`).join("; ");
+    return ua.choices.map((choice) => `${choiceLetter(choice)}. ${q.choices[choice] ?? "?"}`).join("; ");
   }
   if (ua.type === "rc-sentence" && q.kind === "select-sentence") {
     return `Sentence ${ua.sentence + 1}`;
