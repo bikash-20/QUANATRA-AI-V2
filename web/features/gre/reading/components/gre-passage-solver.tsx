@@ -170,6 +170,13 @@ function QuestionCard({
   const [explainError, setExplainError] = useState<string | null>(null);
   const startedAt = useRef<number | null>(null);
   const submissionStarted = useRef(false);
+  // Refs used for a11y: focus the result pill after submit, and focus
+  // the first choice when the question remounts. We don't focus on
+  // initial mount — the user just navigated here and their focus is
+  // already on whatever button they used to arrive.
+  const firstChoiceRef = useRef<HTMLInputElement | null>(null);
+  const resultPillRef = useRef<HTMLSpanElement | null>(null);
+  const cardRef = useRef<HTMLElement | null>(null);
 
   // The parent component already mounts this with `key={question.questionId}`,
   // so we don't need to manually reset state on question change. The
@@ -229,6 +236,88 @@ function QuestionCard({
     });
   }, [buildUserAnswer, question, submitted, category, passageId, difficulty, source, getPassageStartedAt, isFirstQuestionForPassage]);
 
+  // Keyboard shortcuts. We attach to `window` (not the card) so the
+  // listener survives focus changes; we filter by `cardRef.contains`
+  // so the shortcuts only fire while the user is interacting with the
+  // question card and don't intercept text input in the passage panel
+  // or future inputs.
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      const card = cardRef.current;
+      if (!card) return;
+      const target = e.target;
+      // Don't intercept while typing in any editable element (the
+      // highlighter toolbar, future inputs, the word-lookup popover, etc).
+      if (target instanceof HTMLElement) {
+        const tag = target.tagName;
+        if (tag === "INPUT" || tag === "TEXTAREA" || target.isContentEditable) return;
+      }
+      if (!card.contains(target as Node | null)) return;
+
+      // Submit on Enter.
+      if (e.key === "Enter" && !submitted && !e.shiftKey) {
+        e.preventDefault();
+        void handleSubmit();
+        return;
+      }
+      // Navigation: N / ArrowRight (advance, only after submit) and
+      // P / ArrowLeft (retreat, any time).
+      if (e.key === "n" || e.key === "N" || e.key === "ArrowRight") {
+        if (submitted && onNext) {
+          e.preventDefault();
+          onNext();
+        }
+        return;
+      }
+      if (e.key === "p" || e.key === "P" || e.key === "ArrowLeft") {
+        if (onPrev) {
+          e.preventDefault();
+          onPrev();
+        }
+        return;
+      }
+      // A-E selection for single/multi. Length === 1 filters out
+      // modifier-combo keys (Tab, Shift, etc) which have multi-char
+      // `e.key` on some browsers.
+      if (
+        isPickable &&
+        e.key.length === 1 &&
+        !e.ctrlKey && !e.metaKey && !e.altKey &&
+        !submitted
+      ) {
+        const upper = e.key.toUpperCase();
+        const idx = upper.charCodeAt(0) - "A".charCodeAt(0);
+        if (idx >= 0 && idx < choices.length) {
+          e.preventDefault();
+          if (question.kind === "single") {
+            setChoice(idx);
+          } else {
+            const next = new Set(multiChoices);
+            if (next.has(idx)) next.delete(idx);
+            else next.add(idx);
+            setMultiChoices(next);
+          }
+        }
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [submitted, isPickable, choices.length, question.kind, multiChoices, onNext, onPrev, handleSubmit]);
+
+  // Focus management. After submit, move focus to the result pill so
+  // screen readers announce the outcome. On every question mount, focus
+  // the first choice so the user can pick immediately with Enter.
+  useEffect(() => {
+    if (submitted && resultPillRef.current) {
+      resultPillRef.current.focus();
+    }
+  }, [submitted]);
+  useEffect(() => {
+    if (isPickable && firstChoiceRef.current) {
+      firstChoiceRef.current.focus();
+    }
+  }, [question.questionId, isPickable]);
+
   async function handleExplain() {
     setShowExplain(true);
     if (explainText || explainLoading) return;
@@ -264,7 +353,7 @@ function QuestionCard({
   }
 
   return (
-    <article className="flex flex-col gap-4 rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
+    <article ref={cardRef} className="flex flex-col gap-4 rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
       <header className="flex flex-wrap items-center gap-2 text-xs">
         <span className={`rounded-full px-2 py-0.5 uppercase ${
           difficulty === "easy" ? "bg-emerald-500/15 text-emerald-200"
@@ -309,6 +398,7 @@ function QuestionCard({
                   : isUserPick ? "border-cyan-400/40 bg-cyan-500/10"
                   : "border-slate-200/15 hover:bg-slate-800/40"}`}>
                 <input
+                  ref={i === 0 ? firstChoiceRef : undefined}
                   type={question.kind === "single" ? "radio" : "checkbox"}
                   name={`q-${question.questionId}`}
                   className="mt-1 h-4 w-4"
@@ -342,9 +432,14 @@ function QuestionCard({
             Submit
           </button>
         ) : (
-          <span aria-live="polite" className={`rounded-md px-4 py-2 text-sm font-medium ${
-            correct ? "bg-emerald-500/20 text-emerald-200" : "bg-rose-500/20 text-rose-200"
-          }`}>
+          <span
+            ref={resultPillRef}
+            tabIndex={-1}
+            aria-live="polite"
+            className={`rounded-md px-4 py-2 text-sm font-medium outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/60 ${
+              correct ? "bg-emerald-500/20 text-emerald-200" : "bg-rose-500/20 text-rose-200"
+            }`}
+          >
             {correct ? "Correct" : `Incorrect — answer: ${formatCorrectAnswer(question)}`}
           </span>
         )}
