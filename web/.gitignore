@@ -40,3 +40,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# GRE RC drafts (admin-only; produced by `npm run gre:draft-passages`).
+# These are review material and never shipped; the loader reads from
+# `content/gre/reading/`, so this directory is naturally safe to ignore.
+/content/gre/rc/_drafts/

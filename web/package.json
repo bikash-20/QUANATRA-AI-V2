@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test:unit": "node --experimental-strip-types --test 'tests/*.test.mjs' 'tests/*.test.mts'",
     "gre:validate": "node scripts/validate-gre.mjs",
-    "prebuild": "node scripts/validate-gre.mjs"
+    "prebuild": "node scripts/validate-gre.mjs",
+    "gre:draft-passages": "node scripts/draft-passages.mjs"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.104.1",
