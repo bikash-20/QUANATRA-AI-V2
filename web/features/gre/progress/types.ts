@@ -2,13 +2,15 @@
 // imports — kept here so the cached wrapper and unit tests can use the
 // `GreProgressRepository` interface without pulling in browser-only deps.
 
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric";
+export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
 
 export type UserAnswer =
   | { type: "mcq"; choice: number }
   | { type: "multi"; choices: number[] }
   | { type: "qc"; letter: "A" | "B" | "C" | "D" }
-  | { type: "numeric"; value: number };
+  | { type: "numeric"; value: number }
+  | { type: "rc-single"; choice: number }
+  | { type: "rc-multi"; choices: number[] };
 
 export type Attempt = {
   id: string;             // "<questionId>:<timestamp>" — first wins
@@ -21,7 +23,9 @@ export type Attempt = {
   correct: boolean;
   timeMs: number;
   at: number;             // epoch ms
-  fromMock?: string;      // mock id if attempt was part of a mock
+  fromMock?: string;      // quant mock id if attempt was part of a mock
+  fromReadingMock?: string; // reading mock id if attempt was part of a reading mock
+  source?: "ai" | "hand"; // distinguishes AI-filled vs hand-authored passages
 };
 
 export type Bookmark = {

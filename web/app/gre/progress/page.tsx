@@ -5,6 +5,7 @@
 import { getManifest, getTaxonomy, getTopics } from "@/features/gre/content/loader";
 import { GreManifestSeed } from "@/features/gre/quant/components/gre-manifest-seed";
 import { GreProgressIsland } from "@/features/gre/progress/components/gre-progress-detail";
+import { GreReadingProgressIsland } from "@/features/gre/reading/components/gre-reading-progress-island";
 
 export const dynamic = "force-dynamic";
 
@@ -24,6 +25,14 @@ export default function GreProgressPage() {
           </p>
         </header>
         <GreProgressIsland topics={topics} />
+
+        <section className="mt-2">
+          <h2 className="text-lg font-semibold text-cyan-100">Reading</h2>
+          <p className="mt-1 text-xs text-slate-400">Per-category accuracy and time-on-question, drawn from your reading-comprehension attempts.</p>
+          <div className="mt-3">
+            <GreReadingProgressIsland />
+          </div>
+        </section>
       </div>
     </>
   );

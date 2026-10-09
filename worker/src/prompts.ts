@@ -86,6 +86,22 @@ Rules:
 Schema: {"explanation":string}`,
     };
   }
+  if (input.kind === "gre-reading") {
+    return {
+      system: `You are Quantara, a GRE reading-comprehension tutor. Cite the specific sentences or phrases in the passage that justify the correct answer. Give the answer first, then a concise explanation a strong test-taker can follow in under 300 words. Do not repeat the question. If the learner's answer is wrong, identify the exact line of reasoning that failed in one sentence. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
+      user: `Explain this GRE reading-comprehension question.
+${JSON.stringify(input)}
+
+Rules:
+- Use the supplied "context" field (the passage body) as the source of truth. Quote short phrases (in single quotes) when they support the answer.
+- The "correctAnswer" field is already in human-readable form ("N. text" for single, "M. ...; N. ..." for multi-select). Use it as authoritative.
+- The "userAnswer" field is in the same readable form. If it disagrees with correctAnswer, briefly say why it is wrong.
+- Stay under about 300 words. Markdown is fine inside the JSON string but do not use fences.
+- Do not invent information that is not in the passage.
+
+Schema: {"explanation":string}`,
+    };
+  }
   return {
     system: `You are Quantara, a warm and direct tutor. Explain the answer in natural language: give the answer first, then a short explanation. Include a useful worked example only when it helps, and at most one optional follow-up question. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
     user: `Explain this learning question.
@@ -125,6 +141,57 @@ Schema:
 {"questions":[{"question":string,"options":[string,string,string,string],"answer":string,"explanation":string}]}
 
 Every correct answer must be defensible from the passage alone. The answer must exactly match one option.`,
+});
+
+export const readingGeneratePrompt = (
+  category: string,
+  topic: string,
+  count: number,
+  lang: Lang,
+  difficulty: Difficulty
+) => ({
+  system: `You are a GRE reading-comprehension author. Write a single original passage in the requested category and 3-5 well-calibrated questions about it. ${JSON_ONLY} ${langRule(lang)}`,
+  user: `Category: ${category}
+Topic: ${topic}
+Question count: ${count}
+${difficultyBlock(difficulty, "passage")}
+
+Schema (output exactly this, nothing else):
+{
+  "id": "rc-ai-<8-char-hash>",
+  "category": "${category}",
+  "title": "string (<=120 chars)",
+  "source": "AI-generated practice",
+  "wordCount": <integer between 300 and 500>,
+  "body": "string (the passage; 3-4 paragraphs; use \\n\\n between paragraphs)",
+  "difficulty": "${difficulty}",
+  "tags": ["string", "string"],
+  "questions": [
+    {
+      "type": "rc-single",
+      "questionId": "q-rc-ai-<short>-1",
+      "stem": "string",
+      "choices": ["string", "string", "string", "string", "string"],
+      "answer": <index 0-4, single correct option>,
+      "rationale": "string (1-2 sentences explaining why the answer is correct)"
+    },
+    ...
+    {
+      "type": "rc-multi",
+      "questionId": "q-rc-ai-<short>-N",
+      "stem": "string (use 'Select all that apply.' wording)",
+      "choices": ["string", "string", "string", "string", "string"],
+      "answer": [<index>, <index>, <index>] (1-3 correct indices, exact order doesn't matter),
+      "rationale": "string (1-2 sentences)"
+    }
+  ]
+}
+
+Rules:
+- All questions must be defensible from the passage alone; never introduce outside knowledge.
+- The first 1-2 questions should be rc-single (recall or main idea). At least one question must be rc-multi (select all that apply).
+- Body should be in 3-4 paragraphs separated by a single blank line. Topic vocabulary should match the category.
+- Do not prefix with "Output:" or any other text. Just the JSON object.`,
 });
 
 export const flashcardPrompt = (topic: string, count: number, lang: Lang, difficulty: Difficulty) => ({

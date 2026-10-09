@@ -1,0 +1,54 @@
+{
+  "id": "rc-sci-001",
+  "category": "science",
+  "title": "The Memory Wars Inside Your Immune System",
+  "source": "Adapted from a 2023 Nature feature",
+  "wordCount": 401,
+  "difficulty": "medium",
+  "tags": ["biology", "immunology"],
+  "body": "The immune system has long been described as a vigilant army: patrols that distinguish self from non-self, antibodies that flag invaders for destruction, and memory cells that record past battles so future responses are faster and more accurate. The metaphor is useful but, as is often the case with biological metaphors, it conceals more than it reveals. The reality of immune memory is messier, more local, and more contingent on the body's recent history than the clean, lifelong record that the army metaphor suggests.\n\nConsider the case of tissue-resident memory T cells. These cells do not recirculate through the bloodstream the way their better-known cousins do. Instead, they take up long-term residence in barrier tissues such as the skin, the lungs, and the gut, where they stand ready to respond to pathogens they have previously encountered in that specific location. A skin-resident T cell that has learned to recognize a particular strain of herpesvirus will mount a fast response when that virus reappears in the skin, but it will not be the cell that fights a respiratory virus encountered only in the lungs. Memory, in other words, is partly anatomical.\n\nThis localization has practical consequences. Vaccines delivered by injection into the muscle generate strong systemic immunity but, until recently, comparatively weak tissue-resident memory in the mucosa. That is one reason mucosal vaccines, delivered as nasal sprays or oral drops, have attracted renewed interest: they may produce a population of resident memory cells exactly where most pathogens first enter the body. The tradeoff is that mucosal delivery is harder to standardize, harder to dose, and in some cases less durable than intramuscular delivery.\n\nA second complication is the phenomenon of immune imprinting, sometimes called original antigenic sin. When the immune system encounters a new variant of a virus it has seen before, it sometimes leans on the memory cells produced by the first encounter rather than mounting a fully new response. In some infections this leaning is helpful, producing broader protection; in others it appears to blunt the response to the new variant. Whether imprinting is a feature or a bug appears to depend on how similar the new variant is to the original, on the dose of the new exposure, and on the individual's history of prior infections. The result, the author argues, is that immune memory is less like a library of past encounters and more like a heavily edited draft: each new infection overwrites, suppresses, or revives earlier material in ways that researchers are only beginning to map.",
+  "questions": [
+    {
+      "type": "rc-single",
+      "questionId": "q-rc-sci-001-1",
+      "stem": "The author introduces tissue-resident memory T cells primarily to illustrate that:",
+      "choices": [
+        "all immune cells circulate through the bloodstream.",
+        "immune memory is partly anatomical and location-specific.",
+        "the army metaphor is perfectly accurate.",
+        "T cells cannot recognize herpesvirus.",
+        "mucosal vaccines are unsafe."
+      ],
+      "answer": 1,
+      "rationale": "Paragraph two: 'Memory, in other words, is partly anatomical.'"
+    },
+    {
+      "type": "rc-single",
+      "questionId": "q-rc-sci-001-2",
+      "stem": "According to the passage, why have mucosal vaccines attracted renewed interest?",
+      "choices": [
+        "Because they are cheaper than intramuscular vaccines.",
+        "Because they may produce tissue-resident memory exactly where most pathogens first enter the body.",
+        "Because they always produce stronger systemic immunity.",
+        "Because they eliminate the need for boosters.",
+        "Because they avoid the use of any adjuvants."
+      ],
+      "answer": 1,
+      "rationale": "Paragraph three: 'mucosal vaccines … may produce a population of resident memory cells exactly where most pathogens first enter the body.'"
+    },
+    {
+      "type": "rc-multi",
+      "questionId": "q-rc-sci-001-3",
+      "stem": "Which of the following does the passage identify as factors that determine whether immune imprinting helps or hurts the response to a new variant? Select all that apply.",
+      "choices": [
+        "The similarity between the new variant and the original.",
+        "The dose of the new exposure.",
+        "The individual's history of prior infections.",
+        "The blood type of the individual.",
+        "The brand of vaccine previously received."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "The final paragraph lists exactly those three: 'how similar the new variant is to the original, on the dose of the new exposure, and on the individual's history of prior infections.'"
+    }
+  ]
+}

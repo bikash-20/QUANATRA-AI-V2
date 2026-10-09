@@ -227,9 +227,9 @@ async function handle(req: Request, env: Env): Promise<Response> {
               400
             );
         }
-        const isGreQuant = b.kind.trim() === "gre-quant";
-        const explainMaxTokens = isGreQuant ? 2000 : 1000;
-        const explainTimeoutMs = isGreQuant ? 20000 : undefined;
+        const isGreKind = b.kind.trim() === "gre-quant" || b.kind.trim() === "gre-reading";
+        const explainMaxTokens = isGreKind ? 2000 : 1000;
+        const explainTimeoutMs = isGreKind ? 20000 : undefined;
         const { data, model, cacheHit } = await cascadeJSON(
           env,
           P.explainPrompt(
@@ -323,6 +323,31 @@ async function handle(req: Request, env: Env): Promise<Response> {
           2000
         );
         return json(env, data, 200, { "X-Model": model, "X-Cache": cacheHit ? "HIT" : "MISS" });
+      }
+
+      case "/api/reading/generate": {
+        const cat = String(b.category || "");
+        if (!["business", "science", "social-science", "arts"].includes(cat))
+          return json(env, { error: "category must be business|science|social-science|arts" }, 400);
+        const topic = String(b.topic || cat).slice(0, 120);
+        const count = clamp(b.count ?? 4, 3, 5, 4);
+        // Inject a per-request nonce into the system prompt so the cascade
+        // cache key changes every call. The user wants fresh material each
+        // request, so we never want to serve a stale passage. The nonce
+        // tells the model to ignore it ("ignore prior context") so the
+        // output is unaffected.
+        const nonce = crypto.randomUUID();
+        const basePrompt = P.readingGeneratePrompt(cat, topic, count, lang, difficulty);
+        const { data, model } = await cascadeJSON(
+          env,
+          {
+            system: `${basePrompt.system}\nRequest nonce: ${nonce}. Ignore this token; it is only there to keep the response fresh.`,
+            user: basePrompt.user,
+          },
+          3000,
+          30000
+        );
+        return json(env, data, 200, { "X-Model": model, "X-Cache": "BYPASS" });
       }
 
       case "/api/flashcards": {

@@ -48,9 +48,31 @@ const VocabWord = z.object({
   example: z.string(),
 });
 
+// Reading comprehension shapes. Mirrors content/gre/schema.ts. The category
+// set is closed at 4 entries — extend `reading` in taxonomy.json first.
+const ReadingCategory = z.enum(["business", "science", "social-science", "arts"]);
+const readingBaseShape = {
+  id: z.string().regex(/^rc-[a-z]{2,4}-\d{3}$/),
+  category: ReadingCategory,
+  title: z.string(),
+  source: z.string(),
+  wordCount: z.number().int(),
+  body: z.string(),
+  difficulty: Difficulty,
+  tags: z.array(z.string()),
+};
+const ReadingQuestion = z.discriminatedUnion("type", [
+  z.object({ questionId: z.string(), stem: z.string(), choices: z.array(z.string()).length(5), rationale: z.string(), type: z.literal("rc-single"), answer: z.number().int().min(0).max(4) }),
+  z.object({ questionId: z.string(), stem: z.string(), choices: z.array(z.string()).length(5), rationale: z.string(), type: z.literal("rc-multi"), answer: z.array(z.number().int().min(0).max(4)).min(1).max(3) }),
+]);
+const ReadingPassage = z.object({ ...readingBaseShape, questions: z.array(ReadingQuestion).min(3).max(5) });
+
 export type QuantQuestion = z.infer<typeof QuantQuestion>;
 export type VocabWord = z.infer<typeof VocabWord>;
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric";
+export type ReadingQuestion = z.infer<typeof ReadingQuestion>;
+export type ReadingPassage = z.infer<typeof ReadingPassage>;
+export type ReadingCategoryType = z.infer<typeof ReadingCategory>;
+export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
 export type Difficulty = "easy" | "medium" | "hard";
 
 export type Taxonomy = {
@@ -60,13 +82,24 @@ export type Taxonomy = {
   qcChoices: string[];
   difficulty: Difficulty[];
   vocabTiers: Record<"1" | "2" | "3", string>;
+  reading: ReadingCategoryType[];
+};
+
+export type ReadingCategoryBucket = {
+  count: number;
+  easy: number;
+  medium: number;
+  hard: number;
+  shards: number;
+  passages: number;
 };
 
 export type Manifest = {
   generatedAt: string;
   quant: Record<string, { count: number; easy: number; medium: number; hard: number; shards: number }>;
   vocab: Record<string, { count: number }>;
-  totals: { quant: number; vocab: number };
+  reading?: Record<ReadingCategoryType, ReadingCategoryBucket>;
+  totals: { quant: number; vocab: number; reading?: number };
 };
 
 export class GreContentError extends Error {
@@ -107,6 +140,9 @@ const questionCache = new MapWithTTL<string, QuantQuestion>();
 const allQuestionsByTopic = new MapWithTTL<string, QuantQuestion[]>();
 const vocabBySet = new MapWithTTL<string, VocabWord[]>();
 const wordById = new MapWithTTL<string, VocabWord>();
+const passagesByCategory = new MapWithTTL<string, ReadingPassage[]>();
+const passageById = new MapWithTTL<string, ReadingPassage>();
+const allPassagesSlot = new TtlSlot<ReadingPassage[]>();
 
 function loadTaxonomy(): Taxonomy {
   const cached = taxonomySlot.read();
@@ -132,7 +168,8 @@ function loadManifest(): Manifest {
       generatedAt: new Date().toISOString(),
       quant: {},
       vocab: {},
-      totals: { quant: 0, vocab: 0 },
+      reading: {} as Record<ReadingCategoryType, ReadingCategoryBucket>,
+      totals: { quant: 0, vocab: 0, reading: 0 },
     };
     for (const t of tax.quant) {
       const list = loadQuestionListByTopic(t.slug, {}, Infinity);
@@ -149,6 +186,20 @@ function loadManifest(): Manifest {
       const words = getVocabSet(set);
       out.vocab[set] = { count: words.length };
       out.totals.vocab += words.length;
+    }
+    // Reading fallback.
+    const readingCats: ReadingCategoryType[] = tax.reading ?? ["business", "science", "social-science", "arts"];
+    for (const cat of readingCats) {
+      const list = getPassageList(cat);
+      out.reading![cat] = {
+        count: list.length,
+        easy: list.filter((p) => p.difficulty === "easy").length,
+        medium: list.filter((p) => p.difficulty === "medium").length,
+        hard: list.filter((p) => p.difficulty === "hard").length,
+        shards: 0,
+        passages: list.length,
+      };
+      out.totals.reading = (out.totals.reading ?? 0) + list.length;
     }
     manifestSlot.write(out);
     return out;
@@ -277,4 +328,72 @@ export function getTopicNotes(topic: string): string {
   const path = join(CONTENT_ROOT, "notes", `${topic}.md`);
   if (!existsSync(path)) return "";
   return readFileSync(path, "utf8");
+}
+
+// --- reading comprehension API --------------------------------------------
+
+export function getReadingCategories(): ReadingCategoryType[] {
+  return loadTaxonomy().reading ?? (["business", "science", "social-science", "arts"] as ReadingCategoryType[]);
+}
+
+export function listReadingCategoryDirs(): ReadingCategoryType[] {
+  // Subset that actually has authored passages on disk. Used to gracefully
+  // hide categories that have zero passages (e.g. before any AI fill has run).
+  const all = getReadingCategories();
+  return all.filter((c) => {
+    const dir = join(CONTENT_ROOT, "reading");
+    if (!existsSync(dir)) return false;
+    const files = readdirSync(dir).filter((f) => f.startsWith(`${c}-`));
+    return files.length > 0;
+  });
+}
+
+function loadReadingCategory(category: ReadingCategoryType): ReadingPassage[] {
+  const cached = passagesByCategory.get(category);
+  if (cached) return cached;
+  const list: ReadingPassage[] = [];
+  const dir = join(CONTENT_ROOT, "reading");
+  if (existsSync(dir)) {
+    const files = readdirSync(dir).filter((f) => f.startsWith(`${category}-`) && f.endsWith(".json")).sort();
+    for (const f of files) {
+      const raw = readJson<unknown>(`reading/${f}`);
+      const parsed = ReadingPassage.safeParse(raw);
+      if (!parsed.success) {
+        throw new GreContentError("invalid", `Invalid passage in reading/${f}: ${parsed.error.message}`);
+      }
+      list.push(parsed.data);
+    }
+  }
+  passagesByCategory.set(category, list);
+  enforceSizeGuard([questionCache, allQuestionsByTopic, vocabBySet, wordById, passagesByCategory, passageById] as Array<MapWithTTL<unknown, unknown>>, MAX_CACHE_ENTRIES);
+  return list;
+}
+
+export function getPassageList(category: ReadingCategoryType): ReadingPassage[] {
+  return loadReadingCategory(category);
+}
+
+export function getPassage(id: string): ReadingPassage | null {
+  const cached = passageById.get(id);
+  if (cached) return cached;
+  for (const cat of getReadingCategories()) {
+    for (const p of loadReadingCategory(cat)) {
+      passageById.set(p.id, p);
+      if (p.id === id) return p;
+    }
+  }
+  return null;
+}
+
+export function getAllReadingPassages(): ReadingPassage[] {
+  const cached = allPassagesSlot.read();
+  if (cached) return cached;
+  const out: ReadingPassage[] = [];
+  for (const cat of getReadingCategories()) out.push(...loadReadingCategory(cat));
+  allPassagesSlot.write(out);
+  return out;
+}
+
+export function getReadingManifestSlice(): NonNullable<Manifest["reading"]> {
+  return (getManifest().reading ?? {}) as NonNullable<Manifest["reading"]>;
 }

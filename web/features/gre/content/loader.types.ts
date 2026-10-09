@@ -2,7 +2,7 @@
 // import them without pulling in server-only code.
 
 export type Difficulty = "easy" | "medium" | "hard";
-export type QuestionType = "mcq" | "multi" | "qc" | "numeric";
+export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi";
 
 export type QuantQuestion =
   | { id: string; type: "mcq"; topic: string; subtopic: string; difficulty: Difficulty; tags: string[]; stem: string; choices: string[]; answer: number }
@@ -21,11 +21,39 @@ export type VocabWord = {
   example: string;
 };
 
+export type ReadingCategory = "business" | "science" | "social-science" | "arts";
+
+export type ReadingQuestion =
+  | { type: "rc-single"; questionId: string; stem: string; choices: string[]; answer: number; rationale: string }
+  | { type: "rc-multi"; questionId: string; stem: string; choices: string[]; answer: number[]; rationale: string };
+
+export type ReadingPassage = {
+  id: string;
+  category: ReadingCategory;
+  title: string;
+  source: string;
+  wordCount: number;
+  body: string;
+  difficulty: Difficulty;
+  tags: string[];
+  questions: ReadingQuestion[];
+};
+
+export type ReadingBucket = {
+  count: number;
+  easy: number;
+  medium: number;
+  hard: number;
+  shards: number;
+  passages: number;
+};
+
 export type Manifest = {
   generatedAt: string;
   quant: Record<string, { count: number; easy: number; medium: number; hard: number; shards: number }>;
   vocab: Record<string, { count: number }>;
-  totals: { quant: number; vocab: number };
+  reading?: Record<ReadingCategory, ReadingBucket>;
+  totals: { quant: number; vocab: number; reading?: number };
 };
 
 export type Taxonomy = {
@@ -35,4 +63,5 @@ export type Taxonomy = {
   qcChoices: string[];
   difficulty: Difficulty[];
   vocabTiers: Record<"1" | "2" | "3", string>;
+  reading: ReadingCategory[];
 };

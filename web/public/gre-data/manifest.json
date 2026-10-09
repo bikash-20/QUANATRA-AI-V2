@@ -1,40 +1,40 @@
 {
- "generatedAt": "2026-10-05T04:31:48.118Z",
+ "generatedAt": "2026-10-09T19:34:52.635Z",
  "quant": {
   "algebra": {
-   "count": 300,
-   "easy": 66,
-   "medium": 165,
-   "hard": 69,
-   "shards": 15
+   "count": 400,
+   "easy": 91,
+   "medium": 215,
+   "hard": 94,
+   "shards": 20
   },
   "arithmetic": {
-   "count": 325,
-   "easy": 79,
-   "medium": 181,
-   "hard": 65,
-   "shards": 15
+   "count": 425,
+   "easy": 104,
+   "medium": 231,
+   "hard": 90,
+   "shards": 20
   },
   "data-analysis": {
-   "count": 325,
-   "easy": 53,
-   "medium": 198,
-   "hard": 74,
-   "shards": 15
+   "count": 425,
+   "easy": 78,
+   "medium": 248,
+   "hard": 99,
+   "shards": 20
   },
   "geometry": {
-   "count": 325,
-   "easy": 63,
-   "medium": 193,
-   "hard": 69,
-   "shards": 15
+   "count": 425,
+   "easy": 88,
+   "medium": 243,
+   "hard": 94,
+   "shards": 20
   },
   "word-problems": {
-   "count": 325,
-   "easy": 80,
-   "medium": 175,
-   "hard": 70,
-   "shards": 15
+   "count": 425,
+   "easy": 105,
+   "medium": 225,
+   "hard": 95,
+   "shards": 20
   }
  },
  "vocab": {
@@ -217,10 +217,105 @@
   },
   "set-60": {
    "count": 25
+  },
+  "set-61": {
+   "count": 25
+  },
+  "set-62": {
+   "count": 25
+  },
+  "set-63": {
+   "count": 25
+  },
+  "set-64": {
+   "count": 25
+  },
+  "set-65": {
+   "count": 25
+  },
+  "set-66": {
+   "count": 25
+  },
+  "set-67": {
+   "count": 25
+  },
+  "set-68": {
+   "count": 25
+  },
+  "set-69": {
+   "count": 25
+  },
+  "set-70": {
+   "count": 25
+  },
+  "set-71": {
+   "count": 25
+  },
+  "set-72": {
+   "count": 25
+  },
+  "set-73": {
+   "count": 25
+  },
+  "set-74": {
+   "count": 25
+  },
+  "set-75": {
+   "count": 25
+  },
+  "set-76": {
+   "count": 25
+  },
+  "set-77": {
+   "count": 25
+  },
+  "set-78": {
+   "count": 25
+  },
+  "set-79": {
+   "count": 25
+  },
+  "set-80": {
+   "count": 25
+  }
+ },
+ "reading": {
+  "business": {
+   "count": 2,
+   "easy": 0,
+   "medium": 1,
+   "hard": 1,
+   "shards": 8,
+   "passages": 2
+  },
+  "science": {
+   "count": 2,
+   "easy": 0,
+   "medium": 1,
+   "hard": 1,
+   "shards": 8,
+   "passages": 2
+  },
+  "social-science": {
+   "count": 2,
+   "easy": 0,
+   "medium": 1,
+   "hard": 1,
+   "shards": 8,
+   "passages": 2
+  },
+  "arts": {
+   "count": 2,
+   "easy": 0,
+   "medium": 1,
+   "hard": 1,
+   "shards": 8,
+   "passages": 2
   }
  },
  "totals": {
-  "quant": 1600,
-  "vocab": 1500
+  "quant": 2100,
+  "vocab": 2000,
+  "reading": 8
  }
 }

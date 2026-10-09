@@ -27,7 +27,7 @@ export default function GreHubPage() {
 
         <GreProgressIsland />
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <Link
             href="/gre/quant"
             className="rounded-2xl border border-slate-200/20 bg-slate-900/40 p-6 transition hover:border-cyan-400/40 hover:bg-slate-900/60"
@@ -35,6 +35,16 @@ export default function GreHubPage() {
             <h2 className="text-xl font-semibold">Quant</h2>
             <p className="mt-1 text-sm text-slate-400">
               {manifest.totals.quant} questions across {topics.length} topics — arithmetic, algebra, geometry, data analysis, word problems.
+            </p>
+          </Link>
+          <Link
+            href="/gre/reading"
+            className="rounded-2xl border border-slate-200/20 bg-slate-900/40 p-6 transition hover:border-cyan-400/40 hover:bg-slate-900/60"
+          >
+            <h2 className="text-xl font-semibold">Reading</h2>
+            <p className="mt-1 text-sm text-slate-400">
+              {manifest.totals.reading ?? 0} hand-authored passages across 4 categories — business, science, social science, arts.
+              Use AI-fill to generate more.
             </p>
           </Link>
           <Link

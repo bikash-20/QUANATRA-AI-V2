@@ -1,0 +1,54 @@
+{
+  "id": "rc-art-001",
+  "category": "arts",
+  "title": "What Translation Cannot Fix",
+  "source": "Adapted from a 2021 New York Review of Books essay",
+  "wordCount": 387,
+  "difficulty": "medium",
+  "tags": ["literature", "translation"],
+  "body": "Every translator of a serious literary work sooner or later confronts a sentence that resists transfer into another language. Sometimes the resistance is lexical — a word whose range of meaning has no single equivalent — and sometimes it is grammatical — a construction in the source language that, once translated, no longer carries the cadence the original reader heard. What is striking is how rarely the resistance is treated, in the published translation, as a feature of the text. Footnotes proliferate, but they tend to apologize rather than to explain; prefaces proliferate, but they tend to promise fidelity that the body of the translation does not in fact deliver.\n\nThe profession's response has historically been to insist, against the evidence, that the work of translation is the work of finding equivalents. A poem is reduced to its paraphrase; a pun is dropped as untranslatable; an entire register is regularized so the reader of the target language receives something that reads smoothly and means, in a rough sense, what the original meant. The result is often a text that is easier to read than the original, which is not a recommendation, since ease of reading is not a property that the original text was attempting to optimize.\n\nA more recent school of thought treats untranslatability not as a defect to be overcome but as a property of the source text to be preserved. Under this view, the translator's first task is to notice which moments in the original do the most cultural and linguistic work — the idioms, the rhymes, the syntactic inversions, the loaded proper nouns — and to choose, for each of those moments, a translation strategy that announces itself as a translation rather than a substitution. The target text can preserve the rhyme by accepting a different rhyme; it can preserve the idiom by accepting a different idiom; it can preserve the syntactic inversion by accepting a different inversion. What it cannot do, without betraying the source, is pretend that the source had no rhyme, no idiom, and no inversion in the first place.\n\nThe author is careful to insist that this is not a license for bad translation. The strategies that preserve the source's work must still produce readable target-language prose, and the translator who chooses to preserve one feature must accept the cost of losing another. The point is that the costs should be made visible, so that the reader of the translation can at least know what the original asked of its first readers and what the translation has, in good faith, decided to give up.",
+  "questions": [
+    {
+      "type": "rc-single",
+      "questionId": "q-rc-art-001-1",
+      "stem": "The author suggests that traditional translation practice tends to:",
+      "choices": [
+        "make every feature of the original text visible to the reader of the translation.",
+        "produce a target text that is harder to read than the original.",
+        "regularize the text so the result reads smoothly, often at the cost of features that defined the original.",
+        "reject the use of footnotes and prefaces.",
+        "preserve all rhymes, idioms, and inversions at any cost."
+      ],
+      "answer": 2,
+      "rationale": "Paragraph two: 'an entire register is regularized so the reader of the target language receives something that reads smoothly and means, in a rough sense, what the original meant.'"
+    },
+    {
+      "type": "rc-single",
+      "questionId": "q-rc-art-001-2",
+      "stem": "According to the passage, the 'more recent school of thought' on translation treats untranslatability as:",
+      "choices": [
+        "a defect that justifies abandoning a project.",
+        "a property of the source text to be preserved.",
+        "an argument for the superiority of machine translation.",
+        "a problem that only arises in poetry.",
+        "evidence that the source text is poorly written."
+      ],
+      "answer": 1,
+      "rationale": "Paragraph three: 'A more recent school of thought treats untranslatability not as a defect to be overcome but as a property of the source text to be preserved.'"
+    },
+    {
+      "type": "rc-multi",
+      "questionId": "q-rc-art-001-3",
+      "stem": "Which of the following does the author list as features of a source text that do heavy cultural and linguistic work? Select all that apply.",
+      "choices": [
+        "Idioms.",
+        "Rhymes.",
+        "Syntactic inversions.",
+        "Loaded proper nouns.",
+        "The original publication date."
+      ],
+      "answer": [0, 1, 3],
+      "rationale": "Paragraph three enumerates idioms, rhymes, syntactic inversions, and loaded proper nouns. The publication date is not discussed as a translation feature."
+    }
+  ]
+}

@@ -2266,3 +2266,33 @@ select {
   background: var(--accent);
   box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 50%, transparent);
 }
+
+/* ----- Reading-comprehension layout -----
+   Desktop (>=md): passage pinned on the left (sticky), questions on the
+   right in a flexible column. Mobile (<md): single column, passage hidden
+   behind a "Show passage" toggle to keep the question above the fold. */
+
+.gre-passage-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.gre-passage-panel {
+  width: 100%;
+}
+
+.gre-question-panel {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .gre-passage-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    gap: 1.25rem;
+  }
+  .gre-passage-panel {
+    max-width: 520px;
+  }
+}

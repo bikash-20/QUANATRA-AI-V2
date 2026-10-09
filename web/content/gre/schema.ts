@@ -28,3 +28,42 @@ export const VocabWord = z.object({
   example: z.string(),
 });
 export type VocabWord = z.infer<typeof VocabWord>;
+
+// --- Reading Comprehension -------------------------------------------------
+// Hand-authored passages live in content/gre/reading/<category>-NNN.json.
+// AI-generated passages share the same shape and flow through the same
+// solver component, so we keep the schema unified.
+
+export const ReadingCategory = z.enum(["business", "science", "social-science", "arts"]);
+export type ReadingCategory = z.infer<typeof ReadingCategory>;
+
+const readingPassageBase = {
+  id: z.string().regex(/^rc-[a-z]{2,4}-\d{3}$/),
+  category: ReadingCategory,
+  title: z.string().min(8).max(160),
+  source: z.string().min(2).max(120),
+  wordCount: z.number().int().min(200).max(600),
+  body: z.string().min(800).max(4500),
+  difficulty: Difficulty,
+  tags: z.array(z.string()).default([]),
+};
+
+const readingQuestionBase = {
+  questionId: z.string().regex(/^q-rc-[a-z0-9-]+$/),
+  stem: z.string().min(10).max(800),
+  choices: z.array(z.string().min(1).max(400)).length(5),
+  rationale: z.string().min(20).max(800),
+};
+
+export const ReadingQuestion = z.discriminatedUnion("type", [
+  z.object({ ...readingQuestionBase, type: z.literal("rc-single"), answer: z.number().int().min(0).max(4) }),
+  z.object({ ...readingQuestionBase, type: z.literal("rc-multi"), answer: z.array(z.number().int().min(0).max(4)).min(1).max(3) }),
+]);
+export type ReadingQuestion = z.infer<typeof ReadingQuestion>;
+
+export const ReadingPassage = z.object({
+  ...readingPassageBase,
+  questions: z.array(ReadingQuestion).min(3).max(5),
+});
+export type ReadingPassage = z.infer<typeof ReadingPassage>;
+

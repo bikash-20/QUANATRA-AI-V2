@@ -77,5 +77,11 @@
   "1": "Hard",
   "2": "Harder",
   "3": "Hardest"
- }
+ },
+ "reading": [
+  "business",
+  "science",
+  "social-science",
+  "arts"
+ ]
 }

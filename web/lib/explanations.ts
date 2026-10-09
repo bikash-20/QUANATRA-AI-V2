@@ -32,10 +32,14 @@ async function sha256(s: string): Promise<string> {
 }
 
 async function cacheKey(input: ExplanationInput): Promise<string> {
-  // Per spec, the cache key for gre-quant is questionId + userAnswer + lang.
-  // Other kinds keep the full-payload key so behavior is unchanged.
+  // Per spec, the cache key for gre-quant and gre-reading is questionId +
+  // userAnswer + lang. Other kinds keep the full-payload key so behavior
+  // is unchanged.
   if (input.kind === 'gre-quant' && input.questionId) {
     return `explain:gre-quant:${await sha256(`${input.questionId}|${input.userAnswer ?? ''}|${input.lang}`)}`;
+  }
+  if (input.kind === 'gre-reading' && input.questionId) {
+    return `explain:gre-reading:${await sha256(`${input.questionId}|${input.userAnswer ?? ''}|${input.lang}`)}`;
   }
   const bytes = new TextEncoder().encode(JSON.stringify(input));
   const digest = await crypto.subtle.digest('SHA-256', bytes);
