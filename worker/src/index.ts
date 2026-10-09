@@ -227,8 +227,13 @@ async function handle(req: Request, env: Env): Promise<Response> {
               400
             );
         }
-        const isGreKind = b.kind.trim() === "gre-quant" || b.kind.trim() === "gre-reading";
-        const explainMaxTokens = isGreKind ? 2000 : 1000;
+        // gre-rc and gre-quant both get the larger token/timeout budget;
+        // gre-reading is kept here during the migration window so legacy
+        // callers don't see a cold path.
+        const kindStr = b.kind.trim();
+        const isGreKind =
+          kindStr === "gre-quant" || kindStr === "gre-rc" || kindStr === "gre-reading";
+        const explainMaxTokens = isGreKind ? 2200 : 1000;
         const explainTimeoutMs = isGreKind ? 20000 : undefined;
         const { data, model, cacheHit } = await cascadeJSON(
           env,

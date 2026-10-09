@@ -102,6 +102,36 @@ Rules:
 Schema: {"explanation":string}`,
     };
   }
+  if (input.kind === "gre-rc") {
+    // RC explainer. Mirrors gre-reading's rules but with a strict
+    // EVIDENCE trailer so the client can highlight the right
+    // sentences in the passage. The client ignores any sentence
+    // index it can't resolve, so the trailer is best-effort.
+    return {
+      system: `You are Quantara, a GRE reading-comprehension tutor. Always:
+- Give the answer first, then a concise explanation in 4 short sections: (1) what the question is testing, (2) the line of reasoning to the correct answer, (3) why the learner's answer (if any) is wrong, naming the misconception in one sentence, (4) a single sentence summary.
+- Cite the specific sentences or phrases in the passage that justify the answer; quote short phrases in single quotes.
+- Use the supplied "context" (the passage body) as the source of truth; do not invent facts or rely on outside knowledge.
+- Distinguish trap patterns: too extreme, out of scope, reverses the claim, true but irrelevant, partially correct, misattributes a view.
+- Be honest when uncertain. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)}
+- Keep the explanation under about 300 words. Markdown is fine inside the JSON string but do not use fences.
+
+After the explanation, output a literal trailer line:
+EVIDENCE: <comma-separated 0-based sentence indices>
+
+The indices refer to the 0-indexed sentences in the passage, in the order they appear. Use 1-4 indices. ${JSON_ONLY}`,
+      user: `Explain this GRE reading-comprehension question.
+${JSON.stringify(input)}
+
+Rules:
+- The "context" field is the full passage body. Treat it as authoritative.
+- The "correctAnswer" field is already in human-readable form ("N. text" for single, "M. ...; N. ..." for multi, "Sentence K" for select-sentence). Use it as authoritative.
+- The "userAnswer" field is in the same readable form. If it disagrees with correctAnswer, briefly say why it is wrong.
+- If the question supplies "qType" (e.g. "main-idea", "detail", "inference", "author-attitude", "function", "structure", "vocab-in-context", "strengthen-weaken"), frame the explanation around that question type.
+- Sentence indices in the EVIDENCE trailer must be 0-based and refer to the order of sentences in the context string. Verify each index is in range.
+- Output exactly the JSON object: {"explanation":string} where the explanation string ENDS with the EVIDENCE trailer line.`,
+    };
+  }
   return {
     system: `You are Quantara, a warm and direct tutor. Explain the answer in natural language: give the answer first, then a short explanation. Include a useful worked example only when it helps, and at most one optional follow-up question. Be honest when uncertain; never invent facts. ${difficultyBlock(difficulty, "chat")} ${langRule(lang)} ${JSON_ONLY}`,
     user: `Explain this learning question.
