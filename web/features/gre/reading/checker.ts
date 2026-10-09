@@ -66,18 +66,29 @@ export function checkAnswer(q: ReadingQuestion | RcQuestion, user: UserAnswer): 
   }
 }
 
+/**
+ * GRE-style choice letter for an index: 0 → A, 1 → B, ..., 25 → Z.
+ * Single questions have 5 choices, multi have 3; we expose this helper
+ * so the solver / mock runner render the same letters without each
+ * component redefining the mapping.
+ */
+export function choiceLetter(i: number): string {
+  if (i < 0 || i > 25 || !Number.isInteger(i)) return String(i + 1);
+  return String.fromCharCode(65 + i);
+}
+
 /** Convert a UserAnswer into a short human-readable string. */
 export function formatAnswer(q: ReadingQuestion | RcQuestion, ans: UserAnswer | undefined): string {
   if (!ans) return "(no answer)";
   const n = normalize(q as AnyQuestion);
   if (n.kind === "single" && ans.type === "rc-single") {
-    return `${ans.choice + 1}. ${n.choices[ans.choice] ?? "?"}`;
+    return `${choiceLetter(ans.choice)}. ${n.choices[ans.choice] ?? "?"}`;
   }
   if (n.kind === "multi" && ans.type === "rc-multi") {
     return ans.choices
       .slice()
       .sort((a, b) => a - b)
-      .map((i) => `${i + 1}. ${n.choices[i] ?? "?"}`)
+      .map((i) => `${choiceLetter(i)}. ${n.choices[i] ?? "?"}`)
       .join("; ");
   }
   if (n.kind === "select-sentence" && ans.type === "rc-sentence") {
@@ -90,12 +101,12 @@ export function formatAnswer(q: ReadingQuestion | RcQuestion, ans: UserAnswer | 
 export function formatCorrectAnswer(q: ReadingQuestion | RcQuestion): string {
   const n = normalize(q as AnyQuestion);
   if (n.kind === "single") {
-    return `${(n.answer as number) + 1}. ${n.choices[n.answer as number] ?? "?"}`;
+    return `${choiceLetter(n.answer as number)}. ${n.choices[n.answer as number] ?? "?"}`;
   }
   if (n.kind === "multi") {
     return [...(n.answer as readonly number[])]
       .sort((a, b) => a - b)
-      .map((i) => `${i + 1}. ${n.choices[i] ?? "?"}`)
+      .map((i) => `${choiceLetter(i)}. ${n.choices[i] ?? "?"}`)
       .join("; ");
   }
   return `Sentence ${(n.answer as number) + 1}`;
