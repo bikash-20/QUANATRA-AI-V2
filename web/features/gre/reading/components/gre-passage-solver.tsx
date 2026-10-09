@@ -4,18 +4,23 @@
 // Mirrors the UX of gre-problem-solver.tsx but at the passage level.
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { ReadingPassage, ReadingQuestion } from "@/features/gre/content/loader.types";
+import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
 import { greProgress, type UserAnswer } from "@/features/gre/progress/repository";
 import { checkAnswer, formatCorrectAnswer } from "@/features/gre/reading/checker";
 import { getExplanation } from "@/lib/explanations";
 import { MarkdownContent } from "@/components/markdown-content";
 
 type Props = {
-  passage: ReadingPassage;
+  passage: RcPassage;
+  /** Pre-split sentence list (from getPassageWithSentences). When
+   * omitted the solver renders the body as a single Markdown block. The
+   * highlighter / word-lookup wiring arrives in commit #9 and at that
+   * point this prop becomes required. */
+  sentences?: string[];
   source?: "hand" | "ai";
 };
 
-export function GrePassageSolver({ passage, source = "hand" }: Props) {
+export function GrePassageSolver({ passage, sentences, source = "hand" }: Props) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [bookmarked, setBookmarked] = useState(false);
   const [showPassage, setShowPassage] = useState(true);
@@ -42,7 +47,7 @@ export function GrePassageSolver({ passage, source = "hand" }: Props) {
       <header className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <p className="text-xs uppercase tracking-wider text-slate-400">
-            {passage.category.replace("-", " ")} · {passage.difficulty} · {passage.wordCount} words
+            {passage.category.replace("-", " ")} · {passage.difficulty} · {passage.body.trim().split(/\s+/).length} words
           </p>
           <h1 className="mt-1 text-2xl font-bold text-cyan-100">{passage.title}</h1>
           <p className="text-xs text-slate-500">{passage.source}</p>
@@ -113,7 +118,7 @@ export function GrePassageSolver({ passage, source = "hand" }: Props) {
 function QuestionCard({
   question, passageId, category, difficulty, source, passageBody, onPrev, onNext,
 }: {
-  question: ReadingQuestion;
+  question: RcQuestion;
   passageId: string;
   category: string;
   difficulty: "easy" | "medium" | "hard";
@@ -122,8 +127,11 @@ function QuestionCard({
   onPrev: (() => void) | null;
   onNext: (() => void) | null;
 }) {
+  const isPickable = question.kind === "single" || question.kind === "multi";
+  const choices: string[] = isPickable ? (question as Extract<RcQuestion, { kind: "single" | "multi" }>).choices : [];
   const [choice, setChoice] = useState<number | null>(null);
   const [multiChoices, setMultiChoices] = useState<Set<number>>(new Set());
+  const [sentencePick, setSentencePick] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [correct, setCorrect] = useState(false);
   const [reportSent, setReportSent] = useState(false);
@@ -142,15 +150,18 @@ function QuestionCard({
   }, [question.questionId]);
 
   const buildUserAnswer = useCallback((): UserAnswer | null => {
-    if (question.type === "rc-single") {
+    if (question.kind === "single") {
       return choice === null ? null : { type: "rc-single", choice };
     }
-    if (question.type === "rc-multi") {
+    if (question.kind === "multi") {
       if (multiChoices.size === 0) return null;
       return { type: "rc-multi", choices: [...multiChoices].sort((a, b) => a - b) };
     }
+    if (question.kind === "select-sentence") {
+      return sentencePick === null ? null : { type: "rc-sentence", sentence: sentencePick };
+    }
     return null;
-  }, [multiChoices, choice, question.type]);
+  }, [multiChoices, choice, sentencePick, question.kind]);
 
   const handleSubmit = useCallback(async () => {
     if (submitted || submissionStarted.current) return;
@@ -160,12 +171,15 @@ function QuestionCard({
     const ok = checkAnswer(question, ua);
     setSubmitted(true);
     setCorrect(ok);
+    const qt = question.kind === "single" ? "rc-single-answer"
+      : question.kind === "multi" ? "rc-multi-answer"
+      : "rc-sentence";
     await greProgress.recordAttempt({
       questionId: question.questionId,
       topic: category,
       subtopic: passageId,
       difficulty,
-      questionType: question.type,
+      questionType: qt,
       userAnswer: ua,
       correct: ok,
       timeMs: startedAt.current === null ? 0 : Date.now() - startedAt.current,
@@ -186,7 +200,7 @@ function QuestionCard({
         kind: "gre-reading",
         questionId: question.questionId,
         question: question.stem,
-        options: question.choices,
+        options: isPickable ? choices : [],
         correctAnswer: correctText,
         userAnswer: ua ? formatUserAnswer(question, ua) : undefined,
         context: passageBody,
@@ -215,19 +229,32 @@ function QuestionCard({
             : "bg-rose-500/15 text-rose-200"
         }`}>{difficulty}</span>
         <span className="rounded-md border border-slate-200/15 px-1.5 py-0.5 uppercase text-slate-400">
-          {question.type === "rc-single" ? "single answer" : "select all that apply"}
+          {question.kind === "single" ? "single answer"
+            : question.kind === "multi" ? "select all that apply"
+            : "select a sentence"}
         </span>
-        <span className="text-slate-500">id: {question.questionId}</span>
       </header>
 
       <div className="text-base text-slate-100">
         <MarkdownContent content={question.stem} inline />
       </div>
 
+      {question.kind === "select-sentence" ? (
+        <SelectSentenceInput
+          question={question}
+          selected={sentencePick}
+          onChange={setSentencePick}
+          disabled={submitted}
+        />
+      ) : null}
+
       <ol className="flex flex-col gap-2">
-        {question.choices.map((c, i) => {
-          const isUserPick = question.type === "rc-single" ? choice === i : multiChoices.has(i);
-          const isCorrect = question.type === "rc-single" ? question.answer === i : question.answer.includes(i);
+        {choices.map((c, i) => {
+          const isUserPick = question.kind === "single" ? choice === i : multiChoices.has(i);
+          const isCorrect =
+            question.kind === "single" ? question.answer === i
+            : question.kind === "multi" ? question.answer.includes(i)
+            : false;
           const showAsRight = submitted && isCorrect;
           const showAsWrong = submitted && isUserPick && !isCorrect;
           return (
@@ -238,12 +265,12 @@ function QuestionCard({
                   : isUserPick ? "border-cyan-400/40 bg-cyan-500/10"
                   : "border-slate-200/15 hover:bg-slate-800/40"}`}>
                 <input
-                  type={question.type === "rc-single" ? "radio" : "checkbox"}
+                  type={question.kind === "single" ? "radio" : "checkbox"}
                   name={`q-${question.questionId}`}
                   className="mt-1 h-4 w-4"
                   checked={isUserPick}
                   onChange={(e) => {
-                    if (question.type === "rc-single") {
+                    if (question.kind === "single") {
                       setChoice(i);
                     } else {
                       const next = new Set(multiChoices);
@@ -328,12 +355,63 @@ function QuestionCard({
   );
 }
 
-function formatUserAnswer(q: ReadingQuestion, ua: UserAnswer): string {
-  if (ua.type === "rc-single" && q.type === "rc-single") {
+function formatUserAnswer(q: RcQuestion, ua: UserAnswer): string {
+  if (ua.type === "rc-single" && q.kind === "single") {
     return `${ua.choice + 1}. ${q.choices[ua.choice] ?? "?"}`;
   }
-  if (ua.type === "rc-multi" && q.type === "rc-multi") {
+  if (ua.type === "rc-multi" && q.kind === "multi") {
     return ua.choices.map((choice) => `${choice + 1}. ${q.choices[choice] ?? "?"}`).join("; ");
   }
+  if (ua.type === "rc-sentence" && q.kind === "select-sentence") {
+    return `Sentence ${ua.sentence + 1}`;
+  }
   return "";
+}
+
+/**
+ * Placeholder for the sentence-selection input. The full
+ * sentence-indexed passage renderer (with clickable sentences, evidence
+ * highlights, and highlighter integration) arrives in commit #9. For
+ * now we just show the chosen sentence index so the user can submit
+ * a `select-sentence` question; the data path is in place.
+ */
+function SelectSentenceInput({
+  question,
+  selected,
+  onChange,
+  disabled,
+}: {
+  question: Extract<RcQuestion, { kind: "select-sentence" }>;
+  selected: number | null;
+  onChange: (n: number) => void;
+  disabled: boolean;
+}) {
+  // The passage is rendered separately in the parent, so this control
+  // is just a numeric stepper. The parent (in commit #9) will also
+  // make sentences clickable in the passage itself.
+  return (
+    <div className="flex flex-wrap items-center gap-2 rounded-xl border border-slate-200/15 bg-slate-950/40 p-3 text-sm">
+      <span className="text-slate-400">Sentence</span>
+      <button
+        type="button"
+        onClick={() => onChange(Math.max(0, (selected ?? 0) - 1))}
+        disabled={disabled || (selected ?? 0) === 0}
+        className="rounded-md border border-slate-200/15 px-2 py-0.5 text-xs text-slate-300 hover:bg-slate-800/60 disabled:opacity-40"
+      >
+        −
+      </button>
+      <span className="font-mono text-cyan-200">{(selected ?? 0) + 1}</span>
+      <button
+        type="button"
+        onClick={() => onChange((selected ?? 0) + 1)}
+        disabled={disabled}
+        className="rounded-md border border-slate-200/15 px-2 py-0.5 text-xs text-slate-300 hover:bg-slate-800/60 disabled:opacity-40"
+      >
+        +
+      </button>
+      <span className="text-xs text-slate-500">
+        (The sentence picker will be inline in the passage in commit #9.)
+      </span>
+    </div>
+  );
 }

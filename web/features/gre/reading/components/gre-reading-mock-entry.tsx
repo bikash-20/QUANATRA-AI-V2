@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { greProgress, type MockState } from "@/features/gre/progress/repository";
 import { GreReadingMockRunner } from "./gre-reading-mock-runner";
 import { buildReadingMock, READING_MOCK_SPEC } from "../builder";
-import type { ReadingPassage } from "@/features/gre/content/loader.types";
+import type { RcPassage } from "@/features/gre/content/loader.types";
 
 type FlatItem = { passageId: string; questionId: string };
 
@@ -14,7 +14,7 @@ export function GreReadingMockEntry({
   passages,
   mockId,
 }: {
-  passages: ReadingPassage[];
+  passages: RcPassage[];
   mockId: string;
 }) {
   const [hydrated, setHydrated] = useState(false);

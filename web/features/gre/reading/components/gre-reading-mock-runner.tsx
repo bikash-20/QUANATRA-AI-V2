@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { checkAnswer } from "@/features/gre/reading/checker";
 import { greProgress, type MockState, type UserAnswer } from "@/features/gre/progress/repository";
-import type { ReadingPassage, ReadingQuestion } from "@/features/gre/content/loader.types";
+import type { RcPassage, RcQuestion } from "@/features/gre/content/loader.types";
 import { MarkdownContent } from "@/components/markdown-content";
 
 type FlatItem = { passageId: string; questionId: string };
@@ -21,7 +21,7 @@ export function GreReadingMockRunner({
   initialState,
 }: {
   mockId: string;
-  passages: ReadingPassage[];
+  passages: RcPassage[];
   items: FlatItem[];
   startedAt: number;
   initialRemainingSec: number;
@@ -30,12 +30,12 @@ export function GreReadingMockRunner({
   const router = useRouter();
   const total = items.length;
   const passageById = useMemo(() => {
-    const m = new Map<string, ReadingPassage>();
+    const m = new Map<string, RcPassage>();
     for (const p of passages) m.set(p.id, p);
     return m;
   }, [passages]);
   const questionById = useMemo(() => {
-    const m = new Map<string, ReadingQuestion>();
+    const m = new Map<string, RcQuestion>();
     for (const p of passages) for (const q of p.questions) m.set(q.questionId, q);
     return m;
   }, [passages]);
@@ -100,7 +100,7 @@ export function GreReadingMockRunner({
               topic: p.category,
               subtopic: p.id,
               difficulty: p.difficulty,
-              questionType: q.type,
+              questionType: q.kind === "single" ? "rc-single-answer" : q.kind === "multi" ? "rc-multi-answer" : "rc-sentence",
               userAnswer: ua,
               correct: ok,
               timeMs: 0,
@@ -229,7 +229,9 @@ export function GreReadingMockRunner({
                     : "bg-rose-500/15 text-rose-200"
                 }`}>{curP.difficulty}</span>
                 <span className="rounded-md border border-slate-200/15 px-1.5 py-0.5 uppercase text-slate-400">
-                  {curQ.type === "rc-single" ? "single answer" : "select all that apply"}
+                  {curQ.kind === "single" ? "single answer"
+                    : curQ.kind === "multi" ? "select all that apply"
+                    : "select a sentence"}
                 </span>
                 <button
                   type="button"
@@ -245,39 +247,45 @@ export function GreReadingMockRunner({
                 </button>
               </header>
               <p className="text-base text-slate-100"><MarkdownContent content={curQ.stem} inline /></p>
-              <ol className="flex flex-col gap-2">
-                {curQ.choices.map((c, i) => {
-                  const picked = curQ.type === "rc-single"
-                    ? curAns?.type === "rc-single" && curAns.choice === i
-                    : curAns?.type === "rc-multi" && curAns.choices.includes(i);
-                  return (
-                    <li key={i}>
-                      <label className={`flex w-full cursor-pointer items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm ${picked ? "border-cyan-400/40 bg-cyan-500/10" : "border-slate-200/15 hover:bg-slate-800/40"}`}>
-                        <input
-                          type={curQ.type === "rc-single" ? "radio" : "checkbox"}
-                          name={`m-${curQ.questionId}`}
-                          className="mt-1 h-4 w-4"
-                          checked={Boolean(picked)}
-                          onChange={(e) => {
-                            if (curQ.type === "rc-single") {
-                              setAnswers((current) => ({ ...current, [curQ.questionId]: { type: "rc-single", choice: i } }));
-                            } else {
-                              const prev = curAns?.type === "rc-multi" ? new Set(curAns.choices) : new Set<number>();
-                              if (e.target.checked) prev.add(i); else prev.delete(i);
-                              setAnswers((current) => ({
-                                ...current,
-                                [curQ.questionId]: prev.size ? { type: "rc-multi", choices: [...prev].sort((a, b) => a - b) } : undefined,
-                              }));
-                            }
-                          }}
-                        />
-                        <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
-                        <span className="flex-1"><MarkdownContent content={c} inline /></span>
-                      </label>
-                    </li>
-                  );
-                })}
-              </ol>
+              {(curQ.kind === "single" || curQ.kind === "multi") ? (
+                <ol className="flex flex-col gap-2">
+                  {curQ.choices.map((c, i) => {
+                    const picked = curQ.kind === "single"
+                      ? curAns?.type === "rc-single" && curAns.choice === i
+                      : curAns?.type === "rc-multi" && curAns.choices.includes(i);
+                    return (
+                      <li key={i}>
+                        <label className={`flex w-full cursor-pointer items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm ${picked ? "border-cyan-400/40 bg-cyan-500/10" : "border-slate-200/15 hover:bg-slate-800/40"}`}>
+                          <input
+                            type={curQ.kind === "single" ? "radio" : "checkbox"}
+                            name={`m-${curQ.questionId}`}
+                            className="mt-1 h-4 w-4"
+                            checked={Boolean(picked)}
+                            onChange={(e) => {
+                              if (curQ.kind === "single") {
+                                setAnswers((current) => ({ ...current, [curQ.questionId]: { type: "rc-single", choice: i } }));
+                              } else {
+                                const prev = curAns?.type === "rc-multi" ? new Set(curAns.choices) : new Set<number>();
+                                if (e.target.checked) prev.add(i); else prev.delete(i);
+                                setAnswers((current) => ({
+                                  ...current,
+                                  [curQ.questionId]: prev.size ? { type: "rc-multi", choices: [...prev].sort((a, b) => a - b) } : undefined,
+                                }));
+                              }
+                            }}
+                          />
+                          <span className="font-mono text-xs text-slate-400">{i + 1}.</span>
+                          <span className="flex-1"><MarkdownContent content={c} inline /></span>
+                        </label>
+                      </li>
+                    );
+                  })}
+                </ol>
+              ) : (
+                <p className="rounded-xl border border-slate-200/15 bg-slate-950/40 p-3 text-xs text-slate-400">
+                  Sentence-selection in mocks is read-only; the runner will reveal the right sentence after submit.
+                </p>
+              )}
             </article>
           ) : null}
 

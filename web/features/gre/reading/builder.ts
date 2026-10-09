@@ -8,7 +8,7 @@
 //   - Seeded shuffle so the same seed reproduces the same mock.
 //   - If a difficulty bucket is short, borrow from the next-higher tier.
 
-import type { ReadingPassage } from "@/features/gre/content/loader.types";
+import type { RcPassage } from "@/features/gre/content/loader.types";
 import { mulberry32, seededShuffle } from "@/features/gre/vocab/quiz";
 
 export type ReadingMockSpec = {
@@ -34,7 +34,7 @@ export type ReadingMockBuildResult = {
 
 type Flat = { passageId: string; questionId: string; difficulty: "easy" | "medium" | "hard" };
 
-function flatten(passages: ReadingPassage[]): Flat[] {
+function flatten(passages: RcPassage[]): Flat[] {
   const out: Flat[] = [];
   for (const p of passages) for (const q of p.questions) out.push({ passageId: p.id, questionId: q.questionId, difficulty: p.difficulty });
   return out;
@@ -50,7 +50,7 @@ function pickTier(items: Flat[], tier: "easy" | "medium" | "hard", n: number, rn
  * next-higher tier. Always preserves the seeded RNG so the same seed
  * produces the same mock — important for sharing bug reports.
  */
-export function buildReadingMock(seed: number, pool: ReadingPassage[]): ReadingMockBuildResult {
+export function buildReadingMock(seed: number, pool: RcPassage[]): ReadingMockBuildResult {
   const rng = mulberry32(seed);
   const want = READING_MOCK_SPEC.byDifficulty;
   const all = flatten(pool);

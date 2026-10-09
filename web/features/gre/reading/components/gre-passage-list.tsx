@@ -3,7 +3,7 @@
 // on the IDB query.
 
 import Link from "next/link";
-import type { ReadingPassage, ReadingCategory } from "@/features/gre/content/loader.types";
+import type { RcPassage, ReadingCategory } from "@/features/gre/content/loader.types";
 import { GrePassageProgressIsland } from "./gre-passage-progress-island";
 
 export function GrePassageList({
@@ -11,7 +11,7 @@ export function GrePassageList({
   passages,
 }: {
   category: ReadingCategory;
-  passages: ReadingPassage[];
+  passages: RcPassage[];
 }) {
   if (passages.length === 0) {
     return (
@@ -34,7 +34,7 @@ export function GrePassageList({
                   : p.difficulty === "medium" ? "bg-amber-500/15 text-amber-200"
                   : "bg-rose-500/15 text-rose-200"
               }`}>{p.difficulty}</span>
-              <span className="text-xs text-slate-500">{p.wordCount} words · {p.questions.length} questions</span>
+              <span className="text-xs text-slate-500">{p.questions.length} questions</span>
             </header>
             <h3 className="mt-2 text-lg font-semibold text-cyan-100">{p.title}</h3>
             <p className="mt-1 text-xs text-slate-500">{p.source}</p>

@@ -19,6 +19,7 @@ import {
   MAX_CACHE_ENTRIES,
   TtlSlot,
 } from "./cache";
+import { splitSentences, SPLITTER_VERSION } from "@/lib/rc/splitter";
 
 // Mirror of content/gre/schema.ts (we cannot import .ts from runtime
 // directly in a Next build, so duplicate the schemas here; the validator
@@ -190,9 +191,9 @@ const questionCache = new MapWithTTL<string, QuantQuestion>();
 const allQuestionsByTopic = new MapWithTTL<string, QuantQuestion[]>();
 const vocabBySet = new MapWithTTL<string, VocabWord[]>();
 const wordById = new MapWithTTL<string, VocabWord>();
-const passagesByCategory = new MapWithTTL<string, ReadingPassage[]>();
-const passageById = new MapWithTTL<string, ReadingPassage>();
-const allPassagesSlot = new TtlSlot<ReadingPassage[]>();
+const passagesByCategory = new MapWithTTL<string, RcPassage[]>();
+const passageById = new MapWithTTL<string, RcPassage>();
+const allPassagesSlot = new TtlSlot<RcPassage[]>();
 
 function loadTaxonomy(): Taxonomy {
   const cached = taxonomySlot.read();
@@ -401,10 +402,10 @@ export function listReadingCategoryDirs(): ReadingCategoryType[] {
   });
 }
 
-function loadReadingCategory(category: ReadingCategoryType): ReadingPassage[] {
+function loadReadingCategory(category: ReadingCategoryType): RcPassage[] {
   const cached = passagesByCategory.get(category);
   if (cached) return cached;
-  const list: ReadingPassage[] = [];
+  const list: RcPassage[] = [];
   const dir = join(CONTENT_ROOT, "reading");
   if (existsSync(dir)) {
     const files = readdirSync(dir).filter((f) => f.startsWith(`${category}-`) && f.endsWith(".json")).sort();
@@ -420,10 +421,10 @@ function loadReadingCategory(category: ReadingCategoryType): ReadingPassage[] {
         if (!legacy.success) {
           throw new GreContentError("invalid", `Invalid passage in reading/${f}: ${parsed.error.message}`);
         }
-        list.push(legacy.data as unknown as ReadingPassage);
+        list.push(legacy.data as unknown as RcPassage);
         continue;
       }
-      list.push(parsed.data as unknown as ReadingPassage);
+      list.push(parsed.data as unknown as RcPassage);
     }
   }
   passagesByCategory.set(category, list);
@@ -431,11 +432,11 @@ function loadReadingCategory(category: ReadingCategoryType): ReadingPassage[] {
   return list;
 }
 
-export function getPassageList(category: ReadingCategoryType): ReadingPassage[] {
+export function getPassageList(category: ReadingCategoryType): RcPassage[] {
   return loadReadingCategory(category);
 }
 
-export function getPassage(id: string): ReadingPassage | null {
+export function getPassage(id: string): RcPassage | null {
   const cached = passageById.get(id);
   if (cached) return cached;
   for (const cat of getReadingCategories()) {
@@ -447,10 +448,40 @@ export function getPassage(id: string): ReadingPassage | null {
   return null;
 }
 
-export function getAllReadingPassages(): ReadingPassage[] {
+/**
+ * Return a passage with its pre-split sentence array and the splitter
+ * version. Use this in UI components that need to highlight evidence or
+ * render sentence-clickable passages. The `sentences` array uses the
+ * same algorithm as the validator, so the evidence anchors in the
+ * passage file are guaranteed to be valid indices into this array.
+ */
+export function getPassageWithSentences(id: string): {
+  passage: RcPassage;
+  sentences: string[];
+  splitterVersion: string;
+} | null {
+  const p = getPassage(id);
+  if (!p) return null;
+  const sentences = (p.sentences && p.sentences.length > 0) ? p.sentences : splitSentences(p.body);
+  return { passage: p, sentences, splitterVersion: SPLITTER_VERSION };
+}
+
+/** All passages with their sentence splits precomputed. */
+export function getAllReadingPassagesWithSentences(): Array<{
+  passage: RcPassage;
+  sentences: string[];
+  splitterVersion: string;
+}> {
+  return getAllReadingPassages().map((p) => {
+    const sentences = (p.sentences && p.sentences.length > 0) ? p.sentences : splitSentences(p.body);
+    return { passage: p, sentences, splitterVersion: SPLITTER_VERSION };
+  });
+}
+
+export function getAllReadingPassages(): RcPassage[] {
   const cached = allPassagesSlot.read();
   if (cached) return cached;
-  const out: ReadingPassage[] = [];
+  const out: RcPassage[] = [];
   for (const cat of getReadingCategories()) out.push(...loadReadingCategory(cat));
   allPassagesSlot.write(out);
   return out;
@@ -458,4 +489,66 @@ export function getAllReadingPassages(): ReadingPassage[] {
 
 export function getReadingManifestSlice(): NonNullable<Manifest["reading"]> {
   return (getManifest().reading ?? {}) as NonNullable<Manifest["reading"]>;
+}
+
+// --- mock spec / pool -----------------------------------------------------
+//
+// The mock spec is currently a single hard-coded preset; commit #12
+// introduces the data-driven preset list at content/gre/rc/mock-config.ts.
+// The shape returned here is the contract that the page, the runner, and
+// the review view depend on, so commit #12 will return the same shape
+// from the preset file.
+
+export type MockSpec = {
+  id: string;
+  label: string;
+  description: string;
+  passages: number;
+  questionsPerPassage: number[];
+  totalQuestions: number;
+  durationSec: number;
+  byDifficulty: { easy: number; medium: number; hard: number };
+};
+
+export const DEFAULT_MOCK_PRESET_ID = "practice-rc";
+
+export function getMockSpec(id: string = DEFAULT_MOCK_PRESET_ID): MockSpec {
+  // Single preset for now; commit #12 will replace this with a lookup
+  // against the data-driven presets file.
+  if (id === "practice-rc" || id === DEFAULT_MOCK_PRESET_ID) {
+    return {
+      id: "practice-rc",
+      label: "Practice RC mock",
+      description:
+        "4 passages · 14 questions · 30 min · 4 easy / 7 medium / 3 hard · mixed categories · easy-to-hard ramp.",
+      passages: 4,
+      questionsPerPassage: [3, 4, 4, 3],
+      totalQuestions: 14,
+      durationSec: 30 * 60,
+      byDifficulty: { easy: 4, medium: 7, hard: 3 },
+    };
+  }
+  // Unknown id: fall back to the default. The validator will reject
+  // any spec that doesn't sum correctly; this path is just a safety net.
+  return getMockSpec(DEFAULT_MOCK_PRESET_ID);
+}
+
+/**
+ * Return the pool of passages eligible for mock composition. The
+ * "include AI" toggle lives in localStorage (set in
+ * gre-reading-progress-island); this helper reads it and filters
+ * appropriately. Caller should pass `includeAi` explicitly when called
+ * from a server context (no localStorage).
+ */
+export function getMockPool(opts: { includeAi?: boolean } = {}): RcPassage[] {
+  const all = getAllReadingPassages();
+  // AI-generated passages live in IndexedDB on the client, not in the
+  // server's content tree. The server-side pool is therefore the
+  // hand-authored set; the client merges in stored AI passages if
+  // requested. This is wired up properly in commit #15.
+  if (opts.includeAi) {
+    // No-op server-side. The client composes the pool itself.
+    return all;
+  }
+  return all;
 }

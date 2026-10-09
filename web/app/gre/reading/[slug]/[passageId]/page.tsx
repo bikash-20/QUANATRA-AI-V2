@@ -2,7 +2,7 @@
 
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getManifest, getPassage, getReadingCategories, getTaxonomy } from "@/features/gre/content/loader";
+import { getManifest, getPassageWithSentences, getReadingCategories, getTaxonomy } from "@/features/gre/content/loader";
 import { GreManifestSeed } from "@/features/gre/quant/components/gre-manifest-seed";
 import { GrePassageSolver } from "@/features/gre/reading/components/gre-passage-solver";
 
@@ -15,8 +15,8 @@ export default async function GreReadingPassagePage({
 }) {
   const { slug, passageId } = await params;
   if (!getReadingCategories().includes(slug as ReturnType<typeof getReadingCategories>[number])) notFound();
-  const passage = getPassage(passageId);
-  if (!passage) notFound();
+  const data = getPassageWithSentences(passageId);
+  if (!data) notFound();
   const manifest = getManifest();
   const taxonomy = getTaxonomy();
   return (
@@ -28,7 +28,7 @@ export default async function GreReadingPassagePage({
             ← Back to {slug.replace("-", " ")}
           </Link>
         </div>
-        <GrePassageSolver passage={passage} source="hand" />
+        <GrePassageSolver passage={data.passage} sentences={data.sentences} source="hand" />
       </div>
     </>
   );

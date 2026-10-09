@@ -7,25 +7,33 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { ReadingPassage } from "@/features/gre/content/loader.types";
+import { splitSentences } from "@/lib/rc/splitter";
+import type { RcPassage } from "@/features/gre/content/loader.types";
 import { GrePassageSolver } from "./gre-passage-solver";
 
 export function GreAiPassageSolver({ passageId }: { passageId: string }) {
   // sessionStorage is browser-only; useState's lazy initializer runs only
   // on the client, so we read it there. If we're on the server (or the
   // entry is missing), fall back to null and render the notice below.
-  const [passage] = useState<ReadingPassage | null>(() => {
+  const [data] = useState<{ passage: RcPassage; sentences: string[] } | null>(() => {
     if (typeof window === "undefined") return null;
     try {
       const raw = window.sessionStorage.getItem(`gre-ai-passage:${passageId}`);
       if (!raw) return null;
-      return JSON.parse(raw) as ReadingPassage;
+      const passage = JSON.parse(raw) as RcPassage;
+      // AI-generated passages may carry a frozen `sentences` array
+      // (committed in #14) — when present we use it verbatim so the
+      // splitter-version is preserved across sessions.
+      const sentences = (passage.sentences && passage.sentences.length > 0)
+        ? passage.sentences
+        : splitSentences(passage.body);
+      return { passage, sentences };
     } catch {
       return null;
     }
   });
 
-  if (!passage) {
+  if (!data) {
     return (
       <div className="rounded-2xl border border-amber-300/30 bg-amber-900/20 p-5 text-sm text-amber-100">
         <p className="font-semibold">This AI-generated passage is not available in this tab.</p>
@@ -44,5 +52,5 @@ export function GreAiPassageSolver({ passageId }: { passageId: string }) {
       </div>
     );
   }
-  return <GrePassageSolver passage={passage} source="ai" />;
+  return <GrePassageSolver passage={data.passage} sentences={data.sentences} source="ai" />;
 }

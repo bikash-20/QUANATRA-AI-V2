@@ -2,10 +2,16 @@
 // AI-fill panel: hit /api/reading/generate and render the returned passage
 // inline. No caching at the network layer — the user wants fresh practice
 // material each call.
+//
+// The expected response shape is the new RcPassage / RcQuestion envelope
+// (post commit #3). The old /api/reading/generate endpoint is being
+// replaced by /api/gre/generate-passage in commit #14 — for now the
+// panel still works against the old endpoint, and the schema below
+// matches the new envelope. The endpoint is updated in #14.
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import type { ReadingPassage } from "@/features/gre/content/loader.types";
+import type { RcPassage } from "@/features/gre/content/loader.types";
 import { apiRequest } from "@/lib/api";
 import { z } from "zod";
 
@@ -13,25 +19,26 @@ const PassageSchema = z.object({
   id: z.string(),
   category: z.enum(["business", "science", "social-science", "arts"]),
   title: z.string(),
-  source: z.string(),
-  wordCount: z.number(),
+  source: z.enum(["original", "ai", "external"]),
   body: z.string(),
   difficulty: z.enum(["easy", "medium", "hard"]),
   tags: z.array(z.string()),
+  sentences: z.array(z.string()).optional(),
   questions: z.array(
     z.union([
-      z.object({ type: z.literal("rc-single"), questionId: z.string(), stem: z.string(), choices: z.array(z.string()).length(5), answer: z.number().int().min(0).max(4), rationale: z.string() }),
-      z.object({ type: z.literal("rc-multi"), questionId: z.string(), stem: z.string(), choices: z.array(z.string()).length(5), answer: z.array(z.number().int().min(0).max(4)).min(1).max(3), rationale: z.string() }),
+      z.object({ kind: z.literal("single"), questionId: z.string(), stem: z.string(), qType: z.enum(["main-idea", "detail", "inference", "author-attitude", "function", "structure", "vocab-in-context", "strengthen-weaken"]), evidence: z.array(z.object({ sentence: z.number(), anchor: z.string() })), choices: z.array(z.string()).length(5), answer: z.number().int().min(0).max(4), rationale: z.string() }),
+      z.object({ kind: z.literal("multi"), questionId: z.string(), stem: z.string(), qType: z.enum(["main-idea", "detail", "inference", "author-attitude", "function", "structure", "vocab-in-context", "strengthen-weaken"]), evidence: z.array(z.object({ sentence: z.number(), anchor: z.string() })), choices: z.array(z.string()).length(3), answer: z.array(z.number().int().min(0).max(2)).min(1).max(3), rationale: z.string() }),
+      z.object({ kind: z.literal("select-sentence"), questionId: z.string(), stem: z.string(), qType: z.enum(["main-idea", "detail", "inference", "author-attitude", "function", "structure", "vocab-in-context", "strengthen-weaken"]), evidence: z.array(z.object({ sentence: z.number(), anchor: z.string() })), answer: z.number().int().min(0), rationale: z.string() }),
     ])
   ).min(3).max(5),
-}) satisfies z.ZodType<ReadingPassage>;
+}) satisfies z.ZodType<RcPassage>;
 
-export function GreAiFillPanel({ category }: { category: ReadingPassage["category"] }) {
+export function GreAiFillPanel({ category }: { category: RcPassage["category"] }) {
   const [topic, setTopic] = useState("");
   const [difficulty, setDifficulty] = useState<"easy" | "medium" | "hard">("medium");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [lastPassage, setLastPassage] = useState<ReadingPassage | null>(null);
+  const [lastPassage, setLastPassage] = useState<RcPassage | null>(null);
   const router = useRouter();
 
   async function handleGenerate() {
