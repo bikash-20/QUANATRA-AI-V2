@@ -2296,3 +2296,41 @@ select {
     max-width: 520px;
   }
 }
+
+/* ----- RC passage highlights + sentence chrome -----
+   The sentence-indexed passage renderer (gre-passage-text.tsx) wraps
+   each sentence in <span class="rc-passage-sentence">. Highlighted
+   sentences and evidence after submit get extra classes. */
+
+.rc-passage-sentence {
+  display: inline;
+}
+
+.rc-passage-sentence--highlighted-yellow {
+  background: rgba(250, 204, 21, 0.18);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.rc-passage-sentence--highlighted-green {
+  background: rgba(16, 185, 129, 0.16);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.rc-passage-sentence--evidence {
+  border-bottom: 2px solid rgba(34, 211, 238, 0.55);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.15);
+  border-radius: 2px;
+}
+
+.rc-highlight-toolbar {
+  /* Glass surface — backdrop blur already declared on the element. */
+  user-select: none;
+  pointer-events: auto;
+}
+
+.rc-highlight-toolbar button:focus-visible {
+  outline: 2px solid rgba(34, 211, 238, 0.7);
+  outline-offset: 1px;
+}

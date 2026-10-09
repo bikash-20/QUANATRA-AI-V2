@@ -16,7 +16,7 @@
 //      before the IDB connection opens.
 
 const DB_NAME = "quantara";
-const DB_VERSION = 4;
+const DB_VERSION = 5;
 const STORES = [
   "chats",
   "decks",
@@ -37,6 +37,11 @@ const STORES = [
   // Reserved for v4 — present in DB so future store-specific indexes
   // (e.g. by passage id) can be added without another schema bump.
   "greReadingAttempts",
+  // v5 — RC passage highlights + per-passage note
+  "rcHighlights",
+  // v5 — AI-generated RC passages (the rest of the IDB story is wired
+  // up in commit #15; the store is reserved here so we don't bump again).
+  "rcGenerated",
 ] as const;
 
 export type StoreName = (typeof STORES)[number];
