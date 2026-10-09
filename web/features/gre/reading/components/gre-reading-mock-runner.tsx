@@ -64,9 +64,29 @@ export function GreReadingMockRunner({
     return { correct: initialState.result.score, total: initialState.result.total };
   });
   const startedAtRef = useRef<number>(initialState?.startedAt ?? startedAt);
+  // Per-passage mount time so we can attribute reading vs answer time
+  // for the first question of each passage in the mock.
+  const passageMountedAtRef = useRef<Record<string, number>>({});
+  // Per-question mount time — used for `answerTimeMs` of answered
+  // questions at submit. Indexed by questionId.
+  const questionMountedAtRef = useRef<Record<string, number>>({});
   const submissionLock = useRef(false);
   const submitRef = useRef<(auto?: boolean) => Promise<void>>(async () => {});
   const timerRef = useRef<number | null>(null);
+
+  // Track the timestamp when each question / passage card is first shown
+  // in this session. This is independent of state, so it runs as a render
+  // side-effect via the key. We avoid setting state — the refs are enough.
+  useEffect(() => {
+    const cur = items[Math.min(idx, items.length - 1)];
+    if (!cur) return;
+    if (passageMountedAtRef.current[cur.passageId] === undefined) {
+      passageMountedAtRef.current[cur.passageId] = Date.now();
+    }
+    if (questionMountedAtRef.current[cur.questionId] === undefined) {
+      questionMountedAtRef.current[cur.questionId] = Date.now();
+    }
+  }, [idx, items]);
 
   useEffect(() => {
     if (finished) return;
@@ -96,6 +116,8 @@ export function GreReadingMockRunner({
       try {
         let correct = 0;
         const timePerQ: number[] = [];
+        const seenPassage = new Set<string>();
+        const submitStamp = Date.now();
         for (const it of items) {
           const q = questionById.get(it.questionId);
           const p = passageById.get(it.passageId);
@@ -103,6 +125,15 @@ export function GreReadingMockRunner({
           if (!q || !p) continue;
           const ok = ua ? checkAnswer(q, ua) : false;
           if (ok) correct++;
+          // First question in this passage gets a reading-time slice;
+          // subsequent questions in the same passage do not.
+          const isFirstInPassage = !seenPassage.has(it.passageId);
+          if (isFirstInPassage) seenPassage.add(it.passageId);
+          const qStart = questionMountedAtRef.current[it.questionId] ?? submitStamp;
+          const pStart = passageMountedAtRef.current[it.passageId] ?? qStart;
+          const totalMs = Math.max(0, submitStamp - qStart);
+          const readingMs = isFirstInPassage ? Math.max(0, qStart - pStart) : 0;
+          const answerMs = Math.max(0, totalMs - readingMs);
           if (ua) {
             await greProgress.recordAttempt({
               questionId: q.questionId,
@@ -112,13 +143,17 @@ export function GreReadingMockRunner({
               questionType: q.kind === "single" ? "rc-single-answer" : q.kind === "multi" ? "rc-multi-answer" : "rc-sentence",
               userAnswer: ua,
               correct: ok,
-              timeMs: 0,
-              at: Date.now(),
+              timeMs: totalMs,
+              at: submitStamp,
               fromReadingMock: mockId,
               source: "hand",
+              qType: q.qType,
+              passageId: it.passageId,
+              readingTimeMs: isFirstInPassage ? readingMs : undefined,
+              answerTimeMs: answerMs > 0 ? answerMs : undefined,
             });
           }
-          timePerQ.push(0);
+          timePerQ.push(totalMs);
         }
         const m: MockState = {
           id: mockId,

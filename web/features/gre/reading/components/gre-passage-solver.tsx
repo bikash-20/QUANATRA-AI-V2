@@ -30,6 +30,14 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
   // EVIDENCE trailer and highlight additional sentences on top of
   // the qType's evidence anchors.
   const [extraEvidenceByQ, setExtraEvidenceByQ] = useState<Record<string, number[]>>({});
+  // Captured at solver mount — `readingTimeMs` for the first question
+  // is `questionStartedAt - passageStartedAt`. The ref is read only
+  // when the user clicks Submit (not during render) so it's safe to
+  // capture the timestamp in an effect without a cascading render.
+  const passageStartedAtRef = useRef<number>(0);
+  useEffect(() => {
+    passageStartedAtRef.current = Date.now();
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -120,6 +128,8 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
             difficulty={passage.difficulty}
             source={source}
             passageBody={passage.body}
+            getPassageStartedAt={() => passageStartedAtRef.current}
+            isFirstQuestionForPassage={activeIndex === 0}
             onPrev={activeIndex > 0 ? () => setActiveIndex(activeIndex - 1) : null}
             onNext={activeIndex < total - 1 ? () => setActiveIndex(activeIndex + 1) : null}
             onExtraEvidence={(indices) => setExtraEvidenceByQ((prev) => ({ ...prev, [question.questionId]: indices }))}
@@ -131,7 +141,8 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
 }
 
 function QuestionCard({
-  question, passageId, category, difficulty, source, passageBody, onPrev, onNext, onExtraEvidence,
+  question, passageId, category, difficulty, source, passageBody,
+  getPassageStartedAt, isFirstQuestionForPassage, onPrev, onNext, onExtraEvidence,
 }: {
   question: RcQuestion;
   passageId: string;
@@ -139,6 +150,8 @@ function QuestionCard({
   difficulty: "easy" | "medium" | "hard";
   source: "hand" | "ai";
   passageBody: string;
+  getPassageStartedAt: () => number;
+  isFirstQuestionForPassage: boolean;
   onPrev: (() => void) | null;
   onNext: (() => void) | null;
   onExtraEvidence: (indices: number[]) => void;
@@ -190,6 +203,14 @@ function QuestionCard({
     const qt = question.kind === "single" ? "rc-single-answer"
       : question.kind === "multi" ? "rc-multi-answer"
       : "rc-sentence";
+    const now = Date.now();
+    const totalMs = startedAt.current === null ? 0 : now - startedAt.current;
+    // For the first question in a passage, total time = reading + answer.
+    // For subsequent questions, the learner is already past reading.
+    const readingMs = isFirstQuestionForPassage
+      ? Math.max(0, (startedAt.current ?? now) - getPassageStartedAt())
+      : 0;
+    const answerMs = Math.max(0, totalMs - readingMs);
     await greProgress.recordAttempt({
       questionId: question.questionId,
       topic: category,
@@ -198,11 +219,15 @@ function QuestionCard({
       questionType: qt,
       userAnswer: ua,
       correct: ok,
-      timeMs: startedAt.current === null ? 0 : Date.now() - startedAt.current,
-      at: Date.now(),
+      timeMs: totalMs,
+      at: now,
       source,
+      qType: question.qType,
+      passageId,
+      readingTimeMs: readingMs > 0 ? readingMs : undefined,
+      answerTimeMs: answerMs > 0 ? answerMs : undefined,
     });
-  }, [buildUserAnswer, question, submitted, category, passageId, difficulty, source]);
+  }, [buildUserAnswer, question, submitted, category, passageId, difficulty, source, getPassageStartedAt, isFirstQuestionForPassage]);
 
   async function handleExplain() {
     setShowExplain(true);
@@ -416,6 +441,7 @@ function SelectSentenceInput({
   onChange: (n: number) => void;
   disabled: boolean;
 }) {
+  void question;
   // The passage is rendered separately in the parent, so this control
   // is just a numeric stepper. The parent (in commit #9) will also
   // make sentences clickable in the passage itself.

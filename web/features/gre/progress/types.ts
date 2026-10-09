@@ -4,6 +4,16 @@
 
 export type QuestionType = "mcq" | "multi" | "qc" | "numeric" | "rc-single" | "rc-multi" | "rc-single-answer" | "rc-multi-answer" | "rc-sentence";
 
+export type RcQType =
+  | "main-idea"
+  | "detail"
+  | "inference"
+  | "author-attitude"
+  | "function"
+  | "structure"
+  | "vocab-in-context"
+  | "strengthen-weaken";
+
 export type UserAnswer =
   | { type: "mcq"; choice: number }
   | { type: "multi"; choices: number[] }
@@ -27,6 +37,17 @@ export type Attempt = {
   fromMock?: string;      // quant mock id if attempt was part of a mock
   fromReadingMock?: string; // reading mock id if attempt was part of a reading mock
   source?: "ai" | "hand"; // distinguishes AI-filled vs hand-authored passages
+  // --- Reading-specific (commit #13) ---
+  qType?: RcQType;        // only present for RC attempts
+  passageId?: string;     // the passage id the question belongs to
+  /** Time spent reading the passage before answering this question
+   *  (only meaningful for the first question in a passage attempt; 0
+   *  for subsequent questions on the same passage). */
+  readingTimeMs?: number;
+  /** Time spent on this single question (from question card mount to
+   *  submit). Distinct from `timeMs` for the first question, which
+   *  includes reading. */
+  answerTimeMs?: number;
 };
 
 export type Bookmark = {
