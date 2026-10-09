@@ -9,6 +9,7 @@ import { greProgress, type UserAnswer } from "@/features/gre/progress/repository
 import { checkAnswer, formatCorrectAnswer, choiceLetter } from "@/features/gre/reading/checker";
 import { getExplanation } from "@/lib/explanations";
 import { MarkdownContent } from "@/components/markdown-content";
+import { GrePassageText } from "./gre-passage-text";
 
 type Props = {
   passage: RcPassage;
@@ -74,8 +75,13 @@ export function GrePassageSolver({ passage, sentences, source = "hand" }: Props)
 
       <div className="gre-passage-grid">
         <aside className={`gre-passage-panel ${showPassage ? "" : "gre-passage-panel--hidden md:!block"}`}>
-          <article className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5 text-sm leading-relaxed text-slate-200">
-            <MarkdownContent content={passage.body} />
+          <article className="sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl border border-slate-200/15 bg-slate-900/40 p-5">
+            <GrePassageText
+              passageId={passage.id}
+              body={passage.body}
+              sentences={sentences ?? []}
+              evidence={question.evidence.map((e) => e.sentence)}
+            />
           </article>
         </aside>
 
