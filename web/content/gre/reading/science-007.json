@@ -1,0 +1,72 @@
+{
+  "id": "rc-sci-007",
+  "category": "science",
+  "title": "What a Warming Ocean Does to a Coastal Fishery",
+  "source": "original",
+  "difficulty": "easy",
+  "tags": [
+    "oceanography",
+    "fisheries"
+  ],
+  "body": "A coastal fishery depends on a small set of physical conditions. The water must stay within a narrow temperature band. The right kinds of plankton must bloom at the right time. The young fish must find enough to eat in the weeks after they hatch. A change in any one of these conditions can move a healthy fishery into steep decline, and the warming of the coastal ocean over the last forty years has changed all three.\n\nThe first change is in the plankton bloom. Many of the small crustaceans that young fish depend on for food need cool, nutrient-rich water to bloom in large numbers. Warmer surface water stratifies the upper ocean and starves the bloom of nutrients from below. The bloom still happens, but it is thinner and starts later in the spring. The young fish that depend on the bloom hatch on the old schedule, and they meet a thinner food supply than they would have met in a cooler year.\n\nThe second change is in the range of the adult fish. Many of the species that support coastal fisheries have moved northward, in the northern hemisphere, by tens to hundreds of kilometers over the last forty years. The fish have followed the water temperature they are tuned to. A community that built its processing plants, its boats, and its market relationships around a particular species finds, in the space of a working life, that the species is no longer reliably present in its local waters.\n\nThe author concludes that the warming ocean is changing coastal fisheries through a small set of well-understood physical and biological steps. The changes are not a single surprise. They are the predictable result of a steady shift in the underlying physical conditions.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-007-1",
+      "stem": "The sentence 'Many of the small crustaceans that young fish depend on for food need cool, nutrient-rich water to bloom in large numbers' most directly states the:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "Many of the small crustaceans"
+        }
+      ],
+      "choices": [
+        "main claim of the passage.",
+        "first step in the mechanism by which warming reduces the food available to young fish.",
+        "second step in the range shift of adult fish.",
+        "conclusion the author draws at the end of the passage.",
+        "definition of a coastal fishery."
+      ],
+      "answer": 1,
+      "rationale": "Sentence five states the biological step on which the rest of the first mechanism depends: cool, nutrient-rich water is what the bloom needs, and warmer water starves the bloom. The question asks what role that sentence plays in the passage's argument."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-sci-007-2",
+      "stem": "Which sentence most directly states that the adult fish have moved northward as the water has warmed?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 11,
+          "anchor": "Many of the species that"
+        }
+      ],
+      "answer": 11,
+      "rationale": "Sentence nine states that many of the species have moved northward by tens to hundreds of kilometers, in the space of a working life."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-sci-007-3",
+      "stem": "According to the passage, which of the following are the two changes the warming ocean has produced in a coastal fishery? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 5,
+          "anchor": "The first change is in"
+        },
+        {
+          "sentence": 10,
+          "anchor": "The second change is in"
+        }
+      ],
+      "choices": [
+        "The plankton bloom has become thinner and starts later, leaving young fish with less to eat in the weeks after they hatch.",
+        "Many of the adult fish have moved northward by tens to hundreds of kilometers, so a community's local catch is no longer reliable.",
+        "The coastal ocean has become uniformly cooler at every depth over the last forty years."
+      ],
+      "answer": [0, 1],
+      "rationale": "Sentences four through seven cover the bloom change, and sentences eight through ten cover the range change. The third option contradicts the passage's central premise that the ocean has warmed."
+    }
+  ]
+}

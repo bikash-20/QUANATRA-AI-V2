@@ -1,0 +1,76 @@
+{
+  "id": "rc-biz-007",
+  "category": "business",
+  "title": "Why Buyback Programs Spread Even When the Math Is Bad",
+  "source": "original",
+  "difficulty": "easy",
+  "tags": [
+    "finance",
+    "corporate"
+  ],
+  "body": "For most of the last forty years, large public companies in the United States have returned more cash to shareholders through share buybacks than through dividends. The shift is a familiar one. Buybacks let a firm return cash without committing to a quarterly payout, and the firms that buy back stock tend to lift their per-share earnings in the process. The reason buybacks have spread is not, however, mostly about the math.\n\nThe first reason is the executive compensation contract. A large share of senior pay at most public companies is delivered in stock and stock options, and the value of that pay rises when the share price rises. Buybacks reduce the share count and, in the usual case, support the share price in the short run. A chief executive who can move the per-share metric with a buyback has, for that reason, a direct incentive to do one.\n\nThe second reason is the response of the capital markets. Analysts and investors tend to reward a buyback announcement with a small bump in the share price, even when the buyback is funded by debt or by drawing down cash the firm will need later. The market reaction is short, but it is real, and it reinforces the executive incentive to keep doing buybacks. A firm that stops buybacks while its peers continue them is, in the market's view, sending a negative signal about its own prospects.\n\nThe author concludes that the spread of buybacks is best understood as the joint product of compensation design and market reaction. The math is part of the story, but it is not the main part. The main part is the institutional setting in which the buyback decision is made.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-007-1",
+      "stem": "The author's view of share buybacks is best described as:",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 12,
+          "anchor": "The author concludes that the"
+        }
+      ],
+      "choices": [
+        "A financially optimal decision that is always in the long-term interest of shareholders.",
+        "A practice that has spread mostly because of compensation design and short-term market reaction, not because the math is good.",
+        "A practice that should be banned by regulators in every public market.",
+        "A practice that benefits only the chief executive and hurts every other stakeholder.",
+        "A passing trend that has already peaked and will fade within the next decade."
+      ],
+      "answer": 1,
+      "rationale": "Sentences eleven and twelve frame buybacks as the joint product of compensation design and market reaction, with the math as a smaller part of the story."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-biz-007-2",
+      "stem": "Which sentence introduces the first of the two reasons the passage gives for the spread of buybacks?",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first reason is the"
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second reason is the"
+        }
+      ],
+      "answer": 4,
+      "rationale": "Sentence three names the first reason (executive compensation) and sentence seven names the second (market reaction). The question targets the sentence that opens the compensation discussion."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-biz-007-3",
+      "stem": "According to the passage, which of the following are the two reasons buyback programs have spread? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first reason is the"
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second reason is the"
+        }
+      ],
+      "choices": [
+        "Executive compensation contracts give senior leaders a direct incentive to lift the share price through buybacks.",
+        "Capital markets reward buyback announcements with a short-term share-price bump, and a firm that stops while peers continue is read as sending a negative signal.",
+        "Buybacks reliably raise a firm's long-term return on capital in every industry and business cycle."
+      ],
+      "answer": [0, 1],
+      "rationale": "Sentences three through six cover the compensation reason, and sentences seven through ten cover the market-reaction reason. The third option is a claim the passage does not make — it explicitly says the math is not the main part of the story."
+    }
+  ]
+}

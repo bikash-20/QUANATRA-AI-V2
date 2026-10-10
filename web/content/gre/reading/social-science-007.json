@@ -1,0 +1,76 @@
+{
+  "id": "rc-soc-007",
+  "category": "social-science",
+  "title": "What Makes a Local School Bond Pass",
+  "source": "original",
+  "difficulty": "easy",
+  "tags": [
+    "political-science",
+    "education"
+  ],
+  "body": "Most decisions about public school facilities in the United States are made at the local level, and most of them are paid for by a bond measure that has to win a majority of the local vote. The pattern of which measures pass and which fail has been studied for decades, and the answer is, in broad terms, well understood. A small set of features of the measure and the district together predicts the result with a high degree of accuracy.\n\nThe first feature is the size of the ask. Measures that ask for a small amount per household, even if the total is large, pass more often than measures that ask for a large amount per household. Voters react to the number on their own property tax bill, not to the headline number in the school district's plan. A district that asks for a hundred million dollars spread across twenty thousand households is, in the voter's view, asking for five dollars a year, and that measure is more likely to pass than a district that asks for the same hundred million spread across five thousand households.\n\nThe second feature is the timing of the election. Measures that go on the ballot in a high-turnout general election pass less often than measures that go on the ballot in a lower-turnout off-year or special election. The reason is not that voters in off-year elections are more sympathetic to schools. The reason is that the median voter in a low-turnout election is older, more likely to own a home, and more likely to have school-age children, and the median voter in a high-turnout election is younger and more likely to rent. The same measure, in other words, can pass or fail depending on which subset of the electorate actually shows up.\n\nThe author concludes that the local school bond is best understood as a small-dollars, small-turnout decision. The technical merits of the proposed facilities plan matter, but the small-dollars framing and the turnout math matter more.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-007-1",
+      "stem": "According to the passage, the size of the per-household ask affects a bond measure's chance of passing because:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 5,
+          "anchor": "Voters react to the number"
+        }
+      ],
+      "choices": [
+        "voters are required by state law to base their vote on the per-household figure.",
+        "voters react to the number on their own property tax bill, not to the headline total in the district's plan.",
+        "school districts always ask for more money than the facilities actually need.",
+        "the federal government reimburses districts that keep per-household asks small.",
+        "voters in low-turnout elections are less sympathetic to schools than voters in high-turnout elections."
+      ],
+      "answer": 1,
+      "rationale": "Sentence six states the reason directly: voters react to the number on their own property tax bill, not to the headline number in the district's plan."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-soc-007-2",
+      "stem": "Which sentence introduces the second of the two features the passage identifies as predicting whether a local school bond will pass?",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first feature is the"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The second feature is the"
+        }
+      ],
+      "answer": 7,
+      "rationale": "Sentence three opens the size-of-the-ask feature, and sentence eight opens the timing-of-the-election feature. The question targets the sentence that opens the timing discussion."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-soc-007-3",
+      "stem": "According to the passage, which of the following are the two features that predict whether a local school bond will pass? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first feature is the"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The second feature is the"
+        }
+      ],
+      "choices": [
+        "The size of the per-household ask: smaller per-household numbers pass more often, even when the headline total is large.",
+        "The timing of the election: lower-turnout off-year or special elections produce a different median voter than high-turnout general elections.",
+        "The party affiliation of the sitting school board: districts with a Democratic majority pass bonds at a higher rate than districts with a Republican majority."
+      ],
+      "answer": [0, 1],
+      "rationale": "Sentences three through seven cover the size feature, and sentences eight through twelve cover the timing feature. The third option is a claim the passage does not make — it attributes the difference to turnout and median voter, not to party."
+    }
+  ]
+}

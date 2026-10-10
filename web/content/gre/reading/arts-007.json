@@ -1,0 +1,72 @@
+{
+  "id": "rc-art-007",
+  "category": "arts",
+  "title": "Why a Public Library Loaned a Thousand E-Readers",
+  "source": "original",
+  "difficulty": "easy",
+  "tags": [
+    "libraries",
+    "policy"
+  ],
+  "body": "In the early 2010s, a mid-sized public library system in the American Midwest made a decision that, at the time, drew a small amount of national attention. The system bought a thousand e-readers, loaded each one with a curated set of public-domain titles, and lent the devices, with the titles pre-installed, to any library cardholder who asked. The program was not a stunt. It was, the library's director argued at the time, a way of meeting patrons who did not have a reliable way to read the books the library already owned in digital form.\n\nThe first reason the program mattered was access to the device. A library cardholder who does not own an e-reader, and who cannot afford to buy one, can read a library e-book only on a phone, and reading a long book on a phone is, for most adult readers, a poor experience. The library, in effect, was lending the missing hardware, the same way it had always lent a printed book to a patron who did not own a copy. The pre-installed titles removed the second barrier, the choice and download step that many patrons had found hard to navigate on their own.\n\nThe second reason the program mattered was what the library learned from it. The lending data, over the first three years, showed that the patrons who borrowed the e-readers read more books per year, on average, than the patrons who only checked out printed books. The data did not say whether the readers had switched from print to digital, or whether the e-readers had simply reached readers who had not been using the library at all. The library's view, on the available evidence, was that the second explanation was doing most of the work. The program had, in their reading, pulled in readers who had been on the margins of the library's existing service.\n\nThe author concludes that the program is best understood as a small, practical extension of the library's existing lending model, applied to a new format. The library did not invent a new mission. It applied an old one to a new device, and the result was a measurable expansion of the library's reach.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-007-1",
+      "stem": "As it is used in the passage, the word 'curated' most nearly means:",
+      "qType": "vocab-in-context",
+      "evidence": [
+        {
+          "sentence": 1,
+          "anchor": "The system bought a thousand"
+        }
+      ],
+      "choices": [
+        "randomly selected by the manufacturer.",
+        "carefully chosen by the library staff to fit a particular purpose.",
+        "drawn from a list of best-selling titles only.",
+        "copied from another library system without change.",
+        "ordered alphabetically by the author's last name."
+      ],
+      "answer": 1,
+      "rationale": "In context, 'curated' describes a set of titles that the library staff chose deliberately for the program. Sentence two uses the word to indicate an intentional selection by the library, not a random or external one."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-art-007-2",
+      "stem": "Which sentence most directly states what the lending data showed about the patrons who borrowed the e-readers?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 9,
+          "anchor": "The lending data, over the"
+        }
+      ],
+      "answer": 9,
+      "rationale": "Sentence ten states the direct finding of the lending data: the patrons who borrowed the e-readers read more books per year, on average, than the patrons who only checked out printed books."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-art-007-3",
+      "stem": "According to the passage, which of the following are the two reasons the e-reader program mattered? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first reason the program"
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second reason the program"
+        }
+      ],
+      "choices": [
+        "It lent the hardware that patrons needed in order to read a long book without using a phone, and the pre-installed titles removed a second barrier.",
+        "The lending data showed that e-reader patrons read more books per year than print-only patrons, and the library's reading was that the program reached readers on the margins of its existing service.",
+        "It replaced the library's existing print collection entirely within the first three years of the program."
+      ],
+      "answer": [0, 1],
+      "rationale": "Sentences four through seven cover the access reason, and sentences eight through twelve cover the data reason. The third option is a claim the passage does not make — the program is described as an addition, not a replacement."
+    }
+  ]
+}
