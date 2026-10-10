@@ -11,25 +11,22 @@
   "body": "Critics have long argued that the novel is a vehicle for ideas, and that the best novels embed propositions about human nature that the rest of the literary form is, in some sense, designed to express. The argument is hard to deny at the level of famous works: a Tolstoy novel clearly does something that a Tolstoy essay does not, and the difference is not reducible to the essay being shorter. The puzzle is what, exactly, the novel knows that the essay does not.\n\nThe conventional answer is that the novel knows the world in particulars. Where an essay on love might assert a general claim, a novel can stage a particular love between particular people, with the particular deceptions and self-deceptions that attend that particular pairing. The reader is not asked to assent to a claim; the reader is asked to recognise a configuration. The recognition, the argument goes, is the moral claim. The novel is, in this view, a research instrument for the kind of knowledge that does not survive being put into propositions.\n\nThe author pushes back on parts of this account. The same particularising move, the author notes, is available to the essayist who chooses to deploy concrete examples, and to the memoirist who is, by genre, free to dwell in the same particular configuration. What the novel adds is not particularity but duration. A novel can hold a configuration in view long enough for the reader to notice the ways in which the configuration was internally inconsistent from the start, and the ways in which the inconsistency was the source of its human interest. An essay rarely has the page count, and a memoir rarely has the structural freedom, to do this work.\n\nThe consequence, in the author's view, is that criticism of novels is, in its most ambitious form, a second-order activity. The critic is not in the business of restating what the novel knows, because what the novel knows is precisely what cannot be restated without loss. The critic is in the business of helping the reader notice, in a particular novel, the configuration the novel has held in view, and of tracing, in the reader's experience, the moments at which the configuration began to come apart. The labour is interpretive, not propositional, and the disappointment that readers often feel with novel criticism is, the author suggests, the disappointment of looking for propositions in a form whose entire point is to refuse them.",
   "questions": [
     {
-      "kind": "single",
+      "kind": "select-sentence",
       "questionId": "q-rc-art-003-1",
-      "stem": "The author's view of the most ambitious form of novel criticism is best described as:",
+      "stem": "Which sentence first states the author's own view of what the most ambitious form of novel criticism is for?",
       "qType": "author-attitude",
       "evidence": [
         {
           "sentence": 13,
           "anchor": "The consequence, in the author's"
+        },
+        {
+          "sentence": 15,
+          "anchor": "The critic is in the"
         }
       ],
-      "choices": [
-        "It should aim to restate the novel's propositions in a more compact form.",
-        "It is a second-order activity that helps the reader notice the configuration the novel has held in view, rather than restating the novel's claims.",
-        "It is best replaced by essay-form analysis.",
-        "It is unnecessary because readers can interpret novels on their own.",
-        "It is the only literary form that produces genuine knowledge."
-      ],
-      "answer": 1,
-      "rationale": "Sentences thirteen through sixteen frame the critic's labour as interpretive rather than propositional and explicitly warn that the disappointment readers feel with novel criticism is the disappointment of looking for propositions in a form whose point is to refuse them."
+      "answer": 13,
+      "rationale": "Sentence thirteen introduces the consequence — that the most ambitious novel criticism is a second-order activity — and sentences fourteen through sixteen elaborate on what that activity looks like in practice."
     },
     {
       "kind": "single",
@@ -44,7 +41,7 @@
       ],
       "choices": [
         "The act of recognising a literary work is what makes it a classic.",
-        "The reader's act of recognising a particular configuration in a novel is itself the moral claim the novel makes; the novel does not ask for assent to a proposition.",
+        "The reader's recognition of a particular configuration is itself the novel's moral claim.",
         "The novel teaches the reader to recognise hidden moral patterns in everyday life.",
         "The critic is the only reader who can recognise a moral claim.",
         "Recognition here means the explicit assertion of a moral claim by the novelist."

@@ -32,25 +32,22 @@
       "rationale": "The passage opens with the conventional map, then introduces the network view, the geometry of aftershock zones, and the long-range statistical effects — together arguing the system is more structured than the older model assumed."
     },
     {
-      "kind": "single",
+      "kind": "select-sentence",
       "questionId": "q-rc-sci-004-2",
-      "stem": "It can be inferred from the passage that the 'network' view of the crust would, if correct, suggest that:",
+      "stem": "Which sentence most directly states what the 'network' view of the crust would imply about the timing of a large rupture?",
       "qType": "inference",
       "evidence": [
         {
           "sentence": 5,
           "anchor": "In this view, the timing"
+        },
+        {
+          "sentence": 4,
+          "anchor": "One line of work treats"
         }
       ],
-      "choices": [
-        "every large earthquake is preceded by a single identifiable trigger event.",
-        "the timing of a large rupture depends less on the local stress of the patch that finally breaks and more on the configuration of stresses across the broader network.",
-        "smaller faults are mechanically irrelevant to the behaviour of larger ones.",
-        "all faults in a region rupture within a single calendar year.",
-        "earthquakes in different regions are entirely uncorrelated."
-      ],
-      "answer": 1,
-      "rationale": "Sentences four and five explicitly contrast the network view with the local-stress view, and the analogy to cascading failures in other networks is meant to support the same conclusion."
+      "answer": 5,
+      "rationale": "Sentence five states the implication directly: the timing of a large rupture depends on the configuration of stresses across the network, not just the local stress of the patch that finally breaks. Sentence four introduces the network view; sentence five applies it to timing."
     },
     {
       "kind": "single",

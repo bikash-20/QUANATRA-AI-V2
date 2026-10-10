@@ -53,25 +53,27 @@
       "rationale": "Sentences nine through twelve argue that the recording-to-saturation cycle is now measured in weeks, that the news event has moved on by then, and that the song's organising utility has therefore collapsed."
     },
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-soc-004-3",
-      "stem": "According to the passage, how has the contemporary audience for protest music been 'sorted'?",
+      "stem": "According to the passage, which of the following describe how the contemporary audience for protest music has been 'sorted'? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
         {
           "sentence": 6,
           "anchor": "The audience for protest music,"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The song is, in effect,"
         }
       ],
       "choices": [
-        "By an explicit government rating system.",
-        "Onto platforms and playlists that already contain explicit political content, so the song reaches an audience that has absorbed the position from the surrounding feed.",
-        "By a single dominant terrestrial radio network.",
-        "In a way that is uniform across every streaming service.",
-        "In a way that has reversed the effect of the original audience-sorting."
+        "The audience has been sorted onto platforms that already contain explicit political content.",
+        "The audience has been sorted into playlists that already contain explicit political content.",
+        "The result is that the song is preaching to a converted audience that has already absorbed the position from the surrounding feed."
       ],
-      "answer": 1,
-      "rationale": "Sentence six states the audience has been progressively sorted onto platforms and playlists already full of explicit political content, and sentence seven makes clear this means the song is preaching to a converted audience."
+      "answer": [0, 1, 2],
+      "rationale": "Sentences six and seven together: the audience is sorted onto platforms (6), into playlists (6), and the effect is that the song is preaching to a converted audience that has absorbed the position from the feed (7)."
     }
   ]
 }

@@ -11,9 +11,9 @@
   "body": "The wave of school integration orders that swept the United States in the 1960s and 1970s was, at the time, framed primarily as a question of constitutional rights. The courts required districts to take affirmative steps to enrol Black students in formerly white schools; the social science question of what, if anything, integration would do to the academic outcomes of the children affected was secondary. Half a century on, the social science evidence is well developed, and it has a more complicated story to tell than either the original proponents or the original critics anticipated.\n\nThe first robust finding is that the students who were directly enrolled in integrated schools, particularly those who started early and stayed for several years, did better on a range of long-run outcomes. They were more likely to graduate from high school, attend college, and live as adults in integrated neighbourhoods. The size of the effect is modest in any given study but consistent across regions and decades. The mechanism most often cited is access to better-resourced schools, but the evidence also points to peer effects, expectations, and the long shadow of being treated as a full member of a majority institution.\n\nThe second robust finding is that the benefit was not symmetric. The white students who sat alongside the first cohorts of Black classmates did not, on average, suffer the academic losses that the integration's loudest opponents predicted. Some studies find small positive effects on white students' intergroup attitudes and on their later civic behaviour. The political backlash that followed the orders, in other words, does not appear to have been driven by a measurable academic harm to the white students involved. The drivers of the backlash, the literature suggests, are better explained by parental preferences, neighbourhood politics, and the local tax implications of busing than by the classroom experience itself.\n\nThe third finding is the most under-reported. The students who were never integrated — the millions of Black children who remained in de facto segregated districts in both the North and the South — experienced, over the same decades, a substantial widening of the Black-white achievement gap. The widening is not, on the evidence, fully explained by changes in school funding. The most plausible interpretation is that the order itself created a generation of comparative evidence: districts that integrated showed what was possible, and the districts that did not became easier to measure against the standard. The political energy to maintain the orders, and the courts' appetite to enforce them, waned before the comparative lesson had time to drive a wider policy response.",
   "questions": [
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-soc-003-1",
-      "stem": "According to the passage, the long-run benefit to Black students who were integrated into formerly white schools is most plausibly attributed to:",
+      "stem": "According to the passage, which of the following mechanisms are cited as explanations for the long-run benefit to Black students who were integrated into formerly white schools? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
         {
@@ -22,14 +22,12 @@
         }
       ],
       "choices": [
-        "deliberate racial affirmative action in college admissions.",
-        "access to better-resourced schools, peer effects, expectations, and the long-run effect of being treated as a full member of a majority institution.",
-        "an automatic income transfer from white households.",
-        "a single, identifiable policy innovation unique to the integration era.",
-        "the relocation of the affected students to entirely new cities."
+        "Access to better-resourced schools, named as the most often cited mechanism.",
+        "Peer effects, expectations, and the long-run effect of being treated as a full member of a majority institution.",
+        "An automatic income transfer from white households to the affected families."
       ],
-      "answer": 1,
-      "rationale": "Sentence six names better-resourced schools as the most cited mechanism and the same sentence, plus the one that follows, add peer effects, expectations, and the long shadow of majority-institution membership."
+      "answer": [0, 1],
+      "rationale": "Sentence six names better-resourced schools as the most often cited mechanism and then adds peer effects, expectations, and majority-institution membership. The passage does not claim an automatic income transfer."
     },
     {
       "kind": "single",

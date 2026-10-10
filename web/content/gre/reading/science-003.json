@@ -32,25 +32,27 @@
       "rationale": "Sentences fourteen through sixteen go on to describe the complementary human-derived systems and the early evidence that compounds passing through them fail in the clinic less often."
     },
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-sci-003-2",
-      "stem": "According to the passage, why do anti-inflammatory drugs that perform well in mouse models often fail in human trials?",
+      "stem": "According to the passage, which of the following differences between the mouse and human immune systems help explain why anti-inflammatory drugs that work in mice often fail in humans? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
         {
           "sentence": 6,
           "anchor": "The closer investigators look, the"
+        },
+        {
+          "sentence": 7,
+          "anchor": "Mouse immune cells express a"
         }
       ],
       "choices": [
-        "Because humans metabolise drugs more slowly than mice.",
-        "Because regulatory standards for human trials are deliberately stricter than for animal trials.",
-        "Because the mouse immune system differs from the human one in receptor balance, blood composition, and evolved response to pathogens.",
-        "Because the drugs work in only one of the two sexes.",
-        "Because mice are inbred in a way that suppresses immune variation."
+        "Mouse immune cells express a different balance of receptors than human cells.",
+        "The cellular composition of mouse blood is not a scaled-down version of the human version.",
+        "The inflammatory response has been tuned by evolution to the specific pathogens each species faces in the wild."
       ],
-      "answer": 2,
-      "rationale": "Sentences six through eight list the specific differences: receptor balance, blood-cell composition, and the evolved inflammatory response to species-specific pathogens."
+      "answer": [0, 1, 2],
+      "rationale": "Sentences six through eight name all three differences: receptor balance, blood composition, and the evolved inflammatory response to species-specific pathogens."
     },
     {
       "kind": "single",

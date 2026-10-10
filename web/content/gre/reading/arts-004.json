@@ -53,25 +53,23 @@
       "rationale": "Sentences six and seven state the response was partial at best because visitors who arrived with a photographic acquaintance tended to look in photographic ways."
     },
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-art-004-3",
-      "stem": "According to the passage, why is the visitor who is fully present in a museum room for ten uninterrupted minutes 'exceptional'?",
+      "stem": "According to the passage, which of the following are elements of the museum's institutional design that were calibrated to an older, more patient visitor? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
         {
-          "sentence": 14,
-          "anchor": "The visitor who is fully"
+          "sentence": 15,
+          "anchor": "The museum's institutional design —"
         }
       ],
       "choices": [
-        "Because museum rooms are physically too small for that length of stay.",
-        "Because a contemporary visitor typically arrives with a phone and a fragmented attention, against which the museum's institutional design — the bench, the long wall, the deliberate pacing — was calibrated to an older average visitor.",
-        "Because the museum prohibits extended visits to any single work.",
-        "Because the visitor must apply for a special permit for any stay longer than five minutes.",
-        "Because the museum's security team asks extended visitors to leave."
+        "The bench, which invites extended looking.",
+        "The long wall, which supports slow accumulation of detail.",
+        "The deliberate pacing of the room, which encourages a special kind of attention."
       ],
-      "answer": 1,
-      "rationale": "Sentences fourteen through sixteen contrast the contemporary fragmented-attention visitor with the older institutional design, concluding that the museum's future is a deliberate redesign for the visitor who arrives with a phone."
+      "answer": [0, 1, 2],
+      "rationale": "Sentence fifteen names all three: 'the bench, the long wall, the deliberate pacing of the room' as the institutional design calibrated to the older visitor."
     }
   ]
 }

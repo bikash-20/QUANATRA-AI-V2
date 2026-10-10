@@ -53,25 +53,27 @@
       "rationale": "The conclusion sentence frames the question as 'open' on the evidence so far and notes the firms voluntarily moving away from quarterly reporting are the ones least in need of the change."
     },
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-biz-004-3",
-      "stem": "According to the passage, the information the public earnings call actually transmits has become:",
+      "stem": "According to the passage, which of the following describe the contemporary public earnings call? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
+        {
+          "sentence": 9,
+          "anchor": "The prepared remarks have become"
+        },
         {
           "sentence": 11,
           "anchor": "The public call has, in"
         }
       ],
       "choices": [
-        "richer than at any previous point in corporate history.",
-        "increasingly decoupled from the underlying business, with investors relying on private channels and small text-level signals instead.",
-        "dominated by analyst Q&A in which executives voluntarily disclose difficult information.",
-        "controlled entirely by a single regulator.",
-        "used to compute the official GDP statistics."
+        "Prepared remarks have become a polished version of the press release.",
+        "The analyst Q&A has become stage-managed, with executives routing around difficult questions.",
+        "Investors now rely on private conversations, conference appearances, and minor textual signals rather than the call itself."
       ],
-      "answer": 1,
-      "rationale": "Sentences nine through eleven argue the prepared remarks have become polished and the Q&A stage-managed, and that investors now rely on private conversations and minor textual signals rather than the call itself."
+      "answer": [0, 1, 2],
+      "rationale": "Sentences nine through eleven name all three: the prepared remarks as polished, the Q&A as stage-managed, and the shift of real information to private channels and minor textual signals."
     }
   ]
 }

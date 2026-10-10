@@ -32,30 +32,27 @@
       "rationale": "The conclusion sentence states the pioneer's real advantage is organizational learning, with the caveat that it translates into durable profit only if the firm resists the temptation to monetize it through feature sprawl."
     },
     {
-      "kind": "single",
+      "kind": "select-sentence",
       "questionId": "q-rc-biz-003-2",
-      "stem": "The author introduces the 'conventional response from the pioneer's executive team' in order to:",
+      "stem": "Which sentence introduces the 'conventional response from the pioneer's executive team' that the next two sentences then critique?",
       "qType": "function",
       "evidence": [
         {
           "sentence": 7,
           "anchor": "The conventional response from the"
+        },
+        {
+          "sentence": 9,
+          "anchor": "Pioneers that try to outrun"
         }
       ],
-      "choices": [
-        "praise it as the correct strategic move under uncertainty.",
-        "set up a hypothesis that the next two sentences will challenge.",
-        "summarize the pioneer's typical behavior across the entire history of new categories.",
-        "transition from a description of the pioneers' penalty to a discussion of customer education.",
-        "introduce a competing economic model the author will adopt."
-      ],
-      "answer": 1,
-      "rationale": "Sentences eight through ten describe the response as 'unflattering' and argue the moves that look defensive are the ones most likely to entrench the pioneer's lag — so the conventional response is set up only to be critiqued."
+      "answer": 7,
+      "rationale": "Sentence seven names the conventional response (move faster, add features, acquire adjacents). Sentences eight through ten describe the response as 'unflattering' and argue the moves entrench the pioneer's lag."
     },
     {
-      "kind": "single",
+      "kind": "multi",
       "questionId": "q-rc-biz-003-3",
-      "stem": "According to the passage, why do pioneers that try to outrun followers by becoming feature platforms usually underperform?",
+      "stem": "According to the passage, which of the following are reasons that pioneers who try to outrun followers by becoming feature platforms usually underperform? (Select all that apply.)",
       "qType": "detail",
       "evidence": [
         {
@@ -68,14 +65,12 @@
         }
       ],
       "choices": [
-        "Because feature platforms are penalized by existing regulators.",
-        "Because the underlying market structure has not changed, so the moves entrench the pioneer's lag rather than address it.",
-        "Because customers prefer a single integrated vendor over a feature-rich one.",
-        "Because the pioneer's brand is no longer trusted after the first major failure.",
-        "Because the cost of building a feature platform is greater than the cost of acquiring one."
+        "Feature platforms dilute the pioneer's focus across too many surfaces.",
+        "Defensive moves entrench the pioneer's lag rather than address it, because the underlying market structure has not changed.",
+        "Acquiring adjacent markets tends to overpay and under-integrate."
       ],
-      "answer": 1,
-      "rationale": "Sentence nine notes feature platforms dilute focus, and sentence ten explains that defensive moves entrench the pioneer's lag because the underlying market structure has not changed."
+      "answer": [0, 1, 2],
+      "rationale": "Sentences nine and ten together name all three reasons: focus dilution from feature platforms, defensive moves entrenching lag because market structure is unchanged, and acquisitions overpaying and under-integrating."
     }
   ]
 }
