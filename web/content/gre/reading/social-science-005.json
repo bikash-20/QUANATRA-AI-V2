@@ -1,0 +1,80 @@
+{
+  "id": "rc-soc-005",
+  "category": "social-science",
+  "title": "Why So Many Surveys Got the 2016 Vote Wrong",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "political-science",
+    "methodology"
+  ],
+  "body": "The polling industry's failure to call the 2016 United States presidential election correctly has, in the years since, been the subject of a substantial and largely even-handed literature. The early explanations — that pollsters had under-sampled rural voters, or had been captured by partisan bias, or had been blinded by social-desirability pressure against expressing support for the winning candidate — have not, on close inspection, held up well. The deeper explanation is methodological, and it concerns the way in which probability-based survey research has interacted with a phone-and-internet landscape that the original methodology was not designed for.\n\nThe first issue is response rates. The share of contacted households that agree to take a political survey has been falling for decades, and by 2016 it had reached the point at which the achieved samples, even when weighted to demographic benchmarks, were no longer a reliable reflection of the broader population. The fall is not a uniform phenomenon; it is concentrated among the very groups whose vote was decisive in the result. The under-represented groups were not, in the main, the rural voters of the early explanations; they were the lower-propensity voters of every region, who were also, by 2016, the voters whose preferences had diverged most sharply from those of the persistent respondents.\n\nThe second issue is the way the data were weighted. Survey researchers correct for non-response by adjusting the sample to match external benchmarks — typically the most recent census or a commercial population estimate. The benchmarks, in 2016, were themselves slightly out of date, and the adjustments that flowed from them pulled the weighted sample in a direction that the unweighted responses did not support. The adjustments are not, in principle, wrong; they are exactly the right thing to do, given the design. The problem is that the design assumes the unweighted sample is informative about the weighted sample, and in 2016 that assumption was breaking down faster than the methodology could be updated.\n\nThe third issue is the role of late-deciding voters. By the final week of the campaign, a substantial share of the eventual electorate had not yet made up its mind, and the share of the late-deciders that broke for the winning candidate was, in 2016, large enough to flip the result. The pollsters' final estimates captured the preferences of the respondents who had already decided, and the late-deciders, by construction, were under-represented in the achieved samples. The pollsters' own internal models had, on the whole, expected the late-deciders to break in the same direction as the earlier deciders, and the data did not support that expectation. The lesson, on the available evidence, is that the failure was not a single methodological slip but the cumulative product of a research design whose assumptions no longer matched the population it was trying to measure.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-005-1",
+      "stem": "According to the passage, the early explanations of the 2016 polling failure — under-sampling rural voters, partisan bias, social-desirability pressure —:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 2,
+          "anchor": "The deeper explanation is methodological,"
+        }
+      ],
+      "choices": [
+        "are now universally accepted as the principal cause of the failure.",
+        "have not, on close inspection, held up well, and the deeper explanation is methodological.",
+        "explain the failure completely once combined with one another.",
+        "were deliberately suppressed by the polling industry for political reasons.",
+        "are now considered more important than the methodological issues."
+      ],
+      "answer": 1,
+      "rationale": "Sentence one introduces the early explanations and sentence two states that they have not held up well on close inspection, with the deeper explanation being methodological."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-soc-005-2",
+      "stem": "Which sentence introduces the first of the three methodological issues the passage describes?",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first issue is response"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The second issue is the"
+        }
+      ],
+      "answer": 3,
+      "rationale": "Sentence three opens the first issue (response rates) and sentence seven opens the second (the way the data are weighted). The question targets the sentence that opens the response-rate discussion."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-soc-005-3",
+      "stem": "According to the passage, which of the following are the three methodological issues with the 2016 polling methodology? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first issue is response"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The second issue is the"
+        },
+        {
+          "sentence": 12,
+          "anchor": "The third issue is the"
+        }
+      ],
+      "choices": [
+        "Falling response rates that meant achieved samples, even after weighting, were not a reliable reflection of the broader population.",
+        "The use of demographic weighting benchmarks that were slightly out of date, so the adjustments pulled the weighted sample in a direction the unweighted responses did not support.",
+        "The role of late-deciding voters, who were under-represented in achieved samples and who broke disproportionately for the winning candidate."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences three, seven, and twelve each open one of the three methodological issues. The fourth option is a claim the passage does not make."
+    }
+  ]
+}

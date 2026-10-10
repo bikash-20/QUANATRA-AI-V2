@@ -1,0 +1,76 @@
+{
+  "id": "rc-biz-006",
+  "category": "business",
+  "title": "What Remote Work Did to Office Real Estate",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "real-estate",
+    "labour"
+  ],
+  "body": "When the immediate shock of the 2020 shift to remote work subsided, the most visible economic effect was on office real estate. Vacancy rates in the central business districts of major cities climbed to levels that, on the older models of how office demand behaved, were implausible. Landlords, lenders, and the municipal tax bases that depend on commercial property all began a multi-year adjustment that is, at the time of writing, still incomplete. The conventional story attributes the adjustment to a change in how employees want to work. The more careful story is that the shock merely accelerated a re-pricing that had been underway for a decade.\n\nThe first structural driver was the rising cost of floor space in the largest cities. Headcount expansion during the long post-2010 boom had pushed rents to levels at which the marginal cost of an additional employee in a flagship office was, for a public company, no longer a rounding error. Finance and operations teams had been pressing for a slower growth in headcount or a renegotiation of the lease for several years before 2020, and the sudden availability of remote work gave those internal arguments a way to win. The post-pandemic office footprint is, in this sense, the result of a long-running cost discipline that finally had a delivery mechanism.\n\nThe second driver was the changing economics of the work itself. The share of work that genuinely required a shared physical space — wet-lab research, hardware prototyping, dense in-person collaboration on a small number of products — turned out to be a smaller share of total knowledge work than the older office model assumed. Many of the activities that filled the office in 2019 turned out to be, in fact, location-independent. The pandemic-era experiment forced firms to find out which activities were which, and the result is a permanent recalibration of how much office space each kind of role genuinely needs.\n\nThe third driver was a fiscal one. The municipal tax bases of major cities depend on commercial property, on commuter spending, and on the income tax of the people the offices employed. As the office footprint shrank, the revenue base of the cities shrank with it, and the resulting pressure on local services has, in some jurisdictions, already produced visible service cuts. The feedback loop, the author notes, runs in both directions: a smaller office footprint means a smaller tax base, which means a less livable city, which makes it harder to recruit the talent the office would need to expand again. The office real-estate adjustment is, in the author's view, a structural shift whose end state is not yet visible, and the cities that have absorbed the adjustment least gracefully are the ones whose tax bases are most exposed to the office sector.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-006-1",
+      "stem": "According to the passage, the most visible economic effect of the post-2020 shift to remote work was:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 1,
+          "anchor": "Vacancy rates in the central"
+        }
+      ],
+      "choices": [
+        "An unexpected boom in suburban office construction.",
+        "A reorganisation of every major industry around remote-first employment.",
+        "A sharp and sustained rise in office vacancy rates in major-city central business districts.",
+        "A rapid fall in the cost of commercial real estate everywhere in the world.",
+        "The complete disappearance of commercial-property tax revenues."
+      ],
+      "answer": 2,
+      "rationale": "Sentences one and two state that vacancy rates in the central business districts of major cities climbed to implausible levels and that landlords, lenders, and municipal tax bases are still adjusting."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-biz-006-2",
+      "stem": "Which sentence first states the author's view of where the office real-estate adjustment is heading?",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 17,
+          "anchor": "The office real-estate adjustment is,"
+        }
+      ],
+      "answer": 17,
+      "rationale": "Sentence seventeen states the author's overall view: the adjustment is a structural shift whose end state is not yet visible, and the cities that have absorbed it least gracefully are the ones most exposed to the office sector."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-biz-006-3",
+      "stem": "According to the passage, which of the following are the structural drivers of the post-2020 office real-estate adjustment? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 5,
+          "anchor": "The first structural driver was"
+        },
+        {
+          "sentence": 9,
+          "anchor": "The second driver was the"
+        },
+        {
+          "sentence": 13,
+          "anchor": "The third driver was a"
+        }
+      ],
+      "choices": [
+        "The rising cost of floor space in the largest cities, which had been pressuring finance and operations teams for years before 2020.",
+        "The changing economics of the work itself, with a smaller share of knowledge work requiring shared physical space than the older office model assumed.",
+        "The fiscal feedback between office footprint and municipal tax base, where a smaller office sector produces a smaller revenue base and a less livable city."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences five, nine, and thirteen each name one of the three drivers. The fourth option is not a driver the passage describes."
+    }
+  ]
+}

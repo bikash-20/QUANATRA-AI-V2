@@ -1,0 +1,76 @@
+{
+  "id": "rc-art-006",
+  "category": "arts",
+  "title": "Why Architecture Took So Long to Reckon With Steel",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "architecture",
+    "history"
+  ],
+  "body": "Cast iron had been used in British factory buildings for the better part of a century before the 1851 Crystal Palace, and wrought iron had been used in bridges, train sheds, and a handful of adventurous conservatories for nearly as long. The structural capacity of iron to span wide spaces with slender members was, by mid-century, well understood by engineers. The architectural profession, however, took a generation longer than the engineering profession to absorb the implication, and the delay is one of the more interesting chapters in the history of nineteenth-century design.\n\nThe first source of the delay was institutional. Architectural training in the 1850s was organised around the classical orders and the masonry conventions they implied; the syllabus treated load as something carried by walls and piers, not by frames. Engineers, by contrast, were trained in mechanics and in the calculation of bending moments, and the iron frame was, for the engineer, an unremarkable extension of an existing competence. The result was that the buildings that took full advantage of the new structural material were designed by engineers, with the architects brought in to provide the decorative facades that the public would actually see. The professional division of labour, in other words, was built into the early iron buildings before the buildings were built.\n\nThe second source of the delay was aesthetic. The classical orders, which the architectural profession had inherited from a long tradition of stone construction, encoded specific ratios of column height to column diameter and of column spacing to entablature height. The ratios were derived from the structural properties of stone, in which the load is carried in compression and the limiting factor is buckling. The new structural material had no such constraints, and the ratios that looked right in stone looked, in iron, either ostentatious or oddly thin. The aesthetic reconciliation took a generation of trial and error, and the reconciliation produced, in the long run, an architecture of exposed iron and glass that the mid-century profession would not have recognised as architecture at all.\n\nThe third source of the delay was cultural. The early iron buildings were factories, train stations, and exhibition halls — buildings whose purpose was, in the public imagination, infrastructural rather than civil. The buildings that the public associated with the architectural tradition — churches, parliaments, museums, opera houses — were the buildings the profession cared about most, and the iron frame was, for most of the late nineteenth century, considered inappropriate for those buildings. The Chicago school, the Vienna Secession, and the early modernists gradually dissolved the resistance, and by the early twentieth century the structural and aesthetic possibilities of the steel frame had been absorbed into the architectural mainstream. The author concludes that the profession's adjustment was not, in the end, a single moment of recognition but a slow, generational shift in what kinds of buildings the profession was willing to take seriously, and that the shift is, like most generational shifts in taste, easier to describe in retrospect than it was to perceive in real time.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-006-1",
+      "stem": "The author introduces 'The first source of the delay was institutional' in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first source of the"
+        }
+      ],
+      "choices": [
+        "praise the architectural profession for its rigorous training.",
+        "argue that architectural training was organised around classical orders and masonry conventions, with iron not yet integrated into the syllabus.",
+        "explain why iron-frame factories were impossible to build in the 1850s.",
+        "compare the architectural profession with the medical profession.",
+        "summarise the conclusion of the passage."
+      ],
+      "answer": 1,
+      "rationale": "Sentences three through seven argue that the architectural syllabus was organised around stone-masonry conventions, while the engineering syllabus already covered iron, with the result that the early iron buildings were designed by engineers."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-art-006-2",
+      "stem": "Which sentence most directly states the consequence of the institutional split between engineers and architects for the early iron buildings?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The result was that the"
+        }
+      ],
+      "answer": 6,
+      "rationale": "Sentence six states the consequence directly: the buildings that took full advantage of iron were designed by engineers, with architects brought in to provide the decorative facades the public would see."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-art-006-3",
+      "stem": "According to the passage, which of the following are the three sources of the delay in the architectural profession's reckoning with iron? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first source of the"
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second source of the"
+        },
+        {
+          "sentence": 13,
+          "anchor": "The third source of the"
+        }
+      ],
+      "choices": [
+        "Institutional: architectural training was organised around classical orders and masonry conventions, while engineers had already absorbed iron-frame mechanics.",
+        "Aesthetic: the classical orders encoded ratios derived from the structural properties of stone, and the ratios looked ostentatious or oddly thin when applied in iron.",
+        "Cultural: the early iron buildings were infrastructural rather than civil in the public imagination, and the buildings the architectural tradition cared about most were considered inappropriate for the iron frame."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences three, eight, and thirteen each open one of the three sources. The fourth option contradicts the passage's opening sentence, which says cast iron had been used in British factory buildings for nearly a century."
+    }
+  ]
+}

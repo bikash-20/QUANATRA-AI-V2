@@ -1,0 +1,76 @@
+{
+  "id": "rc-soc-006",
+  "category": "social-science",
+  "title": "How Inheritance Became a Macroeconomic Force",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "economics",
+    "inequality"
+  ],
+  "body": "For most of the post-war period, the share of national income that takes the form of inherited wealth, as opposed to earned income, was a small and declining fraction of the total. The decline was one of the central facts of the period, and it underwrote a great deal of the mid-century social contract. The trend has, in the last twenty years, reversed sharply, and the reversal is now large enough to be visible in the macroeconomic aggregates, not just in the distributional statistics. The shift is reshaping, in slow motion, the relationship between capital and labour in the economies that have experienced it most strongly.\n\nThe first driver is the long run-up in asset prices. Housing, equities, and the broad cross-section of investable assets have, in the countries with the most pronounced inheritance shift, appreciated at rates well above the long-run growth of earned incomes. The appreciation is not, in itself, an inheritance story; the assets that appreciated were, for the most part, owned by people who were still alive. The inheritance story enters when the owners of those assets die and the wealth transfers to the next generation, often without the next generation having done anything to earn it. The aggregate value of the transfer, in present-value terms, is now comparable to a significant share of annual national income in the most affected economies.\n\nThe second driver is the long-run decline in fertility. A smaller cohort of children inheriting from a larger cohort of parents, in a steady-state world, means more wealth per heir. The arithmetic is straightforward, and it is doing a great deal of the explanatory work in the most recent inheritance studies. The cohort sizes of the baby-boom generation and their parents, combined with the cohort sizes of the millennials and the generation after them, are such that the next two decades will see a particularly large transfer of wealth from a small set of older decedents to a large set of younger heirs.\n\nThe third driver is the increasing concentration of wealth at the top of the distribution. A relatively small number of estates, in the data, account for a large share of the total transfer. The top decile of the wealth distribution, in particular, holds a share of total wealth that has been rising for thirty years in most of the affected countries, and the rise is concentrated, in turn, in a small number of ultra-large estates. The macro story and the inequality story are, in this sense, the same story seen at different scales. The author concludes that the inheritance question has moved, in the space of a generation, from a question of family wealth to a question of national economic structure, and that the policy implications — for taxation, for housing, for the financing of higher education — are no longer separable from the broader question of how the returns on capital are divided between those who earned them and those who inherited them.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-006-1",
+      "stem": "Which of the following best captures the main idea of the passage?",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 2,
+          "anchor": "The trend has, in the"
+        }
+      ],
+      "choices": [
+        "Inheritance was a small and declining share of national income, but the trend has reversed sharply because of asset prices, fertility decline, and wealth concentration.",
+        "The decline of inheritance as a share of national income is a permanent feature of advanced economies.",
+        "Inheritance taxation should be abolished because it discourages savings.",
+        "Asset-price appreciation has been the single most important driver of the inheritance reversal.",
+        "The cohort sizes of the baby-boom generation make any inheritance story implausible."
+      ],
+      "answer": 0,
+      "rationale": "Sentences two and three frame the reversal and the three subsequent sections name the three drivers. The passage's main idea is the combination of the reversal and the three drivers."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-soc-006-2",
+      "stem": "Which sentence introduces the second of the three drivers the passage describes?",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 9,
+          "anchor": "The second driver is the"
+        }
+      ],
+      "answer": 9,
+      "rationale": "Sentence nine opens the fertility driver, with sentence four having opened the asset-price driver and sentence thirteen opening the concentration driver. The question targets the sentence that opens the fertility discussion."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-soc-006-3",
+      "stem": "According to the passage, which of the following are the three drivers of the inheritance reversal? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first driver is the"
+        },
+        {
+          "sentence": 9,
+          "anchor": "The second driver is the"
+        },
+        {
+          "sentence": 13,
+          "anchor": "The third driver is the"
+        }
+      ],
+      "choices": [
+        "The long run-up in asset prices, which has produced an enormous present-value transfer when older owners die.",
+        "The long-run decline in fertility, which arithmetic dictates will produce more wealth per heir as the baby-boom generation transfers to a smaller cohort.",
+        "The increasing concentration of wealth at the top of the distribution, with a small number of ultra-large estates accounting for a large share of the total transfer."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences four, nine, and thirteen each open one of the three drivers. The fourth option is a claim the passage does not make."
+    }
+  ]
+}

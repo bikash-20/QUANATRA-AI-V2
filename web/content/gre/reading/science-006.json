@@ -1,0 +1,76 @@
+{
+  "id": "rc-sci-006",
+  "category": "science",
+  "title": "The Curious Stability of Ocean Salinity",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "oceanography",
+    "climate"
+  ],
+  "body": "The salinity of the open ocean sits, almost everywhere on the planet, in a remarkably narrow band: between about 32 and 37 practical salinity units, a range that is, on the face of it, surprisingly small given the size of the differences in evaporation, precipitation, and river inflow that the ocean basins experience. A casual reader of oceanography might expect the tropical Atlantic, with its high evaporation and modest river input, to be markedly saltier than the rainy equatorial Pacific, and the polar seas, with their ice-melt dilution, to be markedly fresher than either. The data, on the whole, do not support those expectations. The ocean is, on the large scale, in a steady state that the inputs and outputs are constantly nudging but rarely upsetting.\n\nThe first explanation is the salinity-driven component of the global overturning circulation. In the North Atlantic, the surface waters lose heat to the atmosphere, become denser, and sink; the sinking water carries dissolved salt with it, and the resulting deep water flows southward at depth. The salt that the deep water carries was, in effect, removed from the surface at high latitudes. The same water mass, on a millennial timescale, upwells elsewhere in the world ocean, completing a circuit whose net effect is to mix salt around the planet in a way that smooths the surface differences. The overturning circulation is, in this view, the salinity thermostat of the ocean.\n\nThe second explanation is the feedback between evaporation and the atmosphere above it. The tropical Atlantic, despite its high evaporation, is also the site of intense convective storms; the storms return much of the evaporated water to the surface within days, and the net freshwater loss to the atmosphere is much smaller than the gross evaporation would suggest. The same feedback operates, with the sign reversed, in the rainy equatorial Pacific, where the heavy rainfall is partly sustained by the very evaporation it eventually dilutes. The atmosphere and the upper ocean, in this reading, are coupled tightly enough that the simple surface balance of evaporation minus precipitation overstates the local freshwater forcing.\n\nThe third explanation is the recent observation that the salinity of the surface ocean has been increasing in the evaporation-dominated basins and decreasing in the rainfall-dominated ones. The trend, in other words, is a slow sharpening of the existing pattern rather than a uniform change. The interpretation, on the current evidence, is that the hydrological cycle is intensifying with warming: the wet places are getting wetter and the dry places are getting drier, in the atmospheric sense. The ocean's salinity field is, the author concludes, a sensitive and high-resolution thermometer of the global water cycle, and the long-term trend in that field is, in the author's view, one of the cleanest pieces of evidence for a changing climate that the oceanographic record contains.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-006-1",
+      "stem": "Which of the following best captures the main idea of the passage?",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The ocean is, on the"
+        }
+      ],
+      "choices": [
+        "Surface ocean salinity sits in a narrow band, and three mechanisms — overturning circulation, atmosphere–ocean coupling, and a recent sharpening of the pattern — explain the stability and the long-term trend.",
+        "Global warming has caused ocean salinity to rise uniformly across every ocean basin.",
+        "The tropical Atlantic is, on average, saltier than the equatorial Pacific, and the difference is well understood.",
+        "Ocean salinity is a useless measurement for climate science.",
+        "The salinity of the open ocean fluctuates wildly over short timescales and is therefore not a reliable climate indicator."
+      ],
+      "answer": 0,
+      "rationale": "Sentences three through sixteen together build the passage's central argument: the surface salinity is in a stable band, three mechanisms explain the stability, and the long-term trend is a sharpening of the existing pattern."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-sci-006-2",
+      "stem": "Which sentence most directly states the role the overturning circulation plays in keeping the surface ocean salinity in a narrow band?",
+      "qType": "inference",
+      "evidence": [
+        {
+          "sentence": 8,
+          "anchor": "The overturning circulation is, in"
+        }
+      ],
+      "answer": 8,
+      "rationale": "Sentence eight names the overturning circulation as 'the salinity thermostat of the ocean', which is the direct statement of the role the question is asking about."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-sci-006-3",
+      "stem": "According to the passage, which of the following are the three explanations offered for the stability of surface ocean salinity? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first explanation is the"
+        },
+        {
+          "sentence": 9,
+          "anchor": "The second explanation is the"
+        },
+        {
+          "sentence": 13,
+          "anchor": "The third explanation is the"
+        }
+      ],
+      "choices": [
+        "The salinity-driven component of the global overturning circulation, which mixes salt around the planet on a millennial timescale.",
+        "The feedback between evaporation and the atmosphere above it, which couples the upper ocean and the air tightly enough that local surface balances overstate the freshwater forcing.",
+        "The recent observation that surface salinity is increasing in evaporation-dominated basins and decreasing in rainfall-dominated ones, sharpening the existing pattern as the hydrological cycle intensifies."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences four, nine, and thirteen each open one of the three explanations. The fourth option is a claim the passage does not make."
+    }
+  ]
+}

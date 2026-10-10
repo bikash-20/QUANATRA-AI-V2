@@ -1,0 +1,77 @@
+{
+  "id": "rc-biz-005",
+  "category": "business",
+  "title": "The Trouble with Internal Mobility Programs",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "management",
+    "talent"
+  ],
+  "body": "Large employers have, in the last decade, invested heavily in internal mobility programs — the formal machinery by which an engineer can move from one product team to another without leaving the company, or a manager can apply for an opening in a different business unit without a contentious external hire. The stated goal is to retain talent that would otherwise leave, broaden the firm's reservoir of cross-functional perspective, and reduce the cost of recruiting externally. The investments have not delivered the returns their sponsors promised, and the gap between the rhetoric and the result is now a familiar topic in the management literature.\n\nThe first reason is structural. Line managers, who control the budgets that fund most technical positions, have an incentive to hoard their best people. A star engineer who transfers to a neighbouring team is, from the line manager's perspective, a star engineer who is no longer available for the projects the line manager is on the hook to deliver. Mobility programs that rely on goodwill to release talent almost always lose to the local incentive to keep it. The result is that the program's pipeline fills with people the originating manager was already prepared to lose, and the high performers who would actually move the receiving team are the ones whose release is contested at every step.\n\nThe second reason is the receiving team's selection criteria. Teams that take internal transfers tend, in practice, to filter for familiarity. A team that has worked with the candidate on a previous project, or that knows the candidate through a shared manager, is much more likely to accept the transfer than a team that does not. The mobility program, in this reading, becomes a network for recycling talent among teams that already know each other, rather than a mechanism for redistributing talent across the firm. The original goal of cross-functional breadth is, in the typical case, only modestly advanced.\n\nThe author concludes that internal mobility programs are best understood as a branding tool rather than a structural reform. They make the firm look like a place that takes careers seriously, and the visible transfers do produce real value for the participants. The aggregate effect on retention, on cross-functional perspective, and on recruiting cost is, on the available evidence, smaller than the program sponsors typically claim. The honest framing, in the author's view, is that the program is a retention benefit for the people it actually moves, not a system-level solution to the firm's talent problem.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-005-1",
+      "stem": "The author's view of internal mobility programs is best described as:",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 13,
+          "anchor": "The author concludes that internal"
+        }
+      ],
+      "choices": [
+        "A structural reform that delivers most of its promised system-level benefits.",
+        "A branding tool that benefits the people it actually moves, with smaller aggregate effects on retention and recruiting than sponsors claim.",
+        "A failed experiment that should be wound down in most large firms.",
+        "A useful substitute for external hiring that has been oversold in management literature.",
+        "A mechanism that works best when the receiving team is unfamiliar to the candidate."
+      ],
+      "answer": 1,
+      "rationale": "Sentences thirteen through sixteen frame mobility programs as branding tools whose aggregate effects are smaller than sponsors claim, and the honest framing is that they benefit participants without solving the firm's broader talent problem."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-biz-005-2",
+      "stem": "Which sentence introduces the first of the two reasons the passage gives for why mobility programs underdeliver?",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first reason is structural."
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second reason is the"
+        }
+      ],
+      "answer": 3,
+      "answer": 3,
+      "rationale": "Sentence three names the first reason (structural — line managers hoard talent) and sentence eight names the second (the receiving team's selection criteria). The question's target is the sentence that opens the structural-reason discussion."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-biz-005-3",
+      "stem": "According to the passage, which of the following are the structural reasons internal mobility programs tend to underdeliver? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "Mobility programs that rely on"
+        },
+        {
+          "sentence": 10,
+          "anchor": "A team that has worked"
+        }
+      ],
+      "choices": [
+        "Line managers have an incentive to hoard their best people, so the program's pipeline fills with talent the originating team was already prepared to lose.",
+        "Receiving teams filter for familiarity, so the program becomes a network for recycling talent among teams that already know each other.",
+        "The mobility program, once established, reliably increases retention across the entire firm by a measurable margin."
+      ],
+      "answer": [0, 1],
+      "rationale": "Sentences seven and ten name the two structural reasons. The third option is a claim the passage explicitly rejects — the author concludes the program's aggregate effect on retention is smaller than sponsors claim."
+    }
+  ]
+}

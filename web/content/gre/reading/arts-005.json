@@ -1,0 +1,76 @@
+{
+  "id": "rc-art-005",
+  "category": "arts",
+  "title": "The Return of the Slow Movie",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "film",
+    "culture"
+  ],
+  "body": "The dominant economic model of the contemporary cinema is built around the assumption that films need to be watched once, by as many people as possible, in the shortest possible window. The model produced, in the 2010s, a recognisable shape: films in the 90-to-120-minute range, three-act structures, openings that establish stakes within ten minutes, climaxes that arrive in time for the post-film conversation, and endings that resolve cleanly enough to leave the audience satisfied. The model worked, in commercial terms, and the films it produced were, by the standard measures of the industry, successful. A counter-current has been quietly building through the same period, and its films look nothing like the dominant model.\n\nThe first feature of the counter-current is duration. Films running three, four, or even nine hours have become a recognised category in the festival circuit, and the longer end of the range is no longer treated as a stunt. The duration is not, in most cases, defended on formalist grounds; the films are simply allowed to take the time the material seems to need. Critics have begun to use the term 'slow film' to describe the category, with the understanding that the slowness is the medium rather than the message.\n\nThe second feature is structure. The three-act shape has, in the slow films, given way to episodic structures, parallel narratives that never quite converge, and endings that resist the conventional resolution. The shape is closer to the structure of a novel or a long essay than to the structure of a mainstream entertainment. The narrative pressure the films generate is, in most cases, not the suspense of a single dramatic question but the cumulative pressure of a long, unhurried look at a configuration of people and places.\n\nThe third feature is reception. The slow films reach, by the standards of the dominant model, very small audiences. They are watched, in many cases, by viewers who are prepared to give the film the time the film requires, and the audience for the work is, in some well-documented cases, larger in retrospect than it was at release. The films are talked about for years, revisited, and mined for the kind of detail that a single viewing does not exhaust. The author concludes that the slow film is not a market correction but a different kind of object, valued for properties the dominant model does not measure. The model's defenders are right that the slow films do not, in aggregate, displace the dominant cinema; the counter-current's claim is that the dominant model is not the only one that can produce a film worth watching more than once.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-005-1",
+      "stem": "The author's view of the slow-film counter-current is best described as:",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 16,
+          "anchor": "The author concludes that the"
+        }
+      ],
+      "choices": [
+        "A market correction that will eventually displace the dominant cinema.",
+        "A different kind of object, valued for properties the dominant model does not measure, and not the only model that can produce a film worth watching more than once.",
+        "A passing fashion that has already peaked and will fade within a decade.",
+        "A form that only succeeds with elite festival audiences and has no broader cultural relevance.",
+        "A nostalgic return to the silent-era film form."
+      ],
+      "answer": 1,
+      "rationale": "Sentence sixteen explicitly frames the slow film as a different kind of object whose value the dominant model does not measure, and the closing sentence makes the counter-current's specific claim about the dominant model."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-art-005-2",
+      "stem": "Which sentence first states the term critics use to describe the new counter-current, with the understanding that the slowness is the medium rather than the message?",
+      "qType": "vocab-in-context",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "Critics have begun to use"
+        }
+      ],
+      "answer": 7,
+      "rationale": "Sentence seven introduces the term 'slow film' and clarifies that the slowness is the medium rather than the message. The question's target is the sentence that first states the term and its meaning."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-art-005-3",
+      "stem": "According to the passage, which of the following are the three features of the slow-film counter-current? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The first feature of the"
+        },
+        {
+          "sentence": 8,
+          "anchor": "The second feature is structure."
+        },
+        {
+          "sentence": 12,
+          "anchor": "The third feature is reception."
+        }
+      ],
+      "choices": [
+        "Duration: films running three, four, or even nine hours, treated as a recognised category in the festival circuit.",
+        "Structure: episodic forms, parallel narratives that never quite converge, and endings that resist conventional resolution.",
+        "Reception: small audiences at release, but a long-tail effect in which the films are revisited and talked about for years."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences four, eight, and twelve each open one of the three features. The fourth option is a claim the passage does not make."
+    }
+  ]
+}

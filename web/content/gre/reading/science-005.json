@@ -1,0 +1,76 @@
+{
+  "id": "rc-sci-005",
+  "category": "science",
+  "title": "Why Sleep Is the Brain's Quiet Maintenance Window",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "neuroscience",
+    "biology"
+  ],
+  "body": "The function of sleep has, for most of the modern history of neuroscience, been one of the field's more embarrassing open questions. The cost of sleep to an animal is enormous — hours of every day, during which the animal cannot feed, mate, or evade predators — and the consistency with which the cost is paid across nearly every animal species with a nervous system implies that whatever sleep is for, it is for something that cannot be done any other way. The answer, in the last two decades, has begun to emerge from a combination of imaging, electrophysiology, and a small number of decisive human experiments.\n\nThe first result is that sleep is the period during which the brain's interstitial fluid washes through the tissue in a way it does not during waking. The channels along which the fluid moves enlarge during sleep, and the flow rate increases by an order of magnitude. The function of the flow, on the current evidence, is the clearance of metabolic byproducts — most notably a protein called amyloid-beta, which accumulates in the extracellular space during waking and which, in its persistent form, is associated with Alzheimer's disease. The clearance mechanism explains, in a single move, why a single night of sleep deprivation produces measurable cognitive deficits the next day, and why chronic sleep disruption is one of the strongest modifiable risk factors for late-life neurodegeneration.\n\nThe second result is that sleep is the period during which the day's memories are consolidated and integrated. The hippocampus, which records the day's events in a fine-grained episodic form, replays the recordings during slow-wave sleep, and the replay is the substrate for the transfer of the relevant information to the cortex for long-term storage. The replay is not a literal re-recording; it is a selective, prioritised re-processing, in which the day's most important events get more replay than the day's trivia. The same replay that consolidates individual memories also appears to extract the abstract structure that connects them, which is the reason that sleep often produces the next morning the insight that the previous evening's effort was missing.\n\nThe third result is that sleep is not a single state. The slow-wave sleep that dominates the first half of the night is qualitatively different from the rapid-eye-movement sleep that dominates the second half, and the two stages appear to support different functions. Slow-wave sleep is the period during which the metabolic clearance is most active and during which the hippocampus-to-cortex transfer is most pronounced. REM sleep is the period during which emotional regulation appears to be restored, in part by replaying the day's emotional events in a chemistry that has been altered to be less reactive. The two systems, the author concludes, are not redundant back-ups. They are different maintenance programmes that the brain has, over evolutionary time, decided to run on the same hardware at different times of the night.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-005-1",
+      "stem": "The author introduces the sentence 'The second result is that sleep is the period during which the day's memories are consolidated and integrated' in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "The second result is that"
+        }
+      ],
+      "choices": [
+        "praise the consolidation theory as the strongest of the three results.",
+        "set up the second of three numbered results the next paragraphs will elaborate.",
+        "compare consolidation with the metabolic-clearance result introduced earlier.",
+        "summarise the entire passage's argument.",
+        "introduce a competing school of thought the author will reject."
+      ],
+      "answer": 1,
+      "rationale": "Sentences seven through ten elaborate the consolidation result, and sentence eleven opens the third result. The numbered results are the structural backbone of the passage."
+    },
+    {
+      "kind": "select-sentence",
+      "questionId": "q-rc-sci-005-2",
+      "stem": "Which sentence most directly states why a single night of sleep deprivation produces measurable cognitive deficits the next day?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The clearance mechanism explains, in"
+        }
+      ],
+      "answer": 6,
+      "rationale": "Sentence six names the clearance mechanism and explicitly ties the clearance failure to both acute cognitive deficits after one night of deprivation and chronic neurodegeneration risk from long-term disruption."
+    },
+    {
+      "kind": "multi",
+      "questionId": "q-rc-sci-005-3",
+      "stem": "According to the passage, which of the following are the three results of sleep described? (Select all that apply.)",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first result is that"
+        },
+        {
+          "sentence": 7,
+          "anchor": "The second result is that"
+        },
+        {
+          "sentence": 11,
+          "anchor": "The third result is that"
+        }
+      ],
+      "choices": [
+        "Sleep is the period during which the brain's interstitial fluid washes through the tissue and clears metabolic byproducts.",
+        "Sleep is the period during which the day's memories are consolidated and integrated through hippocampal replay.",
+        "Sleep is not a single state but two distinct maintenance programmes (slow-wave and REM) that run at different times of the night."
+      ],
+      "answer": [0, 1, 2],
+      "rationale": "Sentences three, seven, and eleven each open one of the three results. The fourth option is a claim the passage does not make."
+    }
+  ]
+}

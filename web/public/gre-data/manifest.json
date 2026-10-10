@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T05:37:05.427Z",
+ "generatedAt": "2026-10-10T05:43:38.420Z",
  "quant": {
   "algebra": {
    "count": 400,
@@ -283,65 +283,65 @@
   "business": {
    "count": 0,
    "easy": 0,
-   "medium": 2,
-   "hard": 2,
-   "shards": 16,
-   "passages": 4,
-   "questions": 12,
+   "medium": 3,
+   "hard": 3,
+   "shards": 24,
+   "passages": 6,
+   "questions": 18,
    "byQType": {
-    "author-attitude": 4,
-    "function": 2,
-    "detail": 6
+    "author-attitude": 6,
+    "function": 3,
+    "detail": 9
    }
   },
   "science": {
    "count": 0,
    "easy": 0,
-   "medium": 2,
-   "hard": 2,
-   "shards": 16,
-   "passages": 4,
-   "questions": 12,
+   "medium": 3,
+   "hard": 3,
+   "shards": 24,
+   "passages": 6,
+   "questions": 18,
    "byQType": {
-    "function": 2,
-    "detail": 6,
-    "main-idea": 2,
-    "inference": 2
+    "function": 3,
+    "detail": 9,
+    "main-idea": 3,
+    "inference": 3
    }
   },
   "social-science": {
    "count": 0,
    "easy": 0,
-   "medium": 2,
-   "hard": 2,
-   "shards": 16,
-   "passages": 4,
-   "questions": 12,
+   "medium": 3,
+   "hard": 3,
+   "shards": 24,
+   "passages": 6,
+   "questions": 18,
    "byQType": {
-    "detail": 6,
-    "function": 4,
-    "main-idea": 2
+    "detail": 9,
+    "function": 6,
+    "main-idea": 3
    }
   },
   "arts": {
    "count": 0,
    "easy": 0,
-   "medium": 2,
-   "hard": 2,
-   "shards": 16,
-   "passages": 4,
-   "questions": 12,
+   "medium": 3,
+   "hard": 3,
+   "shards": 24,
+   "passages": 6,
+   "questions": 18,
    "byQType": {
-    "author-attitude": 2,
-    "vocab-in-context": 2,
-    "detail": 6,
-    "function": 2
+    "author-attitude": 3,
+    "vocab-in-context": 3,
+    "detail": 9,
+    "function": 3
    }
   }
  },
  "totals": {
   "quant": 2100,
   "vocab": 2000,
-  "reading": 48
+  "reading": 72
  }
 }
