@@ -1,0 +1,77 @@
+{
+  "id": "rc-soc-004",
+  "category": "social-science",
+  "title": "How Protest Songs Stopped Working",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "culture",
+    "media"
+  ],
+  "body": "From the labour anthems of the early twentieth century through the civil-rights and anti-war songs of the 1960s, popular music has served, in several well-documented cases, as a vehicle for political claims that the broadcast mainstream would not otherwise carry. The mechanism is well understood: a song gets radio play because it is also commercially viable, the song encodes a position the singer would not be invited to take in a newscast, and the audience that buys the record is, in aggregate, exposed to the position as part of the consumption. The arrangement worked when the mainstream was narrow and the audience for the music was, by modern standards, captive.\n\nThe first reason the arrangement has weakened is fragmentation. The audience for any given song is no longer a captive cross-section of the population; it is a curated slice. A song can be a global hit on a streaming platform and still never be heard by the demographic whose political views it is meant to shift. The audience for protest music, in particular, has been progressively sorted onto platforms and playlists that are also full of explicit political content. The song is, in effect, preaching to a converted audience that has already absorbed the position from the surrounding feed.\n\nThe second reason is the speed of the cycle. A protest song used to take years to percolate from a small venue to a stadium, and the political movement that the song was embedded in had time to develop a constituency around it. The current cycle, from recording to global saturation, is measured in weeks. By the time a song becomes a hit, the news event it is responding to has been replaced by three others. The half-life of a politically charged song as a usable organising tool has collapsed.\n\nThe third reason is the changing economics of attention. Record labels and streaming platforms reward songs that drive repeat listening, not songs that drive civic action. The contract between artist and audience has, in many genres, been quietly rewritten so that political content is a brand attribute rather than a transmission vector. A singer can be commercially celebrated for the politics in their lyrics without any expectation that the audience will treat the lyrics as a call to action. Whether the older arrangement can be revived in some other medium, or whether the work of political transmission has permanently migrated off the popular-song channel, is one of the open questions about the political economy of contemporary culture.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-004-1",
+      "stem": "Which of the following best captures the main idea of the passage?",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "The first reason the arrangement"
+        }
+      ],
+      "choices": [
+        "Protest songs are still the most effective form of political communication in any era.",
+        "The traditional mechanism by which popular music transmitted political claims to a mainstream audience has been weakened by audience fragmentation, by the speed of the news cycle, and by a rewriting of the artist-audience contract around brand attributes.",
+        "Streaming platforms are a uniformly negative influence on political culture.",
+        "The civil-rights era produced the only protest songs that ever mattered.",
+        "The music industry has never had a political role."
+      ],
+      "answer": 1,
+      "rationale": "Sentences three, eight, and thirteen each open a numbered reason — fragmentation, cycle speed, and contract economics — and together they form the passage's central argument."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-004-2",
+      "stem": "The author introduces the half-life of a politically charged song in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 11,
+          "anchor": "By the time a song"
+        }
+      ],
+      "choices": [
+        "praise the speed of contemporary distribution.",
+        "argue that a protest song's utility as an organising tool has collapsed because the news event it responds to has been replaced by three others before the song can become a hit.",
+        "compare two historical protest movements.",
+        "introduce a competing economic model the author will adopt.",
+        "summarise the conclusion of the passage."
+      ],
+      "answer": 1,
+      "rationale": "Sentences nine through twelve argue that the recording-to-saturation cycle is now measured in weeks, that the news event has moved on by then, and that the song's organising utility has therefore collapsed."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-soc-004-3",
+      "stem": "According to the passage, how has the contemporary audience for protest music been 'sorted'?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The audience for protest music,"
+        }
+      ],
+      "choices": [
+        "By an explicit government rating system.",
+        "Onto platforms and playlists that already contain explicit political content, so the song reaches an audience that has absorbed the position from the surrounding feed.",
+        "By a single dominant terrestrial radio network.",
+        "In a way that is uniform across every streaming service.",
+        "In a way that has reversed the effect of the original audience-sorting."
+      ],
+      "answer": 1,
+      "rationale": "Sentence six states the audience has been progressively sorted onto platforms and playlists already full of explicit political content, and sentence seven makes clear this means the song is preaching to a converted audience."
+    }
+  ]
+}

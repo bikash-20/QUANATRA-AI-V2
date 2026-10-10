@@ -45,3 +45,7 @@ next-env.d.ts
 # These are review material and never shipped; the loader reads from
 # `content/gre/reading/`, so this directory is naturally safe to ignore.
 /content/gre/rc/_drafts/
+
+# Author-time helper for picking sentence indices when hand-writing
+# passages. Not part of the app.
+scripts/peek-sentences.mjs

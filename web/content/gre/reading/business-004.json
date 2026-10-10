@@ -1,0 +1,77 @@
+{
+  "id": "rc-biz-004",
+  "category": "business",
+  "title": "Why Quarterly Earnings Calls Lost Their Edge",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "finance",
+    "incentives"
+  ],
+  "body": "When the modern quarterly earnings call was institutionalised in the 1970s, it was sold as a way to discipline executives: short horizons, public accountability, and a single quarterly number that the market could punish or reward. For several decades the discipline arguably worked. Then the side effects began to accumulate, and the question of whether the ritual now does more harm than good has become a staple of corporate governance debates.\n\nThe first critique is about the time horizon. Public companies that report every ninety days are pulled, the argument goes, toward decisions that flatter the next report at the expense of the next decade. Cost cuts that degrade product quality, deal pipelines that are pulled forward to meet the quarter, and underinvestment in research all become individually rational. Taken together, they shorten the firm's effective planning horizon and weaken its long-run competitive position. The result is not, the critics say, a more disciplined executive class but a more anxious one.\n\nThe second critique is about the information the calls actually transmit. The prepared remarks have become a polished version of the press release; the analyst Q&A has become a stage-managed exchange in which executives route around difficult questions. Investors who want to understand the business increasingly rely on private conversations with the company, conference appearances by specialist competitors, and a small number of non-obvious signals in the prepared text. The public call has, in this view, decoupled from the information it is supposed to provide.\n\nThe third critique is about who shows up. Public companies that have moved away from the quarterly cadence, or have built a parallel set of long-horizon metrics, are concentrated in industries where capital intensity and customer lock-in make short-term manipulation costly. In sectors where the reverse is true, the same executives who complain about quarterly pressure are often the ones who would be most damaged by a switch to a longer horizon. The voluntary adopters are, in effect, the firms least in need of the change. Whether a longer reporting cadence would actually change behaviour in the rest of the market is, on the evidence so far, an open question.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-004-1",
+      "stem": "According to the passage, what is the primary mechanism by which the quarterly reporting cadence, the critics argue, weakens the long-run competitive position of public firms?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "Taken together, they shorten the"
+        }
+      ],
+      "choices": [
+        "Quarterly calls make it harder to attract institutional investors.",
+        "Decisions that flatter the next report displace the investments that would compound over the next decade.",
+        "Quarterly reporting forces firms to overpay for acquisitions.",
+        "Analysts can no longer track the firm's long-term plans.",
+        "The discipline makes executives less willing to accept public scrutiny."
+      ],
+      "answer": 1,
+      "rationale": "Sentences four through seven argue the cadence pushes executives toward short-horizon decisions, and the conclusion sentence makes clear the cumulative effect is to shorten the firm's effective planning horizon."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-004-2",
+      "stem": "The author's overall stance toward the future of the quarterly call is best described as:",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 16,
+          "anchor": "Whether a longer reporting cadence"
+        }
+      ],
+      "choices": [
+        "confident that a longer cadence will be adopted across the market within a decade.",
+        "skeptical that the existing arrangement can be reformed at all.",
+        "open to reform but doubtful that the firms most loudly demanding it are the ones the reform would most help.",
+        "enthusiastic about the current arrangement despite its critics.",
+        "uninterested in the institutional design of public markets."
+      ],
+      "answer": 2,
+      "rationale": "The conclusion sentence frames the question as 'open' on the evidence so far and notes the firms voluntarily moving away from quarterly reporting are the ones least in need of the change."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-004-3",
+      "stem": "According to the passage, the information the public earnings call actually transmits has become:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 11,
+          "anchor": "The public call has, in"
+        }
+      ],
+      "choices": [
+        "richer than at any previous point in corporate history.",
+        "increasingly decoupled from the underlying business, with investors relying on private channels and small text-level signals instead.",
+        "dominated by analyst Q&A in which executives voluntarily disclose difficult information.",
+        "controlled entirely by a single regulator.",
+        "used to compute the official GDP statistics."
+      ],
+      "answer": 1,
+      "rationale": "Sentences nine through eleven argue the prepared remarks have become polished and the Q&A stage-managed, and that investors now rely on private conversations and minor textual signals rather than the call itself."
+    }
+  ]
+}

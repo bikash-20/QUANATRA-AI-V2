@@ -1,0 +1,77 @@
+{
+  "id": "rc-art-004",
+  "category": "arts",
+  "title": "The Museum in the Age of the Search Engine",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "art",
+    "institutions"
+  ],
+  "body": "For most of the twentieth century, the museum was the principal place a curious person could encounter a work of art in person. The encounter had a particular character: the work was framed by the institution, the visitor arrived with a particular kind of attention, and the room was designed to encourage a kind of looking that the work, in turn, rewarded. The catalogue essay, the audio guide, the wall text, and the position of the bench all conspired to suggest that the visitor's time inside the room was a special kind of time, distinct from the time spent elsewhere. The arrangement was, in retrospect, a kind of theatre.\n\nThe first force to disrupt the arrangement was photography. The widespread availability of high-quality images of the canonical works meant that a person could form a visual acquaintance with a painting before ever setting foot in the museum, and the encounter in the museum became, for many visitors, a confirmation rather than a discovery. The museum responded, in part, by emphasising the things that photography could not deliver: the scale of the work, the texture of the surface, the slow accumulation of detail in a long glance. The response was partial at best; the visitors who arrived with a photographic acquaintance tended to look in photographic ways.\n\nThe second force, more recent, is the search engine. A visitor who enters a museum room with a phone in hand can, in seconds, look up the catalogue entry, the artist's biography, the critical reception, and a dozen commentaries. The wall text and the audio guide, which used to be the museum's main pedagogical tools, are now alternatives to a richer and more idiosyncratic body of information. The museum's curated framing competes with the visitor's own, and the visitor's own tends to win. The room begins to feel like a venue for looking up a fact about a work, rather than for dwelling in the work itself.\n\nThe third force is the broader ecology of attention. The visitor who is fully present in a museum room for ten uninterrupted minutes is, by the standards of the contemporary attention economy, exceptional. The museum's institutional design — the bench, the long wall, the deliberate pacing of the room — was calibrated to a visitor who had, on average, more of that attention to give. The author concludes that the museum's future is not a return to the older model but a deliberate redesign for the visitor who arrives with a phone and a fragmented attention. What that redesign should look like — what the museum should become, in the author's phrase, when the search engine has become the default frame — is one of the live questions in the institutional history of art.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-004-1",
+      "stem": "The author introduces the second force disrupting the museum in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 8,
+          "anchor": "The second force, more recent,"
+        }
+      ],
+      "choices": [
+        "argue that photography is no longer relevant.",
+        "set up the search engine as a separate, distinct force with its own consequences for the museum's role as curator of attention.",
+        "compare the contemporary museum unfavourably with the cinema.",
+        "introduce a defence of the older museum model.",
+        "summarise the conclusion of the passage."
+      ],
+      "answer": 1,
+      "rationale": "Sentence eight marks the search engine as a separate force from photography, and the following sentences show that the visitor's phone now competes with the museum's curated framing — a different mechanism with different consequences."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-004-2",
+      "stem": "According to the passage, why did the museum's earlier response to photography prove only partially effective?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The museum responded, in part,"
+        }
+      ],
+      "choices": [
+        "Photography made the museum's catalogue essay redundant.",
+        "The museum no longer had enough staff to maintain its collection.",
+        "Visitors who arrived with a photographic acquaintance tended to look in photographic ways, so the museum's emphasis on scale, surface, and duration only partly redirected the visitor's attention.",
+        "Photographs always distort colour in a way the museum cannot correct.",
+        "Photography of museum works is illegal under international copyright law."
+      ],
+      "answer": 2,
+      "rationale": "Sentences six and seven state the response was partial at best because visitors who arrived with a photographic acquaintance tended to look in photographic ways."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-art-004-3",
+      "stem": "According to the passage, why is the visitor who is fully present in a museum room for ten uninterrupted minutes 'exceptional'?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 14,
+          "anchor": "The visitor who is fully"
+        }
+      ],
+      "choices": [
+        "Because museum rooms are physically too small for that length of stay.",
+        "Because a contemporary visitor typically arrives with a phone and a fragmented attention, against which the museum's institutional design — the bench, the long wall, the deliberate pacing — was calibrated to an older average visitor.",
+        "Because the museum prohibits extended visits to any single work.",
+        "Because the visitor must apply for a special permit for any stay longer than five minutes.",
+        "Because the museum's security team asks extended visitors to leave."
+      ],
+      "answer": 1,
+      "rationale": "Sentences fourteen through sixteen contrast the contemporary fragmented-attention visitor with the older institutional design, concluding that the museum's future is a deliberate redesign for the visitor who arrives with a phone."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "rc-biz-003",
+  "category": "business",
+  "title": "The Cost of Being Early",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "strategy",
+    "innovation"
+  ],
+  "body": "The first firm to ship a new product category rarely makes the most money from it. The pattern is so consistent that strategy writers have a name for it: the pioneers' penalty. The firms that arrive second, copy the leader's rough outline, and learn from the leader's expensive mistakes tend to capture more of the eventual market, even when the leader retains a reputational edge. The asymmetry is not an accident; it is the predictable consequence of having to teach customers what the product even is.\n\nThe first vendor in any new category spends heavily on customer education, integration support, and tooling that the eventual winners will get to copy at a fraction of the cost. Vendor two arrives once the category is legible, the integration patterns are visible, and the early adopters have already done the work of persuading the conservative buyers that the product class is real. Vendor two can therefore spend on reliability, pricing, and distribution rather than on legitimacy.\n\nThe conventional response from the pioneer's executive team is to defend the head start by moving faster, layering on features, and acquiring adjacent categories. The literature on this response is unflattering. Pioneers that try to outrun followers by becoming feature platforms usually dilute their focus; pioneers that acquire their way into adjacent markets usually overpay and under-integrate. The moves that look defensive in the moment are the ones most likely to entrench the pioneer's lag, precisely because the underlying market structure has not changed.\n\nThe author concludes that the real pioneer advantage is not market share but organizational learning. The firm that built the category retains a deeper model of the customer's workflow than any follower can buy. Whether that learning translates into durable profit depends on whether the pioneer can resist the temptation to monetize it through feature sprawl and instead uses it to ship simpler, more reliable versions of the original product. Several historical examples suggest the firms that survived the pioneers' penalty were the ones that treated their early start as a research investment, not a sales lead.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-003-1",
+      "stem": "Which of the following best captures the author's view of the pioneer's advantage?",
+      "qType": "author-attitude",
+      "evidence": [
+        {
+          "sentence": 11,
+          "anchor": "The author concludes that the"
+        }
+      ],
+      "choices": [
+        "It is durable market share that compounds over decades.",
+        "It is mainly reputational and rarely translates into profit.",
+        "It is organizational learning that may or may not turn into durable profit, depending on how the firm behaves.",
+        "It is the ability to outrun followers through feature velocity.",
+        "It is the lowest marginal cost in the category."
+      ],
+      "answer": 2,
+      "rationale": "The conclusion sentence states the pioneer's real advantage is organizational learning, with the caveat that it translates into durable profit only if the firm resists the temptation to monetize it through feature sprawl."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-003-2",
+      "stem": "The author introduces the 'conventional response from the pioneer's executive team' in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 7,
+          "anchor": "The conventional response from the"
+        }
+      ],
+      "choices": [
+        "praise it as the correct strategic move under uncertainty.",
+        "set up a hypothesis that the next two sentences will challenge.",
+        "summarize the pioneer's typical behavior across the entire history of new categories.",
+        "transition from a description of the pioneers' penalty to a discussion of customer education.",
+        "introduce a competing economic model the author will adopt."
+      ],
+      "answer": 1,
+      "rationale": "Sentences eight through ten describe the response as 'unflattering' and argue the moves that look defensive are the ones most likely to entrench the pioneer's lag — so the conventional response is set up only to be critiqued."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-biz-003-3",
+      "stem": "According to the passage, why do pioneers that try to outrun followers by becoming feature platforms usually underperform?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 9,
+          "anchor": "Pioneers that try to outrun"
+        },
+        {
+          "sentence": 10,
+          "anchor": "The moves that look defensive"
+        }
+      ],
+      "choices": [
+        "Because feature platforms are penalized by existing regulators.",
+        "Because the underlying market structure has not changed, so the moves entrench the pioneer's lag rather than address it.",
+        "Because customers prefer a single integrated vendor over a feature-rich one.",
+        "Because the pioneer's brand is no longer trusted after the first major failure.",
+        "Because the cost of building a feature platform is greater than the cost of acquiring one."
+      ],
+      "answer": 1,
+      "rationale": "Sentence nine notes feature platforms dilute focus, and sentence ten explains that defensive moves entrench the pioneer's lag because the underlying market structure has not changed."
+    }
+  ]
+}

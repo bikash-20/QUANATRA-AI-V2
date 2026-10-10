@@ -1,0 +1,77 @@
+{
+  "id": "rc-sci-003",
+  "category": "science",
+  "title": "Why Animal Models Sometimes Mislead",
+  "source": "original",
+  "difficulty": "medium",
+  "tags": [
+    "biology",
+    "medicine"
+  ],
+  "body": "The laboratory mouse has been the workhorse of preclinical medicine for nearly a century, and the reasons are practical rather than biological. Mice breed quickly, fit in shoebox-sized cages, and accept a standardised laboratory diet that lets experiments be replicated across decades and continents. The sheer volume of accumulated mouse data means that any new drug candidate is first tested in the species with the deepest experimental track record. The trouble is that mice are not small humans, and the gap between the two has, in several notable cases, swallowed entire research programmes.\n\nThe most discussed example is inflammation. Drugs that block specific inflammatory pathways have, on multiple occasions, performed beautifully in mouse models of sepsis, arthritis, and inflammatory bowel disease, only to fail in human trials at rates that surprised the field. The closer investigators look, the more differences accumulate. Mouse immune cells express a different balance of receptors than their human counterparts; the cellular composition of mouse blood is not a scaled-down version of the human version; and the inflammatory response itself, which is supposed to be a generic defence programme, has been tuned by evolution to the specific pathogens each species faces in the wild.\n\nThe result is not that mouse work is useless. Mouse models are still unmatched for studying the basic wiring of the immune system, for generating hypotheses, and for testing whether a drug reaches its target at all. The point is that the leap from a mouse result to a human claim is bigger than it looks, and the size of the leap varies by disease area. In fields where the conserved biology is dense — cancer genetics, basic virology, and developmental biology — the mouse has earned its reputation. In fields where the disease is defined by an evolved response to a specific environment, the mouse can be a costly distraction.\n\nThe emerging response is not to abandon the mouse but to complement it. Human organoids, immune-on-a-chip platforms, and carefully phenotyped human tissue banks are quietly becoming mandatory checkpoints before a new therapy enters a phase I trial. The early evidence is that compounds that pass through these human-derived systems fail in the clinic less often. Whether the new tools will replace the mouse or simply constrain where it is still useful is, for now, an open question. The era of treating a mouse result as a near-final answer in human biology is, in the view of the author, drawing to a close.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-003-1",
+      "stem": "The author introduces the phrase 'The emerging response is not to abandon the mouse but to complement it' in order to:",
+      "qType": "function",
+      "evidence": [
+        {
+          "sentence": 13,
+          "anchor": "The emerging response is not"
+        }
+      ],
+      "choices": [
+        "summarise a position the next three sentences will elaborate.",
+        "praise the existing reliance on mouse models.",
+        "introduce a competing school of thought the author rejects.",
+        "explain why animal-rights regulations have tightened.",
+        "transition from a description of inflammation to a description of cancer."
+      ],
+      "answer": 0,
+      "rationale": "Sentences fourteen through sixteen go on to describe the complementary human-derived systems and the early evidence that compounds passing through them fail in the clinic less often."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-003-2",
+      "stem": "According to the passage, why do anti-inflammatory drugs that perform well in mouse models often fail in human trials?",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 6,
+          "anchor": "The closer investigators look, the"
+        }
+      ],
+      "choices": [
+        "Because humans metabolise drugs more slowly than mice.",
+        "Because regulatory standards for human trials are deliberately stricter than for animal trials.",
+        "Because the mouse immune system differs from the human one in receptor balance, blood composition, and evolved response to pathogens.",
+        "Because the drugs work in only one of the two sexes.",
+        "Because mice are inbred in a way that suppresses immune variation."
+      ],
+      "answer": 2,
+      "rationale": "Sentences six through eight list the specific differences: receptor balance, blood-cell composition, and the evolved inflammatory response to species-specific pathogens."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-003-3",
+      "stem": "The author cites inflammation as:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 4,
+          "anchor": "The most discussed example is"
+        }
+      ],
+      "choices": [
+        "the most discussed example of how mouse models can mislead in fields where the evolved immune response dominates.",
+        "a case where mouse models and human trials are in strong agreement.",
+        "a problem confined to the early stages of drug development.",
+        "a disease for which no useful mouse model exists.",
+        "an example of a field where the mouse is rapidly being replaced."
+      ],
+      "answer": 0,
+      "rationale": "Sentence four introduces inflammation as 'the most discussed example' of how the mouse-to-human leap can swallow a research programme, and the following sentences explain the underlying biological divergence."
+    }
+  ]
+}

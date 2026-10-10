@@ -1,0 +1,77 @@
+{
+  "id": "rc-sci-004",
+  "category": "science",
+  "title": "The Hidden Geometry of Earthquake Networks",
+  "source": "original",
+  "difficulty": "hard",
+  "tags": [
+    "geology",
+    "complex-systems"
+  ],
+  "body": "The conventional map of seismic risk treats a fault as a roughly two-dimensional line on which stress builds and occasionally releases. The model is useful for the big questions — where the next great earthquake is most likely, which building codes need to be tightened — but it leaves out a more subtle feature of the system. Modern catalogues of small earthquakes, now dense enough to resolve events below magnitude one in many regions, reveal that the response of a fault to stress is not local. A small earthquake in one segment can change the statistical signature of seismicity on segments hundreds of kilometres away, and the patterns of those changes have a structure of their own.\n\nOne line of work treats the crust as a network in which each small fault patch is a node and the elastic coupling between patches is an edge. In this view, the timing of a large earthquake is less a question of how much stress has accumulated on the patch that finally ruptures and more a question of how the rest of the network has been reorganising. The literature on cascading failures in other networks, from power grids to social systems, suggests the mathematics is similar: a system can absorb small disturbances for a long time and then reconfigure catastrophically when a particular configuration of stresses is reached.\n\nA second line of work focuses on the geometry of the aftershock zones that fan out around a large rupture. The aftershocks are not scattered uniformly; they outline a fractal pattern whose characteristic scale can be measured from the catalogue itself. The fractal dimension of the aftershock zone appears to correlate with the type of fault and with the eventual magnitude of the mainshock. This gives seismologists a way to refine a magnitude estimate in the first hours after a large event, when the official number is still being calibrated against the broader network of seismometers.\n\nA third observation is more surprising. When a large earthquake occurs, the rate of small earthquakes on faults in distant regions changes in a way that is statistically detectable for weeks afterwards. The effect has been reproduced in several regions and is not fully explained. Some researchers interpret the distant rate changes as evidence that the Earth, treated as a whole elastic solid, transmits stresses faster and farther than the older fault-by-fault model allowed. The interpretation is contested, but the empirical regularity is not. Whether the regularity is the surface of a deeper theory of the crust as a critical system, or simply a consequence of well-known but underweighted wave-propagation effects, is one of the live questions in modern seismology.",
+  "questions": [
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-004-1",
+      "stem": "Which of the following best captures the main idea of the passage?",
+      "qType": "main-idea",
+      "evidence": [
+        {
+          "sentence": 3,
+          "anchor": "A small earthquake in one"
+        }
+      ],
+      "choices": [
+        "Earthquake prediction has improved dramatically with the deployment of new seismometer networks.",
+        "The conventional fault-by-fault map of seismic risk is being challenged by evidence that the crust responds to stress as a connected network with structure, geometry, and statistical regularities of its own.",
+        "Aftershocks are always more damaging than the mainshock that produces them.",
+        "The largest earthquakes in recorded history are anomalies that the geological record cannot explain.",
+        "The crust is best modelled as a single uniform block that responds identically to stress anywhere."
+      ],
+      "answer": 1,
+      "rationale": "The passage opens with the conventional map, then introduces the network view, the geometry of aftershock zones, and the long-range statistical effects — together arguing the system is more structured than the older model assumed."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-004-2",
+      "stem": "It can be inferred from the passage that the 'network' view of the crust would, if correct, suggest that:",
+      "qType": "inference",
+      "evidence": [
+        {
+          "sentence": 5,
+          "anchor": "In this view, the timing"
+        }
+      ],
+      "choices": [
+        "every large earthquake is preceded by a single identifiable trigger event.",
+        "the timing of a large rupture depends less on the local stress of the patch that finally breaks and more on the configuration of stresses across the broader network.",
+        "smaller faults are mechanically irrelevant to the behaviour of larger ones.",
+        "all faults in a region rupture within a single calendar year.",
+        "earthquakes in different regions are entirely uncorrelated."
+      ],
+      "answer": 1,
+      "rationale": "Sentences four and five explicitly contrast the network view with the local-stress view, and the analogy to cascading failures in other networks is meant to support the same conclusion."
+    },
+    {
+      "kind": "single",
+      "questionId": "q-rc-sci-004-3",
+      "stem": "According to the passage, the fractal dimension of an aftershock zone is useful because:",
+      "qType": "detail",
+      "evidence": [
+        {
+          "sentence": 10,
+          "anchor": "This gives seismologists a way"
+        }
+      ],
+      "choices": [
+        "it can be computed from a single seismometer.",
+        "it predicts the economic cost of the mainshock.",
+        "it correlates with fault type and mainshock magnitude, allowing a refined magnitude estimate in the first hours after the event.",
+        "it is the only quantity unaffected by the choice of magnitude formula.",
+        "it is unaffected by the depth of the rupture."
+      ],
+      "answer": 2,
+      "rationale": "Sentences ten and eleven explain that the fractal dimension of the aftershock zone correlates with fault type and mainshock magnitude, providing a way to refine the magnitude estimate when the official number is still being calibrated."
+    }
+  ]
+}
