@@ -150,7 +150,7 @@ export type Manifest = {
   quant: Record<string, { count: number; easy: number; medium: number; hard: number; shards: number }>;
   vocab: Record<string, { count: number }>;
   reading?: Record<ReadingCategoryType, ReadingCategoryBucket>;
-  totals: { quant: number; vocab: number; reading?: number };
+  totals: { quant: number; vocab: number; reading?: { passages: number; questions: number } };
 };
 
 export class GreContentError extends Error {
@@ -220,7 +220,7 @@ function loadManifest(): Manifest {
       quant: {},
       vocab: {},
       reading: {} as Record<ReadingCategoryType, ReadingCategoryBucket>,
-      totals: { quant: 0, vocab: 0, reading: 0 },
+      totals: { quant: 0, vocab: 0, reading: { passages: 0, questions: 0 } },
     };
     for (const t of tax.quant) {
       const list = loadQuestionListByTopic(t.slug, {}, Infinity);
@@ -253,7 +253,10 @@ function loadManifest(): Manifest {
         questions: questionCount,
         byQType: {},
       };
-      out.totals.reading = (out.totals.reading ?? 0) + questionCount;
+      out.totals.reading = {
+        passages: (out.totals.reading?.passages ?? 0) + list.length,
+        questions: (out.totals.reading?.questions ?? 0) + questionCount,
+      };
     }
     manifestSlot.write(out);
     return out;

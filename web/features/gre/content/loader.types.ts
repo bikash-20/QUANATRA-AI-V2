@@ -129,7 +129,7 @@ export type Manifest = {
   quant: Record<string, { count: number; easy: number; medium: number; hard: number; shards: number }>;
   vocab: Record<string, { count: number }>;
   reading?: Record<ReadingCategory, ReadingBucket>;
-  totals: { quant: number; vocab: number; reading?: number };
+  totals: { quant: number; vocab: number; reading?: { passages: number; questions: number } };
 };
 
 export type Taxonomy = {

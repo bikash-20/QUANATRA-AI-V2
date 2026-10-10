@@ -43,7 +43,7 @@ export default function GreHubPage() {
           >
             <h2 className="text-xl font-semibold">Reading</h2>
             <p className="mt-1 text-sm text-slate-400">
-              {manifest.totals.reading ?? 0} hand-authored passages across 4 categories — business, science, social science, arts.
+              {manifest.totals.reading?.passages ?? 0} hand-authored passages ({manifest.totals.reading?.questions ?? 0} questions) across 4 categories — business, science, social science, arts.
               Use AI-fill to generate more.
             </p>
           </Link>

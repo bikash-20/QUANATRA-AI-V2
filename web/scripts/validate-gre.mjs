@@ -181,18 +181,19 @@ if (existsSync(readingDir)) {
       }
     }
   }
+  // Per-category shards = passage count for that category (matches the
+  // quant topic convention where shards is the number of items in the bucket).
   for (const cat of validReadingCats) {
-    manifest.reading[cat].shards = Object.values(manifest.reading).reduce((s, c) => s + c.passages, 0);
+    manifest.reading[cat].shards = manifest.reading[cat].passages;
   }
-  // The above shards aggregate looks wrong; recompute as total passages across all reading categories.
-  const totalPassages = Object.values(manifest.reading).reduce((s, c) => s + c.passages, 0);
-  for (const cat of validReadingCats) manifest.reading[cat].shards = totalPassages;
 }
 
+const totalReadingPassages = Object.values(manifest.reading).reduce((s, c) => s + c.passages, 0);
+const totalReadingQuestions = Object.values(manifest.reading).reduce((s, c) => s + c.questions, 0);
 manifest.totals = {
   quant: Object.values(manifest.quant).reduce((s, t) => s + t.count, 0),
   vocab: Object.values(manifest.vocab).reduce((s, v) => s + v.count, 0),
-  reading: Object.values(manifest.reading).reduce((s, c) => s + c.questions, 0),
+  reading: { passages: totalReadingPassages, questions: totalReadingQuestions },
 };
 
 if (errors.length) {

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T05:43:38.420Z",
+ "generatedAt": "2026-10-10T11:19:06.013Z",
  "quant": {
   "algebra": {
    "count": 400,
@@ -285,7 +285,7 @@
    "easy": 0,
    "medium": 3,
    "hard": 3,
-   "shards": 24,
+   "shards": 6,
    "passages": 6,
    "questions": 18,
    "byQType": {
@@ -299,7 +299,7 @@
    "easy": 0,
    "medium": 3,
    "hard": 3,
-   "shards": 24,
+   "shards": 6,
    "passages": 6,
    "questions": 18,
    "byQType": {
@@ -314,7 +314,7 @@
    "easy": 0,
    "medium": 3,
    "hard": 3,
-   "shards": 24,
+   "shards": 6,
    "passages": 6,
    "questions": 18,
    "byQType": {
@@ -328,7 +328,7 @@
    "easy": 0,
    "medium": 3,
    "hard": 3,
-   "shards": 24,
+   "shards": 6,
    "passages": 6,
    "questions": 18,
    "byQType": {
@@ -342,6 +342,9 @@
  "totals": {
   "quant": 2100,
   "vocab": 2000,
-  "reading": 72
+  "reading": {
+   "passages": 24,
+   "questions": 72
+  }
  }
 }

@@ -44,7 +44,7 @@ export function GreReadingProgressIsland() {
   );
 
   const manifest = getManifest();
-  const readingTotal = manifest.totals.reading ?? 0;
+  const readingTotal = manifest.totals.reading?.questions ?? 0;
 
   if (!loaded) {
     return (
